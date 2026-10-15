@@ -26,7 +26,7 @@ h1{font-size:1.3em;font-style:italic;margin:0 8px 0 0}
 #add{width:34px;height:34px;border-radius:50%;padding:0;font-size:22px;line-height:1}
 #zm{display:flex;gap:6px}
 #st{color:var(--mut);font-size:.8em}
-#sc{flex:1;min-height:0;overflow-x:auto;overflow-y:hidden;cursor:grab}
+#sc{flex:1;min-height:0;overflow-x:auto;overflow-y:hidden;cursor:grab;touch-action:none;overscroll-behavior:contain}
 #sc.drag{cursor:grabbing;user-select:none}
 #tr{position:relative;height:100%;min-height:340px}
 #ly{position:absolute;inset:0;will-change:transform}
@@ -387,6 +387,13 @@ textarea.f{min-height:105px}
 @media(max-width:760px){
   .timeline-bar{padding:8px 10px}
   .account-area{width:100%;justify-content:space-between}
+}
+
+@media(pointer:coarse){
+  .b{min-height:42px}
+  #add{width:42px;height:42px}
+  .ev::after{content:"";position:absolute;left:-22px;top:-22px;width:44px;height:44px}
+  .dot{width:16px;height:16px;left:-8px;top:-8px}
 }
 
 @media(max-width:760px){
@@ -899,7 +906,7 @@ function drawTimeline(){
     let s='<i class="dot"></i>';
     if(side){const y0=side=='u'?-(34+lane*28):12+lane*28;s+=`<i class="stem" style="top:${side=='u'?y0+22:6}px;height:${6+lane*28}px"></i><b class="lbl" style="top:${y0}px"></b>`}
     el.innerHTML=s;const lb=el.querySelector('.lbl');if(lb)lb.textContent=e.name;
-    el.onclick=c=>{c.stopPropagation();if(canEdit)openDlg(e)};
+    el.onclick=c=>{c.stopPropagation();if(dragged)return;if(canEdit)openDlg(e);else showTip(e,el.firstChild)};
     el.onmouseenter=()=>showTip(e,el.firstChild);el.onmouseleave=()=>tip.style.display='none';
     ly.append(el);
   });
@@ -974,11 +981,68 @@ sc.addEventListener('wheel',e=>{
 },{passive:false});
 
 let dg=null,dragged=false;
+const activePointers=new Map();
+let pinch=null;
 
-sc.addEventListener('mousedown',e=>{
-  if(e.button||e.target.closest('.ev'))return;
+function pointerLocalX(e){
+  return e.clientX-sc.getBoundingClientRect().left;
+}
+
+function pointerDistance(a,b){
+  return Math.hypot(a.x-b.x,a.y-b.y);
+}
+
+function beginPinch(){
+  if(activePointers.size<2)return;
+  const [a,b]=[...activePointers.values()].slice(0,2);
+  const rect=sc.getBoundingClientRect();
+  const cx=(a.x+b.x)/2-rect.left;
+  const distance=Math.max(1,pointerDistance(a,b));
+  const anchor=t0+(cx-20)/ppm;
+
+  pinch={distance,zoom,anchor};
+  dg=null;
+  ly.style.transform='';
+  sc.classList.add('drag');
+  tip.style.display='none';
+}
+
+function updatePinch(){
+  if(!pinch||activePointers.size<2)return;
+  const [a,b]=[...activePointers.values()].slice(0,2);
+  const rect=sc.getBoundingClientRect();
+  const cx=(a.x+b.x)/2-rect.left;
+  const distance=Math.max(1,pointerDistance(a,b));
+  const nextZoom=Math.min(Math.max(pinch.zoom*(distance/pinch.distance),.02),8000);
+
+  const [r0,r1]=range();
+  const baseSpan=Math.max(1,r1-r0);
+  const usable=Math.max(sc.clientWidth-40,300);
+  const visibleSpan=baseSpan/nextZoom;
+  const nextPpm=usable/visibleSpan;
+  const nextT0=pinch.anchor-(cx-20)/nextPpm;
+
+  zoom=nextZoom;
+  viewCenter=nextT0+visibleSpan/2;
+  drawTimeline();
+}
+
+sc.addEventListener('pointerdown',e=>{
+  activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY,type:e.pointerType});
+
+  if(sc.setPointerCapture){
+    try{sc.setPointerCapture(e.pointerId)}catch(_error){}
+  }
+
+  if(activePointers.size>=2){
+    beginPinch();
+    return;
+  }
+
+  if((e.pointerType==='mouse'&&e.button!==0)||e.target.closest('.ev'))return;
 
   dg={
+    pointerId:e.pointerId,
     x:e.clientX,
     center:viewCenter??((t0+t1)/2),
     ppm,
@@ -987,8 +1051,18 @@ sc.addEventListener('mousedown',e=>{
   };
 });
 
-addEventListener('mousemove',e=>{
-  if(!dg)return;
+sc.addEventListener('pointermove',e=>{
+  if(activePointers.has(e.pointerId)){
+    activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY,type:e.pointerType});
+  }
+
+  if(activePointers.size>=2){
+    if(!pinch)beginPinch();
+    updatePinch();
+    return;
+  }
+
+  if(!dg||dg.pointerId!==e.pointerId)return;
 
   const dx=e.clientX-dg.x;
   dg.dx=dx;
@@ -1007,8 +1081,22 @@ addEventListener('mousemove',e=>{
   }
 });
 
-addEventListener('mouseup',()=>{
-  if(!dg)return;
+function finishPointer(e){
+  activePointers.delete(e.pointerId);
+
+  if(pinch){
+    if(activePointers.size<2){
+      pinch=null;
+      dragged=true;
+      sc.classList.remove('drag');
+      ly.style.transform='';
+      drawTimeline();
+      setTimeout(()=>dragged=false,80);
+    }
+    return;
+  }
+
+  if(!dg||dg.pointerId!==e.pointerId)return;
 
   dragged=dg.m;
 
@@ -1022,9 +1110,14 @@ addEventListener('mouseup',()=>{
   dg=null;
   sc.classList.remove('drag');
 
-  if(dragged) drawTimeline();
+  if(dragged)drawTimeline();
+  setTimeout(()=>dragged=false,80);
+}
 
-  setTimeout(()=>dragged=false);
+sc.addEventListener('pointerup',finishPointer);
+sc.addEventListener('pointercancel',finishPointer);
+sc.addEventListener('lostpointercapture',e=>{
+  if(activePointers.has(e.pointerId))finishPointer(e);
 });
 
 addEventListener('resize',()=>{
@@ -1034,7 +1127,7 @@ addEventListener('resize',()=>{
 
 /* adicionar */
 const near=e=>{const r=tr.getBoundingClientRect();return Math.abs(e.clientY-(r.top+r.height/2))<44&&!e.target.closest('.ev')};
-tr.addEventListener('mousemove',e=>{const n=canEdit&&!dg&&near(e);gh.style.display=n?'flex':'none';if(n)gh.style.left=e.clientX-tr.getBoundingClientRect().left+'px'});
+tr.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const n=canEdit&&!dg&&!pinch&&near(e);gh.style.display=n?'flex':'none';if(n)gh.style.left=e.clientX-tr.getBoundingClientRect().left+'px'});
 tr.addEventListener('mouseleave',()=>gh.style.display='none');
 tr.addEventListener('click',e=>{if(canEdit&&!dragged&&near(e))openDlg({t:Math.round(t0+(e.clientX-tr.getBoundingClientRect().left-20)/ppm)})});
 $('#add').onclick=()=>{if(canEdit)openDlg({t:tab=='sc'?Math.round(viewCenter??((t0+t1)/2)):hoje()})};
