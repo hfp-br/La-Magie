@@ -3512,6 +3512,53 @@ body.editing
   pointer-events: auto !important;
 }
 
+/* ==========================================================
+   TOOLTIP FIXADO POR CLIQUE
+   - Fica sempre acima de qualquer outro painel/seção.
+   - Enquanto existir um tooltip fixado, os tooltips de hover/foco
+     dos outros gatilhos ficam escondidos (senão dois painéis
+     centralizados se sobrepõem e o empilhamento "briga").
+   ========================================================== */
+.section:has(.tooltip-open),
+.vital:has(.tooltip-open),
+.combat-header:has(.tooltip-open),
+.combat-chip:has(.tooltip-open),
+.attribute:has(.tooltip-open),
+.skill:has(.tooltip-open) {
+  z-index: 100020 !important;
+}
+
+body.has-pinned-tooltip :is(.hp-tooltip, .attribute-score-tooltip, .skill-tooltip, .ac-tooltip):not(.tooltip-open *) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* #combatHPMaxTooltip usa regras com ID + !important; o seletor repetido aumenta a especificidade. */
+body.has-pinned-tooltip.has-pinned-tooltip.has-pinned-tooltip #combatHPMaxTooltip:not(.tooltip-open *) {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* ==========================================================
+   CAUSA RAIZ DO TOOLTIP "ATRÁS" DAS OUTRAS SEÇÕES (aba Ficha)
+   Cada seção filha de #normal tinha position:relative + z-index:1,
+   ou seja, virava um contexto de empilhamento próprio. O tooltip
+   (position:fixed, z-index alto) ficava preso dentro da seção dele
+   e as seções seguintes (Atributos, Perícias…) eram pintadas por cima.
+   Sem z-index nas seções, o tooltip concorre direto no #normal e
+   fica sempre na frente, sem depender de :has() nem de JS.
+   A imagem de fundo passa a z-index:-1 (o #normal já é isolado).
+   ========================================================== */
+#normal > :not(.ficha-background) {
+  z-index: auto !important;
+}
+
+#normal > .ficha-background {
+  z-index: -1 !important;
+}
+
 /* CA continua centralizada em qualquer tamanho de tela. */
 .ac-tooltip {
   background: #2b2017 !important;
@@ -17110,6 +17157,40 @@ function configurarTooltipsFicha() {
     if (!triggers.length) {
         return;
     }
+
+
+    /*
+       Marca o <body> enquanto algum tooltip estiver fixado (clique).
+       O CSS usa isso para esconder os tooltips de hover dos outros
+       gatilhos. Observa a classe, então vale para qualquer forma de
+       abrir/fechar (clique, Enter, Escape, clique fora).
+    */
+    const atualizarTooltipFixado = () => {
+        document.body.classList.toggle(
+            "has-pinned-tooltip",
+            triggers.some(
+                trigger =>
+                    trigger.classList.contains(
+                        "tooltip-open"
+                    )
+            )
+        );
+    };
+
+    const observadorTooltip =
+        new MutationObserver(
+            atualizarTooltipFixado
+        );
+
+    triggers.forEach(
+        trigger => observadorTooltip.observe(
+            trigger,
+            {
+                attributes: true,
+                attributeFilter: ["class"]
+            }
+        )
+    );
 
 
     const fecharTodos =
