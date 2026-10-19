@@ -3450,11 +3450,17 @@ body.editing
    CORREÇÃO DE EMPILHAMENTO DOS TOOLTIPS
    ========================================================== */
 .section:has(.tooltip-open),
+.section:has(.tooltip-hovering),
 .vital:has(.tooltip-open),
+.vital:has(.tooltip-hovering),
 .combat-header:has(.tooltip-open),
+.combat-header:has(.tooltip-hovering),
 .combat-chip:has(.tooltip-open),
+.combat-chip:has(.tooltip-hovering),
 .attribute:has(.tooltip-open),
-.skill:has(.tooltip-open) {
+.attribute:has(.tooltip-hovering),
+.skill:has(.tooltip-open),
+.skill:has(.tooltip-hovering) {
   z-index: 100010 !important;
 }
 
@@ -17088,6 +17094,37 @@ function configurarTooltipsFicha() {
             trigger.setAttribute(
                 "role",
                 trigger.getAttribute("role") || "button"
+            );
+
+
+            /*
+               No desktop, hover também precisa elevar o bloco-pai.
+               Sem isso, seções posteriores da ficha podem ser pintadas
+               por cima do tooltip mesmo que o próprio tooltip tenha z-index alto.
+            */
+            trigger.addEventListener(
+                "pointerenter",
+                event => {
+                    if (
+                        event.pointerType === "mouse" ||
+                        window.matchMedia(
+                            "(hover: hover) and (pointer: fine)"
+                        ).matches
+                    ) {
+                        trigger.classList.add(
+                            "tooltip-hovering"
+                        );
+                    }
+                }
+            );
+
+            trigger.addEventListener(
+                "pointerleave",
+                () => {
+                    trigger.classList.remove(
+                        "tooltip-hovering"
+                    );
+                }
             );
 
 
