@@ -3446,6 +3446,42 @@ body.editing
 /* ==========================================================
    TOOLTIPS RESPONSIVOS — PV / CA / ATRIBUTOS / PERÍCIAS
    ========================================================== */
+/* ==========================================================
+   CORREÇÃO DE EMPILHAMENTO DOS TOOLTIPS
+   ========================================================== */
+.section:has(.tooltip-open),
+.vital:has(.tooltip-open),
+.combat-header:has(.tooltip-open),
+.combat-chip:has(.tooltip-open),
+.attribute:has(.tooltip-open),
+.skill:has(.tooltip-open) {
+  z-index: 100010 !important;
+}
+
+.hp-tooltip,
+.attribute-score-tooltip,
+.skill-tooltip,
+.ac-tooltip {
+  background: rgb(43, 32, 23) !important;
+  background-color: rgb(43, 32, 23) !important;
+  isolation: isolate;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.hp-tooltip::before,
+.attribute-score-tooltip::before,
+.skill-tooltip::before,
+.ac-tooltip::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: rgb(43, 32, 23);
+  pointer-events: none;
+}
+
 .hp-tooltip,
 .attribute-score-tooltip,
 .skill-tooltip {
