@@ -3301,6 +3301,96 @@ body.editing
   align-items: center;
 }
 
+.ac-tooltip {
+  min-width: 320px;
+  max-width: 420px;
+  white-space: normal;
+}
+
+.ac-tooltip-card {
+  display: grid;
+  gap: 10px;
+}
+
+.ac-tooltip-head {
+  display: grid;
+  gap: 2px;
+}
+
+.ac-tooltip-head strong {
+  font-size: 13px;
+  letter-spacing: .02em;
+}
+
+.ac-tooltip-head span {
+  color: rgba(246, 237, 215, .78);
+  font-size: 11px;
+}
+
+.ac-breakdown-list {
+  display: grid;
+  gap: 6px;
+}
+
+.ac-breakdown-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 7px;
+  background: rgba(255,255,255,.05);
+}
+
+.ac-breakdown-row.total {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.ac-row-label {
+  min-width: 0;
+}
+
+.ac-row-name {
+  display: block;
+  font-weight: 600;
+  color: #f6edd7;
+}
+
+.ac-row-detail {
+  display: block;
+  margin-top: 1px;
+  color: rgba(246, 237, 215, .72);
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.ac-row-value,
+.ac-row-total {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.ac-row-value {
+  color: #f0d7ac;
+  font-weight: 700;
+}
+
+.ac-row-total {
+  min-width: 44px;
+  text-align: right;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.ac-defense-ranges {display:grid;gap:6px;padding-top:2px}
+.ac-defense-ranges-title {color:rgba(246,237,215,.78);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.ac-defense-range {display:grid;grid-template-columns:60px minmax(0,1fr);gap:8px;align-items:start;padding:6px 8px;border-left:2px solid rgba(240,215,172,.55);background:rgba(255,255,255,.035);border-radius:0 6px 6px 0}
+.ac-defense-range strong {color:#f0d7ac;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ac-defense-range span {color:rgba(246,237,215,.86);line-height:1.35}
+.ac-defense-note {color:rgba(246,237,215,.66);font-size:10px;line-height:1.35}
+
 </style>
 
 <div class="edit-mode-control">
@@ -3831,7 +3921,10 @@ body.editing
 
         <div class="vital">
           <span class="label">CA</span>
-          <span id="armorClass" class="big">17</span>
+          <div class="hp-max-value" tabindex="0">
+            <span id="armorClass" class="big">17</span>
+            <div id="armorClassTooltip" class="hp-tooltip ac-tooltip"></div>
+          </div>
         </div>
 
         <div class="vital">
@@ -4348,7 +4441,10 @@ body.editing
 
         <div class="combat-chip">
           <span class="label">CA</span>
-          <strong id="combatAC">10</strong>
+          <span class="hp-max-value" tabindex="0">
+            <strong id="combatAC">10</strong>
+            <span id="combatACTooltip" class="hp-tooltip ac-tooltip"></span>
+          </span>
         </div>
 
         <div class="combat-chip">
@@ -12164,114 +12260,236 @@ cap.addEventListener(
     });
 }
 
+function escapeHtml(text) {
+
+    return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function getAcNarrative(row) {
+
+    const label =
+        String(
+            row.label || ""
+        ).toLocaleLowerCase(
+            "pt-BR"
+        );
+
+
+    if (
+        row.kind === "attribute" &&
+        row.stat === "dex"
+    ) {
+        return "Desvio por Destreza";
+    }
+
+
+    if (label.includes("escudo")) {
+        return "Bloqueio pelo Escudo";
+    }
+
+
+    if (label.includes("armadura")) {
+        return "Bloqueio pela Armadura";
+    }
+
+
+    if (
+        label.includes("aparar") ||
+        label.includes("aparada")
+    ) {
+        return "Golpe aparado";
+    }
+
+
+    if (
+        label.includes("pele") ||
+        label.includes("carapaça") ||
+        label.includes("carapaca")
+    ) {
+        return `Bloqueado por ${row.label}`;
+    }
+
+
+    if (row.kind === "base") {
+        return "Defesa básica";
+    }
+
+
+    if (row.kind === "attribute") {
+        return `Defesa por ${row.label}`;
+    }
+
+
+    return String(
+        row.label ||
+        "Outra defesa"
+    );
+}
+
+function getAcBreakdown(mods) {
+    const modeId = document.getElementById("acMode").value;
+    const mode = (conteudo.armor?.modes || []).find(item => item.id === modeId);
+    const baseRows = [];
+    const bonusRows = [];
+
+    if (!mode || mode.manual) {
+        const manualCA = num("manualCA");
+        baseRows.push({
+            label: "CA manual",
+            detail: mode?.name || "Valor definido manualmente",
+            value: manualCA,
+            kind: "base"
+        });
+    } else {
+        const base = Number(mode.base || 0);
+        baseRows.push({
+            label: mode.name || "Base",
+            detail: "Base da fórmula",
+            value: base,
+            kind: "base"
+        });
+
+        const attributes = Array.isArray(mode.attributes) ? mode.attributes : [];
+        attributes.forEach(stat => {
+            const valor = Number(mods[stat] || 0);
+            const cap = mode.attributeCaps?.[stat];
+            let aplicado = valor;
+            let detail = "Modificador de " + (nomeAtributos[stat] || stat);
+            if (cap !== undefined && cap !== null && cap !== "") {
+                aplicado = Math.min(valor, Number(cap));
+                detail += ` · máximo ${fmt(Number(cap))}`;
+            }
+            if (aplicado !== 0) {
+                bonusRows.push({
+                    label: nomeAtributos[stat] || stat,
+                    detail,
+                    value: aplicado,
+                    kind: "attribute",
+                    stat
+                });
+            }
+        });
+
+        const flatBonus = Number(mode.flatBonus || 0);
+        if (flatBonus !== 0) {
+            bonusRows.push({
+                label: mode.name && !/^nova fórmula de ca$/i.test(mode.name) ? mode.name : "Bônus fixo",
+                detail: mode.name ? `Bônus fixo de ${mode.name}` : "Bônus fixo da fórmula",
+                value: flatBonus,
+                kind: "flat"
+            });
+        }
+    }
+
+    const effects = getFeatureEffects("ac");
+    effects.forEach(effect => {
+        const bonus = Number(effect.bonus || 0);
+        if (bonus === 0) return;
+        bonusRows.push({
+            label: effect.source || "Outro bônus",
+            detail: "Modificador adicional de CA",
+            value: bonus,
+            kind: "effect"
+        });
+    });
+
+    // base primeiro; depois os componentes sobem do menor bônus para o maior
+    bonusRows.sort((a,b) => {
+        const diff = Number(a.value) - Number(b.value);
+        if (diff !== 0) return diff;
+        return String(a.label || "").localeCompare(String(b.label || ""), "pt-BR", {sensitivity:"base"});
+    });
+
+    const rows = [...baseRows, ...bonusRows];
+    let runningTotal = 0;
+    rows.forEach(row => {
+        runningTotal += Number(row.value || 0);
+        row.runningTotal = runningTotal;
+    });
+    const total = runningTotal;
+
+    const body = rows.map(row => `
+        <div class="ac-breakdown-row">
+            <div class="ac-row-label">
+                <span class="ac-row-name">${escapeHtml(row.label)}</span>
+                <span class="ac-row-detail">${escapeHtml(row.detail)}</span>
+            </div>
+            <span class="ac-row-value">${fmt(row.value)}</span>
+            <span class="ac-row-total">(${row.runningTotal})</span>
+        </div>
+    `).join("");
+
+    const baseRow = rows.find(row => row.kind === "base");
+    const baseLimit = Number(baseRow?.runningTotal || 0);
+
+    // narrativa em ordem inversa: quanto mais longe de acertar,
+    // mais forte é a defesa que explica a falha.
+    const defensiveRows = rows
+        .filter(row => row.kind !== "base" && Number(row.value || 0) > 0)
+        .slice()
+        .reverse();
+
+    let upperLimit = total;
+    const ranges = defensiveRows.map(row => {
+        const lowerLimit = upperLimit - Number(row.value || 0) + 1;
+        const html = `
+            <div class="ac-defense-range">
+                <strong>${lowerLimit}–${upperLimit}</strong>
+                <span>${escapeHtml(getAcNarrative(row))}</span>
+            </div>
+        `;
+        upperLimit = lowerLimit - 1;
+        return html;
+    }).join("");
+
+    const freeNarrativeRange = baseLimit > 0
+        ? `
+            <div class="ac-defense-range">
+                <strong>≤ ${baseLimit}</strong>
+                <span>Narrativa livre</span>
+            </div>
+        `
+        : "";
+
+    const tooltip = `
+        <div class="ac-tooltip-card">
+            <div class="ac-tooltip-head">
+                <strong>Composição da CA</strong>
+            </div>
+            <div class="ac-breakdown-list">
+                ${body}
+                <div class="ac-breakdown-row total">
+                    <div class="ac-row-label">
+                        <span class="ac-row-name">Total</span>
+                        <span class="ac-row-detail">Classe de Armadura final</span>
+                    </div>
+                    <span class="ac-row-value">=</span>
+                    <span class="ac-row-total">${total}</span>
+                </div>
+            </div>
+            ${(ranges || freeNarrativeRange) ? `
+                <div class="ac-defense-ranges">
+                    <div class="ac-defense-ranges-title">Como narrar a falha do ataque</div>
+                    ${ranges}
+                    ${freeNarrativeRange}
+                </div>
+            ` : ""}
+        </div>
+    `;
+
+    return {total, tooltip, rows};
+}
+
 function calculateAC(mods) {
 
-    const modeId =
-        document
-            .getElementById(
-                "acMode"
-            )
-            .value;
-
-
-    const mode =
-        (
-            conteudo.armor?.modes ||
-            []
-        ).find(
-            item =>
-                item.id ===
-                modeId
-        );
-
-
-    let baseAC;
-
-
-    if (
-        !mode ||
-        mode.manual
-    ) {
-
-        baseAC =
-            num(
-                "manualCA"
-            );
-
-    }
-
-    else {
-
-        baseAC =
-            Number(
-                mode.base || 0
-            );
-
-
-        const attributes =
-            Array.isArray(
-                mode.attributes
-            )
-                ? mode.attributes
-                : [];
-
-
-        attributes.forEach(stat => {
-
-    const valor =
-        Number(
-            mods[stat] || 0
-        );
-
-
-    const cap =
-        mode.attributeCaps?.[
-            stat
-        ];
-
-
-    if (
-        cap === undefined ||
-        cap === null ||
-        cap === ""
-    ) {
-
-        baseAC +=
-            valor;
-
-    }
-
-    else {
-
-        baseAC +=
-            Math.min(
-                valor,
-                Number(cap)
-            );
-
-    }
-
-});
-
-
-        baseAC +=
-            Number(
-                mode.flatBonus || 0
-            );
-
-    }
-
-
-    const bonusAC =
-        somarEfeitos(
-            "ac"
-        );
-
-
-    return (
-        baseAC +
-        bonusAC
-    );
+    return getAcBreakdown(
+        mods
+    ).total;
 }
 
 /* ============================================================
@@ -13121,10 +13339,36 @@ if (combatHPMaxTooltip) {
 
     /* CA */
 
-    const ac = calculateAC(mods);
+    const acBreakdown =
+        getAcBreakdown(
+            mods
+        );
+
+    const ac =
+        acBreakdown.total;
 
     document.getElementById("armorClass").textContent = ac;
     document.getElementById("combatAC").textContent = ac;
+
+    const armorClassTooltip =
+        document.getElementById(
+            "armorClassTooltip"
+        );
+
+    if (armorClassTooltip) {
+        armorClassTooltip.innerHTML =
+            acBreakdown.tooltip;
+    }
+
+    const combatACTooltip =
+        document.getElementById(
+            "combatACTooltip"
+        );
+
+    if (combatACTooltip) {
+        combatACTooltip.innerHTML =
+            acBreakdown.tooltip;
+    }
 
     /* iniciativa */
 
