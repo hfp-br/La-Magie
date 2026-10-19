@@ -3441,6 +3441,91 @@ body.editing
 .ac-defense-range span {color:rgba(246,237,215,.86);line-height:1.35}
 .ac-defense-note {color:rgba(246,237,215,.66);font-size:10px;line-height:1.35}
 
+
+
+/* ==========================================================
+   TOOLTIPS RESPONSIVOS — PV / CA / ATRIBUTOS / PERÍCIAS
+   ========================================================== */
+.hp-tooltip,
+.attribute-score-tooltip,
+.skill-tooltip {
+  background: #2b2017 !important;
+  background-color: #2b2017 !important;
+  opacity: 0;
+  z-index: 100000 !important;
+  box-shadow:
+    0 14px 38px rgba(20, 12, 6, .55),
+    0 0 0 1px rgba(255,255,255,.10);
+}
+
+.tooltip-open {
+  z-index: 100001 !important;
+}
+
+.tooltip-open > .hp-tooltip,
+.tooltip-open > .attribute-score-tooltip,
+.tooltip-open > .skill-tooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* CA continua centralizada em qualquer tamanho de tela. */
+.ac-tooltip {
+  background: #2b2017 !important;
+  background-color: #2b2017 !important;
+  opacity: 0;
+  z-index: 100000 !important;
+}
+
+.ac-tooltip-trigger.tooltip-open .ac-tooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/*
+   Em telas touch/pequenas todos os displays passam a usar o
+   mesmo painel central da CA, evitando corte nas bordas da ficha.
+*/
+@media (hover: none), (pointer: coarse), (max-width: 700px) {
+  .hp-tooltip,
+  .attribute-score-tooltip,
+  .skill-tooltip {
+    position: fixed !important;
+    left: 50% !important;
+    right: auto !important;
+    top: 50% !important;
+    bottom: auto !important;
+
+    width: calc(100vw - 20px) !important;
+    min-width: 0 !important;
+    max-width: 420px !important;
+    max-height: 76vh !important;
+
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+
+    padding: 12px 14px;
+    white-space: pre-line;
+
+    transform: translate(-50%, -50%) scale(.985) !important;
+  }
+
+  .tooltip-open > .hp-tooltip,
+  .tooltip-open > .attribute-score-tooltip,
+  .tooltip-open > .skill-tooltip,
+  .hp-max-value:focus > .hp-tooltip,
+  .attribute-score-value:focus > .attribute-score-tooltip,
+  .skill-value:focus > .skill-tooltip {
+    transform: translate(-50%, -50%) scale(1) !important;
+  }
+
+  .ac-tooltip {
+    max-width: calc(100vw - 20px) !important;
+  }
+}
+
 </style>
 
 <div class="edit-mode-control">
@@ -3952,7 +4037,7 @@ body.editing
 
         <div class="vital">
           <span class="label">PV Máximo</span>
-          <div class="hp-max-value" tabindex="0">
+          <div class="hp-max-value sheet-tooltip-trigger" tabindex="0">
             <span id="hpMax" class="big">19</span>
             <div id="hpMaxTooltip" class="hp-tooltip"></div>
           </div>
@@ -3971,7 +4056,7 @@ body.editing
 
         <div class="vital">
           <span class="label">CA</span>
-          <div class="hp-max-value ac-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
+          <div class="hp-max-value ac-tooltip-trigger sheet-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
             <span id="armorClass" class="big">17</span>
             <div id="armorClassTooltip" class="hp-tooltip ac-tooltip"></div>
           </div>
@@ -4051,7 +4136,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">FOR</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="str" class="save stat" type="number" value="14">
             <span id="strScoreDisplay" class="attribute-score-display">14</span>
             <span id="strScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4061,7 +4146,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">DES</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="dex" class="save stat" type="number" value="18">
             <span id="dexScoreDisplay" class="attribute-score-display">18</span>
             <span id="dexScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4071,7 +4156,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">CON</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="con" class="save stat" type="number" value="16">
             <span id="conScoreDisplay" class="attribute-score-display">16</span>
             <span id="conScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4081,7 +4166,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">INT</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="int" class="save stat" type="number" value="10">
             <span id="intScoreDisplay" class="attribute-score-display">10</span>
             <span id="intScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4091,7 +4176,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">SAB</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="wis" class="save stat" type="number" value="16">
             <span id="wisScoreDisplay" class="attribute-score-display">16</span>
             <span id="wisScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4101,7 +4186,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">CAR</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="cha" class="save stat" type="number" value="10">
             <span id="chaScoreDisplay" class="attribute-score-display">10</span>
             <span id="chaScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4481,7 +4566,7 @@ body.editing
 
             <span>/</span>
 
-            <span class="hp-max-value" tabindex="0">
+            <span class="hp-max-value sheet-tooltip-trigger" tabindex="0">
               <strong id="combatHPMax">19</strong>
               <span id="combatHPMaxTooltip" class="hp-tooltip"></span>
             </span>
@@ -4491,7 +4576,7 @@ body.editing
 
         <div class="combat-chip">
           <span class="label">CA</span>
-          <span class="hp-max-value ac-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
+          <span class="hp-max-value ac-tooltip-trigger sheet-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
             <strong id="combatAC">10</strong>
             <span id="combatACTooltip" class="hp-tooltip ac-tooltip"></span>
           </span>
@@ -11486,7 +11571,7 @@ if (addSpellButton) {
         </span>
 
         <div
-        class="skill-value"
+        class="skill-value sheet-tooltip-trigger"
         tabindex="0"
         >
         <span
@@ -16921,40 +17006,146 @@ window.addEventListener(
 
 
 /* ============================================================
-   TOOLTIP DE CA — DESKTOP + MOBILE
+   TOOLTIPS — DESKTOP + MOBILE
+   PV máximo / CA / atributos / perícias
    ============================================================ */
-function configurarTooltipsCA() {
-    const triggers = Array.from(document.querySelectorAll(".ac-tooltip-trigger"));
-    if (!triggers.length) return;
 
-    const fecharTodos = excecao => {
-        triggers.forEach(trigger => {
-            if (trigger !== excecao) trigger.classList.remove("tooltip-open");
-        });
-    };
+function configurarTooltipsFicha() {
 
-    triggers.forEach(trigger => {
-        trigger.addEventListener("click", event => {
-            if (event.target.closest(".ac-tooltip")) return;
-            const vaiAbrir = !trigger.classList.contains("tooltip-open");
-            fecharTodos(trigger);
-            trigger.classList.toggle("tooltip-open", vaiAbrir);
-            if (vaiAbrir) trigger.focus({preventScroll:true});
-        });
+    const triggers =
+        Array.from(
+            document.querySelectorAll(
+                ".sheet-tooltip-trigger"
+            )
+        );
 
-        trigger.addEventListener("keydown", event => {
-            if (event.key === "Escape") {
-                trigger.classList.remove("tooltip-open");
-                trigger.blur();
+
+    if (!triggers.length) {
+        return;
+    }
+
+
+    const fecharTodos =
+        excecao => {
+
+            triggers.forEach(
+                trigger => {
+
+                    if (
+                        trigger !==
+                        excecao
+                    ) {
+                        trigger.classList.remove(
+                            "tooltip-open"
+                        );
+                    }
+
+                }
+            );
+
+        };
+
+
+    triggers.forEach(
+        trigger => {
+
+            trigger.setAttribute(
+                "role",
+                trigger.getAttribute("role") || "button"
+            );
+
+
+            trigger.addEventListener(
+                "click",
+                event => {
+
+                    const tooltip =
+                        event.target.closest(
+                            ".hp-tooltip, .attribute-score-tooltip, .skill-tooltip"
+                        );
+
+                    // toque dentro do painel serve para rolar/selecionar
+                    if (tooltip) {
+                        return;
+                    }
+
+
+                    const vaiAbrir =
+                        !trigger.classList.contains(
+                            "tooltip-open"
+                        );
+
+
+                    fecharTodos(
+                        trigger
+                    );
+
+
+                    trigger.classList.toggle(
+                        "tooltip-open",
+                        vaiAbrir
+                    );
+
+
+                    if (vaiAbrir) {
+                        trigger.focus({
+                            preventScroll: true
+                        });
+                    }
+
+                }
+            );
+
+
+            trigger.addEventListener(
+                "keydown",
+                event => {
+
+                    if (
+                        event.key === "Enter" ||
+                        event.key === " "
+                    ) {
+                        event.preventDefault();
+                        trigger.click();
+                    }
+
+
+                    if (
+                        event.key ===
+                        "Escape"
+                    ) {
+                        trigger.classList.remove(
+                            "tooltip-open"
+                        );
+
+                        trigger.blur();
+                    }
+
+                }
+            );
+
+        }
+    );
+
+
+    document.addEventListener(
+        "click",
+        event => {
+
+            if (
+                event.target.closest(
+                    ".sheet-tooltip-trigger"
+                )
+            ) {
+                return;
             }
-        });
-    });
 
-    document.addEventListener("click", event => {
-        if (event.target.closest(".ac-tooltip-trigger")) return;
-        fecharTodos();
-    });
+
+            fecharTodos();
+
+        }
+    );
 }
 
-configurarTooltipsCA();
+configurarTooltipsFicha();
 </script>
