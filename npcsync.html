@@ -3673,6 +3673,51 @@ body.editing
   font-size: 12px;
 }
 
+
+
+/* ==========================================================
+   PV MÁXIMO NO COMBATE — PAINEL CENTRALIZADO
+   Evita o tooltip ultrapassar/cortar nas bordas da ficha.
+   ========================================================== */
+#combatHPMaxTooltip {
+  position: fixed !important;
+  left: 50% !important;
+  right: auto !important;
+  top: 50% !important;
+  bottom: auto !important;
+
+  width: min(380px, calc(100vw - 28px)) !important;
+  min-width: min(290px, calc(100vw - 28px)) !important;
+  max-width: calc(100vw - 28px) !important;
+  max-height: min(76vh, 560px) !important;
+
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+
+  transform: translate(-50%, -50%) scale(.985) !important;
+  z-index: 100100 !important;
+  pointer-events: auto !important;
+}
+
+.combat-hp .hp-max-value:hover > #combatHPMaxTooltip,
+.combat-hp .hp-max-value:focus > #combatHPMaxTooltip,
+.combat-hp .hp-max-value:focus-within > #combatHPMaxTooltip,
+.combat-hp .hp-max-value.tooltip-open > #combatHPMaxTooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translate(-50%, -50%) scale(1) !important;
+}
+
+@media (max-width: 600px) {
+  #combatHPMaxTooltip {
+    width: calc(100vw - 20px) !important;
+    min-width: 0 !important;
+    max-width: calc(100vw - 20px) !important;
+    max-height: 76vh !important;
+  }
+}
+
 </style>
 
 
