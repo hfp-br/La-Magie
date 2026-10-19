@@ -17742,6 +17742,10 @@ function configurarTooltipsFicha() {
                         trigger.classList.remove(
                             "tooltip-open"
                         );
+
+                        trigger.classList.remove(
+                            "tooltip-hovering"
+                        );
                     }
 
                 }
@@ -17783,9 +17787,21 @@ function configurarTooltipsFicha() {
             trigger.addEventListener(
                 "pointerleave",
                 () => {
-                    trigger.classList.remove(
-                        "tooltip-hovering"
-                    );
+                    /*
+                       Se o tooltip foi fixado por clique, mantém a
+                       classe que eleva os ancestrais no z-index.
+                       Assim sair com o mouse não faz o painel voltar
+                       para trás das outras seções da ficha.
+                    */
+                    if (
+                        !trigger.classList.contains(
+                            "tooltip-open"
+                        )
+                    ) {
+                        trigger.classList.remove(
+                            "tooltip-hovering"
+                        );
+                    }
                 }
             );
 
@@ -17822,6 +17838,16 @@ function configurarTooltipsFicha() {
                     );
 
 
+                    /*
+                       O estado clicado usa o mesmo empilhamento do hover.
+                       Isso evita o z-index cair quando o mouse sai do gatilho.
+                    */
+                    trigger.classList.toggle(
+                        "tooltip-hovering",
+                        vaiAbrir
+                    );
+
+
                     if (vaiAbrir) {
                         trigger.focus({
                             preventScroll: true
@@ -17851,6 +17877,10 @@ function configurarTooltipsFicha() {
                     ) {
                         trigger.classList.remove(
                             "tooltip-open"
+                        );
+
+                        trigger.classList.remove(
+                            "tooltip-hovering"
                         );
 
                         trigger.blur();
