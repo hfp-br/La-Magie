@@ -3302,9 +3302,59 @@ body.editing
 }
 
 .ac-tooltip {
-  min-width: 320px;
-  max-width: 420px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  width: min(420px, calc(100vw - 28px));
+  min-width: min(320px, calc(100vw - 28px));
+  max-width: calc(100vw - 28px);
+  max-height: min(78vh, 640px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   white-space: normal;
+  transform: translate(-50%, -50%) scale(.985);
+  pointer-events: auto;
+  scrollbar-width: thin;
+}
+
+.hp-max-value:hover .ac-tooltip,
+.hp-max-value:focus .ac-tooltip,
+.hp-max-value:focus-within .ac-tooltip,
+.ac-tooltip-trigger.tooltip-open .ac-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.ac-tooltip::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ac-tooltip::-webkit-scrollbar-thumb {
+  background: rgba(246,237,215,.28);
+  border-radius: 999px;
+}
+
+@media (max-width: 600px) {
+  .ac-tooltip {
+    width: calc(100vw - 20px);
+    min-width: 0;
+    max-width: calc(100vw - 20px);
+    max-height: 76vh;
+    padding: 11px 12px;
+  }
+
+  .ac-breakdown-row {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 7px;
+  }
+
+  .ac-defense-range {
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 7px;
+  }
 }
 
 .ac-tooltip-card {
@@ -3921,7 +3971,7 @@ body.editing
 
         <div class="vital">
           <span class="label">CA</span>
-          <div class="hp-max-value" tabindex="0">
+          <div class="hp-max-value ac-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
             <span id="armorClass" class="big">17</span>
             <div id="armorClassTooltip" class="hp-tooltip ac-tooltip"></div>
           </div>
@@ -4441,7 +4491,7 @@ body.editing
 
         <div class="combat-chip">
           <span class="label">CA</span>
-          <span class="hp-max-value" tabindex="0">
+          <span class="hp-max-value ac-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
             <strong id="combatAC">10</strong>
             <span id="combatACTooltip" class="hp-tooltip ac-tooltip"></span>
           </span>
@@ -16869,4 +16919,42 @@ window.addEventListener(
     }
 );
 
+
+/* ============================================================
+   TOOLTIP DE CA — DESKTOP + MOBILE
+   ============================================================ */
+function configurarTooltipsCA() {
+    const triggers = Array.from(document.querySelectorAll(".ac-tooltip-trigger"));
+    if (!triggers.length) return;
+
+    const fecharTodos = excecao => {
+        triggers.forEach(trigger => {
+            if (trigger !== excecao) trigger.classList.remove("tooltip-open");
+        });
+    };
+
+    triggers.forEach(trigger => {
+        trigger.addEventListener("click", event => {
+            if (event.target.closest(".ac-tooltip")) return;
+            const vaiAbrir = !trigger.classList.contains("tooltip-open");
+            fecharTodos(trigger);
+            trigger.classList.toggle("tooltip-open", vaiAbrir);
+            if (vaiAbrir) trigger.focus({preventScroll:true});
+        });
+
+        trigger.addEventListener("keydown", event => {
+            if (event.key === "Escape") {
+                trigger.classList.remove("tooltip-open");
+                trigger.blur();
+            }
+        });
+    });
+
+    document.addEventListener("click", event => {
+        if (event.target.closest(".ac-tooltip-trigger")) return;
+        fecharTodos();
+    });
+}
+
+configurarTooltipsCA();
 </script>
