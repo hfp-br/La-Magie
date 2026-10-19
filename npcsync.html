@@ -3309,26 +3309,36 @@ body.editing
   position: absolute;
   left: 50%;
   bottom: calc(100% + 10px);
+
   min-width: 290px;
   max-width: 380px;
+
   padding: 12px 14px;
+
   background: #392b1e;
   color: #f6edd7;
+
   border: 1px solid rgba(255,255,255,.15);
   border-radius: 8px;
+
   box-shadow: 0 8px 22px rgba(40,25,10,.28);
+
   text-align: left;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.5;
   white-space: pre-line;
+
   opacity: 0;
   visibility: hidden;
+
   transform: translate(-50%, 5px);
+
   transition:
     opacity .15s ease,
     transform .15s ease,
     visibility .15s ease;
+
   pointer-events: none;
   z-index: 3000;
 }
@@ -3344,6 +3354,273 @@ body.editing
 .combat-hp .hp-max-value {
   display: inline-flex;
   align-items: center;
+}
+
+.ac-tooltip {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  width: min(420px, calc(100vw - 28px));
+  min-width: min(320px, calc(100vw - 28px));
+  max-width: calc(100vw - 28px);
+  max-height: min(78vh, 640px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  white-space: normal;
+  transform: translate(-50%, -50%) scale(.985);
+  pointer-events: auto;
+  scrollbar-width: thin;
+}
+
+.hp-max-value:hover .ac-tooltip,
+.hp-max-value:focus .ac-tooltip,
+.hp-max-value:focus-within .ac-tooltip,
+.ac-tooltip-trigger.tooltip-open .ac-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.ac-tooltip::-webkit-scrollbar {
+  width: 8px;
+}
+
+.ac-tooltip::-webkit-scrollbar-thumb {
+  background: rgba(246,237,215,.28);
+  border-radius: 999px;
+}
+
+@media (max-width: 600px) {
+  .ac-tooltip {
+    width: calc(100vw - 20px);
+    min-width: 0;
+    max-width: calc(100vw - 20px);
+    max-height: 76vh;
+    padding: 11px 12px;
+  }
+
+  .ac-breakdown-row {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 7px;
+  }
+
+  .ac-defense-range {
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 7px;
+  }
+}
+
+.ac-tooltip-card {
+  display: grid;
+  gap: 10px;
+}
+
+.ac-tooltip-head {
+  display: grid;
+  gap: 2px;
+}
+
+.ac-tooltip-head strong {
+  font-size: 13px;
+  letter-spacing: .02em;
+}
+
+.ac-tooltip-head span {
+  color: rgba(246, 237, 215, .78);
+  font-size: 11px;
+}
+
+.ac-breakdown-list {
+  display: grid;
+  gap: 6px;
+}
+
+.ac-breakdown-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 7px;
+  background: rgba(255,255,255,.05);
+}
+
+.ac-breakdown-row.total {
+  background: rgba(255,255,255,.1);
+  border: 1px solid rgba(255,255,255,.12);
+}
+
+.ac-row-label {
+  min-width: 0;
+}
+
+.ac-row-name {
+  display: block;
+  font-weight: 600;
+  color: #f6edd7;
+}
+
+.ac-row-detail {
+  display: block;
+  margin-top: 1px;
+  color: rgba(246, 237, 215, .72);
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.ac-row-value,
+.ac-row-total {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.ac-row-value {
+  color: #f0d7ac;
+  font-weight: 700;
+}
+
+.ac-row-total {
+  min-width: 44px;
+  text-align: right;
+  color: #fff;
+  font-weight: 700;
+}
+
+
+.ac-defense-ranges {display:grid;gap:6px;padding-top:2px}
+.ac-defense-ranges-title {color:rgba(246,237,215,.78);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.ac-defense-range {display:grid;grid-template-columns:60px minmax(0,1fr);gap:8px;align-items:start;padding:6px 8px;border-left:2px solid rgba(240,215,172,.55);background:rgba(255,255,255,.035);border-radius:0 6px 6px 0}
+.ac-defense-range strong {color:#f0d7ac;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ac-defense-range span {color:rgba(246,237,215,.86);line-height:1.35}
+.ac-defense-note {color:rgba(246,237,215,.66);font-size:10px;line-height:1.35}
+
+
+
+/* ==========================================================
+   TOOLTIPS RESPONSIVOS — PV / CA / ATRIBUTOS / PERÍCIAS
+   ========================================================== */
+/* ==========================================================
+   CORREÇÃO DE EMPILHAMENTO DOS TOOLTIPS
+   ========================================================== */
+.section:has(.tooltip-open),
+.section:has(.tooltip-hovering),
+.vital:has(.tooltip-open),
+.vital:has(.tooltip-hovering),
+.combat-header:has(.tooltip-open),
+.combat-header:has(.tooltip-hovering),
+.combat-chip:has(.tooltip-open),
+.combat-chip:has(.tooltip-hovering),
+.attribute:has(.tooltip-open),
+.attribute:has(.tooltip-hovering),
+.skill:has(.tooltip-open),
+.skill:has(.tooltip-hovering) {
+  z-index: 100010 !important;
+}
+
+.hp-tooltip,
+.attribute-score-tooltip,
+.skill-tooltip,
+.ac-tooltip {
+  background: rgb(43, 32, 23) !important;
+  background-color: rgb(43, 32, 23) !important;
+  isolation: isolate;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.hp-tooltip::before,
+.attribute-score-tooltip::before,
+.skill-tooltip::before,
+.ac-tooltip::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: rgb(43, 32, 23);
+  pointer-events: none;
+}
+
+.hp-tooltip,
+.attribute-score-tooltip,
+.skill-tooltip {
+  background: #2b2017 !important;
+  background-color: #2b2017 !important;
+  opacity: 0;
+  z-index: 100000 !important;
+  box-shadow:
+    0 14px 38px rgba(20, 12, 6, .55),
+    0 0 0 1px rgba(255,255,255,.10);
+}
+
+.tooltip-open {
+  z-index: 100001 !important;
+}
+
+.tooltip-open > .hp-tooltip,
+.tooltip-open > .attribute-score-tooltip,
+.tooltip-open > .skill-tooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* CA continua centralizada em qualquer tamanho de tela. */
+.ac-tooltip {
+  background: #2b2017 !important;
+  background-color: #2b2017 !important;
+  opacity: 0;
+  z-index: 100000 !important;
+}
+
+.ac-tooltip-trigger.tooltip-open .ac-tooltip {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/*
+   Em telas touch/pequenas todos os displays passam a usar o
+   mesmo painel central da CA, evitando corte nas bordas da ficha.
+*/
+@media (hover: none), (pointer: coarse), (max-width: 700px) {
+  .hp-tooltip,
+  .attribute-score-tooltip,
+  .skill-tooltip {
+    position: fixed !important;
+    left: 50% !important;
+    right: auto !important;
+    top: 50% !important;
+    bottom: auto !important;
+
+    width: calc(100vw - 20px) !important;
+    min-width: 0 !important;
+    max-width: 420px !important;
+    max-height: 76vh !important;
+
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+
+    padding: 12px 14px;
+    white-space: pre-line;
+
+    transform: translate(-50%, -50%) scale(.985) !important;
+  }
+
+  .tooltip-open > .hp-tooltip,
+  .tooltip-open > .attribute-score-tooltip,
+  .tooltip-open > .skill-tooltip,
+  .hp-max-value:focus > .hp-tooltip,
+  .attribute-score-value:focus > .attribute-score-tooltip,
+  .skill-value:focus > .skill-tooltip {
+    transform: translate(-50%, -50%) scale(1) !important;
+  }
+
+  .ac-tooltip {
+    max-width: calc(100vw - 20px) !important;
+  }
 }
 
 
@@ -3932,7 +4209,7 @@ body.editing
 
         <div class="vital">
           <span class="label">PV Máximo</span>
-          <div class="hp-max-value" tabindex="0">
+          <div class="hp-max-value sheet-tooltip-trigger" tabindex="0">
             <span id="hpMax" class="big">19</span>
             <div id="hpMaxTooltip" class="hp-tooltip"></div>
           </div>
@@ -3951,7 +4228,10 @@ body.editing
 
         <div class="vital">
           <span class="label">CA</span>
-          <span id="armorClass" class="big">17</span>
+          <div class="hp-max-value ac-tooltip-trigger sheet-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
+            <span id="armorClass" class="big">17</span>
+            <div id="armorClassTooltip" class="hp-tooltip ac-tooltip"></div>
+          </div>
         </div>
 
         <div class="vital">
@@ -4028,7 +4308,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">FOR</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="str" class="save stat" type="number" value="14">
             <span id="strScoreDisplay" class="attribute-score-display">14</span>
             <span id="strScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4038,7 +4318,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">DES</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="dex" class="save stat" type="number" value="18">
             <span id="dexScoreDisplay" class="attribute-score-display">18</span>
             <span id="dexScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4048,7 +4328,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">CON</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="con" class="save stat" type="number" value="16">
             <span id="conScoreDisplay" class="attribute-score-display">16</span>
             <span id="conScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4058,7 +4338,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">INT</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="int" class="save stat" type="number" value="10">
             <span id="intScoreDisplay" class="attribute-score-display">10</span>
             <span id="intScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4068,7 +4348,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">SAB</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="wis" class="save stat" type="number" value="16">
             <span id="wisScoreDisplay" class="attribute-score-display">16</span>
             <span id="wisScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4078,7 +4358,7 @@ body.editing
 
         <div class="attribute">
           <span class="attribute-name">CAR</span>
-          <span class="attribute-score-value" tabindex="0">
+          <span class="attribute-score-value sheet-tooltip-trigger" tabindex="0">
             <input id="cha" class="save stat" type="number" value="10">
             <span id="chaScoreDisplay" class="attribute-score-display">10</span>
             <span id="chaScoreTooltip" class="attribute-score-tooltip"></span>
@@ -4457,7 +4737,7 @@ body.editing
 
             <span>/</span>
 
-            <span class="hp-max-value" tabindex="0">
+            <span class="hp-max-value sheet-tooltip-trigger" tabindex="0">
               <strong id="combatHPMax">19</strong>
               <span id="combatHPMaxTooltip" class="hp-tooltip"></span>
             </span>
@@ -4467,7 +4747,10 @@ body.editing
 
         <div class="combat-chip">
           <span class="label">CA</span>
-          <strong id="combatAC">10</strong>
+          <span class="hp-max-value ac-tooltip-trigger sheet-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição da CA">
+            <strong id="combatAC">10</strong>
+            <span id="combatACTooltip" class="hp-tooltip ac-tooltip"></span>
+          </span>
         </div>
 
         <div class="combat-chip">
@@ -11873,7 +12156,7 @@ if (addSpellButton) {
         </span>
 
         <div
-        class="skill-value"
+        class="skill-value sheet-tooltip-trigger"
         tabindex="0"
         >
         <span
@@ -12697,114 +12980,236 @@ cap.addEventListener(
     });
 }
 
+function escapeHtml(text) {
+
+    return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+}
+
+function getAcNarrative(row) {
+
+    const label =
+        String(
+            row.label || ""
+        ).toLocaleLowerCase(
+            "pt-BR"
+        );
+
+
+    if (
+        row.kind === "attribute" &&
+        row.stat === "dex"
+    ) {
+        return "Desvio por Destreza";
+    }
+
+
+    if (label.includes("escudo")) {
+        return "Bloqueio pelo Escudo";
+    }
+
+
+    if (label.includes("armadura")) {
+        return "Bloqueio pela Armadura";
+    }
+
+
+    if (
+        label.includes("aparar") ||
+        label.includes("aparada")
+    ) {
+        return "Golpe aparado";
+    }
+
+
+    if (
+        label.includes("pele") ||
+        label.includes("carapaça") ||
+        label.includes("carapaca")
+    ) {
+        return `Bloqueado por ${row.label}`;
+    }
+
+
+    if (row.kind === "base") {
+        return "Defesa básica";
+    }
+
+
+    if (row.kind === "attribute") {
+        return `Defesa por ${row.label}`;
+    }
+
+
+    return String(
+        row.label ||
+        "Outra defesa"
+    );
+}
+
+function getAcBreakdown(mods) {
+    const modeId = document.getElementById("acMode").value;
+    const mode = (conteudo.armor?.modes || []).find(item => item.id === modeId);
+    const baseRows = [];
+    const bonusRows = [];
+
+    if (!mode || mode.manual) {
+        const manualCA = num("manualCA");
+        baseRows.push({
+            label: "CA manual",
+            detail: mode?.name || "Valor definido manualmente",
+            value: manualCA,
+            kind: "base"
+        });
+    } else {
+        const base = Number(mode.base || 0);
+        baseRows.push({
+            label: mode.name || "Base",
+            detail: "Base da fórmula",
+            value: base,
+            kind: "base"
+        });
+
+        const attributes = Array.isArray(mode.attributes) ? mode.attributes : [];
+        attributes.forEach(stat => {
+            const valor = Number(mods[stat] || 0);
+            const cap = mode.attributeCaps?.[stat];
+            let aplicado = valor;
+            let detail = "Modificador de " + (nomeAtributos[stat] || stat);
+            if (cap !== undefined && cap !== null && cap !== "") {
+                aplicado = Math.min(valor, Number(cap));
+                detail += ` · máximo ${fmt(Number(cap))}`;
+            }
+            if (aplicado !== 0) {
+                bonusRows.push({
+                    label: nomeAtributos[stat] || stat,
+                    detail,
+                    value: aplicado,
+                    kind: "attribute",
+                    stat
+                });
+            }
+        });
+
+        const flatBonus = Number(mode.flatBonus || 0);
+        if (flatBonus !== 0) {
+            bonusRows.push({
+                label: mode.name && !/^nova fórmula de ca$/i.test(mode.name) ? mode.name : "Bônus fixo",
+                detail: mode.name ? `Bônus fixo de ${mode.name}` : "Bônus fixo da fórmula",
+                value: flatBonus,
+                kind: "flat"
+            });
+        }
+    }
+
+    const effects = getFeatureEffects("ac");
+    effects.forEach(effect => {
+        const bonus = Number(effect.bonus || 0);
+        if (bonus === 0) return;
+        bonusRows.push({
+            label: effect.source || "Outro bônus",
+            detail: "Modificador adicional de CA",
+            value: bonus,
+            kind: "effect"
+        });
+    });
+
+    // base primeiro; depois os componentes sobem do menor bônus para o maior
+    bonusRows.sort((a,b) => {
+        const diff = Number(a.value) - Number(b.value);
+        if (diff !== 0) return diff;
+        return String(a.label || "").localeCompare(String(b.label || ""), "pt-BR", {sensitivity:"base"});
+    });
+
+    const rows = [...baseRows, ...bonusRows];
+    let runningTotal = 0;
+    rows.forEach(row => {
+        runningTotal += Number(row.value || 0);
+        row.runningTotal = runningTotal;
+    });
+    const total = runningTotal;
+
+    const body = rows.map(row => `
+        <div class="ac-breakdown-row">
+            <div class="ac-row-label">
+                <span class="ac-row-name">${escapeHtml(row.label)}</span>
+                <span class="ac-row-detail">${escapeHtml(row.detail)}</span>
+            </div>
+            <span class="ac-row-value">${fmt(row.value)}</span>
+            <span class="ac-row-total">(${row.runningTotal})</span>
+        </div>
+    `).join("");
+
+    const baseRow = rows.find(row => row.kind === "base");
+    const baseLimit = Number(baseRow?.runningTotal || 0);
+
+    // narrativa em ordem inversa: quanto mais longe de acertar,
+    // mais forte é a defesa que explica a falha.
+    const defensiveRows = rows
+        .filter(row => row.kind !== "base" && Number(row.value || 0) > 0)
+        .slice()
+        .reverse();
+
+    let upperLimit = total;
+    const ranges = defensiveRows.map(row => {
+        const lowerLimit = upperLimit - Number(row.value || 0) + 1;
+        const html = `
+            <div class="ac-defense-range">
+                <strong>${lowerLimit}–${upperLimit}</strong>
+                <span>${escapeHtml(getAcNarrative(row))}</span>
+            </div>
+        `;
+        upperLimit = lowerLimit - 1;
+        return html;
+    }).join("");
+
+    const freeNarrativeRange = baseLimit > 0
+        ? `
+            <div class="ac-defense-range">
+                <strong>≤ ${baseLimit}</strong>
+                <span>Narrativa livre</span>
+            </div>
+        `
+        : "";
+
+    const tooltip = `
+        <div class="ac-tooltip-card">
+            <div class="ac-tooltip-head">
+                <strong>Composição da CA</strong>
+            </div>
+            <div class="ac-breakdown-list">
+                ${body}
+                <div class="ac-breakdown-row total">
+                    <div class="ac-row-label">
+                        <span class="ac-row-name">Total</span>
+                        <span class="ac-row-detail">Classe de Armadura final</span>
+                    </div>
+                    <span class="ac-row-value">=</span>
+                    <span class="ac-row-total">${total}</span>
+                </div>
+            </div>
+            ${(ranges || freeNarrativeRange) ? `
+                <div class="ac-defense-ranges">
+                    <div class="ac-defense-ranges-title">Como narrar a falha do ataque</div>
+                    ${ranges}
+                    ${freeNarrativeRange}
+                </div>
+            ` : ""}
+        </div>
+    `;
+
+    return {total, tooltip, rows};
+}
+
 function calculateAC(mods) {
 
-    const modeId =
-        document
-            .getElementById(
-                "acMode"
-            )
-            .value;
-
-
-    const mode =
-        (
-            conteudo.armor?.modes ||
-            []
-        ).find(
-            item =>
-                item.id ===
-                modeId
-        );
-
-
-    let baseAC;
-
-
-    if (
-        !mode ||
-        mode.manual
-    ) {
-
-        baseAC =
-            num(
-                "manualCA"
-            );
-
-    }
-
-    else {
-
-        baseAC =
-            Number(
-                mode.base || 0
-            );
-
-
-        const attributes =
-            Array.isArray(
-                mode.attributes
-            )
-                ? mode.attributes
-                : [];
-
-
-        attributes.forEach(stat => {
-
-    const valor =
-        Number(
-            mods[stat] || 0
-        );
-
-
-    const cap =
-        mode.attributeCaps?.[
-            stat
-        ];
-
-
-    if (
-        cap === undefined ||
-        cap === null ||
-        cap === ""
-    ) {
-
-        baseAC +=
-            valor;
-
-    }
-
-    else {
-
-        baseAC +=
-            Math.min(
-                valor,
-                Number(cap)
-            );
-
-    }
-
-});
-
-
-        baseAC +=
-            Number(
-                mode.flatBonus || 0
-            );
-
-    }
-
-
-    const bonusAC =
-        somarEfeitos(
-            "ac"
-        );
-
-
-    return (
-        baseAC +
-        bonusAC
-    );
+    return getAcBreakdown(
+        mods
+    ).total;
 }
 
 /* ============================================================
@@ -13607,10 +14012,36 @@ if (combatHPMaxTooltip) {
 
     /* CA */
 
-    const ac = calculateAC(mods);
+    const acBreakdown =
+        getAcBreakdown(
+            mods
+        );
+
+    const ac =
+        acBreakdown.total;
 
     document.getElementById("armorClass").textContent = ac;
     document.getElementById("combatAC").textContent = ac;
+
+    const armorClassTooltip =
+        document.getElementById(
+            "armorClassTooltip"
+        );
+
+    if (armorClassTooltip) {
+        armorClassTooltip.innerHTML =
+            acBreakdown.tooltip;
+    }
+
+    const combatACTooltip =
+        document.getElementById(
+            "combatACTooltip"
+        );
+
+    if (combatACTooltip) {
+        combatACTooltip.innerHTML =
+            acBreakdown.tooltip;
+    }
 
     /* iniciativa */
 
@@ -17231,4 +17662,181 @@ document.getElementById("logoutNpcButton")?.addEventListener("click", async () =
 });
 
 iniciarFicha();
+
+
+/* ============================================================
+   TOOLTIPS — DESKTOP + MOBILE
+   PV máximo / CA / atributos / perícias
+   ============================================================ */
+
+function configurarTooltipsFicha() {
+
+    const triggers =
+        Array.from(
+            document.querySelectorAll(
+                ".sheet-tooltip-trigger"
+            )
+        );
+
+
+    if (!triggers.length) {
+        return;
+    }
+
+
+    const fecharTodos =
+        excecao => {
+
+            triggers.forEach(
+                trigger => {
+
+                    if (
+                        trigger !==
+                        excecao
+                    ) {
+                        trigger.classList.remove(
+                            "tooltip-open"
+                        );
+                    }
+
+                }
+            );
+
+        };
+
+
+    triggers.forEach(
+        trigger => {
+
+            trigger.setAttribute(
+                "role",
+                trigger.getAttribute("role") || "button"
+            );
+
+
+            /*
+               No desktop, hover também precisa elevar o bloco-pai.
+               Sem isso, seções posteriores da ficha podem ser pintadas
+               por cima do tooltip mesmo que o próprio tooltip tenha z-index alto.
+            */
+            trigger.addEventListener(
+                "pointerenter",
+                event => {
+                    if (
+                        event.pointerType === "mouse" ||
+                        window.matchMedia(
+                            "(hover: hover) and (pointer: fine)"
+                        ).matches
+                    ) {
+                        trigger.classList.add(
+                            "tooltip-hovering"
+                        );
+                    }
+                }
+            );
+
+            trigger.addEventListener(
+                "pointerleave",
+                () => {
+                    trigger.classList.remove(
+                        "tooltip-hovering"
+                    );
+                }
+            );
+
+
+            trigger.addEventListener(
+                "click",
+                event => {
+
+                    const tooltip =
+                        event.target.closest(
+                            ".hp-tooltip, .attribute-score-tooltip, .skill-tooltip"
+                        );
+
+                    // toque dentro do painel serve para rolar/selecionar
+                    if (tooltip) {
+                        return;
+                    }
+
+
+                    const vaiAbrir =
+                        !trigger.classList.contains(
+                            "tooltip-open"
+                        );
+
+
+                    fecharTodos(
+                        trigger
+                    );
+
+
+                    trigger.classList.toggle(
+                        "tooltip-open",
+                        vaiAbrir
+                    );
+
+
+                    if (vaiAbrir) {
+                        trigger.focus({
+                            preventScroll: true
+                        });
+                    }
+
+                }
+            );
+
+
+            trigger.addEventListener(
+                "keydown",
+                event => {
+
+                    if (
+                        event.key === "Enter" ||
+                        event.key === " "
+                    ) {
+                        event.preventDefault();
+                        trigger.click();
+                    }
+
+
+                    if (
+                        event.key ===
+                        "Escape"
+                    ) {
+                        trigger.classList.remove(
+                            "tooltip-open"
+                        );
+
+                        trigger.blur();
+                    }
+
+                }
+            );
+
+        }
+    );
+
+
+    document.addEventListener(
+        "click",
+        event => {
+
+            if (
+                event.target.closest(
+                    ".sheet-tooltip-trigger"
+                )
+            ) {
+                return;
+            }
+
+
+            fecharTodos();
+
+        }
+    );
+}
+
+configurarTooltipsFicha();
+
 </script>
