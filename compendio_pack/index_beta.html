@@ -5405,24 +5405,53 @@ async function fazerLogin() {
         data.user;
 
 
-    const carregou =
-    await carregarFicha();
+    // fecha o login assim que a autenticacao foi confirmada.
+    // o carregamento da ficha acontece logo depois; se ele realmente falhar,
+    // carregarFicha() reabre o overlay com a mensagem apropriada.
+    const loginOverlay =
+        document.getElementById(
+            "loginOverlay"
+        );
+
+    if (loginOverlay) {
+        loginOverlay.style.display =
+            "none";
+    }
 
 
-if (!carregou) {
-    return;
-}
+    let carregou = false;
+
+    try {
+        carregou =
+            await carregarFicha();
+    } catch (erroCarregamento) {
+        console.error(
+            "Erro ao aplicar/carregar a ficha apos o login:",
+            erroCarregamento
+        );
+
+        // a autenticacao continua valida. Nao prende o usuario
+        // atras do popup caso uma parte secundaria da renderizacao falhe.
+        const errorBox =
+            document.getElementById(
+                "loginError"
+            );
+
+        if (errorBox) {
+            errorBox.textContent =
+                "Login realizado, mas houve um erro ao atualizar uma parte da ficha.";
+        }
+    }
 
 
-document
-    .getElementById(
-        "loginOverlay"
-    )
-    .style.display =
-    "none";
+    if (!carregou) {
+        // carregarFicha() reabre o overlay nos erros reais de consulta.
+        // Se o erro aconteceu apenas durante a renderizacao, mantemos fechado.
+        return;
+    }
 
 
-iniciarRealtime();
+    iniciarRealtime();
 }
 
 async function fazerLogout() {
