@@ -69,6 +69,38 @@
           "descricao": ""
         }
       ]
+    },
+    {
+      "id": "teste-espada-simples",
+      "nome": "Espada de Teste",
+      "categoria": "Arma",
+      "subtipo": "Marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "fonte": "Teste do Compêndio",
+      "pagina": null,
+      "tags": [
+        "marcial",
+        "corte",
+        "uma mão",
+        "teste"
+      ],
+      "descricao": "Arma de teste criada para validar a integração do Compêndio com os ataques automáticos da ficha.",
+      "efeitos": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada de Teste",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "allowedToggles": []
+      }
     }
   ]
 }
