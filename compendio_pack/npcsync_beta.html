@@ -3764,6 +3764,116 @@ body.editing
 .inventory-condition-link>span{font-weight:700}
 .inventory-condition-link select{width:auto;max-width:210px;padding:4px 7px;border:1px solid var(--sand-3);border-radius:7px;background:rgba(255,255,255,.42);color:inherit;font-size:11px}
 .inventory-effect-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+
+
+/* ============================================================
+   BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
+   ============================================================ */
+.inventory-more{
+    width:34px;
+    height:32px;
+    display:inline-grid;
+    place-items:center;
+    border:1px solid var(--sand-3);
+    border-radius:8px;
+    background:rgba(255,255,255,.22);
+    color:var(--muted);
+    font-size:18px;
+    line-height:1;
+    font-weight:800;
+}
+.inventory-more:hover{background:rgba(255,255,255,.42);color:var(--ink)}
+.inventory-detail-modal{
+    position:fixed;
+    z-index:120101;
+    left:50%;
+    top:50%;
+    width:min(720px,calc(100vw - 24px));
+    max-height:min(88vh,820px);
+    overflow:auto;
+    display:none;
+    transform:translate(-50%,-50%);
+    border:1px solid var(--sand-4);
+    border-radius:14px;
+    background:var(--sand-0);
+    box-shadow:0 24px 70px rgba(35,24,14,.42);
+}
+.inventory-detail-modal.show{display:block}
+.inventory-detail-head{
+    position:sticky;
+    top:0;
+    z-index:3;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 16px;
+    border-bottom:1px solid var(--sand-3);
+    background:rgba(246,237,215,.97);
+}
+.inventory-detail-head h3{margin:0;font-size:20px}
+.inventory-detail-body{padding:16px}
+.inventory-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.inventory-detail-grid .wide{grid-column:1/-1}
+.inventory-detail-field{display:grid;gap:5px}
+.inventory-detail-field label,.inventory-detail-label{
+    color:var(--muted);
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+}
+.inventory-detail-field input,
+.inventory-detail-field select,
+.inventory-detail-field textarea,
+.inventory-detail-effect input,
+.inventory-detail-effect select{
+    width:100%;
+    padding:8px 9px;
+    border:1px solid var(--sand-3);
+    border-radius:8px;
+    background:rgba(255,255,255,.42);
+    color:var(--ink);
+}
+.inventory-detail-field textarea{min-height:92px;resize:vertical}
+.inventory-detail-effects{
+    margin-top:14px;
+    padding:12px;
+    border:1px solid var(--sand-3);
+    border-radius:10px;
+    background:rgba(255,255,255,.16);
+}
+.inventory-detail-effects-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.inventory-detail-effect{
+    display:grid;
+    grid-template-columns:140px 170px minmax(110px,1fr) minmax(90px,.75fr) 34px;
+    gap:7px;
+    align-items:center;
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed rgba(112,82,51,.22);
+}
+.inventory-detail-effect-description{grid-column:1/5}
+.inventory-detail-effect-condition{grid-column:1/5}
+.inventory-detail-effect-remove{height:36px}
+.inventory-detail-source{
+    margin-top:8px;
+    padding:7px 9px;
+    border-radius:8px;
+    background:rgba(169,119,53,.09);
+    color:var(--muted);
+    font-size:11px;
+}
+.inventory-detail-actions{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:16px}
+.inventory-detail-actions-right{display:flex;gap:8px}
+@media(max-width:760px){
+    .inventory-detail-grid{grid-template-columns:1fr}
+    .inventory-detail-grid .wide{grid-column:auto}
+    .inventory-detail-effect{grid-template-columns:1fr 1fr}
+    .inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/-1}
+    .inventory-detail-effect-remove{grid-column:2;justify-self:end;width:40px}
+}
+
 </style>
 
 
@@ -8908,7 +9018,21 @@ function adicionarItemInventario() {
 
         peso: 0,
 
-        descricao: ""
+        descricao: "",
+
+        categoria: "",
+
+        subtipo: "",
+
+        fonte: "",
+
+        tags: [],
+
+        preco: { valor: 0, moeda: "" },
+
+        ativo: false,
+
+        effects: []
 
     });
 
@@ -17603,6 +17727,8 @@ async function adicionarItemDoCompendio(base) {
         categoria: base.categoria || "",
         subtipo: base.subtipo || "",
         fonte: base.fonte || "",
+        tags: structuredClone(Array.isArray(base.tags) ? base.tags : []),
+        preco: structuredClone(base.preco || { valor: 0, moeda: "" }),
         ativo: false,
         effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : []))
     };
@@ -17631,6 +17757,242 @@ function configurarCompendioInventario() {
 
 document.addEventListener("DOMContentLoaded", configurarCompendioInventario);
 
+
+
+/* ============================================================
+   BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
+   ============================================================ */
+let inventoryDetailItemId = null;
+
+function efeitoInventarioParaEditor(effect = {}) {
+    return {
+        ...structuredClone(effect || {}),
+        tipo: normalizarTipoEfeitoItem(effect),
+        modo: normalizarModoEfeitoItem(effect),
+        alvo: effect?.target ?? effect?.alvo ?? effect?.skill ?? effect?.attribute ?? "",
+        valor: effect?.valor ?? (effect?.bonus !== undefined ? effect.bonus : ""),
+        descricao: effect?.text ?? effect?.descricao ?? "",
+        requiresToggle: effect?.requiresToggle ?? ""
+    };
+}
+
+function opcoesTipoEfeitoInventario(valor) {
+    const tipos = [
+        ["ac", "CA"],
+        ["skill", "Perícia"],
+        ["attribute", "Atributo"],
+        ["maxHp", "PV Máximo"],
+        ["hpPerLevel", "PV por nível"],
+        ["movement", "Movimento"],
+        ["carryCapacity", "Carga"],
+        ["attack", "Ataque"],
+        ["damage", "Dano"],
+        ["resource", "Recurso"],
+        ["outro", "Outro"]
+    ];
+    return tipos.map(([v,n]) => `<option value="${v}" ${String(valor)===v ? "selected" : ""}>${n}</option>`).join("");
+}
+
+function opcoesModoEfeitoInventario(valor) {
+    const modos = [
+        ["always", "Sempre ativo (ficha)"],
+        ["toggle", "Toggle ON/OFF do item"],
+        ["conditional", "Condicional (modificador de combate)"],
+        ["use", "Ao usar"]
+    ];
+    return modos.map(([v,n]) => `<option value="${v}" ${String(valor)===v ? "selected" : ""}>${n}</option>`).join("");
+}
+
+function preencherOpcoesCondicaoDetalhada(select, valor) {
+    if (!select) return;
+    select.innerHTML = '<option value="">Escolher modificador…</option>';
+    (conteudo.togglesCombate || []).forEach(toggle => {
+        const option = document.createElement("option");
+        option.value = toggle.id;
+        option.textContent = toggle.name || "Modificador";
+        select.appendChild(option);
+    });
+    select.value = valor || "";
+}
+
+function atualizarVisibilidadeCondicaoDetalhada(row) {
+    const modo = row.querySelector(".inventory-detail-effect-mode")?.value;
+    const conditionWrap = row.querySelector(".inventory-detail-effect-condition");
+    if (conditionWrap) conditionWrap.style.display = modo === "conditional" ? "block" : "none";
+}
+
+function adicionarLinhaEfeitoDetalhado(effect = {}) {
+    const root = document.getElementById("inventoryDetailEffects");
+    if (!root) return;
+
+    const e = efeitoInventarioParaEditor(effect);
+    const row = document.createElement("div");
+    row.className = "inventory-detail-effect";
+    row._originalEffect = structuredClone(effect || {});
+    row.innerHTML = `
+        <select class="inventory-detail-effect-type" title="Tipo">${opcoesTipoEfeitoInventario(e.tipo)}</select>
+        <select class="inventory-detail-effect-mode" title="Modo">${opcoesModoEfeitoInventario(e.modo)}</select>
+        <input class="inventory-detail-effect-target" type="text" placeholder="Alvo / atributo / perícia" value="">
+        <input class="inventory-detail-effect-value" type="text" placeholder="Valor, ex.: +2" value="">
+        <button class="inventory-delete inventory-detail-effect-remove" type="button" title="Remover efeito">×</button>
+        <input class="inventory-detail-effect-description" type="text" placeholder="Descrição do efeito" value="">
+        <div class="inventory-detail-effect-condition">
+          <select class="inventory-detail-effect-condition-select" title="Modificador de combate"></select>
+        </div>
+    `;
+
+    row.querySelector(".inventory-detail-effect-target").value = e.alvo || "";
+    row.querySelector(".inventory-detail-effect-value").value = e.valor ?? "";
+    row.querySelector(".inventory-detail-effect-description").value = e.descricao || "";
+    preencherOpcoesCondicaoDetalhada(row.querySelector(".inventory-detail-effect-condition-select"), e.requiresToggle);
+    atualizarVisibilidadeCondicaoDetalhada(row);
+
+    row.querySelector(".inventory-detail-effect-mode")?.addEventListener("change", () => atualizarVisibilidadeCondicaoDetalhada(row));
+    row.querySelector(".inventory-detail-effect-remove")?.addEventListener("click", () => row.remove());
+    root.appendChild(row);
+}
+
+function coletarEfeitosDetalhadosInventario() {
+    return [...document.querySelectorAll("#inventoryDetailEffects .inventory-detail-effect")].map(row => {
+        const original = structuredClone(row._originalEffect || {});
+        const type = row.querySelector(".inventory-detail-effect-type")?.value || "outro";
+        const mode = row.querySelector(".inventory-detail-effect-mode")?.value || "always";
+        const target = row.querySelector(".inventory-detail-effect-target")?.value.trim() || "";
+        const rawValue = row.querySelector(".inventory-detail-effect-value")?.value.trim() || "";
+        const description = row.querySelector(".inventory-detail-effect-description")?.value.trim() || "";
+        const requiresToggle = mode === "conditional"
+            ? (row.querySelector(".inventory-detail-effect-condition-select")?.value || "")
+            : "";
+
+        const effect = {
+            ...original,
+            tipo: type,
+            type,
+            modo: mode,
+            mode,
+            alvo: target,
+            target,
+            valor: rawValue,
+            descricao: description,
+            text: description,
+            requiresToggle
+        };
+
+        const numeric = String(rawValue).replace(",", ".").match(/[+-]?\d+(?:\.\d+)?/);
+        if (numeric && ["ac","skill","attribute","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)) {
+            effect.bonus = Number(numeric[0]);
+        } else {
+            delete effect.bonus;
+        }
+
+        if (type === "skill") effect.skill = target;
+        else delete effect.skill;
+        if (type === "attribute") effect.attribute = target;
+        else delete effect.attribute;
+
+        return effect;
+    });
+}
+
+function fecharDetalhesItemInventario() {
+    inventoryDetailItemId = null;
+    const overlay = document.getElementById("inventoryDetailOverlay");
+    const modal = document.getElementById("inventoryDetailModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
+}
+
+function abrirDetalhesItemInventario(itemOrId) {
+    const item = typeof itemOrId === "string"
+        ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+        : itemOrId;
+    if (!item) return;
+
+    inventoryDetailItemId = item.id;
+    document.getElementById("inventoryDetailName").value = item.nome ?? "";
+    document.getElementById("inventoryDetailQuantity").value = item.quantidade ?? 1;
+    document.getElementById("inventoryDetailWeight").value = item.peso ?? 0;
+    document.getElementById("inventoryDetailCategory").value = item.categoria ?? "";
+    document.getElementById("inventoryDetailSubtype").value = item.subtipo ?? "";
+    document.getElementById("inventoryDetailPrice").value = item.preco?.valor ?? "";
+    document.getElementById("inventoryDetailCurrency").value = item.preco?.moeda ?? "";
+    document.getElementById("inventoryDetailSource").value = item.fonte ?? "";
+    document.getElementById("inventoryDetailTags").value = Array.isArray(item.tags) ? item.tags.join(", ") : "";
+    document.getElementById("inventoryDetailDescription").value = item.descricao ?? "";
+
+    const origin = document.getElementById("inventoryDetailOrigin");
+    if (origin) {
+        if (item.compendioId) {
+            origin.hidden = false;
+            origin.textContent = `Criado a partir do Compêndio (${item.compendioId}). Alterações aqui afetam somente esta cópia da ficha.`;
+        } else {
+            origin.hidden = true;
+            origin.textContent = "";
+        }
+    }
+
+    const effectsRoot = document.getElementById("inventoryDetailEffects");
+    if (effectsRoot) effectsRoot.innerHTML = "";
+    const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    effects.forEach(adicionarLinhaEfeitoDetalhado);
+
+    document.getElementById("inventoryDetailOverlay")?.classList.add("show");
+    document.getElementById("inventoryDetailOverlay")?.setAttribute("aria-hidden", "false");
+    document.getElementById("inventoryDetailModal")?.classList.add("show");
+    document.getElementById("inventoryDetailModal")?.setAttribute("aria-hidden", "false");
+}
+
+async function salvarDetalhesItemInventario() {
+    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+    if (!item) return fecharDetalhesItemInventario();
+
+    item.nome = document.getElementById("inventoryDetailName")?.value.trim() || "Item sem nome";
+    item.quantidade = Number(document.getElementById("inventoryDetailQuantity")?.value || 0);
+    item.peso = Number(document.getElementById("inventoryDetailWeight")?.value || 0);
+    item.categoria = document.getElementById("inventoryDetailCategory")?.value.trim() || "";
+    item.subtipo = document.getElementById("inventoryDetailSubtype")?.value.trim() || "";
+    item.fonte = document.getElementById("inventoryDetailSource")?.value.trim() || "";
+    item.tags = String(document.getElementById("inventoryDetailTags")?.value || "").split(",").map(v => v.trim()).filter(Boolean);
+    item.descricao = document.getElementById("inventoryDetailDescription")?.value.trim() || "";
+    item.preco = {
+        valor: Number(document.getElementById("inventoryDetailPrice")?.value || 0),
+        moeda: document.getElementById("inventoryDetailCurrency")?.value.trim() || ""
+    };
+    item.effects = coletarEfeitosDetalhadosInventario();
+    delete item.efeitos;
+
+    renderizarInventario();
+    atualizarPesoInventario();
+    updateSheet();
+    renderizarAtaques();
+    fecharDetalhesItemInventario();
+    await salvarConteudo();
+}
+
+async function excluirItemPelosDetalhes() {
+    if (!inventoryDetailItemId) return;
+    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+    if (!item) return;
+    if (!confirm(`Excluir "${item.nome || "Item"}" do inventário?`)) return;
+    const id = inventoryDetailItemId;
+    fecharDetalhesItemInventario();
+    await excluirItemInventario(id);
+}
+
+function configurarDetalhesInventario() {
+    document.getElementById("inventoryDetailClose")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailCancel")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailOverlay")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailSave")?.addEventListener("click", salvarDetalhesItemInventario);
+    document.getElementById("inventoryDetailDelete")?.addEventListener("click", excluirItemPelosDetalhes);
+    document.getElementById("inventoryDetailAddEffect")?.addEventListener("click", () => adicionarLinhaEfeitoDetalhado({ tipo:"outro", modo:"always", valor:"", descricao:"" }));
+}
+
+document.addEventListener("DOMContentLoaded", configurarDetalhesInventario);
+
+
 function renderizarInventario() {
 
     const container = document.getElementById("inventoryList");
@@ -17648,12 +18010,14 @@ function renderizarInventario() {
                 <input class="inventory-name" type="text" value="" placeholder="Nome do item">
                 <input class="inventory-quantity" type="number" min="0" value="1" title="Quantidade">
                 <input class="inventory-item-weight" type="number" min="0" step="0.01" value="0" title="Peso unitário em kg">
+                <button class="inventory-more" type="button" title="Editar detalhes">⋯</button>
                 <button class="inventory-delete" type="button" title="Excluir">🗑</button>
             `;
 
             const nome = elemento.querySelector(".inventory-name");
             const quantidade = elemento.querySelector(".inventory-quantity");
             const peso = elemento.querySelector(".inventory-item-weight");
+            const detalhes = elemento.querySelector(".inventory-more");
             const excluir = elemento.querySelector(".inventory-delete");
 
             nome.value = item.nome ?? "";
@@ -17663,6 +18027,7 @@ function renderizarInventario() {
             nome.addEventListener("input", () => { item.nome = nome.value; agendarSalvamentoConteudo(); });
             quantidade.addEventListener("input", () => { item.quantidade = Number(quantidade.value || 0); atualizarPesoInventario(); agendarSalvamentoConteudo(); });
             peso.addEventListener("input", () => { item.peso = Number(peso.value || 0); atualizarPesoInventario(); agendarSalvamentoConteudo(); });
+            detalhes?.addEventListener("click", () => abrirDetalhesItemInventario(item));
             excluir.addEventListener("click", () => excluirItemInventario(item.id));
         } else {
             elemento.className = "inventory-view inventory-rich";
@@ -17724,6 +18089,14 @@ function renderizarInventario() {
             weight.className = "inventory-weight";
             weight.textContent = `${pesoTotal.toFixed(2)} kg`;
             side.appendChild(weight);
+
+            const detalhes = document.createElement("button");
+            detalhes.type = "button";
+            detalhes.className = "inventory-more";
+            detalhes.textContent = "⋯";
+            detalhes.title = "Editar detalhes do item";
+            detalhes.addEventListener("click", () => abrirDetalhesItemInventario(item));
+            side.appendChild(detalhes);
 
             if (temToggle) {
                 const toggle = document.createElement("button");
@@ -18133,6 +18506,52 @@ function configurarTooltipsFicha() {
 configurarTooltipsFicha();
 
 </script>
+
+
+
+<!-- BETA — Editor detalhado do item do inventário -->
+<div id="inventoryDetailOverlay" class="compendium-overlay" aria-hidden="true"></div>
+<section id="inventoryDetailModal" class="inventory-detail-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryDetailTitle">
+  <div class="inventory-detail-head">
+    <h3 id="inventoryDetailTitle">Detalhes do item</h3>
+    <button id="inventoryDetailClose" class="add-button" type="button">Fechar</button>
+  </div>
+  <div class="inventory-detail-body">
+    <div class="inventory-detail-grid">
+      <div class="inventory-detail-field wide"><label for="inventoryDetailName">Nome</label><input id="inventoryDetailName" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailQuantity">Quantidade</label><input id="inventoryDetailQuantity" type="number" min="0" step="1"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailWeight">Peso unitário (kg)</label><input id="inventoryDetailWeight" type="number" min="0" step="0.01"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailCategory">Categoria</label><input id="inventoryDetailCategory" type="text" placeholder="Arma, Armadura, Consumível..."></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailSubtype">Subtipo</label><input id="inventoryDetailSubtype" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailPrice">Preço</label><input id="inventoryDetailPrice" type="number" min="0" step="0.01"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailCurrency">Moeda</label><input id="inventoryDetailCurrency" type="text" placeholder="T$, PO..."></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailSource">Fonte</label><input id="inventoryDetailSource" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailTags">Tags</label><input id="inventoryDetailTags" type="text" placeholder="marcial, corte, especial..."></div>
+      <div class="inventory-detail-field wide"><label for="inventoryDetailDescription">Descrição</label><textarea id="inventoryDetailDescription"></textarea></div>
+    </div>
+
+    <div id="inventoryDetailOrigin" class="inventory-detail-source" hidden></div>
+
+    <div class="inventory-detail-effects">
+      <div class="inventory-detail-effects-head">
+        <div>
+          <div class="inventory-detail-label">Efeitos mecânicos</div>
+          <small style="color:var(--muted)">Estes efeitos pertencem só a esta cópia do item na ficha.</small>
+        </div>
+        <button id="inventoryDetailAddEffect" class="add-button" type="button">+ Efeito</button>
+      </div>
+      <div id="inventoryDetailEffects"></div>
+    </div>
+
+    <div class="inventory-detail-actions">
+      <button id="inventoryDetailDelete" class="inventory-delete" type="button">Excluir item</button>
+      <div class="inventory-detail-actions-right">
+        <button id="inventoryDetailCancel" class="add-button" type="button">Cancelar</button>
+        <button id="inventoryDetailSave" class="add-button" type="button">Salvar alterações</button>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- BETA — Modal do Compêndio -->
 <div id="inventoryCompendiumOverlay" class="compendium-overlay" aria-hidden="true"></div>
