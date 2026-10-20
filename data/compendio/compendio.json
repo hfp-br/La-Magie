@@ -45,6 +45,30 @@
           "descricao": ""
         }
       ]
+    },
+    {
+      "id": "outro-item-gamer-fe1c2e50",
+      "nome": "outro item gamer",
+      "categoria": "aaaaa",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "fonte": "",
+      "pagina": null,
+      "tags": [],
+      "descricao": "teste gamer",
+      "efeitos": [
+        {
+          "tipo": "atributo",
+          "modo": "toggle",
+          "alvo": "",
+          "valor": "5",
+          "descricao": ""
+        }
+      ]
     }
   ]
 }
