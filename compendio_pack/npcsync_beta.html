@@ -17901,12 +17901,32 @@ async function adicionarItemDoCompendio(base) {
         effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : [])),
         weaponAttack: structuredClone(base.weaponAttack || base.ataqueArma || null)
     };
+    if (!Array.isArray(conteudo.inventario)) conteudo.inventario = [];
     conteudo.inventario.push(copia);
-    sincronizarAtaquesDeItensInventario();
+
+    // feedback imediato: o item aparece antes de qualquer recalculo secundario
     renderizarInventario();
-    updateSheet();
-    await salvarConteudo();
+    atualizarPesoInventario();
+
+    // evita multiplos cliques enquanto o salvamento acontece
     fecharCompendioInventario();
+
+    // um problema na sincronizacao do ataque nao pode impedir o item de ser salvo
+    try {
+        sincronizarAtaquesDeItensInventario();
+        renderizarAtaques();
+    } catch (error) {
+        console.error("Erro ao sincronizar ataque do item do Compendio:", error);
+    }
+
+    // salva primeiro; depois recalcula a ficha
+    await salvarConteudo();
+
+    try {
+        updateSheet();
+    } catch (error) {
+        console.error("Erro ao atualizar a ficha apos adicionar item:", error);
+    }
 }
 
 async function alternarItemInventario(item) {
@@ -18112,13 +18132,20 @@ function abrirDetalhesItemInventario(itemOrId) {
 
     const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
     inventoryDetailDraft = { effects: structuredClone(effects) };
-    renderizarEfeitosDetalhadosCompletos();
-    preencherEditorAtaqueArma(item);
 
+    // abre primeiro; assim o botao de tres pontos continua respondendo
+    // mesmo se algum campo opcional do editor tiver problema
     document.getElementById("inventoryDetailOverlay")?.classList.add("show");
     document.getElementById("inventoryDetailOverlay")?.setAttribute("aria-hidden", "false");
     document.getElementById("inventoryDetailModal")?.classList.add("show");
     document.getElementById("inventoryDetailModal")?.setAttribute("aria-hidden", "false");
+
+    try {
+        renderizarEfeitosDetalhadosCompletos();
+        preencherEditorAtaqueArma(item);
+    } catch (error) {
+        console.error("Erro ao preencher detalhes do item:", error);
+    }
 }
 
 async function salvarDetalhesItemInventario() {
@@ -18137,7 +18164,7 @@ async function salvarDetalhesItemInventario() {
         valor: Number(document.getElementById("inventoryDetailPrice")?.value || 0),
         moeda: document.getElementById("inventoryDetailCurrency")?.value.trim() || ""
     };
-    item.effects = structuredClone(inventoryDetailDraft?.effects || []);
+    item.effects = coletarEfeitosDetalhadosInventario();
     delete item.efeitos;
     coletarAtaqueArmaDetalhado(item);
     sincronizarAtaquesDeItensInventario();
@@ -18166,7 +18193,16 @@ function configurarDetalhesInventario() {
     document.getElementById("inventoryDetailOverlay")?.addEventListener("click", fecharDetalhesItemInventario);
     document.getElementById("inventoryDetailSave")?.addEventListener("click", salvarDetalhesItemInventario);
     document.getElementById("inventoryDetailDelete")?.addEventListener("click", excluirItemPelosDetalhes);
-    // O editor completo de efeitos já possui seu próprio botão + Efeito.
+
+    const addEffect = document.getElementById("inventoryDetailAddEffect");
+    if (addEffect) {
+        addEffect.style.display = "inline-flex";
+        addEffect.addEventListener("click", () => {
+            const vazio = document.querySelector("#inventoryDetailEffects .inventory-detail-empty-effects");
+            vazio?.remove();
+            adicionarLinhaEfeitoDetalhado({ tipo: "outro", modo: "always", alvo: "", valor: "", descricao: "" });
+        });
+    }
 }
 
 document.addEventListener("DOMContentLoaded", configurarDetalhesInventario);
