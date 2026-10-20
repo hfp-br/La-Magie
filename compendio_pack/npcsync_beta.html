@@ -17342,7 +17342,7 @@ function renderizarTodasFontesDeEfeito() {
 /* ============================================================
    BETA — COMPÊNDIO E EFEITOS DE ITENS
    ============================================================ */
-const INVENTORY_COMPENDIUM_URL = "./data/compendio/compendio.json";
+const INVENTORY_COMPENDIUM_URL = "https://drkcfrhjgkztdtneuofr.supabase.co/functions/v1/compendio-commit";
 let inventoryCompendiumCache = null;
 
 function normalizarModoEfeitoItem(effect) {
@@ -17450,18 +17450,29 @@ async function carregarCompendioInventario(force = false) {
 }
 
 function fecharCompendioInventario() {
-    document.getElementById("inventoryCompendiumOverlay")?.classList.remove("show");
-    document.getElementById("inventoryCompendiumModal")?.classList.remove("show");
-    document.getElementById("inventoryCompendiumModal")?.setAttribute("aria-hidden", "true");
+    const overlay = document.getElementById("inventoryCompendiumOverlay");
+    const modal = document.getElementById("inventoryCompendiumModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
 }
 
 async function abrirCompendioInventario() {
     const overlay = document.getElementById("inventoryCompendiumOverlay");
     const modal = document.getElementById("inventoryCompendiumModal");
     const results = document.getElementById("inventoryCompendiumResults");
-    overlay?.classList.add("show");
-    modal?.classList.add("show");
-    modal?.setAttribute("aria-hidden", "false");
+
+    if (!overlay || !modal || !results) {
+        console.error("Modal do Compêndio não encontrado na ficha beta.");
+        alert("Não foi possível abrir o Compêndio nesta versão da ficha.");
+        return;
+    }
+
+    overlay.classList.add("show");
+    overlay.setAttribute("aria-hidden", "false");
+    modal.classList.add("show");
+    modal.setAttribute("aria-hidden", "false");
     if (results) results.innerHTML = '<div class="compendium-empty">Carregando Compêndio…</div>';
     try {
         await carregarCompendioInventario(true);
@@ -18045,3 +18056,21 @@ function configurarTooltipsFicha() {
 configurarTooltipsFicha();
 
 </script>
+
+<!-- BETA — Modal do Compêndio -->
+<div id="inventoryCompendiumOverlay" class="compendium-overlay" aria-hidden="true"></div>
+<section id="inventoryCompendiumModal" class="compendium-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryCompendiumTitle">
+  <div class="compendium-modal-head">
+    <h3 id="inventoryCompendiumTitle">Adicionar do Compêndio</h3>
+    <button id="inventoryCompendiumClose" class="add-button" type="button">Fechar</button>
+  </div>
+  <div class="compendium-modal-tools">
+    <input id="inventoryCompendiumSearch" type="search" placeholder="Buscar item...">
+    <select id="inventoryCompendiumCategory">
+      <option value="">Todas as categorias</option>
+    </select>
+  </div>
+  <div id="inventoryCompendiumResults" class="compendium-results">
+    <div class="compendium-empty">Abra o Compêndio para carregar os itens.</div>
+  </div>
+</section>
