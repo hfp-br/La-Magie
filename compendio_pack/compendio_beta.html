@@ -7,6 +7,9 @@
 <style>
 :root{--bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--ink:#322619;--muted:#7d684d;--line:rgba(104,75,43,.35);--accent:#705233;--green:#546547;--red:#8f493d;--gold:#aa7735;--panel:rgba(255,250,237,.82)}
 *{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.22),transparent 25%),linear-gradient(155deg,var(--bg1),var(--bg2))}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{width:min(1220px,100%);margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px}.brand h1{margin:0;font-size:clamp(30px,4vw,46px)}.brand small{color:var(--muted)}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:rgba(255,248,228,.95);color:var(--ink)}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);color:var(--paper);border-color:#3d2b1d}.btn.danger{color:var(--red)}.btn[disabled]{opacity:.5;cursor:not-allowed}.pill{display:inline-flex;gap:7px;align-items:center;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,248,228,.92);font-size:12px;font-weight:bold;color:var(--muted)}.dot{width:8px;height:8px;border-radius:50%;background:#88745c}.pill.admin .dot{background:var(--green)}.sheet{overflow:hidden;border:1px solid rgba(79,52,28,.45);border-radius:18px;background:linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.08)),repeating-linear-gradient(7deg,rgba(98,65,32,.025) 0,rgba(98,65,32,.025) 1px,transparent 1px,transparent 5px),var(--paper);box-shadow:0 12px 34px rgba(50,32,14,.2)}.sheet:before{content:"";display:block;height:7px;background:linear-gradient(90deg,#3d2b1d,var(--gold),#3d2b1d)}.content{padding:22px}.toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 180px 180px auto;gap:10px;align-items:end;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.field{display:grid;gap:5px}.field label,.mini{font-size:10px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.58);color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--accent)}textarea{min-height:110px;resize:vertical}.summary{display:flex;justify-content:space-between;gap:12px;margin:15px 2px 10px;color:var(--muted);font-size:13px}.sync.saved{color:var(--green)}.sync.saving{color:var(--gold)}.sync.error{color:var(--red)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,248,228,.96);box-shadow:0 5px 16px rgba(50,32,14,.08)}.card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(50,32,14,.13)}.card h3{margin:0 0 6px;font-size:19px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.tag{padding:4px 7px;border:1px solid rgba(169,119,53,.28);border-radius:999px;background:rgba(169,119,53,.12);font-size:10px;font-weight:bold}.desc{font-size:13px;line-height:1.45;color:#514330;min-height:38px}.foot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px;padding-top:10px;border-top:1px dashed rgba(112,82,51,.22);font-size:12px;color:var(--muted)}.card-actions{display:flex;gap:6px}.card-actions .btn{padding:5px 8px;font-size:11px}.empty{grid-column:1/-1;padding:34px;text-align:center;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}.admin-only{display:none!important}body.is-admin .admin-only{display:inline-flex!important}.note{margin-top:18px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(169,119,53,.09);color:var(--muted);font-size:12px;line-height:1.5}.backdrop{position:fixed;inset:0;z-index:10000;background:rgba(35,24,14,.58);backdrop-filter:blur(3px);display:none}.backdrop.show{display:block}.drawer{position:fixed;z-index:10001;top:0;right:0;width:min(560px,100vw);height:100vh;overflow:auto;background:var(--paper);box-shadow:-18px 0 48px rgba(30,20,10,.28);transform:translateX(105%);transition:.2s}.drawer.show{transform:translateX(0)}.drawer-head{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:15px 18px;border-bottom:1px solid var(--line);background:rgba(246,237,215,.97)}.drawer-head h2{margin:0}.drawer-body{padding:18px}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{grid-column:1/-1}.effects{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}.effect-row{display:grid;grid-template-columns:130px 130px minmax(120px,1fr) 100px 34px;gap:8px;margin-top:8px;align-items:center}.login{position:fixed;z-index:10002;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 28px));padding:22px;border:1px solid rgba(79,52,28,.45);border-radius:14px;background:var(--paper);box-shadow:0 24px 70px rgba(40,25,10,.38);display:none}.login.show{display:block}.login h2{margin:0 0 7px}.login p{margin:0 0 16px;color:var(--muted);line-height:1.45}.login form{display:grid;gap:10px}.login-error{min-height:17px;color:var(--red);font-size:12px}@media(max-width:920px){.toolbar{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.effect-row{grid-template-columns:1fr 1fr}.effect-row .effect-delete{grid-column:2}.effect-row .effect-description{grid-column:1/-1}}@media(max-width:620px){body{padding:12px}.content{padding:14px}.toolbar,.grid,.editor-grid{grid-template-columns:1fr}.wide{grid-column:auto}.effect-row{grid-template-columns:1fr 34px}.effect-row select{grid-column:1/-1}}
+
+.weapon-editor{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
+.weapon-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.weapon-grid .wide{grid-column:1/-1}@media(max-width:620px){.weapon-grid{grid-template-columns:1fr}.weapon-grid .wide{grid-column:auto}}
 </style>
 </head>
 <body>
@@ -44,6 +47,18 @@
       <div class="field wide"><label>Descrição</label><textarea id="itemDescription"></textarea></div>
     </div>
     <div class="effects"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Efeitos</div><small style="color:var(--muted)">Dados que as fichas poderão interpretar.</small></div><button id="addEffect" class="btn">+ Efeito</button></div><div id="effects"></div></div>
+    <div id="weaponEditor" class="weapon-editor" hidden>
+      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
+      <div class="weapon-grid">
+        <div class="field wide"><label>Nome do ataque</label><input id="weaponName" placeholder="usa o nome do item se vazio"></div>
+        <div class="field"><label>Perícia</label><select id="weaponSkill"><option>Luta</option><option>Pontaria</option><option>Atletismo</option><option>Acrobacia</option></select></div>
+        <div class="field"><label>Atributo</label><select id="weaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
+        <div class="field"><label>Dano</label><input id="weaponDamage" placeholder="1d8"></div>
+        <div class="field"><label>Tipo de dano</label><input id="weaponDamageType" placeholder="Corte"></div>
+        <div class="field"><label>Margem de ameaça</label><input id="weaponThreat" type="number" min="1" max="20" value="20"></div>
+        <div class="field"><label>Crítico</label><input id="weaponCrit" type="number" min="1" value="2"></div>
+      </div>
+    </div>
     <div style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
   </div>
 </aside>
@@ -115,39 +130,50 @@ function renderEffects(effects,viewOnly=false){
   $("effects").innerHTML="";
   effects.forEach(e=>{
     const row=document.createElement("div");row.className="effect-row";
-    const tipo=e.tipo||e.type||"outro";
-    const modo=e.modo||e.mode||"always";
-    const alvo=e.alvo||e.target||e.skill||e.attribute||"";
-    const valor=e.valor??e.bonus??"";
-    const descricao=e.descricao||e.text||"";
+    const tipo=e.type||e.tipo||"skill";
+    const modo=e.mode||e.modo||"always";
+    const target=e.skill||e.stat||e.target||e.alvo||"";
+    let value="";
+    if(tipo==="attack") value=[e.bonusHit??0,e.bonusDamage??""].join(" | ");
+    else if(tipo==="spell") value=[e.dcBonus??0,e.attackBonus??0].join(" | ");
+    else value=e.bonus??e.valor??"";
+    const descricao=e.text||e.descricao||"";
+    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"]];
     row.innerHTML=`
-      <select class="effect-type" ${viewOnly?"disabled":""}>
-        ${[["ca","CA"],["pericia","Perícia"],["atributo","Atributo"],["pvmax","PV Máximo"],["pvporlevel","PV por nível"],["movimento","Movimento"],["carga","Peso carregável"],["ataque","Ataque"],["outro","Outro"]].map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}
-      </select>
-      <select class="effect-mode" ${viewOnly?"disabled":""}>
-        ${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}
-      </select>
-      <input class="effect-target" value="${esc(alvo)}" placeholder="Alvo (ex.: Furtividade, dex)" ${viewOnly?"disabled":""}>
-      <input class="effect-value" value="${esc(valor)}" placeholder="Valor" ${viewOnly?"disabled":""}>
+      <select class="effect-type" ${viewOnly?"disabled":""}>${options.map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}</select>
+      <select class="effect-mode" ${viewOnly?"disabled":""}>${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}</select>
+      <input class="effect-target" value="${esc(target)}" placeholder="Perícia / atributo / alvo" ${viewOnly?"disabled":""}>
+      <input class="effect-value" value="${esc(value)}" placeholder="Valor (ataque: acerto | dano; magia: CD | ataque)" ${viewOnly?"disabled":""}>
       ${viewOnly?"":'<button class="btn danger effect-delete">×</button>'}
-      <input class="effect-description" style="grid-column:1/-1" value="${esc(descricao)}" placeholder="Descrição opcional (ex.: somente contra mortos-vivos)" ${viewOnly?"disabled":""}>
+      <input class="effect-description" style="grid-column:1/-1" value="${esc(descricao)}" placeholder="Descrição opcional" ${viewOnly?"disabled":""}>
     `;
     if(!viewOnly)row.querySelector(".effect-delete").onclick=()=>row.remove();
     $("effects").appendChild(row)
   })
 }
 function collectEffectsFromEditor(){
-  return [...document.querySelectorAll(".effect-row")].map(r=>({
-    tipo:r.querySelector(".effect-type")?.value||"outro",
-    modo:r.querySelector(".effect-mode")?.value||"always",
-    alvo:r.querySelector(".effect-target")?.value.trim()||"",
-    valor:r.querySelector(".effect-value")?.value.trim()||"",
-    descricao:r.querySelector(".effect-description")?.value.trim()||""
-  })).filter(e=>e.valor||e.descricao)
+  return [...document.querySelectorAll(".effect-row")].map(r=>{
+    const type=r.querySelector(".effect-type")?.value||"skill";
+    const mode=r.querySelector(".effect-mode")?.value||"always";
+    const target=r.querySelector(".effect-target")?.value.trim()||"";
+    const raw=r.querySelector(".effect-value")?.value.trim()||"";
+    const text=r.querySelector(".effect-description")?.value.trim()||"";
+    const e={id:crypto.randomUUID(),type,modo:mode,mode,text,descricao:text};
+    if(type==="skill"){e.skill=target||"Iniciativa";e.bonus=Number(raw||0)}
+    else if(type==="attribute"){e.stat=target||"str";e.bonus=Number(raw||0)}
+    else if(["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)){e.bonus=Number(raw||0)}
+    else if(type==="attack"){const [h,d]=raw.split("|").map(v=>v.trim());e.bonusHit=Number(h||0);e.bonusDamage=d||""}
+    else if(type==="spell"){const [dc,atk]=raw.split("|").map(v=>v.trim());e.dcBonus=Number(dc||0);e.attackBonus=Number(atk||0)}
+    return e;
+  }).filter(e=>e.text||e.bonus||e.bonusHit||e.bonusDamage||e.dcBonus||e.attackBonus)
 }
-function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||[],viewOnly);document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
+function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return c==="arma"||c.startsWith("arma ")||c.includes("weapon")}
+function updateWeaponVisibility(){const w=$("weaponEditor");if(w)w.hidden=!isWeaponCategory()}
+function fillWeaponEditor(i,viewOnly){const w=i.weaponAttack||i.ataqueArma||{};$("weaponEnabled").checked=w.enabled!==false;$("weaponName").value=w.name||"";$("weaponSkill").value=w.skill||"Luta";$("weaponStat").value=w.stat||"str";$("weaponDamage").value=w.die||"1d6";$("weaponDamageType").value=w.type||"";$("weaponThreat").value=Number(w.threat??20);$("weaponCrit").value=Number(w.crit??2);updateWeaponVisibility();document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=viewOnly)}
+function collectWeapon(){if(!isWeaponCategory())return null;return{enabled:$("weaponEnabled").checked,name:$("weaponName").value.trim(),skill:$("weaponSkill").value||"Luta",stat:$("weaponStat").value||"str",die:$("weaponDamage").value.trim()||"1d6",type:$("weaponDamageType").value.trim(),threat:Number($("weaponThreat").value||20),crit:Number($("weaponCrit").value||2),allowedToggles:[]}}
+function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||i.effects||[],viewOnly);fillWeaponEditor(i,viewOnly);$("itemCategory").oninput=updateWeaponVisibility;document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);if(!viewOnly){$("itemCategory").disabled=false;document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=false)}$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
 function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
-function collect(){const efeitos=collectEffectsFromEditor();return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos}}
+function collect(){const efeitos=collectEffectsFromEditor();const weaponAttack=collectWeapon();return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack}}
 async function invokeCommit(body){
   if(!isAdmin)throw new Error("Acesso não autorizado.");
   const {data,error}=await sb.functions.invoke(COMMIT_FUNCTION,{body});

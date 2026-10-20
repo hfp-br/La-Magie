@@ -3661,6 +3661,145 @@ body.editing
 .inventory-effect-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 
 
+
+/* ============================================================
+   BETA — ITENS COM EFEITOS COMPLETOS + ARMAS GERANDO ATAQUES
+   ============================================================ */
+let inventoryDetailDraft = null;
+
+function itemInventarioEhArma(item) {
+    const categoria = String(item?.categoria || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+    return categoria === "arma" || categoria.startsWith("arma ") || categoria.includes("weapon");
+}
+
+function normalizarAtaqueArmaItem(item) {
+    const original = item?.weaponAttack || item?.ataqueArma || {};
+    return {
+        enabled: original.enabled !== false,
+        name: original.name || original.nome || "",
+        skill: original.skill || original.pericia || "Luta",
+        stat: original.stat || original.atributo || "str",
+        die: original.die || original.dano || "1d6",
+        type: original.type || original.tipoDano || "",
+        threat: Number(original.threat ?? original.margemAmeaca ?? 20) || 20,
+        crit: Number(original.crit ?? original.critico ?? 2) || 2,
+        allowedToggles: Array.isArray(original.allowedToggles) ? [...original.allowedToggles] : (Array.isArray(original.modificadores) ? [...original.modificadores] : [])
+    };
+}
+
+function sincronizarAtaquesDeItensInventario() {
+    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
+    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
+    let mudou = false;
+
+    const antes = conteudo.ataques.length;
+    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
+    if (conteudo.ataques.length !== antes) mudou = true;
+
+    (conteudo.inventario || []).forEach(item => {
+        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
+        const arma = itemInventarioEhArma(item);
+        const config = normalizarAtaqueArmaItem(item);
+
+        if (!arma || !config.enabled) {
+            if (existenteIndex >= 0) { conteudo.ataques.splice(existenteIndex, 1); mudou = true; }
+            return;
+        }
+
+        item.weaponAttack = config;
+        delete item.ataqueArma;
+
+        const attack = {
+            ...(existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : {}),
+            id: existenteIndex >= 0 ? conteudo.ataques[existenteIndex].id : criarId(),
+            sourceItemId: item.id,
+            sourceType: "inventoryWeapon",
+            name: config.name || item.nome || "Arma",
+            subtitle: item.subtipo || item.descricao || "Item do inventário",
+            skill: config.skill || "Luta",
+            stat: config.stat || "str",
+            die: config.die || "1d6",
+            type: config.type || "",
+            critMargin: Math.max(1, Math.min(20, Number(config.threat || 20))),
+            critMultiplier: Math.max(1, Number(config.crit || 2)),
+            allowedCombatToggles: [...(config.allowedToggles || [])],
+            effects: existenteIndex >= 0 && Array.isArray(conteudo.ataques[existenteIndex].effects) ? conteudo.ataques[existenteIndex].effects : []
+        };
+
+        if (existenteIndex >= 0) {
+            const anterior = JSON.stringify(conteudo.ataques[existenteIndex]);
+            const novo = JSON.stringify(attack);
+            if (anterior !== novo) { conteudo.ataques[existenteIndex] = attack; mudou = true; }
+        } else {
+            conteudo.ataques.push(attack);
+            mudou = true;
+        }
+    });
+
+    if (mudou) agendarSalvamentoConteudo();
+    return mudou;
+}
+
+function renderizarEfeitosDetalhadosCompletos() {
+    const root = document.getElementById("inventoryDetailEffects");
+    if (!root || !inventoryDetailDraft) return;
+    root.innerHTML = "";
+    root.appendChild(criarEditorEfeitosCaracteristica(inventoryDetailDraft, "inventarioDetalhado"));
+}
+
+function preencherEditorAtaqueArma(item) {
+    const secao = document.getElementById("inventoryDetailWeaponSection");
+    if (!secao) return;
+    const ehArma = itemInventarioEhArma(item);
+    secao.hidden = !ehArma;
+    if (!ehArma) return;
+
+    const config = normalizarAtaqueArmaItem(item);
+    const skill = document.getElementById("inventoryDetailWeaponSkill");
+    if (skill) {
+        skill.innerHTML = "";
+        pericias.forEach(([nome]) => { const o=document.createElement("option"); o.value=nome; o.textContent=nome; skill.appendChild(o); });
+        skill.value = config.skill;
+    }
+    document.getElementById("inventoryDetailWeaponEnabled").checked = config.enabled;
+    document.getElementById("inventoryDetailWeaponName").value = config.name || "";
+    document.getElementById("inventoryDetailWeaponStat").value = config.stat || "str";
+    document.getElementById("inventoryDetailWeaponDamage").value = config.die || "1d6";
+    document.getElementById("inventoryDetailWeaponDamageType").value = config.type || "";
+    document.getElementById("inventoryDetailWeaponThreat").value = config.threat || 20;
+    document.getElementById("inventoryDetailWeaponCrit").value = config.crit || 2;
+
+    const mods = document.getElementById("inventoryDetailWeaponModifiers");
+    if (mods) {
+        mods.innerHTML = "";
+        (conteudo.togglesCombate || []).forEach(toggle => {
+            const label=document.createElement("label");
+            const input=document.createElement("input");
+            input.type="checkbox"; input.value=toggle.id; input.checked=(config.allowedToggles || []).includes(toggle.id);
+            label.appendChild(input); label.appendChild(document.createTextNode(toggle.name || "Modificador")); mods.appendChild(label);
+        });
+        if (!(conteudo.togglesCombate || []).length) {
+            const vazio=document.createElement("small"); vazio.style.color="var(--muted)"; vazio.textContent="Nenhum modificador de combate criado na ficha."; mods.appendChild(vazio);
+        }
+    }
+}
+
+function coletarAtaqueArmaDetalhado(item) {
+    if (!itemInventarioEhArma(item)) { delete item.weaponAttack; delete item.ataqueArma; return; }
+    const selected = [...document.querySelectorAll("#inventoryDetailWeaponModifiers input[type=checkbox]:checked")].map(el => el.value);
+    item.weaponAttack = {
+        enabled: Boolean(document.getElementById("inventoryDetailWeaponEnabled")?.checked),
+        name: document.getElementById("inventoryDetailWeaponName")?.value.trim() || "",
+        skill: document.getElementById("inventoryDetailWeaponSkill")?.value || "Luta",
+        stat: document.getElementById("inventoryDetailWeaponStat")?.value || "str",
+        die: document.getElementById("inventoryDetailWeaponDamage")?.value.trim() || "1d6",
+        type: document.getElementById("inventoryDetailWeaponDamageType")?.value.trim() || "",
+        threat: Math.max(1, Math.min(20, Number(document.getElementById("inventoryDetailWeaponThreat")?.value || 20))),
+        crit: Math.max(1, Number(document.getElementById("inventoryDetailWeaponCrit")?.value || 2)),
+        allowedToggles: selected
+    };
+}
+
 /* ============================================================
    BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
    ============================================================ */
@@ -3769,6 +3908,10 @@ body.editing
     .inventory-detail-effect-remove{grid-column:2;justify-self:end;width:40px}
 }
 
+
+/* BETA — arma vinculada ao item */
+.inventory-weapon-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 6px;border-radius:999px;border:1px solid rgba(112,82,51,.24);font-size:10px;color:var(--muted)}
+.attack-source-item{opacity:.8;font-size:10px}
 </style>
 
 <div class="edit-mode-control">
@@ -8511,8 +8654,12 @@ async function excluirItemInventario(id) {
             item => item.id !== id
         );
 
+    if (Array.isArray(conteudo.ataques)) {
+        conteudo.ataques = conteudo.ataques.filter(attack => attack.sourceItemId !== id);
+    }
 
     renderizarInventario();
+    renderizarAtaques();
 
     await salvarConteudo();
 }
@@ -8951,6 +9098,7 @@ if (configUsesSlots) {
         renderizarEditorProgressaoSlots();
 
         renderizarInventario();
+        sincronizarAtaquesDeItensInventario();
 
         renderizarAtaques();
 
@@ -9525,6 +9673,8 @@ function limparReferenciasEfeitosAtaque() {
 
 function renderizarAtaques() {
 
+    sincronizarAtaquesDeItensInventario();
+
     const container =
         document.getElementById(
             "attacks"
@@ -9606,6 +9756,9 @@ function renderizarAtaques() {
                     placeholder="Corte"
                 >
 
+                <input class="attack-edit-threat" type="number" min="1" max="20" placeholder="Ameaça" title="Margem de ameaça">
+                <input class="attack-edit-crit" type="number" min="1" placeholder="Crítico" title="Multiplicador de crítico">
+
                 <button
                     class="attack-delete"
                     type="button"
@@ -9649,6 +9802,9 @@ function renderizarAtaques() {
                 element.querySelector(
                     ".attack-edit-type"
                 );
+
+            const threat = element.querySelector(".attack-edit-threat");
+            const crit = element.querySelector(".attack-edit-crit");
 
             const effectsContainer =
                 element.querySelector(
@@ -9786,6 +9942,21 @@ getAttackEffectDefinitions()
             type.value =
                 attack.type ?? "";
 
+            threat.value = Number(attack.critMargin ?? 20);
+            crit.value = Number(attack.critMultiplier ?? 2);
+
+
+            if (attack.sourceItemId) {
+                excluir.disabled = true;
+                excluir.title = "Este ataque é controlado pelo item do inventário";
+                [name, subtitle, skill, stat, die, type, threat, crit].forEach(el => { if (el) el.disabled = true; });
+                effectsContainer.innerHTML = "";
+                const note = document.createElement("small");
+                note.style.color = "var(--muted)";
+                const nomes = (conteudo.togglesCombate || []).filter(t => (attack.allowedCombatToggles || []).includes(t.id)).map(t => t.name);
+                note.textContent = nomes.length ? `Modificadores permitidos: ${nomes.join(", ")}` : "Sem modificadores condicionais permitidos";
+                effectsContainer.appendChild(note);
+            }
 
             /* ======================
                EVENTOS
@@ -9859,14 +10030,13 @@ getAttackEffectDefinitions()
             type.addEventListener(
                 "input",
                 () => {
-
-                    attack.type =
-                        type.value;
-
+                    attack.type = type.value;
                     agendarSalvamentoConteudo();
-
                 }
             );
+
+            threat.addEventListener("input", () => { attack.critMargin = Number(threat.value || 20); agendarSalvamentoConteudo(); });
+            crit.addEventListener("input", () => { attack.critMultiplier = Number(crit.value || 2); agendarSalvamentoConteudo(); });
 
 
             excluir.addEventListener(
@@ -9933,15 +10103,13 @@ getAttackEffectDefinitions()
 
 
                 <div class="attack-data">
+                    <span class="label">Tipo</span>
+                    <strong class="attack-type"></strong>
+                </div>
 
-                    <span class="label">
-                        Tipo
-                    </span>
-
-                    <strong
-                        class="attack-type"
-                    ></strong>
-
+                <div class="attack-data">
+                    <span class="label">Crítico</span>
+                    <strong class="attack-critical"></strong>
                 </div>
             `;
 
@@ -9977,6 +10145,13 @@ getAttackEffectDefinitions()
                 )
                 .textContent =
                 attack.type || "—";
+
+            const critEl = element.querySelector(".attack-critical");
+            if (critEl) {
+                const margem = Number(attack.critMargin ?? 20);
+                const multi = Number(attack.critMultiplier ?? 2);
+                critEl.textContent = `${margem === 20 ? "20" : `${margem}–20`}/×${multi}`;
+            }
 
         }
 
@@ -13231,32 +13406,20 @@ async function excluirAtaque(id) {
      UPDATE PRINCIPAL
      ============================================================ */
 function getAttackEffects(attack) {
+    const definitions = getAttackEffectDefinitions();
 
-    const ids =
-        Array.isArray(
-            attack.effects
-        )
-            ? attack.effects
-            : [];
-
-
-    return getAttackEffectDefinitions()
-        .filter(effect => {
-
-            if (
-                !ids.includes(
-                    effect.id
-                )
-            ) {
-                return false;
-            }
-
-
-            return efeitoEstaAtivo(
-                effect
-            );
-
+    // Ataques gerados por armas usam os modificadores de combate permitidos
+    // no próprio item. Efeitos de ataque sempre ativos valem automaticamente.
+    if (attack?.sourceItemId) {
+        const permitidos = new Set(Array.isArray(attack.allowedCombatToggles) ? attack.allowedCombatToggles : []);
+        return definitions.filter(effect => {
+            if (effect.requiresToggle && !permitidos.has(effect.requiresToggle)) return false;
+            return efeitoEstaAtivo(effect);
         });
+    }
+
+    const ids = Array.isArray(attack.effects) ? attack.effects : [];
+    return definitions.filter(effect => ids.includes(effect.id) && efeitoEstaAtivo(effect));
 }
 
 
@@ -14772,6 +14935,11 @@ function getAttackEffectDefinitions() {
 function renderizarFonteEfeito(
     tipo
 ) {
+
+    if (tipo === "inventarioDetalhado") {
+        renderizarEfeitosDetalhadosCompletos();
+        return;
+    }
 
     if (
         tipo ===
@@ -16837,7 +17005,8 @@ function converterEfeitoItem(effect, item) {
         converted.bonus = bonus;
     }
     if (type === "attribute") {
-        converted.attribute = effect?.attribute ?? target;
+        converted.stat = (effect?.stat ?? effect?.attribute ?? target) || "str";
+        converted.attribute = converted.stat;
         converted.bonus = bonus;
     }
     return converted;
@@ -17041,9 +17210,11 @@ async function adicionarItemDoCompendio(base) {
         tags: structuredClone(Array.isArray(base.tags) ? base.tags : []),
         preco: structuredClone(base.preco || { valor: 0, moeda: "" }),
         ativo: false,
-        effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : []))
+        effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : [])),
+        weaponAttack: structuredClone(base.weaponAttack || base.ataqueArma || null)
     };
     conteudo.inventario.push(copia);
+    sincronizarAtaquesDeItensInventario();
     renderizarInventario();
     updateSheet();
     await salvarConteudo();
@@ -17207,6 +17378,7 @@ function coletarEfeitosDetalhadosInventario() {
 
 function fecharDetalhesItemInventario() {
     inventoryDetailItemId = null;
+    inventoryDetailDraft = null;
     const overlay = document.getElementById("inventoryDetailOverlay");
     const modal = document.getElementById("inventoryDetailModal");
     overlay?.classList.remove("show");
@@ -17233,6 +17405,12 @@ function abrirDetalhesItemInventario(itemOrId) {
     document.getElementById("inventoryDetailTags").value = Array.isArray(item.tags) ? item.tags.join(", ") : "";
     document.getElementById("inventoryDetailDescription").value = item.descricao ?? "";
 
+    const categoryInput = document.getElementById("inventoryDetailCategory");
+    categoryInput.oninput = () => {
+        const fake = { ...item, categoria: categoryInput.value };
+        preencherEditorAtaqueArma(fake);
+    };
+
     const origin = document.getElementById("inventoryDetailOrigin");
     if (origin) {
         if (item.compendioId) {
@@ -17244,10 +17422,10 @@ function abrirDetalhesItemInventario(itemOrId) {
         }
     }
 
-    const effectsRoot = document.getElementById("inventoryDetailEffects");
-    if (effectsRoot) effectsRoot.innerHTML = "";
     const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
-    effects.forEach(adicionarLinhaEfeitoDetalhado);
+    inventoryDetailDraft = { effects: structuredClone(effects) };
+    renderizarEfeitosDetalhadosCompletos();
+    preencherEditorAtaqueArma(item);
 
     document.getElementById("inventoryDetailOverlay")?.classList.add("show");
     document.getElementById("inventoryDetailOverlay")?.setAttribute("aria-hidden", "false");
@@ -17271,8 +17449,10 @@ async function salvarDetalhesItemInventario() {
         valor: Number(document.getElementById("inventoryDetailPrice")?.value || 0),
         moeda: document.getElementById("inventoryDetailCurrency")?.value.trim() || ""
     };
-    item.effects = coletarEfeitosDetalhadosInventario();
+    item.effects = structuredClone(inventoryDetailDraft?.effects || []);
     delete item.efeitos;
+    coletarAtaqueArmaDetalhado(item);
+    sincronizarAtaquesDeItensInventario();
 
     renderizarInventario();
     atualizarPesoInventario();
@@ -17298,7 +17478,7 @@ function configurarDetalhesInventario() {
     document.getElementById("inventoryDetailOverlay")?.addEventListener("click", fecharDetalhesItemInventario);
     document.getElementById("inventoryDetailSave")?.addEventListener("click", salvarDetalhesItemInventario);
     document.getElementById("inventoryDetailDelete")?.addEventListener("click", excluirItemPelosDetalhes);
-    document.getElementById("inventoryDetailAddEffect")?.addEventListener("click", () => adicionarLinhaEfeitoDetalhado({ tipo:"outro", modo:"always", valor:"", descricao:"" }));
+    // O editor completo de efeitos já possui seu próprio botão + Efeito.
 }
 
 document.addEventListener("DOMContentLoaded", configurarDetalhesInventario);
@@ -17362,6 +17542,9 @@ function renderizarInventario() {
                 const q = document.createElement("span"); q.textContent = `×${quantidade}`; nameLine.appendChild(q);
             }
             main.appendChild(nameLine);
+            if (itemInventarioEhArma(item)) {
+                const badge=document.createElement("span"); badge.className="inventory-weapon-badge"; badge.textContent="⚔ gera ataque"; main.appendChild(badge);
+            }
 
             if (item.descricao) {
                 const desc = document.createElement("div");
@@ -17914,13 +18097,36 @@ configurarTooltipsFicha();
 
     <div id="inventoryDetailOrigin" class="inventory-detail-source" hidden></div>
 
+    <div id="inventoryDetailWeaponSection" class="inventory-detail-effects" hidden>
+      <div class="inventory-detail-effects-head">
+        <div>
+          <div class="inventory-detail-label">Ataque da arma</div>
+          <small style="color:var(--muted)">Itens da categoria Arma podem criar e manter um ataque automaticamente.</small>
+        </div>
+        <label style="display:flex;gap:7px;align-items:center;font-size:12px"><input id="inventoryDetailWeaponEnabled" type="checkbox" checked> Criar ataque</label>
+      </div>
+      <div class="inventory-detail-grid" style="margin-top:10px">
+        <div class="inventory-detail-field wide"><label for="inventoryDetailWeaponName">Nome do ataque</label><input id="inventoryDetailWeaponName" type="text" placeholder="Usa o nome do item se ficar vazio"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponSkill">Perícia</label><select id="inventoryDetailWeaponSkill"></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponStat">Atributo</label><select id="inventoryDetailWeaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamage">Dano</label><input id="inventoryDetailWeaponDamage" type="text" placeholder="1d8"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageType">Tipo de dano</label><input id="inventoryDetailWeaponDamageType" type="text" placeholder="Corte"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponThreat">Margem de ameaça</label><input id="inventoryDetailWeaponThreat" type="number" min="1" max="20" value="20"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponCrit">Crítico</label><input id="inventoryDetailWeaponCrit" type="number" min="1" step="1" value="2"></div>
+        <div class="inventory-detail-field wide">
+          <label>Modificadores de combate permitidos neste ataque</label>
+          <div id="inventoryDetailWeaponModifiers" class="attack-editor-options" style="margin-top:4px"></div>
+        </div>
+      </div>
+    </div>
+
     <div class="inventory-detail-effects">
       <div class="inventory-detail-effects-head">
         <div>
           <div class="inventory-detail-label">Efeitos mecânicos</div>
           <small style="color:var(--muted)">Estes efeitos pertencem só a esta cópia do item na ficha.</small>
         </div>
-        <button id="inventoryDetailAddEffect" class="add-button" type="button">+ Efeito</button>
+        <button id="inventoryDetailAddEffect" class="add-button" type="button" style="display:none">+ Efeito</button>
       </div>
       <div id="inventoryDetailEffects"></div>
     </div>
