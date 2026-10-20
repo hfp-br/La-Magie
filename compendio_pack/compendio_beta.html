@@ -10,6 +10,9 @@
 
 .weapon-editor{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
 .weapon-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.weapon-grid .wide{grid-column:1/-1}@media(max-width:620px){.weapon-grid{grid-template-columns:1fr}.weapon-grid .wide{grid-column:auto}}
+
+.comp-advanced{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
+.comp-resource-row{display:grid;grid-template-columns:1fr 80px 80px auto auto 34px;gap:7px;align-items:center;margin-top:7px}.comp-resource-row label{font-size:10px;color:var(--muted);display:flex;gap:4px;align-items:center}@media(max-width:700px){.comp-resource-row{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -48,7 +51,7 @@
     </div>
     <div class="effects"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Efeitos</div><small style="color:var(--muted)">Dados que as fichas poderão interpretar.</small></div><button id="addEffect" class="btn">+ Efeito</button></div><div id="effects"></div></div>
     <div id="weaponEditor" class="weapon-editor" hidden>
-      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado. Os modificadores de combate permitidos são escolhidos depois, na cópia do item dentro da ficha.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
       <div class="weapon-grid">
         <div class="field wide"><label>Nome do ataque</label><input id="weaponName" placeholder="usa o nome do item se vazio"></div>
         <div class="field"><label>Perícia</label><select id="weaponSkill"><option>Luta</option><option>Pontaria</option><option>Atletismo</option><option>Acrobacia</option></select></div>
@@ -57,7 +60,30 @@
         <div class="field"><label>Tipo de dano</label><input id="weaponDamageType" placeholder="Corte"></div>
         <div class="field"><label>Margem de ameaça</label><input id="weaponThreat" type="number" min="1" max="20" value="20"></div>
         <div class="field"><label>Crítico</label><input id="weaponCrit" type="number" min="1" value="2"></div>
+        <div class="field"><label>Bônus próprio no acerto</label><input id="weaponHitBonus" type="number" step="1" value="0"></div>
+        <div class="field"><label>Bônus próprio no dano</label><input id="weaponDamageBonus" placeholder="2, 1d6, -1..."></div>
+        <div class="field"><label>Alcance</label><input id="weaponRange" placeholder="Corpo a corpo, 9 m..."></div>
+        <div class="field"><label>Mãos</label><input id="weaponHands" placeholder="1, 2, versátil..."></div>
+        <div class="field"><label>Munição</label><input id="weaponAmmo"></div>
+        <div class="field"><label>Recarga</label><input id="weaponReload"></div>
+        <div class="field wide"><label>Propriedades / observações</label><input id="weaponProperties"></div>
       </div>
+    </div>
+    <div class="comp-advanced">
+      <div class="mini">Consumível</div>
+      <div class="editor-grid" style="margin-top:8px">
+        <label class="field"><span class="mini">Ativo</span><span><input id="consumableEnabled" type="checkbox"> botão Usar</span></label>
+        <div class="field"><label>Quantidade por uso</label><input id="consumableAmount" type="number" min="1" value="1"></div>
+        <div class="field wide"><label>Texto do botão</label><input id="consumableLabel" placeholder="Usar"></div>
+      </div>
+    </div>
+    <div class="comp-advanced">
+      <div class="mini">Resistências e imunidades</div>
+      <div class="editor-grid" style="margin-top:8px"><div class="field wide"><label>Resistências</label><textarea id="itemResistances"></textarea></div><div class="field wide"><label>Imunidades</label><textarea id="itemImmunities"></textarea></div></div>
+    </div>
+    <div class="comp-advanced">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><div><div class="mini">Recursos do item</div><small style="color:var(--muted)">Cargas, energia, munição especial etc.</small></div><button id="addItemResource" class="btn" type="button">+ Recurso</button></div>
+      <div id="itemResources"></div>
     </div>
     <div style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
   </div>
@@ -138,7 +164,7 @@ function renderEffects(effects,viewOnly=false){
     else if(tipo==="spell") value=[e.dcBonus??0,e.attackBonus??0].join(" | ");
     else value=e.bonus??e.valor??"";
     const descricao=e.text||e.descricao||"";
-    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"],["other","Outro"]];
+    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"]];
     row.innerHTML=`
       <select class="effect-type" ${viewOnly?"disabled":""}>${options.map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}</select>
       <select class="effect-mode" ${viewOnly?"disabled":""}>${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}</select>
@@ -164,30 +190,33 @@ function collectEffectsFromEditor(){
     else if(["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)){e.bonus=Number(raw||0)}
     else if(type==="attack"){const [h,d]=raw.split("|").map(v=>v.trim());e.bonusHit=Number(h||0);e.bonusDamage=d||""}
     else if(type==="spell"){const [dc,atk]=raw.split("|").map(v=>v.trim());e.dcBonus=Number(dc||0);e.attackBonus=Number(atk||0)}
-    else if(type==="other"){e.target=target;e.valor=raw}
     return e;
   }).filter(e=>e.text||e.bonus||e.bonusHit||e.bonusDamage||e.dcBonus||e.attackBonus)
 }
 function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return /^armas?(\s|$)/.test(c)||c.includes("weapon")}
 function updateWeaponVisibility(){const w=$("weaponEditor");if(w)w.hidden=!isWeaponCategory()}
-function fillWeaponEditor(i,viewOnly){const w=i.weaponAttack||i.ataqueArma||{};$("weaponEnabled").checked=w.enabled!==false;$("weaponName").value=w.name||"";$("weaponSkill").value=w.skill||"Luta";$("weaponStat").value=w.stat||"str";$("weaponDamage").value=w.die||"1d6";$("weaponDamageType").value=w.type||"";$("weaponThreat").value=Number(w.threat??20);$("weaponCrit").value=Number(w.crit??2);updateWeaponVisibility();document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=viewOnly)}
+function fillWeaponEditor(i,viewOnly){
+  const w=i.weaponAttack||i.ataqueArma||{};
+  $("weaponEnabled").checked=w.enabled!==false;$("weaponName").value=w.name||"";$("weaponSkill").value=w.skill||"Luta";$("weaponStat").value=w.stat||"str";$("weaponDamage").value=w.die||"1d6";$("weaponDamageType").value=w.type||"";$("weaponThreat").value=Number(w.threat??20);$("weaponCrit").value=Number(w.crit??2);
+  $("weaponHitBonus").value=Number(w.hitBonus??w.bonusHit??0);$("weaponDamageBonus").value=w.damageBonus??w.bonusDamage??"";$("weaponRange").value=w.range??w.alcance??"";$("weaponHands").value=w.hands??w.maos??"";$("weaponAmmo").value=w.ammo??w.municao??"";$("weaponReload").value=w.reload??w.recarga??"";$("weaponProperties").value=w.properties??w.propriedades??"";
+  updateWeaponVisibility();document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=viewOnly)
+}
 function collectWeapon(){
   if(!isWeaponCategory())return null;
-  return{
-    enabled:Boolean($("weaponEnabled").checked),
-    name:$("weaponName").value.trim(),
-    skill:$("weaponSkill").value||"Luta",
-    stat:$("weaponStat").value||"str",
-    die:$("weaponDamage").value.trim()||"1d6",
-    type:$("weaponDamageType").value.trim(),
-    threat:Math.max(1,Math.min(20,Number($("weaponThreat").value||20))),
-    crit:Math.max(1,Number($("weaponCrit").value||2)),
-    allowedToggles:[]
-  }
+  return{enabled:Boolean($("weaponEnabled").checked),name:$("weaponName").value.trim(),skill:$("weaponSkill").value||"Luta",stat:$("weaponStat").value||"str",die:$("weaponDamage").value.trim()||"1d6",type:$("weaponDamageType").value.trim(),threat:Math.max(1,Math.min(20,Number($("weaponThreat").value||20))),crit:Math.max(1,Number($("weaponCrit").value||2)),hitBonus:Number($("weaponHitBonus").value||0),damageBonus:$("weaponDamageBonus").value.trim(),range:$("weaponRange").value.trim(),hands:$("weaponHands").value.trim(),ammo:$("weaponAmmo").value.trim(),reload:$("weaponReload").value.trim(),properties:$("weaponProperties").value.trim(),allowedToggles:[]}
 }
-function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||i.effects||[],viewOnly);fillWeaponEditor(i,viewOnly);$("itemCategory").oninput=updateWeaponVisibility;document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);if(!viewOnly){$("itemCategory").disabled=false;document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=false)}$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
+
+let compendiumResourceDraft=[];
+function renderCompendiumResources(list=compendiumResourceDraft,viewOnly=false){compendiumResourceDraft=structuredClone(Array.isArray(list)?list:[]);const root=$("itemResources");if(!root)return;root.innerHTML="";compendiumResourceDraft.forEach(r=>{const row=document.createElement("div");row.className="comp-resource-row";row.dataset.id=r.id||crypto.randomUUID();row.innerHTML=`<input class="r-name" placeholder="Nome"><input class="r-current" type="number" min="0" placeholder="Atual"><input class="r-max" type="number" min="0" placeholder="Máx"><label><input class="r-normal" type="checkbox"> Ficha</label><label><input class="r-combat" type="checkbox"> Combate</label>${viewOnly?"":'<button class="btn danger r-del" type="button">×</button>'}`;row.querySelector(".r-name").value=r.name||"";row.querySelector(".r-current").value=Number(r.current??0);row.querySelector(".r-max").value=r.max==null?"":Number(r.max);row.querySelector(".r-normal").checked=r.showNormal!==false;row.querySelector(".r-combat").checked=r.showCombat!==false;row.querySelectorAll("input").forEach(el=>el.disabled=viewOnly);row.querySelector(".r-del")?.addEventListener("click",()=>row.remove());root.appendChild(row)});if(!compendiumResourceDraft.length)root.innerHTML='<small style="color:var(--muted)">Nenhum recurso configurado.</small>'}
+function collectCompendiumResources(){return [...document.querySelectorAll("#itemResources .comp-resource-row")].map(row=>({id:row.dataset.id||crypto.randomUUID(),name:row.querySelector(".r-name")?.value.trim()||"Recurso",current:Number(row.querySelector(".r-current")?.value||0),max:row.querySelector(".r-max")?.value===""?null:Number(row.querySelector(".r-max")?.value||0),showNormal:Boolean(row.querySelector(".r-normal")?.checked),showCombat:Boolean(row.querySelector(".r-combat")?.checked)}))}
+function fillAdvancedCompendium(i,viewOnly){const c=i.consumable||i.consumivel||{};$("consumableEnabled").checked=Boolean(c.enabled??false);$("consumableAmount").value=Math.max(1,Number(c.amountPerUse??1));$("consumableLabel").value=c.label||"Usar";const d=i.defenses||i.defesas||{};$("itemResistances").value=d.resistances??d.resistencias??"";$("itemImmunities").value=d.immunities??d.imunidades??"";renderCompendiumResources(i.resources||i.recursos||[],viewOnly);["consumableEnabled","consumableAmount","consumableLabel","itemResistances","itemImmunities"].forEach(id=>$(id).disabled=viewOnly);$("addItemResource").style.display=viewOnly?"none":""}
+
+function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||i.effects||[],viewOnly);fillWeaponEditor(i,viewOnly);fillAdvancedCompendium(i,viewOnly);$("itemCategory").oninput=updateWeaponVisibility;document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);if(!viewOnly){$("itemCategory").disabled=false;document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=false)}$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
 function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
-function collect(){const efeitos=collectEffectsFromEditor();const weaponAttack=collectWeapon();return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack}}
+function collect(){
+  const efeitos=collectEffectsFromEditor();const weaponAttack=collectWeapon();
+  return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack,consumable:{enabled:Boolean($("consumableEnabled").checked),amountPerUse:Math.max(1,Number($("consumableAmount").value||1)),label:$("consumableLabel").value.trim()||"Usar"},defenses:{resistances:$("itemResistances").value.trim(),immunities:$("itemImmunities").value.trim()},resources:collectCompendiumResources()}
+}
 async function invokeCommit(body){
   if(!isAdmin)throw new Error("Acesso não autorizado.");
   const {data,error}=await sb.functions.invoke(COMMIT_FUNCTION,{body});
@@ -251,7 +280,7 @@ async function logout(){
   await sb.auth.signOut();
   setAdmin(false);
 }
-$("search").oninput=render;$("category").onchange=render;$("source").onchange=render;$("newBtn").onclick=()=>openDrawer(emptyItem());$("closeDrawer").onclick=closeDrawer;$("cancelBtn").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("addEffect").onclick=()=>{const current=collectEffectsFromEditor();current.push({tipo:"ca",modo:"toggle",alvo:"",valor:"0",descricao:""});renderEffects(current)};$("saveBtn").onclick=save;$("deleteBtn").onclick=removeItem;$("loginBtn").onclick=showLogin;$("cancelLogin").onclick=hideLogin;$("loginBackdrop").onclick=hideLogin;$("logoutBtn").onclick=logout;$("loginForm").onsubmit=async e=>{e.preventDefault();$("loginError").textContent="Entrando…";try{await doLogin($("username").value.trim(),$("password").value);$("password").value="";hideLogin()}catch(err){$("loginError").textContent=err.message}};document.onkeydown=e=>{if(e.key==="Escape"){hideLogin();closeDrawer()}};
+$("search").oninput=render;$("category").onchange=render;$("source").onchange=render;$("newBtn").onclick=()=>openDrawer(emptyItem());$("closeDrawer").onclick=closeDrawer;$("cancelBtn").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("addEffect").onclick=()=>{const current=collectEffectsFromEditor();current.push({tipo:"ca",modo:"toggle",alvo:"",valor:"0",descricao:""});renderEffects(current)};$("addItemResource").onclick=()=>{const current=collectCompendiumResources();current.push({id:crypto.randomUUID(),name:"",current:0,max:null,showNormal:true,showCombat:true});renderCompendiumResources(current,false)};$("saveBtn").onclick=save;$("deleteBtn").onclick=removeItem;$("loginBtn").onclick=showLogin;$("cancelLogin").onclick=hideLogin;$("loginBackdrop").onclick=hideLogin;$("logoutBtn").onclick=logout;$("loginForm").onsubmit=async e=>{e.preventDefault();$("loginError").textContent="Entrando…";try{await doLogin($("username").value.trim(),$("password").value);$("password").value="";hideLogin()}catch(err){$("loginError").textContent=err.message}};document.onkeydown=e=>{if(e.key==="Escape"){hideLogin();closeDrawer()}};
 sb.auth.onAuthStateChange(()=>{checkSession()});
 (async()=>{setAdmin(false);await Promise.all([loadItems(),checkSession()])})();
 </script>

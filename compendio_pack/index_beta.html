@@ -8485,7 +8485,11 @@ function adicionarItemInventario() {
 
         ativo: false,
 
-        effects: []
+        effects: [],
+        estado: "normal",
+        consumable: { enabled: false, amountPerUse: 1, label: "Usar" },
+        defenses: { resistances: "", immunities: "" },
+        resources: []
 
     });
 
@@ -17257,7 +17261,11 @@ async function adicionarItemDoCompendio(base) {
         preco: structuredClone(base.preco || { valor: 0, moeda: "" }),
         ativo: false,
         effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : [])),
-        weaponAttack: structuredClone(base.weaponAttack || base.ataqueArma || null)
+        weaponAttack: structuredClone(base.weaponAttack || base.ataqueArma || null),
+        estado: "normal",
+        consumable: structuredClone(base.consumable || base.consumivel || { enabled: false, amountPerUse: 1, label: "Usar" }),
+        defenses: structuredClone(base.defenses || base.defesas || { resistances: "", immunities: "" }),
+        resources: (Array.isArray(base.resources) ? base.resources : (Array.isArray(base.recursos) ? base.recursos : [])).map(resource => ({ ...structuredClone(resource), id: criarId() }))
     };
 
     if (!Array.isArray(conteudo.inventario)) conteudo.inventario = [];
@@ -18160,6 +18168,29 @@ configurarTooltipsFicha();
 
 
 
+
+<style>
+/* ============================================================
+   BETA — ITENS AVANÇADOS DO INVENTÁRIO
+   ============================================================ */
+.inventory-advanced-section{margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.18)}
+.inventory-advanced-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
+.inventory-advanced-label{font-size:11px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.inventory-state-badge,.inventory-meta-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border:1px solid rgba(112,82,51,.28);border-radius:999px;background:rgba(169,119,53,.09);font-size:10px;color:var(--muted);margin:3px 5px 0 0}
+.inventory-state-badge.broken{color:var(--red);border-color:rgba(143,73,61,.45);background:rgba(143,73,61,.08)}
+.inventory-state-badge.disabled{color:var(--gold)}
+.inventory-use-button{padding:5px 9px;border:1px solid var(--sand-3);border-radius:8px;background:var(--panel-strong);color:var(--ink);font-size:11px;font-weight:bold;cursor:pointer}
+.inventory-use-button:disabled{opacity:.45;cursor:not-allowed}
+.inventory-item-resource-row{display:grid;grid-template-columns:minmax(120px,1.2fr) 75px 75px auto auto 34px;gap:7px;align-items:center;padding:7px 0;border-bottom:1px dashed rgba(112,82,51,.18)}
+.inventory-item-resource-row input{min-width:0}
+.inventory-item-resource-check{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted)}
+.item-defense-display{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 0}
+.item-defense-chip{padding:6px 9px;border:1px solid rgba(112,82,51,.3);border-radius:999px;background:rgba(255,248,228,.72);font-size:11px}
+.item-defense-chip strong{margin-right:4px}
+.item-resource-source{display:block;margin-top:4px;color:var(--muted);font-size:10px}
+@media(max-width:760px){.inventory-item-resource-row{grid-template-columns:1fr 1fr}.inventory-item-resource-row>*:last-child{grid-column:2}}
+</style>
+
 <!-- BETA — Editor detalhado do item do inventário -->
 <div id="inventoryDetailOverlay" class="compendium-overlay" aria-hidden="true"></div>
 <section id="inventoryDetailModal" class="inventory-detail-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryDetailTitle">
@@ -18199,11 +18230,44 @@ configurarTooltipsFicha();
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageType">Tipo de dano</label><input id="inventoryDetailWeaponDamageType" type="text" placeholder="Corte"></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponThreat">Margem de ameaça</label><input id="inventoryDetailWeaponThreat" type="number" min="1" max="20" value="20"></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponCrit">Crítico</label><input id="inventoryDetailWeaponCrit" type="number" min="1" step="1" value="2"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponHitBonus">Bônus próprio no acerto</label><input id="inventoryDetailWeaponHitBonus" type="number" step="1" value="0"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageBonus">Bônus próprio no dano</label><input id="inventoryDetailWeaponDamageBonus" type="text" placeholder="2, 1d6, -1..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponRange">Alcance</label><input id="inventoryDetailWeaponRange" type="text" placeholder="Corpo a corpo, 9 m, 18/36 m..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponHands">Mãos</label><input id="inventoryDetailWeaponHands" type="text" placeholder="1, 2, versátil..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponAmmo">Munição</label><input id="inventoryDetailWeaponAmmo" type="text" placeholder="Flechas, virotes, nenhuma..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponReload">Recarga</label><input id="inventoryDetailWeaponReload" type="text" placeholder="Livre, movimento, 1 ação..."></div>
+        <div class="inventory-detail-field wide"><label for="inventoryDetailWeaponProperties">Propriedades / observações</label><input id="inventoryDetailWeaponProperties" type="text" placeholder="Leve, pesada, alcance, especial..."></div>
+
         <div class="inventory-detail-field wide">
           <label>Modificadores de combate permitidos neste ataque</label>
           <div id="inventoryDetailWeaponModifiers" class="attack-editor-options" style="margin-top:4px"></div>
         </div>
       </div>
+    </div>
+
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div class="inventory-advanced-label">Estado e uso</div></div>
+      <div class="inventory-detail-grid">
+        <div class="inventory-detail-field"><label for="inventoryDetailState">Estado</label><select id="inventoryDetailState"><option value="normal">Normal</option><option value="disabled">Desativado</option><option value="broken">Quebrado</option></select></div>
+        <div class="inventory-detail-field"><label>Consumível</label><label style="display:flex;gap:7px;align-items:center"><input id="inventoryDetailConsumableEnabled" type="checkbox"> Possui botão Usar</label></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailConsumableAmount">Quantidade gasta por uso</label><input id="inventoryDetailConsumableAmount" type="number" min="1" step="1" value="1"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailConsumableLabel">Texto do botão</label><input id="inventoryDetailConsumableLabel" type="text" placeholder="Usar"></div>
+      </div>
+      <small style="color:var(--muted)">Usar reduz a quantidade. O efeito do consumo continua livre/manual, usando os efeitos "Ao usar" como referência.</small>
+    </div>
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div class="inventory-advanced-label">Resistências e imunidades</div><small style="color:var(--muted)">Somente display em Combate; não altera cálculos.</small></div>
+      <div class="inventory-detail-grid">
+        <div class="inventory-detail-field wide"><label for="inventoryDetailResistances">Resistências</label><textarea id="inventoryDetailResistances" placeholder="Fogo 5, frio 2..."></textarea></div>
+        <div class="inventory-detail-field wide"><label for="inventoryDetailImmunities">Imunidades</label><textarea id="inventoryDetailImmunities" placeholder="Veneno, doença..."></textarea></div>
+      </div>
+    </div>
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div><div class="inventory-advanced-label">Recursos do item</div><small style="color:var(--muted)">Cargas, munição especial, energia, usos por cena etc.</small></div><button id="inventoryDetailAddResource" class="add-button" type="button">+ Recurso</button></div>
+      <div id="inventoryDetailResources"></div>
     </div>
 
     <div class="inventory-detail-effects">
