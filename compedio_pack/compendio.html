@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compêndio — La Magie</title>
+<style>
+:root{--bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--ink:#322619;--muted:#7d684d;--line:rgba(104,75,43,.35);--accent:#705233;--green:#546547;--red:#8f493d;--gold:#aa7735;--panel:rgba(255,250,237,.82)}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.22),transparent 25%),linear-gradient(155deg,var(--bg1),var(--bg2))}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{width:min(1220px,100%);margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px}.brand h1{margin:0;font-size:clamp(30px,4vw,46px)}.brand small{color:var(--muted)}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:rgba(255,248,228,.95);color:var(--ink)}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);color:var(--paper);border-color:#3d2b1d}.btn.danger{color:var(--red)}.btn[disabled]{opacity:.5;cursor:not-allowed}.pill{display:inline-flex;gap:7px;align-items:center;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,248,228,.92);font-size:12px;font-weight:bold;color:var(--muted)}.dot{width:8px;height:8px;border-radius:50%;background:#88745c}.pill.admin .dot{background:var(--green)}.sheet{overflow:hidden;border:1px solid rgba(79,52,28,.45);border-radius:18px;background:linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.08)),repeating-linear-gradient(7deg,rgba(98,65,32,.025) 0,rgba(98,65,32,.025) 1px,transparent 1px,transparent 5px),var(--paper);box-shadow:0 12px 34px rgba(50,32,14,.2)}.sheet:before{content:"";display:block;height:7px;background:linear-gradient(90deg,#3d2b1d,var(--gold),#3d2b1d)}.content{padding:22px}.toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 180px 180px auto;gap:10px;align-items:end;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.field{display:grid;gap:5px}.field label,.mini{font-size:10px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.58);color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--accent)}textarea{min-height:110px;resize:vertical}.summary{display:flex;justify-content:space-between;gap:12px;margin:15px 2px 10px;color:var(--muted);font-size:13px}.sync.saved{color:var(--green)}.sync.saving{color:var(--gold)}.sync.error{color:var(--red)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,248,228,.96);box-shadow:0 5px 16px rgba(50,32,14,.08)}.card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(50,32,14,.13)}.card h3{margin:0 0 6px;font-size:19px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.tag{padding:4px 7px;border:1px solid rgba(169,119,53,.28);border-radius:999px;background:rgba(169,119,53,.12);font-size:10px;font-weight:bold}.desc{font-size:13px;line-height:1.45;color:#514330;min-height:38px}.foot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px;padding-top:10px;border-top:1px dashed rgba(112,82,51,.22);font-size:12px;color:var(--muted)}.card-actions{display:flex;gap:6px}.card-actions .btn{padding:5px 8px;font-size:11px}.empty{grid-column:1/-1;padding:34px;text-align:center;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}.admin-only{display:none!important}body.is-admin .admin-only{display:inline-flex!important}.note{margin-top:18px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(169,119,53,.09);color:var(--muted);font-size:12px;line-height:1.5}.backdrop{position:fixed;inset:0;z-index:10000;background:rgba(35,24,14,.58);backdrop-filter:blur(3px);display:none}.backdrop.show{display:block}.drawer{position:fixed;z-index:10001;top:0;right:0;width:min(560px,100vw);height:100vh;overflow:auto;background:var(--paper);box-shadow:-18px 0 48px rgba(30,20,10,.28);transform:translateX(105%);transition:.2s}.drawer.show{transform:translateX(0)}.drawer-head{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:15px 18px;border-bottom:1px solid var(--line);background:rgba(246,237,215,.97)}.drawer-head h2{margin:0}.drawer-body{padding:18px}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{grid-column:1/-1}.effects{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}.effect-row{display:grid;grid-template-columns:120px 1fr 34px;gap:8px;margin-top:8px;align-items:center}.login{position:fixed;z-index:10002;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 28px));padding:22px;border:1px solid rgba(79,52,28,.45);border-radius:14px;background:var(--paper);box-shadow:0 24px 70px rgba(40,25,10,.38);display:none}.login.show{display:block}.login h2{margin:0 0 7px}.login p{margin:0 0 16px;color:var(--muted);line-height:1.45}.login form{display:grid;gap:10px}.login-error{min-height:17px;color:var(--red);font-size:12px}@media(max-width:920px){.toolbar{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){body{padding:12px}.content{padding:14px}.toolbar,.grid,.editor-grid{grid-template-columns:1fr}.wide{grid-column:auto}.effect-row{grid-template-columns:1fr 34px}.effect-row select{grid-column:1/-1}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand"><h1>Compêndio</h1><small>Biblioteca de itens de La Magie</small></div>
+    <div class="actions"><span id="statusPill" class="pill"><span class="dot"></span><span id="statusText">Visão pública</span></span><button id="loginBtn" class="btn">Entrar</button><button id="logoutBtn" class="btn danger admin-only">Sair</button></div>
+  </div>
+  <main class="sheet"><div class="content">
+    <div class="toolbar">
+      <div class="field"><label>Buscar</label><input id="search" type="search" placeholder="nome, descrição, tag..."></div>
+      <div class="field"><label>Categoria</label><select id="category"><option value="">Todas</option></select></div>
+      <div class="field"><label>Fonte</label><select id="source"><option value="">Todas</option></select></div>
+      <button id="newBtn" class="btn primary admin-only">+ Novo item</button>
+    </div>
+    <div class="summary"><span id="count">0 itens</span><span id="sync" class="sync">Carregando…</span></div>
+    <section id="items" class="grid"></section>
+    <div class="note"><strong>Segurança:</strong> a leitura é pública. Para editar, a conta precisa estar autorizada no Supabase. O token do GitHub nunca fica neste HTML; o commit é feito por uma Edge Function segura.</div>
+  </div></main>
+</div>
+<div id="drawerBackdrop" class="backdrop"></div>
+<aside id="drawer" class="drawer">
+  <div class="drawer-head"><h2 id="drawerTitle">Novo item</h2><button id="closeDrawer" class="btn">Fechar</button></div>
+  <div class="drawer-body">
+    <div class="editor-grid">
+      <div class="field wide"><label>Nome</label><input id="itemName"></div>
+      <div class="field"><label>Categoria</label><input id="itemCategory" placeholder="Arma, Armadura..."></div>
+      <div class="field"><label>Subtipo</label><input id="itemSubtype"></div>
+      <div class="field"><label>Peso (kg)</label><input id="itemWeight" type="number" step="0.01" min="0"></div>
+      <div class="field"><label>Preço</label><input id="itemPrice" type="number" step="0.01" min="0"></div>
+      <div class="field"><label>Moeda</label><input id="itemCurrency" placeholder="T$, PO..."></div>
+      <div class="field"><label>Fonte</label><input id="itemSource" placeholder="Tormenta 20"></div>
+      <div class="field"><label>Página</label><input id="itemPage" type="number" min="0"></div>
+      <div class="field wide"><label>Tags</label><input id="itemTags" placeholder="marcial, corte, uma mão"></div>
+      <div class="field wide"><label>Descrição</label><textarea id="itemDescription"></textarea></div>
+    </div>
+    <div class="effects"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Efeitos</div><small style="color:var(--muted)">Dados que as fichas poderão interpretar.</small></div><button id="addEffect" class="btn">+ Efeito</button></div><div id="effects"></div></div>
+    <div style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
+  </div>
+</aside>
+<div id="loginBackdrop" class="backdrop"></div>
+<section id="loginCard" class="login"><h2>Acesso ao Compêndio</h2><p>Login normal do mestre pelo Supabase. O GitHub continua escondido por trás da Edge Function.</p><form id="loginForm"><input id="username" autocomplete="username" placeholder="Usuário" required><input id="password" type="password" autocomplete="current-password" placeholder="Senha" required><button class="btn primary">Entrar</button><button id="cancelLogin" type="button" class="btn">Cancelar</button><div id="loginError" class="login-error"></div></form></section>
+<script>
+const DATA_URL="./data/compendio/compendio.json";
+const SUPABASE_URL="https://drkcfrhjgkztdtneuofr.supabase.co";
+const SUPABASE_KEY="sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY";
+const sb=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+const COMMIT_FUNCTION="compendio-commit";
+const DEMO_ITEMS=[];
+let items=[],isAdmin=false,editingId=null;
+const $=id=>document.getElementById(id);const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");const uid=name=>`${String(name||"item").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"item"}-${crypto.randomUUID().slice(0,8)}`;
+function setSync(t,s=""){$("sync").textContent=t;$("sync").className=`sync ${s}`.trim()}function setAdmin(v){isAdmin=!!v;document.body.classList.toggle("is-admin",isAdmin);$("statusPill").classList.toggle("admin",isAdmin);$("statusText").textContent=isAdmin?"Modo edição":"Visão pública";$("loginBtn").style.display=isAdmin?"none":""}
+async function loadItems(){setSync("Carregando…");try{const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error(`HTTP ${r.status}`);const d=await r.json();items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);setSync("Compêndio carregado","saved")}catch(e){console.warn(e);items=structuredClone(DEMO_ITEMS);setSync("Compêndio ainda não inicializado","error")}refreshFilters();render()}
+async function checkSession(){
+  try{
+    const {data,error}=await sb.auth.getSession();
+    if(error||!data.session){setAdmin(false);return}
+    const {data:permission,error:permissionError}=await sb
+      .from("compendio_admins")
+      .select("can_edit")
+      .eq("user_id",data.session.user.id)
+      .maybeSingle();
+    if(permissionError){console.error(permissionError);setAdmin(false);return}
+    setAdmin(permission?.can_edit===true);
+  }catch(e){console.error(e);setAdmin(false)}
+}
+function refreshFilters(){const cats=[...new Set(items.map(i=>i.categoria).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const srcs=[...new Set(items.map(i=>i.fonte).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const c=$("category").value,s=$("source").value;$("category").innerHTML='<option value="">Todas</option>'+cats.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");$("source").innerHTML='<option value="">Todas</option>'+srcs.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");if(cats.includes(c))$("category").value=c;if(srcs.includes(s))$("source").value=s}
+function filtered(){const q=$("search").value.trim().toLowerCase(),c=$("category").value,s=$("source").value;return items.filter(i=>{if(c&&i.categoria!==c)return false;if(s&&i.fonte!==s)return false;if(!q)return true;return[i.nome,i.categoria,i.subtipo,i.fonte,i.descricao,...(i.tags||[])].join(" ").toLowerCase().includes(q)})}
+function render(){const list=filtered();$("count").textContent=`${list.length} ${list.length===1?"item":"itens"}`;if(!list.length){$("items").innerHTML='<div class="empty">Nenhum item encontrado.</div>';return}$("items").innerHTML=list.map(i=>{const tags=[i.categoria,i.subtipo,...(i.tags||[])].filter(Boolean).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join("");const price=i.preco?.valor!==undefined?`${esc(i.preco.valor)} ${esc(i.preco.moeda||"")}`.trim():"—";const src=[i.fonte,i.pagina?`p. ${i.pagina}`:""].filter(Boolean).join(" • ");return`<article class="card"><h3>${esc(i.nome||"Item sem nome")}</h3><div class="tags">${tags}</div><div class="desc">${esc(i.descricao||"Sem descrição.")}</div><div class="foot"><div><div>${i.peso??"—"} kg · ${price}</div><div>${esc(src||"Fonte não informada")}</div></div><div class="card-actions"><button class="btn" onclick="viewItem('${esc(i.id)}')">Ver</button><button class="btn admin-only" onclick="editItem('${esc(i.id)}')">Editar</button></div></div></article>`}).join("")}
+function emptyItem(){return{id:"",nome:"",categoria:"",subtipo:"",peso:0,preco:{valor:0,moeda:"T$"},fonte:"",pagina:"",tags:[],descricao:"",efeitos:[]}}
+function renderEffects(effects,viewOnly=false){$("effects").innerHTML="";effects.forEach(e=>{const row=document.createElement("div");row.className="effect-row";row.innerHTML=`<select class="effect-type" ${viewOnly?"disabled":""}>${["ataque","dano","ca","cura","pericia","atributo","recurso","outro"].map(t=>`<option value="${t}" ${t===e.tipo?"selected":""}>${t}</option>`).join("")}</select><input class="effect-value" value="${esc(e.valor||"")}" placeholder="Ex.: +2, 1d8 corte" ${viewOnly?"disabled":""}>${viewOnly?"":'<button class="btn danger effect-delete">×</button>'}`;if(!viewOnly)row.querySelector(".effect-delete").onclick=()=>row.remove();$("effects").appendChild(row)})}
+function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||[],viewOnly);document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
+function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
+function collect(){const efeitos=[...document.querySelectorAll(".effect-row")].map(r=>({tipo:r.querySelector(".effect-type")?.value||"outro",valor:r.querySelector(".effect-value")?.value.trim()||""})).filter(e=>e.valor);return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos}}
+async function invokeCommit(body){
+  if(!isAdmin)throw new Error("Acesso não autorizado.");
+  const {data,error}=await sb.functions.invoke(COMMIT_FUNCTION,{body});
+  if(error){
+    let message=error.message||"Falha ao salvar no GitHub.";
+    try{
+      const context=error.context;
+      if(context && typeof context.json==="function"){
+        const details=await context.json();
+        if(details?.error)message=details.error;
+      }
+    }catch{}
+    throw new Error(message);
+  }
+  if(data?.error)throw new Error(data.error);
+  return data;
+}
+async function save(){
+  const i=collect();
+  if(!i.nome)return alert("Informe o nome do item.");
+  const exists=items.some(x=>x.id===i.id);
+  setSync("Salvando no GitHub…","saving");
+  $("saveBtn").disabled=true;
+  try{
+    await invokeCommit({action:"upsert",item:i});
+    items=exists?items.map(x=>x.id===i.id?i:x):[...items,i];
+    refreshFilters();render();closeDrawer();
+    setSync("Salvo no GitHub","saved");
+  }catch(e){
+    console.error(e);setSync(e.message,"error");alert(e.message);
+  }finally{$("saveBtn").disabled=false}
+}
+async function removeItem(){
+  if(!editingId||!isAdmin)return;
+  const i=items.find(x=>x.id===editingId);
+  if(!i||!confirm(`Excluir "${i.nome}"?`))return;
+  setSync("Salvando no GitHub…","saving");
+  try{
+    await invokeCommit({action:"delete",id:editingId});
+    items=items.filter(x=>x.id!==editingId);
+    refreshFilters();render();closeDrawer();
+    setSync("Salvo no GitHub","saved");
+  }catch(e){setSync(e.message,"error");alert(e.message)}
+}
+function showLogin(){$("loginError").textContent="";$("loginBackdrop").classList.add("show");$("loginCard").classList.add("show")}function hideLogin(){$("loginBackdrop").classList.remove("show");$("loginCard").classList.remove("show")}
+async function doLogin(u,p){
+  const username=String(u||"").trim().toLowerCase();
+  const email=username.includes("@")?username:`${username}@mestre.rpg`;
+  const {data,error}=await sb.auth.signInWithPassword({email,password:p});
+  if(error)throw new Error("Usuário ou senha inválidos.");
+  const {data:permission,error:permissionError}=await sb
+    .from("compendio_admins")
+    .select("can_edit")
+    .eq("user_id",data.user.id)
+    .maybeSingle();
+  if(permissionError){await sb.auth.signOut();throw new Error("Não foi possível verificar a permissão.")}
+  if(!permission?.can_edit){await sb.auth.signOut();throw new Error("Esta conta não possui permissão para editar o compêndio.")}
+  setAdmin(true);
+}
+async function logout(){
+  await sb.auth.signOut();
+  setAdmin(false);
+}
+$("search").oninput=render;$("category").onchange=render;$("source").onchange=render;$("newBtn").onclick=()=>openDrawer(emptyItem());$("closeDrawer").onclick=closeDrawer;$("cancelBtn").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("addEffect").onclick=()=>{const current=[...document.querySelectorAll(".effect-row")].map(r=>({tipo:r.querySelector(".effect-type")?.value||"outro",valor:r.querySelector(".effect-value")?.value||""}));current.push({tipo:"outro",valor:""});renderEffects(current)};$("saveBtn").onclick=save;$("deleteBtn").onclick=removeItem;$("loginBtn").onclick=showLogin;$("cancelLogin").onclick=hideLogin;$("loginBackdrop").onclick=hideLogin;$("logoutBtn").onclick=logout;$("loginForm").onsubmit=async e=>{e.preventDefault();$("loginError").textContent="Entrando…";try{await doLogin($("username").value.trim(),$("password").value);$("password").value="";hideLogin()}catch(err){$("loginError").textContent=err.message}};document.onkeydown=e=>{if(e.key==="Escape"){hideLogin();closeDrawer()}};
+sb.auth.onAuthStateChange(()=>{checkSession()});
+(async()=>{setAdmin(false);await Promise.all([loadItems(),checkSession()])})();
+</script>
+</body>
+</html>
