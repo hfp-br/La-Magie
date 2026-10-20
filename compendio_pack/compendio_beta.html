@@ -167,7 +167,7 @@ function collectEffectsFromEditor(){
     return e;
   }).filter(e=>e.text||e.bonus||e.bonusHit||e.bonusDamage||e.dcBonus||e.attackBonus)
 }
-function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return c==="arma"||c.startsWith("arma ")||c.includes("weapon")}
+function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return /^armas?(\s|$)/.test(c)||c.includes("weapon")}
 function updateWeaponVisibility(){const w=$("weaponEditor");if(w)w.hidden=!isWeaponCategory()}
 function fillWeaponEditor(i,viewOnly){const w=i.weaponAttack||i.ataqueArma||{};$("weaponEnabled").checked=w.enabled!==false;$("weaponName").value=w.name||"";$("weaponSkill").value=w.skill||"Luta";$("weaponStat").value=w.stat||"str";$("weaponDamage").value=w.die||"1d6";$("weaponDamageType").value=w.type||"";$("weaponThreat").value=Number(w.threat??20);$("weaponCrit").value=Number(w.crit??2);updateWeaponVisibility();document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=viewOnly)}
 function collectWeapon(){if(!isWeaponCategory())return null;return{enabled:$("weaponEnabled").checked,name:$("weaponName").value.trim(),skill:$("weaponSkill").value||"Luta",stat:$("weaponStat").value||"str",die:$("weaponDamage").value.trim()||"1d6",type:$("weaponDamageType").value.trim(),threat:Number($("weaponThreat").value||20),crit:Number($("weaponCrit").value||2),allowedToggles:[]}}
