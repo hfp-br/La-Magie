@@ -115,6 +115,23 @@ function collectEffectsFromEditor(){
 function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||[],viewOnly);document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
 function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
 function collect(){const efeitos=collectEffectsFromEditor();return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos}}
+async function invokeCommit(body){
+  if(!isAdmin)throw new Error("Acesso não autorizado.");
+  const {data,error}=await sb.functions.invoke(COMMIT_FUNCTION,{body});
+  if(error){
+    let message=error.message||"Falha ao salvar no GitHub.";
+    try{
+      const context=error.context;
+      if(context&&typeof context.json==="function"){
+        const details=await context.json();
+        if(details?.error)message=details.error;
+      }
+    }catch{}
+    throw new Error(message);
+  }
+  if(data?.error)throw new Error(data.error);
+  return data;
+}
 async function save(){
   const i=collect();
   if(!i.nome)return alert("Informe o nome do item.");
