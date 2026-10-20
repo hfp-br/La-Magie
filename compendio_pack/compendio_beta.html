@@ -125,7 +125,7 @@ function renderEffects(effects,viewOnly=false){
         ${[["ca","CA"],["pericia","Perícia"],["atributo","Atributo"],["pvmax","PV Máximo"],["pvporlevel","PV por nível"],["movimento","Movimento"],["carga","Peso carregável"],["ataque","Ataque"],["outro","Outro"]].map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}
       </select>
       <select class="effect-mode" ${viewOnly?"disabled":""}>
-        ${[["always","Sempre ativo"],["toggle","Toggle ON/OFF"],["conditional","Condicional"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}
+        ${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}
       </select>
       <input class="effect-target" value="${esc(alvo)}" placeholder="Alvo (ex.: Furtividade, dex)" ${viewOnly?"disabled":""}>
       <input class="effect-value" value="${esc(valor)}" placeholder="Valor" ${viewOnly?"disabled":""}>

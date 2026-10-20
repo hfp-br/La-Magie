@@ -3758,6 +3758,12 @@ body.editing
 .compendium-empty{grid-column:1/-1;padding:28px;text-align:center;color:var(--muted)}
 @media(max-width:650px){.compendium-results{grid-template-columns:1fr}.compendium-modal-tools{grid-template-columns:1fr}.inventory-rich-top{align-items:center}}
 
+
+/* BETA — vínculo de efeito condicional com Modificadores de combate */
+.inventory-condition-link{display:inline-flex;align-items:center;gap:6px;margin-left:6px;vertical-align:middle;font-size:11px;color:var(--muted)}
+.inventory-condition-link>span{font-weight:700}
+.inventory-condition-link select{width:auto;max-width:210px;padding:4px 7px;border:1px solid var(--sand-3);border-radius:7px;background:rgba(255,255,255,.42);color:inherit;font-size:11px}
+.inventory-effect-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 </style>
 
 
@@ -17404,17 +17410,79 @@ function converterEfeitoItem(effect, item) {
 
 function coletarEfeitosInventario(tipoEfeito) {
     const resultado = [];
+
     (conteudo.inventario || []).forEach(item => {
-        const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+        const effects = Array.isArray(item.effects)
+            ? item.effects
+            : (Array.isArray(item.efeitos) ? item.efeitos : []);
+
         effects.forEach(raw => {
             const effect = converterEfeitoItem(raw, item);
             if (effect.type !== tipoEfeito) return;
-            if (effect.mode === "conditional" || effect.mode === "use") return;
+            if (effect.mode === "use") return;
+
+            // Toggle do item: o efeito só entra quando o item estiver ligado.
             if (effect.mode === "toggle" && !item.ativo) return;
+
+            // Condicional usa o MESMO sistema de modificadores de combate da ficha.
+            // Sem um modificador associado ele fica inativo, evitando aplicar bônus
+            // condicionais como se fossem permanentes.
+            if (effect.mode === "conditional") {
+                const requiresToggle = String(raw?.requiresToggle || effect?.requiresToggle || "").trim();
+                if (!requiresToggle) return;
+                effect.requiresToggle = requiresToggle;
+            }
+
+            // Sempre ativo não recebe requiresToggle e passa pelo mesmo fluxo
+            // de efeitos permanentes das características da ficha.
             resultado.push(effect);
         });
     });
+
     return resultado;
+}
+
+function atualizarCondicaoEfeitoInventario(item, effect, toggleId) {
+    if (!item || !effect) return;
+
+    effect.requiresToggle = toggleId || "";
+
+    agendarSalvamentoConteudo();
+    updateSheet();
+    renderizarInventario();
+}
+
+function criarSeletorCondicaoInventario(item, effect) {
+    const wrapper = document.createElement("label");
+    wrapper.className = "inventory-condition-link";
+
+    const title = document.createElement("span");
+    title.textContent = "Modificador";
+
+    const select = document.createElement("select");
+    select.dataset.gameplay = "true";
+    select.disabled = !isOwner;
+
+    const none = document.createElement("option");
+    none.value = "";
+    none.textContent = "Escolher modificador…";
+    select.appendChild(none);
+
+    (conteudo.togglesCombate || []).forEach(toggle => {
+        const option = document.createElement("option");
+        option.value = toggle.id;
+        option.textContent = toggle.name || "Modificador";
+        select.appendChild(option);
+    });
+
+    select.value = effect.requiresToggle || "";
+    select.addEventListener("change", () => {
+        atualizarCondicaoEfeitoInventario(item, effect, select.value);
+    });
+
+    wrapper.appendChild(title);
+    wrapper.appendChild(select);
+    return wrapper;
 }
 
 function itemTemToggle(item) {
@@ -17631,10 +17699,19 @@ function renderizarInventario() {
                 effectsBox.className = "inventory-effects";
                 effects.forEach(effect => {
                     const info = descreverEfeitoItem(effect);
+                    const row = document.createElement("div");
+                    row.className = "inventory-effect-row";
+
                     const chip = document.createElement("span");
                     chip.className = `inventory-effect-chip ${info.mode === "conditional" ? "conditional" : ""}`;
                     chip.textContent = `${info.texto} · ${info.sufixo}`;
-                    effectsBox.appendChild(chip);
+                    row.appendChild(chip);
+
+                    if (info.mode === "conditional") {
+                        row.appendChild(criarSeletorCondicaoInventario(item, effect));
+                    }
+
+                    effectsBox.appendChild(row);
                 });
                 main.appendChild(effectsBox);
             }
