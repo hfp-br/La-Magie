@@ -60,7 +60,40 @@ const DEMO_ITEMS=[];
 let items=[],isAdmin=false,editingId=null;
 const $=id=>document.getElementById(id);const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");const uid=name=>`${String(name||"item").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"item"}-${crypto.randomUUID().slice(0,8)}`;
 function setSync(t,s=""){$("sync").textContent=t;$("sync").className=`sync ${s}`.trim()}function setAdmin(v){isAdmin=!!v;document.body.classList.toggle("is-admin",isAdmin);$("statusPill").classList.toggle("admin",isAdmin);$("statusText").textContent=isAdmin?"Modo edição":"Visão pública";$("loginBtn").style.display=isAdmin?"none":""}
-async function loadItems(){setSync("Carregando…");try{const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error(`HTTP ${r.status}`);const d=await r.json();items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);setSync("Compêndio carregado","saved")}catch(e){console.warn(e);items=structuredClone(DEMO_ITEMS);setSync("Compêndio ainda não inicializado","error")}refreshFilters();render()}
+async function loadItems(){
+  setSync("Carregando…");
+  const edgeUrl=`${SUPABASE_URL}/functions/v1/${COMMIT_FUNCTION}`;
+  try{
+    // lê direto do GitHub através da Edge Function para evitar o atraso do GitHub Pages
+    const r=await fetch(`${edgeUrl}?v=${Date.now()}`,{
+      method:"GET",
+      cache:"no-store",
+      headers:{"apikey":SUPABASE_KEY}
+    });
+    if(!r.ok){
+      const d=await r.json().catch(()=>({}));
+      throw new Error(d?.error||`HTTP ${r.status}`);
+    }
+    const d=await r.json();
+    items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);
+    setSync("Compêndio carregado","saved");
+  }catch(edgeError){
+    console.warn("Leitura pela Edge Function falhou; tentando arquivo público.",edgeError);
+    try{
+      const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});
+      if(!r.ok)throw new Error(`HTTP ${r.status}`);
+      const d=await r.json();
+      items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);
+      setSync("Compêndio carregado (fallback)","saved");
+    }catch(fileError){
+      console.warn(fileError);
+      items=structuredClone(DEMO_ITEMS);
+      setSync("Compêndio ainda não inicializado","error");
+    }
+  }
+  refreshFilters();
+  render();
+}
 async function checkSession(){
   try{
     const {data,error}=await sb.auth.getSession();
