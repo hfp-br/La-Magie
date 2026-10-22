@@ -20537,3 +20537,543 @@ configurarTooltipsFicha();
 })();
 </script>
 
+
+
+<style id="inventory-cards-v45">
+/* ============================================================
+   V4.5 — cards do inventário
+   Mantém toda a lógica existente; muda apenas a apresentação.
+   ============================================================ */
+
+#inventoryList,
+.inventory-list{
+  display:grid!important;
+  gap:10px!important;
+}
+
+.inventory-view{
+  position:relative!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) auto!important;
+  gap:10px 14px!important;
+  align-items:start!important;
+  padding:13px 14px!important;
+  margin:0!important;
+  border:1px solid rgba(112,82,51,.20)!important;
+  border-radius:11px!important;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.50),rgba(255,255,255,.26)),
+    rgba(255,248,228,.68)!important;
+  box-shadow:0 3px 10px rgba(54,35,17,.055)!important;
+  transition:.14s ease!important;
+}
+.inventory-view:hover{
+  transform:translateY(-1px)!important;
+  border-color:rgba(112,82,51,.30)!important;
+  box-shadow:0 6px 16px rgba(54,35,17,.08)!important;
+}
+.inventory-view:last-child{border-bottom:1px solid rgba(112,82,51,.20)!important}
+
+.inventory-card-main{
+  min-width:0;
+  display:grid;
+  gap:7px;
+}
+.inventory-card-title-row{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  min-width:0;
+}
+.inventory-card-name{
+  flex:1 1 auto;
+  min-width:0;
+  font-size:15px;
+  font-weight:800;
+  line-height:1.2;
+  color:var(--ink);
+  overflow-wrap:anywhere;
+}
+.inventory-card-badges{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  gap:5px;
+}
+.inventory-card-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:20px;
+  padding:3px 7px;
+  border:1px solid rgba(112,82,51,.20);
+  border-radius:999px;
+  background:rgba(255,255,255,.48);
+  color:#6c553d;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.02em;
+  white-space:nowrap;
+}
+.inventory-card-badge.primary{
+  border-color:rgba(143,73,61,.26);
+  background:rgba(143,73,61,.075);
+  color:#774038;
+}
+.inventory-card-badge.state-broken,
+.inventory-card-badge.state-disabled{
+  border-color:rgba(143,73,61,.34);
+  background:rgba(143,73,61,.10);
+  color:#8f493d;
+}
+.inventory-card-badge.quantity-zero{
+  opacity:.68;
+}
+
+.inventory-card-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px 9px;
+  color:var(--muted);
+  font-size:10px;
+}
+.inventory-card-meta span:not(:last-child)::after{
+  content:"•";
+  margin-left:9px;
+  opacity:.48;
+}
+
+.inventory-card-combat{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:6px;
+  font-size:11px;
+  color:#4b3b2b;
+}
+.inventory-card-combat .inventory-card-combat-chip{
+  display:inline-flex;
+  align-items:center;
+  min-height:22px;
+  padding:4px 7px;
+  border:1px solid rgba(169,119,53,.22);
+  border-radius:7px;
+  background:rgba(169,119,53,.075);
+}
+
+.inventory-card-description{
+  color:#675540;
+  font-size:10px;
+  line-height:1.45;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+}
+
+.inventory-card-resource-list{
+  display:grid;
+  gap:5px;
+  margin-top:1px;
+}
+.inventory-card-resource{
+  display:grid;
+  grid-template-columns:minmax(90px,1fr) minmax(90px,160px) auto;
+  gap:8px;
+  align-items:center;
+  font-size:9px;
+}
+.inventory-card-resource-name{
+  color:#66523d;
+  font-weight:700;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.inventory-card-resource-track{
+  height:6px;
+  overflow:hidden;
+  border-radius:999px;
+  background:rgba(112,82,51,.14);
+}
+.inventory-card-resource-fill{
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(90deg,#a9824d,#705233);
+}
+.inventory-card-resource-value{
+  min-width:34px;
+  text-align:right;
+  color:var(--muted);
+  font-variant-numeric:tabular-nums;
+  font-weight:700;
+}
+
+.inventory-card-defenses{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+}
+.inventory-card-defense{
+  display:inline-flex;
+  align-items:center;
+  min-height:21px;
+  padding:4px 7px;
+  border-radius:7px;
+  border:1px solid rgba(84,101,71,.24);
+  background:rgba(84,101,71,.08);
+  color:#526149;
+  font-size:9px;
+  font-weight:700;
+}
+
+.inventory-card-actions{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:7px;
+  min-width:86px;
+}
+.inventory-card-actions .inventory-detail-button,
+.inventory-card-actions button{
+  min-height:30px;
+}
+.inventory-card-actions .inventory-detail-button{
+  width:34px!important;
+  height:30px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  padding:0!important;
+  border:1px solid rgba(112,82,51,.20)!important;
+  border-radius:8px!important;
+  background:rgba(255,255,255,.55)!important;
+  color:#6f563e!important;
+  font-size:18px!important;
+  line-height:1!important;
+}
+.inventory-card-actions .inventory-detail-button:hover{
+  border-color:rgba(112,82,51,.38)!important;
+  background:rgba(255,255,255,.82)!important;
+}
+.inventory-card-actions .inventory-consume-button,
+.inventory-card-actions .inventory-toggle-button{
+  width:auto!important;
+  min-width:72px!important;
+  padding:6px 9px!important;
+  border-radius:8px!important;
+  font-size:10px!important;
+  font-weight:800!important;
+}
+.inventory-card-actions .inventory-consume-button{
+  border:1px solid rgba(84,101,71,.30)!important;
+  background:rgba(84,101,71,.10)!important;
+  color:#4f6046!important;
+}
+.inventory-card-actions .inventory-consume-button:disabled{
+  opacity:.45!important;
+  cursor:not-allowed!important;
+}
+.inventory-card-actions .inventory-toggle-button{
+  border:1px solid rgba(169,119,53,.25)!important;
+  background:rgba(169,119,53,.08)!important;
+  color:#75582f!important;
+}
+
+.inventory-view.item-unavailable{
+  opacity:.72;
+}
+.inventory-view.item-unavailable::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  border-radius:11px;
+  background:repeating-linear-gradient(
+    -45deg,
+    transparent 0,
+    transparent 8px,
+    rgba(143,73,61,.025) 8px,
+    rgba(143,73,61,.025) 12px
+  );
+}
+
+/* modo de edição rápida continua mais compacto */
+body.editing .inventory-view{
+  display:none!important;
+}
+body:not(.editing) .inventory-item{
+  display:none!important;
+}
+
+/* aparência do editor rápido */
+.inventory-item{
+  padding:9px 10px!important;
+  margin-bottom:7px!important;
+  border:1px solid rgba(112,82,51,.15)!important;
+  border-radius:9px!important;
+  background:rgba(255,255,255,.28)!important;
+}
+.inventory-item input{
+  background:rgba(255,255,255,.33)!important;
+  border:1px solid rgba(112,82,51,.16)!important;
+  border-radius:6px!important;
+  padding:6px 7px!important;
+}
+
+/* vazio */
+.inventory-card-empty{
+  padding:20px 14px;
+  text-align:center;
+  color:var(--muted);
+  font-size:11px;
+  border:1px dashed rgba(112,82,51,.22);
+  border-radius:10px;
+  background:rgba(255,255,255,.18);
+}
+
+@media(max-width:700px){
+  .inventory-view{
+    grid-template-columns:1fr!important;
+  }
+  .inventory-card-actions{
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-end;
+    min-width:0;
+  }
+}
+@media(max-width:500px){
+  .inventory-card-title-row{
+    flex-direction:column;
+    gap:6px;
+  }
+  .inventory-card-badges{justify-content:flex-start}
+  .inventory-card-resource{
+    grid-template-columns:minmax(80px,1fr) 90px auto;
+  }
+}
+</style>
+
+
+<script id="inventory-cards-v45-js">
+(() => {
+  function getInventoryContainer(){
+    return document.getElementById("inventoryList")
+      || document.querySelector(".inventory-list")
+      || document.querySelector("#inventario")
+      || null;
+  }
+
+  function normalizeText(v){
+    return String(v ?? "").trim();
+  }
+
+  function getItemState(item){
+    return item?.state || item?.estado || "normal";
+  }
+
+  function itemAvailable(item){
+    const quantity = Number(item?.quantidade ?? item?.quantity ?? 1);
+    const state = getItemState(item);
+    return quantity > 0 && state === "normal";
+  }
+
+  function getWeapon(item){
+    return item?.weaponAttack || item?.ataqueArma || null;
+  }
+
+  function getResources(item){
+    return Array.isArray(item?.resources)
+      ? item.resources
+      : (Array.isArray(item?.recursos) ? item.recursos : []);
+  }
+
+  function getDefenses(item){
+    const d = item?.defenses || item?.defesas || {};
+    return {
+      resistances: normalizeText(d.resistances ?? d.resistencias),
+      immunities: normalizeText(d.immunities ?? d.imunidades)
+    };
+  }
+
+  function escLocal(v){
+    if(typeof esc === "function") return esc(v);
+    return String(v ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
+      .replaceAll("'","&#039;");
+  }
+
+  function fmtCrit(weapon){
+    if(!weapon) return "";
+    const threat = Number(weapon.threat ?? weapon.margemAmeaca ?? 20);
+    const crit = Number(weapon.crit ?? weapon.critico ?? 2);
+    const margin = threat < 20 ? `${threat}–20` : "20";
+    return `${margin}/×${crit}`;
+  }
+
+  function resourcePercent(r){
+    const current = Number(r?.current ?? r?.atual ?? 0);
+    const max = Number(r?.max ?? r?.maximo ?? 0);
+    if(!(max > 0)) return 0;
+    return Math.max(0, Math.min(100, (current / max) * 100));
+  }
+
+  function buildCard(item){
+    const quantity = Number(item?.quantidade ?? item?.quantity ?? 1);
+    const state = getItemState(item);
+    const available = itemAvailable(item);
+    const weapon = getWeapon(item);
+    const resources = getResources(item);
+    const defenses = getDefenses(item);
+    const category = normalizeText(item?.categoria || item?.category);
+    const subtype = normalizeText(item?.subtipo || item?.subtype);
+    const weight = Number(item?.peso ?? item?.weight ?? 0);
+    const description = normalizeText(item?.descricao || item?.description);
+
+    const badges = [];
+    if(category) badges.push(`<span class="inventory-card-badge primary">${escLocal(category)}</span>`);
+    if(quantity !== 1) badges.push(`<span class="inventory-card-badge ${quantity <= 0 ? "quantity-zero" : ""}">x${quantity}</span>`);
+    if(state !== "normal"){
+      const label = state === "broken" ? "Quebrado" : "Desativado";
+      badges.push(`<span class="inventory-card-badge state-${escLocal(state)}">${label}</span>`);
+    }
+
+    const meta = [];
+    if(subtype) meta.push(`<span>${escLocal(subtype)}</span>`);
+    if(weight > 0) meta.push(`<span>${escLocal(weight)} kg</span>`);
+
+    const combat = [];
+    if(weapon?.enabled !== false && available){
+      const skill = normalizeText(weapon.skill || weapon.pericia);
+      const stat = normalizeText(weapon.stat || weapon.atributo);
+      const die = normalizeText(weapon.die || weapon.dano);
+      const type = normalizeText(weapon.type || weapon.tipoDano);
+      const crit = fmtCrit(weapon);
+
+      if(skill || stat){
+        combat.push(`<span class="inventory-card-combat-chip">${escLocal([skill, stat ? stat.toUpperCase() : ""].filter(Boolean).join(" + "))}</span>`);
+      }
+      if(die || type){
+        combat.push(`<span class="inventory-card-combat-chip">${escLocal([die,type].filter(Boolean).join(" "))}</span>`);
+      }
+      if(crit){
+        combat.push(`<span class="inventory-card-combat-chip">${escLocal(crit)}</span>`);
+      }
+    }
+
+    const resourceHtml = resources.length
+      ? `<div class="inventory-card-resource-list">${resources.map(r => {
+          const current = Number(r?.current ?? r?.atual ?? 0);
+          const max = Number(r?.max ?? r?.maximo ?? 0);
+          return `
+            <div class="inventory-card-resource">
+              <div class="inventory-card-resource-name">${escLocal(r?.name || r?.nome || "Recurso")}</div>
+              <div class="inventory-card-resource-track"><span class="inventory-card-resource-fill" style="width:${resourcePercent(r)}%"></span></div>
+              <div class="inventory-card-resource-value">${escLocal(current)}${max > 0 ? `/${escLocal(max)}` : ""}</div>
+            </div>`;
+        }).join("")}</div>`
+      : "";
+
+    const defenseBits = [];
+    if(available && defenses.resistances){
+      defenseBits.push(`<span class="inventory-card-defense">Resistência: ${escLocal(defenses.resistances)}</span>`);
+    }
+    if(available && defenses.immunities){
+      defenseBits.push(`<span class="inventory-card-defense">Imunidade: ${escLocal(defenses.immunities)}</span>`);
+    }
+
+    return `
+      <div class="inventory-card-main">
+        <div class="inventory-card-title-row">
+          <div class="inventory-card-name">${escLocal(item?.nome || item?.name || "Item sem nome")}</div>
+          <div class="inventory-card-badges">${badges.join("")}</div>
+        </div>
+
+        ${meta.length ? `<div class="inventory-card-meta">${meta.join("")}</div>` : ""}
+        ${combat.length ? `<div class="inventory-card-combat">${combat.join("")}</div>` : ""}
+        ${description ? `<div class="inventory-card-description">${escLocal(description)}</div>` : ""}
+        ${resourceHtml}
+        ${defenseBits.length ? `<div class="inventory-card-defenses">${defenseBits.join("")}</div>` : ""}
+      </div>
+    `;
+  }
+
+  function enhanceRenderedInventory(){
+    const inventory = Array.isArray(window.conteudo?.inventario)
+      ? window.conteudo.inventario
+      : [];
+
+    const views = [...document.querySelectorAll(".inventory-view")];
+    if(!views.length) return;
+
+    views.forEach((view, index) => {
+      const item = inventory[index];
+      if(!item) return;
+
+      // preserva os botões/listeners já criados pela renderização original
+      const buttons = [...view.querySelectorAll("button")];
+      const actions = document.createElement("div");
+      actions.className = "inventory-card-actions";
+      buttons.forEach(btn => {
+        if(btn.classList.contains("inventory-detail-button") || btn.textContent.trim() === "⋯"){
+          btn.classList.add("inventory-detail-button");
+        }
+        if(/usar|beber|consumir/i.test(btn.textContent)){
+          btn.classList.add("inventory-consume-button");
+        }
+        if(/on|off|ativ/i.test(btn.textContent)){
+          btn.classList.add("inventory-toggle-button");
+        }
+        actions.appendChild(btn);
+      });
+
+      view.innerHTML = buildCard(item);
+      view.appendChild(actions);
+      view.classList.toggle("item-unavailable", !itemAvailable(item));
+    });
+  }
+
+  function run(){
+    requestAnimationFrame(enhanceRenderedInventory);
+  }
+
+  // roda depois do carregamento
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", run, {once:true});
+  } else {
+    run();
+  }
+
+  // reaplica após ações comuns que rerenderizam o inventário
+  document.addEventListener("click", event => {
+    if(event.target.closest(
+      ".inventory-detail-button, .inventory-consume-button, .inventory-toggle-button, #compendiumModal, #inventoryDetailSave, #inventoryDetailDelete"
+    )){
+      setTimeout(run, 0);
+      setTimeout(run, 180);
+    }
+  });
+
+  // hook seguro na função original de renderização, se estiver global
+  const tryHook = () => {
+    if(typeof window.renderizarInventario === "function" && !window.renderizarInventario.__v45Wrapped){
+      const original = window.renderizarInventario;
+      const wrapped = function(...args){
+        const result = original.apply(this,args);
+        requestAnimationFrame(enhanceRenderedInventory);
+        return result;
+      };
+      wrapped.__v45Wrapped = true;
+      window.renderizarInventario = wrapped;
+    }
+  };
+
+  tryHook();
+  setTimeout(tryHook,0);
+})();
+</script>
+
