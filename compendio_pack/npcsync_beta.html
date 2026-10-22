@@ -20385,10 +20385,12 @@ configurarTooltipsFicha();
   function fieldFor(id){
     return document.getElementById(id)?.closest(".inventory-detail-field");
   }
+
   function classField(id, cls){
     const field = fieldFor(id);
     if(field) field.classList.add(cls);
   }
+
   function prepararGradeArmaV44(){
     classField("inventoryDetailWeaponName","weapon-span-4");
     classField("inventoryDetailWeaponSkill","weapon-span-2");
@@ -20404,22 +20406,39 @@ configurarTooltipsFicha();
     classField("inventoryDetailWeaponAmmo","weapon-span-2");
     classField("inventoryDetailWeaponReload","weapon-span-2");
     classField("inventoryDetailWeaponProperties","weapon-span-4");
+
     document.getElementById("inventoryDetailWeaponModifiers")
       ?.closest(".inventory-detail-field")
       ?.classList.add("weapon-span-4");
   }
+
   function decorarEstadoCabecalhoV44(){
     const sub = document.getElementById("inventoryDetailHeadSub");
     const state = document.getElementById("inventoryDetailState");
     if(!sub || !state) return;
-    sub.querySelector("#inventoryDetailHeadState")?.remove();
+
+    const antigo = document.getElementById("inventoryDetailHeadState");
     const value = state.value || "normal";
-    if(value === "normal") return;
+
+    if(value === "normal"){
+      antigo?.remove();
+      return;
+    }
+
+    const texto = value === "broken" ? "Quebrado" : "Desativado";
+
+    // evita remover/criar o badge repetidamente
+    if(antigo){
+      if(antigo.textContent !== texto) antigo.textContent = texto;
+      return;
+    }
+
     const badge = document.createElement("span");
     badge.id = "inventoryDetailHeadState";
-    badge.textContent = value === "broken" ? "Quebrado" : "Desativado";
+    badge.textContent = texto;
     sub.appendChild(badge);
   }
+
   function aplicarV44(){
     prepararGradeArmaV44();
     decorarEstadoCabecalhoV44();
@@ -20437,14 +20456,33 @@ configurarTooltipsFicha();
     }
   }
 
-  document.addEventListener("DOMContentLoaded", aplicarV44);
-  const observer = new MutationObserver(aplicarV44);
-  const start = () => {
-    const modal = document.getElementById("inventoryDetailModal");
-    if(modal) observer.observe(modal,{childList:true,subtree:true,attributes:true,attributeFilter:["class","aria-hidden"]});
-  };
-  if(document.readyState === "loading") document.addEventListener("DOMContentLoaded",start);
-  else start();
+  // aplica uma vez quando a página termina de montar
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", aplicarV44, {once:true});
+  }else{
+    aplicarV44();
+  }
+
+  // quando o usuário clica nos três pontinhos, o modal já é preenchido
+  // pelo código original. Reaplicamos apenas o acabamento no próximo frame,
+  // sem observar mudanças internas do modal.
+  document.addEventListener("click", event => {
+    const detailButton = event.target.closest(".inventory-detail-button");
+    if(detailButton){
+      requestAnimationFrame(aplicarV44);
+    }
+  });
+
+  // segurança adicional para qualquer abertura programática:
+  // intercepta apenas a função de abertura, sem tocar na função de fechar.
+  if(typeof window.abrirDetalhesItemInventario === "function"){
+    const original = window.abrirDetalhesItemInventario;
+    window.abrirDetalhesItemInventario = function(...args){
+      const result = original.apply(this,args);
+      requestAnimationFrame(aplicarV44);
+      return result;
+    };
+  }
 })();
 </script>
 
