@@ -18122,14 +18122,39 @@ function criarBlocoRecursoItemV4(item, recurso) {
         max.textContent = ` / ${recurso.max}`;
         block.appendChild(max);
     }
-    input.addEventListener("input", () => {
+    const persistirValor = () => {
+        const itemReal = (conteudo.inventario || []).find(entry => entry.id === item.id);
+        if (!itemReal) return null;
+        normalizarItemInventarioV4(itemReal);
+        const recursoReal = (itemReal.resources || []).find(entry => entry.id === recurso.id);
+        if (!recursoReal) return null;
+
         let valor = Math.max(0, numeroFinitoItemV4(input.value, 0));
-        if (recurso.max !== null && recurso.max !== undefined) valor = Math.min(valor, numeroFinitoItemV4(recurso.max, valor));
-        recurso.current = valor;
+        if (recursoReal.max !== null && recursoReal.max !== undefined) {
+            valor = Math.min(valor, numeroFinitoItemV4(recursoReal.max, valor));
+        }
+
+        recursoReal.current = valor;
+        input.value = valor;
+
         document.querySelectorAll("[data-item-resource-key]").forEach(outro => {
             if (outro !== input && outro.dataset.itemResourceKey === key) outro.value = valor;
         });
+
+        return valor;
+    };
+
+    input.addEventListener("input", () => {
+        if (persistirValor() === null) return;
         agendarSalvamentoConteudo();
+    });
+
+    // Ao terminar a edição, força uma gravação imediata. Isso evita perder
+    // o último valor caso a página seja recarregada antes do debounce.
+    input.addEventListener("change", async () => {
+        if (persistirValor() === null) return;
+        clearTimeout(conteudoSaveTimer);
+        await salvarConteudo();
     });
     return block;
 }
@@ -18214,22 +18239,42 @@ abrirDetalhesItemInventario = function(itemOrId) {
 
 const _salvarDetalhesAntesV4 = salvarDetalhesItemInventario;
 salvarDetalhesItemInventario = async function() {
-    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
-    if (item) {
-        item.estado = String(document.getElementById("inventoryDetailState")?.value || "normal");
-        item.consumable = {
-            enabled: Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked),
-            amountPerUse: Math.max(1, numeroFinitoItemV4(document.getElementById("inventoryDetailConsumableAmount")?.value, 1)),
-            label: String(document.getElementById("inventoryDetailConsumableLabel")?.value || "Usar").trim() || "Usar"
-        };
-        item.defenses = {
-            resistances: String(document.getElementById("inventoryDetailResistances")?.value || "").trim(),
-            immunities: String(document.getElementById("inventoryDetailImmunities")?.value || "").trim()
-        };
-        item.resources = coletarRecursosItemEditorV4();
-        normalizarItemInventarioV4(item);
-    }
+    const itemId = inventoryDetailItemId;
+    const recursosColetados = coletarRecursosItemEditorV4();
+    const estadoColetado = String(document.getElementById("inventoryDetailState")?.value || "normal");
+    const consumivelColetado = {
+        enabled: Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked),
+        amountPerUse: Math.max(1, numeroFinitoItemV4(document.getElementById("inventoryDetailConsumableAmount")?.value, 1)),
+        label: String(document.getElementById("inventoryDetailConsumableLabel")?.value || "Usar").trim() || "Usar"
+    };
+    const defesasColetadas = {
+        resistances: String(document.getElementById("inventoryDetailResistances")?.value || "").trim(),
+        immunities: String(document.getElementById("inventoryDetailImmunities")?.value || "").trim()
+    };
+
+    const aplicarCamposV4 = () => {
+        const itemReal = (conteudo.inventario || []).find(entry => entry.id === itemId);
+        if (!itemReal) return null;
+        itemReal.estado = estadoColetado;
+        itemReal.consumable = structuredClone(consumivelColetado);
+        itemReal.defenses = structuredClone(defesasColetadas);
+        itemReal.resources = structuredClone(recursosColetados);
+        normalizarItemInventarioV4(itemReal);
+        return itemReal;
+    };
+
+    aplicarCamposV4();
     await _salvarDetalhesAntesV4();
+
+    // A rotina antiga atualiza vários campos e re-renderiza a ficha. Reaplicamos
+    // os campos v4 depois dela para impedir que uma renderização/normalização
+    // intermediária recupere a versão anterior dos recursos.
+    const itemFinal = aplicarCamposV4();
+    if (itemFinal) {
+        sincronizarAtaquesDeItensInventario();
+        await salvarConteudo();
+    }
+
     renderizarRecursos();
     renderizarDefesasItensV4();
 };
