@@ -51,7 +51,7 @@
     </div>
     <div class="effects"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Efeitos</div><small style="color:var(--muted)">Dados que as fichas poderão interpretar.</small></div><button id="addEffect" class="btn">+ Efeito</button></div><div id="effects"></div></div>
     <div id="weaponEditor" class="weapon-editor" hidden>
-      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
+      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado. Os modificadores permitidos são escolhidos na cópia dentro de cada ficha.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
       <div class="weapon-grid">
         <div class="field wide"><label>Nome do ataque</label><input id="weaponName" placeholder="usa o nome do item se vazio"></div>
         <div class="field"><label>Perícia</label><select id="weaponSkill"><option>Luta</option><option>Pontaria</option><option>Atletismo</option><option>Acrobacia</option></select></div>
@@ -100,6 +100,24 @@ const COMMIT_FUNCTION="compendio-commit";
 const DEMO_ITEMS=[];
 let items=[],isAdmin=false,editingId=null;
 const $=id=>document.getElementById(id);const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");const uid=name=>`${String(name||"item").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"item"}-${crypto.randomUUID().slice(0,8)}`;
+
+const COMPENDIUM_SCHEMA_VERSION=4;
+function normalizarTemplateCompendioV4(item={}){
+  const out=item&&typeof item==="object"?item:{};
+  out.schemaVersion=COMPENDIUM_SCHEMA_VERSION;
+  out.efeitos=Array.isArray(out.efeitos)?out.efeitos:(Array.isArray(out.effects)?out.effects:[]);
+  const c=out.consumable||out.consumivel||{};
+  out.consumable={enabled:Boolean(c.enabled??false),amountPerUse:Math.max(1,Number(c.amountPerUse??1)||1),label:String(c.label||"Usar").trim()||"Usar"};
+  const d=out.defenses||out.defesas||{};
+  out.defenses={resistances:String(d.resistances??d.resistencias??""),immunities:String(d.immunities??d.imunidades??"")};
+  const recursos=Array.isArray(out.resources)?out.resources:(Array.isArray(out.recursos)?out.recursos:[]);
+  const ids=new Set();
+  out.resources=recursos.map(r=>{r=r&&typeof r==="object"?r:{};let id=String(r.id||"").trim();if(!id||ids.has(id))id=crypto.randomUUID();ids.add(id);const max=(r.max===null||r.max===""||r.max===undefined)?null:Math.max(0,Number(r.max)||0);let current=Math.max(0,Number(r.current??0)||0);if(max!==null)current=Math.min(current,max);return{...r,id,name:String(r.name||"Recurso").trim()||"Recurso",current,max,showNormal:r.showNormal!==false,showCombat:r.showCombat!==false}});
+  if(out.weaponAttack||out.ataqueArma){const w=out.weaponAttack||out.ataqueArma||{};out.weaponAttack={enabled:w.enabled!==false,name:String(w.name??w.nome??""),skill:String(w.skill??w.pericia??"Luta"),stat:String(w.stat??w.atributo??"str"),die:String(w.die??w.dano??"1d6"),type:String(w.type??w.tipoDano??""),threat:Math.max(1,Math.min(20,Number(w.threat??w.margemAmeaca??20)||20)),crit:Math.max(1,Number(w.crit??w.critico??2)||2),hitBonus:Number(w.hitBonus??w.bonusHit??0)||0,damageBonus:String(w.damageBonus??w.bonusDamage??""),range:String(w.range??w.alcance??""),hands:String(w.hands??w.maos??""),ammo:String(w.ammo??w.municao??""),reload:String(w.reload??w.recarga??""),properties:String(w.properties??w.propriedades??""),allowedToggles:[]};delete out.ataqueArma}
+  delete out.effects;delete out.consumivel;delete out.defesas;delete out.recursos;
+  return out;
+}
+
 function setSync(t,s=""){$("sync").textContent=t;$("sync").className=`sync ${s}`.trim()}function setAdmin(v){isAdmin=!!v;document.body.classList.toggle("is-admin",isAdmin);$("statusPill").classList.toggle("admin",isAdmin);$("statusText").textContent=isAdmin?"Modo edição":"Visão pública";$("loginBtn").style.display=isAdmin?"none":""}
 async function loadItems(){
   setSync("Carregando…");
@@ -116,7 +134,7 @@ async function loadItems(){
       throw new Error(d?.error||`HTTP ${r.status}`);
     }
     const d=await r.json();
-    items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);
+    items=(Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[])).map(normalizarTemplateCompendioV4);
     setSync("Compêndio carregado","saved");
   }catch(edgeError){
     console.warn("Leitura pela Edge Function falhou; tentando arquivo público.",edgeError);
@@ -124,7 +142,7 @@ async function loadItems(){
       const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});
       if(!r.ok)throw new Error(`HTTP ${r.status}`);
       const d=await r.json();
-      items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);
+      items=(Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[])).map(normalizarTemplateCompendioV4);
       setSync("Compêndio carregado (fallback)","saved");
     }catch(fileError){
       console.warn(fileError);
@@ -151,7 +169,7 @@ async function checkSession(){
 function refreshFilters(){const cats=[...new Set(items.map(i=>i.categoria).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const srcs=[...new Set(items.map(i=>i.fonte).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const c=$("category").value,s=$("source").value;$("category").innerHTML='<option value="">Todas</option>'+cats.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");$("source").innerHTML='<option value="">Todas</option>'+srcs.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");if(cats.includes(c))$("category").value=c;if(srcs.includes(s))$("source").value=s}
 function filtered(){const q=$("search").value.trim().toLowerCase(),c=$("category").value,s=$("source").value;return items.filter(i=>{if(c&&i.categoria!==c)return false;if(s&&i.fonte!==s)return false;if(!q)return true;return[i.nome,i.categoria,i.subtipo,i.fonte,i.descricao,...(i.tags||[])].join(" ").toLowerCase().includes(q)})}
 function render(){const list=filtered();$("count").textContent=`${list.length} ${list.length===1?"item":"itens"}`;if(!list.length){$("items").innerHTML='<div class="empty">Nenhum item encontrado.</div>';return}$("items").innerHTML=list.map(i=>{const tags=[i.categoria,i.subtipo,...(i.tags||[])].filter(Boolean).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join("");const price=i.preco?.valor!==undefined?`${esc(i.preco.valor)} ${esc(i.preco.moeda||"")}`.trim():"—";const src=[i.fonte,i.pagina?`p. ${i.pagina}`:""].filter(Boolean).join(" • ");return`<article class="card"><h3>${esc(i.nome||"Item sem nome")}</h3><div class="tags">${tags}</div><div class="desc">${esc(i.descricao||"Sem descrição.")}</div><div class="foot"><div><div>${i.peso??"—"} kg · ${price}</div><div>${esc(src||"Fonte não informada")}</div></div><div class="card-actions"><button class="btn" onclick="viewItem('${esc(i.id)}')">Ver</button><button class="btn admin-only" onclick="editItem('${esc(i.id)}')">Editar</button></div></div></article>`}).join("")}
-function emptyItem(){return{id:"",nome:"",categoria:"",subtipo:"",peso:0,preco:{valor:0,moeda:"T$"},fonte:"",pagina:"",tags:[],descricao:"",efeitos:[]}}
+function emptyItem(){return normalizarTemplateCompendioV4({id:"",nome:"",categoria:"",subtipo:"",peso:0,preco:{valor:0,moeda:"T$"},fonte:"",pagina:"",tags:[],descricao:"",efeitos:[],consumable:{enabled:false,amountPerUse:1,label:"Usar"},defenses:{resistances:"",immunities:""},resources:[]})}
 function renderEffects(effects,viewOnly=false){
   $("effects").innerHTML="";
   effects.forEach(e=>{
@@ -164,7 +182,7 @@ function renderEffects(effects,viewOnly=false){
     else if(tipo==="spell") value=[e.dcBonus??0,e.attackBonus??0].join(" | ");
     else value=e.bonus??e.valor??"";
     const descricao=e.text||e.descricao||"";
-    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"]];
+    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"],["other","Outro"]];
     row.innerHTML=`
       <select class="effect-type" ${viewOnly?"disabled":""}>${options.map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}</select>
       <select class="effect-mode" ${viewOnly?"disabled":""}>${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}</select>
@@ -190,8 +208,9 @@ function collectEffectsFromEditor(){
     else if(["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)){e.bonus=Number(raw||0)}
     else if(type==="attack"){const [h,d]=raw.split("|").map(v=>v.trim());e.bonusHit=Number(h||0);e.bonusDamage=d||""}
     else if(type==="spell"){const [dc,atk]=raw.split("|").map(v=>v.trim());e.dcBonus=Number(dc||0);e.attackBonus=Number(atk||0)}
+    else if(type==="other"){e.target=target;e.valor=raw}
     return e;
-  }).filter(e=>e.text||e.bonus||e.bonusHit||e.bonusDamage||e.dcBonus||e.attackBonus)
+  }).filter(e=>e.text||e.skill||e.stat||e.target||e.valor!==undefined||e.bonus!==undefined||e.bonusHit!==undefined||e.bonusDamage||e.dcBonus!==undefined||e.attackBonus!==undefined)
 }
 function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return /^armas?(\s|$)/.test(c)||c.includes("weapon")}
 function updateWeaponVisibility(){const w=$("weaponEditor");if(w)w.hidden=!isWeaponCategory()}
@@ -215,7 +234,7 @@ function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").text
 function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
 function collect(){
   const efeitos=collectEffectsFromEditor();const weaponAttack=collectWeapon();
-  return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack,consumable:{enabled:Boolean($("consumableEnabled").checked),amountPerUse:Math.max(1,Number($("consumableAmount").value||1)),label:$("consumableLabel").value.trim()||"Usar"},defenses:{resistances:$("itemResistances").value.trim(),immunities:$("itemImmunities").value.trim()},resources:collectCompendiumResources()}
+  return normalizarTemplateCompendioV4({id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack,consumable:{enabled:Boolean($("consumableEnabled").checked),amountPerUse:Math.max(1,Number($("consumableAmount").value||1)),label:$("consumableLabel").value.trim()||"Usar"},defenses:{resistances:$("itemResistances").value.trim(),immunities:$("itemImmunities").value.trim()},resources:collectCompendiumResources()})
 }
 async function invokeCommit(body){
   if(!isAdmin)throw new Error("Acesso não autorizado.");

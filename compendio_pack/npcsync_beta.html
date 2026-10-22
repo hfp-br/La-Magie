@@ -3788,13 +3788,6 @@ function normalizarAtaqueArmaItem(item) {
         type: original.type || original.tipoDano || "",
         threat: Number(original.threat ?? original.margemAmeaca ?? 20) || 20,
         crit: Number(original.crit ?? original.critico ?? 2) || 2,
-        hitBonus: Number(original.hitBonus ?? original.bonusHit ?? original.bonusAcerto ?? 0) || 0,
-        damageBonus: String(original.damageBonus ?? original.bonusDamage ?? original.bonusDano ?? "").trim(),
-        range: String(original.range ?? original.alcance ?? "").trim(),
-        hands: String(original.hands ?? original.maos ?? "").trim(),
-        ammo: String(original.ammo ?? original.municao ?? "").trim(),
-        reload: String(original.reload ?? original.recarga ?? "").trim(),
-        properties: String(original.properties ?? original.propriedades ?? "").trim(),
         allowedToggles: Array.isArray(original.allowedToggles) ? [...original.allowedToggles] : (Array.isArray(original.modificadores) ? [...original.modificadores] : [])
     };
 }
@@ -3813,8 +3806,7 @@ function sincronizarAtaquesDeItensInventario() {
         const arma = itemInventarioEhArma(item);
         const config = normalizarAtaqueArmaItem(item);
 
-        const estadoItem = String(item.estado || item.state || "normal");
-        if (!arma || !config.enabled || estadoItem !== "normal") {
+        if (!arma || !config.enabled) {
             if (existenteIndex >= 0) { conteudo.ataques.splice(existenteIndex, 1); mudou = true; }
             return;
         }
@@ -3835,13 +3827,6 @@ function sincronizarAtaquesDeItensInventario() {
             type: config.type || "",
             critMargin: Math.max(1, Math.min(20, Number(config.threat || 20))),
             critMultiplier: Math.max(1, Number(config.crit || 2)),
-            ownHitBonus: Number(config.hitBonus || 0),
-            ownDamageBonus: String(config.damageBonus || "").trim(),
-            weaponRange: config.range || "",
-            weaponHands: config.hands || "",
-            weaponAmmo: config.ammo || "",
-            weaponReload: config.reload || "",
-            weaponProperties: config.properties || "",
             allowedCombatToggles: [...(config.allowedToggles || [])],
             effects: existenteIndex >= 0 && Array.isArray(conteudo.ataques[existenteIndex].effects) ? conteudo.ataques[existenteIndex].effects : []
         };
@@ -3888,13 +3873,6 @@ function preencherEditorAtaqueArma(item) {
     document.getElementById("inventoryDetailWeaponDamageType").value = config.type || "";
     document.getElementById("inventoryDetailWeaponThreat").value = config.threat || 20;
     document.getElementById("inventoryDetailWeaponCrit").value = config.crit || 2;
-    document.getElementById("inventoryDetailWeaponHitBonus").value = Number(config.hitBonus || 0);
-    document.getElementById("inventoryDetailWeaponDamageBonus").value = config.damageBonus || "";
-    document.getElementById("inventoryDetailWeaponRange").value = config.range || "";
-    document.getElementById("inventoryDetailWeaponHands").value = config.hands || "";
-    document.getElementById("inventoryDetailWeaponAmmo").value = config.ammo || "";
-    document.getElementById("inventoryDetailWeaponReload").value = config.reload || "";
-    document.getElementById("inventoryDetailWeaponProperties").value = config.properties || "";
 
     const mods = document.getElementById("inventoryDetailWeaponModifiers");
     if (mods) {
@@ -3923,13 +3901,6 @@ function coletarAtaqueArmaDetalhado(item) {
         type: document.getElementById("inventoryDetailWeaponDamageType")?.value.trim() || "",
         threat: Math.max(1, Math.min(20, Number(document.getElementById("inventoryDetailWeaponThreat")?.value || 20))),
         crit: Math.max(1, Number(document.getElementById("inventoryDetailWeaponCrit")?.value || 2)),
-        hitBonus: Number(document.getElementById("inventoryDetailWeaponHitBonus")?.value || 0),
-        damageBonus: document.getElementById("inventoryDetailWeaponDamageBonus")?.value.trim() || "",
-        range: document.getElementById("inventoryDetailWeaponRange")?.value.trim() || "",
-        hands: document.getElementById("inventoryDetailWeaponHands")?.value.trim() || "",
-        ammo: document.getElementById("inventoryDetailWeaponAmmo")?.value.trim() || "",
-        reload: document.getElementById("inventoryDetailWeaponReload")?.value.trim() || "",
-        properties: document.getElementById("inventoryDetailWeaponProperties")?.value.trim() || "",
         allowedToggles: selected
     };
 }
@@ -9176,8 +9147,6 @@ function renderizarRecursos() {
             });
 
     }
-
-    renderizarRecursosEDefesasDeItens();
 }
 
 function adicionarItemInventario() {
@@ -10700,19 +10669,12 @@ getAttackEffectDefinitions()
                 "Ataque";
 
 
-            const attackMeta = [
-                attack.subtitle || "",
-                attack.weaponRange ? `Alcance: ${attack.weaponRange}` : "",
-                attack.weaponHands ? `${attack.weaponHands} mão(s)` : "",
-                attack.weaponAmmo ? `Munição: ${attack.weaponAmmo}` : "",
-                attack.weaponReload ? `Recarga: ${attack.weaponReload}` : "",
-                attack.weaponProperties || ""
-            ].filter(Boolean).join(" • ");
             element
                 .querySelector(
                     ".attack-name small"
                 )
-                .textContent = attackMeta;
+                .textContent =
+                attack.subtitle || "";
 
 
             element
@@ -13988,7 +13950,7 @@ function updateAttacks(mods, level) {
         attack.stat,
         mods,
         level
-    ) + Number(attack.ownHitBonus || 0);
+    );
 
 
       const effects =
@@ -14018,11 +13980,6 @@ function updateAttacks(mods, level) {
 
     else if (statMod < 0) {
       damage += `${statMod}`;
-    }
-
-    const ownDamageBonus = String(attack.ownDamageBonus || "").trim();
-    if (ownDamageBonus) {
-        damage += ownDamageBonus.startsWith("+") || ownDamageBonus.startsWith("-") ? ownDamageBonus : `+${ownDamageBonus}`;
     }
 
     effects.forEach(effect => {
@@ -17751,7 +17708,6 @@ function coletarEfeitosInventario(tipoEfeito) {
     const resultado = [];
 
     (conteudo.inventario || []).forEach(item => {
-        if (String(item.estado || item.state || "normal") !== "normal") return;
         const effects = Array.isArray(item.effects)
             ? item.effects
             : (Array.isArray(item.efeitos) ? item.efeitos : []);
@@ -18164,19 +18120,13 @@ function abrirDetalhesItemInventario(itemOrId) {
 
     const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
     inventoryDetailDraft = { effects: structuredClone(effects) };
+    renderizarEfeitosDetalhadosCompletos();
+    preencherEditorAtaqueArma(item);
 
     document.getElementById("inventoryDetailOverlay")?.classList.add("show");
     document.getElementById("inventoryDetailOverlay")?.setAttribute("aria-hidden", "false");
     document.getElementById("inventoryDetailModal")?.classList.add("show");
     document.getElementById("inventoryDetailModal")?.setAttribute("aria-hidden", "false");
-
-    try {
-        renderizarEfeitosDetalhadosCompletos();
-        preencherEditorAtaqueArma(item);
-        preencherCamposAvancadosItem(item);
-    } catch (error) {
-        console.error("Erro ao preencher detalhes do item:", error);
-    }
 }
 
 async function salvarDetalhesItemInventario() {
@@ -18195,9 +18145,8 @@ async function salvarDetalhesItemInventario() {
         valor: Number(document.getElementById("inventoryDetailPrice")?.value || 0),
         moeda: document.getElementById("inventoryDetailCurrency")?.value.trim() || ""
     };
-    item.effects = coletarEfeitosDetalhadosInventario();
+    item.effects = structuredClone(inventoryDetailDraft?.effects || []);
     delete item.efeitos;
-    coletarCamposAvancadosItem(item);
     coletarAtaqueArmaDetalhado(item);
     sincronizarAtaquesDeItensInventario();
 
@@ -18225,216 +18174,11 @@ function configurarDetalhesInventario() {
     document.getElementById("inventoryDetailOverlay")?.addEventListener("click", fecharDetalhesItemInventario);
     document.getElementById("inventoryDetailSave")?.addEventListener("click", salvarDetalhesItemInventario);
     document.getElementById("inventoryDetailDelete")?.addEventListener("click", excluirItemPelosDetalhes);
-
-    const addResource = document.getElementById("inventoryDetailAddResource");
-    if (addResource) {
-        addResource.addEventListener("click", () => {
-            document.querySelector("#inventoryDetailResources .inventory-item-resources-empty")?.remove();
-            adicionarLinhaRecursoItem({ id: criarId(), name: "Novo recurso", current: 0, max: null, showNormal: true, showCombat: true });
-        });
-    }
-
-    const addEffect = document.getElementById("inventoryDetailAddEffect");
-    if (addEffect) {
-        addEffect.style.display = "inline-flex";
-        addEffect.addEventListener("click", () => {
-            document.querySelector("#inventoryDetailEffects .inventory-detail-empty-effects")?.remove();
-            adicionarLinhaEfeitoDetalhado({ tipo: "outro", modo: "always", alvo: "", valor: "", descricao: "" });
-        });
-    }
+    // O editor completo de efeitos já possui seu próprio botão + Efeito.
 }
 
 document.addEventListener("DOMContentLoaded", configurarDetalhesInventario);
 
-
-function normalizarConsumivelItem(item) {
-    const raw = item?.consumable || item?.consumivel || {};
-    return {
-        enabled: Boolean(raw.enabled ?? raw.ativo ?? false),
-        amountPerUse: Math.max(1, Number(raw.amountPerUse ?? raw.quantidadePorUso ?? 1) || 1),
-        label: String(raw.label ?? raw.rotulo ?? "Usar").trim() || "Usar"
-    };
-}
-
-function normalizarDefesasItem(item) {
-    const raw = item?.defenses || item?.defesas || {};
-    return {
-        resistances: String(raw.resistances ?? raw.resistencias ?? "").trim(),
-        immunities: String(raw.immunities ?? raw.imunidades ?? "").trim()
-    };
-}
-
-function recursosDoItem(item) {
-    if (Array.isArray(item?.resources)) return item.resources;
-    if (Array.isArray(item?.recursos)) return item.recursos;
-    return [];
-}
-
-function preencherCamposAvancadosItem(item) {
-    const state = document.getElementById("inventoryDetailState");
-    if (state) state.value = String(item?.estado || item?.state || "normal");
-
-    const consumable = normalizarConsumivelItem(item);
-    const enabled = document.getElementById("inventoryDetailConsumableEnabled");
-    const amount = document.getElementById("inventoryDetailConsumableAmount");
-    const label = document.getElementById("inventoryDetailConsumableLabel");
-    if (enabled) enabled.checked = consumable.enabled;
-    if (amount) amount.value = consumable.amountPerUse;
-    if (label) label.value = consumable.label;
-
-    const defenses = normalizarDefesasItem(item);
-    const resistances = document.getElementById("inventoryDetailResistances");
-    const immunities = document.getElementById("inventoryDetailImmunities");
-    if (resistances) resistances.value = defenses.resistances;
-    if (immunities) immunities.value = defenses.immunities;
-
-    renderizarEditorRecursosItem(recursosDoItem(item));
-}
-
-function adicionarLinhaRecursoItem(resource = {}) {
-    const root = document.getElementById("inventoryDetailResources");
-    if (!root) return;
-    const row = document.createElement("div");
-    row.className = "inventory-item-resource-row";
-    row.dataset.resourceId = resource.id || criarId();
-    row.innerHTML = `
-        <input class="item-resource-name" type="text" placeholder="Nome" value="">
-        <input class="item-resource-current" type="number" min="0" placeholder="Atual">
-        <input class="item-resource-max" type="number" min="0" placeholder="Máx.">
-        <label class="inventory-item-resource-check"><input class="item-resource-normal" type="checkbox"> Ficha</label>
-        <label class="inventory-item-resource-check"><input class="item-resource-combat" type="checkbox"> Combate</label>
-        <button class="inventory-delete item-resource-delete" type="button" title="Remover">×</button>`;
-    row.querySelector(".item-resource-name").value = resource.name || resource.nome || "";
-    row.querySelector(".item-resource-current").value = Number(resource.current ?? resource.atual ?? 0);
-    const max = resource.max ?? resource.maximo;
-    row.querySelector(".item-resource-max").value = max === null || max === undefined ? "" : Number(max);
-    row.querySelector(".item-resource-normal").checked = resource.showNormal !== false;
-    row.querySelector(".item-resource-combat").checked = resource.showCombat !== false;
-    row.querySelector(".item-resource-delete").addEventListener("click", () => row.remove());
-    root.appendChild(row);
-}
-
-function renderizarEditorRecursosItem(resources = []) {
-    const root = document.getElementById("inventoryDetailResources");
-    if (!root) return;
-    root.innerHTML = "";
-    resources.forEach(resource => adicionarLinhaRecursoItem(resource));
-    if (!resources.length) {
-        const empty = document.createElement("small");
-        empty.className = "inventory-item-resources-empty";
-        empty.style.color = "var(--muted)";
-        empty.textContent = "Nenhum recurso neste item.";
-        root.appendChild(empty);
-    }
-}
-
-function coletarCamposAvancadosItem(item) {
-    item.estado = document.getElementById("inventoryDetailState")?.value || "normal";
-    delete item.state;
-    item.consumable = {
-        enabled: Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked),
-        amountPerUse: Math.max(1, Number(document.getElementById("inventoryDetailConsumableAmount")?.value || 1)),
-        label: document.getElementById("inventoryDetailConsumableLabel")?.value.trim() || "Usar"
-    };
-    delete item.consumivel;
-    item.defenses = {
-        resistances: document.getElementById("inventoryDetailResistances")?.value.trim() || "",
-        immunities: document.getElementById("inventoryDetailImmunities")?.value.trim() || ""
-    };
-    delete item.defesas;
-    item.resources = [...document.querySelectorAll("#inventoryDetailResources .inventory-item-resource-row")].map(row => ({
-        id: row.dataset.resourceId || criarId(),
-        name: row.querySelector(".item-resource-name")?.value.trim() || "Recurso",
-        current: Math.max(0, Number(row.querySelector(".item-resource-current")?.value || 0)),
-        max: row.querySelector(".item-resource-max")?.value === "" ? null : Math.max(0, Number(row.querySelector(".item-resource-max")?.value || 0)),
-        showNormal: Boolean(row.querySelector(".item-resource-normal")?.checked),
-        showCombat: Boolean(row.querySelector(".item-resource-combat")?.checked)
-    }));
-    delete item.recursos;
-}
-
-async function usarConsumivelInventario(item) {
-    if (!item || !isOwner) return;
-    if (String(item.estado || "normal") !== "normal") return;
-    const config = normalizarConsumivelItem(item);
-    if (!config.enabled) return;
-    const quantidade = Math.max(0, Number(item.quantidade || 0));
-    if (quantidade < config.amountPerUse) return;
-    item.quantidade = Math.max(0, quantidade - config.amountPerUse);
-    renderizarInventario();
-    atualizarPesoInventario();
-    updateSheet();
-    await salvarConteudo();
-}
-
-function criarBlocoRecursoDeItem(item, recurso) {
-    const block = document.createElement("div");
-    block.className = "resource-block item-resource-block";
-    const title = document.createElement("div");
-    title.className = "resource-title";
-    title.textContent = recurso.name || recurso.nome || "Recurso";
-    const source = document.createElement("small");
-    source.className = "item-resource-source";
-    source.textContent = item.nome || "Item";
-    title.appendChild(source);
-    const input = document.createElement("input");
-    input.type = "number";
-    input.min = "0";
-    input.value = Number(recurso.current ?? recurso.atual ?? 0);
-    input.dataset.gameplay = "true";
-    input.disabled = !isOwner || String(item.estado || "normal") !== "normal";
-    input.style.width = "70px";
-    input.style.textAlign = "center";
-    input.addEventListener("input", () => {
-        recurso.current = Math.max(0, Number(input.value || 0));
-        document.querySelectorAll(`[data-item-resource-sync="${recurso.id}"]`).forEach(other => {
-            if (other !== input) other.value = recurso.current;
-        });
-        agendarSalvamentoConteudo();
-    });
-    input.dataset.itemResourceSync = recurso.id || "";
-    block.appendChild(title);
-    block.appendChild(input);
-    const max = recurso.max ?? recurso.maximo;
-    if (max !== null && max !== undefined) {
-        const span = document.createElement("span");
-        span.textContent = ` / ${max}`;
-        block.appendChild(span);
-    }
-    return block;
-}
-
-function renderizarRecursosEDefesasDeItens() {
-    const normalContainer = document.getElementById("normalResourceList");
-    const combatContainer = document.getElementById("combatResourceList");
-    (conteudo.inventario || []).forEach(item => {
-        const estadoNormal = String(item.estado || item.state || "normal") === "normal";
-        recursosDoItem(item).forEach(recurso => {
-            if (normalContainer && recurso.showNormal !== false) normalContainer.appendChild(criarBlocoRecursoDeItem(item, recurso));
-            if (combatContainer && recurso.showCombat !== false) combatContainer.appendChild(criarBlocoRecursoDeItem(item, recurso));
-        });
-        if (combatContainer && estadoNormal) {
-            const defenses = normalizarDefesasItem(item);
-            if (defenses.resistances || defenses.immunities) {
-                const wrap = document.createElement("div");
-                wrap.className = "item-defense-display";
-                if (defenses.resistances) {
-                    const chip = document.createElement("span"); chip.className = "item-defense-chip";
-                    chip.innerHTML = `<strong>Resistência:</strong> ${defenses.resistances}`;
-                    wrap.appendChild(chip);
-                }
-                if (defenses.immunities) {
-                    const chip = document.createElement("span"); chip.className = "item-defense-chip";
-                    chip.innerHTML = `<strong>Imunidade:</strong> ${defenses.immunities}`;
-                    wrap.appendChild(chip);
-                }
-                const source = document.createElement("small"); source.className = "item-resource-source"; source.textContent = item.nome || "Item";
-                wrap.appendChild(source);
-                combatContainer.appendChild(wrap);
-            }
-        }
-    });
-}
 
 function renderizarInventario() {
 
@@ -18497,13 +18241,6 @@ function renderizarInventario() {
             if (itemInventarioEhArma(item)) {
                 const badge=document.createElement("span"); badge.className="inventory-weapon-badge"; badge.textContent="⚔ gera ataque"; main.appendChild(badge);
             }
-            const estado = String(item.estado || item.state || "normal");
-            if (estado !== "normal") {
-                const badge = document.createElement("span");
-                badge.className = `inventory-state-badge ${estado}`;
-                badge.textContent = estado === "broken" ? "Quebrado" : "Desativado";
-                main.appendChild(badge);
-            }
 
             if (item.descricao) {
                 const desc = document.createElement("div");
@@ -18543,18 +18280,6 @@ function renderizarInventario() {
             weight.textContent = `${pesoTotal.toFixed(2)} kg`;
             side.appendChild(weight);
 
-            const consumivel = normalizarConsumivelItem(item);
-            if (consumivel.enabled) {
-                const usar = document.createElement("button");
-                usar.type = "button";
-                usar.className = "inventory-use-button";
-                usar.textContent = consumivel.label;
-                usar.disabled = !isOwner || String(item.estado || "normal") !== "normal" || quantidade < consumivel.amountPerUse;
-                usar.title = quantidade < consumivel.amountPerUse ? "Quantidade insuficiente" : `${consumivel.label} (${consumivel.amountPerUse} por uso)`;
-                usar.addEventListener("click", () => usarConsumivelInventario(item));
-                side.appendChild(usar);
-            }
-
             const detalhes = document.createElement("button");
             detalhes.type = "button";
             detalhes.className = "inventory-more";
@@ -18583,6 +18308,639 @@ function renderizarInventario() {
 
     atualizarPesoInventario();
 }
+
+/* ============================================================
+   V4 — CAMADA DE ESTABILIDADE DO SISTEMA DE ITENS
+   Mantém o modelo flexível e centraliza compatibilidade/estado.
+   ============================================================ */
+const ITEM_SCHEMA_VERSION = 4;
+
+function numeroFinitoItemV4(valor, padrao = 0) {
+    const n = Number(valor);
+    return Number.isFinite(n) ? n : padrao;
+}
+
+function normalizarEstadoItemV4(item) {
+    const bruto = String(item?.estado ?? item?.state ?? "normal").trim().toLowerCase();
+    return ["normal", "disabled", "broken"].includes(bruto) ? bruto : "normal";
+}
+
+function normalizarConsumivelItemV4(item) {
+    const original = item?.consumable || item?.consumivel || {};
+    return {
+        enabled: Boolean(original.enabled ?? original.ativo ?? false),
+        amountPerUse: Math.max(1, numeroFinitoItemV4(original.amountPerUse ?? original.quantidadePorUso ?? 1, 1)),
+        label: String(original.label ?? original.rotulo ?? "Usar").trim() || "Usar"
+    };
+}
+
+function normalizarDefesasItemV4(item) {
+    const original = item?.defenses || item?.defesas || {};
+    return {
+        resistances: String(original.resistances ?? original.resistencias ?? ""),
+        immunities: String(original.immunities ?? original.imunidades ?? "")
+    };
+}
+
+function normalizarRecursosItemV4(item) {
+    const lista = Array.isArray(item?.resources)
+        ? item.resources
+        : (Array.isArray(item?.recursos) ? item.recursos : []);
+    const vistos = new Set();
+    return lista.map(recurso => {
+        const r = recurso && typeof recurso === "object" ? recurso : {};
+        let id = String(r.id || "").trim();
+        if (!id || vistos.has(id)) id = criarId();
+        vistos.add(id);
+        const maxRaw = r.max ?? r.maximo ?? null;
+        const max = maxRaw === null || maxRaw === "" || maxRaw === undefined
+            ? null
+            : Math.max(0, numeroFinitoItemV4(maxRaw, 0));
+        let current = Math.max(0, numeroFinitoItemV4(r.current ?? r.atual ?? 0, 0));
+        if (max !== null) current = Math.min(current, max);
+        return {
+            ...r,
+            id,
+            name: String(r.name ?? r.nome ?? "Recurso").trim() || "Recurso",
+            current,
+            max,
+            showNormal: r.showNormal !== false,
+            showCombat: r.showCombat !== false
+        };
+    });
+}
+
+function normalizarItemInventarioV4(item) {
+    if (!item || typeof item !== "object") item = {};
+    item.schemaVersion = ITEM_SCHEMA_VERSION;
+    item.id = String(item.id || "").trim() || criarId();
+    item.nome = String(item.nome ?? item.name ?? "");
+    item.quantidade = Math.max(0, numeroFinitoItemV4(item.quantidade ?? item.quantity ?? 1, 1));
+    item.peso = Math.max(0, numeroFinitoItemV4(item.peso ?? item.weight ?? 0, 0));
+    item.estado = normalizarEstadoItemV4(item);
+    item.consumable = normalizarConsumivelItemV4(item);
+    item.defenses = normalizarDefesasItemV4(item);
+    item.resources = normalizarRecursosItemV4(item);
+    item.effects = Array.isArray(item.effects)
+        ? item.effects
+        : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    delete item.efeitos;
+    delete item.consumivel;
+    delete item.defesas;
+    delete item.recursos;
+    return item;
+}
+
+function normalizarInventarioV4(lista) {
+    const inventario = Array.isArray(lista) ? lista : [];
+    const ids = new Set();
+    inventario.forEach((item, indice) => {
+        item = normalizarItemInventarioV4(item);
+        if (ids.has(item.id)) item.id = criarId();
+        ids.add(item.id);
+        inventario[indice] = item;
+    });
+    return inventario;
+}
+
+function itemInventarioDisponivelV4(item) {
+    if (!item) return false;
+    return normalizarEstadoItemV4(item) === "normal" && numeroFinitoItemV4(item.quantidade, 0) > 0;
+}
+
+function motivoIndisponibilidadeItemV4(item) {
+    if (numeroFinitoItemV4(item?.quantidade, 0) <= 0) return "Sem estoque";
+    const estado = normalizarEstadoItemV4(item);
+    if (estado === "broken") return "Quebrado";
+    if (estado === "disabled") return "Desativado";
+    return "";
+}
+
+/* normalização acontece já na carga da ficha, inclusive em fichas antigas */
+const _normalizarConteudoAntesV4 = normalizarConteudo;
+normalizarConteudo = function(dados) {
+    const resultado = _normalizarConteudoAntesV4(dados || {});
+    resultado.inventario = normalizarInventarioV4(resultado.inventario);
+    return resultado;
+};
+
+/* ------------------------------------------------------------
+   ARMAS — compatibilidade + campos próprios
+   ------------------------------------------------------------ */
+const _normalizarAtaqueArmaAntesV4 = normalizarAtaqueArmaItem;
+normalizarAtaqueArmaItem = function(item) {
+    const base = _normalizarAtaqueArmaAntesV4(item);
+    const original = item?.weaponAttack || item?.ataqueArma || {};
+    return {
+        ...base,
+        hitBonus: numeroFinitoItemV4(original.hitBonus ?? original.bonusHit ?? original.bonusAcerto ?? 0, 0),
+        damageBonus: String(original.damageBonus ?? original.bonusDamage ?? original.bonusDano ?? "").trim(),
+        range: String(original.range ?? original.alcance ?? "").trim(),
+        hands: String(original.hands ?? original.maos ?? original.mãos ?? "").trim(),
+        ammo: String(original.ammo ?? original.municao ?? original.munição ?? "").trim(),
+        reload: String(original.reload ?? original.recarga ?? "").trim(),
+        properties: String(original.properties ?? original.propriedades ?? "").trim(),
+        allowedToggles: Array.isArray(base.allowedToggles) ? [...new Set(base.allowedToggles.filter(Boolean))] : []
+    };
+};
+
+sincronizarAtaquesDeItensInventario = function() {
+    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
+    let mudou = false;
+
+    const antes = conteudo.ataques.length;
+    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
+    if (conteudo.ataques.length !== antes) mudou = true;
+
+    (conteudo.inventario || []).forEach(item => {
+        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
+        const arma = itemInventarioEhArma(item);
+        const config = normalizarAtaqueArmaItem(item);
+        const disponivel = itemInventarioDisponivelV4(item);
+
+        if (!arma || !config.enabled || !disponivel) {
+            if (existenteIndex >= 0) {
+                conteudo.ataques.splice(existenteIndex, 1);
+                mudou = true;
+            }
+            return;
+        }
+
+        item.weaponAttack = config;
+        delete item.ataqueArma;
+
+        const anterior = existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : null;
+        const attack = {
+            ...(anterior || {}),
+            id: anterior?.id || criarId(),
+            sourceItemId: item.id,
+            sourceType: "inventoryWeapon",
+            name: config.name || item.nome || "Arma",
+            subtitle: item.subtipo || item.descricao || "Item do inventário",
+            skill: config.skill || "Luta",
+            stat: config.stat || "str",
+            die: config.die || "1d6",
+            type: config.type || "",
+            critMargin: Math.max(1, Math.min(20, numeroFinitoItemV4(config.threat, 20))),
+            critMultiplier: Math.max(1, numeroFinitoItemV4(config.crit, 2)),
+            allowedCombatToggles: [...(config.allowedToggles || [])],
+            itemHitBonus: numeroFinitoItemV4(config.hitBonus, 0),
+            itemDamageBonus: String(config.damageBonus || "").trim(),
+            weaponRange: config.range || "",
+            weaponHands: config.hands || "",
+            weaponAmmo: config.ammo || "",
+            weaponReload: config.reload || "",
+            weaponProperties: config.properties || "",
+            effects: anterior && Array.isArray(anterior.effects) ? anterior.effects : []
+        };
+
+        if (existenteIndex >= 0) {
+            if (JSON.stringify(anterior) !== JSON.stringify(attack)) {
+                conteudo.ataques[existenteIndex] = attack;
+                mudou = true;
+            }
+        } else {
+            conteudo.ataques.push(attack);
+            mudou = true;
+        }
+    });
+
+    if (mudou) agendarSalvamentoConteudo();
+    return mudou;
+};
+
+const _getAttackEffectsAntesV4 = getAttackEffects;
+getAttackEffects = function(attack) {
+    const efeitos = _getAttackEffectsAntesV4(attack);
+    if (!attack?.sourceItemId) return efeitos;
+    const hit = numeroFinitoItemV4(attack.itemHitBonus, 0);
+    const damage = String(attack.itemDamageBonus || "").trim();
+    if (!hit && !damage) return efeitos;
+    return [
+        ...efeitos,
+        {
+            id: `item-own-${attack.sourceItemId}`,
+            type: "attack",
+            bonusHit: hit,
+            bonusDamage: damage,
+            text: "Bônus próprio da arma"
+        }
+    ];
+};
+
+/* os campos avançados da arma no modal passam a ser realmente persistidos */
+const _preencherEditorAtaqueArmaAntesV4 = preencherEditorAtaqueArma;
+preencherEditorAtaqueArma = function(item) {
+    _preencherEditorAtaqueArmaAntesV4(item);
+    if (!itemInventarioEhArma(item)) return;
+    const config = normalizarAtaqueArmaItem(item);
+    const pares = {
+        inventoryDetailWeaponHitBonus: config.hitBonus,
+        inventoryDetailWeaponDamageBonus: config.damageBonus,
+        inventoryDetailWeaponRange: config.range,
+        inventoryDetailWeaponHands: config.hands,
+        inventoryDetailWeaponAmmo: config.ammo,
+        inventoryDetailWeaponReload: config.reload,
+        inventoryDetailWeaponProperties: config.properties
+    };
+    Object.entries(pares).forEach(([id, valor]) => {
+        const el = document.getElementById(id);
+        if (el) el.value = valor ?? "";
+    });
+};
+
+const _coletarAtaqueArmaDetalhadoAntesV4 = coletarAtaqueArmaDetalhado;
+coletarAtaqueArmaDetalhado = function(item) {
+    _coletarAtaqueArmaDetalhadoAntesV4(item);
+    if (!item?.weaponAttack) return;
+    item.weaponAttack.hitBonus = numeroFinitoItemV4(document.getElementById("inventoryDetailWeaponHitBonus")?.value, 0);
+    item.weaponAttack.damageBonus = String(document.getElementById("inventoryDetailWeaponDamageBonus")?.value || "").trim();
+    item.weaponAttack.range = String(document.getElementById("inventoryDetailWeaponRange")?.value || "").trim();
+    item.weaponAttack.hands = String(document.getElementById("inventoryDetailWeaponHands")?.value || "").trim();
+    item.weaponAttack.ammo = String(document.getElementById("inventoryDetailWeaponAmmo")?.value || "").trim();
+    item.weaponAttack.reload = String(document.getElementById("inventoryDetailWeaponReload")?.value || "").trim();
+    item.weaponAttack.properties = String(document.getElementById("inventoryDetailWeaponProperties")?.value || "").trim();
+};
+
+/* ------------------------------------------------------------
+   EFEITOS — quantidade 0, quebrado ou desativado suspendem tudo
+   ------------------------------------------------------------ */
+coletarEfeitosInventario = function(tipoEfeito) {
+    const resultado = [];
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        if (!itemInventarioDisponivelV4(item)) return;
+        const effects = Array.isArray(item.effects) ? item.effects : [];
+        effects.forEach(raw => {
+            const effect = converterEfeitoItem(raw, item);
+            if (effect.type !== tipoEfeito) return;
+            if (effect.mode === "use") return;
+            if (effect.mode === "toggle" && !item.ativo) return;
+            if (effect.mode === "conditional") {
+                const requiresToggle = String(raw?.requiresToggle || effect?.requiresToggle || "").trim();
+                if (!requiresToggle) return;
+                effect.requiresToggle = requiresToggle;
+            }
+            resultado.push(effect);
+        });
+    });
+    return resultado;
+};
+
+/* ------------------------------------------------------------
+   MODIFICADORES DE COMBATE — integridade de referências
+   ------------------------------------------------------------ */
+const _contarReferenciasToggleAntesV4 = contarReferenciasToggle;
+contarReferenciasToggle = function(toggleId) {
+    let total = _contarReferenciasToggleAntesV4(toggleId);
+    (conteudo.inventario || []).forEach(item => {
+        const efeitos = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+        efeitos.forEach(effect => {
+            if (String(effect?.requiresToggle || "") === toggleId) total++;
+        });
+        const config = item?.weaponAttack || item?.ataqueArma || {};
+        const permitidos = Array.isArray(config.allowedToggles)
+            ? config.allowedToggles
+            : (Array.isArray(config.modificadores) ? config.modificadores : []);
+        if (permitidos.includes(toggleId)) total++;
+    });
+    return total;
+};
+
+function atualizarNomeToggleEmItensV4(toggleId, nome) {
+    document.querySelectorAll(".inventory-condition-link select, .inventory-detail-effect-condition-select").forEach(select => {
+        const option = [...select.options].find(opt => opt.value === toggleId);
+        if (option) option.textContent = nome || "Modificador";
+    });
+    document.querySelectorAll("#inventoryDetailWeaponModifiers label").forEach(label => {
+        const input = label.querySelector('input[type="checkbox"]');
+        if (input?.value !== toggleId) return;
+        const texto = [...label.childNodes].find(node => node.nodeType === Node.TEXT_NODE);
+        if (texto) texto.nodeValue = nome || "Modificador";
+    });
+    renderizarAtaques();
+}
+
+const _renderizarTogglesCombateAntesV4 = renderizarTogglesCombate;
+renderizarTogglesCombate = function() {
+    _renderizarTogglesCombateAntesV4();
+    const container = document.getElementById("combatToggleList");
+    if (!container?.classList.contains("toggle-editor")) return;
+    const rows = [...container.querySelectorAll(".toggle-editor-row")];
+    rows.forEach((row, index) => {
+        const toggle = (conteudo.togglesCombate || [])[index];
+        const input = row.querySelector('input[type="text"]');
+        if (!toggle || !input || input.dataset.v4Bound === "1") return;
+        input.dataset.v4Bound = "1";
+        input.addEventListener("input", () => atualizarNomeToggleEmItensV4(toggle.id, input.value));
+    });
+};
+
+/* ------------------------------------------------------------
+   RECURSOS DO ITEM
+   - continuam visíveis quando o item fica indisponível
+   - ficam bloqueados, sem perder o valor atual
+   ------------------------------------------------------------ */
+let inventoryItemResourcesDraftV4 = [];
+
+function renderizarRecursosItemEditorV4(lista) {
+    inventoryItemResourcesDraftV4 = structuredClone(Array.isArray(lista) ? lista : []);
+    const root = document.getElementById("inventoryDetailResources");
+    if (!root) return;
+    root.innerHTML = "";
+    if (!inventoryItemResourcesDraftV4.length) {
+        const vazio = document.createElement("small");
+        vazio.style.color = "var(--muted)";
+        vazio.textContent = "Nenhum recurso configurado.";
+        root.appendChild(vazio);
+        return;
+    }
+    inventoryItemResourcesDraftV4.forEach(recurso => {
+        const r = normalizarRecursosItemV4({ resources: [recurso] })[0];
+        const row = document.createElement("div");
+        row.className = "inventory-item-resource-row";
+        row.dataset.resourceId = r.id;
+        row.innerHTML = `
+            <input class="ir-name" type="text" placeholder="Nome">
+            <input class="ir-current" type="number" min="0" placeholder="Atual">
+            <input class="ir-max" type="number" min="0" placeholder="Máx">
+            <label class="inventory-item-resource-check"><input class="ir-normal" type="checkbox"> Ficha</label>
+            <label class="inventory-item-resource-check"><input class="ir-combat" type="checkbox"> Combate</label>
+            <button class="inventory-delete ir-delete" type="button" title="Excluir recurso">×</button>`;
+        row.querySelector(".ir-name").value = r.name;
+        row.querySelector(".ir-current").value = r.current;
+        row.querySelector(".ir-max").value = r.max === null ? "" : r.max;
+        row.querySelector(".ir-normal").checked = r.showNormal !== false;
+        row.querySelector(".ir-combat").checked = r.showCombat !== false;
+        row.querySelector(".ir-delete").addEventListener("click", () => row.remove());
+        root.appendChild(row);
+    });
+}
+
+function coletarRecursosItemEditorV4() {
+    return [...document.querySelectorAll("#inventoryDetailResources .inventory-item-resource-row")].map(row => {
+        const maxInput = row.querySelector(".ir-max");
+        const max = !maxInput || maxInput.value === "" ? null : Math.max(0, numeroFinitoItemV4(maxInput.value, 0));
+        let current = Math.max(0, numeroFinitoItemV4(row.querySelector(".ir-current")?.value, 0));
+        if (max !== null) current = Math.min(current, max);
+        return {
+            id: row.dataset.resourceId || criarId(),
+            name: String(row.querySelector(".ir-name")?.value || "Recurso").trim() || "Recurso",
+            current,
+            max,
+            showNormal: Boolean(row.querySelector(".ir-normal")?.checked),
+            showCombat: Boolean(row.querySelector(".ir-combat")?.checked)
+        };
+    });
+}
+
+function criarBlocoRecursoItemV4(item, recurso) {
+    const block = document.createElement("div");
+    block.className = "resource-block item-resource-v4";
+    const disponivel = itemInventarioDisponivelV4(item);
+    const key = `${item.id}::${recurso.id}`;
+    const title = document.createElement("div");
+    title.className = "resource-title";
+    title.textContent = recurso.name || "Recurso";
+    const source = document.createElement("small");
+    source.className = "item-resource-source";
+    source.textContent = disponivel ? (item.nome || "Item") : `${item.nome || "Item"} — ${motivoIndisponibilidadeItemV4(item)}`;
+    title.appendChild(source);
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.value = numeroFinitoItemV4(recurso.current, 0);
+    input.dataset.itemResourceKey = key;
+    input.dataset.gameplay = "true";
+    input.disabled = !isOwner || !disponivel;
+    input.style.width = "70px";
+    input.style.textAlign = "center";
+    block.appendChild(title);
+    block.appendChild(input);
+    if (recurso.max !== null && recurso.max !== undefined) {
+        const max = document.createElement("span");
+        max.textContent = ` / ${recurso.max}`;
+        block.appendChild(max);
+    }
+    input.addEventListener("input", () => {
+        let valor = Math.max(0, numeroFinitoItemV4(input.value, 0));
+        if (recurso.max !== null && recurso.max !== undefined) valor = Math.min(valor, numeroFinitoItemV4(recurso.max, valor));
+        recurso.current = valor;
+        document.querySelectorAll("[data-item-resource-key]").forEach(outro => {
+            if (outro !== input && outro.dataset.itemResourceKey === key) outro.value = valor;
+        });
+        agendarSalvamentoConteudo();
+    });
+    return block;
+}
+
+const _renderizarRecursosAntesV4 = renderizarRecursos;
+renderizarRecursos = function() {
+    _renderizarRecursosAntesV4();
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        (item.resources || []).forEach(recurso => {
+            if (recurso.showNormal !== false) document.getElementById("normalResourceList")?.appendChild(criarBlocoRecursoItemV4(item, recurso));
+            if (recurso.showCombat !== false) document.getElementById("combatResourceList")?.appendChild(criarBlocoRecursoItemV4(item, recurso));
+        });
+    });
+};
+
+/* ------------------------------------------------------------
+   DEFESAS TEXTUAIS DE ITENS — somente display
+   ------------------------------------------------------------ */
+function renderizarDefesasItensV4() {
+    const combatResourceList = document.getElementById("combatResourceList");
+    if (!combatResourceList?.parentElement) return;
+    let root = document.getElementById("itemDefensesV4");
+    if (!root) {
+        root = document.createElement("div");
+        root.id = "itemDefensesV4";
+        root.className = "resource-block";
+        combatResourceList.parentElement.insertBefore(root, combatResourceList);
+    }
+    root.innerHTML = "";
+    const linhas = [];
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        if (!itemInventarioDisponivelV4(item)) return;
+        const d = item.defenses || {};
+        if (String(d.resistances || "").trim()) linhas.push({ tipo: "Resistência", texto: String(d.resistances).trim(), item: item.nome || "Item" });
+        if (String(d.immunities || "").trim()) linhas.push({ tipo: "Imunidade", texto: String(d.immunities).trim(), item: item.nome || "Item" });
+    });
+    if (!linhas.length) {
+        root.hidden = true;
+        return;
+    }
+    root.hidden = false;
+    const title = document.createElement("div");
+    title.className = "resource-title";
+    title.textContent = "Defesas de itens";
+    root.appendChild(title);
+    linhas.forEach(linha => {
+        const tag = document.createElement("span");
+        tag.className = "action-tag";
+        tag.textContent = `${linha.tipo}: ${linha.texto} (${linha.item})`;
+        root.appendChild(tag);
+    });
+};
+
+/* ------------------------------------------------------------
+   MODAL DETALHADO — estado, consumível, defesas e recursos
+   ------------------------------------------------------------ */
+const _abrirDetalhesAntesV4 = abrirDetalhesItemInventario;
+abrirDetalhesItemInventario = function(itemOrId) {
+    const item = typeof itemOrId === "string"
+        ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+        : itemOrId;
+    if (!item) return;
+    normalizarItemInventarioV4(item);
+    _abrirDetalhesAntesV4(item);
+    const estado = document.getElementById("inventoryDetailState");
+    if (estado) estado.value = item.estado;
+    const consumivel = item.consumable;
+    const cEnabled = document.getElementById("inventoryDetailConsumableEnabled");
+    const cAmount = document.getElementById("inventoryDetailConsumableAmount");
+    const cLabel = document.getElementById("inventoryDetailConsumableLabel");
+    if (cEnabled) cEnabled.checked = consumivel.enabled;
+    if (cAmount) cAmount.value = consumivel.amountPerUse;
+    if (cLabel) cLabel.value = consumivel.label;
+    const resist = document.getElementById("inventoryDetailResistances");
+    const immun = document.getElementById("inventoryDetailImmunities");
+    if (resist) resist.value = item.defenses.resistances;
+    if (immun) immun.value = item.defenses.immunities;
+    renderizarRecursosItemEditorV4(item.resources);
+};
+
+const _salvarDetalhesAntesV4 = salvarDetalhesItemInventario;
+salvarDetalhesItemInventario = async function() {
+    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+    if (item) {
+        item.estado = String(document.getElementById("inventoryDetailState")?.value || "normal");
+        item.consumable = {
+            enabled: Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked),
+            amountPerUse: Math.max(1, numeroFinitoItemV4(document.getElementById("inventoryDetailConsumableAmount")?.value, 1)),
+            label: String(document.getElementById("inventoryDetailConsumableLabel")?.value || "Usar").trim() || "Usar"
+        };
+        item.defenses = {
+            resistances: String(document.getElementById("inventoryDetailResistances")?.value || "").trim(),
+            immunities: String(document.getElementById("inventoryDetailImmunities")?.value || "").trim()
+        };
+        item.resources = coletarRecursosItemEditorV4();
+        normalizarItemInventarioV4(item);
+    }
+    await _salvarDetalhesAntesV4();
+    renderizarRecursos();
+    renderizarDefesasItensV4();
+};
+
+/* ------------------------------------------------------------
+   INVENTÁRIO — estado, uso real de consumíveis, quantidade 0
+   ------------------------------------------------------------ */
+async function usarItemConsumivelV4(itemId) {
+    const item = (conteudo.inventario || []).find(entry => entry.id === itemId);
+    if (!item) return;
+    normalizarItemInventarioV4(item);
+    const c = item.consumable;
+    if (!c.enabled || normalizarEstadoItemV4(item) !== "normal") return;
+    const custo = Math.max(1, numeroFinitoItemV4(c.amountPerUse, 1));
+    const atual = Math.max(0, numeroFinitoItemV4(item.quantidade, 0));
+    if (atual < custo) return;
+    item.quantidade = Math.max(0, atual - custo);
+    sincronizarAtaquesDeItensInventario();
+    renderizarInventario();
+    renderizarAtaques();
+    updateSheet();
+    await salvarConteudo();
+}
+
+const _renderizarInventarioAntesV4 = renderizarInventario;
+renderizarInventario = function() {
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    _renderizarInventarioAntesV4();
+    const container = document.getElementById("inventoryList");
+    if (!container) return;
+    const editando = Boolean(document.getElementById("editModeToggle")?.checked);
+    [...container.children].forEach((elemento, index) => {
+        const item = conteudo.inventario[index];
+        if (!item) return;
+        elemento.dataset.inventoryItemId = item.id;
+        if (editando) {
+            const q = elemento.querySelector(".inventory-quantity");
+            if (q && q.dataset.v4Bound !== "1") {
+                q.dataset.v4Bound = "1";
+                q.addEventListener("change", () => {
+                    item.quantidade = Math.max(0, numeroFinitoItemV4(q.value, 0));
+                    sincronizarAtaquesDeItensInventario();
+                    renderizarAtaques();
+                    updateSheet();
+                });
+            }
+            return;
+        }
+        const main = elemento.querySelector(".inventory-rich-main");
+        const top = elemento.querySelector(".inventory-rich-top");
+        const side = top?.lastElementChild;
+        if (!main || !side) return;
+        const estado = normalizarEstadoItemV4(item);
+        const disponivel = itemInventarioDisponivelV4(item);
+        if (estado !== "normal" || numeroFinitoItemV4(item.quantidade, 0) <= 0) {
+            const badge = document.createElement("span");
+            badge.className = `inventory-state-badge ${estado === "broken" ? "broken" : "disabled"}`;
+            badge.textContent = motivoIndisponibilidadeItemV4(item);
+            main.appendChild(badge);
+        }
+        const weaponBadge = main.querySelector(".inventory-weapon-badge");
+        if (weaponBadge && !disponivel) weaponBadge.textContent = "⚔ ataque indisponível";
+        const c = item.consumable;
+        if (c.enabled) {
+            const use = document.createElement("button");
+            use.type = "button";
+            use.className = "add-button inventory-use-v4";
+            use.textContent = c.label || "Usar";
+            const custo = Math.max(1, numeroFinitoItemV4(c.amountPerUse, 1));
+            use.disabled = !disponivel || numeroFinitoItemV4(item.quantidade, 0) < custo || !isOwner;
+            use.title = use.disabled ? motivoIndisponibilidadeItemV4(item) || "Quantidade insuficiente" : `Consome ${custo}`;
+            use.addEventListener("click", () => usarItemConsumivelV4(item.id));
+            side.insertBefore(use, side.firstChild);
+        }
+    });
+};
+
+const _excluirItemInventarioAntesV4 = excluirItemInventario;
+excluirItemInventario = async function(id) {
+    await _excluirItemInventarioAntesV4(id);
+    sincronizarAtaquesDeItensInventario();
+    renderizarRecursos();
+    renderizarDefesasItensV4();
+    updateSheet();
+};
+
+/* update geral garante que efeitos/ataques/defesas sempre reflitam o estado atual */
+const _updateSheetAntesV4 = updateSheet;
+updateSheet = function(...args) {
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    sincronizarAtaquesDeItensInventario();
+    const resultado = _updateSheetAntesV4(...args);
+    renderizarDefesasItensV4();
+    return resultado;
+};
+
+/* botão + Recurso do item */
+document.addEventListener("DOMContentLoaded", () => {
+    const add = document.getElementById("inventoryDetailAddResource");
+    if (add && add.dataset.v4Bound !== "1") {
+        add.dataset.v4Bound = "1";
+        add.addEventListener("click", () => {
+            const atual = coletarRecursosItemEditorV4();
+            atual.push({ id: criarId(), name: "Novo recurso", current: 0, max: null, showNormal: true, showCombat: true });
+            renderizarRecursosItemEditorV4(atual);
+        });
+    }
+});
+
     /* ============================================================
    IMAGENS OPCIONAIS DOS CARDS
    ============================================================ */
