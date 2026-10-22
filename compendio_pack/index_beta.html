@@ -19314,6 +19314,9 @@ configurarTooltipsFicha();
   box-shadow:0 28px 85px rgba(35,24,14,.48)!important;
 }
 #inventoryDetailModal *{box-sizing:border-box}
+#inventoryDetailModal.show{
+  display:flex!important;
+}
 #inventoryDetailModal .inventory-detail-head{
   min-height:66px;
   padding:13px 16px 12px 18px!important;
@@ -19644,7 +19647,7 @@ configurarTooltipsFicha();
 
 <style id="inventory-polish-v44">
 #inventoryDetailModal{
-  display:flex!important;
+  display:none!important;
   flex-direction:column!important;
   width:min(860px,calc(100vw - 28px))!important;
   max-height:88vh!important;
@@ -19952,6 +19955,54 @@ configurarTooltipsFicha();
       return result;
     };
   }
+})();
+</script>
+
+
+
+<style id="inventory-close-v442-css">
+#inventoryDetailModal:not(.show){
+  display:none!important;
+  pointer-events:none!important;
+}
+#inventoryDetailModal.show{
+  display:flex!important;
+  pointer-events:auto!important;
+}
+#inventoryDetailOverlay:not(.show){
+  display:none!important;
+  pointer-events:none!important;
+}
+#inventoryDetailOverlay.show{
+  display:block!important;
+  pointer-events:auto!important;
+}
+</style>
+
+
+<script id="inventory-close-v442-fallback">
+(() => {
+  // fallback robusto: funciona mesmo se a ligação antiga dos botões não tiver ocorrido
+  document.addEventListener("click", event => {
+    const closeButton = event.target.closest("#inventoryDetailClose, #inventoryDetailCancel");
+    if (!closeButton) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (typeof fecharDetalhesItemInventario === "function") {
+      fecharDetalhesItemInventario();
+      return;
+    }
+
+    // último fallback puramente visual
+    const overlay = document.getElementById("inventoryDetailOverlay");
+    const modal = document.getElementById("inventoryDetailModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
+  }, true);
 })();
 </script>
 
