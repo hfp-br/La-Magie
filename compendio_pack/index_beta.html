@@ -18986,3 +18986,316 @@ configurarTooltipsFicha();
     <div class="compendium-empty">Abra o Compêndio para carregar os itens.</div>
   </div>
 </section>
+
+
+<style id="inventory-polish-v1">
+/* ============================================================
+   POLIMENTO VISUAL — INVENTÁRIO + EDITOR DE ITEM
+   Apenas UX/visual; não altera o modelo de dados v4.1.
+   ============================================================ */
+#inventoryList{display:grid;gap:10px}
+.inventory-view.inventory-rich{
+  padding:13px 14px;
+  border:1px solid rgba(112,82,51,.24);
+  border-radius:12px;
+  background:linear-gradient(135deg,rgba(255,255,255,.40),rgba(255,248,228,.18));
+  box-shadow:0 3px 10px rgba(55,37,20,.06);
+  transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease;
+}
+.inventory-view.inventory-rich:hover{transform:translateY(-1px);border-color:rgba(112,82,51,.40);box-shadow:0 6px 15px rgba(55,37,20,.09)}
+.inventory-rich-top{align-items:center;gap:16px}
+.inventory-rich-name{gap:6px}
+.inventory-rich-name strong{font-size:16px;line-height:1.2}
+.inventory-card-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.inventory-card-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border:1px solid rgba(112,82,51,.20);border-radius:999px;background:rgba(255,255,255,.26);font-size:10px;color:var(--muted);font-weight:700}
+.inventory-card-chip.primary{color:var(--sand-5);background:rgba(169,119,53,.10);border-color:rgba(169,119,53,.30)}
+.inventory-card-chip.quantity{font-variant-numeric:tabular-nums}
+.inventory-rich-description{margin-top:7px;line-height:1.45;max-width:760px}
+.inventory-effects{margin-top:9px}
+.inventory-effect-chip{background:rgba(255,255,255,.36)}
+.inventory-card-resources{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.inventory-card-resource{display:inline-flex;align-items:center;gap:6px;padding:4px 7px;border-radius:7px;background:rgba(84,101,71,.08);border:1px solid rgba(84,101,71,.22);font-size:10px;color:#405038}
+.inventory-card-resource b{font-variant-numeric:tabular-nums}
+.inventory-card-side{display:flex!important;align-items:center!important;justify-content:flex-end;gap:7px!important;flex-wrap:wrap;max-width:330px}
+.inventory-weight{font-size:11px;padding:4px 7px;border-radius:999px;background:rgba(112,82,51,.07)}
+.inventory-more{border-radius:999px;width:32px;height:32px;background:rgba(255,248,228,.70)}
+.inventory-more:hover{transform:translateY(-1px)}
+.inventory-use-v4{height:32px!important;width:auto!important;border-radius:8px!important;padding:5px 10px!important;font-size:11px!important;white-space:nowrap}
+.inventory-toggle{height:32px;padding:5px 10px}
+.inventory-state-badge{display:inline-flex;margin-top:7px!important}
+.inventory-weapon-badge{margin-top:7px;width:max-content;background:rgba(143,73,61,.06);border-color:rgba(143,73,61,.20)}
+
+/* edição rápida do inventário */
+.inventory-item{grid-template-columns:minmax(180px,1fr) 78px 90px 36px 36px!important;gap:8px!important;padding:9px 10px!important;border:1px solid rgba(112,82,51,.18)!important;border-radius:10px;background:rgba(255,255,255,.16)}
+.inventory-item input{padding:7px 8px!important;border:1px solid rgba(112,82,51,.22)!important;border-radius:7px!important;background:rgba(255,255,255,.26)!important}
+.inventory-item .inventory-more,.inventory-item .inventory-delete{align-self:center}
+
+/* editor detalhado */
+.inventory-detail-modal{width:min(900px,calc(100vw - 24px))!important;max-height:min(91vh,900px)!important;overflow:hidden!important;border-radius:16px!important}
+.inventory-detail-head{padding:14px 18px!important;box-shadow:0 2px 10px rgba(55,37,20,.06)}
+.inventory-detail-head-copy{min-width:0}
+.inventory-detail-head h3{font-size:21px!important}
+.inventory-detail-head-sub{margin-top:3px;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:650px}
+.inventory-detail-body{padding:0!important;overflow:auto;max-height:calc(91vh - 62px)}
+.inventory-detail-tabs{position:sticky;top:0;z-index:2;display:flex;gap:6px;overflow:auto;padding:10px 14px;border-bottom:1px solid rgba(112,82,51,.18);background:rgba(246,237,215,.96);scrollbar-width:thin}
+.inventory-detail-tab{flex:0 0 auto;border:1px solid rgba(112,82,51,.24);border-radius:999px;padding:7px 11px;background:rgba(255,255,255,.22);color:var(--muted);font-size:11px;font-weight:800;cursor:pointer}
+.inventory-detail-tab:hover{background:rgba(255,255,255,.45);color:var(--ink)}
+.inventory-detail-tab.active{background:var(--sand-4);border-color:var(--sand-4);color:var(--sand-0)}
+.inventory-detail-tab[hidden]{display:none!important}
+.inventory-detail-panel{display:none;padding:16px 18px 18px}
+.inventory-detail-panel.active{display:block}
+.inventory-detail-panel-title{margin:0 0 4px;font-size:15px}
+.inventory-detail-panel-help{margin:0 0 14px;color:var(--muted);font-size:11px;line-height:1.5}
+.inventory-detail-panel .inventory-advanced-section,.inventory-detail-panel.inventory-detail-effects,.inventory-detail-panel#inventoryDetailWeaponSection{margin:0!important;padding:0!important;border:0!important;background:transparent!important}
+.inventory-detail-grid{gap:12px!important}
+.inventory-detail-field{gap:6px!important}
+.inventory-detail-field label,.inventory-detail-label,.inventory-advanced-label{font-size:10px!important;letter-spacing:.075em!important}
+.inventory-detail-field input,.inventory-detail-field select,.inventory-detail-field textarea,.inventory-detail-effect input,.inventory-detail-effect select{padding:9px 10px!important;background:rgba(255,255,255,.52)!important;border-color:rgba(112,82,51,.28)!important}
+.inventory-detail-field input:focus,.inventory-detail-field select:focus,.inventory-detail-field textarea:focus,.inventory-detail-effect input:focus,.inventory-detail-effect select:focus{outline:2px solid rgba(169,119,53,.18);border-color:var(--sand-4)!important}
+.inventory-detail-source{margin:12px 0 0!important}
+.inventory-detail-status-help{margin-top:8px;padding:9px 10px;border-radius:8px;background:rgba(169,119,53,.08);color:var(--muted);font-size:11px;line-height:1.45}
+.inventory-consumable-options.disabled{opacity:.45;filter:saturate(.5)}
+.inventory-detail-effects-head,.inventory-advanced-head{margin-bottom:12px}
+.inventory-item-resource-row{grid-template-columns:minmax(150px,1.2fr) 90px 90px 105px 105px 38px!important;padding:9px!important;margin-top:7px;border:1px solid rgba(112,82,51,.18)!important;border-radius:8px;background:rgba(255,255,255,.18)}
+.inventory-detail-effect{grid-template-columns:145px 180px minmax(120px,1fr) minmax(100px,.7fr) 36px!important;padding:10px!important;margin-top:8px!important;border:1px solid rgba(112,82,51,.18)!important;border-radius:8px;background:rgba(255,255,255,.18)}
+.inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/5!important}
+.inventory-detail-empty-effects{margin-top:8px}
+.inventory-detail-actions{position:sticky;bottom:0;z-index:3;margin:0!important;padding:12px 18px;border-top:1px solid rgba(112,82,51,.22);background:rgba(246,237,215,.97);box-shadow:0 -5px 14px rgba(55,37,20,.05)}
+#inventoryDetailSave{background:var(--sand-4)!important;color:var(--sand-0)!important;border-color:var(--sand-4)!important;width:auto!important;border-radius:8px!important;padding:7px 12px!important;font-size:12px!important}
+#inventoryDetailCancel{width:auto!important;border-radius:8px!important;padding:7px 12px!important;font-size:12px!important}
+#inventoryDetailDelete{padding:7px 10px;border:1px solid rgba(143,73,61,.28);border-radius:8px;background:rgba(143,73,61,.06)}
+.inventory-detail-empty-note{padding:18px;text-align:center;border:1px dashed rgba(112,82,51,.25);border-radius:9px;color:var(--muted);font-size:12px}
+@media(max-width:760px){
+  .inventory-rich-top{align-items:flex-start;flex-direction:column}
+  .inventory-card-side{max-width:none;width:100%;justify-content:flex-start!important}
+  .inventory-item{grid-template-columns:1fr 64px 76px 34px 34px!important}
+  .inventory-detail-modal{width:calc(100vw - 12px)!important;max-height:94vh!important}
+  .inventory-detail-body{max-height:calc(94vh - 60px)}
+  .inventory-detail-panel{padding:14px}
+  .inventory-item-resource-row{grid-template-columns:1fr 1fr!important}
+  .inventory-detail-effect{grid-template-columns:1fr 1fr!important}
+  .inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/-1!important}
+}
+</style>
+
+
+<script id="inventory-polish-v1-js">
+(() => {
+  const PANEL_INFO = [
+    ["geral", "Geral", "Nome, quantidade, peso, categoria e descrição."],
+    ["uso", "Uso", "Estado do item e comportamento de consumível."],
+    ["arma", "Arma", "Ataque gerado, bônus próprios e modificadores permitidos."],
+    ["defesas", "Defesas", "Resistências e imunidades exibidas em Combate."],
+    ["recursos", "Recursos", "Cargas, munição especial, energia e outros contadores."],
+    ["efeitos", "Efeitos", "Bônus e efeitos mecânicos desta cópia do item."]
+  ];
+
+  let inventoryDetailActiveTab = "geral";
+
+  function prepararEditorInventarioPolido() {
+    const modal = document.getElementById("inventoryDetailModal");
+    const body = modal?.querySelector(".inventory-detail-body");
+    const head = modal?.querySelector(".inventory-detail-head");
+    if (!modal || !body || !head || body.dataset.polished === "1") return;
+    body.dataset.polished = "1";
+
+    const title = document.getElementById("inventoryDetailTitle");
+    if (title && !title.parentElement?.classList.contains("inventory-detail-head-copy")) {
+      const copy = document.createElement("div");
+      copy.className = "inventory-detail-head-copy";
+      title.before(copy);
+      copy.appendChild(title);
+      const sub = document.createElement("div");
+      sub.id = "inventoryDetailHeadSub";
+      sub.className = "inventory-detail-head-sub";
+      sub.textContent = "Configure somente o que este item realmente precisa.";
+      copy.appendChild(sub);
+    }
+
+    const firstGrid = body.querySelector(":scope > .inventory-detail-grid");
+    const origin = document.getElementById("inventoryDetailOrigin");
+    const weapon = document.getElementById("inventoryDetailWeaponSection");
+    const advanced = [...body.querySelectorAll(":scope > .inventory-advanced-section")];
+    const effects = [...body.querySelectorAll(":scope > .inventory-detail-effects")].find(el => el.id !== "inventoryDetailWeaponSection");
+    const actions = body.querySelector(":scope > .inventory-detail-actions");
+    if (!firstGrid || advanced.length < 3 || !effects || !actions) return;
+
+    const tabs = document.createElement("nav");
+    tabs.className = "inventory-detail-tabs";
+    tabs.setAttribute("aria-label", "Seções do item");
+    PANEL_INFO.forEach(([id, label]) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "inventory-detail-tab";
+      btn.dataset.inventoryTab = id;
+      btn.textContent = label;
+      btn.addEventListener("click", () => ativarAbaInventarioPolido(id));
+      tabs.appendChild(btn);
+    });
+    body.insertBefore(tabs, body.firstChild);
+
+    const general = document.createElement("section");
+    general.className = "inventory-detail-panel";
+    general.dataset.inventoryPanel = "geral";
+    general.innerHTML = '<h4 class="inventory-detail-panel-title">Informações do item</h4><p class="inventory-detail-panel-help">O básico que aparece no inventário. Campos como fonte e tags são opcionais.</p>';
+    body.insertBefore(general, actions);
+    general.appendChild(firstGrid);
+    if (origin) general.appendChild(origin);
+
+    const nodes = [
+      [weapon, "arma", "Configuração da arma", "Ative apenas se este item deve gerar um ataque na aba Combate."],
+      [advanced[0], "uso", "Estado e uso", "Controle quando o item funciona e, se for consumível, como a quantidade é gasta."],
+      [advanced[1], "defesas", "Defesas do item", "Esses textos aparecem em Combate, mas não fazem cálculos automaticamente."],
+      [advanced[2], "recursos", "Recursos do item", "Use para cargas, munição especial, energia ou qualquer contador que pertença ao item."],
+      [effects, "efeitos", "Efeitos mecânicos", "Use somente quando o item realmente altera a ficha; efeitos “Ao usar” podem continuar como lembrete manual."]
+    ];
+    nodes.forEach(([node, id, titleText, help]) => {
+      if (!node) return;
+      node.classList.add("inventory-detail-panel");
+      node.dataset.inventoryPanel = id;
+      const titleNode = document.createElement("h4");
+      titleNode.className = "inventory-detail-panel-title";
+      titleNode.textContent = titleText;
+      const helpNode = document.createElement("p");
+      helpNode.className = "inventory-detail-panel-help";
+      helpNode.textContent = help;
+      node.insertBefore(helpNode, node.firstChild);
+      node.insertBefore(titleNode, node.firstChild);
+      body.insertBefore(node, actions);
+    });
+
+    const state = document.getElementById("inventoryDetailState");
+    if (state) {
+      const help = document.createElement("div");
+      help.id = "inventoryDetailStateHelp";
+      help.className = "inventory-detail-status-help";
+      state.closest(".inventory-detail-grid")?.after(help);
+      state.addEventListener("change", atualizarAjudaUsoInventarioPolido);
+    }
+
+    const consumable = document.getElementById("inventoryDetailConsumableEnabled");
+    if (consumable) consumable.addEventListener("change", atualizarAjudaUsoInventarioPolido);
+
+    ativarAbaInventarioPolido("geral");
+    atualizarAjudaUsoInventarioPolido();
+  }
+
+  function ativarAbaInventarioPolido(id) {
+    inventoryDetailActiveTab = id;
+    document.querySelectorAll("#inventoryDetailModal .inventory-detail-tab").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.inventoryTab === id);
+    });
+    document.querySelectorAll("#inventoryDetailModal .inventory-detail-panel").forEach(panel => {
+      panel.classList.toggle("active", panel.dataset.inventoryPanel === id);
+    });
+  }
+
+  function atualizarAjudaUsoInventarioPolido() {
+    const state = document.getElementById("inventoryDetailState")?.value || "normal";
+    const consumable = Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked);
+    const help = document.getElementById("inventoryDetailStateHelp");
+    if (help) {
+      const stateText = state === "broken"
+        ? "Quebrado: efeitos, defesas e ataque automático ficam suspensos até o item voltar ao estado Normal."
+        : state === "disabled"
+          ? "Desativado: o item permanece no inventário, mas seus efeitos, defesas e ataque ficam suspensos."
+          : "Normal: o item funciona normalmente enquanto houver pelo menos 1 unidade.";
+      help.textContent = consumable
+        ? `${stateText} Como consumível, o botão de uso reduz a quantidade sem automatizar o efeito descrito.`
+        : stateText;
+    }
+    const amount = document.getElementById("inventoryDetailConsumableAmount")?.closest(".inventory-detail-field");
+    const label = document.getElementById("inventoryDetailConsumableLabel")?.closest(".inventory-detail-field");
+    [amount,label].forEach(el => el?.classList.toggle("disabled", !consumable));
+    document.getElementById("inventoryDetailConsumableAmount")?.toggleAttribute("disabled", !consumable);
+    document.getElementById("inventoryDetailConsumableLabel")?.toggleAttribute("disabled", !consumable);
+  }
+
+  function atualizarAbasContextuaisInventarioPolido(item) {
+    const arma = typeof itemInventarioEhArma === "function" ? itemInventarioEhArma(item) : false;
+    const weaponTab = document.querySelector('#inventoryDetailModal .inventory-detail-tab[data-inventory-tab="arma"]');
+    if (weaponTab) weaponTab.hidden = !arma;
+    if (!arma && inventoryDetailActiveTab === "arma") ativarAbaInventarioPolido("geral");
+    const sub = document.getElementById("inventoryDetailHeadSub");
+    if (sub) {
+      const bits = [item?.categoria, item?.subtipo].filter(Boolean);
+      const estado = typeof motivoIndisponibilidadeItemV4 === "function" ? motivoIndisponibilidadeItemV4(item) : "";
+      sub.textContent = [bits.join(" • "), estado].filter(Boolean).join(" — ") || "Configure somente o que este item realmente precisa.";
+    }
+  }
+
+  function decorarCardsInventarioPolido() {
+    const container = document.getElementById("inventoryList");
+    if (!container || !Array.isArray(conteudo?.inventario)) return;
+    const editando = Boolean(document.getElementById("editModeToggle")?.checked);
+    [...container.children].forEach((card, index) => {
+      const item = conteudo.inventario[index];
+      if (!item || editando || !card.classList.contains("inventory-rich")) return;
+      const main = card.querySelector(".inventory-rich-main");
+      const top = card.querySelector(".inventory-rich-top");
+      const side = top?.lastElementChild;
+      if (!main || !side) return;
+      side.classList.add("inventory-card-side");
+
+      const name = main.querySelector(".inventory-rich-name");
+      if (name && !main.querySelector(".inventory-card-meta")) {
+        const meta = document.createElement("div");
+        meta.className = "inventory-card-meta";
+        const add = (text, cls="") => {
+          if (!text) return;
+          const chip = document.createElement("span");
+          chip.className = `inventory-card-chip ${cls}`.trim();
+          chip.textContent = text;
+          meta.appendChild(chip);
+        };
+        add(item.categoria || "Item", "primary");
+        add(item.subtipo || "");
+        add(`×${Math.max(0, Number(item.quantidade || 0))}`, "quantity");
+        main.insertBefore(meta, main.querySelector(".inventory-rich-description") || main.children[1] || null);
+      }
+
+      const resources = Array.isArray(item.resources) ? item.resources : [];
+      const visible = resources.filter(r => r.showNormal !== false).slice(0,4);
+      if (visible.length && !main.querySelector(".inventory-card-resources")) {
+        const box = document.createElement("div");
+        box.className = "inventory-card-resources";
+        visible.forEach(r => {
+          const chip = document.createElement("span");
+          chip.className = "inventory-card-resource";
+          const max = r.max === null || r.max === undefined || r.max === "" ? "" : `/${r.max}`;
+          chip.innerHTML = `<span>${String(r.name || "Recurso").replaceAll("<","&lt;").replaceAll(">","&gt;")}</span><b>${Number(r.current || 0)}${max}</b>`;
+          box.appendChild(chip);
+        });
+        main.appendChild(box);
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    prepararEditorInventarioPolido();
+
+    const consumable = document.getElementById("inventoryDetailConsumableEnabled");
+    if (consumable) atualizarAjudaUsoInventarioPolido();
+  });
+
+  const oldOpen = abrirDetalhesItemInventario;
+  abrirDetalhesItemInventario = function(itemOrId) {
+    const item = typeof itemOrId === "string"
+      ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+      : itemOrId;
+    oldOpen(itemOrId);
+    prepararEditorInventarioPolido();
+    atualizarAbasContextuaisInventarioPolido(item);
+    atualizarAjudaUsoInventarioPolido();
+    ativarAbaInventarioPolido("geral");
+  };
+
+  const oldRender = renderizarInventario;
+  renderizarInventario = function(...args) {
+    const result = oldRender(...args);
+    decorarCardsInventarioPolido();
+    return result;
+  };
+})();
+</script>
+
