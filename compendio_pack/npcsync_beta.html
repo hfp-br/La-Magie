@@ -20171,3 +20171,280 @@ configurarTooltipsFicha();
 })();
 </script>
 
+
+
+<style id="inventory-polish-v44">
+#inventoryDetailModal{
+  display:flex!important;
+  flex-direction:column!important;
+  width:min(860px,calc(100vw - 28px))!important;
+  max-height:88vh!important;
+}
+#inventoryDetailModal .inventory-detail-head{
+  flex:0 0 auto!important;
+  min-height:64px!important;
+  padding:13px 16px 11px 18px!important;
+}
+#inventoryDetailModal .inventory-detail-body{
+  display:flex!important;
+  flex-direction:column!important;
+  flex:1 1 auto!important;
+  min-height:0!important;
+  max-height:none!important;
+  overflow:hidden!important;
+}
+#inventoryDetailModal .inventory-detail-tabs{
+  position:relative!important;
+  top:auto!important;
+  flex:0 0 auto!important;
+  padding:8px 14px!important;
+  gap:6px!important;
+  background:rgba(248,240,220,.995)!important;
+  box-shadow:0 3px 10px rgba(55,37,20,.035)!important;
+}
+#inventoryDetailModal .inventory-detail-tab{
+  min-height:29px!important;
+  padding:5px 11px!important;
+  font-weight:700!important;
+}
+#inventoryDetailModal .inventory-detail-tab.active{
+  box-shadow:0 2px 7px rgba(143,73,61,.20),inset 0 0 0 1px rgba(255,255,255,.08)!important;
+  transform:translateY(-1px);
+}
+#inventoryDetailModal .inventory-detail-panel{
+  flex:1 1 auto!important;
+  min-height:0!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  scrollbar-gutter:stable;
+}
+#inventoryDetailModal .inventory-detail-panel.active{display:block!important}
+#inventoryDetailModal .inventory-detail-panel:not(.active){display:none!important}
+
+#inventoryDetailName{
+  font-size:15px!important;
+  font-weight:700!important;
+  background:rgba(255,255,255,.72)!important;
+}
+#inventoryDetailDescription{
+  min-height:76px!important;
+  max-height:180px!important;
+}
+#inventoryDetailOrigin{
+  margin-top:10px!important;
+  padding:7px 9px!important;
+  font-size:9px!important;
+  line-height:1.35!important;
+  opacity:.84;
+}
+
+/* aba Arma */
+#inventoryDetailWeaponSection .inventory-detail-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:9px 10px!important;
+}
+#inventoryDetailWeaponSection .inventory-detail-field{grid-column:span 2}
+#inventoryDetailWeaponSection .weapon-span-1{grid-column:span 1!important}
+#inventoryDetailWeaponSection .weapon-span-2{grid-column:span 2!important}
+#inventoryDetailWeaponSection .weapon-span-4{grid-column:1/-1!important}
+
+#inventoryDetailWeaponSection > .inventory-detail-effects-head{
+  padding:9px 11px!important;
+  margin-bottom:12px!important;
+}
+#inventoryDetailWeaponSection > .inventory-detail-effects-head > label{
+  flex:0 0 auto;
+  padding:6px 9px!important;
+  border:1px solid rgba(112,82,51,.17);
+  border-radius:999px;
+  background:rgba(255,255,255,.35);
+  cursor:pointer;
+  font-weight:700;
+}
+
+#inventoryDetailWeaponModifiers{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:7px!important;
+  align-items:center!important;
+  padding:10px!important;
+  min-height:46px!important;
+}
+#inventoryDetailWeaponModifiers label{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:6px!important;
+  width:auto!important;
+  min-width:0!important;
+  margin:0!important;
+  padding:7px 10px!important;
+  border:1px solid rgba(112,82,51,.22)!important;
+  border-radius:999px!important;
+  background:rgba(255,255,255,.38)!important;
+  color:#654c34!important;
+  font-size:10px!important;
+  font-weight:700!important;
+  cursor:pointer!important;
+  transition:.12s ease;
+  white-space:nowrap;
+}
+#inventoryDetailWeaponModifiers label:hover{
+  border-color:rgba(143,73,61,.42)!important;
+  background:rgba(255,255,255,.62)!important;
+}
+#inventoryDetailWeaponModifiers label:has(input:checked){
+  border-color:rgba(143,73,61,.55)!important;
+  background:rgba(143,73,61,.10)!important;
+  color:#71392f!important;
+}
+#inventoryDetailWeaponModifiers input[type="checkbox"]{
+  width:14px!important;
+  height:14px!important;
+  min-width:14px!important;
+  padding:0!important;
+  accent-color:#8f493d;
+}
+
+/* rodapé fixo */
+#inventoryDetailModal .inventory-detail-actions{
+  position:relative!important;
+  bottom:auto!important;
+  flex:0 0 auto!important;
+  min-height:57px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:12px!important;
+  padding:10px 14px!important;
+  background:rgba(248,240,220,.995)!important;
+  box-shadow:0 -5px 16px rgba(55,37,20,.055)!important;
+}
+#inventoryDetailModal .inventory-detail-actions-right{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+  margin-left:auto!important;
+}
+#inventoryDetailDelete{
+  flex:0 0 auto!important;
+  min-width:104px!important;
+  width:auto!important;
+  height:35px!important;
+  padding:7px 12px!important;
+  white-space:nowrap!important;
+  font-size:11px!important;
+  line-height:1!important;
+  border:1px solid rgba(143,73,61,.32)!important;
+  border-radius:8px!important;
+}
+#inventoryDetailDelete::before{content:none!important}
+#inventoryDetailCancel,#inventoryDetailSave{white-space:nowrap!important}
+
+#inventoryDetailHeadSub{display:flex;align-items:center;gap:6px}
+#inventoryDetailHeadState{
+  display:inline-flex;
+  align-items:center;
+  padding:2px 6px;
+  border:1px solid rgba(143,73,61,.28);
+  border-radius:999px;
+  background:rgba(143,73,61,.08);
+  color:#8f493d;
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+
+#inventoryDetailModal .inventory-detail-empty-effects,
+#inventoryDetailModal .inventory-detail-empty-note{padding:17px 12px!important}
+
+@media(max-width:760px){
+  #inventoryDetailModal{width:calc(100vw - 12px)!important;max-height:94vh!important}
+  #inventoryDetailWeaponSection .inventory-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  #inventoryDetailWeaponSection .weapon-span-1,
+  #inventoryDetailWeaponSection .weapon-span-2{grid-column:span 1!important}
+  #inventoryDetailWeaponSection .weapon-span-4{grid-column:1/-1!important}
+}
+@media(max-width:520px){
+  #inventoryDetailModal .inventory-detail-actions{min-height:54px!important;padding:9px 10px!important}
+  #inventoryDetailDelete{
+    min-width:92px!important;
+    width:auto!important;
+    height:34px!important;
+    padding:6px 9px!important;
+    font-size:10px!important;
+  }
+  #inventoryDetailModal .inventory-detail-actions-right{gap:6px!important}
+  #inventoryDetailCancel,#inventoryDetailSave{padding:7px 9px!important;font-size:10px!important}
+}
+</style>
+
+
+<script id="inventory-polish-v44-js">
+(() => {
+  function fieldFor(id){
+    return document.getElementById(id)?.closest(".inventory-detail-field");
+  }
+  function classField(id, cls){
+    const field = fieldFor(id);
+    if(field) field.classList.add(cls);
+  }
+  function prepararGradeArmaV44(){
+    classField("inventoryDetailWeaponName","weapon-span-4");
+    classField("inventoryDetailWeaponSkill","weapon-span-2");
+    classField("inventoryDetailWeaponStat","weapon-span-2");
+    classField("inventoryDetailWeaponDamage","weapon-span-2");
+    classField("inventoryDetailWeaponDamageType","weapon-span-2");
+    classField("inventoryDetailWeaponThreat","weapon-span-1");
+    classField("inventoryDetailWeaponCrit","weapon-span-1");
+    classField("inventoryDetailWeaponHitBonus","weapon-span-1");
+    classField("inventoryDetailWeaponDamageBonus","weapon-span-1");
+    classField("inventoryDetailWeaponRange","weapon-span-2");
+    classField("inventoryDetailWeaponHands","weapon-span-2");
+    classField("inventoryDetailWeaponAmmo","weapon-span-2");
+    classField("inventoryDetailWeaponReload","weapon-span-2");
+    classField("inventoryDetailWeaponProperties","weapon-span-4");
+    document.getElementById("inventoryDetailWeaponModifiers")
+      ?.closest(".inventory-detail-field")
+      ?.classList.add("weapon-span-4");
+  }
+  function decorarEstadoCabecalhoV44(){
+    const sub = document.getElementById("inventoryDetailHeadSub");
+    const state = document.getElementById("inventoryDetailState");
+    if(!sub || !state) return;
+    sub.querySelector("#inventoryDetailHeadState")?.remove();
+    const value = state.value || "normal";
+    if(value === "normal") return;
+    const badge = document.createElement("span");
+    badge.id = "inventoryDetailHeadState";
+    badge.textContent = value === "broken" ? "Quebrado" : "Desativado";
+    sub.appendChild(badge);
+  }
+  function aplicarV44(){
+    prepararGradeArmaV44();
+    decorarEstadoCabecalhoV44();
+
+    const state = document.getElementById("inventoryDetailState");
+    if(state && state.dataset.v44Bound !== "1"){
+      state.dataset.v44Bound = "1";
+      state.addEventListener("change", decorarEstadoCabecalhoV44);
+    }
+
+    const del = document.getElementById("inventoryDetailDelete");
+    if(del){
+      del.textContent = "Excluir item";
+      del.setAttribute("title","Excluir este item da ficha");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", aplicarV44);
+  const observer = new MutationObserver(aplicarV44);
+  const start = () => {
+    const modal = document.getElementById("inventoryDetailModal");
+    if(modal) observer.observe(modal,{childList:true,subtree:true,attributes:true,attributeFilter:["class","aria-hidden"]});
+  };
+  if(document.readyState === "loading") document.addEventListener("DOMContentLoaded",start);
+  else start();
+})();
+</script>
+
