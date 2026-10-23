@@ -12953,10 +12953,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Pederneira: uma pedra de faísca e uma placa rugosa de metal, Peças Obra-Prima para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma tocha ou lanterna com uma pederneira é uma ação Personagens com o talento Criar Obra-Prima podem de rodada completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.476Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13008,10 +13008,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Nesta forma será uma lança anti-monstros +3. O Olho de Sszzaas Como parte de seu plano para retornar ao Panteão, o deus Sszzaas removeu um de seus próprios olhos para forjar um artefato — o Olho de Sszzaas, uma gema esverdeada segura por um cajado de madeira fossilizada. As extremidades do cajado são ligadas por uma corrente, cujo comprimento pode variar magicamente.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.477Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13063,10 +13063,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Com um comando, o kailash pode distender um de seus espigões para servir como empunhadura, e ser usado Rhumnam, a Espada da Justiça como uma maça. Nesta forma será uma maça anti-mortos-vivos +3. Rhumnam é a espada pessoal de Khalmyr, o Deus da Justiça.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.477Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13118,10 +13118,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "madeira com uma única ponteira de metal — esconde seu grande poder. Um cajado da passagem pode lançar criar passagens, passagem Ao contrário de poções, pergaminhos e varinhas, cada cajado invisível, porta dimensional, projeção astral e teletransporte maior. pode lançar diversas magias.",
       "properties": "arma dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.477Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13283,10 +13283,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Se errar, ele sofre metade desse dano. Diferente do arco curto, é próprio para campos de batalha e outras áreas abertas — seu longo alcance permite atingir o inimigo a grandes Adaga: esta faca aﬁada é muito usada por ladrões e assassinos, distâncias. Exige as duas mãos.",
       "properties": "frasco alquímico",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.478Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13503,10 +13503,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Espada Bastarda: maior e mais pesada que a espada longa, Recarregar uma besta pesada é uma ação padrão. Usar esta besta esta poderosa espada é usada por cavaleiros para vencer a proteção também exige as duas mãos. de uma armadura completa.",
       "properties": "duas mãos; recarga",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.478Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13613,10 +13613,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "da armadura que a criatura estiver usando. Granada: popular entre goblins, mas também empregada por Dano causado a carapaças pode ser restaurado com uma magia outros usuários de pólvora, esta bomba rudimentar tem um pavio cura completa. Dano a armaduras requer um teste bem-sucedido de que precisa ser aceso antes do uso (uma ação de movimento).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.479Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13877,10 +13877,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Espada Longa: arma típica de guerreiros humanos, mas tamClava: um pedaço de madeira empunhado como arma, geral- bém extremamente comum entre elfos. Esta espada de dois gumes mente usado por bárbaros ou criaturas brutais — ou como arma tem lâmina reta medindo entre 80cm e 1m. improvisada, como um galho de árvore ou pedaço de mobília.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.480Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14251,10 +14251,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Com um comando, o kailash pode disten- Trata-se de uma espada grande +5 inteligente, capaz de se comuCapítulo 10: O Mestre der dois espigões e ser usado como picareta. Nesta forma será uma nicar telepaticamente com seu usuário. Entretanto, só se dirige a picareta anti-humanóides +3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.481Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15021,10 +15021,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Esta arma pode se enroscar nas mãos, pernas ou armas do lados opostos de um mesmo cabo. É uma arma dupla. adversário; você recebe +4 em jogadas de ataque para derrubar ou Espada Grande: enorme e muito pesada, esta espada tem 1,5m desarmar.",
       "properties": "alcance",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.483Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15131,10 +15131,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Cada katana é uma obra de arte única, com entalhes no cabo, guarda e lâmina. Por seu extremo acabamento, uma katana é sempre considerada uma arma obra-prima (seu custo já inclui esta qualidade), oferecendo +1 nas jogadas de ataque. Lança: “lança” é o nome de qualquer arma feita com uma haste de madeira e uma ponta aﬁada, natural ou metálica.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.484Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15296,10 +15296,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Esta arma pode se enroscar nas Flechas: hastes de madeira com ponta metálica e penas para mãos, pernas ou armas do adversário; você recebe +4 em jogadas de estabilizar o vôo, ﬂechas são vendidas em aljavas com 20 unidades. ataque para derrubar ou desarmar. O talento Acuidade com Arma Recarregar um arco com uma ﬂecha é uma ação livre.",
       "properties": "alcance",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.484Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15571,10 +15571,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Recarregar ou dardos. Você pode gastar uma ação padrão para arremesar duas um mosquete ou pistola é uma ação padrão. shuriken.",
       "properties": "arma de fogo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.485Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15681,10 +15681,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Esta é uma arma de monge (signiﬁca que pode ser usada com determinadas habilidades, como rajada de golpes). Nunchaku: formado por dois bastões curtos de madeira ligaCapítulo 7: Equipamento dos por uma corrente ou tira de couro, o nunchaku era usado por Tacape: versão mais perigosa da clava, maior e/ou com pregos. camponeses para separar o joio do trigo, sendo mais tarde adotado Não é uma arma muito elegante, mas faz o serviço.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.486Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15834,10 +15834,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
+      "descricao": "É a armadura mo, Furtividade e Ladinagem. Penalidades de armaduras e escudos tradicional do samurai, embora também exista em versões nativas se acumulam. do Reinado.",
       "properties": "CA +2; Bônus máximo de Destreza: +6; Penalidade de armadura: 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.486Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-corselete-de-couro-ca",
@@ -16274,10 +16274,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
+      "descricao": "Uma espada bastarda é muito grande Bordão: um cajado apreciado por viajantes e camponeses, por para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial sua praticidade e preço — assim como uma clava, seu custo é zero. de duas mãos.",
       "properties": "CA +8; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:51:20.488Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-armadura-completa-ca",
@@ -37584,5 +37584,5 @@
       "properties": ""
     }
   ],
-  "updatedAt": "2026-10-23T04:51:01.395Z"
+  "updatedAt": "2026-10-23T04:51:20.488Z"
 }
