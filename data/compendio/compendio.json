@@ -2,65 +2,6 @@
   "versao": 1,
   "itens": [
     {
-      "id": "besta-experimental",
-      "nome": "Besta Experimental",
-      "categoria": "Arma",
-      "subtipo": "Besta Pesada",
-      "peso": 6,
-      "preco": {
-        "valor": 0,
-        "moeda": "T$"
-      },
-      "fonte": "Teste do sistema de itens",
-      "pagina": null,
-      "tags": [
-        "distância",
-        "pesada",
-        "duas mãos",
-        "virotes",
-        "experimental"
-      ],
-      "descricao": "Besta pesada de teste preparada para validar ataques automáticos, propriedades avançadas, recursos próprios e displays defensivos.",
-      "efeitos": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Besta Experimental",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d10",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 2,
-        "damageBonus": "1d4",
-        "range": "18/36 m",
-        "hands": "2",
-        "ammo": "Virotes",
-        "reload": "Movimento",
-        "properties": "Pesada",
-        "allowedToggles": []
-      },
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "Eletricidade 2",
-        "immunities": ""
-      },
-      "resources": [
-        {
-          "id": "besta-experimental-virotes-especiais",
-          "name": "Virotes especiais",
-          "current": 3,
-          "max": 3,
-          "showNormal": true,
-          "showCombat": true
-        }
-      ]
-    },
-    {
       "id": "pocao-de-cura",
       "nome": "Poção de Cura",
       "categoria": "Consumível",
