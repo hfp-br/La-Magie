@@ -6788,6 +6788,4328 @@
         "armorPenalty": -2,
         "type": "escudo"
       }
+    },
+    {
+      "id": "t20-oleo-de-abencoar-alimentos",
+      "nome": "Óleo de Abençoar Alimentos",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Abençoar Alimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-abencoar-alimentos-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Abençoar Alimentos no objeto afetado."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-area-escorregadia",
+      "nome": "Granada de Área Escorregadia",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Área Escorregadia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "granada-de-area-escorregadia-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Área Escorregadia no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-arma-magica",
+      "nome": "Óleo de Arma Mágica",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-arma-magica-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar em uma arma; gera o efeito de Arma Mágica."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-compreensao",
+      "nome": "Poção de Compreensão",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Compreensão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-compreensao-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Compreensão."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-2d8-2-pv",
+      "nome": "Poção de Curar Ferimentos (2d8+2 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-2d8-2-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 2d8+2 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-disfarce-ilusorio",
+      "nome": "Poção de Disfarce Ilusório",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Disfarce Ilusório.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-disfarce-ilusorio-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Disfarce Ilusório."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-enfeiticar",
+      "nome": "Poção de Enfeitiçar",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Enfeitiçar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-enfeiticar-other-acao-padrao-para-beber-o",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; o alvo fica enfeitiçado pela primeira criatura que enxergar."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-escuridao",
+      "nome": "Óleo de Escuridão",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Escuridão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-escuridao-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Escuridão."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-luz",
+      "nome": "Óleo de Luz",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Luz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-luz-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Luz."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-nevoa",
+      "nome": "Granada de Névoa",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Névoa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "granada-de-nevoa-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Névoa no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-primor-atletico",
+      "nome": "Poção de Primor Atlético",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Primor Atlético.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-primor-atletico-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Primor Atlético."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-protecao-divina",
+      "nome": "Poção de Proteção Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Proteção Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-protecao-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Proteção Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-resistencia-a-energia",
+      "nome": "Poção de Resistência a Energia",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Resistência a Energia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-resistencia-a-energia-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Resistência a Energia."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-sono",
+      "nome": "Poção de Sono",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Sono.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-sono-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Sono."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-suporte-ambiental",
+      "nome": "Poção de Suporte Ambiental",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Suporte Ambiental.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-suporte-ambiental-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Suporte Ambiental."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-tranca-arcana",
+      "nome": "Óleo de Tranca Arcana",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Tranca Arcana.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-tranca-arcana-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Tranca Arcana."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-visao-mistica",
+      "nome": "Poção de Visão Mística",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Visão Mística.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-visao-mistica-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Visão Mística."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-vitalidade-fantasma",
+      "nome": "Poção de Vitalidade Fantasma",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Vitalidade Fantasma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-vitalidade-fantasma-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Vitalidade Fantasma."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-escudo-da-fe-duracao-cena",
+      "nome": "Poção de Escudo da Fé (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 120,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Escudo da Fé.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-escudo-da-fe-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Escudo da Fé com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-alterar-tamanho",
+      "nome": "Poção de Alterar Tamanho",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Alterar Tamanho.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-alterar-tamanho-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Alterar Tamanho."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-aparencia-perfeita",
+      "nome": "Poção de Aparência Perfeita",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Aparência Perfeita.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-aparencia-perfeita-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Aparência Perfeita."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-armamento-da-natureza",
+      "nome": "Óleo de Armamento da Natureza",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Armamento da Natureza.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-armamento-da-natureza-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Armamento da Natureza."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-bola-de-fogo",
+      "nome": "Granada de Bola de Fogo",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "granada-de-bola-de-fogo-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Bola de Fogo no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-camuflagem-ilusoria",
+      "nome": "Poção de Camuflagem Ilusória",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Camuflagem Ilusória.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-camuflagem-ilusoria-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Camuflagem Ilusória."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-concentracao-de-combate-duracao-cena",
+      "nome": "Poção de Concentração de Combate (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Concentração de Combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-concentracao-de-combate-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Concentração de Combate com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-4d8-4-pv",
+      "nome": "Poção de Curar Ferimentos (4d8+4 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-4d8-4-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 4d8+4 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-fisico-divino",
+      "nome": "Poção de Físico Divino",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-fisico-divino-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Físico Divino."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-mente-divina",
+      "nome": "Poção de Mente Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Mente Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-mente-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Mente Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-metamorfose",
+      "nome": "Poção de Metamorfose",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Metamorfose.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-metamorfose-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Metamorfose."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-purificacao",
+      "nome": "Poção de Purificação",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Purificação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-purificacao-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Purificação."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-velocidade",
+      "nome": "Poção de Velocidade",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Velocidade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-velocidade-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Velocidade."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-vestimenta-da-fe",
+      "nome": "Óleo de Vestimenta da Fé",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Vestimenta da Fé.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-vestimenta-da-fe-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Vestimenta da Fé."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-voz-divina",
+      "nome": "Poção de Voz Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Voz Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-voz-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Voz Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-arma-magica-3",
+      "nome": "Óleo de Arma Mágica (+3)",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-arma-magica-3-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera Arma Mágica com aprimoramento para bônus +3."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-7d8-7-pv",
+      "nome": "Poção de Curar Ferimentos (7d8+7 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-7d8-7-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 7d8+7 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-fisico-divino-tres-atributos",
+      "nome": "Poção de Físico Divino (três atributos)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-fisico-divino-tres-atributos-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Físico Divino com aprimoramento para três atributos."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-invisibilidade-duracao-cena",
+      "nome": "Poção de Invisibilidade (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Invisibilidade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-invisibilidade-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Invisibilidade com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-bola-de-fogo-10d6",
+      "nome": "Granada de Bola de Fogo (10d6)",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 1470,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "granada-de-bola-de-fogo-10d6-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Bola de Fogo aprimorada para 10d6 de dano."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-11d8-11-pv",
+      "nome": "Poção de Curar Ferimentos (11d8+11 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-11d8-11-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 11d8+11 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pergaminho-magico",
+      "nome": "Pergaminho mágico",
+      "categoria": "consumivel",
+      "subtipo": "pergaminho",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pergaminho",
+        "magico",
+        "template"
+      ],
+      "descricao": "Template para um pergaminho contendo qualquer magia. Edite a cópia no inventário para registrar a magia e seu custo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pergaminho-magico-other-ler-em-voz-alta-exige-um",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler em voz alta exige uma ação padrão ou a ação da magia, o que for maior. É preciso conhecer a magia ou passar em Misticismo (CD 20 + custo em PM da magia). Ao ativar, o pergaminho se desfaz."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-do-sustento",
+      "nome": "Anel do sustento",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico",
+        "anel"
+      ],
+      "descricao": "Anel que elimina necessidades básicas após um período de adaptação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-do-sustento-other-apos-uma-semana-de-uso-v",
+          "type": "other",
+          "mode": "always",
+          "text": "Após uma semana de uso, você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bainha-magica",
+      "nome": "Bainha mágica",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Bainha de couro e prata que muda de tamanho para acomodar qualquer arma corpo a corpo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "bainha-magica-other-permite-lancar-arma-magi",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar Arma Mágica em qualquer arma guardada nela sem pagar o custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-corda-da-escalada",
+      "nome": "Corda da escalada",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Corda mágica de 15m, fina e extremamente resistente.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "corda-da-escalada-other-suporta-ate-1-500-kg-com",
+          "type": "other",
+          "mode": "use",
+          "text": "Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ferraduras-da-velocidade",
+      "nome": "Ferraduras da velocidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Ferraduras mágicas para uma montaria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "ferraduras-da-velocidade-movement-3m-no-deslocamento-da-mo",
+          "type": "movement",
+          "mode": "always",
+          "text": "+3m no deslocamento da montaria.",
+          "bonus": 3
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-garrafa-da-fumaca-eterna",
+      "nome": "Garrafa da fumaça eterna",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Ânfora metálica que libera fumaça mágica enquanto permanece aberta.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "garrafa-da-fumaca-eterna-other-ao-abrir-gera-o-efeito-d",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao abrir, gera o efeito de Névoa. A fumaça persiste até a garrafa ser tampada e então se dissipa conforme as condições de vento."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-da-luminosidade",
+      "nome": "Gema da luminosidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Prisma cristalino capaz de emitir luz ou um clarão cegante.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "gema-da-luminosidade-other-com-um-comando-emite-luz",
+          "type": "other",
+          "mode": "use",
+          "text": "Com um comando, emite luz como uma tocha ou um raio em alcance curto; Fortitude evita ficar cego por 1d4 rodadas."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-elfico",
+      "nome": "Manto élfico",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto cinza aparentemente comum que auxilia a ocultação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manto-elfico-skill-5-em-furtividade-enquant",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+5 em Furtividade enquanto estiver com o capuz cobrindo o rosto.",
+          "target": "Furtividade",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-mochila-de-carga",
+      "nome": "Mochila de carga",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Mochila ligada a um espaço interdimensional.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "mochila-de-carga-other-pode-guardar-ate-100-kg-",
+          "type": "other",
+          "mode": "always",
+          "text": "Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-brincos-da-sagacidade",
+      "nome": "Brincos da sagacidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Par de brincos de safira que aguça o raciocínio.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "brincos-da-sagacidade-attribute-2-em-inteligencia",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Inteligência.",
+          "target": "int",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-luvas-da-delicadeza",
+      "nome": "Luvas da delicadeza",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Luvas finas para manipulação precisa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "luvas-da-delicadeza-attribute-2-em-destreza",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Destreza.",
+          "target": "dex",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manoplas-da-forca-do-ogro",
+      "nome": "Manoplas da força do ogro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Luvas grossas reforçadas com rebites de ferro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manoplas-da-forca-do-ogro-attribute-2-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Força.",
+          "target": "str",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-da-resistencia",
+      "nome": "Manto da resistência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto grosso e pesado que protege o usuário.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manto-da-resistencia-other-2-em-testes-de-resistenc",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em testes de resistência."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-do-fascinio",
+      "nome": "Manto do fascínio",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto de veludo com bordados de ouro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manto-do-fascinio-attribute-2-em-carisma",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Carisma.",
+          "target": "cha",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pingente-da-sensatez",
+      "nome": "Pingente da sensatez",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pequena pérola em uma corrente leve.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pingente-da-sensatez-attribute-2-em-sabedoria",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Sabedoria.",
+          "target": "wis",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-torque-do-vigor",
+      "nome": "Torque do vigor",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Colar ou bracelete decorado com a figura de um animal poderoso.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "torque-do-vigor-attribute-2-em-constituicao",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Constituição.",
+          "target": "con",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-chapeu-do-disfarce",
+      "nome": "Chapéu do disfarce",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Chapéu mágico capaz de alterar sua própria aparência como parte de um disfarce.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "chapeu-do-disfarce-other-permite-lancar-disfarce-",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-flauta-fantasma",
+      "nome": "Flauta fantasma",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Instrumento mágico usado para criar sons ilusórios.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "flauta-fantasma-other-se-for-treinado-em-atuac",
+          "type": "other",
+          "mode": "use",
+          "text": "Se for treinado em Atuação, pode lançar Esculpir Sons sem pagar o custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-lanterna-da-revelacao",
+      "nome": "Lanterna da revelação",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Lanterna que funciona como um lampião e revela o que está oculto.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "lanterna-da-revelacao-other-sua-luz-revela-criaturas",
+          "type": "other",
+          "mode": "always",
+          "text": "Sua luz revela criaturas e objetos invisíveis em alcance curto."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-protecao",
+      "nome": "Anel da proteção",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que desvia ataques contra seu usuário.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-da-protecao-ac-2-em-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 em Defesa.",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-do-escudo-mental",
+      "nome": "Anel do escudo mental",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que protege a mente contra observação sobrenatural.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-do-escudo-mental-other-imunidade-a-magias-de-ad",
+          "type": "other",
+          "mode": "always",
+          "text": "Imunidade a magias de adivinhação."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pingente-da-saude",
+      "nome": "Pingente da saúde",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico",
+        "pingente"
+      ],
+      "descricao": "Joia verde em cordão de prata que protege a saúde após um período de uso.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pingente-da-saude-other-apos-uma-semana-de-uso-c",
+          "type": "other",
+          "mode": "always",
+          "text": "Após uma semana de uso, concede imunidade a doenças e venenos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": "doenças; venenos"
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-de-telecinesia",
+      "nome": "Anel de telecinesia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que permite manipular objetos à distância.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-de-telecinesia-other-pode-lancar-telecinesia-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Telecinesia. Se já conhece a magia, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bola-de-cristal",
+      "nome": "Bola de cristal",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Esfera de cristal de 15cm usada para observar pessoas e lugares distantes.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "bola-de-cristal-other-olhar-atraves-dela-e-uma",
+          "type": "other",
+          "mode": "use",
+          "text": "Olhar através dela é uma ação completa e gera a magia Vidência."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-caveira-maldita",
+      "nome": "Caveira maldita",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pedra em formato de crânio que cria uma área profana.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "caveira-maldita-other-gera-permanentemente-pro",
+          "type": "other",
+          "mode": "always",
+          "text": "Gera permanentemente Profanar com o crânio como origem; mortos-vivos e devotos de deuses do Mal na área recebem +2 em testes e Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-botas-aladas",
+      "nome": "Botas aladas",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 5000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Botas das quais podem brotar asas mágicas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "botas-aladas-other-gaste-2-pm-para-receber-",
+          "type": "other",
+          "mode": "use",
+          "text": "Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-braceletes-de-bronze",
+      "nome": "Braceletes de bronze",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 5500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Braceletes que projetam um campo de força invisível.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "braceletes-de-bronze-ac-4-em-defesa-cumulativo-c",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+4 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+          "bonus": 4
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-energia",
+      "nome": "Anel da energia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que aumenta a reserva de mana após um dia de uso.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-da-energia-other-apos-um-dia-de-uso-receb",
+          "type": "other",
+          "mode": "always",
+          "text": "Após um dia de uso, recebe +5 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-vitalidade",
+      "nome": "Anel da vitalidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que fortalece o usuário após um dia de uso.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-da-vitalidade-maxhp-10-pv",
+          "type": "maxHp",
+          "mode": "toggle",
+          "text": "+10 PV.",
+          "bonus": 10
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-de-invisibilidade",
+      "nome": "Anel de invisibilidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel de prata que torna seu usuário invisível.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-de-invisibilidade-other-ao-colocar-fica-sob-invi",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao colocar, fica sob Invisibilidade. O efeito termina se atacar ou lançar magia ofensiva; retirar e recolocar é ação padrão e restaura o efeito."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bracadeiras-do-arqueiro",
+      "nome": "Braçadeiras do arqueiro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Protetores de punho mágicos para combatentes à distância.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "bracadeiras-do-arqueiro-other-2-em-rolagens-de-dano-co",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em rolagens de dano com armas de ataque à distância."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-brincos-de-marah",
+      "nome": "Brincos de Marah",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Brincos brancos abençoados pela Deusa da Paz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "brincos-de-marah-other-a-primeira-criatura-que-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-faixas-do-pugilista",
+      "nome": "Faixas do pugilista",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Faixas de pano surrado para punhos, braços ou testa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "faixas-do-pugilista-other-2-em-testes-de-ataque-e-",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em testes de ataque e rolagens de dano com ataques desarmados."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-da-aranha",
+      "nome": "Manto da aranha",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto de seda negra com fios de prata.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manto-da-aranha-other-recebe-escalada-igual-ao",
+          "type": "other",
+          "mode": "always",
+          "text": "Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas."
+        },
+        {
+          "id": "manto-da-aranha-teia-other-pode-lancar-teia-se-ja-c",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-vassoura-voadora",
+      "nome": "Vassoura voadora",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Vassoura mágica capaz de voar carregando até duas pessoas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "vassoura-voadora-other-como-um-tapete-voador-ma",
+          "type": "other",
+          "mode": "use",
+          "text": "Como um tapete voador, mas carrega até duas pessoas ou 200 kg."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-simbolo-abencoado",
+      "nome": "Símbolo abençoado",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Colar com o símbolo de uma divindade do Panteão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "simbolo-abencoado-other-se-for-devoto-da-divinda",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se for devoto da divindade representada, o custo de suas magias divinas diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-amuleto-da-robustez",
+      "nome": "Amuleto da robustez",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Disco dourado preso a uma corrente de ouro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "amuleto-da-robustez-attribute-5-em-constituicao",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Constituição.",
+          "target": "con",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-botas-velozes",
+      "nome": "Botas velozes",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Botas mágicas que aumentam a velocidade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "botas-velozes-movement-3m-no-deslocamento",
+          "type": "movement",
+          "mode": "toggle",
+          "text": "+3m no deslocamento.",
+          "bonus": 3
+        },
+        {
+          "id": "botas-velozes-velocidade-other-pode-lancar-velocidade-a",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Velocidade apenas sobre você mesmo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cinto-da-forca-do-gigante",
+      "nome": "Cinto da força do gigante",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Cinto largo de couro com rebites de ferro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "cinto-da-forca-do-gigante-attribute-5-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Força.",
+          "target": "str",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-coroa-majestosa",
+      "nome": "Coroa majestosa",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Coroa de ouro com dezenas de pedras preciosas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "coroa-majestosa-attribute-5-em-carisma",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Carisma.",
+          "target": "cha",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-estola-da-serenidade",
+      "nome": "Estola da serenidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Faixa de pano com inscrições mágicas usada sobre a nuca.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "estola-da-serenidade-attribute-5-em-sabedoria",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Sabedoria.",
+          "target": "wis",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-do-morcego",
+      "nome": "Manto do morcego",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto escuro que concede furtividade e permite transformação em morcego.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manto-do-morcego-skill-5-em-furtividade",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+5 em Furtividade.",
+          "target": "Furtividade",
+          "bonus": 5
+        },
+        {
+          "id": "manto-do-morcego-transformacao-other-a-noite-ou-em-ambientes-",
+          "type": "other",
+          "mode": "use",
+          "text": "À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pulseiras-da-celeridade",
+      "nome": "Pulseiras da celeridade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pulseira de platina que aguça os movimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "pulseiras-da-celeridade-attribute-5-em-destreza",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Destreza.",
+          "target": "dex",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tiara-da-sapiencia",
+      "nome": "Tiara da sapiência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Tiara delicada com gema apoiada sobre a testa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "tiara-da-sapiencia-attribute-5-em-inteligencia-nao-co",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Inteligência; não concede perícias treinadas extras.",
+          "target": "int",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-elmo-do-teletransporte",
+      "nome": "Elmo do teletransporte",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Elmo mágico voltado a deslocamento instantâneo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "elmo-do-teletransporte-other-pode-lancar-salto-dimens",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Salto Dimensional e Teletransporte, apenas em você mesmo. Se já conhece essas magias, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-da-telepatia",
+      "nome": "Gema da telepatia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Gema que amplifica comunicação e influência mental.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "gema-da-telepatia-other-pode-lancar-compreensao-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Compreensão e Enfeitiçar sem pagar seu custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-elemental",
+      "nome": "Gema elemental",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Gema ligada às forças elementais.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "gema-elemental-other-pode-lancar-conjurar-ele",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Conjurar Elemental sem pagar seu custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-da-saude-corporal",
+      "nome": "Manual da saúde corporal",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de resistência física. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manual-da-saude-corporal-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Constituição em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-do-bom-exercicio",
+      "nome": "Manual do bom exercício",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de exercícios físicos. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manual-do-bom-exercicio-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-dos-movimentos-precisos",
+      "nome": "Manual dos movimentos precisos",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de coordenação e equilíbrio. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "manual-dos-movimentos-precisos-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Destreza em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-medalhao-de-lena",
+      "nome": "Medalhão de Lena",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Joia de energia positiva que protege o usuário da queda.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "medalhao-de-lena-other-quando-e-reduzido-a-0-ou",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Quando é reduzido a 0 ou menos PV, cura 100 PV antes que caia. Ativa uma vez por dia."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-da-compreensao",
+      "nome": "Tomo da compreensão",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de percepção e autocontrole. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "tomo-da-compreensao-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Sabedoria em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-da-lideranca-e-influencia",
+      "nome": "Tomo da liderança e influência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de persuasão e liderança. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "tomo-da-lideranca-e-influencia-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Carisma em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-dos-grandes-pensamentos",
+      "nome": "Tomo dos grandes pensamentos",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de raciocínio e memória. Após a leitura, perde sua magia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "tomo-dos-grandes-pensamentos-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Inteligência em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-refletor",
+      "nome": "Anel refletor",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Aro de platina capaz de devolver magias ao conjurador.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-refletor-other-uma-vez-por-rodada-quand",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cinto-do-campeao",
+      "nome": "Cinto do campeão",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Cinturão de ouro dos antigos campeões gladiatoriais.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "cinto-do-campeao-attribute-2-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Força.",
+          "target": "str",
+          "bonus": 2
+        },
+        {
+          "id": "cinto-do-campeao-briga-other-concede-briga-se-ja-poss",
+          "type": "other",
+          "mode": "always",
+          "text": "Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-colar-guardiao",
+      "nome": "Colar guardião",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Diamante lapidado em corrente de platina que deflete ataques.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "colar-guardiao-ac-5-em-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+5 em Defesa.",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-estatueta-animista",
+      "nome": "Estatueta animista",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pequena estatueta animal que ganha vida mediante comando.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "estatueta-animista-other-ao-ser-atirada-no-chao-e",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-liberdade",
+      "nome": "Anel da liberdade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Relíquia da Igreja de Valkaria forjada em ouro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-da-liberdade-other-voce-fica-permanentement",
+          "type": "other",
+          "mode": "always",
+          "text": "Você fica permanentemente sob efeito de Libertação."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tapete-voador",
+      "nome": "Tapete voador",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Tapete mágico de 3m x 3m capaz de transportar um grupo pelo ar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "tapete-voador-other-com-um-comando-recebe-vo",
+          "type": "other",
+          "mode": "use",
+          "text": "Com um comando, recebe voo 12m. Carrega até seis criaturas Médias ou 600 kg e pode ser comandado em alcance longo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-braceletes-de-ouro",
+      "nome": "Braceletes de ouro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 21500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Versão superior dos braceletes de bronze.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "braceletes-de-ouro-ac-8-em-defesa-cumulativo-c",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+8 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+          "bonus": 8
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-da-oposicao",
+      "nome": "Espelho da oposição",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Grande espelho mágico que cria um duplicado hostil de quem observa o próprio reflexo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "espelho-da-oposicao-other-quando-ativado-quem-obse",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-robe-do-arquimago",
+      "nome": "Robe do arquimago",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Traje pesado que protege conjuradores arcanos usando a própria energia mágica.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "robe-do-arquimago-other-se-for-conjurador-arcano",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-orbe-das-tempestades",
+      "nome": "Orbe das tempestades",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 32500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Esfera de vidro com fumaça e raios aprisionados em seu interior.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "orbe-das-tempestades-other-pode-lancar-controlar-o-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Controlar o Clima e Fúria do Panteão; se já conhece a magia, o custo diminui em –1 PM."
+        },
+        {
+          "id": "orbe-das-tempestades-suporte-other-voce-e-aliados-adjacente",
+          "type": "other",
+          "mode": "always",
+          "text": "Você e aliados adjacentes ficam sob efeito de Suporte Ambiental."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-regeneracao",
+      "nome": "Anel da regeneração",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 50000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que acelera continuamente a recuperação do usuário.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "anel-da-regeneracao-other-apos-um-dia-de-uso-receb",
+          "type": "other",
+          "mode": "always",
+          "text": "Após um dia de uso, recebe Cura Acelerada 5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-do-aprisionamento",
+      "nome": "Espelho do aprisionamento",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 75000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Grande espelho de cristal que aprisiona criaturas em um espaço extradimensional.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:32:48.524Z",
+      "efeitos": [
+        {
+          "id": "espelho-do-aprisionamento-other-quando-ativado-criatura-",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
     }
   ]
 }
