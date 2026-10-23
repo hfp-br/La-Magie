@@ -14,6 +14,80 @@
 .comp-advanced{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
 .comp-resource-row{display:grid;grid-template-columns:1fr 80px 80px auto auto 34px;gap:7px;align-items:center;margin-top:7px}.comp-resource-row label{font-size:10px;color:var(--muted);display:flex;gap:4px;align-items:center}@media(max-width:700px){.comp-resource-row{grid-template-columns:1fr 1fr}}
 </style>
+
+<style id="la-magie-mobile-polish">
+/* ajustes de conforto para celulares e tablets */
+html {scroll-behavior:smooth}
+.comp-item-row,.comp-preview-text,.comp-preview-stat strong,.comp-preview-line strong{overflow-wrap:anywhere}
+.comp-preview-head,.comp-preview-title,.comp-preview-actions{min-width:0}
+.drawer{height:100vh;height:100dvh;overscroll-behavior:contain}
+.drawer-body{padding-bottom:calc(32px + env(safe-area-inset-bottom))}
+.drawer-head{gap:12px}
+.drawer-head h2{min-width:0;overflow-wrap:anywhere}
+.comp-preview-stat{min-width:0}
+.comp-preview-weapon-main{overflow-wrap:anywhere}
+@media(max-width:980px){
+ .compendium-library{gap:12px}
+ .compendium-list-scroll{max-height:min(38dvh,300px)}
+ .comp-preview-empty{min-height:220px}
+}
+@media(max-width:620px){
+ body{padding:10px!important}
+ .app{width:100%!important}
+ .top{align-items:flex-start;flex-direction:column;gap:10px}
+ .brand h1{font-size:clamp(27px,8vw,38px)}
+ .actions{width:100%;justify-content:space-between}
+ .sheet{border-radius:13px}
+ .content{padding:11px!important}
+ .toolbar{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important;padding:11px!important}
+ .toolbar .field:first-child{grid-column:1/-1}
+ .toolbar #newBtn{grid-column:1/-1;min-height:42px}
+ .toolbar input,.toolbar select{min-width:0;min-height:43px;font-size:16px}
+ .summary{flex-wrap:wrap;gap:6px}
+ .compendium-list-head{padding:9px 11px}
+ .compendium-list-scroll{max-height:min(36dvh,280px);padding:5px}
+ .comp-item-row{min-height:47px;padding:9px 10px}
+ .comp-item-row-name{font-size:14px}
+ .comp-item-row-meta{font-size:10px}
+ .comp-item-row-weight{font-size:10px}
+ .comp-preview-head{padding:14px;gap:8px}
+ .comp-preview-title h2{font-size:clamp(22px,6.5vw,28px);line-height:1.16}
+ .comp-preview-body{padding:14px 14px 20px}
+ .comp-preview-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .comp-preview-stat{padding:10px}
+ .comp-preview-stat span{font-size:10px}
+ .comp-preview-stat strong{font-size:13px}
+ .comp-preview-section h3{font-size:13px}
+ .comp-preview-text{font-size:14px;line-height:1.6}
+ .comp-preview-line,.comp-preview-effect,.comp-preview-defense,.comp-preview-resource{font-size:12px}
+ .comp-preview-weapon-main{font-size:15px;line-height:1.5}
+ .comp-preview-weapon-chip,.comp-preview-badge{font-size:11px}
+ .comp-preview-actions .btn{min-height:40px}
+ .drawer{width:100vw!important;border-radius:0}
+ .drawer-head{padding:11px 12px}
+ .drawer-head h2{font-size:20px}
+ .drawer-body{padding:12px 12px calc(22px + env(safe-area-inset-bottom))}
+ .drawer input:not([type=checkbox]),.drawer select,.drawer textarea{min-height:43px;font-size:16px}
+ .drawer input[type=checkbox]{width:20px;height:20px;flex:0 0 20px}
+ .drawer .editor-grid,.drawer .weapon-grid{gap:10px}
+ .effects,.weapon-editor,.comp-advanced{padding:10px}
+ .effect-row,.comp-resource-row{display:grid;grid-template-columns:minmax(0,1fr) 42px;gap:8px;padding:11px 9px;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.25);margin-top:10px}
+ .effect-row > select,.effect-row > input,.comp-resource-row > input:not([type=checkbox]){grid-column:1/-1;min-width:0}
+ .effect-row > .effect-delete,.comp-resource-row > .r-del{grid-column:2;grid-row:1;min-height:42px}
+ .comp-resource-row > label{grid-column:1/-1;font-size:13px;gap:9px}
+ .effect-row .effect-description{grid-column:1/-1!important}
+ .comp-resource-row .r-name{grid-column:1;grid-row:1}
+ .drawer-actions-mobile{position:sticky;bottom:0;z-index:3;display:flex!important;align-items:center;gap:8px;flex-wrap:wrap;margin:16px -12px calc(-22px - env(safe-area-inset-bottom));padding:10px 12px calc(10px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:rgba(246,237,215,.98);box-shadow:0 -5px 15px rgba(40,25,10,.08)}
+ .drawer-actions-mobile > div{margin-left:auto;display:flex;gap:8px}
+ .drawer-actions-mobile .btn{min-height:42px}
+ .login{max-height:calc(100dvh - 30px);overflow:auto;padding:18px}
+ .login input{font-size:16px;min-height:44px}
+ .mobile-back-to-list{display:inline-flex;align-items:center;gap:6px;margin:10px 0 0 10px;font-size:12px;min-height:38px}
+}
+@media(min-width:621px){.mobile-back-to-list{display:none!important}}
+@media(max-width:360px){.toolbar{grid-template-columns:1fr!important}.toolbar .field:first-child,.toolbar #newBtn{grid-column:1}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
 <div class="app">
@@ -86,7 +160,7 @@
       <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><div><div class="mini">Recursos do item</div><small style="color:var(--muted)">Cargas, energia, munição especial etc.</small></div><button id="addItemResource" class="btn" type="button">+ Recurso</button></div>
       <div id="itemResources"></div>
     </div>
-    <div style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
+    <div class="drawer-actions-mobile" style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
   </div>
 </aside>
 <div id="loginBackdrop" class="backdrop"></div>
@@ -355,7 +429,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     arr.forEach(item=>{
       const row=document.createElement("button");row.type="button";row.className=`comp-item-row ${item.id===selectedCompendiumId?"active":""}`;
       row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}${(item.sistema||item.system)?`<span class="comp-item-system">• ${escV5(item.sistema||item.system)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
-      row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5()});list.appendChild(row);
+      row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5();if(window.matchMedia("(max-width:620px)").matches){requestAnimationFrame(()=>document.getElementById("compV5Preview")?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth",block:"start"}))}});list.appendChild(row);
     });
     renderPreviewV5(arr.find(i=>i.id===selectedCompendiumId)||arr[0]);
   }
@@ -373,6 +447,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     if(item.descricao){body+=`<section class="comp-preview-section"><h3>Descrição</h3><div class="comp-preview-text">${escV5(item.descricao)}</div></section>`}
     body+=`<div class="comp-preview-origin">${item.id?`ID: ${escV5(item.id)}`:""}</div></div></article>`;
     host.innerHTML=body;
+    if(window.matchMedia("(max-width:620px)").matches){const back=document.createElement("button");back.type="button";back.className="btn mobile-back-to-list";back.textContent="← Voltar à lista de itens";back.addEventListener("click",()=>document.querySelector(".compendium-list-panel")?.scrollIntoView({behavior:"smooth",block:"start"}));host.prepend(back)}
     document.getElementById("compV5DuplicateBtn")?.addEventListener("click",()=>typeof window.duplicarItemCatalogoV51==="function"&&window.duplicarItemCatalogoV51(item.id));
     document.getElementById("compV5EditBtn")?.addEventListener("click",()=>typeof editItem==="function"&&editItem(item.id));
   }
@@ -598,7 +673,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     refreshFilters();
     if(typeof render === "function") render();
 
-    observerPreview.observe(document.body,{childList:true,subtree:true});
+    if (typeof observerPreview !== "undefined" && observerPreview?.observe) observerPreview.observe(document.body,{childList:true,subtree:true});
   }
 
   if(document.readyState === "loading"){
