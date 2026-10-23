@@ -9845,7 +9845,7 @@
         "acessorio",
         "magico"
       ],
-      "descricao": "Colar com o símbolo de uma divindade do Panteão. Efeito: Se for devoto da divindade representada, o custo de suas magias divinas diminui em –1 PM.",
+      "descricao": "Colar de metal com o símbolo de um deus do Panteão, resistente ao uso em viagens. Se você for devoto dessa divindade, o custo de suas magias divinas diminui em 1 PM. Apenas inventores devotos do deus representado podem fabricar este item.",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:52:02.747Z",
       "efeitos": [
@@ -28896,7 +28896,7 @@
         "unico",
         "magico"
       ],
-      "descricao": "Escudo lendário associado a Mestre Arsenal, famoso por proteção extraordinária.",
+      "descricao": "Escudo grande lendário feito de uma liga extraordinária de adamante e mitral, associado a Mestre Arsenal. Fornece +8 na Defesa, +5 em testes de resistência e redução de dano 30.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
@@ -28970,7 +28970,7 @@
         "unico",
         "magico"
       ],
-      "descricao": "Espada senciente que comanda insetos e possui vontade própria.",
+      "descricao": "Espada longa inteligente com os encantos certeira, cruel, anticriatura (humanoides), magnífica e venenosa. Permite lançar Legião apenas sobre criaturas de natureza insetoide, a critério do mestre. Artefato de nível 20, Ego 39, com 31 PM, fala, percepção às cegas em alcance médio e as magias Compreensão, Enxame de Pestes e Visão Mística (CD 25).",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
@@ -29044,7 +29044,7 @@
         "unico",
         "magico"
       ],
-      "descricao": "Espada inteligente, elétrica e extremamente inconveniente, famosa por provocar conflitos.",
+      "descricao": "Espada longa inteligente, falante e provocadora, com os encantos certeira, cruel, elétrica e formidável. Permite ao portador lançar Relâmpago; se já conhecer essa magia, seu custo diminui em 1 PM. Artefato de nível 20, Ego 31, com 25 PM, visão no escuro e magias Compreensão e Relâmpago (CD 25).",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
@@ -29081,7 +29081,7 @@
         "unico",
         "magico"
       ],
-      "descricao": "Arco longo lendário ligado ao último rei de Lenórienn e à vingança élfica.",
+      "descricao": "Arco longo lendário com os encantos atroz, preciso, pungente e magnífico. Concede +1 cumulativo em testes de ataque e dano se o portador for elfo e/ou devoto de Glórienn (+2 caso reúna ambas as condições). O portador também soma seu Carisma às rolagens de dano.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
@@ -29118,7 +29118,7 @@
         "unico",
         "magico"
       ],
-      "descricao": "Lâmina tamuraniana que revela ao alvo o momento profetizado de sua morte.",
+      "descricao": "Espada curta formidável. Criaturas inteligentes que veem o próprio reflexo na lâmina recebem a visão de sua morte e, inicialmente, +2 na Defesa e nos testes de resistência. Quando o momento profetizado se aproxima, esses bônus se tornam penalidades de –10 e qualquer ataque que as acerte é um crítico automático. Mortes previstas fora de combate seguem efeitos próprios, decididos conforme a profecia.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
