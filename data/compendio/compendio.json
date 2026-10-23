@@ -12777,7 +12777,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -12791,7 +12791,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.158Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12832,7 +12832,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -12846,7 +12846,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12887,7 +12887,7 @@
         "valor": 5,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -12901,7 +12901,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12942,7 +12942,7 @@
         "valor": 0,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -12956,7 +12956,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12997,7 +12997,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13011,7 +13011,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13052,7 +13052,7 @@
         "valor": 12,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13066,7 +13066,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13107,7 +13107,7 @@
         "valor": 0,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13121,7 +13121,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "arma dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13162,7 +13162,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13176,7 +13176,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "haste",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13217,7 +13217,7 @@
         "valor": 0,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13231,7 +13231,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13272,7 +13272,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13286,7 +13286,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "frasco alquímico",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13327,7 +13327,7 @@
         "valor": 25,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13341,7 +13341,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "frasco sagrado",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13382,7 +13382,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13396,7 +13396,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13437,7 +13437,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13451,7 +13451,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13492,7 +13492,7 @@
         "valor": 35,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13506,7 +13506,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "duas mãos; recarga",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13547,7 +13547,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13561,7 +13561,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "frasco alquímico",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13602,7 +13602,7 @@
         "valor": 0,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13616,7 +13616,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13657,7 +13657,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13671,7 +13671,7 @@
       "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
       "properties": "explosivo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13712,7 +13712,7 @@
         "valor": 5,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -13725,7 +13725,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +1; Penalidade de armadura: -1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-escudo-leve-ca",
@@ -13756,7 +13756,7 @@
         "valor": 6,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13770,7 +13770,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13811,7 +13811,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13825,7 +13825,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13866,7 +13866,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13880,7 +13880,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13921,7 +13921,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -13934,7 +13934,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +2; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-escudo-pesado-ca",
@@ -13965,7 +13965,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -13979,7 +13979,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14020,7 +14020,7 @@
         "valor": 20,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14034,7 +14034,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14075,7 +14075,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14089,7 +14089,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14130,7 +14130,7 @@
         "valor": 8,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14144,7 +14144,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14185,7 +14185,7 @@
         "valor": 12,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14199,7 +14199,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14240,7 +14240,7 @@
         "valor": 8,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14254,7 +14254,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14295,7 +14295,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14309,7 +14309,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14350,7 +14350,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14364,7 +14364,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "haste",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14405,7 +14405,7 @@
         "valor": 75,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14419,7 +14419,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14460,7 +14460,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14474,7 +14474,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14515,7 +14515,7 @@
         "valor": 18,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14529,7 +14529,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14570,7 +14570,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14584,7 +14584,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "montada",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14625,7 +14625,7 @@
         "valor": 20,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14639,7 +14639,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14680,7 +14680,7 @@
         "valor": 75,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14694,7 +14694,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "duas mãos; aplica Força no dano",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14735,7 +14735,7 @@
         "valor": 100,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14749,7 +14749,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14790,7 +14790,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 131,
       "tags": [
@@ -14804,7 +14804,7 @@
       "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
       "properties": "duas mãos; recarga",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14845,7 +14845,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -14859,7 +14859,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14900,7 +14900,7 @@
         "valor": 5,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -14914,7 +14914,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14955,7 +14955,7 @@
         "valor": 310,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -14969,7 +14969,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15010,7 +15010,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15024,7 +15024,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "alcance",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15065,7 +15065,7 @@
         "valor": 35,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15079,7 +15079,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15120,7 +15120,7 @@
         "valor": 400,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15134,7 +15134,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15175,7 +15175,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15189,7 +15189,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15230,7 +15230,7 @@
         "valor": 500,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15244,7 +15244,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "crítico especial",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15285,7 +15285,7 @@
         "valor": 25,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15299,7 +15299,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "alcance",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15340,7 +15340,7 @@
         "valor": 100,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15354,7 +15354,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "arma dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15395,7 +15395,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15409,7 +15409,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15450,7 +15450,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15464,7 +15464,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "crítico especial",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15505,7 +15505,7 @@
         "valor": 500,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15519,7 +15519,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "arma de fogo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15560,7 +15560,7 @@
         "valor": 250,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15574,7 +15574,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "arma de fogo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15615,7 +15615,7 @@
         "valor": 20,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15629,7 +15629,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "arma de manobra",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15670,7 +15670,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15684,7 +15684,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15725,7 +15725,7 @@
         "valor": 40,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 132,
       "tags": [
@@ -15739,7 +15739,7 @@
       "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15780,7 +15780,7 @@
         "valor": 5,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -15793,7 +15793,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-armadura-acolchoada-ca",
@@ -15824,7 +15824,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -15837,7 +15837,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +2; Bônus máximo de Destreza: +6; Penalidade de armadura: 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-corselete-de-couro-ca",
@@ -15868,7 +15868,7 @@
         "valor": 25,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -15881,7 +15881,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-couro-batido-ca",
@@ -15912,7 +15912,7 @@
         "valor": 100,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -15925,7 +15925,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-camisa-de-cota-de-malha-ca",
@@ -15956,7 +15956,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -15969,7 +15969,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-gibao-de-peles-ca",
@@ -16000,7 +16000,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16013,7 +16013,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-brunea-ca",
@@ -16044,7 +16044,7 @@
         "valor": 150,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16057,7 +16057,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-cota-de-malha-ca",
@@ -16088,7 +16088,7 @@
         "valor": 200,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16101,7 +16101,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-couraca-ca",
@@ -16132,7 +16132,7 @@
         "valor": 200,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16145,7 +16145,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-cota-de-talas-ca",
@@ -16176,7 +16176,7 @@
         "valor": 250,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16189,7 +16189,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-loriga-segmentada-ca",
@@ -16220,7 +16220,7 @@
         "valor": 600,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16233,7 +16233,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-meia-armadura-ca",
@@ -16264,7 +16264,7 @@
         "valor": 1500,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 136,
       "tags": [
@@ -16277,7 +16277,7 @@
       "descricao": "Armadura de Tormenta RPG - Módulo Básico.",
       "properties": "CA +8; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-armadura-completa-ca",
@@ -16308,7 +16308,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16320,7 +16320,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16343,7 +16343,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16355,7 +16355,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16378,7 +16378,7 @@
         "valor": 25,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16391,7 +16391,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -16414,7 +16414,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16426,7 +16426,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16449,7 +16449,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16461,7 +16461,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16484,7 +16484,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16496,7 +16496,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16519,7 +16519,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16531,7 +16531,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16554,7 +16554,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16566,7 +16566,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16589,7 +16589,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16601,7 +16601,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16624,7 +16624,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16636,7 +16636,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16659,7 +16659,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16671,7 +16671,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16694,7 +16694,7 @@
         "valor": 7,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16706,7 +16706,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16729,7 +16729,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16741,7 +16741,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16764,7 +16764,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16776,7 +16776,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16799,7 +16799,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16811,7 +16811,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16834,7 +16834,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16846,7 +16846,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16869,7 +16869,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16881,7 +16881,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16904,7 +16904,7 @@
         "valor": 2,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16916,7 +16916,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16939,7 +16939,7 @@
         "valor": 5,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16952,7 +16952,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -16975,7 +16975,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -16987,7 +16987,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17010,7 +17010,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17022,7 +17022,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17045,7 +17045,7 @@
         "valor": 8,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17057,7 +17057,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17080,7 +17080,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17092,7 +17092,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -17115,7 +17115,7 @@
         "valor": 2,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17127,7 +17127,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17150,7 +17150,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17162,7 +17162,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17185,7 +17185,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17197,7 +17197,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17220,7 +17220,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17232,7 +17232,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17255,7 +17255,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17268,7 +17268,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -17291,7 +17291,7 @@
         "valor": 3,
         "moeda": "TP"
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -17304,7 +17304,7 @@
       "descricao": "",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -17327,7 +17327,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17340,7 +17340,7 @@
       "descricao": "Armas feitas deste metal ignoram redução de dano, inclusive reduções normalmente impossíveis de superar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17363,7 +17363,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17376,7 +17376,7 @@
       "descricao": "Armas causam dano como se fossem uma categoria de tamanho maior; armaduras e escudos pesados podem fornecer redução de dano.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17399,7 +17399,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17412,7 +17412,7 @@
       "descricao": "Material das Montanhas Uivantes. Armas causam dano adicional por frio; armaduras e escudos concedem resistência a frio.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17435,7 +17435,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17448,7 +17448,7 @@
       "descricao": "Madeira negra tão resistente quanto metal. Armas contam como mágicas para superar redução de dano; escudos leves podem conceder RD.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17471,7 +17471,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17484,7 +17484,7 @@
       "descricao": "Material lefeu. Armas ferem criaturas naturais com dano adicional, mas também machucam o usuário; armaduras distorcem ataques recebidos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17507,7 +17507,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 141,
       "tags": [
@@ -17520,7 +17520,7 @@
       "descricao": "Metal raro e muito leve. Armas ampliam a margem de ameaça e armaduras são mais leves e flexíveis.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17543,7 +17543,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 261,
       "tags": [
@@ -17557,7 +17557,7 @@
       "descricao": "Mangual lendário de Valkaria, presenteado aos Libertadores. Artefato divino ligado à ambição e à aventura.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17580,7 +17580,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 261,
       "tags": [
@@ -17594,7 +17594,7 @@
       "descricao": "Espada bastarda divina de poder extremo, capaz de destruir criaturas com um golpe de poder absoluto.",
       "properties": "Espada bastarda +10; artefato divino.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17617,7 +17617,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 261,
       "tags": [
@@ -17631,7 +17631,7 @@
       "descricao": "Arma halfling mutável que pode assumir formas de maça, picareta ou lança, além de capturar e arrastar inimigos.",
       "properties": "Arma mágica +3; explosão flamejante; retorno.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17654,7 +17654,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 262,
       "tags": [
@@ -17668,7 +17668,7 @@
       "descricao": "Cajado que carrega parte da consciência de Sszzaas e permite lançar magias conhecidas ou ouvidas, com efeitos metamágicos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17691,7 +17691,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 262,
       "tags": [
@@ -17705,7 +17705,7 @@
       "descricao": "Espada pessoal de Khalmyr. Nas mãos de alguém digno, é devastadora contra criaturas malignas e mortos-vivos.",
       "properties": "Espada grande inteligente +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17728,7 +17728,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 263,
       "tags": [
@@ -17742,7 +17742,7 @@
       "descricao": "Um dos Rubis da Virtude, relíquias divinas indetectáveis e praticamente indestrutíveis que concedem grande poder ao portador.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17765,7 +17765,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 263,
       "tags": [
@@ -17779,7 +17779,7 @@
       "descricao": "Armadura completa colossal em aparência, extremamente poderosa e impossível de abandonar depois de vestida.",
       "properties": "Armadura completa +5; aumenta Força; RD; bônus em resistências; movimentação livre.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17802,7 +17802,7 @@
         "valor": 0,
         "moeda": ""
       },
-      "sistema": "tormenta-rpg",
+      "sistema": "tormenta20",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 263,
       "tags": [
@@ -17816,4804 +17816,7 @@
       "descricao": "Espada inteligente que deseja combate e tenta provocar conflitos ao redor do portador.",
       "properties": "Espada longa anárquica da velocidade +3.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kama",
-      "nome": "Kama",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Kama",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-kunai",
-      "nome": "Kunai",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 0.5,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "arremesso; +4 para esconder",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Kunai",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d4",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "3m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arremesso; +4 para esconder",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-tanto",
-      "nome": "Tanto",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 0.5,
-      "preco": {
-        "valor": 302,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "obra-prima",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Tanto",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d4",
-        "type": "Corte/Perfuração",
-        "threat": 18,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "obra-prima",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-clava",
-      "nome": "Clava",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 1.5,
-      "preco": {
-        "valor": 0,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Clava",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-maca",
-      "nome": "Maça",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 6,
-      "preco": {
-        "valor": 12,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Maça",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-yari",
-      "nome": "Yari",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 1.5,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "arremesso",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Yari",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "6m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arremesso",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-bo",
-      "nome": "Bo",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 2,
-      "preco": {
-        "valor": 0,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "arma dupla",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Bo",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6/1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma dupla",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-tacape",
-      "nome": "Tacape",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 4,
-      "preco": {
-        "valor": 0,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Tacape",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d10",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-azagaia",
-      "nome": "Azagaia",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 1,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "arremesso",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Azagaia",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "9m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arremesso",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-besta-leve",
-      "nome": "Besta leve",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 3,
-      "preco": {
-        "valor": 35,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "duas mãos; recarga",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Besta leve",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d8",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "18m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "duas mãos; recarga",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-fukiya",
-      "nome": "Fukiya",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 0.5,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "zarabatana; facilita aplicação de veneno",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Fukiya",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d3",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "4,5m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "zarabatana; facilita aplicação de veneno",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-hankyu",
-      "nome": "Hankyu",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 1,
-      "preco": {
-        "valor": 30,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "simples",
-        "distancia"
-      ],
-      "descricao": "Arma simples de Império de Jade.",
-      "properties": "arco curto",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Hankyu",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "12m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arco curto",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-escudo-leve",
-      "nome": "Escudo leve",
-      "categoria": "armadura",
-      "subtipo": "escudo",
-      "peso": 3,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "escudo",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +1; Penalidade de armadura: -1",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-escudo-leve-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+1 na CA enquanto estiver usando.",
-          "bonus": 1
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-espada-curta",
-      "nome": "Espada curta",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Espada curta",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-jitte",
-      "nome": "Jitte",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 0.5,
-      "preco": {
-        "valor": 4,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "+4 para desarmar ou separar",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Jitte",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d4",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "+4 para desarmar ou separar",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-machadinha",
-      "nome": "Machadinha",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 2,
-      "preco": {
-        "valor": 6,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "distancia"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "arremesso",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Machadinha",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "3m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arremesso",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-neko-te",
-      "nome": "Neko-te",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 0.5,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Neko-te",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d4",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-ninja-to",
-      "nome": "Ninja-to",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Ninja-to",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-nunchaku",
-      "nome": "Nunchaku",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Nunchaku",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-sai",
-      "nome": "Sai",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 0.5,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Sai",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Perfuração/Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-tonfa",
-      "nome": "Tonfa",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Tonfa",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-wakizashi",
-      "nome": "Wakizashi",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 310,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "obra-prima",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Wakizashi",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "obra-prima",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-espada-longa",
-      "nome": "Espada longa",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 1.5,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Espada longa",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-cimitarra",
-      "nome": "Cimitarra",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 2,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Cimitarra",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 18,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-escudo-pesado",
-      "nome": "Escudo pesado",
-      "categoria": "armadura",
-      "subtipo": "escudo",
-      "peso": 7,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "escudo",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +2; Penalidade de armadura: -2",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-escudo-pesado-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+2 na CA enquanto estiver usando.",
-          "bonus": 2
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kra-tann",
-      "nome": "Kra'tann",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 6,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "+2 em Intimidação; violação de honra moderada",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Kra'tann",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "2d4",
-        "type": "Esmagamento/Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "+2 em Intimidação; violação de honra moderada",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-machado-de-batalha",
-      "nome": "Machado de batalha",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 3,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Machado de batalha",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-mangual",
-      "nome": "Mangual",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 2.5,
-      "preco": {
-        "valor": 8,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Mangual",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-picareta",
-      "nome": "Picareta",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 3,
-      "preco": {
-        "valor": 8,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Picareta",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 4,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-tridente",
-      "nome": "Tridente",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 2,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Tridente",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-naginata",
-      "nome": "Naginata",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 1,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Naginata",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d12",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-nodachi",
-      "nome": "Nodachi",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 8,
-      "preco": {
-        "valor": 400,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Nodachi",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "2d6",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-tetsubo",
-      "nome": "Tetsubo",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 10,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Tetsubo",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "3d4",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-besta-pesada",
-      "nome": "Besta pesada",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 4,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "distancia"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "duas mãos; recarga",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Besta pesada",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d12",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "27m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "duas mãos; recarga",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-daikyu",
-      "nome": "Daikyu",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 1.5,
-      "preco": {
-        "valor": 100,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 143,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "marcial",
-        "distancia"
-      ],
-      "descricao": "Arma marcial de Império de Jade.",
-      "properties": "arco longo",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Daikyu",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d8",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "24m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arco longo",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-jian",
-      "nome": "Jian",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 35,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "+4 em manobras de combate",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Jian",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Perfuração",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "+4 em manobras de combate",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-leque",
-      "nome": "Leque",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - leve",
-      "peso": 1,
-      "preco": {
-        "valor": 40,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "pode surpreender ao ser aberto",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Leque",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "pode surpreender ao ser aberto",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-chicote",
-      "nome": "Chicote",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 1,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "alcance 4,5m; +4 para derrubar/desarmar",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Chicote",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d4",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "alcance 4,5m; +4 para derrubar/desarmar",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-chuan",
-      "nome": "Chuan",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 1.5,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "+4 em manobras de combate",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Chuan",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "+4 em manobras de combate",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-katana",
-      "nome": "Katana",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - uma mao",
-      "peso": 3,
-      "preco": {
-        "valor": 350,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - uma mao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "obra-prima; pode ser usada com duas mãos como marcial",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Katana",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d10",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "obra-prima; pode ser usada com duas mãos como marcial",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-corrente",
-      "nome": "Corrente",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 2.5,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arma dupla",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Corrente",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6/1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma dupla",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-kakko-dai",
-      "nome": "Kakko'dai",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 10,
-      "preco": {
-        "valor": 35,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "-1 CA; violação de honra moderada",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Kakko'dai",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "2d8",
-        "type": "Corte/Perfuração",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "-1 CA; violação de honra moderada",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-kusari-gama",
-      "nome": "Kusari-gama",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 2,
-      "preco": {
-        "valor": 25,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arma dupla; alcance 3m; +4 derrubar/desarmar",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Kusari-gama",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d4/1d6",
-        "type": "Corte/Esmagamento",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma dupla; alcance 3m; +4 derrubar/desarmar",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-lajatang",
-      "nome": "Lajatang",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 4,
-      "preco": {
-        "valor": 100,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arma dupla",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Lajatang",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d8/1d8",
-        "type": "Corte",
-        "threat": 19,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma dupla",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-sansetsukon",
-      "nome": "Sansetsukon",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 3,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arma dupla",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Sansetsukon",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "1d6/1d6",
-        "type": "Esmagamento",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma dupla",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-zanbatou",
-      "nome": "Zanbatou",
-      "categoria": "arma",
-      "subtipo": "corpo a corpo - duas maos",
-      "peso": 12,
-      "preco": {
-        "valor": 100,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "corpo a corpo - duas maos",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "corpo a corpo"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Zanbatou",
-        "skill": "Luta",
-        "stat": "str",
-        "die": "2d8",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "",
-        "hands": "2",
-        "ammo": "",
-        "reload": "",
-        "properties": "",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-chakram",
-      "nome": "Chakram",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 1,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "distancia"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "pode ricochetear",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Chakram",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d6",
-        "type": "Corte",
-        "threat": 20,
-        "crit": 3,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "9m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "pode ricochetear",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-granada",
-      "nome": "Granada",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 0.5,
-      "preco": {
-        "valor": 150,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "distancia"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "explosivo; violação de honra",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Granada",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "4d6",
-        "type": "Corte/Perfuração/Esmagamento",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "3m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "explosivo; violação de honra",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-rede",
-      "nome": "Rede",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 3,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "distancia"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arma de manobra",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": false,
-        "name": "Rede",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "",
-        "type": "Especial",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "3m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arma de manobra",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-shuriken",
-      "nome": "Shuriken",
-      "categoria": "arma",
-      "subtipo": "ataque a distancia",
-      "peso": 0.25,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 144,
-      "tags": [
-        "arma",
-        "ataque a distancia",
-        "imperio-de-jade",
-        "imperio de jade",
-        "exotica",
-        "distancia"
-      ],
-      "descricao": "Arma exotica de Império de Jade.",
-      "properties": "arremesso",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": [],
-      "weaponAttack": {
-        "enabled": true,
-        "name": "Shuriken",
-        "skill": "Pontaria",
-        "stat": "dex",
-        "die": "1d4",
-        "type": "Perfuração",
-        "threat": 20,
-        "crit": 2,
-        "hitBonus": 0,
-        "damageBonus": "",
-        "range": "3m",
-        "hands": "1",
-        "ammo": "",
-        "reload": "",
-        "properties": "arremesso",
-        "allowedToggles": []
-      }
-    },
-    {
-      "id": "imperio-de-jade-armadura-de-couro",
-      "nome": "Armadura de couro",
-      "categoria": "armadura",
-      "subtipo": "leve",
-      "peso": 7,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +2; Bônus máximo de Destreza: +6; Penalidade de armadura: 0",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-armadura-de-couro-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+2 na CA enquanto estiver usando.",
-          "bonus": 2
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-armadura-de-ossos",
-      "nome": "Armadura de ossos",
-      "categoria": "armadura",
-      "subtipo": "leve",
-      "peso": 10,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-armadura-de-ossos-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+3 na CA enquanto estiver usando.",
-          "bonus": 3
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-armadura-ashigaru",
-      "nome": "Armadura ashigaru",
-      "categoria": "armadura",
-      "subtipo": "leve",
-      "peso": 10,
-      "preco": {
-        "valor": 25,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "leve",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-armadura-ashigaru-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+3 na CA enquanto estiver usando.",
-          "bonus": 3
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-char-aina",
-      "nome": "Char-aina",
-      "categoria": "armadura",
-      "subtipo": "media",
-      "peso": 5,
-      "preco": {
-        "valor": 75,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "media",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +2; Penalidade de armadura: -2",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-char-aina-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+2 na CA enquanto estiver usando.",
-          "bonus": 2
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-haramaki",
-      "nome": "Haramaki",
-      "categoria": "armadura",
-      "subtipo": "media",
-      "peso": 15,
-      "preco": {
-        "valor": 100,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "media",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -3",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-haramaki-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+4 na CA enquanto estiver usando.",
-          "bonus": 4
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-lamelar",
-      "nome": "Lamelar",
-      "categoria": "armadura",
-      "subtipo": "media",
-      "peso": 15,
-      "preco": {
-        "valor": 250,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "media",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-lamelar-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+5 na CA enquanto estiver usando.",
-          "bonus": 5
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-suchiiru",
-      "nome": "Suchiiru",
-      "categoria": "armadura",
-      "subtipo": "media",
-      "peso": 10,
-      "preco": {
-        "valor": 1500,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "media",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +6; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-suchiiru-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+6 na CA enquanto estiver usando.",
-          "bonus": 6
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-carapaca-kappa",
-      "nome": "Carapaça kappa",
-      "categoria": "armadura",
-      "subtipo": "pesada",
-      "peso": 20,
-      "preco": {
-        "valor": 30,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "pesada",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +0; Bônus máximo de Destreza: +1; Penalidade de armadura: -8; CA especial; consulte o livro.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-carapaca-kappa-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+0 na CA enquanto estiver usando.",
-          "bonus": 0
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-yoroi",
-      "nome": "Yoroi",
-      "categoria": "armadura",
-      "subtipo": "pesada",
-      "peso": 20,
-      "preco": {
-        "valor": 500,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "pesada",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +6; Bônus máximo de Destreza: +2; Penalidade de armadura: -3",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-yoroi-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+6 na CA enquanto estiver usando.",
-          "bonus": 6
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-o-yoroi",
-      "nome": "O-Yoroi",
-      "categoria": "armadura",
-      "subtipo": "pesada",
-      "peso": 20,
-      "preco": {
-        "valor": 1000,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 151,
-      "tags": [
-        "armadura",
-        "pesada",
-        "imperio-de-jade",
-        "imperio de jade",
-        "protecao"
-      ],
-      "descricao": "Armadura de Império de Jade.",
-      "properties": "CA +7; Bônus máximo de Destreza: +2; Penalidade de armadura: -4",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [
-        {
-          "id": "imperio-de-jade-o-yoroi-ca",
-          "type": "ac",
-          "mode": "toggle",
-          "text": "+7 na CA enquanto estiver usando.",
-          "bonus": 7
-        }
-      ],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-algemas",
-      "nome": "Algemas",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 1,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-algibeira",
-      "nome": "Algibeira",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.25,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-balsamo-restaurador",
-      "nome": "Bálsamo restaurador",
-      "categoria": "consumivel",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 25,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "consumivel",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade",
-        "equipamento"
-      ],
-      "descricao": "Pasta medicinal. Aplicar é uma ação completa e cura 2d4 PV.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-bomba-de-fumaca",
-      "nome": "Bomba de fumaça",
-      "categoria": "consumivel",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 20,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "consumivel",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade",
-        "equipamento"
-      ],
-      "descricao": "Frasco que cria uma nuvem de fumaça; invento ninja e violação de honra severa.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-corda-15m",
-      "nome": "Corda (15m)",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 5,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-corda-de-seda-15m",
-      "nome": "Corda de seda (15m)",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 2.5,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-espelho",
-      "nome": "Espelho",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.25,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-furoshiki",
-      "nome": "Furoshiki",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.25,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-futon",
-      "nome": "Futon",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 2.5,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-instrumento-musical",
-      "nome": "Instrumento musical",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 1.5,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kit-de-artesao",
-      "nome": "Kit de artesão",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 4,
-      "preco": {
-        "valor": 30,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kit-de-aventureiro",
-      "nome": "Kit de aventureiro",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 15.5,
-      "preco": {
-        "valor": 19,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kit-de-disfarces",
-      "nome": "Kit de disfarces",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 4,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kit-de-ladrao",
-      "nome": "Kit de ladrão",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 30,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kit-de-medicamentos",
-      "nome": "Kit de medicamentos",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-lanterna",
-      "nome": "Lanterna",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 1,
-      "preco": {
-        "valor": 7,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-mochila",
-      "nome": "Mochila",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 1,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-papel-folha",
-      "nome": "Papel (folha)",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-pe-de-cabra",
-      "nome": "Pé de cabra",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 2.5,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-pederneira",
-      "nome": "Pederneira",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-pedra-de-tinta",
-      "nome": "Pedra de tinta",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0,
-      "preco": {
-        "valor": 8,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-pincel",
-      "nome": "Pincel",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-racao-de-viagem",
-      "nome": "Ração de viagem",
-      "categoria": "consumivel",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 5,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "consumivel",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade",
-        "equipamento"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-tocha",
-      "nome": "Tocha",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0.5,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-tokkuri",
-      "nome": "Tokkuri",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 2,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-vara-de-madeira-3m",
-      "nome": "Vara de madeira (3m)",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 4,
-      "preco": {
-        "valor": 2,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-vela",
-      "nome": "Vela",
-      "categoria": "equipamento",
-      "subtipo": "equipamento geral",
-      "peso": 0,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "equipamento geral",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-booken-fuku",
-      "nome": "Booken-fuku",
-      "categoria": "equipamento",
-      "subtipo": "vestimenta",
-      "peso": 2,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 154,
-      "tags": [
-        "equipamento",
-        "vestimenta",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-dai-zenshi-fuku",
-      "nome": "Dai'zenshi-fuku",
-      "categoria": "equipamento",
-      "subtipo": "vestimenta",
-      "peso": 2,
-      "preco": {
-        "valor": 50,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 154,
-      "tags": [
-        "equipamento",
-        "vestimenta",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-quimono",
-      "nome": "Quimono",
-      "categoria": "equipamento",
-      "subtipo": "vestimenta",
-      "peso": 2,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 154,
-      "tags": [
-        "equipamento",
-        "vestimenta",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-shimin-fuku",
-      "nome": "Shimin-fuku",
-      "categoria": "equipamento",
-      "subtipo": "vestimenta",
-      "peso": 1,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 154,
-      "tags": [
-        "equipamento",
-        "vestimenta",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-shinobi-shozoku",
-      "nome": "Shinobi shozoku",
-      "categoria": "equipamento",
-      "subtipo": "vestimenta",
-      "peso": 1,
-      "preco": {
-        "valor": 0,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 154,
-      "tags": [
-        "equipamento",
-        "vestimenta",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "Traje ninja que concede bônus de Furtividade, Intimidação e Diplomacia com ninjas do mesmo clã; seu uso é desonrado.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-bebida",
-      "nome": "Bebida",
-      "categoria": "consumivel",
-      "subtipo": "alimentacao",
-      "peso": 0.5,
-      "preco": {
-        "valor": 1,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "consumivel",
-        "alimentacao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "equipamento"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-refeicao",
-      "nome": "Refeição",
-      "categoria": "consumivel",
-      "subtipo": "alimentacao",
-      "peso": 1,
-      "preco": {
-        "valor": 3,
-        "moeda": "¥p"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "consumivel",
-        "alimentacao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "equipamento"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": true,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-jitensha",
-      "nome": "Jitensha",
-      "categoria": "equipamento",
-      "subtipo": "veiculo",
-      "peso": 0,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "veiculo",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-pipa-ninja",
-      "nome": "Pipa ninja",
-      "categoria": "equipamento",
-      "subtipo": "veiculo",
-      "peso": 0,
-      "preco": {
-        "valor": 10,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "veiculo",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-riquixa",
-      "nome": "Riquixá",
-      "categoria": "equipamento",
-      "subtipo": "veiculo",
-      "peso": 0,
-      "preco": {
-        "valor": 15,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "veiculo",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-palanquim",
-      "nome": "Palanquim",
-      "categoria": "equipamento",
-      "subtipo": "veiculo",
-      "peso": 0,
-      "preco": {
-        "valor": 100,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "veiculo",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-junco",
-      "nome": "Junco",
-      "categoria": "equipamento",
-      "subtipo": "veiculo",
-      "peso": 0,
-      "preco": {
-        "valor": 11000,
-        "moeda": "¥o"
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 155,
-      "tags": [
-        "equipamento",
-        "veiculo",
-        "imperio-de-jade",
-        "imperio de jade"
-      ],
-      "descricao": "",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-flauta-das-eras",
-      "nome": "Flauta das Eras",
-      "categoria": "artefato",
-      "subtipo": "instrumento",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 309,
-      "tags": [
-        "artefato",
-        "instrumento",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Shakuhachi lendário capaz de decretar o fim de uma era e o começo de outra. Carregá-lo fortalece defesa e resistências, mas drena permanentemente a energia do portador.",
-      "properties": "Artefato; pode assumir a forma de uma tanto defensora +5.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-kaminari-o-trovao-divino",
-      "nome": "Kaminari, o Trovão Divino",
-      "categoria": "artefato",
-      "subtipo": "arma",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 309,
-      "tags": [
-        "artefato",
-        "arma",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Espada pessoal de Lin-Wu, concedida temporariamente a heróis em missões impossíveis de honra.",
-      "properties": "Nas mãos de samurai ou shugenja, possui numerosos poderes mágicos; para outros, katana +1.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-orbe-dourado-das-quatro-direcoes",
-      "nome": "Orbe Dourado das Quatro Direções",
-      "categoria": "artefato",
-      "subtipo": "orbe",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 309,
-      "tags": [
-        "artefato",
-        "orbe",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Relíquia ancestral capaz de realizar um desejo equivalente a distorção da realidade, alterando o destino de uma das direções de Tamu-ra.",
-      "properties": "",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-o-yoroi-do-samurai-de-sangue",
-      "nome": "O-Yoroi do Samurai de Sangue",
-      "categoria": "artefato",
-      "subtipo": "armadura",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 310,
-      "tags": [
-        "artefato",
-        "armadura",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Armadura divina que surge em batalhas desesperadas para proteger um herói escolhido.",
-      "properties": "O-yoroi +5 com múltiplos poderes defensivos; imune a dano enquanto age de forma autônoma.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-sasori-ken-a-espada-escorpiao",
-      "nome": "Sasori'Ken, a Espada-Escorpião",
-      "categoria": "artefato",
-      "subtipo": "arma",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 310,
-      "tags": [
-        "artefato",
-        "arma",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Ninja-to lendária responsável por uma guerra entre clãs ninjas. Revela seu verdadeiro poder apenas nas mãos de um ninja.",
-      "properties": "Ninja-to +5 ameaçadora, sanguinária e sórdida quando empunhada por ninja.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-a-ultima-flecha",
-      "nome": "A Última Flecha",
-      "categoria": "artefato",
-      "subtipo": "municao",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 311,
-      "tags": [
-        "artefato",
-        "municao",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Flecha divina recuperada da Batalha dos Deuses. Retorna à aljava após ser disparada e é especialmente mortal contra akumushi.",
-      "properties": "Flecha caçadora mortal +5.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
-      "efeitos": [],
-      "consumable": {
-        "enabled": false,
-        "amountPerUse": 1,
-        "label": "Usar"
-      },
-      "defenses": {
-        "resistances": "",
-        "immunities": ""
-      },
-      "resources": []
-    },
-    {
-      "id": "imperio-de-jade-wakizashi-da-morte",
-      "nome": "Wakizashi da Morte",
-      "categoria": "artefato",
-      "subtipo": "arma",
-      "peso": 0,
-      "preco": {
-        "valor": 0,
-        "moeda": ""
-      },
-      "sistema": "imperio-de-jade",
-      "fonte": "Império de Jade",
-      "pagina": 311,
-      "tags": [
-        "artefato",
-        "arma",
-        "imperio-de-jade",
-        "imperio de jade",
-        "magico",
-        "unico"
-      ],
-      "descricao": "Relíquia dos Executores Imperiais. Quem vê o próprio reflexo em sua lâmina contempla a forma de sua futura morte.",
-      "properties": "Wakizashi +1; altera destino e presságios do portador.",
-      "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "updatedAt": "2026-10-23T04:18:13.161Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -22771,5 +17974,5 @@
       "resources": []
     }
   ],
-  "updatedAt": "2026-10-23T04:09:12.522Z"
+  "updatedAt": "2026-10-23T04:18:13.161Z"
 }
