@@ -31080,7 +31080,6509 @@
         "immunities": ""
       },
       "resources": []
+    },
+    {
+      "id": "t20-jda-adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "subtipo": "simples - leve",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - leve",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Adaga",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-espada-curta",
+      "nome": "Espada curta",
+      "categoria": "arma",
+      "subtipo": "simples - leve",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - leve",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada curta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-foice",
+      "nome": "Foice",
+      "categoria": "arma",
+      "subtipo": "simples - leve",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - leve",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Foice",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "subtipo": "simples - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Clava",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "subtipo": "simples - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - uma mao",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "subtipo": "simples - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-bordao",
+      "nome": "Bordão",
+      "categoria": "arma",
+      "subtipo": "simples - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Bordão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6/1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-pique",
+      "nome": "Pique",
+      "categoria": "arma",
+      "subtipo": "simples - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Pique",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-tacape",
+      "nome": "Tacape",
+      "categoria": "arma",
+      "subtipo": "simples - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tacape",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subtipo": "simples - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Azagaia",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-besta-leve",
+      "nome": "Besta leve",
+      "categoria": "arma",
+      "subtipo": "simples - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta leve",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-funda",
+      "nome": "Funda",
+      "categoria": "arma",
+      "subtipo": "simples - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Funda",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-arco-curto",
+      "nome": "Arco curto",
+      "categoria": "arma",
+      "subtipo": "simples - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco curto",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subtipo": "marcial - leve",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - leve",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machadinha",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cimitarra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-espada-longa",
+      "nome": "Espada longa",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-florete",
+      "nome": "Florete",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Florete",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-machado-de-batalha",
+      "nome": "Machado de batalha",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de batalha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mangual",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-martelo-de-guerra",
+      "nome": "Martelo de guerra",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo de guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-picareta",
+      "nome": "Picareta",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Picareta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 4,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subtipo": "marcial - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - uma mao",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tridente",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alabarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte/perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-alfange",
+      "nome": "Alfange",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alfange",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-gadanho",
+      "nome": "Gadanho",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Gadanho",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 4,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-lanca-montada",
+      "nome": "Lança montada",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança montada",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-machado-de-guerra",
+      "nome": "Machado de guerra",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-marreta",
+      "nome": "Marreta",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Marreta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "3d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-montante",
+      "nome": "Montante",
+      "categoria": "arma",
+      "subtipo": "marcial - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Montante",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-arco-longo",
+      "nome": "Arco longo",
+      "categoria": "arma",
+      "subtipo": "marcial - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco longo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-besta-pesada",
+      "nome": "Besta pesada",
+      "categoria": "arma",
+      "subtipo": "marcial - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta pesada",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d12",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "subtipo": "exótica - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Chicote",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d3",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-espada-bastarda",
+      "nome": "Espada bastarda",
+      "categoria": "arma",
+      "subtipo": "exótica - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada bastarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10/1d12",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-katana",
+      "nome": "Katana",
+      "categoria": "arma",
+      "subtipo": "exótica - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Katana",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8/1d10",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-machado-anao",
+      "nome": "Machado anão",
+      "categoria": "arma",
+      "subtipo": "exótica - uma mão",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - uma mao",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado anão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-corrente-de-espinhos",
+      "nome": "Corrente de espinhos",
+      "categoria": "arma",
+      "subtipo": "exótica - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Corrente de espinhos",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4/2d4",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-machado-taurico",
+      "nome": "Machado táurico",
+      "categoria": "arma",
+      "subtipo": "exótica - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - duas maos",
+        "jogo do ano",
+        "corpo a corpo"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado táurico",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-rede",
+      "nome": "Rede",
+      "categoria": "arma",
+      "subtipo": "exótica - distância",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica - distancia",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": false,
+        "name": "Rede",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "",
+        "type": "",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-pistola",
+      "nome": "Pistola",
+      "categoria": "arma",
+      "subtipo": "arma de fogo - leve",
+      "peso": 0,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "arma de fogo - leve",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Pistola",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "2d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-mosquete",
+      "nome": "Mosquete",
+      "categoria": "arma",
+      "subtipo": "arma de fogo - duas mãos",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "arma de fogo - duas maos",
+        "jogo do ano",
+        "distancia"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mosquete",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "2d8",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-jda-balas-20",
+      "nome": "Balas (20)",
+      "categoria": "municao",
+      "subtipo": "arma de fogo",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "arma de fogo",
+        "jogo do ano"
+      ],
+      "descricao": "Pacote de munição de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "flechas",
+        "jogo do ano"
+      ],
+      "descricao": "Pacote de munição de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-pedras-20",
+      "nome": "Pedras (20)",
+      "categoria": "municao",
+      "subtipo": "funda",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "funda",
+        "jogo do ano"
+      ],
+      "descricao": "Pacote de munição de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "virotes",
+        "jogo do ano"
+      ],
+      "descricao": "Pacote de munição de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-armadura-acolchoada",
+      "nome": "Armadura acolchoada",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "leve",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-armadura-acolchoada-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 1,
+          "text": "+1 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +1; penalidade de armadura 0",
+      "armor": {
+        "defenseBonus": 1,
+        "armorPenalty": 0,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-jda-armadura-de-couro",
+      "nome": "Armadura de couro",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "leve",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-armadura-de-couro-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 2,
+          "text": "+2 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +2; penalidade de armadura 0",
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": 0,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-jda-couro-batido",
+      "nome": "Couro batido",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "leve",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-couro-batido-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 3,
+          "text": "+3 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +3; penalidade de armadura -1",
+      "armor": {
+        "defenseBonus": 3,
+        "armorPenalty": -1,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-jda-gibao-de-peles",
+      "nome": "Gibão de peles",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "leve",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-gibao-de-peles-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "+4 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +4; penalidade de armadura -3",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -3,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-jda-couraca",
+      "nome": "Couraça",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "leve",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-couraca-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 5,
+          "text": "+5 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +5; penalidade de armadura -4",
+      "armor": {
+        "defenseBonus": 5,
+        "armorPenalty": -4,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-jda-brunea",
+      "nome": "Brunea",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "pesada",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-brunea-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 5,
+          "text": "+5 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 5; Defesa +5; penalidade de armadura -2",
+      "armor": {
+        "defenseBonus": 5,
+        "armorPenalty": -2,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-jda-cota-de-malha",
+      "nome": "Cota de malha",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "pesada",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-cota-de-malha-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 6,
+          "text": "+6 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 5; Defesa +6; penalidade de armadura -2",
+      "armor": {
+        "defenseBonus": 6,
+        "armorPenalty": -2,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-jda-loriga-segmentada",
+      "nome": "Loriga segmentada",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 0,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "pesada",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-loriga-segmentada-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 7,
+          "text": "+7 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 5; Defesa +7; penalidade de armadura -3",
+      "armor": {
+        "defenseBonus": 7,
+        "armorPenalty": -3,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-jda-meia-armadura",
+      "nome": "Meia armadura",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "pesada",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-meia-armadura-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 8,
+          "text": "+8 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 5; Defesa +8; penalidade de armadura -4",
+      "armor": {
+        "defenseBonus": 8,
+        "armorPenalty": -4,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-jda-armadura-completa",
+      "nome": "Armadura completa",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "armadura",
+        "pesada",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-armadura-completa-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 10,
+          "text": "+10 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 5; Defesa +10; penalidade de armadura -5",
+      "armor": {
+        "defenseBonus": 10,
+        "armorPenalty": -5,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-jda-escudo-leve",
+      "nome": "Escudo leve",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "escudo",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-escudo-leve-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 1,
+          "text": "+1 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1; Defesa +1; penalidade de armadura -1",
+      "armor": {
+        "defenseBonus": 1,
+        "armorPenalty": -1,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-jda-escudo-pesado",
+      "nome": "Escudo pesado",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "escudo",
+        "jogo do ano"
+      ],
+      "descricao": "Versão de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-escudo-pesado-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 2,
+          "text": "+2 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +2; penalidade de armadura -2",
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-jda-agua-benta",
+      "nome": "Água benta",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Água benta, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-algemas",
+      "nome": "Algemas",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Algemas, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-arpeu",
+      "nome": "Arpéu",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Arpéu, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-bandoleira-de-pocoes",
+      "nome": "Bandoleira de poções",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Bandoleira de poções, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-barraca",
+      "nome": "Barraca",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Barraca, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-corda",
+      "nome": "Corda",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Corda, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-espelho",
+      "nome": "Espelho",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Espelho, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-lampiao",
+      "nome": "Lampião",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 7,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Lampião, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-mochila",
+      "nome": "Mochila",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Mochila, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-mochila-de-aventureiro",
+      "nome": "Mochila de aventureiro",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Mochila de aventureiro, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-oleo",
+      "nome": "Óleo",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Óleo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-organizador-de-pergaminhos",
+      "nome": "Organizador de pergaminhos",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Organizador de pergaminhos, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Pé de cabra, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Saco de dormir, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-simbolo-sagrado",
+      "nome": "Símbolo sagrado",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Símbolo sagrado, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tocha",
+      "nome": "Tocha",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Tocha, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-vara-de-madeira-3m",
+      "nome": "Vara de madeira (3m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Vara de madeira (3m), item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-alaude-elfico",
+      "nome": "Alaúde élfico",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Alaúde élfico, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-colecao-de-livros",
+      "nome": "Coleção de livros",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Coleção de livros, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-equipamento-de-viagem",
+      "nome": "Equipamento de viagem",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Equipamento de viagem, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-estojo-de-disfarces",
+      "nome": "Estojo de disfarces",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Estojo de disfarces, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-flauta-mistica",
+      "nome": "Flauta mística",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Flauta mística, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-gazua",
+      "nome": "Gazua",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Gazua, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-instrumentos-de-oficio",
+      "nome": "Instrumentos de <ofício>",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Instrumentos de <ofício>, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Instrumento musical, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luneta",
+      "nome": "Luneta",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Luneta, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-maleta-de-medicamentos",
+      "nome": "Maleta de medicamentos",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Maleta de medicamentos, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-sela",
+      "nome": "Sela",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Sela, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tambor-das-profundezas",
+      "nome": "Tambor das profundezas",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 80,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Tambor das profundezas, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-andrajos-de-aldeao",
+      "nome": "Andrajos de aldeão",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Andrajos de aldeão, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-bandana",
+      "nome": "Bandana",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Bandana, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-botas-reforcadas",
+      "nome": "Botas reforçadas",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Botas reforçadas, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-camisa-bufante",
+      "nome": "Camisa bufante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Camisa bufante, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-capa-esvoacante",
+      "nome": "Capa esvoaçante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Capa esvoaçante, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-capa-pesada",
+      "nome": "Capa pesada",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Capa pesada, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-casaco-longo",
+      "nome": "Casaco longo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Casaco longo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-chapeu-arcano",
+      "nome": "Chapéu arcano",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Chapéu arcano, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-enfeite-de-elmo",
+      "nome": "Enfeite de elmo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Enfeite de elmo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-farrapos-de-ermitao",
+      "nome": "Farrapos de ermitão",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Farrapos de ermitão, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-gorro-de-ervas",
+      "nome": "Gorro de ervas",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Gorro de ervas, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luva-de-pelica",
+      "nome": "Luva de pelica",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Luva de pelica, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manopla",
+      "nome": "Manopla",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manopla, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manto-camuflado",
+      "nome": "Manto camuflado",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manto camuflado, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manto-eclesiastico",
+      "nome": "Manto eclesiástico",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manto eclesiástico, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-robe-mistico",
+      "nome": "Robe místico",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Robe místico, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-sapatos-de-camurca",
+      "nome": "Sapatos de camurça",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Sapatos de camurça, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tabardo",
+      "nome": "Tabardo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Tabardo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-traje-da-corte",
+      "nome": "Traje da corte",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Traje da corte, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-traje-de-viajante",
+      "nome": "Traje de viajante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Traje de viajante, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-veste-de-seda",
+      "nome": "Veste de seda",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Veste de seda, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-bolsa-de-po",
+      "nome": "Bolsa de pó",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Bolsa de pó, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-cajado-arcano",
+      "nome": "Cajado arcano",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Cajado arcano, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2"
+    },
+    {
+      "id": "t20-jda-cetro-elemental",
+      "nome": "Cetro elemental",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Cetro elemental, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-costela-de-lich",
+      "nome": "Costela de lich",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Costela de lich, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-dedo-de-ente",
+      "nome": "Dedo de ente",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Dedo de ente, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luva-de-ferro",
+      "nome": "Luva de ferro",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Luva de ferro, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-medalhao-de-prata",
+      "nome": "Medalhão de prata",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Medalhão de prata, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-orbe-cristalina",
+      "nome": "Orbe cristalina",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Orbe cristalina, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tomo-hermetico",
+      "nome": "Tomo hermético",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Tomo hermético, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-varinha-arcana",
+      "nome": "Varinha arcana",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Varinha arcana, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-acido",
+      "nome": "Ácido",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Ácido, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Bálsamo restaurador, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-bomba",
+      "nome": "Bomba",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Bomba, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-cosmetico",
+      "nome": "Cosmético",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Cosmético, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-elixir-do-amor",
+      "nome": "Elixir do amor",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Elixir do amor, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-de-mana",
+      "nome": "Essência de mana",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Essência de mana, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-fogo-alquimico",
+      "nome": "Fogo alquímico",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Fogo alquímico, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-do-desaparecimento",
+      "nome": "Pó do desaparecimento",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Pó do desaparecimento, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-baga-de-fogo",
+      "nome": "Baga-de-fogo",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Baga-de-fogo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-dente-de-dragao",
+      "nome": "Dente-de-dragão",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Dente-de-dragão, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-abissal",
+      "nome": "Essência abissal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Essência abissal, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-liquen-lilas",
+      "nome": "Líquen lilás",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Líquen lilás, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-musgo-purpura",
+      "nome": "Musgo púrpura",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Musgo púrpura, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-ossos-de-monstro",
+      "nome": "Ossos de monstro",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Ossos de monstro, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-cristal",
+      "nome": "Pó de cristal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pó de cristal, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-giz",
+      "nome": "Pó de giz",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pó de giz, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-ramo-verdejante",
+      "nome": "Ramo verdejante",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Ramo verdejante, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-saco-de-sal",
+      "nome": "Saco de sal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Saco de sal, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-seixo-de-ambar",
+      "nome": "Seixo de âmbar",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Seixo de âmbar, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-terra-de-cemiterio",
+      "nome": "Terra de cemitério",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Terra de cemitério, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-beladona",
+      "nome": "Beladona",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Beladona, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-bruma-sonolenta",
+      "nome": "Bruma sonolenta",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Bruma sonolenta, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-cicuta",
+      "nome": "Cicuta",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Cicuta, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-de-sombra",
+      "nome": "Essência de sombra",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Essência de sombra, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-nevoa-toxica",
+      "nome": "Névoa tóxica",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Névoa tóxica, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-comum",
+      "nome": "Peçonha comum",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Peçonha comum, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-concentrada",
+      "nome": "Peçonha concentrada",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Peçonha concentrada, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-potente",
+      "nome": "Peçonha potente",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Peçonha potente, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-lich",
+      "nome": "Pó de lich",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Pó de lich, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-riso-de-nimb",
+      "nome": "Riso de Nimb",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Riso de Nimb, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-batata-valkariana",
+      "nome": "Batata valkariana",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Batata valkariana, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-gorad-quente",
+      "nome": "Gorad quente",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Gorad quente, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-macarrao-de-yuvalin",
+      "nome": "Macarrão de Yuvalin",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Macarrão de Yuvalin, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-prato-do-aventureiro",
+      "nome": "Prato do aventureiro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Prato do aventureiro, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-racao-de-viagem-por-dia",
+      "nome": "Ração de viagem (por dia)",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Ração de viagem (por dia), item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-refeicao-comum",
+      "nome": "Refeição comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Refeição comum, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-sopa-de-peixe",
+      "nome": "Sopa de peixe",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Sopa de peixe, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-alforje",
+      "nome": "Alforje",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Alforje, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cao-de-caca",
+      "nome": "Cão de caça",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Cão de caça, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cavalo",
+      "nome": "Cavalo",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Cavalo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Cavalo de guerra, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-ponei",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Pônei, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-ponei-de-guerra",
+      "nome": "Pônei de guerra",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Pônei de guerra, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-trobo",
+      "nome": "Trobo",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Trobo, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-balao-goblin",
+      "nome": "Balão goblin",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Balão goblin, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Carroça, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-carruagem",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Carruagem, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-canoa",
+      "nome": "Canoa",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 70,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Canoa, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-veleiro",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Veleiro, item de Tormenta20 Jogo do Ano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:34:07.933Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
     }
   ],
-  "updatedAt": "2026-10-23T04:30:18.304Z"
+  "updatedAt": "2026-10-23T04:34:07.933Z"
 }
