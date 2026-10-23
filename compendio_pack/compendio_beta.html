@@ -25,7 +25,7 @@
     <div class="toolbar">
       <div class="field"><label>Buscar</label><input id="search" type="search" placeholder="nome, descrição, tag..."></div>
       <div class="field"><label>Categoria</label><select id="category"><option value="">Todas</option></select></div>
-      <div class="field"><label>Fonte</label><select id="source"><option value="">Todas</option></select></div>
+      <div class="field"><label>Sistema</label><select id="source"><option value="">Todos os sistemas</option></select></div>
       <button id="newBtn" class="btn primary admin-only">+ Novo item</button>
     </div>
     <div class="summary"><span id="count">0 itens</span><span id="sync" class="sync">Carregando…</span></div>
@@ -625,4 +625,117 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   letter-spacing:.015em;
 }
 </style>
+
+
+
+<script id="compendio-v5-3-live-filters">
+(() => {
+  const canon = value => String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+
+  // O antigo select "source" é mantido pelo ID para não quebrar código legado,
+  // mas a partir daqui representa Sistema.
+  window.refreshFilters = function(){
+    const category = document.getElementById("category");
+    const system = document.getElementById("source");
+    if(!category || !system) return;
+
+    const categoriaAtual = canon(category.value);
+    const sistemaAtual = canon(system.value);
+
+    const categorias = [...new Set(
+      (items || [])
+        .map(i => canon(i?.categoria))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const sistemas = [...new Set(
+      (items || [])
+        .map(i => canon(i?.sistema || i?.system))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    category.innerHTML =
+      '<option value="">Todas as categorias</option>' +
+      categorias.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    system.innerHTML =
+      '<option value="">Todos os sistemas</option>' +
+      sistemas.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    if(categorias.includes(categoriaAtual)) category.value = categoriaAtual;
+    if(sistemas.includes(sistemaAtual)) system.value = sistemaAtual;
+  };
+
+  window.filtered = function(){
+    const q = canon(document.getElementById("search")?.value || "");
+    const c = canon(document.getElementById("category")?.value || "");
+    const s = canon(document.getElementById("source")?.value || "");
+
+    return (items || []).filter(raw => {
+      const categoria = canon(raw?.categoria);
+      const sistema = canon(raw?.sistema || raw?.system);
+
+      if(c && categoria !== c) return false;
+      if(s && sistema !== s) return false;
+
+      // busca pode ficar vazia: nesse caso categoria/sistema funcionam sozinhos
+      if(!q) return true;
+
+      const haystack = [
+        raw?.nome,
+        raw?.categoria,
+        raw?.subtipo,
+        raw?.sistema,
+        raw?.system,
+        raw?.fonte,
+        raw?.descricao,
+        ...(Array.isArray(raw?.tags) ? raw.tags : [])
+      ].map(canon).join(" ");
+
+      return haystack.includes(q);
+    });
+  };
+
+  function atualizarEmTempoReal(){
+    // window.render já foi envelopado pelo layout V5 e atualiza
+    // tanto a estrutura antiga quanto lista/preview da biblioteca.
+    if(typeof window.render === "function") window.render();
+  }
+
+  function ligarFiltros(){
+    const search = document.getElementById("search");
+    const category = document.getElementById("category");
+    const system = document.getElementById("source");
+
+    if(search && search.dataset.liveFilterV53 !== "1"){
+      search.dataset.liveFilterV53 = "1";
+      search.addEventListener("input", atualizarEmTempoReal);
+      search.addEventListener("search", atualizarEmTempoReal);
+    }
+
+    if(category && category.dataset.liveFilterV53 !== "1"){
+      category.dataset.liveFilterV53 = "1";
+      category.addEventListener("change", atualizarEmTempoReal);
+    }
+
+    if(system && system.dataset.liveFilterV53 !== "1"){
+      system.dataset.liveFilterV53 = "1";
+      system.addEventListener("change", atualizarEmTempoReal);
+    }
+
+    refreshFilters();
+    atualizarEmTempoReal();
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", ligarFiltros, {once:true});
+  }else{
+    ligarFiltros();
+  }
+})();
+</script>
 
