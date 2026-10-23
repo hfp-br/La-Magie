@@ -12788,7 +12788,7 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d4 de Perfuração. Crítico 19–20. Alcance 3m.",
+      "descricao": "Faca afiada fácil de ocultar, comum entre ladrões e assassinos. Concede +4 em testes de Ladinagem para escondê-la e também pode ser arremessada.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -12898,7 +12898,7 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d4 de Esmagamento. Crítico x2.",
+      "descricao": "Luva metálica que protege a mão e fortalece os socos. Um par acompanha a armadura completa; o usuário não pode ser desarmado enquanto ataca com ela.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -13173,7 +13173,7 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x2. Propriedades: haste.",
+      "descricao": "Lança excepcionalmente longa, usada para manter os inimigos à distância. Como arma de haste, alcança adversários a até 3m, mas não os adjacentes.",
       "properties": "haste",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -13338,7 +13338,7 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 2d6 de Especial. Crítico x2. Alcance 3m. Propriedades: frasco sagrado.",
+      "descricao": "Frasco de água consagrada por clérigos, nociva a mortos-vivos e espíritos malignos, mas inofensiva às demais criaturas. É arremessado em um ataque à distância resistido por Reflexos: causa 2d6 de dano se acertar ou metade se errar.",
       "properties": "frasco sagrado",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -13448,7 +13448,7 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Perfuração. Crítico x2. Alcance 9m. Propriedades: arremesso.",
+      "descricao": "Lança leve e flexível própria para arremesso. Também pode ser usada em combate corpo a corpo, mas nesse caso sofre –4 no ataque.",
       "properties": "arremesso",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -13722,7 +13722,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Escudo leve, equipamento do Tormenta RPG. CA +1; Penalidade de armadura: -1.",
+      "descricao": "Escudo de madeira preso ao antebraço que deixa a mão disponível para carregar um objeto, mas não para manejar uma arma. Pode ser usado para atacar; nesse caso, perde seu bônus de CA até o próximo turno.",
       "properties": "CA +1; Penalidade de armadura: -1",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -13931,7 +13931,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Escudo pesado, equipamento do Tormenta RPG. CA +2; Penalidade de armadura: -2.",
+      "descricao": "Escudo de aço preso ao antebraço e segurado firmemente, ocupando a mão correspondente. Pode ser usado para atacar, mas perde seu bônus de CA até o próximo turno.",
       "properties": "CA +2; Penalidade de armadura: -2",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -14031,7 +14031,7 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d6 de Perfuração. Crítico 18–20.",
+      "descricao": "Espada de lâmina fina e leve, projetada para estocadas precisas. Pode ser utilizada com o talento Acuidade com Arma.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -14361,7 +14361,7 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d10 de Corte. Crítico x3. Propriedades: haste.",
+      "descricao": "Arma de haste com cerca de 2m e lâmina de machado na ponta. Permite atacar inimigos a até 3m, mas não pode atingir oponentes adjacentes.",
       "properties": "haste",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -14746,7 +14746,7 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x3. Alcance 24m. Propriedades: duas mãos.",
+      "descricao": "Arco reforçado, aproximadamente da altura de uma pessoa, próprio para campos de batalha e áreas abertas. Seu alcance elevado exige o uso das duas mãos.",
       "properties": "duas mãos",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -15790,7 +15790,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura acolchoada, equipamento do Tormenta RPG. CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0.",
+      "descricao": "Armadura formada por várias camadas sobrepostas de tecido. É a opção mais leve e também a que oferece menos proteção.",
       "properties": "CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -15878,7 +15878,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Couro batido, equipamento do Tormenta RPG. CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1.",
+      "descricao": "Armadura de couro rígido e reforçado com rebites de metal, mais pesada que um corselete comum.",
       "properties": "CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -15922,7 +15922,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Camisa de cota de malha, equipamento do Tormenta RPG. CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2.",
+      "descricao": "Versão leve da cota de malha, feita de anéis metálicos entrelaçados e destinada a proteger principalmente o torso.",
       "properties": "CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -15966,7 +15966,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Gibão de peles, equipamento do Tormenta RPG. CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2.",
+      "descricao": "Armadura rústica confeccionada com várias camadas de peles e couro animal, especialmente comum entre bárbaros e povos selvagens.",
       "properties": "CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16010,7 +16010,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Brunea, equipamento do Tormenta RPG. CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3.",
+      "descricao": "Colete de couro revestido com placas metálicas sobrepostas, lembrando as escamas de um peixe.",
       "properties": "CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16054,7 +16054,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Cota de malha, equipamento do Tormenta RPG. CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3.",
+      "descricao": "Veste comprida de anéis de metal interligados que formam uma proteção flexível, estendendo-se até os joelhos.",
       "properties": "CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16098,7 +16098,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Couraça, equipamento do Tormenta RPG. CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4.",
+      "descricao": "Peitoral de aço que protege o peito e as costas. Muito utilizado por nobres e oficiais militares.",
       "properties": "CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16142,7 +16142,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Cota de talas, equipamento do Tormenta RPG. CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4.",
+      "descricao": "Armadura de talas metálicas costuradas sobre couro, tradicional entre samurais, mas também encontrada no Reinado.",
       "properties": "CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16186,7 +16186,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Loriga segmentada, equipamento do Tormenta RPG. CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5.",
+      "descricao": "Armadura pesada composta de faixas horizontais de metal, tradicional entre os legionários do Império de Tauron.",
       "properties": "CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
@@ -16230,7 +16230,7 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Meia-armadura, equipamento do Tormenta RPG. CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4.",
+      "descricao": "Armadura que combina uma cota de malha com placas metálicas posicionadas sobre as partes vitais.",
       "properties": "CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:53:06.088Z",
