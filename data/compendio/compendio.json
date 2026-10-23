@@ -16317,10 +16317,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Par de algemas para aprisionar uma criatura Média. Uma criatura presa pode escapar com Acrobacia CD 30 ou Força CD 26.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16352,10 +16352,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16388,10 +16388,10 @@
         "tormenta rpg - modulo basico",
         "equipamento"
       ],
-      "descricao": "",
+      "descricao": "Frasco de cerâmica com uma pasta verde e fedorenta de ervas medicinais. Aplicá-la em um ferimento exige uma ação completa e recupera 2d4 PV.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -16423,10 +16423,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Rolo de 15m de corda de cânhamo. Nós comuns exigem Destreza CD 10, nós especiais CD 12 e arrebentá-la exige Força CD 23.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16458,10 +16458,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Espelho de metal polido útil para observar cantos, refletir sinais de luz e ajudar na preparação de disfarces.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16493,10 +16493,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Conjunto de ferramentas específico para uma perícia de Ofício, como carpintaria ou joalheria. Sem as ferramentas adequadas, o personagem sofre –4 nos testes do Ofício.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16528,10 +16528,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Conjunto com o básico para exploração: mochila, saco de dormir, corda, pederneira, duas tochas, odre, uma semana de ração e traje de explorador.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16563,10 +16563,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Estojo com cosméticos, tinta para cabelo e próteses simples. Sem o kit, o personagem sofre –4 em Enganação para criar disfarces.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16598,10 +16598,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Estojo com gazuas, arames e pequenas ferramentas para abrir fechaduras e operar mecanismos. Sem o kit, sofre –4 em Ladinagem para essas tarefas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16633,10 +16633,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Pequena caixa com ervas, unguentos, bandagens e suprimentos médicos. Sem o kit, o personagem sofre –4 em testes de Cura.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16668,10 +16668,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Instrumento típico, como flauta ou bandolim, muito utilizado por bardos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16703,10 +16703,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Cilindro com alça e portinholas que abriga uma chama alimentada por óleo. Ilumina até 9m; uma carga de óleo dura 6 horas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16738,10 +16738,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Bolsa reforçada de couro com bolsos e tiras para ser carregada nas costas e prender equipamentos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16773,10 +16773,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Bolsa de couro para guardar líquidos, geralmente água ou vinho. O modelo mais comum comporta 1 litro.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16808,10 +16808,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Barra de ferro para forçar portas e baús. Fornece +4 em testes de Força para abri-los e pode ser usada como uma clava.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16843,10 +16843,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna com ela exige uma ação de rodada completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16878,10 +16878,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Pena preparada para escrita.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16913,10 +16913,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Pedaço de pele de cabra ou ovelha preparado para escrita.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16949,10 +16949,10 @@
         "tormenta rpg - modulo basico",
         "equipamento"
       ],
-      "descricao": "",
+      "descricao": "Porção de alimentos conservados suficiente para alimentar uma pessoa por um dia. Dura até uma semana seca, mas estraga em 24 horas se molhar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -16984,10 +16984,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Colchão e coberta fina que podem ser enrolados e amarrados, úteis para descansar durante viagens e explorações.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17019,10 +17019,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Saco de tecido resistente fechado por uma corda, com capacidade para até 20 kg.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17054,10 +17054,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Frasco de 30 ml de tinta fresca preta; outras cores custam o dobro.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17089,10 +17089,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Bastão com material combustível na ponta. Queima por uma hora e ilumina até 6m; em combate, funciona como arma simples e acrescenta 1 ponto de dano de fogo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -17124,10 +17124,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. Tem várias utilidades, mas é frágil demais para servir como arma.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17159,10 +17159,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Roupas luxuosas feitas sob medida para nobreza e realeza, incluindo algumas joias.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17194,10 +17194,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Roupa resistente para aventureiros, com botas, peças de couro, cinto, camisa de linho e capa com capuz.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17229,10 +17229,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "",
+      "descricao": "Roupas simples de aldeão, como camisa larga e calças soltas ou saia e vestido; normalmente não incluem calçados.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17265,10 +17265,10 @@
         "tormenta rpg - modulo basico",
         "equipamento"
       ],
-      "descricao": "",
+      "descricao": "Porção comum de bebida servida em tavernas e estalagens.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -17301,10 +17301,10 @@
         "tormenta rpg - modulo basico",
         "equipamento"
       ],
-      "descricao": "",
+      "descricao": "Refeição comum servida em tavernas e estalagens.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -20098,10 +20098,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Munição apresentada no Arsenal dos Heróis.",
+      "descricao": "Caixa com 20 virotes usados como munição para bestas, incluindo as novas bestas apresentadas no Arsenal dos Heróis.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -20133,10 +20133,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Munição apresentada no Arsenal dos Heróis.",
+      "descricao": "Aljava com 20 flechas usadas como munição para arcos, incluindo os arcos especiais apresentados no Arsenal dos Heróis.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -20168,10 +20168,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Munição apresentada no Arsenal dos Heróis.",
+      "descricao": "Pacote com 20 balas e pólvora para armas de fogo do Arsenal dos Heróis.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -20203,10 +20203,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Munição apresentada no Arsenal dos Heróis.",
+      "descricao": "Projétil pesado de ferro usado como munição para o canhão portátil.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:41.970Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -37584,5 +37584,5 @@
       "properties": ""
     }
   ],
-  "updatedAt": "2026-10-23T04:53:06.088Z"
+  "updatedAt": "2026-10-23T04:53:41.970Z"
 }
