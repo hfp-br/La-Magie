@@ -354,7 +354,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     list.innerHTML="";
     arr.forEach(item=>{
       const row=document.createElement("button");row.type="button";row.className=`comp-item-row ${item.id===selectedCompendiumId?"active":""}`;
-      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
+      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}${(item.sistema||item.system)?`<span class="comp-item-system">• ${escV5(item.sistema||item.system)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
       row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5()});list.appendChild(row);
     });
     renderPreviewV5(arr.find(i=>i.id===selectedCompendiumId)||arr[0]);
@@ -615,4 +615,14 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   });
 })();
 </script>
+
+
+
+<style id="compendio-v5-2-system-card-css">
+.comp-item-system{
+  color:#7a463e!important;
+  font-weight:800!important;
+  letter-spacing:.015em;
+}
+</style>
 
