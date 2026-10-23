@@ -3567,53 +3567,6 @@ body.editing
   pointer-events: auto !important;
 }
 
-/* ==========================================================
-   TOOLTIP FIXADO POR CLIQUE
-   - Fica sempre acima de qualquer outro painel/seção.
-   - Enquanto existir um tooltip fixado, os tooltips de hover/foco
-     dos outros gatilhos ficam escondidos (senão dois painéis
-     centralizados se sobrepõem e o empilhamento "briga").
-   ========================================================== */
-.section:has(.tooltip-open),
-.vital:has(.tooltip-open),
-.combat-header:has(.tooltip-open),
-.combat-chip:has(.tooltip-open),
-.attribute:has(.tooltip-open),
-.skill:has(.tooltip-open) {
-  z-index: 100020 !important;
-}
-
-body.has-pinned-tooltip :is(.hp-tooltip, .attribute-score-tooltip, .skill-tooltip, .ac-tooltip):not(.tooltip-open *) {
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
-
-/* #combatHPMaxTooltip usa regras com ID + !important; o seletor repetido aumenta a especificidade. */
-body.has-pinned-tooltip.has-pinned-tooltip.has-pinned-tooltip #combatHPMaxTooltip:not(.tooltip-open *) {
-  opacity: 0 !important;
-  visibility: hidden !important;
-  pointer-events: none !important;
-}
-
-/* ==========================================================
-   CAUSA RAIZ DO TOOLTIP "ATRÁS" DAS OUTRAS SEÇÕES (aba Ficha)
-   Cada seção filha de #normal tinha position:relative + z-index:1,
-   ou seja, virava um contexto de empilhamento próprio. O tooltip
-   (position:fixed, z-index alto) ficava preso dentro da seção dele
-   e as seções seguintes (Atributos, Perícias…) eram pintadas por cima.
-   Sem z-index nas seções, o tooltip concorre direto no #normal e
-   fica sempre na frente, sem depender de :has() nem de JS.
-   A imagem de fundo passa a z-index:-1 (o #normal já é isolado).
-   ========================================================== */
-#normal > :not(.ficha-background) {
-  z-index: auto !important;
-}
-
-#normal > .ficha-background {
-  z-index: -1 !important;
-}
-
 /* CA continua centralizada em qualquer tamanho de tela. */
 .ac-tooltip {
   background: #2b2017 !important;
@@ -3765,6 +3718,167 @@ body.has-pinned-tooltip.has-pinned-tooltip.has-pinned-tooltip #combatHPMaxToolti
   }
 }
 
+
+
+/* ============================================================
+   BETA — INVENTÁRIO + COMPÊNDIO
+   ============================================================ */
+.beta-compendium-badge{
+  display:inline-flex;align-items:center;gap:6px;margin-left:8px;padding:3px 7px;
+  border:1px solid rgba(169,119,53,.35);border-radius:999px;background:rgba(169,119,53,.10);
+  color:var(--sand-5);font-size:10px;font-weight:700;vertical-align:middle
+}
+.inventory-header{gap:8px;align-items:center;flex-wrap:wrap}
+.compendium-button{padding:5px 10px!important;font-size:12px!important}
+.inventory-view.inventory-rich{display:block;padding:10px 0}
+.inventory-rich-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.inventory-rich-main{min-width:0;flex:1}
+.inventory-rich-name{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.inventory-rich-description{margin-top:4px;color:var(--muted);font-size:12px;white-space:pre-wrap}
+.inventory-effects{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.inventory-effect-chip{padding:3px 6px;border:1px solid rgba(112,82,51,.22);border-radius:999px;background:rgba(255,255,255,.18);font-size:10px;color:var(--ink)}
+.inventory-effect-chip.conditional{border-style:dashed;color:var(--muted)}
+.inventory-toggle{min-width:58px;border:1px solid var(--sand-3);border-radius:999px;padding:5px 9px;background:rgba(255,255,255,.25);color:var(--muted);font-size:11px;font-weight:700}
+.inventory-toggle.active{background:rgba(85,105,70,.18);border-color:rgba(85,105,70,.48);color:#38502f}
+.inventory-toggle:disabled{opacity:.55;cursor:not-allowed}
+.compendium-overlay{position:fixed;inset:0;z-index:120000;display:none;background:rgba(35,24,14,.62);backdrop-filter:blur(3px)}
+.compendium-overlay.show{display:block}
+.compendium-modal{position:fixed;z-index:120001;left:50%;top:50%;transform:translate(-50%,-50%);display:none;width:min(860px,calc(100vw - 24px));max-height:82vh;overflow:hidden;border:1px solid rgba(79,52,28,.45);border-radius:14px;background:var(--sand-0);box-shadow:0 24px 70px rgba(40,25,10,.42)}
+.compendium-modal.show{display:flex;flex-direction:column}
+.compendium-modal-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid rgba(112,82,51,.25)}
+.compendium-modal-head h3{margin:0}
+.compendium-modal-tools{display:grid;grid-template-columns:1fr 180px;gap:8px;padding:12px 16px;border-bottom:1px solid rgba(112,82,51,.18)}
+.compendium-modal-tools input,.compendium-modal-tools select{width:100%}
+.compendium-results{overflow:auto;padding:12px 16px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.compendium-result{padding:11px;border:1px solid rgba(112,82,51,.25);border-radius:10px;background:rgba(255,255,255,.30)}
+.compendium-result h4{margin:0 0 4px}
+.compendium-result-meta{font-size:11px;color:var(--muted);margin-bottom:6px}
+.compendium-result-desc{font-size:12px;line-height:1.4;color:var(--ink);margin-bottom:8px}
+.compendium-result-foot{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.compendium-empty{grid-column:1/-1;padding:28px;text-align:center;color:var(--muted)}
+@media(max-width:650px){.compendium-results{grid-template-columns:1fr}.compendium-modal-tools{grid-template-columns:1fr}.inventory-rich-top{align-items:center}}
+
+
+/* BETA — vínculo de efeito condicional com Modificadores de combate */
+.inventory-condition-link{display:inline-flex;align-items:center;gap:6px;margin-left:6px;vertical-align:middle;font-size:11px;color:var(--muted)}
+.inventory-condition-link>span{font-weight:700}
+.inventory-condition-link select{width:auto;max-width:210px;padding:4px 7px;border:1px solid var(--sand-3);border-radius:7px;background:rgba(255,255,255,.42);color:inherit;font-size:11px}
+.inventory-effect-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+
+
+
+/* ============================================================
+   BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
+   ============================================================ */
+.inventory-more{
+    width:34px;
+    height:32px;
+    display:inline-grid;
+    place-items:center;
+    border:1px solid var(--sand-3);
+    border-radius:8px;
+    background:rgba(255,255,255,.22);
+    color:var(--muted);
+    font-size:18px;
+    line-height:1;
+    font-weight:800;
+}
+.inventory-more:hover{background:rgba(255,255,255,.42);color:var(--ink)}
+.inventory-detail-modal{
+    position:fixed;
+    z-index:120101;
+    left:50%;
+    top:50%;
+    width:min(720px,calc(100vw - 24px));
+    max-height:min(88vh,820px);
+    overflow:auto;
+    display:none;
+    transform:translate(-50%,-50%);
+    border:1px solid var(--sand-4);
+    border-radius:14px;
+    background:var(--sand-0);
+    box-shadow:0 24px 70px rgba(35,24,14,.42);
+}
+.inventory-detail-modal.show{display:block}
+.inventory-detail-head{
+    position:sticky;
+    top:0;
+    z-index:3;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:14px 16px;
+    border-bottom:1px solid var(--sand-3);
+    background:rgba(246,237,215,.97);
+}
+.inventory-detail-head h3{margin:0;font-size:20px}
+.inventory-detail-body{padding:16px}
+.inventory-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.inventory-detail-grid .wide{grid-column:1/-1}
+.inventory-detail-field{display:grid;gap:5px}
+.inventory-detail-field label,.inventory-detail-label{
+    color:var(--muted);
+    font-size:10px;
+    font-weight:800;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+}
+.inventory-detail-field input,
+.inventory-detail-field select,
+.inventory-detail-field textarea,
+.inventory-detail-effect input,
+.inventory-detail-effect select{
+    width:100%;
+    padding:8px 9px;
+    border:1px solid var(--sand-3);
+    border-radius:8px;
+    background:rgba(255,255,255,.42);
+    color:var(--ink);
+}
+.inventory-detail-field textarea{min-height:92px;resize:vertical}
+.inventory-detail-effects{
+    margin-top:14px;
+    padding:12px;
+    border:1px solid var(--sand-3);
+    border-radius:10px;
+    background:rgba(255,255,255,.16);
+}
+.inventory-detail-effects-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.inventory-detail-effect{
+    display:grid;
+    grid-template-columns:140px 170px minmax(110px,1fr) minmax(90px,.75fr) 34px;
+    gap:7px;
+    align-items:center;
+    margin-top:8px;
+    padding-top:8px;
+    border-top:1px dashed rgba(112,82,51,.22);
+}
+.inventory-detail-effect-description{grid-column:1/5}
+.inventory-detail-effect-condition{grid-column:1/5}
+.inventory-detail-effect-remove{height:36px}
+.inventory-detail-source{
+    margin-top:8px;
+    padding:7px 9px;
+    border-radius:8px;
+    background:rgba(169,119,53,.09);
+    color:var(--muted);
+    font-size:11px;
+}
+.inventory-detail-actions{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:16px}
+.inventory-detail-actions-right{display:flex;gap:8px}
+@media(max-width:760px){
+    .inventory-detail-grid{grid-template-columns:1fr}
+    .inventory-detail-grid .wide{grid-column:auto}
+    .inventory-detail-effect{grid-template-columns:1fr 1fr}
+    .inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/-1}
+    .inventory-detail-effect-remove{grid-column:2;justify-self:end;width:40px}
+}
+
+
+/* BETA — arma vinculada ao item */
+.inventory-weapon-badge{display:inline-flex;align-items:center;gap:4px;padding:2px 6px;border-radius:999px;border:1px solid rgba(112,82,51,.24);font-size:10px;color:var(--muted)}
+.attack-source-item{opacity:.8;font-size:10px}
 </style>
 
 
@@ -4670,9 +4784,18 @@ body.has-pinned-tooltip.has-pinned-tooltip.has-pinned-tooltip #combatHPMaxToolti
 
     <div class="section">
 
-      <div class="section-title">Equipamento</div>
+      <div class="section-title">Equipamento <span class="beta-compendium-badge">COMPÊNDIO BETA</span></div>
 
       <div class="inventory-header">
+
+      <button
+        id="openInventoryCompendium"
+        class="add-button edit-only compendium-button"
+        type="button"
+        title="Adicionar do Compêndio"
+      >
+        📚 Compêndio
+      </button>
 
       <button
         id="addInventoryItem"
@@ -8900,7 +9023,25 @@ function adicionarItemInventario() {
 
         peso: 0,
 
-        descricao: ""
+        descricao: "",
+
+        categoria: "",
+
+        subtipo: "",
+
+        fonte: "",
+
+        tags: [],
+
+        preco: { valor: 0, moeda: "" },
+
+        ativo: false,
+
+        effects: [],
+        estado: "normal",
+        consumable: { enabled: false, amountPerUse: 1, label: "Usar" },
+        defenses: { resistances: "", immunities: "" },
+        resources: []
 
     });
 
@@ -8964,8 +9105,12 @@ async function excluirItemInventario(id) {
             item => item.id !== id
         );
 
+    if (Array.isArray(conteudo.ataques)) {
+        conteudo.ataques = conteudo.ataques.filter(attack => attack.sourceItemId !== id);
+    }
 
     renderizarInventario();
+    renderizarAtaques();
 
     await salvarConteudo();
 }
@@ -9561,6 +9706,145 @@ function agendarSalvamento(
 </script>
 
 <script>
+/* ============================================================
+   BETA — ITENS COM EFEITOS COMPLETOS + ARMAS GERANDO ATAQUES
+   ============================================================ */
+let inventoryDetailDraft = null;
+
+function itemInventarioEhArma(item) {
+    const categoria = String(item?.categoria || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+    return categoria === "arma" || categoria.startsWith("arma ") || categoria.includes("weapon");
+}
+
+function normalizarAtaqueArmaItem(item) {
+    const original = item?.weaponAttack || item?.ataqueArma || {};
+    return {
+        enabled: original.enabled !== false,
+        name: original.name || original.nome || "",
+        skill: original.skill || original.pericia || "Luta",
+        stat: original.stat || original.atributo || "str",
+        die: original.die || original.dano || "1d6",
+        type: original.type || original.tipoDano || "",
+        threat: Number(original.threat ?? original.margemAmeaca ?? 20) || 20,
+        crit: Number(original.crit ?? original.critico ?? 2) || 2,
+        allowedToggles: Array.isArray(original.allowedToggles) ? [...original.allowedToggles] : (Array.isArray(original.modificadores) ? [...original.modificadores] : [])
+    };
+}
+
+function sincronizarAtaquesDeItensInventario() {
+    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
+    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
+    let mudou = false;
+
+    const antes = conteudo.ataques.length;
+    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
+    if (conteudo.ataques.length !== antes) mudou = true;
+
+    (conteudo.inventario || []).forEach(item => {
+        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
+        const arma = itemInventarioEhArma(item);
+        const config = normalizarAtaqueArmaItem(item);
+
+        if (!arma || !config.enabled) {
+            if (existenteIndex >= 0) { conteudo.ataques.splice(existenteIndex, 1); mudou = true; }
+            return;
+        }
+
+        item.weaponAttack = config;
+        delete item.ataqueArma;
+
+        const attack = {
+            ...(existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : {}),
+            id: existenteIndex >= 0 ? conteudo.ataques[existenteIndex].id : criarId(),
+            sourceItemId: item.id,
+            sourceType: "inventoryWeapon",
+            name: config.name || item.nome || "Arma",
+            subtitle: item.subtipo || item.descricao || "Item do inventário",
+            skill: config.skill || "Luta",
+            stat: config.stat || "str",
+            die: config.die || "1d6",
+            type: config.type || "",
+            critMargin: Math.max(1, Math.min(20, Number(config.threat || 20))),
+            critMultiplier: Math.max(1, Number(config.crit || 2)),
+            allowedCombatToggles: [...(config.allowedToggles || [])],
+            effects: existenteIndex >= 0 && Array.isArray(conteudo.ataques[existenteIndex].effects) ? conteudo.ataques[existenteIndex].effects : []
+        };
+
+        if (existenteIndex >= 0) {
+            const anterior = JSON.stringify(conteudo.ataques[existenteIndex]);
+            const novo = JSON.stringify(attack);
+            if (anterior !== novo) { conteudo.ataques[existenteIndex] = attack; mudou = true; }
+        } else {
+            conteudo.ataques.push(attack);
+            mudou = true;
+        }
+    });
+
+    if (mudou) agendarSalvamentoConteudo();
+    return mudou;
+}
+
+function renderizarEfeitosDetalhadosCompletos() {
+    const root = document.getElementById("inventoryDetailEffects");
+    if (!root || !inventoryDetailDraft) return;
+    root.innerHTML = "";
+    root.appendChild(criarEditorEfeitosCaracteristica(inventoryDetailDraft, "inventarioDetalhado"));
+}
+
+function preencherEditorAtaqueArma(item) {
+    const secao = document.getElementById("inventoryDetailWeaponSection");
+    if (!secao) return;
+    const ehArma = itemInventarioEhArma(item);
+    secao.hidden = !ehArma;
+    if (!ehArma) return;
+
+    const config = normalizarAtaqueArmaItem(item);
+    const skill = document.getElementById("inventoryDetailWeaponSkill");
+    if (skill) {
+        skill.innerHTML = "";
+        pericias.forEach(([nome]) => { const o=document.createElement("option"); o.value=nome; o.textContent=nome; skill.appendChild(o); });
+        skill.value = config.skill;
+    }
+    document.getElementById("inventoryDetailWeaponEnabled").checked = config.enabled;
+    document.getElementById("inventoryDetailWeaponName").value = config.name || "";
+    document.getElementById("inventoryDetailWeaponStat").value = config.stat || "str";
+    document.getElementById("inventoryDetailWeaponDamage").value = config.die || "1d6";
+    document.getElementById("inventoryDetailWeaponDamageType").value = config.type || "";
+    document.getElementById("inventoryDetailWeaponThreat").value = config.threat || 20;
+    document.getElementById("inventoryDetailWeaponCrit").value = config.crit || 2;
+
+    const mods = document.getElementById("inventoryDetailWeaponModifiers");
+    if (mods) {
+        mods.innerHTML = "";
+        (conteudo.togglesCombate || []).forEach(toggle => {
+            const label=document.createElement("label");
+            const input=document.createElement("input");
+            input.type="checkbox"; input.value=toggle.id; input.checked=(config.allowedToggles || []).includes(toggle.id);
+            label.appendChild(input); label.appendChild(document.createTextNode(toggle.name || "Modificador")); mods.appendChild(label);
+        });
+        if (!(conteudo.togglesCombate || []).length) {
+            const vazio=document.createElement("small"); vazio.style.color="var(--muted)"; vazio.textContent="Nenhum modificador de combate criado na ficha."; mods.appendChild(vazio);
+        }
+    }
+}
+
+function coletarAtaqueArmaDetalhado(item) {
+    if (!itemInventarioEhArma(item)) { delete item.weaponAttack; delete item.ataqueArma; return; }
+    const selected = [...document.querySelectorAll("#inventoryDetailWeaponModifiers input[type=checkbox]:checked")].map(el => el.value);
+    item.weaponAttack = {
+        enabled: Boolean(document.getElementById("inventoryDetailWeaponEnabled")?.checked),
+        name: document.getElementById("inventoryDetailWeaponName")?.value.trim() || "",
+        skill: document.getElementById("inventoryDetailWeaponSkill")?.value || "Luta",
+        stat: document.getElementById("inventoryDetailWeaponStat")?.value || "str",
+        die: document.getElementById("inventoryDetailWeaponDamage")?.value.trim() || "1d6",
+        type: document.getElementById("inventoryDetailWeaponDamageType")?.value.trim() || "",
+        threat: Math.max(1, Math.min(20, Number(document.getElementById("inventoryDetailWeaponThreat")?.value || 20))),
+        crit: Math.max(1, Number(document.getElementById("inventoryDetailWeaponCrit")?.value || 2)),
+        allowedToggles: selected
+    };
+}
+
+
   /* ============================================================
      DADOS
      ============================================================ */
@@ -9936,6 +10220,8 @@ function limparReferenciasEfeitosAtaque() {
 
 function renderizarAtaques() {
 
+    sincronizarAtaquesDeItensInventario();
+
     const container =
         document.getElementById(
             "attacks"
@@ -10017,6 +10303,9 @@ function renderizarAtaques() {
                     placeholder="Corte"
                 >
 
+                <input class="attack-edit-threat" type="number" min="1" max="20" placeholder="Ameaça" title="Margem de ameaça">
+                <input class="attack-edit-crit" type="number" min="1" placeholder="Crítico" title="Multiplicador de crítico">
+
                 <button
                     class="attack-delete"
                     type="button"
@@ -10060,6 +10349,9 @@ function renderizarAtaques() {
                 element.querySelector(
                     ".attack-edit-type"
                 );
+
+            const threat = element.querySelector(".attack-edit-threat");
+            const crit = element.querySelector(".attack-edit-crit");
 
             const effectsContainer =
                 element.querySelector(
@@ -10197,6 +10489,21 @@ getAttackEffectDefinitions()
             type.value =
                 attack.type ?? "";
 
+            threat.value = Number(attack.critMargin ?? 20);
+            crit.value = Number(attack.critMultiplier ?? 2);
+
+
+            if (attack.sourceItemId) {
+                excluir.disabled = true;
+                excluir.title = "Este ataque é controlado pelo item do inventário";
+                [name, subtitle, skill, stat, die, type, threat, crit].forEach(el => { if (el) el.disabled = true; });
+                effectsContainer.innerHTML = "";
+                const note = document.createElement("small");
+                note.style.color = "var(--muted)";
+                const nomes = (conteudo.togglesCombate || []).filter(t => (attack.allowedCombatToggles || []).includes(t.id)).map(t => t.name);
+                note.textContent = nomes.length ? `Modificadores permitidos: ${nomes.join(", ")}` : "Sem modificadores condicionais permitidos";
+                effectsContainer.appendChild(note);
+            }
 
             /* ======================
                EVENTOS
@@ -10270,14 +10577,13 @@ getAttackEffectDefinitions()
             type.addEventListener(
                 "input",
                 () => {
-
-                    attack.type =
-                        type.value;
-
+                    attack.type = type.value;
                     agendarSalvamentoConteudo();
-
                 }
             );
+
+            threat.addEventListener("input", () => { attack.critMargin = Number(threat.value || 20); agendarSalvamentoConteudo(); });
+            crit.addEventListener("input", () => { attack.critMultiplier = Number(crit.value || 2); agendarSalvamentoConteudo(); });
 
 
             excluir.addEventListener(
@@ -10344,15 +10650,13 @@ getAttackEffectDefinitions()
 
 
                 <div class="attack-data">
+                    <span class="label">Tipo</span>
+                    <strong class="attack-type"></strong>
+                </div>
 
-                    <span class="label">
-                        Tipo
-                    </span>
-
-                    <strong
-                        class="attack-type"
-                    ></strong>
-
+                <div class="attack-data">
+                    <span class="label">Crítico</span>
+                    <strong class="attack-critical"></strong>
                 </div>
             `;
 
@@ -10388,6 +10692,13 @@ getAttackEffectDefinitions()
                 )
                 .textContent =
                 attack.type || "—";
+
+            const critEl = element.querySelector(".attack-critical");
+            if (critEl) {
+                const margem = Number(attack.critMargin ?? 20);
+                const multi = Number(attack.critMultiplier ?? 2);
+                critEl.textContent = `${margem === 20 ? "20" : `${margem}–20`}/×${multi}`;
+            }
 
         }
 
@@ -13599,32 +13910,20 @@ async function excluirAtaque(id) {
      UPDATE PRINCIPAL
      ============================================================ */
 function getAttackEffects(attack) {
+    const definitions = getAttackEffectDefinitions();
 
-    const ids =
-        Array.isArray(
-            attack.effects
-        )
-            ? attack.effects
-            : [];
-
-
-    return getAttackEffectDefinitions()
-        .filter(effect => {
-
-            if (
-                !ids.includes(
-                    effect.id
-                )
-            ) {
-                return false;
-            }
-
-
-            return efeitoEstaAtivo(
-                effect
-            );
-
+    // Ataques gerados por armas usam os modificadores de combate permitidos
+    // no próprio item. Efeitos de ataque sempre ativos valem automaticamente.
+    if (attack?.sourceItemId) {
+        const permitidos = new Set(Array.isArray(attack.allowedCombatToggles) ? attack.allowedCombatToggles : []);
+        return definitions.filter(effect => {
+            if (effect.requiresToggle && !permitidos.has(effect.requiresToggle)) return false;
+            return efeitoEstaAtivo(effect);
         });
+    }
+
+    const ids = Array.isArray(attack.effects) ? attack.effects : [];
+    return definitions.filter(effect => ids.includes(effect.id) && efeitoEstaAtivo(effect));
 }
 
 
@@ -15252,6 +15551,8 @@ function coletarEfeitosCaracteristicas(
     });
 
 
+    resultado.push(...coletarEfeitosInventario(tipoEfeito));
+
     return resultado;
 }
 
@@ -15323,6 +15624,11 @@ function getAttackEffectDefinitions() {
 function renderizarFonteEfeito(
     tipo
 ) {
+
+    if (tipo === "inventarioDetalhado") {
+        renderizarEfeitosDetalhadosCompletos();
+        return;
+    }
 
     if (
         tipo ===
@@ -17333,248 +17639,1355 @@ function renderizarTodasFontesDeEfeito() {
     renderizarMagias();
 }
 
-function renderizarInventario() {
 
-    const container =
-        document.getElementById(
-            "inventoryList"
-        );
 
-    if (!container) {
+/* ============================================================
+   BETA — COMPÊNDIO E EFEITOS DE ITENS
+   ============================================================ */
+const INVENTORY_COMPENDIUM_URL = "https://drkcfrhjgkztdtneuofr.supabase.co/functions/v1/compendio-commit";
+let inventoryCompendiumCache = null;
+
+function normalizarModoEfeitoItem(effect) {
+    const raw = String(effect?.mode ?? effect?.modo ?? "always").toLowerCase();
+    if (["toggle", "ativar", "onoff"].includes(raw)) return "toggle";
+    if (["conditional", "condicional", "condition"].includes(raw)) return "conditional";
+    if (["use", "uso", "usar"].includes(raw)) return "use";
+    return "always";
+}
+
+function normalizarTipoEfeitoItem(effect) {
+    const raw = String(effect?.type ?? effect?.tipo ?? "outro").toLowerCase();
+    const mapa = {
+        ca: "ac", ac: "ac",
+        pericia: "skill", perícia: "skill", skill: "skill",
+        atributo: "attribute", attribute: "attribute",
+        "pv maximo": "maxHp", "pv máximo": "maxHp", pvmax: "maxHp", maxhp: "maxHp",
+        "pv por nivel": "hpPerLevel", "pv por nível": "hpPerLevel", hpperlevel: "hpPerLevel",
+        movimento: "movement", movement: "movement",
+        carga: "carryCapacity", capacidade: "carryCapacity", carrycapacity: "carryCapacity",
+        ataque: "attack", attack: "attack"
+    };
+    return mapa[raw] || raw;
+}
+
+function numeroDoEfeitoItem(effect) {
+    if (effect?.bonus !== undefined) return Number(effect.bonus || 0);
+    if (typeof effect?.valor === "number") return Number(effect.valor || 0);
+    const match = String(effect?.valor ?? "").replace(",", ".").match(/[+-]?\d+(?:\.\d+)?/);
+    return match ? Number(match[0]) : 0;
+}
+
+function converterEfeitoItem(effect, item) {
+    const type = normalizarTipoEfeitoItem(effect);
+    const mode = normalizarModoEfeitoItem(effect);
+    const bonus = numeroDoEfeitoItem(effect);
+    const target = effect?.target ?? effect?.alvo ?? "";
+    const converted = {
+        ...effect,
+        type,
+        mode,
+        source: effect?.source || item?.nome || "Item",
+        text: effect?.text ?? effect?.descricao ?? ""
+    };
+
+    if (["ac", "maxHp", "hpPerLevel", "movement", "carryCapacity"].includes(type)) {
+        converted.bonus = bonus;
+    }
+    if (type === "skill") {
+        converted.skill = effect?.skill ?? target;
+        converted.bonus = bonus;
+    }
+    if (type === "attribute") {
+        converted.stat = (effect?.stat ?? effect?.attribute ?? target) || "str";
+        converted.attribute = converted.stat;
+        converted.bonus = bonus;
+    }
+    return converted;
+}
+
+function coletarEfeitosInventario(tipoEfeito) {
+    const resultado = [];
+
+    (conteudo.inventario || []).forEach(item => {
+        const effects = Array.isArray(item.effects)
+            ? item.effects
+            : (Array.isArray(item.efeitos) ? item.efeitos : []);
+
+        effects.forEach(raw => {
+            const effect = converterEfeitoItem(raw, item);
+            if (effect.type !== tipoEfeito) return;
+            if (effect.mode === "use") return;
+
+            // Toggle do item: o efeito só entra quando o item estiver ligado.
+            if (effect.mode === "toggle" && !item.ativo) return;
+
+            // Condicional usa o MESMO sistema de modificadores de combate da ficha.
+            // Sem um modificador associado ele fica inativo, evitando aplicar bônus
+            // condicionais como se fossem permanentes.
+            if (effect.mode === "conditional") {
+                const requiresToggle = String(raw?.requiresToggle || effect?.requiresToggle || "").trim();
+                if (!requiresToggle) return;
+                effect.requiresToggle = requiresToggle;
+            }
+
+            // Sempre ativo não recebe requiresToggle e passa pelo mesmo fluxo
+            // de efeitos permanentes das características da ficha.
+            resultado.push(effect);
+        });
+    });
+
+    return resultado;
+}
+
+function atualizarCondicaoEfeitoInventario(item, effect, toggleId) {
+    if (!item || !effect) return;
+
+    effect.requiresToggle = toggleId || "";
+
+    agendarSalvamentoConteudo();
+    updateSheet();
+    renderizarInventario();
+}
+
+function criarSeletorCondicaoInventario(item, effect) {
+    const wrapper = document.createElement("label");
+    wrapper.className = "inventory-condition-link";
+
+    const title = document.createElement("span");
+    title.textContent = "Modificador";
+
+    const select = document.createElement("select");
+    select.dataset.gameplay = "true";
+    select.disabled = !isOwner;
+
+    const none = document.createElement("option");
+    none.value = "";
+    none.textContent = "Escolher modificador…";
+    select.appendChild(none);
+
+    (conteudo.togglesCombate || []).forEach(toggle => {
+        const option = document.createElement("option");
+        option.value = toggle.id;
+        option.textContent = toggle.name || "Modificador";
+        select.appendChild(option);
+    });
+
+    select.value = effect.requiresToggle || "";
+    select.addEventListener("change", () => {
+        atualizarCondicaoEfeitoInventario(item, effect, select.value);
+    });
+
+    wrapper.appendChild(title);
+    wrapper.appendChild(select);
+    return wrapper;
+}
+
+function itemTemToggle(item) {
+    const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    return effects.some(effect => normalizarModoEfeitoItem(effect) === "toggle");
+}
+
+function descreverEfeitoItem(effect) {
+    const type = normalizarTipoEfeitoItem(effect);
+    const mode = normalizarModoEfeitoItem(effect);
+    const target = String(effect?.target ?? effect?.alvo ?? effect?.skill ?? effect?.attribute ?? "").trim();
+    const bonus = numeroDoEfeitoItem(effect);
+    const valor = String(effect?.valor ?? "").trim();
+    const sign = bonus > 0 ? `+${bonus}` : String(bonus);
+    const nomes = {ac:"CA",skill:"Perícia",attribute:"Atributo",maxHp:"PV Máx.",hpPerLevel:"PV/nível",movement:"Movimento",carryCapacity:"Carga",attack:"Ataque"};
+    let texto = effect?.text ?? effect?.descricao ?? "";
+    if (!texto) {
+        if (["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)) texto = `${sign} ${nomes[type] || type}`;
+        else if (["skill","attribute"].includes(type)) texto = `${sign} ${target || (nomes[type] || type)}`;
+        else texto = valor || `${nomes[type] || type}`;
+    }
+    const sufixo = mode === "always" ? "sempre" : mode === "toggle" ? "toggle" : mode === "conditional" ? "condicional" : "uso";
+    return { texto, mode, sufixo };
+}
+
+async function carregarCompendioInventario(force = false) {
+    if (inventoryCompendiumCache && !force) return inventoryCompendiumCache;
+    const response = await fetch(`${INVENTORY_COMPENDIUM_URL}?v=${Date.now()}`, { cache: "no-store" });
+    if (!response.ok) throw new Error(`Não foi possível carregar o Compêndio (${response.status}).`);
+    const payload = await response.json();
+    inventoryCompendiumCache = Array.isArray(payload) ? payload : (Array.isArray(payload?.itens) ? payload.itens : []);
+    return inventoryCompendiumCache;
+}
+
+function fecharCompendioInventario() {
+    const overlay = document.getElementById("inventoryCompendiumOverlay");
+    const modal = document.getElementById("inventoryCompendiumModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
+}
+
+async function abrirCompendioInventario() {
+    const overlay = document.getElementById("inventoryCompendiumOverlay");
+    const modal = document.getElementById("inventoryCompendiumModal");
+    const results = document.getElementById("inventoryCompendiumResults");
+
+    if (!overlay || !modal || !results) {
+        console.error("Modal do Compêndio não encontrado na ficha beta.");
+        alert("Não foi possível abrir o Compêndio nesta versão da ficha.");
         return;
     }
 
+    overlay.classList.add("show");
+    overlay.setAttribute("aria-hidden", "false");
+    modal.classList.add("show");
+    modal.setAttribute("aria-hidden", "false");
+    if (results) results.innerHTML = '<div class="compendium-empty">Carregando Compêndio…</div>';
+    try {
+        await carregarCompendioInventario(true);
+        atualizarFiltrosCompendioInventario();
+        renderizarCompendioInventario();
+    } catch (error) {
+        if (results) results.innerHTML = `<div class="compendium-empty">${String(error?.message || error)}</div>`;
+    }
+}
 
-    const editando =
-        document.getElementById(
-            "editModeToggle"
-        )?.checked;
+function atualizarFiltrosCompendioInventario() {
+    const select = document.getElementById("inventoryCompendiumCategory");
+    if (!select) return;
+    const atual = select.value;
+    const categorias = [...new Set((inventoryCompendiumCache || []).map(item => item.categoria).filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),"pt-BR"));
+    select.innerHTML = '<option value="">Todas as categorias</option>' + categorias.map(cat => `<option value="${String(cat).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')}">${String(cat).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')}</option>`).join('');
+    if (categorias.includes(atual)) select.value = atual;
+}
+
+function renderizarCompendioInventario() {
+    const container = document.getElementById("inventoryCompendiumResults");
+    if (!container) return;
+    const query = String(document.getElementById("inventoryCompendiumSearch")?.value || "").trim().toLowerCase();
+    const category = String(document.getElementById("inventoryCompendiumCategory")?.value || "");
+    const list = (inventoryCompendiumCache || []).filter(item => {
+        if (category && item.categoria !== category) return false;
+        if (!query) return true;
+        return [item.nome,item.categoria,item.subtipo,item.fonte,item.descricao,...(item.tags || [])].join(' ').toLowerCase().includes(query);
+    });
+    if (!list.length) {
+        container.innerHTML = '<div class="compendium-empty">Nenhum item encontrado.</div>';
+        return;
+    }
+    container.innerHTML = '';
+    list.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'compendium-result';
+        const peso = Number(item.peso || 0);
+        const preco = item.preco?.valor !== undefined ? `${item.preco.valor} ${item.preco.moeda || ''}`.trim() : '—';
+        const effects = Array.isArray(item.efeitos) ? item.efeitos : (Array.isArray(item.effects) ? item.effects : []);
+        const effectText = effects.slice(0,3).map(e => descreverEfeitoItem(e).texto).join(' • ');
+        card.innerHTML = `<h4></h4><div class="compendium-result-meta"></div><div class="compendium-result-desc"></div><div class="compendium-result-foot"><small></small><button class="add-button compendium-add-button" type="button">Adicionar</button></div>`;
+        card.querySelector('h4').textContent = item.nome || 'Item sem nome';
+        card.querySelector('.compendium-result-meta').textContent = [item.categoria,item.subtipo,(item.sistema || item.system),item.fonte].filter(Boolean).join(' • ');
+        card.querySelector('.compendium-result-desc').textContent = item.descricao || effectText || 'Sem descrição.';
+        card.querySelector('small').textContent = `${peso.toFixed(2)} kg • ${preco}`;
+        card.querySelector('button').addEventListener('click', () => adicionarItemDoCompendio(item));
+        container.appendChild(card);
+    });
+}
+
+async function adicionarItemDoCompendio(base) {
+    const copia = {
+        id: criarId(),
+        compendioId: base.id || "",
+        nome: base.nome || "Item do Compêndio",
+        quantidade: 1,
+        peso: Number(base.peso || 0),
+        descricao: base.descricao || "",
+        categoria: base.categoria || "",
+        subtipo: base.subtipo || "",
+        fonte: base.fonte || "",
+        tags: structuredClone(Array.isArray(base.tags) ? base.tags : []),
+        preco: structuredClone(base.preco || { valor: 0, moeda: "" }),
+        ativo: false,
+        effects: structuredClone(Array.isArray(base.efeitos) ? base.efeitos : (Array.isArray(base.effects) ? base.effects : [])),
+        weaponAttack: structuredClone(base.weaponAttack || base.ataqueArma || null),
+        estado: "normal",
+        consumable: structuredClone(base.consumable || base.consumivel || { enabled: false, amountPerUse: 1, label: "Usar" }),
+        defenses: structuredClone(base.defenses || base.defesas || { resistances: "", immunities: "" }),
+        resources: (Array.isArray(base.resources) ? base.resources : (Array.isArray(base.recursos) ? base.recursos : [])).map(resource => ({ ...structuredClone(resource), id: criarId() }))
+    };
+    conteudo.inventario.push(copia);
+    sincronizarAtaquesDeItensInventario();
+    renderizarInventario();
+    updateSheet();
+    await salvarConteudo();
+    fecharCompendioInventario();
+}
+
+async function alternarItemInventario(item) {
+    item.ativo = !Boolean(item.ativo);
+    renderizarInventario();
+    updateSheet();
+    renderizarAtaques();
+    await salvarConteudo();
+}
+
+function configurarCompendioInventario() {
+    document.getElementById("openInventoryCompendium")?.addEventListener("click", abrirCompendioInventario);
+    document.getElementById("inventoryCompendiumClose")?.addEventListener("click", fecharCompendioInventario);
+    document.getElementById("inventoryCompendiumOverlay")?.addEventListener("click", fecharCompendioInventario);
+    document.getElementById("inventoryCompendiumSearch")?.addEventListener("input", renderizarCompendioInventario);
+    document.getElementById("inventoryCompendiumCategory")?.addEventListener("change", renderizarCompendioInventario);
+}
+
+document.addEventListener("DOMContentLoaded", configurarCompendioInventario);
 
 
+
+/* ============================================================
+   BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
+   ============================================================ */
+let inventoryDetailItemId = null;
+
+function efeitoInventarioParaEditor(effect = {}) {
+    return {
+        ...structuredClone(effect || {}),
+        tipo: normalizarTipoEfeitoItem(effect),
+        modo: normalizarModoEfeitoItem(effect),
+        alvo: effect?.target ?? effect?.alvo ?? effect?.skill ?? effect?.attribute ?? "",
+        valor: effect?.valor ?? (effect?.bonus !== undefined ? effect.bonus : ""),
+        descricao: effect?.text ?? effect?.descricao ?? "",
+        requiresToggle: effect?.requiresToggle ?? ""
+    };
+}
+
+function opcoesTipoEfeitoInventario(valor) {
+    const tipos = [
+        ["ac", "CA"],
+        ["skill", "Perícia"],
+        ["attribute", "Atributo"],
+        ["maxHp", "PV Máximo"],
+        ["hpPerLevel", "PV por nível"],
+        ["movement", "Movimento"],
+        ["carryCapacity", "Carga"],
+        ["attack", "Ataque"],
+        ["damage", "Dano"],
+        ["resource", "Recurso"],
+        ["outro", "Outro"]
+    ];
+    return tipos.map(([v,n]) => `<option value="${v}" ${String(valor)===v ? "selected" : ""}>${n}</option>`).join("");
+}
+
+function opcoesModoEfeitoInventario(valor) {
+    const modos = [
+        ["always", "Sempre ativo (ficha)"],
+        ["toggle", "Toggle ON/OFF do item"],
+        ["conditional", "Condicional (modificador de combate)"],
+        ["use", "Ao usar"]
+    ];
+    return modos.map(([v,n]) => `<option value="${v}" ${String(valor)===v ? "selected" : ""}>${n}</option>`).join("");
+}
+
+function preencherOpcoesCondicaoDetalhada(select, valor) {
+    if (!select) return;
+    select.innerHTML = '<option value="">Escolher modificador…</option>';
+    (conteudo.togglesCombate || []).forEach(toggle => {
+        const option = document.createElement("option");
+        option.value = toggle.id;
+        option.textContent = toggle.name || "Modificador";
+        select.appendChild(option);
+    });
+    select.value = valor || "";
+}
+
+function atualizarVisibilidadeCondicaoDetalhada(row) {
+    const modo = row.querySelector(".inventory-detail-effect-mode")?.value;
+    const conditionWrap = row.querySelector(".inventory-detail-effect-condition");
+    if (conditionWrap) conditionWrap.style.display = modo === "conditional" ? "block" : "none";
+}
+
+function adicionarLinhaEfeitoDetalhado(effect = {}) {
+    const root = document.getElementById("inventoryDetailEffects");
+    if (!root) return;
+
+    const e = efeitoInventarioParaEditor(effect);
+    const row = document.createElement("div");
+    row.className = "inventory-detail-effect";
+    row._originalEffect = structuredClone(effect || {});
+    row.innerHTML = `
+        <select class="inventory-detail-effect-type" title="Tipo">${opcoesTipoEfeitoInventario(e.tipo)}</select>
+        <select class="inventory-detail-effect-mode" title="Modo">${opcoesModoEfeitoInventario(e.modo)}</select>
+        <input class="inventory-detail-effect-target" type="text" placeholder="Alvo / atributo / perícia" value="">
+        <input class="inventory-detail-effect-value" type="text" placeholder="Valor, ex.: +2" value="">
+        <button class="inventory-delete inventory-detail-effect-remove" type="button" title="Remover efeito">×</button>
+        <input class="inventory-detail-effect-description" type="text" placeholder="Descrição do efeito" value="">
+        <div class="inventory-detail-effect-condition">
+          <select class="inventory-detail-effect-condition-select" title="Modificador de combate"></select>
+        </div>
+    `;
+
+    row.querySelector(".inventory-detail-effect-target").value = e.alvo || "";
+    row.querySelector(".inventory-detail-effect-value").value = e.valor ?? "";
+    row.querySelector(".inventory-detail-effect-description").value = e.descricao || "";
+    preencherOpcoesCondicaoDetalhada(row.querySelector(".inventory-detail-effect-condition-select"), e.requiresToggle);
+    atualizarVisibilidadeCondicaoDetalhada(row);
+
+    row.querySelector(".inventory-detail-effect-mode")?.addEventListener("change", () => atualizarVisibilidadeCondicaoDetalhada(row));
+    row.querySelector(".inventory-detail-effect-remove")?.addEventListener("click", () => row.remove());
+    root.appendChild(row);
+}
+
+function coletarEfeitosDetalhadosInventario() {
+    return [...document.querySelectorAll("#inventoryDetailEffects .inventory-detail-effect")].map(row => {
+        const original = structuredClone(row._originalEffect || {});
+        const type = row.querySelector(".inventory-detail-effect-type")?.value || "outro";
+        const mode = row.querySelector(".inventory-detail-effect-mode")?.value || "always";
+        const target = row.querySelector(".inventory-detail-effect-target")?.value.trim() || "";
+        const rawValue = row.querySelector(".inventory-detail-effect-value")?.value.trim() || "";
+        const description = row.querySelector(".inventory-detail-effect-description")?.value.trim() || "";
+        const requiresToggle = mode === "conditional"
+            ? (row.querySelector(".inventory-detail-effect-condition-select")?.value || "")
+            : "";
+
+        const effect = {
+            ...original,
+            tipo: type,
+            type,
+            modo: mode,
+            mode,
+            alvo: target,
+            target,
+            valor: rawValue,
+            descricao: description,
+            text: description,
+            requiresToggle
+        };
+
+        const numeric = String(rawValue).replace(",", ".").match(/[+-]?\d+(?:\.\d+)?/);
+        if (numeric && ["ac","skill","attribute","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)) {
+            effect.bonus = Number(numeric[0]);
+        } else {
+            delete effect.bonus;
+        }
+
+        if (type === "skill") effect.skill = target;
+        else delete effect.skill;
+        if (type === "attribute") effect.attribute = target;
+        else delete effect.attribute;
+
+        return effect;
+    });
+}
+
+function fecharDetalhesItemInventario() {
+    inventoryDetailItemId = null;
+    inventoryDetailDraft = null;
+    const overlay = document.getElementById("inventoryDetailOverlay");
+    const modal = document.getElementById("inventoryDetailModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
+}
+
+function abrirDetalhesItemInventario(itemOrId) {
+    const item = typeof itemOrId === "string"
+        ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+        : itemOrId;
+    if (!item) return;
+
+    inventoryDetailItemId = item.id;
+    document.getElementById("inventoryDetailName").value = item.nome ?? "";
+    document.getElementById("inventoryDetailQuantity").value = item.quantidade ?? 1;
+    document.getElementById("inventoryDetailWeight").value = item.peso ?? 0;
+    document.getElementById("inventoryDetailCategory").value = item.categoria ?? "";
+    document.getElementById("inventoryDetailSubtype").value = item.subtipo ?? "";
+    document.getElementById("inventoryDetailPrice").value = item.preco?.valor ?? "";
+    document.getElementById("inventoryDetailCurrency").value = item.preco?.moeda ?? "";
+    document.getElementById("inventoryDetailSource").value = item.fonte ?? "";
+    document.getElementById("inventoryDetailTags").value = Array.isArray(item.tags) ? item.tags.join(", ") : "";
+    document.getElementById("inventoryDetailDescription").value = item.descricao ?? "";
+
+    const categoryInput = document.getElementById("inventoryDetailCategory");
+    categoryInput.oninput = () => {
+        const fake = { ...item, categoria: categoryInput.value };
+        preencherEditorAtaqueArma(fake);
+    };
+
+    const origin = document.getElementById("inventoryDetailOrigin");
+    if (origin) {
+        if (item.compendioId) {
+            origin.hidden = false;
+            origin.textContent = `Criado a partir do Compêndio (${item.compendioId}). Alterações aqui afetam somente esta cópia da ficha.`;
+        } else {
+            origin.hidden = true;
+            origin.textContent = "";
+        }
+    }
+
+    const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    inventoryDetailDraft = { effects: structuredClone(effects) };
+    renderizarEfeitosDetalhadosCompletos();
+    preencherEditorAtaqueArma(item);
+
+    document.getElementById("inventoryDetailOverlay")?.classList.add("show");
+    document.getElementById("inventoryDetailOverlay")?.setAttribute("aria-hidden", "false");
+    document.getElementById("inventoryDetailModal")?.classList.add("show");
+    document.getElementById("inventoryDetailModal")?.setAttribute("aria-hidden", "false");
+}
+
+async function salvarDetalhesItemInventario() {
+    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+    if (!item) return fecharDetalhesItemInventario();
+
+    item.nome = document.getElementById("inventoryDetailName")?.value.trim() || "Item sem nome";
+    item.quantidade = Number(document.getElementById("inventoryDetailQuantity")?.value || 0);
+    item.peso = Number(document.getElementById("inventoryDetailWeight")?.value || 0);
+    item.categoria = document.getElementById("inventoryDetailCategory")?.value.trim() || "";
+    item.subtipo = document.getElementById("inventoryDetailSubtype")?.value.trim() || "";
+    item.fonte = document.getElementById("inventoryDetailSource")?.value.trim() || "";
+    item.tags = String(document.getElementById("inventoryDetailTags")?.value || "").split(",").map(v => v.trim()).filter(Boolean);
+    item.descricao = document.getElementById("inventoryDetailDescription")?.value.trim() || "";
+    item.preco = {
+        valor: Number(document.getElementById("inventoryDetailPrice")?.value || 0),
+        moeda: document.getElementById("inventoryDetailCurrency")?.value.trim() || ""
+    };
+    item.effects = structuredClone(inventoryDetailDraft?.effects || []);
+    delete item.efeitos;
+    coletarAtaqueArmaDetalhado(item);
+    sincronizarAtaquesDeItensInventario();
+
+    renderizarInventario();
+    atualizarPesoInventario();
+    updateSheet();
+    renderizarAtaques();
+    fecharDetalhesItemInventario();
+    await salvarConteudo();
+}
+
+async function excluirItemPelosDetalhes() {
+    if (!inventoryDetailItemId) return;
+    const item = (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+    if (!item) return;
+    if (!confirm(`Excluir "${item.nome || "Item"}" do inventário?`)) return;
+    const id = inventoryDetailItemId;
+    fecharDetalhesItemInventario();
+    await excluirItemInventario(id);
+}
+
+function configurarDetalhesInventario() {
+    document.getElementById("inventoryDetailClose")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailCancel")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailOverlay")?.addEventListener("click", fecharDetalhesItemInventario);
+    document.getElementById("inventoryDetailSave")?.addEventListener("click", salvarDetalhesItemInventario);
+    document.getElementById("inventoryDetailDelete")?.addEventListener("click", excluirItemPelosDetalhes);
+    // O editor completo de efeitos já possui seu próprio botão + Efeito.
+}
+
+document.addEventListener("DOMContentLoaded", configurarDetalhesInventario);
+
+
+function renderizarInventario() {
+
+    const container = document.getElementById("inventoryList");
+    if (!container) return;
+
+    const editando = document.getElementById("editModeToggle")?.checked;
     container.innerHTML = "";
 
+    conteudo.inventario.forEach(item => {
+        const elemento = document.createElement("div");
 
-    conteudo.inventario
-        .forEach(item => {
+        if (editando) {
+            elemento.className = "inventory-item";
+            elemento.innerHTML = `
+                <input class="inventory-name" type="text" value="" placeholder="Nome do item">
+                <input class="inventory-quantity" type="number" min="0" value="1" title="Quantidade">
+                <input class="inventory-item-weight" type="number" min="0" step="0.01" value="0" title="Peso unitário em kg">
+                <button class="inventory-more" type="button" title="Editar detalhes">⋯</button>
+                <button class="inventory-delete" type="button" title="Excluir">🗑</button>
+            `;
 
-            const elemento =
-                document.createElement("div");
+            const nome = elemento.querySelector(".inventory-name");
+            const quantidade = elemento.querySelector(".inventory-quantity");
+            const peso = elemento.querySelector(".inventory-item-weight");
+            const detalhes = elemento.querySelector(".inventory-more");
+            const excluir = elemento.querySelector(".inventory-delete");
 
+            nome.value = item.nome ?? "";
+            quantidade.value = item.quantidade ?? 1;
+            peso.value = item.peso ?? 0;
 
-            /* =====================
-               MODO EDIÇÃO
-               ===================== */
+            nome.addEventListener("input", () => { item.nome = nome.value; agendarSalvamentoConteudo(); });
+            quantidade.addEventListener("input", () => { item.quantidade = Number(quantidade.value || 0); atualizarPesoInventario(); agendarSalvamentoConteudo(); });
+            peso.addEventListener("input", () => { item.peso = Number(peso.value || 0); atualizarPesoInventario(); agendarSalvamentoConteudo(); });
+            detalhes?.addEventListener("click", () => abrirDetalhesItemInventario(item));
+            excluir.addEventListener("click", () => excluirItemInventario(item.id));
+        } else {
+            elemento.className = "inventory-view inventory-rich";
+            const quantidade = Number(item.quantidade || 0);
+            const pesoUnitario = Number(item.peso || 0);
+            const pesoTotal = quantidade * pesoUnitario;
+            const effects = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+            const temToggle = itemTemToggle(item);
 
-            if (editando) {
+            const top = document.createElement("div");
+            top.className = "inventory-rich-top";
 
-                elemento.className =
-                    "inventory-item";
-
-
-                elemento.innerHTML = `
-
-                    <input
-                        class="inventory-name"
-                        type="text"
-                        value=""
-                        placeholder="Nome do item"
-                    >
-
-                    <input
-                        class="inventory-quantity"
-                        type="number"
-                        min="0"
-                        value="1"
-                        title="Quantidade"
-                    >
-
-                    <input
-                        class="inventory-item-weight"
-                        type="number"
-                        min="0"
-                        step="0.01"
-                        value="0"
-                        title="Peso unitário em kg"
-                    >
-
-                    <button
-                        class="inventory-delete"
-                        type="button"
-                        title="Excluir"
-                    >
-                        🗑
-                    </button>
-                `;
-
-
-                const nome =
-                    elemento.querySelector(
-                        ".inventory-name"
-                    );
-
-                const quantidade =
-                    elemento.querySelector(
-                        ".inventory-quantity"
-                    );
-
-                const peso =
-                    elemento.querySelector(
-                        ".inventory-item-weight"
-                    );
-
-                const excluir =
-                    elemento.querySelector(
-                        ".inventory-delete"
-                    );
-
-
-                nome.value =
-                    item.nome ?? "";
-
-                quantidade.value =
-                    item.quantidade ?? 1;
-
-                peso.value =
-                    item.peso ?? 0;
-
-
-                nome.addEventListener(
-                    "input",
-                    () => {
-
-                        item.nome =
-                            nome.value;
-
-                        agendarSalvamentoConteudo();
-
-                    }
-                );
-
-
-                quantidade.addEventListener(
-                    "input",
-                    () => {
-
-                        item.quantidade =
-                            Number(
-                                quantidade.value || 0
-                            );
-
-                        atualizarPesoInventario();
-
-                        agendarSalvamentoConteudo();
-
-                    }
-                );
-
-
-                peso.addEventListener(
-                    "input",
-                    () => {
-
-                        item.peso =
-                            Number(
-                                peso.value || 0
-                            );
-
-                        atualizarPesoInventario();
-
-                        agendarSalvamentoConteudo();
-
-                    }
-                );
-
-
-                excluir.addEventListener(
-                    "click",
-                    () => {
-
-                        excluirItemInventario(
-                            item.id
-                        );
-
-                    }
-                );
-
+            const main = document.createElement("div");
+            main.className = "inventory-rich-main";
+            const nameLine = document.createElement("div");
+            nameLine.className = "inventory-rich-name";
+            const strong = document.createElement("strong");
+            strong.textContent = item.nome || "Item sem nome";
+            nameLine.appendChild(strong);
+            if (quantidade > 1) {
+                const q = document.createElement("span"); q.textContent = `×${quantidade}`; nameLine.appendChild(q);
+            }
+            main.appendChild(nameLine);
+            if (itemInventarioEhArma(item)) {
+                const badge=document.createElement("span"); badge.className="inventory-weapon-badge"; badge.textContent="⚔ gera ataque"; main.appendChild(badge);
             }
 
-
-            
-            /* =====================
-               MODO VISUALIZAÇÃO
-               ===================== */
-
-            else {
-
-                elemento.className =
-                    "inventory-view";
-
-
-                const quantidade =
-                    Number(
-                        item.quantidade || 0
-                    );
-
-                const pesoUnitario =
-                    Number(
-                        item.peso || 0
-                    );
-
-                const pesoTotal =
-                    quantidade *
-                    pesoUnitario;
-
-
-                elemento.innerHTML = `
-
-                    <span>
-                        <strong></strong>
-                        <span class="item-quantity"></span>
-                    </span>
-
-                    <span class="inventory-weight"></span>
-
-                `;
-
-
-                elemento
-                    .querySelector("strong")
-                    .textContent =
-                    item.nome ||
-                    "Item sem nome";
-
-
-                elemento
-                    .querySelector(
-                        ".item-quantity"
-                    )
-                    .textContent =
-                    quantidade > 1
-                        ? ` ×${quantidade}`
-                        : "";
-
-
-                elemento
-                    .querySelector(
-                        ".inventory-weight"
-                    )
-                    .textContent =
-                    `${pesoTotal.toFixed(2)} kg`;
-
+            if (item.descricao) {
+                const desc = document.createElement("div");
+                desc.className = "inventory-rich-description";
+                desc.textContent = item.descricao;
+                main.appendChild(desc);
             }
 
+            if (effects.length) {
+                const effectsBox = document.createElement("div");
+                effectsBox.className = "inventory-effects";
+                effects.forEach(effect => {
+                    const info = descreverEfeitoItem(effect);
+                    const row = document.createElement("div");
+                    row.className = "inventory-effect-row";
 
-            container.appendChild(
-                elemento
-            );
+                    const chip = document.createElement("span");
+                    chip.className = `inventory-effect-chip ${info.mode === "conditional" ? "conditional" : ""}`;
+                    chip.textContent = `${info.texto} · ${info.sufixo}`;
+                    row.appendChild(chip);
 
-        });
+                    if (info.mode === "conditional") {
+                        row.appendChild(criarSeletorCondicaoInventario(item, effect));
+                    }
 
+                    effectsBox.appendChild(row);
+                });
+                main.appendChild(effectsBox);
+            }
+
+            const side = document.createElement("div");
+            side.style.display = "flex";
+            side.style.alignItems = "center";
+            side.style.gap = "8px";
+            const weight = document.createElement("span");
+            weight.className = "inventory-weight";
+            weight.textContent = `${pesoTotal.toFixed(2)} kg`;
+            side.appendChild(weight);
+
+            const detalhes = document.createElement("button");
+            detalhes.type = "button";
+            detalhes.className = "inventory-more";
+            detalhes.textContent = "⋯";
+            detalhes.title = "Editar detalhes do item";
+            detalhes.addEventListener("click", () => abrirDetalhesItemInventario(item));
+            side.appendChild(detalhes);
+
+            if (temToggle) {
+                const toggle = document.createElement("button");
+                toggle.type = "button";
+                toggle.className = `inventory-toggle ${item.ativo ? "active" : ""}`;
+                toggle.textContent = item.ativo ? "ON" : "OFF";
+                toggle.title = item.ativo ? "Desativar efeitos do item" : "Ativar efeitos do item";
+                toggle.addEventListener("click", () => alternarItemInventario(item));
+                side.appendChild(toggle);
+            }
+
+            top.appendChild(main);
+            top.appendChild(side);
+            elemento.appendChild(top);
+        }
+
+        container.appendChild(elemento);
+    });
 
     atualizarPesoInventario();
 }
-  
-  /* ============================================================
+
+/* ============================================================
+   V4 — CAMADA DE ESTABILIDADE DO SISTEMA DE ITENS
+   Mantém o modelo flexível e centraliza compatibilidade/estado.
+   ============================================================ */
+const ITEM_SCHEMA_VERSION = 4;
+
+function numeroFinitoItemV4(valor, padrao = 0) {
+    const n = Number(valor);
+    return Number.isFinite(n) ? n : padrao;
+}
+
+function normalizarEstadoItemV4(item) {
+    const bruto = String(item?.estado ?? item?.state ?? "normal").trim().toLowerCase();
+    return ["normal", "disabled", "broken"].includes(bruto) ? bruto : "normal";
+}
+
+function normalizarConsumivelItemV4(item) {
+    const original = item?.consumable || item?.consumivel || {};
+    return {
+        enabled: Boolean(original.enabled ?? original.ativo ?? false),
+        amountPerUse: Math.max(1, numeroFinitoItemV4(original.amountPerUse ?? original.quantidadePorUso ?? 1, 1)),
+        label: String(original.label ?? original.rotulo ?? "Usar").trim() || "Usar"
+    };
+}
+
+function normalizarDefesasItemV4(item) {
+    const original = item?.defenses || item?.defesas || {};
+    return {
+        resistances: String(original.resistances ?? original.resistencias ?? ""),
+        immunities: String(original.immunities ?? original.imunidades ?? "")
+    };
+}
+
+function normalizarRecursosItemV4(item) {
+    const lista = Array.isArray(item?.resources)
+        ? item.resources
+        : (Array.isArray(item?.recursos) ? item.recursos : []);
+    const vistos = new Set();
+    return lista.map(recurso => {
+        const r = recurso && typeof recurso === "object" ? recurso : {};
+        let id = String(r.id || "").trim();
+        if (!id || vistos.has(id)) id = criarId();
+        vistos.add(id);
+        const maxRaw = r.max ?? r.maximo ?? null;
+        const max = maxRaw === null || maxRaw === "" || maxRaw === undefined
+            ? null
+            : Math.max(0, numeroFinitoItemV4(maxRaw, 0));
+        let current = Math.max(0, numeroFinitoItemV4(r.current ?? r.atual ?? 0, 0));
+        if (max !== null) current = Math.min(current, max);
+        return {
+            ...r,
+            id,
+            name: String(r.name ?? r.nome ?? "Recurso").trim() || "Recurso",
+            current,
+            max,
+            showNormal: r.showNormal !== false,
+            showCombat: r.showCombat !== false
+        };
+    });
+}
+
+function normalizarItemInventarioV4(item) {
+    if (!item || typeof item !== "object") item = {};
+    item.schemaVersion = ITEM_SCHEMA_VERSION;
+    item.id = String(item.id || "").trim() || criarId();
+    item.nome = String(item.nome ?? item.name ?? "");
+    item.quantidade = Math.max(0, numeroFinitoItemV4(item.quantidade ?? item.quantity ?? 1, 1));
+    item.peso = Math.max(0, numeroFinitoItemV4(item.peso ?? item.weight ?? 0, 0));
+    item.estado = normalizarEstadoItemV4(item);
+    item.consumable = normalizarConsumivelItemV4(item);
+    item.defenses = normalizarDefesasItemV4(item);
+    item.resources = normalizarRecursosItemV4(item);
+    item.effects = Array.isArray(item.effects)
+        ? item.effects
+        : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    delete item.efeitos;
+    delete item.consumivel;
+    delete item.defesas;
+    delete item.recursos;
+    return item;
+}
+
+function normalizarInventarioV4(lista) {
+    const inventario = Array.isArray(lista) ? lista : [];
+    const ids = new Set();
+    inventario.forEach((item, indice) => {
+        item = normalizarItemInventarioV4(item);
+        if (ids.has(item.id)) item.id = criarId();
+        ids.add(item.id);
+        inventario[indice] = item;
+    });
+    return inventario;
+}
+
+function itemInventarioDisponivelV4(item) {
+    if (!item) return false;
+    return normalizarEstadoItemV4(item) === "normal" && numeroFinitoItemV4(item.quantidade, 0) > 0;
+}
+
+function motivoIndisponibilidadeItemV4(item) {
+    if (numeroFinitoItemV4(item?.quantidade, 0) <= 0) return "Sem estoque";
+    const estado = normalizarEstadoItemV4(item);
+    if (estado === "broken") return "Quebrado";
+    if (estado === "disabled") return "Desativado";
+    return "";
+}
+
+/* normalização acontece já na carga da ficha, inclusive em fichas antigas */
+const _normalizarConteudoAntesV4 = normalizarConteudo;
+normalizarConteudo = function(dados) {
+    const resultado = _normalizarConteudoAntesV4(dados || {});
+    resultado.inventario = normalizarInventarioV4(resultado.inventario);
+    return resultado;
+};
+
+/* ------------------------------------------------------------
+   ARMAS — compatibilidade + campos próprios
+   ------------------------------------------------------------ */
+const _normalizarAtaqueArmaAntesV4 = normalizarAtaqueArmaItem;
+normalizarAtaqueArmaItem = function(item) {
+    const base = _normalizarAtaqueArmaAntesV4(item);
+    const original = item?.weaponAttack || item?.ataqueArma || {};
+    return {
+        ...base,
+        hitBonus: numeroFinitoItemV4(original.hitBonus ?? original.bonusHit ?? original.bonusAcerto ?? 0, 0),
+        damageBonus: String(original.damageBonus ?? original.bonusDamage ?? original.bonusDano ?? "").trim(),
+        range: String(original.range ?? original.alcance ?? "").trim(),
+        hands: String(original.hands ?? original.maos ?? original.mãos ?? "").trim(),
+        ammo: String(original.ammo ?? original.municao ?? original.munição ?? "").trim(),
+        reload: String(original.reload ?? original.recarga ?? "").trim(),
+        properties: String(original.properties ?? original.propriedades ?? "").trim(),
+        allowedToggles: Array.isArray(base.allowedToggles) ? [...new Set(base.allowedToggles.filter(Boolean))] : []
+    };
+};
+
+sincronizarAtaquesDeItensInventario = function() {
+    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
+    let mudou = false;
+
+    const antes = conteudo.ataques.length;
+    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
+    if (conteudo.ataques.length !== antes) mudou = true;
+
+    (conteudo.inventario || []).forEach(item => {
+        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
+        const arma = itemInventarioEhArma(item);
+        const config = normalizarAtaqueArmaItem(item);
+        const disponivel = itemInventarioDisponivelV4(item);
+
+        if (!arma || !config.enabled || !disponivel) {
+            if (existenteIndex >= 0) {
+                conteudo.ataques.splice(existenteIndex, 1);
+                mudou = true;
+            }
+            return;
+        }
+
+        item.weaponAttack = config;
+        delete item.ataqueArma;
+
+        const anterior = existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : null;
+        const attack = {
+            ...(anterior || {}),
+            id: anterior?.id || criarId(),
+            sourceItemId: item.id,
+            sourceType: "inventoryWeapon",
+            name: config.name || item.nome || "Arma",
+            subtitle: item.subtipo || item.descricao || "Item do inventário",
+            skill: config.skill || "Luta",
+            stat: config.stat || "str",
+            die: config.die || "1d6",
+            type: config.type || "",
+            critMargin: Math.max(1, Math.min(20, numeroFinitoItemV4(config.threat, 20))),
+            critMultiplier: Math.max(1, numeroFinitoItemV4(config.crit, 2)),
+            allowedCombatToggles: [...(config.allowedToggles || [])],
+            itemHitBonus: numeroFinitoItemV4(config.hitBonus, 0),
+            itemDamageBonus: String(config.damageBonus || "").trim(),
+            weaponRange: config.range || "",
+            weaponHands: config.hands || "",
+            weaponAmmo: config.ammo || "",
+            weaponReload: config.reload || "",
+            weaponProperties: config.properties || "",
+            effects: anterior && Array.isArray(anterior.effects) ? anterior.effects : []
+        };
+
+        if (existenteIndex >= 0) {
+            if (JSON.stringify(anterior) !== JSON.stringify(attack)) {
+                conteudo.ataques[existenteIndex] = attack;
+                mudou = true;
+            }
+        } else {
+            conteudo.ataques.push(attack);
+            mudou = true;
+        }
+    });
+
+    if (mudou) agendarSalvamentoConteudo();
+    return mudou;
+};
+
+const _getAttackEffectsAntesV4 = getAttackEffects;
+getAttackEffects = function(attack) {
+    const efeitos = _getAttackEffectsAntesV4(attack);
+    if (!attack?.sourceItemId) return efeitos;
+    const hit = numeroFinitoItemV4(attack.itemHitBonus, 0);
+    const damage = String(attack.itemDamageBonus || "").trim();
+    if (!hit && !damage) return efeitos;
+    return [
+        ...efeitos,
+        {
+            id: `item-own-${attack.sourceItemId}`,
+            type: "attack",
+            bonusHit: hit,
+            bonusDamage: damage,
+            text: "Bônus próprio da arma"
+        }
+    ];
+};
+
+/* os campos avançados da arma no modal passam a ser realmente persistidos */
+const _preencherEditorAtaqueArmaAntesV4 = preencherEditorAtaqueArma;
+preencherEditorAtaqueArma = function(item) {
+    _preencherEditorAtaqueArmaAntesV4(item);
+    if (!itemInventarioEhArma(item)) return;
+    const config = normalizarAtaqueArmaItem(item);
+    const pares = {
+        inventoryDetailWeaponHitBonus: config.hitBonus,
+        inventoryDetailWeaponDamageBonus: config.damageBonus,
+        inventoryDetailWeaponRange: config.range,
+        inventoryDetailWeaponHands: config.hands,
+        inventoryDetailWeaponAmmo: config.ammo,
+        inventoryDetailWeaponReload: config.reload,
+        inventoryDetailWeaponProperties: config.properties
+    };
+    Object.entries(pares).forEach(([id, valor]) => {
+        const el = document.getElementById(id);
+        if (el) el.value = valor ?? "";
+    });
+};
+
+const _coletarAtaqueArmaDetalhadoAntesV4 = coletarAtaqueArmaDetalhado;
+coletarAtaqueArmaDetalhado = function(item) {
+    _coletarAtaqueArmaDetalhadoAntesV4(item);
+    if (!item?.weaponAttack) return;
+    item.weaponAttack.hitBonus = numeroFinitoItemV4(document.getElementById("inventoryDetailWeaponHitBonus")?.value, 0);
+    item.weaponAttack.damageBonus = String(document.getElementById("inventoryDetailWeaponDamageBonus")?.value || "").trim();
+    item.weaponAttack.range = String(document.getElementById("inventoryDetailWeaponRange")?.value || "").trim();
+    item.weaponAttack.hands = String(document.getElementById("inventoryDetailWeaponHands")?.value || "").trim();
+    item.weaponAttack.ammo = String(document.getElementById("inventoryDetailWeaponAmmo")?.value || "").trim();
+    item.weaponAttack.reload = String(document.getElementById("inventoryDetailWeaponReload")?.value || "").trim();
+    item.weaponAttack.properties = String(document.getElementById("inventoryDetailWeaponProperties")?.value || "").trim();
+};
+
+/* ------------------------------------------------------------
+   EFEITOS — quantidade 0, quebrado ou desativado suspendem tudo
+   ------------------------------------------------------------ */
+coletarEfeitosInventario = function(tipoEfeito) {
+    const resultado = [];
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        if (!itemInventarioDisponivelV4(item)) return;
+        const effects = Array.isArray(item.effects) ? item.effects : [];
+        effects.forEach(raw => {
+            const effect = converterEfeitoItem(raw, item);
+            if (effect.type !== tipoEfeito) return;
+            if (effect.mode === "use") return;
+            if (effect.mode === "toggle" && !item.ativo) return;
+            if (effect.mode === "conditional") {
+                const requiresToggle = String(raw?.requiresToggle || effect?.requiresToggle || "").trim();
+                if (!requiresToggle) return;
+                effect.requiresToggle = requiresToggle;
+            }
+            resultado.push(effect);
+        });
+    });
+    return resultado;
+};
+
+/* ------------------------------------------------------------
+   MODIFICADORES DE COMBATE — integridade de referências
+   ------------------------------------------------------------ */
+const _contarReferenciasToggleAntesV4 = contarReferenciasToggle;
+contarReferenciasToggle = function(toggleId) {
+    let total = _contarReferenciasToggleAntesV4(toggleId);
+    (conteudo.inventario || []).forEach(item => {
+        const efeitos = Array.isArray(item.effects) ? item.effects : (Array.isArray(item.efeitos) ? item.efeitos : []);
+        efeitos.forEach(effect => {
+            if (String(effect?.requiresToggle || "") === toggleId) total++;
+        });
+        const config = item?.weaponAttack || item?.ataqueArma || {};
+        const permitidos = Array.isArray(config.allowedToggles)
+            ? config.allowedToggles
+            : (Array.isArray(config.modificadores) ? config.modificadores : []);
+        if (permitidos.includes(toggleId)) total++;
+    });
+    return total;
+};
+
+function atualizarNomeToggleEmItensV4(toggleId, nome) {
+    document.querySelectorAll(".inventory-condition-link select, .inventory-detail-effect-condition-select").forEach(select => {
+        const option = [...select.options].find(opt => opt.value === toggleId);
+        if (option) option.textContent = nome || "Modificador";
+    });
+    document.querySelectorAll("#inventoryDetailWeaponModifiers label").forEach(label => {
+        const input = label.querySelector('input[type="checkbox"]');
+        if (input?.value !== toggleId) return;
+        const texto = [...label.childNodes].find(node => node.nodeType === Node.TEXT_NODE);
+        if (texto) texto.nodeValue = nome || "Modificador";
+    });
+    renderizarAtaques();
+}
+
+const _renderizarTogglesCombateAntesV4 = renderizarTogglesCombate;
+renderizarTogglesCombate = function() {
+    _renderizarTogglesCombateAntesV4();
+    const container = document.getElementById("combatToggleList");
+    if (!container?.classList.contains("toggle-editor")) return;
+    const rows = [...container.querySelectorAll(".toggle-editor-row")];
+    rows.forEach((row, index) => {
+        const toggle = (conteudo.togglesCombate || [])[index];
+        const input = row.querySelector('input[type="text"]');
+        if (!toggle || !input || input.dataset.v4Bound === "1") return;
+        input.dataset.v4Bound = "1";
+        input.addEventListener("input", () => atualizarNomeToggleEmItensV4(toggle.id, input.value));
+    });
+};
+
+/* ------------------------------------------------------------
+   RECURSOS DO ITEM
+   - continuam visíveis quando o item fica indisponível
+   - ficam bloqueados, sem perder o valor atual
+   ------------------------------------------------------------ */
+let inventoryItemResourcesDraftV4 = [];
+
+function renderizarRecursosItemEditorV4(lista) {
+    inventoryItemResourcesDraftV4 = structuredClone(Array.isArray(lista) ? lista : []);
+    const root = document.getElementById("inventoryDetailResources");
+    if (!root) return;
+    root.innerHTML = "";
+    if (!inventoryItemResourcesDraftV4.length) {
+        const vazio = document.createElement("small");
+        vazio.style.color = "var(--muted)";
+        vazio.textContent = "Nenhum recurso configurado.";
+        root.appendChild(vazio);
+        return;
+    }
+    inventoryItemResourcesDraftV4.forEach(recurso => {
+        const r = normalizarRecursosItemV4({ resources: [recurso] })[0];
+        const row = document.createElement("div");
+        row.className = "inventory-item-resource-row";
+        row.dataset.resourceId = r.id;
+        row.innerHTML = `
+            <input class="ir-name" type="text" placeholder="Nome">
+            <input class="ir-current" type="number" min="0" placeholder="Atual">
+            <input class="ir-max" type="number" min="0" placeholder="Máx">
+            <label class="inventory-item-resource-check"><input class="ir-normal" type="checkbox"> Ficha</label>
+            <label class="inventory-item-resource-check"><input class="ir-combat" type="checkbox"> Combate</label>
+            <button class="inventory-delete ir-delete" type="button" title="Excluir recurso">×</button>`;
+        row.querySelector(".ir-name").value = r.name;
+        row.querySelector(".ir-current").value = r.current;
+        row.querySelector(".ir-max").value = r.max === null ? "" : r.max;
+        row.querySelector(".ir-normal").checked = r.showNormal !== false;
+        row.querySelector(".ir-combat").checked = r.showCombat !== false;
+        row.querySelector(".ir-delete").addEventListener("click", () => row.remove());
+        root.appendChild(row);
+    });
+}
+
+function coletarRecursosItemEditorV4() {
+    return [...document.querySelectorAll("#inventoryDetailResources .inventory-item-resource-row")].map(row => {
+        const maxInput = row.querySelector(".ir-max");
+        const max = !maxInput || maxInput.value === "" ? null : Math.max(0, numeroFinitoItemV4(maxInput.value, 0));
+        let current = Math.max(0, numeroFinitoItemV4(row.querySelector(".ir-current")?.value, 0));
+        if (max !== null) current = Math.min(current, max);
+        return {
+            id: row.dataset.resourceId || criarId(),
+            name: String(row.querySelector(".ir-name")?.value || "Recurso").trim() || "Recurso",
+            current,
+            max,
+            showNormal: Boolean(row.querySelector(".ir-normal")?.checked),
+            showCombat: Boolean(row.querySelector(".ir-combat")?.checked)
+        };
+    });
+}
+
+function criarBlocoRecursoItemV4(item, recurso) {
+    const block = document.createElement("div");
+    block.className = "resource-block item-resource-v4";
+    const disponivel = itemInventarioDisponivelV4(item);
+    const key = `${item.id}::${recurso.id}`;
+    const title = document.createElement("div");
+    title.className = "resource-title";
+    title.textContent = recurso.name || "Recurso";
+    const source = document.createElement("small");
+    source.className = "item-resource-source";
+    source.textContent = disponivel ? (item.nome || "Item") : `${item.nome || "Item"} — ${motivoIndisponibilidadeItemV4(item)}`;
+    title.appendChild(source);
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.value = numeroFinitoItemV4(recurso.current, 0);
+    input.dataset.itemResourceKey = key;
+    input.dataset.gameplay = "true";
+    input.disabled = !isOwner || !disponivel;
+    input.style.width = "70px";
+    input.style.textAlign = "center";
+    block.appendChild(title);
+    block.appendChild(input);
+    if (recurso.max !== null && recurso.max !== undefined) {
+        const max = document.createElement("span");
+        max.textContent = ` / ${recurso.max}`;
+        block.appendChild(max);
+    }
+    const persistirValor = () => {
+        const itemReal = (conteudo.inventario || []).find(entry => entry.id === item.id);
+        if (!itemReal) return null;
+        normalizarItemInventarioV4(itemReal);
+        const recursoReal = (itemReal.resources || []).find(entry => entry.id === recurso.id);
+        if (!recursoReal) return null;
+
+        let valor = Math.max(0, numeroFinitoItemV4(input.value, 0));
+        if (recursoReal.max !== null && recursoReal.max !== undefined) {
+            valor = Math.min(valor, numeroFinitoItemV4(recursoReal.max, valor));
+        }
+
+        recursoReal.current = valor;
+        input.value = valor;
+
+        document.querySelectorAll("[data-item-resource-key]").forEach(outro => {
+            if (outro !== input && outro.dataset.itemResourceKey === key) outro.value = valor;
+        });
+
+        return valor;
+    };
+
+    input.addEventListener("input", () => {
+        if (persistirValor() === null) return;
+        agendarSalvamentoConteudo();
+    });
+
+    // Ao terminar a edição, força uma gravação imediata. Isso evita perder
+    // o último valor caso a página seja recarregada antes do debounce.
+    input.addEventListener("change", async () => {
+        if (persistirValor() === null) return;
+        clearTimeout(conteudoSaveTimer);
+        await salvarConteudo();
+    });
+    return block;
+}
+
+const _renderizarRecursosAntesV4 = renderizarRecursos;
+renderizarRecursos = function() {
+    _renderizarRecursosAntesV4();
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        (item.resources || []).forEach(recurso => {
+            if (recurso.showNormal !== false) document.getElementById("normalResourceList")?.appendChild(criarBlocoRecursoItemV4(item, recurso));
+            if (recurso.showCombat !== false) document.getElementById("combatResourceList")?.appendChild(criarBlocoRecursoItemV4(item, recurso));
+        });
+    });
+};
+
+/* ------------------------------------------------------------
+   DEFESAS TEXTUAIS DE ITENS — somente display
+   ------------------------------------------------------------ */
+function renderizarDefesasItensV4() {
+    const combatResourceList = document.getElementById("combatResourceList");
+    if (!combatResourceList?.parentElement) return;
+    let root = document.getElementById("itemDefensesV4");
+    if (!root) {
+        root = document.createElement("div");
+        root.id = "itemDefensesV4";
+        root.className = "resource-block";
+        combatResourceList.parentElement.insertBefore(root, combatResourceList);
+    }
+    root.innerHTML = "";
+    const linhas = [];
+    (conteudo.inventario || []).forEach(itemBruto => {
+        const item = normalizarItemInventarioV4(itemBruto);
+        if (!itemInventarioDisponivelV4(item)) return;
+        const d = item.defenses || {};
+        if (String(d.resistances || "").trim()) linhas.push({ tipo: "Resistência", texto: String(d.resistances).trim(), item: item.nome || "Item" });
+        if (String(d.immunities || "").trim()) linhas.push({ tipo: "Imunidade", texto: String(d.immunities).trim(), item: item.nome || "Item" });
+    });
+    if (!linhas.length) {
+        root.hidden = true;
+        return;
+    }
+    root.hidden = false;
+    const title = document.createElement("div");
+    title.className = "resource-title";
+    title.textContent = "Defesas de itens";
+    root.appendChild(title);
+    linhas.forEach(linha => {
+        const tag = document.createElement("span");
+        tag.className = "action-tag";
+        tag.textContent = `${linha.tipo}: ${linha.texto} (${linha.item})`;
+        root.appendChild(tag);
+    });
+};
+
+/* ------------------------------------------------------------
+   MODAL DETALHADO — estado, consumível, defesas e recursos
+   ------------------------------------------------------------ */
+const _abrirDetalhesAntesV4 = abrirDetalhesItemInventario;
+abrirDetalhesItemInventario = function(itemOrId) {
+    const item = typeof itemOrId === "string"
+        ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+        : itemOrId;
+    if (!item) return;
+    normalizarItemInventarioV4(item);
+    _abrirDetalhesAntesV4(item);
+    const estado = document.getElementById("inventoryDetailState");
+    if (estado) estado.value = item.estado;
+    const consumivel = item.consumable;
+    const cEnabled = document.getElementById("inventoryDetailConsumableEnabled");
+    const cAmount = document.getElementById("inventoryDetailConsumableAmount");
+    const cLabel = document.getElementById("inventoryDetailConsumableLabel");
+    if (cEnabled) cEnabled.checked = consumivel.enabled;
+    if (cAmount) cAmount.value = consumivel.amountPerUse;
+    if (cLabel) cLabel.value = consumivel.label;
+    const resist = document.getElementById("inventoryDetailResistances");
+    const immun = document.getElementById("inventoryDetailImmunities");
+    if (resist) resist.value = item.defenses.resistances;
+    if (immun) immun.value = item.defenses.immunities;
+    renderizarRecursosItemEditorV4(item.resources);
+};
+
+const _salvarDetalhesAntesV4 = salvarDetalhesItemInventario;
+salvarDetalhesItemInventario = async function() {
+    const itemId = inventoryDetailItemId;
+    const recursosColetados = coletarRecursosItemEditorV4();
+    const estadoColetado = String(document.getElementById("inventoryDetailState")?.value || "normal");
+    const consumivelColetado = {
+        enabled: Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked),
+        amountPerUse: Math.max(1, numeroFinitoItemV4(document.getElementById("inventoryDetailConsumableAmount")?.value, 1)),
+        label: String(document.getElementById("inventoryDetailConsumableLabel")?.value || "Usar").trim() || "Usar"
+    };
+    const defesasColetadas = {
+        resistances: String(document.getElementById("inventoryDetailResistances")?.value || "").trim(),
+        immunities: String(document.getElementById("inventoryDetailImmunities")?.value || "").trim()
+    };
+
+    const aplicarCamposV4 = () => {
+        const itemReal = (conteudo.inventario || []).find(entry => entry.id === itemId);
+        if (!itemReal) return null;
+        itemReal.estado = estadoColetado;
+        itemReal.consumable = structuredClone(consumivelColetado);
+        itemReal.defenses = structuredClone(defesasColetadas);
+        itemReal.resources = structuredClone(recursosColetados);
+        normalizarItemInventarioV4(itemReal);
+        return itemReal;
+    };
+
+    aplicarCamposV4();
+    await _salvarDetalhesAntesV4();
+
+    // A rotina antiga atualiza vários campos e re-renderiza a ficha. Reaplicamos
+    // os campos v4 depois dela para impedir que uma renderização/normalização
+    // intermediária recupere a versão anterior dos recursos.
+    const itemFinal = aplicarCamposV4();
+    if (itemFinal) {
+        sincronizarAtaquesDeItensInventario();
+        await salvarConteudo();
+    }
+
+    renderizarRecursos();
+    renderizarDefesasItensV4();
+};
+
+/* ------------------------------------------------------------
+   INVENTÁRIO — estado, uso real de consumíveis, quantidade 0
+   ------------------------------------------------------------ */
+async function usarItemConsumivelV4(itemId) {
+    const item = (conteudo.inventario || []).find(entry => entry.id === itemId);
+    if (!item) return;
+    normalizarItemInventarioV4(item);
+    const c = item.consumable;
+    if (!c.enabled || normalizarEstadoItemV4(item) !== "normal") return;
+    const custo = Math.max(1, numeroFinitoItemV4(c.amountPerUse, 1));
+    const atual = Math.max(0, numeroFinitoItemV4(item.quantidade, 0));
+    if (atual < custo) return;
+    item.quantidade = Math.max(0, atual - custo);
+    sincronizarAtaquesDeItensInventario();
+    renderizarInventario();
+    renderizarAtaques();
+    updateSheet();
+    await salvarConteudo();
+}
+
+const _renderizarInventarioAntesV4 = renderizarInventario;
+renderizarInventario = function() {
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    _renderizarInventarioAntesV4();
+    const container = document.getElementById("inventoryList");
+    if (!container) return;
+    const editando = Boolean(document.getElementById("editModeToggle")?.checked);
+    [...container.children].forEach((elemento, index) => {
+        const item = conteudo.inventario[index];
+        if (!item) return;
+        elemento.dataset.inventoryItemId = item.id;
+        if (editando) {
+            const q = elemento.querySelector(".inventory-quantity");
+            if (q && q.dataset.v4Bound !== "1") {
+                q.dataset.v4Bound = "1";
+                q.addEventListener("change", () => {
+                    item.quantidade = Math.max(0, numeroFinitoItemV4(q.value, 0));
+                    sincronizarAtaquesDeItensInventario();
+                    renderizarAtaques();
+                    updateSheet();
+                });
+            }
+            return;
+        }
+        const main = elemento.querySelector(".inventory-rich-main");
+        const top = elemento.querySelector(".inventory-rich-top");
+        const side = top?.lastElementChild;
+        if (!main || !side) return;
+        const estado = normalizarEstadoItemV4(item);
+        const disponivel = itemInventarioDisponivelV4(item);
+        if (estado !== "normal" || numeroFinitoItemV4(item.quantidade, 0) <= 0) {
+            const badge = document.createElement("span");
+            badge.className = `inventory-state-badge ${estado === "broken" ? "broken" : "disabled"}`;
+            badge.textContent = motivoIndisponibilidadeItemV4(item);
+            main.appendChild(badge);
+        }
+        const weaponBadge = main.querySelector(".inventory-weapon-badge");
+        if (weaponBadge && !disponivel) weaponBadge.textContent = "⚔ ataque indisponível";
+        const c = item.consumable;
+        if (c.enabled) {
+            const use = document.createElement("button");
+            use.type = "button";
+            use.className = "add-button inventory-use-v4";
+            use.textContent = c.label || "Usar";
+            const custo = Math.max(1, numeroFinitoItemV4(c.amountPerUse, 1));
+            use.disabled = !disponivel || numeroFinitoItemV4(item.quantidade, 0) < custo || !isOwner;
+            use.title = use.disabled ? motivoIndisponibilidadeItemV4(item) || "Quantidade insuficiente" : `Consome ${custo}`;
+            use.addEventListener("click", () => usarItemConsumivelV4(item.id));
+            side.insertBefore(use, side.firstChild);
+        }
+    });
+};
+
+const _excluirItemInventarioAntesV4 = excluirItemInventario;
+excluirItemInventario = async function(id) {
+    await _excluirItemInventarioAntesV4(id);
+    sincronizarAtaquesDeItensInventario();
+    renderizarRecursos();
+    renderizarDefesasItensV4();
+    updateSheet();
+};
+
+/* update geral garante que efeitos/ataques/defesas sempre reflitam o estado atual */
+const _updateSheetAntesV4 = updateSheet;
+updateSheet = function(...args) {
+    conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    sincronizarAtaquesDeItensInventario();
+    const resultado = _updateSheetAntesV4(...args);
+    renderizarDefesasItensV4();
+    return resultado;
+};
+
+/* botão + Recurso do item */
+document.addEventListener("DOMContentLoaded", () => {
+    const add = document.getElementById("inventoryDetailAddResource");
+    if (add && add.dataset.v4Bound !== "1") {
+        add.dataset.v4Bound = "1";
+        add.addEventListener("click", () => {
+            const atual = coletarRecursosItemEditorV4();
+            atual.push({ id: criarId(), name: "Novo recurso", current: 0, max: null, showNormal: true, showCombat: true });
+            renderizarRecursosItemEditorV4(atual);
+        });
+    }
+});
+
+    /* ============================================================
    IMAGENS OPCIONAIS DOS CARDS
    ============================================================ */
 
@@ -17776,40 +19189,6 @@ function configurarTooltipsFicha() {
     }
 
 
-    /*
-       Marca o <body> enquanto algum tooltip estiver fixado (clique).
-       O CSS usa isso para esconder os tooltips de hover dos outros
-       gatilhos. Observa a classe, então vale para qualquer forma de
-       abrir/fechar (clique, Enter, Escape, clique fora).
-    */
-    const atualizarTooltipFixado = () => {
-        document.body.classList.toggle(
-            "has-pinned-tooltip",
-            triggers.some(
-                trigger =>
-                    trigger.classList.contains(
-                        "tooltip-open"
-                    )
-            )
-        );
-    };
-
-    const observadorTooltip =
-        new MutationObserver(
-            atualizarTooltipFixado
-        );
-
-    triggers.forEach(
-        trigger => observadorTooltip.observe(
-            trigger,
-            {
-                attributes: true,
-                attributeFilter: ["class"]
-            }
-        )
-    );
-
-
     const fecharTodos =
         excecao => {
 
@@ -17996,3 +19375,1922 @@ function configurarTooltipsFicha() {
 configurarTooltipsFicha();
 
 </script>
+
+
+
+
+<style>
+/* ============================================================
+   BETA — ITENS AVANÇADOS DO INVENTÁRIO
+   ============================================================ */
+.inventory-advanced-section{margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.18)}
+.inventory-advanced-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
+.inventory-advanced-label{font-size:11px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.inventory-state-badge,.inventory-meta-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border:1px solid rgba(112,82,51,.28);border-radius:999px;background:rgba(169,119,53,.09);font-size:10px;color:var(--muted);margin:3px 5px 0 0}
+.inventory-state-badge.broken{color:var(--red);border-color:rgba(143,73,61,.45);background:rgba(143,73,61,.08)}
+.inventory-state-badge.disabled{color:var(--gold)}
+.inventory-use-button{padding:5px 9px;border:1px solid var(--sand-3);border-radius:8px;background:var(--panel-strong);color:var(--ink);font-size:11px;font-weight:bold;cursor:pointer}
+.inventory-use-button:disabled{opacity:.45;cursor:not-allowed}
+.inventory-item-resource-row{display:grid;grid-template-columns:minmax(120px,1.2fr) 75px 75px auto auto 34px;gap:7px;align-items:center;padding:7px 0;border-bottom:1px dashed rgba(112,82,51,.18)}
+.inventory-item-resource-row input{min-width:0}
+.inventory-item-resource-check{display:flex;align-items:center;gap:4px;font-size:10px;color:var(--muted)}
+.item-defense-display{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0 0}
+.item-defense-chip{padding:6px 9px;border:1px solid rgba(112,82,51,.3);border-radius:999px;background:rgba(255,248,228,.72);font-size:11px}
+.item-defense-chip strong{margin-right:4px}
+.item-resource-source{display:block;margin-top:4px;color:var(--muted);font-size:10px}
+@media(max-width:760px){.inventory-item-resource-row{grid-template-columns:1fr 1fr}.inventory-item-resource-row>*:last-child{grid-column:2}}
+</style>
+
+<!-- BETA — Editor detalhado do item do inventário -->
+<div id="inventoryDetailOverlay" class="compendium-overlay" aria-hidden="true"></div>
+<section id="inventoryDetailModal" class="inventory-detail-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryDetailTitle">
+  <div class="inventory-detail-head">
+    <h3 id="inventoryDetailTitle">Detalhes do item</h3>
+    <button id="inventoryDetailClose" class="add-button" type="button">Fechar</button>
+  </div>
+  <div class="inventory-detail-body">
+    <div class="inventory-detail-grid">
+      <div class="inventory-detail-field wide"><label for="inventoryDetailName">Nome</label><input id="inventoryDetailName" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailQuantity">Quantidade</label><input id="inventoryDetailQuantity" type="number" min="0" step="1"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailWeight">Peso unitário (kg)</label><input id="inventoryDetailWeight" type="number" min="0" step="0.01"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailCategory">Categoria</label><input id="inventoryDetailCategory" type="text" placeholder="Arma, Armadura, Consumível..."></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailSubtype">Subtipo</label><input id="inventoryDetailSubtype" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailPrice">Preço</label><input id="inventoryDetailPrice" type="number" min="0" step="0.01"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailCurrency">Moeda</label><input id="inventoryDetailCurrency" type="text" placeholder="T$, PO..."></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailSource">Fonte</label><input id="inventoryDetailSource" type="text"></div>
+      <div class="inventory-detail-field"><label for="inventoryDetailTags">Tags</label><input id="inventoryDetailTags" type="text" placeholder="marcial, corte, especial..."></div>
+      <div class="inventory-detail-field wide"><label for="inventoryDetailDescription">Descrição</label><textarea id="inventoryDetailDescription"></textarea></div>
+    </div>
+
+    <div id="inventoryDetailOrigin" class="inventory-detail-source" hidden></div>
+
+    <div id="inventoryDetailWeaponSection" class="inventory-detail-effects" hidden>
+      <div class="inventory-detail-effects-head">
+        <div>
+          <div class="inventory-detail-label">Ataque da arma</div>
+          <small style="color:var(--muted)">Itens da categoria Arma podem criar e manter um ataque automaticamente.</small>
+        </div>
+        <label style="display:flex;gap:7px;align-items:center;font-size:12px"><input id="inventoryDetailWeaponEnabled" type="checkbox" checked> Criar ataque</label>
+      </div>
+      <div class="inventory-detail-grid" style="margin-top:10px">
+        <div class="inventory-detail-field wide"><label for="inventoryDetailWeaponName">Nome do ataque</label><input id="inventoryDetailWeaponName" type="text" placeholder="Usa o nome do item se ficar vazio"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponSkill">Perícia</label><select id="inventoryDetailWeaponSkill"></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponStat">Atributo</label><select id="inventoryDetailWeaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamage">Dano</label><input id="inventoryDetailWeaponDamage" type="text" placeholder="1d8"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageType">Tipo de dano</label><input id="inventoryDetailWeaponDamageType" type="text" placeholder="Corte"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponThreat">Margem de ameaça</label><input id="inventoryDetailWeaponThreat" type="number" min="1" max="20" value="20"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponCrit">Crítico</label><input id="inventoryDetailWeaponCrit" type="number" min="1" step="1" value="2"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponHitBonus">Bônus próprio no acerto</label><input id="inventoryDetailWeaponHitBonus" type="number" step="1" value="0"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageBonus">Bônus próprio no dano</label><input id="inventoryDetailWeaponDamageBonus" type="text" placeholder="2, 1d6, -1..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponRange">Alcance</label><input id="inventoryDetailWeaponRange" type="text" placeholder="Corpo a corpo, 9 m, 18/36 m..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponHands">Mãos</label><input id="inventoryDetailWeaponHands" type="text" placeholder="1, 2, versátil..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponAmmo">Munição</label><input id="inventoryDetailWeaponAmmo" type="text" placeholder="Flechas, virotes, nenhuma..."></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponReload">Recarga</label><input id="inventoryDetailWeaponReload" type="text" placeholder="Livre, movimento, 1 ação..."></div>
+        <div class="inventory-detail-field wide"><label for="inventoryDetailWeaponProperties">Propriedades / observações</label><input id="inventoryDetailWeaponProperties" type="text" placeholder="Leve, pesada, alcance, especial..."></div>
+
+        <div class="inventory-detail-field wide">
+          <label>Modificadores de combate permitidos neste ataque</label>
+          <div id="inventoryDetailWeaponModifiers" class="attack-editor-options" style="margin-top:4px"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div class="inventory-advanced-label">Estado e uso</div></div>
+      <div class="inventory-detail-grid">
+        <div class="inventory-detail-field"><label for="inventoryDetailState">Estado</label><select id="inventoryDetailState"><option value="normal">Normal</option><option value="disabled">Desativado</option><option value="broken">Quebrado</option></select></div>
+        <div class="inventory-detail-field"><label>Consumível</label><label style="display:flex;gap:7px;align-items:center"><input id="inventoryDetailConsumableEnabled" type="checkbox"> Possui botão Usar</label></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailConsumableAmount">Quantidade gasta por uso</label><input id="inventoryDetailConsumableAmount" type="number" min="1" step="1" value="1"></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailConsumableLabel">Texto do botão</label><input id="inventoryDetailConsumableLabel" type="text" placeholder="Usar"></div>
+      </div>
+      <small style="color:var(--muted)">Usar reduz a quantidade. O efeito do consumo continua livre/manual, usando os efeitos "Ao usar" como referência.</small>
+    </div>
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div class="inventory-advanced-label">Resistências e imunidades</div><small style="color:var(--muted)">Somente display em Combate; não altera cálculos.</small></div>
+      <div class="inventory-detail-grid">
+        <div class="inventory-detail-field wide"><label for="inventoryDetailResistances">Resistências</label><textarea id="inventoryDetailResistances" placeholder="Fogo 5, frio 2..."></textarea></div>
+        <div class="inventory-detail-field wide"><label for="inventoryDetailImmunities">Imunidades</label><textarea id="inventoryDetailImmunities" placeholder="Veneno, doença..."></textarea></div>
+      </div>
+    </div>
+
+    <div class="inventory-advanced-section">
+      <div class="inventory-advanced-head"><div><div class="inventory-advanced-label">Recursos do item</div><small style="color:var(--muted)">Cargas, munição especial, energia, usos por cena etc.</small></div><button id="inventoryDetailAddResource" class="add-button" type="button">+ Recurso</button></div>
+      <div id="inventoryDetailResources"></div>
+    </div>
+
+    <div class="inventory-detail-effects">
+      <div class="inventory-detail-effects-head">
+        <div>
+          <div class="inventory-detail-label">Efeitos mecânicos</div>
+          <small style="color:var(--muted)">Estes efeitos pertencem só a esta cópia do item na ficha.</small>
+        </div>
+        <button id="inventoryDetailAddEffect" class="add-button" type="button" style="display:none">+ Efeito</button>
+      </div>
+      <div id="inventoryDetailEffects"></div>
+    </div>
+
+    <div class="inventory-detail-actions">
+      <button id="inventoryDetailDelete" class="inventory-delete" type="button">Excluir item</button>
+      <div class="inventory-detail-actions-right">
+        <button id="inventoryDetailCancel" class="add-button" type="button">Cancelar</button>
+        <button id="inventoryDetailSave" class="add-button" type="button">Salvar alterações</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BETA — Modal do Compêndio -->
+<div id="inventoryCompendiumOverlay" class="compendium-overlay" aria-hidden="true"></div>
+<section id="inventoryCompendiumModal" class="compendium-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryCompendiumTitle">
+  <div class="compendium-modal-head">
+    <h3 id="inventoryCompendiumTitle">Adicionar do Compêndio</h3>
+    <button id="inventoryCompendiumClose" class="add-button" type="button">Fechar</button>
+  </div>
+  <div class="compendium-modal-tools">
+    <input id="inventoryCompendiumSearch" type="search" placeholder="Buscar item...">
+    <select id="inventoryCompendiumCategory">
+      <option value="">Todas as categorias</option>
+    </select>
+  </div>
+  <div id="inventoryCompendiumResults" class="compendium-results">
+    <div class="compendium-empty">Abra o Compêndio para carregar os itens.</div>
+  </div>
+</section>
+
+
+<style id="inventory-polish-v1">
+/* ============================================================
+   POLIMENTO VISUAL — INVENTÁRIO + EDITOR DE ITEM
+   Apenas UX/visual; não altera o modelo de dados v4.1.
+   ============================================================ */
+#inventoryList{display:grid;gap:10px}
+.inventory-view.inventory-rich{
+  padding:13px 14px;
+  border:1px solid rgba(112,82,51,.24);
+  border-radius:12px;
+  background:linear-gradient(135deg,rgba(255,255,255,.40),rgba(255,248,228,.18));
+  box-shadow:0 3px 10px rgba(55,37,20,.06);
+  transition:transform .15s ease,border-color .15s ease,box-shadow .15s ease;
+}
+.inventory-view.inventory-rich:hover{transform:translateY(-1px);border-color:rgba(112,82,51,.40);box-shadow:0 6px 15px rgba(55,37,20,.09)}
+.inventory-rich-top{align-items:center;gap:16px}
+.inventory-rich-name{gap:6px}
+.inventory-rich-name strong{font-size:16px;line-height:1.2}
+.inventory-card-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.inventory-card-chip{display:inline-flex;align-items:center;gap:4px;padding:3px 7px;border:1px solid rgba(112,82,51,.20);border-radius:999px;background:rgba(255,255,255,.26);font-size:10px;color:var(--muted);font-weight:700}
+.inventory-card-chip.primary{color:var(--sand-5);background:rgba(169,119,53,.10);border-color:rgba(169,119,53,.30)}
+.inventory-card-chip.quantity{font-variant-numeric:tabular-nums}
+.inventory-rich-description{margin-top:7px;line-height:1.45;max-width:760px}
+.inventory-effects{margin-top:9px}
+.inventory-effect-chip{background:rgba(255,255,255,.36)}
+.inventory-card-resources{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.inventory-card-resource{display:inline-flex;align-items:center;gap:6px;padding:4px 7px;border-radius:7px;background:rgba(84,101,71,.08);border:1px solid rgba(84,101,71,.22);font-size:10px;color:#405038}
+.inventory-card-resource b{font-variant-numeric:tabular-nums}
+.inventory-card-side{display:flex!important;align-items:center!important;justify-content:flex-end;gap:7px!important;flex-wrap:wrap;max-width:330px}
+.inventory-weight{font-size:11px;padding:4px 7px;border-radius:999px;background:rgba(112,82,51,.07)}
+.inventory-more{border-radius:999px;width:32px;height:32px;background:rgba(255,248,228,.70)}
+.inventory-more:hover{transform:translateY(-1px)}
+.inventory-use-v4{height:32px!important;width:auto!important;border-radius:8px!important;padding:5px 10px!important;font-size:11px!important;white-space:nowrap}
+.inventory-toggle{height:32px;padding:5px 10px}
+.inventory-state-badge{display:inline-flex;margin-top:7px!important}
+.inventory-weapon-badge{margin-top:7px;width:max-content;background:rgba(143,73,61,.06);border-color:rgba(143,73,61,.20)}
+
+/* edição rápida do inventário */
+.inventory-item{grid-template-columns:minmax(180px,1fr) 78px 90px 36px 36px!important;gap:8px!important;padding:9px 10px!important;border:1px solid rgba(112,82,51,.18)!important;border-radius:10px;background:rgba(255,255,255,.16)}
+.inventory-item input{padding:7px 8px!important;border:1px solid rgba(112,82,51,.22)!important;border-radius:7px!important;background:rgba(255,255,255,.26)!important}
+.inventory-item .inventory-more,.inventory-item .inventory-delete{align-self:center}
+
+/* editor detalhado */
+.inventory-detail-modal{width:min(900px,calc(100vw - 24px))!important;max-height:min(91vh,900px)!important;overflow:hidden!important;border-radius:16px!important}
+.inventory-detail-head{padding:14px 18px!important;box-shadow:0 2px 10px rgba(55,37,20,.06)}
+.inventory-detail-head-copy{min-width:0}
+.inventory-detail-head h3{font-size:21px!important}
+.inventory-detail-head-sub{margin-top:3px;color:var(--muted);font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:650px}
+.inventory-detail-body{padding:0!important;overflow:auto;max-height:calc(91vh - 62px)}
+.inventory-detail-tabs{position:sticky;top:0;z-index:2;display:flex;gap:6px;overflow:auto;padding:10px 14px;border-bottom:1px solid rgba(112,82,51,.18);background:rgba(246,237,215,.96);scrollbar-width:thin}
+.inventory-detail-tab{flex:0 0 auto;border:1px solid rgba(112,82,51,.24);border-radius:999px;padding:7px 11px;background:rgba(255,255,255,.22);color:var(--muted);font-size:11px;font-weight:800;cursor:pointer}
+.inventory-detail-tab:hover{background:rgba(255,255,255,.45);color:var(--ink)}
+.inventory-detail-tab.active{background:var(--sand-4);border-color:var(--sand-4);color:var(--sand-0)}
+.inventory-detail-tab[hidden]{display:none!important}
+.inventory-detail-panel{display:none;padding:16px 18px 18px}
+.inventory-detail-panel.active{display:block}
+.inventory-detail-panel-title{margin:0 0 4px;font-size:15px}
+.inventory-detail-panel-help{margin:0 0 14px;color:var(--muted);font-size:11px;line-height:1.5}
+.inventory-detail-panel .inventory-advanced-section,.inventory-detail-panel.inventory-detail-effects,.inventory-detail-panel#inventoryDetailWeaponSection{margin:0!important;padding:0!important;border:0!important;background:transparent!important}
+.inventory-detail-grid{gap:12px!important}
+.inventory-detail-field{gap:6px!important}
+.inventory-detail-field label,.inventory-detail-label,.inventory-advanced-label{font-size:10px!important;letter-spacing:.075em!important}
+.inventory-detail-field input,.inventory-detail-field select,.inventory-detail-field textarea,.inventory-detail-effect input,.inventory-detail-effect select{padding:9px 10px!important;background:rgba(255,255,255,.52)!important;border-color:rgba(112,82,51,.28)!important}
+.inventory-detail-field input:focus,.inventory-detail-field select:focus,.inventory-detail-field textarea:focus,.inventory-detail-effect input:focus,.inventory-detail-effect select:focus{outline:2px solid rgba(169,119,53,.18);border-color:var(--sand-4)!important}
+.inventory-detail-source{margin:12px 0 0!important}
+.inventory-detail-status-help{margin-top:8px;padding:9px 10px;border-radius:8px;background:rgba(169,119,53,.08);color:var(--muted);font-size:11px;line-height:1.45}
+.inventory-consumable-options.disabled{opacity:.45;filter:saturate(.5)}
+.inventory-detail-effects-head,.inventory-advanced-head{margin-bottom:12px}
+.inventory-item-resource-row{grid-template-columns:minmax(150px,1.2fr) 90px 90px 105px 105px 38px!important;padding:9px!important;margin-top:7px;border:1px solid rgba(112,82,51,.18)!important;border-radius:8px;background:rgba(255,255,255,.18)}
+.inventory-detail-effect{grid-template-columns:145px 180px minmax(120px,1fr) minmax(100px,.7fr) 36px!important;padding:10px!important;margin-top:8px!important;border:1px solid rgba(112,82,51,.18)!important;border-radius:8px;background:rgba(255,255,255,.18)}
+.inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/5!important}
+.inventory-detail-empty-effects{margin-top:8px}
+.inventory-detail-actions{position:sticky;bottom:0;z-index:3;margin:0!important;padding:12px 18px;border-top:1px solid rgba(112,82,51,.22);background:rgba(246,237,215,.97);box-shadow:0 -5px 14px rgba(55,37,20,.05)}
+#inventoryDetailSave{background:var(--sand-4)!important;color:var(--sand-0)!important;border-color:var(--sand-4)!important;width:auto!important;border-radius:8px!important;padding:7px 12px!important;font-size:12px!important}
+#inventoryDetailCancel{width:auto!important;border-radius:8px!important;padding:7px 12px!important;font-size:12px!important}
+#inventoryDetailDelete{padding:7px 10px;border:1px solid rgba(143,73,61,.28);border-radius:8px;background:rgba(143,73,61,.06)}
+.inventory-detail-empty-note{padding:18px;text-align:center;border:1px dashed rgba(112,82,51,.25);border-radius:9px;color:var(--muted);font-size:12px}
+@media(max-width:760px){
+  .inventory-rich-top{align-items:flex-start;flex-direction:column}
+  .inventory-card-side{max-width:none;width:100%;justify-content:flex-start!important}
+  .inventory-item{grid-template-columns:1fr 64px 76px 34px 34px!important}
+  .inventory-detail-modal{width:calc(100vw - 12px)!important;max-height:94vh!important}
+  .inventory-detail-body{max-height:calc(94vh - 60px)}
+  .inventory-detail-panel{padding:14px}
+  .inventory-item-resource-row{grid-template-columns:1fr 1fr!important}
+  .inventory-detail-effect{grid-template-columns:1fr 1fr!important}
+  .inventory-detail-effect-description,.inventory-detail-effect-condition{grid-column:1/-1!important}
+}
+</style>
+
+
+<script id="inventory-polish-v1-js">
+(() => {
+  const PANEL_INFO = [
+    ["geral", "Geral", "Nome, quantidade, peso, categoria e descrição."],
+    ["uso", "Uso", "Estado do item e comportamento de consumível."],
+    ["arma", "Arma", "Ataque gerado, bônus próprios e modificadores permitidos."],
+    ["defesas", "Defesas", "Resistências e imunidades exibidas em Combate."],
+    ["recursos", "Recursos", "Cargas, munição especial, energia e outros contadores."],
+    ["efeitos", "Efeitos", "Bônus e efeitos mecânicos desta cópia do item."]
+  ];
+
+  let inventoryDetailActiveTab = "geral";
+
+  function prepararEditorInventarioPolido() {
+    const modal = document.getElementById("inventoryDetailModal");
+    const body = modal?.querySelector(".inventory-detail-body");
+    const head = modal?.querySelector(".inventory-detail-head");
+    if (!modal || !body || !head || body.dataset.polished === "1") return;
+    body.dataset.polished = "1";
+
+    const title = document.getElementById("inventoryDetailTitle");
+    if (title && !title.parentElement?.classList.contains("inventory-detail-head-copy")) {
+      const copy = document.createElement("div");
+      copy.className = "inventory-detail-head-copy";
+      title.before(copy);
+      copy.appendChild(title);
+      const sub = document.createElement("div");
+      sub.id = "inventoryDetailHeadSub";
+      sub.className = "inventory-detail-head-sub";
+      sub.textContent = "Configure somente o que este item realmente precisa.";
+      copy.appendChild(sub);
+    }
+
+    const firstGrid = body.querySelector(":scope > .inventory-detail-grid");
+    const origin = document.getElementById("inventoryDetailOrigin");
+    const weapon = document.getElementById("inventoryDetailWeaponSection");
+    const advanced = [...body.querySelectorAll(":scope > .inventory-advanced-section")];
+    const effects = [...body.querySelectorAll(":scope > .inventory-detail-effects")].find(el => el.id !== "inventoryDetailWeaponSection");
+    const actions = body.querySelector(":scope > .inventory-detail-actions");
+    if (!firstGrid || advanced.length < 3 || !effects || !actions) return;
+
+    const tabs = document.createElement("nav");
+    tabs.className = "inventory-detail-tabs";
+    tabs.setAttribute("aria-label", "Seções do item");
+    PANEL_INFO.forEach(([id, label]) => {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "inventory-detail-tab";
+      btn.dataset.inventoryTab = id;
+      btn.textContent = label;
+      btn.addEventListener("click", () => ativarAbaInventarioPolido(id));
+      tabs.appendChild(btn);
+    });
+    body.insertBefore(tabs, body.firstChild);
+
+    const general = document.createElement("section");
+    general.className = "inventory-detail-panel";
+    general.dataset.inventoryPanel = "geral";
+    general.innerHTML = '<h4 class="inventory-detail-panel-title">Informações do item</h4><p class="inventory-detail-panel-help">O básico que aparece no inventário. Campos como fonte e tags são opcionais.</p>';
+    body.insertBefore(general, actions);
+    general.appendChild(firstGrid);
+    if (origin) general.appendChild(origin);
+
+    const nodes = [
+      [weapon, "arma", "Configuração da arma", "Ative apenas se este item deve gerar um ataque na aba Combate."],
+      [advanced[0], "uso", "Estado e uso", "Controle quando o item funciona e, se for consumível, como a quantidade é gasta."],
+      [advanced[1], "defesas", "Defesas do item", "Esses textos aparecem em Combate, mas não fazem cálculos automaticamente."],
+      [advanced[2], "recursos", "Recursos do item", "Use para cargas, munição especial, energia ou qualquer contador que pertença ao item."],
+      [effects, "efeitos", "Efeitos mecânicos", "Use somente quando o item realmente altera a ficha; efeitos “Ao usar” podem continuar como lembrete manual."]
+    ];
+    nodes.forEach(([node, id, titleText, help]) => {
+      if (!node) return;
+      node.classList.add("inventory-detail-panel");
+      node.dataset.inventoryPanel = id;
+      const titleNode = document.createElement("h4");
+      titleNode.className = "inventory-detail-panel-title";
+      titleNode.textContent = titleText;
+      const helpNode = document.createElement("p");
+      helpNode.className = "inventory-detail-panel-help";
+      helpNode.textContent = help;
+      node.insertBefore(helpNode, node.firstChild);
+      node.insertBefore(titleNode, node.firstChild);
+      body.insertBefore(node, actions);
+    });
+
+    const state = document.getElementById("inventoryDetailState");
+    if (state) {
+      const help = document.createElement("div");
+      help.id = "inventoryDetailStateHelp";
+      help.className = "inventory-detail-status-help";
+      state.closest(".inventory-detail-grid")?.after(help);
+      state.addEventListener("change", atualizarAjudaUsoInventarioPolido);
+    }
+
+    const consumable = document.getElementById("inventoryDetailConsumableEnabled");
+    if (consumable) consumable.addEventListener("change", atualizarAjudaUsoInventarioPolido);
+
+    ativarAbaInventarioPolido("geral");
+    atualizarAjudaUsoInventarioPolido();
+  }
+
+  function ativarAbaInventarioPolido(id) {
+    inventoryDetailActiveTab = id;
+    document.querySelectorAll("#inventoryDetailModal .inventory-detail-tab").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.inventoryTab === id);
+    });
+    document.querySelectorAll("#inventoryDetailModal .inventory-detail-panel").forEach(panel => {
+      panel.classList.toggle("active", panel.dataset.inventoryPanel === id);
+    });
+  }
+
+  function atualizarAjudaUsoInventarioPolido() {
+    const state = document.getElementById("inventoryDetailState")?.value || "normal";
+    const consumable = Boolean(document.getElementById("inventoryDetailConsumableEnabled")?.checked);
+    const help = document.getElementById("inventoryDetailStateHelp");
+    if (help) {
+      const stateText = state === "broken"
+        ? "Quebrado: efeitos, defesas e ataque automático ficam suspensos até o item voltar ao estado Normal."
+        : state === "disabled"
+          ? "Desativado: o item permanece no inventário, mas seus efeitos, defesas e ataque ficam suspensos."
+          : "Normal: o item funciona normalmente enquanto houver pelo menos 1 unidade.";
+      help.textContent = consumable
+        ? `${stateText} Como consumível, o botão de uso reduz a quantidade sem automatizar o efeito descrito.`
+        : stateText;
+    }
+    const amount = document.getElementById("inventoryDetailConsumableAmount")?.closest(".inventory-detail-field");
+    const label = document.getElementById("inventoryDetailConsumableLabel")?.closest(".inventory-detail-field");
+    [amount,label].forEach(el => el?.classList.toggle("disabled", !consumable));
+    document.getElementById("inventoryDetailConsumableAmount")?.toggleAttribute("disabled", !consumable);
+    document.getElementById("inventoryDetailConsumableLabel")?.toggleAttribute("disabled", !consumable);
+  }
+
+  function atualizarAbasContextuaisInventarioPolido(item) {
+    const arma = typeof itemInventarioEhArma === "function" ? itemInventarioEhArma(item) : false;
+    const weaponTab = document.querySelector('#inventoryDetailModal .inventory-detail-tab[data-inventory-tab="arma"]');
+    if (weaponTab) weaponTab.hidden = !arma;
+    if (!arma && inventoryDetailActiveTab === "arma") ativarAbaInventarioPolido("geral");
+    const sub = document.getElementById("inventoryDetailHeadSub");
+    if (sub) {
+      const bits = [item?.categoria, item?.subtipo].filter(Boolean);
+      const estado = typeof motivoIndisponibilidadeItemV4 === "function" ? motivoIndisponibilidadeItemV4(item) : "";
+      sub.textContent = [bits.join(" • "), estado].filter(Boolean).join(" — ") || "Configure somente o que este item realmente precisa.";
+    }
+  }
+
+  function decorarCardsInventarioPolido() {
+    const container = document.getElementById("inventoryList");
+    if (!container || !Array.isArray(conteudo?.inventario)) return;
+    const editando = Boolean(document.getElementById("editModeToggle")?.checked);
+    [...container.children].forEach((card, index) => {
+      const item = conteudo.inventario[index];
+      if (!item || editando || !card.classList.contains("inventory-rich")) return;
+      const main = card.querySelector(".inventory-rich-main");
+      const top = card.querySelector(".inventory-rich-top");
+      const side = top?.lastElementChild;
+      if (!main || !side) return;
+      side.classList.add("inventory-card-side");
+
+      const name = main.querySelector(".inventory-rich-name");
+      if (name && !main.querySelector(".inventory-card-meta")) {
+        const meta = document.createElement("div");
+        meta.className = "inventory-card-meta";
+        const add = (text, cls="") => {
+          if (!text) return;
+          const chip = document.createElement("span");
+          chip.className = `inventory-card-chip ${cls}`.trim();
+          chip.textContent = text;
+          meta.appendChild(chip);
+        };
+        add(item.categoria || "Item", "primary");
+        add(item.subtipo || "");
+        add(`×${Math.max(0, Number(item.quantidade || 0))}`, "quantity");
+        main.insertBefore(meta, main.querySelector(".inventory-rich-description") || main.children[1] || null);
+      }
+
+      const resources = Array.isArray(item.resources) ? item.resources : [];
+      const visible = resources.filter(r => r.showNormal !== false).slice(0,4);
+      if (visible.length && !main.querySelector(".inventory-card-resources")) {
+        const box = document.createElement("div");
+        box.className = "inventory-card-resources";
+        visible.forEach(r => {
+          const chip = document.createElement("span");
+          chip.className = "inventory-card-resource";
+          const max = r.max === null || r.max === undefined || r.max === "" ? "" : `/${r.max}`;
+          chip.innerHTML = `<span>${String(r.name || "Recurso").replaceAll("<","&lt;").replaceAll(">","&gt;")}</span><b>${Number(r.current || 0)}${max}</b>`;
+          box.appendChild(chip);
+        });
+        main.appendChild(box);
+      }
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    prepararEditorInventarioPolido();
+
+    const consumable = document.getElementById("inventoryDetailConsumableEnabled");
+    if (consumable) atualizarAjudaUsoInventarioPolido();
+  });
+
+  const oldOpen = abrirDetalhesItemInventario;
+  abrirDetalhesItemInventario = function(itemOrId) {
+    const item = typeof itemOrId === "string"
+      ? (conteudo.inventario || []).find(entry => entry.id === itemOrId)
+      : itemOrId;
+    oldOpen(itemOrId);
+    prepararEditorInventarioPolido();
+    atualizarAbasContextuaisInventarioPolido(item);
+    atualizarAjudaUsoInventarioPolido();
+    ativarAbaInventarioPolido("geral");
+  };
+
+  const oldRender = renderizarInventario;
+  renderizarInventario = function(...args) {
+    const result = oldRender(...args);
+    decorarCardsInventarioPolido();
+    return result;
+  };
+})();
+</script>
+
+<style id="inventory-polish-v43">
+/* ============================================================
+   V4.3 — POLIMENTO DO EDITOR DETALHADO DO INVENTÁRIO
+   Somente visual/UX. Mantém toda a lógica da v4.2/v4.1.
+   ============================================================ */
+#inventoryDetailModal{
+  width:min(820px,calc(100vw - 28px))!important;
+  max-height:min(90vh,860px)!important;
+  overflow:hidden!important;
+  border:1px solid rgba(112,82,51,.48)!important;
+  border-radius:18px!important;
+  background:#f6edd7!important;
+  box-shadow:0 28px 85px rgba(35,24,14,.48)!important;
+}
+#inventoryDetailModal *{box-sizing:border-box}
+#inventoryDetailModal.show{
+  display:flex!important;
+}
+#inventoryDetailModal .inventory-detail-head{
+  min-height:66px;
+  padding:13px 16px 12px 18px!important;
+  background:linear-gradient(180deg,rgba(255,250,237,.99),rgba(246,237,215,.98))!important;
+  border-bottom:1px solid rgba(112,82,51,.20)!important;
+  box-shadow:none!important;
+}
+#inventoryDetailModal .inventory-detail-head h3{
+  margin:0!important;
+  font-size:20px!important;
+  line-height:1.15;
+  color:var(--ink);
+}
+#inventoryDetailModal .inventory-detail-head-sub{
+  margin-top:4px;
+  max-width:650px;
+  font-size:10px;
+  line-height:1.3;
+  color:var(--muted);
+}
+#inventoryDetailClose{
+  flex:0 0 34px!important;
+  width:34px!important;
+  height:34px!important;
+  min-width:34px!important;
+  padding:0!important;
+  display:grid!important;
+  place-items:center!important;
+  border:1px solid rgba(143,73,61,.40)!important;
+  border-radius:50%!important;
+  background:rgba(143,73,61,.06)!important;
+  color:var(--red)!important;
+  font-size:0!important;
+  line-height:1!important;
+}
+#inventoryDetailClose::before{content:"×";font-size:22px;font-weight:500;line-height:1}
+#inventoryDetailClose:hover{background:rgba(143,73,61,.14)!important;transform:none!important}
+
+#inventoryDetailModal .inventory-detail-body{
+  max-height:calc(90vh - 66px)!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  background:linear-gradient(180deg,#f8f0dc 0%,#f3e6c9 100%)!important;
+}
+#inventoryDetailModal .inventory-detail-tabs{
+  top:0!important;
+  padding:9px 16px!important;
+  gap:5px!important;
+  overflow-x:auto!important;
+  overflow-y:hidden!important;
+  background:rgba(248,240,220,.98)!important;
+  border-bottom:1px solid rgba(112,82,51,.16)!important;
+  box-shadow:0 4px 12px rgba(55,37,20,.035)!important;
+}
+#inventoryDetailModal .inventory-detail-tab{
+  min-height:30px;
+  padding:6px 12px!important;
+  border-radius:999px!important;
+  border:1px solid rgba(112,82,51,.22)!important;
+  background:rgba(255,255,255,.30)!important;
+  color:#765b3d!important;
+  font-size:10px!important;
+  letter-spacing:.01em;
+  transition:.12s ease;
+}
+#inventoryDetailModal .inventory-detail-tab:hover{background:rgba(255,255,255,.58)!important;color:var(--ink)!important}
+#inventoryDetailModal .inventory-detail-tab.active{
+  background:#8f493d!important;
+  color:#fff8e8!important;
+  border-color:#8f493d!important;
+  box-shadow:0 2px 7px rgba(143,73,61,.18);
+}
+
+#inventoryDetailModal .inventory-detail-panel{
+  padding:16px 18px 18px!important;
+  min-width:0!important;
+  overflow:visible!important;
+}
+#inventoryDetailModal .inventory-detail-panel-title{
+  margin:0 0 3px!important;
+  color:#3d2b1d;
+  font-size:14px!important;
+  line-height:1.2;
+}
+#inventoryDetailModal .inventory-detail-panel-help{
+  margin:0 0 13px!important;
+  color:#8a6b49!important;
+  font-size:10px!important;
+  line-height:1.45!important;
+}
+
+/* remove os "painéis dentro do painel" herdados da versão anterior */
+#inventoryDetailModal .inventory-detail-panel.inventory-detail-effects,
+#inventoryDetailModal .inventory-detail-panel.inventory-advanced-section,
+#inventoryDetailModal #inventoryDetailWeaponSection.inventory-detail-panel{
+  margin:0!important;
+  padding:16px 18px 18px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+#inventoryDetailModal .inventory-detail-panel > .inventory-advanced-head,
+#inventoryDetailModal .inventory-detail-panel > .inventory-detail-effects-head{
+  margin:0 0 12px!important;
+  padding:10px 12px!important;
+  border:1px solid rgba(112,82,51,.16)!important;
+  border-radius:10px!important;
+  background:rgba(255,255,255,.30)!important;
+}
+/* títulos antigos ficam como subtítulos discretos, sem duplicar o título da aba */
+#inventoryDetailModal .inventory-detail-panel > .inventory-advanced-head .inventory-advanced-label,
+#inventoryDetailModal .inventory-detail-panel > .inventory-detail-effects-head .inventory-detail-label{
+  font-size:9px!important;
+  color:#7d684d!important;
+}
+#inventoryDetailModal .inventory-detail-panel > .inventory-advanced-head small,
+#inventoryDetailModal .inventory-detail-panel > .inventory-detail-effects-head small{
+  font-size:10px!important;
+  line-height:1.35!important;
+}
+
+#inventoryDetailModal .inventory-detail-grid{
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:10px 12px!important;
+  min-width:0!important;
+}
+#inventoryDetailModal .inventory-detail-grid>*{min-width:0!important}
+#inventoryDetailModal .inventory-detail-field{min-width:0!important;gap:5px!important}
+#inventoryDetailModal .inventory-detail-field label,
+#inventoryDetailModal .inventory-detail-label,
+#inventoryDetailModal .inventory-advanced-label{
+  color:#7c563d!important;
+  font-size:9px!important;
+  font-weight:800!important;
+  letter-spacing:.07em!important;
+}
+#inventoryDetailModal .inventory-detail-field input,
+#inventoryDetailModal .inventory-detail-field select,
+#inventoryDetailModal .inventory-detail-field textarea,
+#inventoryDetailModal .inventory-detail-effect input,
+#inventoryDetailModal .inventory-detail-effect select,
+#inventoryDetailModal .inventory-item-resource-row input{
+  min-width:0!important;
+  width:100%!important;
+  padding:9px 10px!important;
+  border:1px solid rgba(112,82,51,.24)!important;
+  border-radius:8px!important;
+  background:rgba(255,255,255,.62)!important;
+  box-shadow:inset 0 1px 1px rgba(80,50,20,.025)!important;
+}
+#inventoryDetailModal textarea{resize:vertical!important}
+#inventoryDetailModal .inventory-detail-field input:focus,
+#inventoryDetailModal .inventory-detail-field select:focus,
+#inventoryDetailModal .inventory-detail-field textarea:focus,
+#inventoryDetailModal .inventory-detail-effect input:focus,
+#inventoryDetailModal .inventory-detail-effect select:focus{
+  outline:2px solid rgba(169,119,53,.14)!important;
+  border-color:#a9824d!important;
+}
+
+/* Uso */
+#inventoryDetailModal [data-inventory-panel="uso"] .inventory-detail-grid{
+  padding:12px!important;
+  border:1px solid rgba(112,82,51,.16)!important;
+  border-radius:11px!important;
+  background:rgba(255,255,255,.24)!important;
+}
+#inventoryDetailModal #inventoryDetailConsumableEnabled{
+  width:17px!important;
+  height:17px!important;
+  accent-color:#8f493d;
+}
+#inventoryDetailModal .inventory-detail-status-help{
+  margin-top:10px!important;
+  border:1px solid rgba(169,119,53,.15)!important;
+  background:rgba(169,119,53,.075)!important;
+  color:#765b3d!important;
+}
+#inventoryDetailModal .inventory-detail-field.disabled{opacity:.46!important}
+
+/* Recursos */
+#inventoryDetailResources{display:grid;gap:8px}
+#inventoryDetailModal .inventory-item-resource-row{
+  grid-template-columns:minmax(150px,1.4fr) 82px 82px minmax(92px,.7fr) minmax(92px,.7fr) 34px!important;
+  gap:7px!important;
+  margin:0!important;
+  padding:10px!important;
+  border:1px solid rgba(112,82,51,.17)!important;
+  border-radius:10px!important;
+  background:rgba(255,255,255,.28)!important;
+}
+#inventoryDetailModal .inventory-item-resource-check{
+  min-width:0!important;
+  justify-content:center;
+  padding:7px 5px;
+  border-radius:7px;
+  background:rgba(255,255,255,.26);
+  font-size:9px!important;
+  white-space:nowrap;
+}
+#inventoryDetailModal .inventory-item-resource-check input{width:14px!important;height:14px!important;padding:0!important}
+#inventoryDetailModal #inventoryDetailAddResource,
+#inventoryDetailModal #inventoryDetailAddEffect{
+  width:auto!important;
+  height:30px!important;
+  min-width:0!important;
+  padding:0 10px!important;
+  border-radius:8px!important;
+  font-size:11px!important;
+  background:rgba(255,255,255,.55)!important;
+}
+
+/* Efeitos */
+#inventoryDetailEffects{display:grid;gap:8px}
+#inventoryDetailModal .inventory-detail-effect{
+  grid-template-columns:minmax(105px,.8fr) minmax(135px,1fr) minmax(120px,1fr) minmax(90px,.7fr) 34px!important;
+  gap:7px!important;
+  margin:0!important;
+  padding:10px!important;
+  border:1px solid rgba(112,82,51,.17)!important;
+  border-radius:10px!important;
+  background:rgba(255,255,255,.28)!important;
+}
+#inventoryDetailModal .inventory-detail-effect-description,
+#inventoryDetailModal .inventory-detail-effect-condition{grid-column:1/5!important}
+#inventoryDetailModal .inventory-detail-effect-remove,
+#inventoryDetailModal .inventory-delete{
+  width:32px!important;
+  height:32px!important;
+  min-width:32px!important;
+  padding:0!important;
+  border-radius:8px!important;
+  display:grid!important;
+  place-items:center!important;
+}
+#inventoryDetailModal .inventory-detail-empty-effects,
+#inventoryDetailModal .inventory-detail-empty-note{
+  margin:0!important;
+  padding:22px 14px!important;
+  border:1px dashed rgba(112,82,51,.22)!important;
+  border-radius:10px!important;
+  background:rgba(255,255,255,.18)!important;
+  color:#8a7357!important;
+}
+
+/* Arma */
+#inventoryDetailModal #inventoryDetailWeaponSection .inventory-detail-effects-head{
+  margin:0 0 12px!important;
+}
+#inventoryDetailModal #inventoryDetailWeaponModifiers{
+  padding:9px 10px!important;
+  border:1px solid rgba(112,82,51,.17)!important;
+  border-radius:9px!important;
+  background:rgba(255,255,255,.25)!important;
+}
+
+/* rodapé */
+#inventoryDetailModal .inventory-detail-actions{
+  position:sticky!important;
+  bottom:0!important;
+  z-index:5!important;
+  margin:0!important;
+  padding:11px 16px!important;
+  border-top:1px solid rgba(112,82,51,.18)!important;
+  background:rgba(248,240,220,.985)!important;
+  box-shadow:0 -5px 16px rgba(55,37,20,.05)!important;
+}
+#inventoryDetailModal .inventory-detail-actions-right{gap:7px!important}
+#inventoryDetailDelete,#inventoryDetailCancel,#inventoryDetailSave{
+  min-height:34px!important;
+  width:auto!important;
+  padding:7px 12px!important;
+  border-radius:8px!important;
+  font-size:11px!important;
+}
+#inventoryDetailDelete{background:transparent!important;color:#9b544a!important;border-color:rgba(143,73,61,.25)!important}
+#inventoryDetailCancel{background:rgba(255,255,255,.42)!important}
+#inventoryDetailSave{background:#8f493d!important;color:#fff8e8!important;border-color:#8f493d!important}
+
+@media(max-width:760px){
+  #inventoryDetailModal{width:calc(100vw - 12px)!important;max-height:95vh!important}
+  #inventoryDetailModal .inventory-detail-body{max-height:calc(95vh - 66px)!important}
+  #inventoryDetailModal .inventory-detail-panel,
+  #inventoryDetailModal .inventory-detail-panel.inventory-detail-effects,
+  #inventoryDetailModal .inventory-detail-panel.inventory-advanced-section,
+  #inventoryDetailModal #inventoryDetailWeaponSection.inventory-detail-panel{padding:14px!important}
+  #inventoryDetailModal .inventory-detail-grid{grid-template-columns:1fr!important}
+  #inventoryDetailModal .inventory-detail-grid .wide{grid-column:auto!important}
+  #inventoryDetailModal .inventory-item-resource-row{grid-template-columns:1fr 80px 80px 34px!important}
+  #inventoryDetailModal .inventory-item-resource-check{grid-column:auto!important}
+  #inventoryDetailModal .inventory-detail-effect{grid-template-columns:1fr 1fr!important}
+  #inventoryDetailModal .inventory-detail-effect-description,
+  #inventoryDetailModal .inventory-detail-effect-condition{grid-column:1/-1!important}
+  #inventoryDetailModal .inventory-detail-effect-remove{grid-column:2!important;justify-self:end}
+}
+@media(max-width:520px){
+  #inventoryDetailModal .inventory-item-resource-row{grid-template-columns:1fr 1fr!important}
+  #inventoryDetailModal .inventory-detail-actions{align-items:stretch!important;gap:8px!important}
+  #inventoryDetailModal .inventory-detail-actions-right{margin-left:auto}
+  #inventoryDetailDelete{font-size:0!important;width:34px!important;padding:0!important}
+  #inventoryDetailDelete::before{content:"🗑";font-size:14px}
+}
+</style>
+<script id="inventory-polish-v43-js">
+(() => {
+  function limparDuplicacaoVisualV43(){
+    const modal=document.getElementById("inventoryDetailModal");
+    if(!modal)return;
+    const close=document.getElementById("inventoryDetailClose");
+    if(close){close.setAttribute("aria-label","Fechar");close.setAttribute("title","Fechar");}
+
+    // O título principal da aba já explica a seção. Mantemos o cabeçalho interno
+    // apenas quando ele contém uma ação (+ Recurso / + Efeito / toggle de arma).
+    modal.querySelectorAll('.inventory-detail-panel > .inventory-advanced-head, .inventory-detail-panel > .inventory-detail-effects-head').forEach(head=>{
+      const hasButton=head.querySelector('button,input[type="checkbox"]');
+      if(!hasButton){head.style.display='none';}
+    });
+  }
+  document.addEventListener("DOMContentLoaded",limparDuplicacaoVisualV43);
+  const observer=new MutationObserver(()=>limparDuplicacaoVisualV43());
+  const start=()=>{const modal=document.getElementById("inventoryDetailModal");if(modal)observer.observe(modal,{childList:true,subtree:true});};
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
+
+
+
+<style id="inventory-polish-v44">
+#inventoryDetailModal{
+  display:none!important;
+  flex-direction:column!important;
+  width:min(860px,calc(100vw - 28px))!important;
+  max-height:88vh!important;
+}
+#inventoryDetailModal .inventory-detail-head{
+  flex:0 0 auto!important;
+  min-height:64px!important;
+  padding:13px 16px 11px 18px!important;
+}
+#inventoryDetailModal .inventory-detail-body{
+  display:flex!important;
+  flex-direction:column!important;
+  flex:1 1 auto!important;
+  min-height:0!important;
+  max-height:none!important;
+  overflow:hidden!important;
+}
+#inventoryDetailModal .inventory-detail-tabs{
+  position:relative!important;
+  top:auto!important;
+  flex:0 0 auto!important;
+  padding:8px 14px!important;
+  gap:6px!important;
+  background:rgba(248,240,220,.995)!important;
+  box-shadow:0 3px 10px rgba(55,37,20,.035)!important;
+}
+#inventoryDetailModal .inventory-detail-tab{
+  min-height:29px!important;
+  padding:5px 11px!important;
+  font-weight:700!important;
+}
+#inventoryDetailModal .inventory-detail-tab.active{
+  box-shadow:0 2px 7px rgba(143,73,61,.20),inset 0 0 0 1px rgba(255,255,255,.08)!important;
+  transform:translateY(-1px);
+}
+#inventoryDetailModal .inventory-detail-panel{
+  flex:1 1 auto!important;
+  min-height:0!important;
+  overflow-y:auto!important;
+  overflow-x:hidden!important;
+  scrollbar-gutter:stable;
+}
+#inventoryDetailModal .inventory-detail-panel.active{display:block!important}
+#inventoryDetailModal .inventory-detail-panel:not(.active){display:none!important}
+
+#inventoryDetailName{
+  font-size:15px!important;
+  font-weight:700!important;
+  background:rgba(255,255,255,.72)!important;
+}
+#inventoryDetailDescription{
+  min-height:76px!important;
+  max-height:180px!important;
+}
+#inventoryDetailOrigin{
+  margin-top:10px!important;
+  padding:7px 9px!important;
+  font-size:9px!important;
+  line-height:1.35!important;
+  opacity:.84;
+}
+
+/* aba Arma */
+#inventoryDetailWeaponSection .inventory-detail-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:9px 10px!important;
+}
+#inventoryDetailWeaponSection .inventory-detail-field{grid-column:span 2}
+#inventoryDetailWeaponSection .weapon-span-1{grid-column:span 1!important}
+#inventoryDetailWeaponSection .weapon-span-2{grid-column:span 2!important}
+#inventoryDetailWeaponSection .weapon-span-4{grid-column:1/-1!important}
+
+#inventoryDetailWeaponSection > .inventory-detail-effects-head{
+  padding:9px 11px!important;
+  margin-bottom:12px!important;
+}
+#inventoryDetailWeaponSection > .inventory-detail-effects-head > label{
+  flex:0 0 auto;
+  padding:6px 9px!important;
+  border:1px solid rgba(112,82,51,.17);
+  border-radius:999px;
+  background:rgba(255,255,255,.35);
+  cursor:pointer;
+  font-weight:700;
+}
+
+#inventoryDetailWeaponModifiers{
+  display:flex!important;
+  flex-wrap:wrap!important;
+  gap:7px!important;
+  align-items:center!important;
+  padding:10px!important;
+  min-height:46px!important;
+}
+#inventoryDetailWeaponModifiers label{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:6px!important;
+  width:auto!important;
+  min-width:0!important;
+  margin:0!important;
+  padding:7px 10px!important;
+  border:1px solid rgba(112,82,51,.22)!important;
+  border-radius:999px!important;
+  background:rgba(255,255,255,.38)!important;
+  color:#654c34!important;
+  font-size:10px!important;
+  font-weight:700!important;
+  cursor:pointer!important;
+  transition:.12s ease;
+  white-space:nowrap;
+}
+#inventoryDetailWeaponModifiers label:hover{
+  border-color:rgba(143,73,61,.42)!important;
+  background:rgba(255,255,255,.62)!important;
+}
+#inventoryDetailWeaponModifiers label:has(input:checked){
+  border-color:rgba(143,73,61,.55)!important;
+  background:rgba(143,73,61,.10)!important;
+  color:#71392f!important;
+}
+#inventoryDetailWeaponModifiers input[type="checkbox"]{
+  width:14px!important;
+  height:14px!important;
+  min-width:14px!important;
+  padding:0!important;
+  accent-color:#8f493d;
+}
+
+/* rodapé fixo */
+#inventoryDetailModal .inventory-detail-actions{
+  position:relative!important;
+  bottom:auto!important;
+  flex:0 0 auto!important;
+  min-height:57px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:12px!important;
+  padding:10px 14px!important;
+  background:rgba(248,240,220,.995)!important;
+  box-shadow:0 -5px 16px rgba(55,37,20,.055)!important;
+}
+#inventoryDetailModal .inventory-detail-actions-right{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+  margin-left:auto!important;
+}
+#inventoryDetailDelete{
+  flex:0 0 auto!important;
+  min-width:104px!important;
+  width:auto!important;
+  height:35px!important;
+  padding:7px 12px!important;
+  white-space:nowrap!important;
+  font-size:11px!important;
+  line-height:1!important;
+  border:1px solid rgba(143,73,61,.32)!important;
+  border-radius:8px!important;
+}
+#inventoryDetailDelete::before{content:none!important}
+#inventoryDetailCancel,#inventoryDetailSave{white-space:nowrap!important}
+
+#inventoryDetailHeadSub{display:flex;align-items:center;gap:6px}
+#inventoryDetailHeadState{
+  display:inline-flex;
+  align-items:center;
+  padding:2px 6px;
+  border:1px solid rgba(143,73,61,.28);
+  border-radius:999px;
+  background:rgba(143,73,61,.08);
+  color:#8f493d;
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:.05em;
+  text-transform:uppercase;
+}
+
+#inventoryDetailModal .inventory-detail-empty-effects,
+#inventoryDetailModal .inventory-detail-empty-note{padding:17px 12px!important}
+
+@media(max-width:760px){
+  #inventoryDetailModal{width:calc(100vw - 12px)!important;max-height:94vh!important}
+  #inventoryDetailWeaponSection .inventory-detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  #inventoryDetailWeaponSection .weapon-span-1,
+  #inventoryDetailWeaponSection .weapon-span-2{grid-column:span 1!important}
+  #inventoryDetailWeaponSection .weapon-span-4{grid-column:1/-1!important}
+}
+@media(max-width:520px){
+  #inventoryDetailModal .inventory-detail-actions{min-height:54px!important;padding:9px 10px!important}
+  #inventoryDetailDelete{
+    min-width:92px!important;
+    width:auto!important;
+    height:34px!important;
+    padding:6px 9px!important;
+    font-size:10px!important;
+  }
+  #inventoryDetailModal .inventory-detail-actions-right{gap:6px!important}
+  #inventoryDetailCancel,#inventoryDetailSave{padding:7px 9px!important;font-size:10px!important}
+}
+</style>
+
+
+<script id="inventory-polish-v44-js">
+(() => {
+  function fieldFor(id){
+    return document.getElementById(id)?.closest(".inventory-detail-field");
+  }
+
+  function classField(id, cls){
+    const field = fieldFor(id);
+    if(field) field.classList.add(cls);
+  }
+
+  function prepararGradeArmaV44(){
+    classField("inventoryDetailWeaponName","weapon-span-4");
+    classField("inventoryDetailWeaponSkill","weapon-span-2");
+    classField("inventoryDetailWeaponStat","weapon-span-2");
+    classField("inventoryDetailWeaponDamage","weapon-span-2");
+    classField("inventoryDetailWeaponDamageType","weapon-span-2");
+    classField("inventoryDetailWeaponThreat","weapon-span-1");
+    classField("inventoryDetailWeaponCrit","weapon-span-1");
+    classField("inventoryDetailWeaponHitBonus","weapon-span-1");
+    classField("inventoryDetailWeaponDamageBonus","weapon-span-1");
+    classField("inventoryDetailWeaponRange","weapon-span-2");
+    classField("inventoryDetailWeaponHands","weapon-span-2");
+    classField("inventoryDetailWeaponAmmo","weapon-span-2");
+    classField("inventoryDetailWeaponReload","weapon-span-2");
+    classField("inventoryDetailWeaponProperties","weapon-span-4");
+
+    document.getElementById("inventoryDetailWeaponModifiers")
+      ?.closest(".inventory-detail-field")
+      ?.classList.add("weapon-span-4");
+  }
+
+  function decorarEstadoCabecalhoV44(){
+    const sub = document.getElementById("inventoryDetailHeadSub");
+    const state = document.getElementById("inventoryDetailState");
+    if(!sub || !state) return;
+
+    const antigo = document.getElementById("inventoryDetailHeadState");
+    const value = state.value || "normal";
+
+    if(value === "normal"){
+      antigo?.remove();
+      return;
+    }
+
+    const texto = value === "broken" ? "Quebrado" : "Desativado";
+
+    // evita remover/criar o badge repetidamente
+    if(antigo){
+      if(antigo.textContent !== texto) antigo.textContent = texto;
+      return;
+    }
+
+    const badge = document.createElement("span");
+    badge.id = "inventoryDetailHeadState";
+    badge.textContent = texto;
+    sub.appendChild(badge);
+  }
+
+  function aplicarV44(){
+    prepararGradeArmaV44();
+    decorarEstadoCabecalhoV44();
+
+    const state = document.getElementById("inventoryDetailState");
+    if(state && state.dataset.v44Bound !== "1"){
+      state.dataset.v44Bound = "1";
+      state.addEventListener("change", decorarEstadoCabecalhoV44);
+    }
+
+    const del = document.getElementById("inventoryDetailDelete");
+    if(del){
+      del.textContent = "Excluir item";
+      del.setAttribute("title","Excluir este item da ficha");
+    }
+  }
+
+  // aplica uma vez quando a página termina de montar
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", aplicarV44, {once:true});
+  }else{
+    aplicarV44();
+  }
+
+  // quando o usuário clica nos três pontinhos, o modal já é preenchido
+  // pelo código original. Reaplicamos apenas o acabamento no próximo frame,
+  // sem observar mudanças internas do modal.
+  document.addEventListener("click", event => {
+    const detailButton = event.target.closest(".inventory-detail-button");
+    if(detailButton){
+      requestAnimationFrame(aplicarV44);
+    }
+  });
+
+  // segurança adicional para qualquer abertura programática:
+  // intercepta apenas a função de abertura, sem tocar na função de fechar.
+  if(typeof window.abrirDetalhesItemInventario === "function"){
+    const original = window.abrirDetalhesItemInventario;
+    window.abrirDetalhesItemInventario = function(...args){
+      const result = original.apply(this,args);
+      requestAnimationFrame(aplicarV44);
+      return result;
+    };
+  }
+})();
+</script>
+
+
+
+<style id="inventory-close-v442-css">
+#inventoryDetailModal:not(.show){
+  display:none!important;
+  pointer-events:none!important;
+}
+#inventoryDetailModal.show{
+  display:flex!important;
+  pointer-events:auto!important;
+}
+#inventoryDetailOverlay:not(.show){
+  display:none!important;
+  pointer-events:none!important;
+}
+#inventoryDetailOverlay.show{
+  display:block!important;
+  pointer-events:auto!important;
+}
+</style>
+
+
+<script id="inventory-close-v442-fallback">
+(() => {
+  // fallback robusto: funciona mesmo se a ligação antiga dos botões não tiver ocorrido
+  document.addEventListener("click", event => {
+    const closeButton = event.target.closest("#inventoryDetailClose, #inventoryDetailCancel");
+    if (!closeButton) return;
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    if (typeof fecharDetalhesItemInventario === "function") {
+      fecharDetalhesItemInventario();
+      return;
+    }
+
+    // último fallback puramente visual
+    const overlay = document.getElementById("inventoryDetailOverlay");
+    const modal = document.getElementById("inventoryDetailModal");
+    overlay?.classList.remove("show");
+    overlay?.setAttribute("aria-hidden", "true");
+    modal?.classList.remove("show");
+    modal?.setAttribute("aria-hidden", "true");
+  }, true);
+})();
+</script>
+
+
+
+<style id="inventory-list-v45-css">
+/* ============================================================
+   V4.5 — inventário compacto + detalhes expansíveis
+   ============================================================ */
+#inventoryList{
+  display:grid!important;
+  gap:5px!important;
+}
+
+.inventory-compact-row{
+  border:1px solid rgba(112,82,51,.18);
+  border-radius:9px;
+  background:rgba(255,250,237,.36);
+  overflow:hidden;
+  transition:border-color .12s ease, background .12s ease, box-shadow .12s ease;
+}
+.inventory-compact-row:hover{
+  border-color:rgba(112,82,51,.31);
+  background:rgba(255,250,237,.50);
+}
+.inventory-compact-row.expanded{
+  border-color:rgba(112,82,51,.32);
+  background:rgba(255,250,237,.54);
+  box-shadow:0 4px 12px rgba(55,37,20,.055);
+}
+
+/* linha fechada */
+.inventory-compact-summary{
+  min-height:42px;
+  display:grid;
+  grid-template-columns:28px minmax(0,1fr) auto auto auto;
+  gap:8px;
+  align-items:center;
+  padding:5px 8px 5px 6px;
+}
+.inventory-expand-button{
+  width:27px;
+  height:27px;
+  display:grid;
+  place-items:center;
+  padding:0;
+  border:0;
+  border-radius:6px;
+  background:transparent;
+  color:var(--muted);
+  cursor:pointer;
+}
+.inventory-expand-button:hover{
+  background:rgba(112,82,51,.08);
+  color:var(--ink);
+}
+.inventory-expand-chevron{
+  display:block;
+  font-size:12px;
+  transform:rotate(-90deg);
+  transition:transform .14s ease;
+}
+.inventory-compact-row.expanded .inventory-expand-chevron{
+  transform:rotate(0deg);
+}
+
+.inventory-compact-name{
+  min-width:0;
+  display:flex;
+  align-items:baseline;
+  gap:5px;
+  overflow:hidden;
+}
+.inventory-compact-name strong{
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:14px;
+  font-weight:700;
+}
+.inventory-compact-qty{
+  flex:0 0 auto;
+  color:var(--muted);
+  font-size:11px;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+.inventory-compact-actions{
+  display:flex;
+  align-items:center;
+  gap:5px;
+}
+.inventory-compact-use,
+.inventory-compact-toggle{
+  min-height:29px;
+  padding:5px 9px;
+  border:1px solid rgba(112,82,51,.22);
+  border-radius:7px;
+  background:rgba(255,248,228,.76);
+  color:var(--ink);
+  font-size:10px;
+  font-weight:700;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.inventory-compact-use:hover,
+.inventory-compact-toggle:hover{
+  border-color:rgba(112,82,51,.42);
+  background:rgba(255,248,228,.98);
+}
+.inventory-compact-use:disabled{
+  opacity:.42;
+  cursor:not-allowed;
+}
+.inventory-compact-toggle.active{
+  color:#405038;
+  border-color:rgba(84,101,71,.32);
+  background:rgba(84,101,71,.09);
+}
+
+.inventory-compact-weight{
+  min-width:70px;
+  color:var(--muted);
+  font-size:10px;
+  font-variant-numeric:tabular-nums;
+  text-align:right;
+  white-space:nowrap;
+}
+.inventory-compact-more{
+  width:30px;
+  height:30px;
+  padding:0;
+  border:1px solid rgba(112,82,51,.20);
+  border-radius:50%;
+  background:rgba(255,248,228,.56);
+  color:var(--muted);
+  font-size:16px;
+  line-height:1;
+  cursor:pointer;
+}
+.inventory-compact-more:hover{
+  color:var(--ink);
+  border-color:rgba(112,82,51,.38);
+  background:rgba(255,248,228,.96);
+}
+
+/* conteúdo expandido */
+.inventory-compact-details{
+  display:none;
+  padding:1px 43px 11px 42px;
+}
+.inventory-compact-row.expanded .inventory-compact-details{
+  display:block;
+}
+.inventory-compact-details-inner{
+  padding-top:9px;
+  border-top:1px dashed rgba(112,82,51,.17);
+}
+.inventory-compact-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  margin-bottom:8px;
+}
+.inventory-mini-tag{
+  display:inline-flex;
+  align-items:center;
+  padding:3px 7px;
+  border:1px solid rgba(112,82,51,.17);
+  border-radius:999px;
+  background:rgba(255,255,255,.28);
+  color:var(--muted);
+  font-size:9px;
+  font-weight:700;
+}
+.inventory-mini-tag.primary{
+  color:var(--sand-5);
+  border-color:rgba(169,119,53,.25);
+  background:rgba(169,119,53,.08);
+}
+.inventory-mini-tag.warning{
+  color:#7a392f;
+  border-color:rgba(143,73,61,.26);
+  background:rgba(143,73,61,.07);
+}
+
+.inventory-compact-description{
+  max-width:820px;
+  margin:0 0 8px;
+  color:#5f4b36;
+  font-size:11px;
+  line-height:1.45;
+}
+.inventory-compact-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 14px;
+  align-items:center;
+}
+.inventory-compact-info{
+  color:var(--muted);
+  font-size:10px;
+}
+.inventory-compact-info strong{
+  color:var(--ink);
+}
+.inventory-compact-resource{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  padding:3px 7px;
+  border:1px solid rgba(84,101,71,.20);
+  border-radius:7px;
+  background:rgba(84,101,71,.06);
+  color:#405038;
+  font-size:9px;
+}
+.inventory-compact-defense{
+  display:inline-flex;
+  align-items:center;
+  padding:3px 7px;
+  border:1px solid rgba(112,82,51,.17);
+  border-radius:7px;
+  background:rgba(255,255,255,.20);
+  color:var(--muted);
+  font-size:9px;
+}
+.inventory-compact-effect{
+  display:inline-flex;
+  align-items:center;
+  padding:3px 7px;
+  border-radius:7px;
+  background:rgba(169,119,53,.07);
+  color:#6d5030;
+  font-size:9px;
+}
+.inventory-compact-empty{
+  color:var(--muted);
+  font-size:10px;
+  font-style:italic;
+}
+
+/* modo edição continua sendo o editor rápido existente */
+body.editing .inventory-compact-row{display:none!important}
+
+/* responsivo */
+@media(max-width:720px){
+  .inventory-compact-summary{
+    grid-template-columns:26px minmax(0,1fr) auto auto;
+  }
+  .inventory-compact-actions{
+    grid-column:2/5;
+    justify-content:flex-start;
+    padding-bottom:3px;
+  }
+  .inventory-compact-weight{
+    min-width:auto;
+  }
+  .inventory-compact-details{
+    padding-left:40px;
+    padding-right:10px;
+  }
+}
+</style>
+
+
+<script id="inventory-list-v45-js">
+(() => {
+  const expanded = window.__inventoryExpandedV45 || new Set();
+  window.__inventoryExpandedV45 = expanded;
+
+  function escV45(value){
+    return String(value ?? "")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;");
+  }
+
+  function resumoArmaV45(item){
+    if(typeof itemInventarioEhArma !== "function" || !itemInventarioEhArma(item)) return "";
+    const w = typeof normalizarAtaqueArmaItem === "function"
+      ? normalizarAtaqueArmaItem(item.weaponAttack || item.ataqueArma || {})
+      : (item.weaponAttack || item.ataqueArma || {});
+    if(!w || w.enabled === false) return "";
+
+    const partes = [];
+    const skill = w.skill || w.pericia || "";
+    const stat = String(w.stat || w.atributo || "").toUpperCase();
+    if(skill || stat) partes.push([skill,stat].filter(Boolean).join(" + "));
+    if(w.die || w.dano) partes.push(String(w.die || w.dano));
+    if(w.type || w.tipoDano) partes.push(String(w.type || w.tipoDano));
+    const threat = Number(w.threat ?? w.margemAmeaca ?? 20);
+    const crit = Number(w.crit ?? w.critico ?? 2);
+    if(Number.isFinite(threat) && Number.isFinite(crit)){
+      partes.push(`${threat < 20 ? `${threat}–20` : "20"}/×${crit}`);
+    }
+    return partes.join(" • ");
+  }
+
+  function truncarV45(texto, limite=180){
+    const t = String(texto || "").trim().replace(/\s+/g," ");
+    if(t.length <= limite) return t;
+    return t.slice(0, limite - 1).trimEnd() + "…";
+  }
+
+  function detalhesV45(item){
+    const box = document.createElement("div");
+    box.className = "inventory-compact-details";
+
+    const inner = document.createElement("div");
+    inner.className = "inventory-compact-details-inner";
+    box.appendChild(inner);
+
+    const tags = [];
+    if(item.categoria) tags.push([item.categoria,"primary"]);
+    if(item.subtipo) tags.push([item.subtipo,""]);
+    (Array.isArray(item.tags) ? item.tags : []).slice(0,6).forEach(tag => tags.push([tag,""]));
+
+    const estado = typeof normalizarEstadoItemV4 === "function"
+      ? normalizarEstadoItemV4(item)
+      : (item.estado || "normal");
+    if(estado !== "normal"){
+      tags.push([estado === "broken" ? "Quebrado" : "Desativado","warning"]);
+    }
+
+    if(tags.length){
+      const tagBox = document.createElement("div");
+      tagBox.className = "inventory-compact-tags";
+      tags.forEach(([texto,classe])=>{
+        const tag = document.createElement("span");
+        tag.className = `inventory-mini-tag ${classe}`.trim();
+        tag.textContent = texto;
+        tagBox.appendChild(tag);
+      });
+      inner.appendChild(tagBox);
+    }
+
+    if(item.descricao){
+      const desc = document.createElement("p");
+      desc.className = "inventory-compact-description";
+      desc.textContent = truncarV45(item.descricao);
+      inner.appendChild(desc);
+    }
+
+    const grid = document.createElement("div");
+    grid.className = "inventory-compact-grid";
+
+    const weapon = resumoArmaV45(item);
+    if(weapon){
+      const el = document.createElement("span");
+      el.className = "inventory-compact-info";
+      el.innerHTML = `<strong>Ataque:</strong> ${escV45(weapon)}`;
+      grid.appendChild(el);
+    }
+
+    const defenses = item.defenses || item.defesas || {};
+    if(defenses.resistances || defenses.resistencias){
+      const el = document.createElement("span");
+      el.className = "inventory-compact-defense";
+      el.textContent = `Resistência: ${defenses.resistances || defenses.resistencias}`;
+      grid.appendChild(el);
+    }
+    if(defenses.immunities || defenses.imunidades){
+      const el = document.createElement("span");
+      el.className = "inventory-compact-defense";
+      el.textContent = `Imunidade: ${defenses.immunities || defenses.imunidades}`;
+      grid.appendChild(el);
+    }
+
+    const resources = Array.isArray(item.resources)
+      ? item.resources
+      : (Array.isArray(item.recursos) ? item.recursos : []);
+    resources.filter(r => r.showNormal !== false).slice(0,5).forEach(r=>{
+      const el = document.createElement("span");
+      el.className = "inventory-compact-resource";
+      const max = r.max === null || r.max === undefined || r.max === "" ? "" : `/${r.max}`;
+      el.textContent = `${r.name || r.nome || "Recurso"} ${Number(r.current ?? r.atual ?? 0)}${max}`;
+      grid.appendChild(el);
+    });
+
+    const effects = Array.isArray(item.effects)
+      ? item.effects
+      : (Array.isArray(item.efeitos) ? item.efeitos : []);
+    effects.slice(0,4).forEach(effect=>{
+      let texto = "";
+      try{
+        texto = typeof descreverEfeitoItem === "function"
+          ? descreverEfeitoItem(effect)?.texto || ""
+          : "";
+      }catch{}
+      if(!texto) texto = effect.text || effect.descricao || "";
+      if(!texto) return;
+      const el = document.createElement("span");
+      el.className = "inventory-compact-effect";
+      el.textContent = truncarV45(texto,80);
+      grid.appendChild(el);
+    });
+
+    if(grid.children.length){
+      inner.appendChild(grid);
+    }else if(!item.descricao && !tags.length){
+      const empty = document.createElement("div");
+      empty.className = "inventory-compact-empty";
+      empty.textContent = "Sem detalhes adicionais.";
+      inner.appendChild(empty);
+    }
+
+    return box;
+  }
+
+  function criarLinhaV45(item){
+    const row = document.createElement("div");
+    row.className = "inventory-compact-row";
+    row.dataset.inventoryItemId = item.id;
+
+    const isOpen = expanded.has(item.id);
+    if(isOpen) row.classList.add("expanded");
+
+    const summary = document.createElement("div");
+    summary.className = "inventory-compact-summary";
+
+    const arrow = document.createElement("button");
+    arrow.type = "button";
+    arrow.className = "inventory-expand-button";
+    arrow.title = isOpen ? "Ocultar detalhes" : "Mostrar detalhes";
+    arrow.setAttribute("aria-expanded", String(isOpen));
+    arrow.innerHTML = '<span class="inventory-expand-chevron">⌄</span>';
+    arrow.addEventListener("click", ()=>{
+      if(expanded.has(item.id)) expanded.delete(item.id);
+      else expanded.add(item.id);
+      row.classList.toggle("expanded");
+      const open = row.classList.contains("expanded");
+      arrow.setAttribute("aria-expanded", String(open));
+      arrow.title = open ? "Ocultar detalhes" : "Mostrar detalhes";
+    });
+    summary.appendChild(arrow);
+
+    const name = document.createElement("div");
+    name.className = "inventory-compact-name";
+    const strong = document.createElement("strong");
+    strong.textContent = item.nome || "Item sem nome";
+    const qty = document.createElement("span");
+    qty.className = "inventory-compact-qty";
+    qty.textContent = `(x${Math.max(0,Number(item.quantidade ?? 0))})`;
+    name.append(strong,qty);
+    summary.appendChild(name);
+
+    const actions = document.createElement("div");
+    actions.className = "inventory-compact-actions";
+
+    const consumable = typeof normalizarConsumivelItemV4 === "function"
+      ? normalizarConsumivelItemV4(item)
+      : (item.consumable || item.consumivel || {});
+    if(consumable?.enabled){
+      const use = document.createElement("button");
+      use.type = "button";
+      use.className = "inventory-compact-use";
+      use.textContent = consumable.label || "Usar";
+      const custo = Math.max(1,Number(consumable.amountPerUse || 1));
+      const disponivel = typeof itemInventarioDisponivelV4 === "function"
+        ? itemInventarioDisponivelV4(item)
+        : true;
+      use.disabled = !disponivel || Number(item.quantidade || 0) < custo || !isOwner;
+      use.addEventListener("click", ()=>usarItemConsumivelV4(item.id));
+      actions.appendChild(use);
+    }
+
+    if(typeof itemTemToggle === "function" && itemTemToggle(item)){
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = `inventory-compact-toggle ${item.ativo ? "active" : ""}`;
+      toggle.textContent = item.ativo ? "ON" : "OFF";
+      toggle.title = item.ativo ? "Desativar efeitos do item" : "Ativar efeitos do item";
+      toggle.addEventListener("click", ()=>alternarItemInventario(item));
+      actions.appendChild(toggle);
+    }
+    summary.appendChild(actions);
+
+    const pesoTotal = Math.max(0,Number(item.quantidade || 0)) * Math.max(0,Number(item.peso || 0));
+    const weight = document.createElement("span");
+    weight.className = "inventory-compact-weight";
+    weight.textContent = `${pesoTotal.toFixed(2)} kg`;
+    summary.appendChild(weight);
+
+    const more = document.createElement("button");
+    more.type = "button";
+    more.className = "inventory-compact-more inventory-detail-button";
+    more.textContent = "⋯";
+    more.title = "Editar detalhes do item";
+    more.addEventListener("click", ()=>abrirDetalhesItemInventario(item));
+    summary.appendChild(more);
+
+    row.appendChild(summary);
+    row.appendChild(detalhesV45(item));
+    return row;
+  }
+
+  const renderAnterior = renderizarInventario;
+  renderizarInventario = function(...args){
+    const editando = Boolean(document.getElementById("editModeToggle")?.checked);
+
+    // Em edição mantemos exatamente o editor rápido já estável.
+    if(editando){
+      return renderAnterior(...args);
+    }
+
+    if(typeof normalizarInventarioV4 === "function"){
+      conteudo.inventario = normalizarInventarioV4(conteudo.inventario);
+    }
+
+    const container = document.getElementById("inventoryList");
+    if(!container) return;
+
+    container.innerHTML = "";
+    (conteudo.inventario || []).forEach(item=>{
+      container.appendChild(criarLinhaV45(item));
+    });
+
+    if(typeof atualizarPesoInventario === "function") atualizarPesoInventario();
+  };
+
+  // Atualiza uma vez após todo o restante do JS ter sido carregado.
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", ()=>renderizarInventario(), {once:true});
+  }else{
+    renderizarInventario();
+  }
+})();
+</script>
+
+
+
+<style id="inventory-delete-v451-fix">
+/* V4.5.1 — corrige definitivamente o botão Excluir item do modal */
+#inventoryDetailModal #inventoryDetailDelete{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  width:auto!important;
+  min-width:108px!important;
+  max-width:none!important;
+
+  height:36px!important;
+  min-height:36px!important;
+
+  padding:7px 13px!important;
+  margin:0!important;
+
+  white-space:nowrap!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+
+  line-height:1!important;
+  font-size:11px!important;
+
+  flex:0 0 auto!important;
+  grid-column:auto!important;
+
+  border-radius:8px!important;
+}
+
+#inventoryDetailModal #inventoryDetailDelete br{
+  display:none!important;
+}
+
+#inventoryDetailModal .inventory-detail-actions{
+  grid-template-columns:none!important;
+}
+
+@media(max-width:520px){
+  #inventoryDetailModal #inventoryDetailDelete{
+    min-width:96px!important;
+    width:auto!important;
+    height:34px!important;
+    min-height:34px!important;
+    padding:6px 10px!important;
+    font-size:10px!important;
+  }
+}
+</style>
+
+
+
+<style id="inventory-compendium-fix-v1">
+/* ============================================================
+   FIX — botão do Compêndio na ficha + modal de adicionar do Compêndio
+   ============================================================ */
+.inventory-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+#openInventoryCompendium.add-button,
+.compendium-button{
+  width:auto !important;
+  min-width:0 !important;
+  height:36px !important;
+  padding:0 14px !important;
+  border-radius:10px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:7px !important;
+  font-size:14px !important;
+  line-height:1 !important;
+  font-weight:700 !important;
+  white-space:nowrap;
+}
+
+#addInventoryItem.add-button{
+  flex:0 0 auto;
+}
+
+#inventoryCompendiumClose.add-button,
+.compendium-result .add-button{
+  width:auto !important;
+  min-width:104px;
+  height:34px !important;
+  padding:0 12px !important;
+  border-radius:10px !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  font-size:13px !important;
+  line-height:1.1 !important;
+  font-weight:700 !important;
+  white-space:nowrap;
+}
+
+.compendium-modal-head{
+  align-items:center;
+}
+
+.compendium-modal-head h3{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+.compendium-modal-tools{
+  align-items:center;
+}
+
+.compendium-results{
+  align-content:start;
+}
+
+.compendium-result{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  min-height:182px;
+}
+
+.compendium-result h4{
+  line-height:1.2;
+}
+
+.compendium-result-meta{
+  line-height:1.35;
+}
+
+.compendium-result-desc{
+  flex:1 1 auto;
+}
+
+.compendium-result-foot{
+  margin-top:auto;
+}
+
+.compendium-result-foot small{
+  flex:1 1 auto;
+  min-width:0;
+  line-height:1.35;
+}
+
+.compendium-result-foot button{
+  flex:0 0 auto;
+}
+
+@media (max-width: 700px){
+  #openInventoryCompendium.add-button,
+  .compendium-button{
+    width:100% !important;
+    justify-content:center !important;
+  }
+
+  .inventory-header{
+    justify-content:stretch;
+  }
+
+  #addInventoryItem.add-button{
+    margin-left:auto;
+  }
+
+  .compendium-modal{
+    width:min(860px, calc(100vw - 12px)) !important;
+    max-height:88vh !important;
+  }
+
+  .compendium-modal-head,
+  .compendium-modal-tools,
+  .compendium-results{
+    padding-left:12px !important;
+    padding-right:12px !important;
+  }
+}
+
+
+/* CORREÇÃO: cards do Compêndio com altura variável e rodapé contido */
+.compendium-results{
+  grid-auto-rows:max-content;
+  align-items:stretch;
+  align-content:start;
+}
+.compendium-results > .compendium-result{
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  min-width:0;
+  min-height:182px;
+  height:auto;
+  overflow-wrap:anywhere;
+}
+.compendium-result .compendium-result-desc{
+  flex:1 0 auto;
+  min-height:0;
+  overflow-wrap:anywhere;
+  white-space:normal;
+}
+.compendium-result .compendium-result-foot{
+  position:static;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  align-items:end;
+  gap:8px;
+  margin-top:auto;
+  padding-top:8px;
+  flex-shrink:0;
+}
+.compendium-result .compendium-result-foot small{
+  min-width:0;
+  white-space:normal;
+  overflow-wrap:anywhere;
+}
+.compendium-result .compendium-result-foot button{
+  position:static;
+  flex-shrink:0;
+  align-self:end;
+}
+
+</style>
+
