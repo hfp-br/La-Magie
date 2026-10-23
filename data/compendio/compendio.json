@@ -1066,9 +1066,9 @@
         "corpo a corpo - uma mao",
         "agil"
       ],
-      "descricao": "Espada de lâmina fina e precisa. É uma arma ágil.",
+      "descricao": "Espada de lâmina fina e precisa, feita para estocadas rápidas e controle fino da ponta. É uma arma ágil.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3338,9 +3338,9 @@
         "item geral",
         "escrita"
       ],
-      "descricao": "Pena de ave preparada para escrita.",
+      "descricao": "Pena de ave preparada para servir como instrumento de escrita, normalmente usada junto de tinta.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3372,9 +3372,9 @@
         "escrita",
         "pergaminho"
       ],
-      "descricao": "Folha de pele preparada para escrita.",
+      "descricao": "Folha de pele preparada e tratada para escrita, usada para registrar textos, mapas, fórmulas e mensagens.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11200,9 +11200,9 @@
         "funda",
         "20 unidades"
       ],
-      "descricao": "Conjunto com 20 balas usadas como munição para fundas.",
+      "descricao": "Saco com 20 balas de funda, pequenas pedras ou projéteis arredondados usados como munição para a funda.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15626,10 +15626,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Rede, equipamento do Tormenta RPG. arma de manobra.",
+      "descricao": "Rede de combate com pequenos dentes na trama e uma corda de controle. Ao acertar, deixa a criatura enredada, reduzindo sua mobilidade e dificultando ataques e defesa; a corda também pode limitar o deslocamento do alvo.",
       "properties": "arma de manobra",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -16878,10 +16878,10 @@
         "tormenta-rpg",
         "tormenta rpg - modulo basico"
       ],
-      "descricao": "Pena preparada para escrita.",
+      "descricao": "Pena de ave preparada para escrita, usada com tinta em documentos, mapas e anotações.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -17301,10 +17301,10 @@
         "tormenta rpg - modulo basico",
         "equipamento"
       ],
-      "descricao": "Refeição comum servida em tavernas e estalagens.",
+      "descricao": "Refeição comum encontrada em tavernas e estalagens, representando uma porção simples de comida para uma pessoa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -29155,10 +29155,10 @@
         "receita",
         "dragao brasil"
       ],
-      "descricao": "Receita adaptada para Tormenta20. Ofício +4; CD 15.",
+      "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +4 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 15.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [
         {
           "id": "batatas-grelhadas-other-oficio-4-cd-15",
@@ -29243,10 +29243,10 @@
         "receita",
         "dragao brasil"
       ],
-      "descricao": "Receita adaptada para Tormenta20. Ofício +3; CD 10.",
+      "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +3 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 10.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [
         {
           "id": "sopa-de-cebola-assada-other-oficio-3-cd-10",
@@ -29743,10 +29743,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Cajado magnífico voltado a aprimorar raio arcano.",
+      "descricao": "Cajado magnífico voltado a usuários de raio arcano. Aumenta em +2 a CD para resistir ao raio e acrescenta um dado de dano; ao disparar um raio, o usuário pode gastar 3 PM para lançar um segundo contra outro alvo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -30039,10 +30039,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Manto mágico que fornece bônus de Defesa.",
+      "descricao": "Manto mágico menor cuja principal função é proteger o usuário, fornecendo bônus mágico de +4 na Defesa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -30594,10 +30594,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Katana de adamante atroz.",
+      "descricao": "Katana feita de adamante e com a melhoria atroz, combinando a resistência do material com golpes especialmente destrutivos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -30631,10 +30631,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Varinha arcana de madeira de Tollon enérgica.",
+      "descricao": "Varinha arcana feita de madeira de Tollon e com a melhoria energética, criada para potencializar o dano de magias.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -30742,10 +30742,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Preparado que remove uma condição de veneno.",
+      "descricao": "Líquido espesso verde-escuro de cheiro forte. Ingeri-lo remove uma condição causada por veneno; sua fabricação exige Ofício (alquimia) CD 20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -30816,10 +30816,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Tônico analgésico que recupera 4d6 PV.",
+      "descricao": "Tônico analgésico ingerido como ação padrão. Recupera 4d6 pontos de vida e sua fabricação exige Ofício (alquimia) CD 25.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -30853,10 +30853,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Pasta que fornece resistência a dano 5 por uma cena.",
+      "descricao": "Pasta espessa e cinzenta que endurece a pele como pedra. Espalhá-la exige uma ação completa e fornece resistência a dano 5 por uma cena; Ofício (alquimia) CD 25.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -30890,10 +30890,10 @@
         "dragao brasil",
         "adicional"
       ],
-      "descricao": "Bebida amarga que remove uma condição de fadiga.",
+      "descricao": "Bebida amarga que, quando ingerida, remove uma condição de fadiga. Sua fabricação exige Ofício (alquimia) CD 20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -30960,10 +30960,10 @@
         "tormenta20",
         "material adicional da dragao brasil"
       ],
-      "descricao": "Armas leves; +2 em manobras e Atletismo para escalar.",
+      "descricao": "Material especial para armas leves. Uma arma de fio-de-aço fornece +2 em manobras e em Atletismo para escalar, e é fabricada e consertada com Ofício (artesão), não armeiro.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -31065,10 +31065,10 @@
         "tormenta20",
         "material adicional da dragao brasil"
       ],
-      "descricao": "Cimitarras; crítico deixa o alvo sangrando.",
+      "descricao": "Material especial extremamente afiado que só pode ser usado em cimitarras. Quando a arma obtém um acerto crítico, a criatura atingida fica sangrando.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -37584,5 +37584,5 @@
       "properties": ""
     }
   ],
-  "updatedAt": "2026-10-23T04:53:41.970Z"
+  "updatedAt": "2026-10-23T04:54:29.910Z"
 }
