@@ -2758,6 +2758,1933 @@
         "armorPenalty": -5,
         "type": "pesada"
       }
+    },
+    {
+      "id": "t20-agua-benta",
+      "nome": "Água benta",
+      "categoria": "consumivel",
+      "subtipo": "item geral",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "consumivel",
+        "item geral",
+        "sagrado",
+        "luz",
+        "arremesso"
+      ],
+      "descricao": "Frasco de água benta criado por clérigos. É especialmente útil contra mortos-vivos, demônios e diabos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "agua-benta-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; escolha um morto-vivo, demônio ou diabo em alcance curto. O alvo sofre 2d10 de dano de luz; Reflexos CD Des reduz à metade. É inofensiva contra outras criaturas."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-algemas",
+      "nome": "Algemas",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "restricao"
+      ],
+      "descricao": "Par de algemas para criaturas Médias. Escapar exige uma ação completa e Acrobacia CD 30 ou Força CD 26.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-algibeira",
+      "nome": "Algibeira",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "moedas"
+      ],
+      "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-barraca",
+      "nome": "Barraca",
+      "categoria": "item geral",
+      "subtipo": "acampamento",
+      "peso": 10,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "acampamento",
+        "sobrevivencia"
+      ],
+      "descricao": "Barraca de lona para aventureiros. Conta como saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas."
+    },
+    {
+      "id": "t20-corda-10m",
+      "nome": "Corda (10m)",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "corda"
+      ],
+      "descricao": "Rolo com 10 metros de corda de cânhamo. Dar um nó firme exige Destreza CD 10; nó especial, CD 12; arrebentar a corda exige Força CD 23.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-de-metal",
+      "nome": "Espelho de metal",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0.25,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "espelho"
+      ],
+      "descricao": "Espelho de metal polido, útil para observar cantos, fazer sinais de luz, auxiliar disfarces e outras aplicações criativas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "item geral",
+      "subtipo": "instrumento",
+      "peso": 1.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "instrumento",
+        "musica",
+        "bardo"
+      ],
+      "descricao": "Instrumento típico, como alaúde, flauta ou lira, muito utilizado por bardos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-kit-de-oficio",
+      "nome": "Kit de Ofício",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 4,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "oficio"
+      ],
+      "descricao": "Conjunto de ferramentas apropriadas para um tipo de Ofício. Sem o kit necessário, o personagem sofre –5 nos testes daquele Ofício.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit adequado: –5 nos testes do Ofício correspondente."
+    },
+    {
+      "id": "t20-kit-de-disfarces",
+      "nome": "Kit de disfarces",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 4,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "disfarce",
+        "enganacao"
+      ],
+      "descricao": "Estojo com cosméticos, tintas e acessórios para criar disfarces. Sem este kit, o personagem sofre –5 em Enganação para fazer um disfarce.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em Enganação para fazer disfarces."
+    },
+    {
+      "id": "t20-kit-de-ladrao",
+      "nome": "Kit de ladrão",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "ladinagem",
+        "gazua"
+      ],
+      "descricao": "Gazuas, arames e pequenas ferramentas para abrir fechaduras e sabotar mecanismos. Sem o kit, o personagem sofre –5 em Ladinagem para abrir fechaduras e sabotar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar."
+    },
+    {
+      "id": "t20-kit-de-medicamentos",
+      "nome": "Kit de medicamentos",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 2,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "cura",
+        "medicina"
+      ],
+      "descricao": "Caixa com ervas, unguentos, bandagens e materiais médicos. Sem este kit, o personagem sofre –5 em testes de Cura.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em testes de Cura."
+    },
+    {
+      "id": "t20-lampiao",
+      "nome": "Lampião",
+      "categoria": "item geral",
+      "subtipo": "iluminacao",
+      "peso": 1,
+      "preco": {
+        "valor": 7,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "iluminacao",
+        "luz",
+        "oleo"
+      ],
+      "descricao": "Lampião alimentado por óleo. Ilumina até 9m; uma carga dura 6 horas e custa T$ 0,1.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1."
+    },
+    {
+      "id": "t20-mochila",
+      "nome": "Mochila",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "viagem"
+      ],
+      "descricao": "Bolsa reforçada de couro com bolsos e tiras para carregar equipamentos nas costas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-odre",
+      "nome": "Odre",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "agua",
+        "bebida"
+      ],
+      "descricao": "Bolsa de couro para líquidos. O modelo mais comum comporta 1 litro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "forca",
+        "arma improvisada"
+      ],
+      "descricao": "Barra de ferro para forçar portas e baús. Fornece +5 em testes de Força para abrir portas ou baús. Pode ser usada como uma clava.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava."
+    },
+    {
+      "id": "t20-pederneira",
+      "nome": "Pederneira",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "fogo"
+      ],
+      "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna é uma ação completa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pena",
+      "nome": "Pena",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita"
+      ],
+      "descricao": "Pena de ave preparada para escrita.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pergaminho-folha",
+      "nome": "Pergaminho (folha)",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita",
+        "pergaminho"
+      ],
+      "descricao": "Folha de pele preparada para escrita.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-racao-de-viagem-por-dia",
+      "nome": "Ração de viagem (por dia)",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "viagem"
+      ],
+      "descricao": "Porção de alimentos conservados suficiente para alimentar uma pessoa por um dia. Mantida seca, dura bastante; molhada, estraga em 24 horas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "racao-de-viagem-por-dia-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consome uma porção de ração de viagem referente a um dia."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "item geral",
+      "subtipo": "acampamento",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "acampamento",
+        "descanso"
+      ],
+      "descricao": "Colchão e coberta fina enroláveis para pernoites. Dormir ao relento sem saco de dormir diminui a recuperação de PV e PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-saco-de-lona",
+      "nome": "Saco de lona",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 0.25,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "carga"
+      ],
+      "descricao": "Saco resistente fechado por corda, com capacidade para até 20 kg.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Capacidade: até 20 kg."
+    },
+    {
+      "id": "t20-tinta-frasco",
+      "nome": "Tinta (frasco)",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita",
+        "tinta"
+      ],
+      "descricao": "Frasco de 30 ml de tinta preta. Outras cores custam o dobro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tocha",
+      "nome": "Tocha",
+      "categoria": "item geral",
+      "subtipo": "iluminacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "iluminacao",
+        "luz",
+        "fogo",
+        "arma improvisada"
+      ],
+      "descricao": "Bastão combustível que queima por uma hora e ilumina até 6m. Pode ser usado como arma simples leve.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Queima por 1 hora; ilumina 6m; pode ser usada como arma simples leve (1d4 + 1 fogo, crítico x2).",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tocha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4+1",
+        "type": "Impacto/Fogo",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Simples, leve; +1 de fogo",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-vara-de-madeira-3m",
+      "nome": "Vara de madeira (3m)",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 0.2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "haste"
+      ],
+      "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. É frágil demais para servir como arma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-acido",
+      "nome": "Ácido",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "acido",
+        "arremesso"
+      ],
+      "descricao": "Frasco com ácido alquímico corrosivo. É usado contra uma criatura em alcance curto.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "acido-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; alvo em alcance curto sofre 2d4 de dano de ácido. Reflexos CD Des reduz à metade. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "cura"
+      ],
+      "descricao": "Pasta medicinal verde e de odor forte, usada diretamente em ferimentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "balsamo-restaurador-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação completa; recupera 2d4 PV. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bomba",
+      "nome": "Bomba",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "explosivo",
+        "impacto"
+      ],
+      "descricao": "Granada rudimentar popular entre goblins e usuários de pólvora.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "bomba-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Empunhar; ação de movimento para acender e ação padrão para arremessar em alcance curto. Criaturas a até 3m sofrem 6d6 impacto; Reflexos CD Des reduz à metade. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-essencia-de-mana",
+      "nome": "Essência de mana",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.1,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "mana",
+        "pocao"
+      ],
+      "descricao": "Poção feita de ervas raras e compostos alquímicos que restaura energia pessoal.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "essencia-de-mana-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; recupera 1d4 PM. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-fogo-alquimico",
+      "nome": "Fogo alquímico",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "fogo",
+        "arremesso"
+      ],
+      "descricao": "Frasco de cerâmica com substância pegajosa que entra em combustão ao contato com o ar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "fogo-alquimico-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; alvo em alcance curto sofre 1d6 fogo e fica em chamas. Reflexos CD Des reduz o dano à metade e evita as chamas. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bebida-comum",
+      "nome": "Bebida comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "bebida",
+        "comida"
+      ],
+      "descricao": "Uma caneca da bebida comum do local, geralmente cerveja.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "bebida-comum-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consumir a bebida."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-refeicao-comum",
+      "nome": "Refeição comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida"
+      ],
+      "descricao": "Refeição típica com pão, queijo, cozido de carne ou galinha com legumes e uma bebida.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "refeicao-comum-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consumir a refeição."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-batata-valkariana",
+      "nome": "Batata valkariana",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial"
+      ],
+      "descricao": "Batatas fritas populares em Valkaria. É um prato especial que dá um impulso para uma façanha durante o dia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "batata-valkariana-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +1d6 em um único teste à sua escolha realizado nesse dia. Apenas um bônus de alimentação pode ser recebido por dia. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gorad-quente",
+      "nome": "Gorad quente",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "mana"
+      ],
+      "descricao": "Gorad e leite servidos quentes. É um prato especial que estimula a mente.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "gorad-quente-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +2 PM temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-macarrao-de-yuvalin",
+      "nome": "Macarrão de Yuvalin",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "pv"
+      ],
+      "descricao": "Prato reforçado de macarrão, bacon e creme de leite criado em Yuvalin.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "macarrao-de-yuvalin-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +5 PV temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-prato-do-aventureiro",
+      "nome": "Prato do aventureiro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "descanso"
+      ],
+      "descricao": "Cozido simples de galinha com legumes, pensado para sustentar aventureiros.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "prato-do-aventureiro-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-sopa-de-peixe",
+      "nome": "Sopa de peixe",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "descanso",
+        "mana"
+      ],
+      "descricao": "Cozido simples de peixe com verduras, associado a um descanso relaxante.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [
+        {
+          "id": "sopa-de-peixe-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-traje-camuflado",
+      "nome": "Traje camuflado",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "furtividade",
+        "camuflagem"
+      ],
+      "descricao": "Traje feito para um tipo específico de terreno. No ambiente correto, fornece +2 em testes de Furtividade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+2 em Furtividade no terreno correspondente. CD 20."
+    },
+    {
+      "id": "t20-traje-da-corte",
+      "nome": "Traje da corte",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "nobreza",
+        "social"
+      ],
+      "descricao": "Roupas luxuosas e sob medida, adequadas à nobreza e realeza. Em certos ambientes formais, não usar um traje da corte pode impor –5 em perícias baseadas em Carisma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Em ambientes formais apropriados, não usar traje da corte pode impor –5 em perícias baseadas em Carisma. CD 20."
+    },
+    {
+      "id": "t20-traje-de-plebeu",
+      "nome": "Traje de plebeu",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 1,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "plebeu"
+      ],
+      "descricao": "Roupas simples de aldeão, com camisa larga e calças soltas ou saia e vestido. Não inclui calçados.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "CD 10."
+    },
+    {
+      "id": "t20-traje-de-viajante",
+      "nome": "Traje de viajante",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "viagem",
+        "aventureiro"
+      ],
+      "descricao": "Botas resistentes, calças ou saia, cinto, camisa de linho e capa com capuz; roupas padrão de aventureiros.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "CD 15."
+    },
+    {
+      "id": "t20-cao-de-guarda",
+      "nome": "Cão de guarda",
+      "categoria": "animal",
+      "subtipo": "montaria/aliado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria/aliado",
+        "cao",
+        "montaria",
+        "aliado"
+      ],
+      "descricao": "Cachorro valente e leal. Pode servir como montaria para criaturas Pequenas ou Minúsculas, ou como aliado conforme as regras de Parceiro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cavalo",
+      "nome": "Cavalo",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "cavalo"
+      ],
+      "descricao": "Montaria comum no Reinado. Sem treinamento de guerra, se assusta facilmente em combate e exige Cavalgar CD 20 por rodada para permanecer montado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "cavalo",
+        "guerra"
+      ],
+      "descricao": "Cavalo treinado para combate. Diferente de um cavalo comum, não exige o teste de Cavalgar para permanecer montado em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ponei",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "ponei"
+      ],
+      "descricao": "Montaria comum entre raças Pequenas. Sem treinamento de guerra, exige Cavalgar CD 20 por rodada para permanecer montado em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ponei-de-guerra",
+      "nome": "Pônei de guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "ponei",
+        "guerra"
+      ],
+      "descricao": "Pônei treinado para combate. Dispensa o teste de Cavalgar exigido por pôneis comuns durante um combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-sela",
+      "nome": "Sela",
+      "categoria": "item geral",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "montaria",
+        "sela",
+        "arreios"
+      ],
+      "descricao": "Conjunto de sela, arreios, freios e alforjes para equipar uma montaria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-trobo",
+      "nome": "Trobo",
+      "categoria": "animal",
+      "subtipo": "carga/tracao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "carga/tracao",
+        "trobo",
+        "carga",
+        "tracao"
+      ],
+      "descricao": "Grande ave semelhante a um avestruz com chifres e cascos de búfalo. Muito dócil, é usada como animal de carga e tração.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-balao-goblin",
+      "nome": "Balão goblin",
+      "categoria": "veiculo",
+      "subtipo": "aereo",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aereo",
+        "goblin"
+      ],
+      "descricao": "Veículo aéreo goblin de tamanho Enorme, com deslocamento 12m, Defesa 8 + mod. Des do baloeiro e 80 PV. Pilotagem diária varia conforme o clima.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo."
+    },
+    {
+      "id": "t20-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "terrestre",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "terrestre",
+        "carga"
+      ],
+      "descricao": "Veículo aberto de duas ou quatro rodas para transportar cargas pesadas, puxado por dois cavalos ou um trobo. Inclui arreios.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-carruagem",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "terrestre",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "terrestre",
+        "passageiros"
+      ],
+      "descricao": "Veículo fechado de quatro rodas, com capacidade para até quatro passageiros na cabine e dois condutores, puxado por dois cavalos ou um trobo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-canoa",
+      "nome": "Canoa",
+      "categoria": "veiculo",
+      "subtipo": "aquatico",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aquatico",
+        "embarcacao"
+      ],
+      "descricao": "Embarcação simples feita a partir de um único tronco de árvore.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-veleiro",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "aquatico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aquatico",
+        "navio"
+      ],
+      "descricao": "Navio de viagem com três mastros, bastante utilizado por mercadores.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
     }
   ]
 }
