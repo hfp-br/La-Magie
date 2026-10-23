@@ -17,34 +17,60 @@
       "descricao": "",
       "efeitos": [
         {
-          "tipo": "ca",
+          "id": "a4dd0f03-6645-4203-afc7-d3e85d2d6c95",
+          "type": "skill",
           "modo": "toggle",
-          "alvo": "",
-          "valor": "5",
-          "descricao": ""
+          "mode": "toggle",
+          "text": "",
+          "descricao": "",
+          "skill": "atletismo",
+          "bonus": 5
         },
         {
-          "tipo": "ataque",
+          "id": "14ffb7b0-c01c-447f-bfd8-fa0d8f87d525",
+          "type": "skill",
           "modo": "conditional",
-          "alvo": "",
-          "valor": "3",
-          "descricao": ""
+          "mode": "conditional",
+          "text": "",
+          "descricao": "",
+          "skill": "aaaa",
+          "bonus": 3
         },
         {
-          "tipo": "pericia",
+          "id": "eb1043d5-f2a5-4493-8b04-aca0692c0a8b",
+          "type": "skill",
           "modo": "use",
-          "alvo": "",
-          "valor": "10",
-          "descricao": ""
+          "mode": "use",
+          "text": "",
+          "descricao": "",
+          "skill": "bbbb",
+          "bonus": 10
         },
         {
-          "tipo": "movimento",
+          "id": "636386ce-9509-43a4-a089-bcbaa1e36ed7",
+          "type": "skill",
           "modo": "always",
-          "alvo": "",
-          "valor": "3",
-          "descricao": ""
+          "mode": "always",
+          "text": "",
+          "descricao": "",
+          "skill": "cccc",
+          "bonus": 3
         }
-      ]
+      ],
+      "weaponAttack": null,
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "schemaVersion": 5,
+      "sistema": "",
+      "updatedAt": "2026-10-23T01:40:23.378Z"
     },
     {
       "id": "outro-item-gamer-fe1c2e50",
