@@ -760,17 +760,28 @@
       },
       "sistema": "tormenta20",
       "fonte": "Livro Básico",
-      "pagina": 144,
+      "pagina": 150,
       "tags": [
         "arma",
         "marcial",
         "corpo a corpo - leve",
-        "perde o bonus de Defesa ate o proximo turno ao atacar"
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura"
       ],
-      "descricao": "Pode ser usado como arma marcial. Ao atacar com ele, o usuário abre mão temporariamente do bônus defensivo do escudo.",
+      "descricao": "Escudo leve normalmente feito de madeira e amarrado ao antebraço, deixando a mão livre para carregar objetos, mas não para manusear uma arma.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
-      "efeitos": [],
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "escudo-leve-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 1,
+          "text": "Bônus de Defesa +1"
+        }
+      ],
       "consumable": {
         "enabled": false,
         "amountPerUse": 1,
@@ -799,6 +810,12 @@
         "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
         "allowedToggles": [],
         "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
+      "armor": {
+        "defenseBonus": 1,
+        "armorPenalty": -1,
+        "type": "escudo"
       }
     },
     {
@@ -920,17 +937,28 @@
       },
       "sistema": "tormenta20",
       "fonte": "Livro Básico",
-      "pagina": 144,
+      "pagina": 150,
       "tags": [
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar"
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura"
       ],
-      "descricao": "Pode ser usado como arma marcial. Ao atacar com ele, o usuário abre mão temporariamente do bônus defensivo do escudo.",
+      "descricao": "Escudo pesado normalmente feito de aço, preso ao antebraço e empunhado com firmeza, impedindo o uso daquela mão.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
-      "efeitos": [],
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "escudo-pesado-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 2,
+          "text": "Bônus de Defesa +2"
+        }
+      ],
       "consumable": {
         "enabled": false,
         "amountPerUse": 1,
@@ -959,6 +987,12 @@
         "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
         "allowedToggles": [],
         "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -2,
+        "type": "escudo"
       }
     },
     {
@@ -2243,6 +2277,486 @@
         "properties": "disparo; conta como arma leve para Estilo de Duas Armas",
         "allowedToggles": [],
         "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-armadura-acolchoada",
+      "nome": "Armadura acolchoada",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 5,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "leve",
+        "fortitude"
+      ],
+      "descricao": "Túnica almofadada feita em linho ou lã. É a armadura mais leve e protege todo o corpo. Fornece +2 em testes de Fortitude.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "armadura-acolchoada-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 1,
+          "text": "Bônus de Defesa +1"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; +2 em testes de Fortitude.",
+      "armor": {
+        "defenseBonus": 1,
+        "armorPenalty": 0,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-armadura-de-couro",
+      "nome": "Armadura de couro",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 7,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "leve",
+        "couro"
+      ],
+      "descricao": "Armadura cujo peitoral é feito de couro curtido e endurecido, com partes restantes em couro flexível.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "armadura-de-couro-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 2,
+          "text": "Bônus de Defesa +2"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve.",
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": 0,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-couro-batido",
+      "nome": "Couro batido",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 10,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "leve",
+        "couro",
+        "penalidade de armadura"
+      ],
+      "descricao": "Versão mais pesada da armadura de couro, reforçada com rebites de metal.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "couro-batido-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 3,
+          "text": "Bônus de Defesa +3"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –1.",
+      "armor": {
+        "defenseBonus": 3,
+        "armorPenalty": -1,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-gibao-de-peles",
+      "nome": "Gibão de peles",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 12,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "leve",
+        "peles",
+        "penalidade de armadura"
+      ],
+      "descricao": "Armadura formada por várias camadas de peles e couro de animais, comum entre bárbaros e povos selvagens.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "gibao-de-peles-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –3.",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -3,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-couraca",
+      "nome": "Couraça",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 15,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "leve",
+        "metal",
+        "penalidade de armadura"
+      ],
+      "descricao": "A mais robusta das armaduras leves, formada por uma placa metálica sobre o peito e as costas, presa sobre um casaco de couro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "couraca-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 5,
+          "text": "Bônus de Defesa +5"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –4.",
+      "armor": {
+        "defenseBonus": 5,
+        "armorPenalty": -4,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-brunea",
+      "nome": "Brunea",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 15,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "penalidade de armadura"
+      ],
+      "descricao": "Colete de couro coberto por pequenas placas metálicas sobrepostas. É uma armadura pesada comum entre soldados de infantaria e guardas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "brunea-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 5,
+          "text": "Bônus de Defesa +5"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
+      "armor": {
+        "defenseBonus": 5,
+        "armorPenalty": -2,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-cota-de-malha",
+      "nome": "Cota de malha",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 20,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "pesada",
+        "malha",
+        "metal",
+        "penalidade de armadura"
+      ],
+      "descricao": "Longa veste feita de anéis metálicos interligados, formando uma malha flexível e resistente que vai até os joelhos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "cota-de-malha-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 6,
+          "text": "Bônus de Defesa +6"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
+      "armor": {
+        "defenseBonus": 6,
+        "armorPenalty": -2,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-loriga-segmentada",
+      "nome": "Loriga segmentada",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 17,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "penalidade de armadura"
+      ],
+      "descricao": "Armadura composta por tiras horizontais de metal, muito utilizada por legionários do Império de Tauron.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "loriga-segmentada-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 7,
+          "text": "Bônus de Defesa +7"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
+      "armor": {
+        "defenseBonus": 7,
+        "armorPenalty": -3,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-meia-armadura",
+      "nome": "Meia armadura",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 22,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "penalidade de armadura"
+      ],
+      "descricao": "Uma cota de malha reforçada com placas de metal.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "meia-armadura-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 8,
+          "text": "Bônus de Defesa +8"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –4; não aplica DES na Defesa; deslocamento –3 m.",
+      "armor": {
+        "defenseBonus": 8,
+        "armorPenalty": -4,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-armadura-completa",
+      "nome": "Armadura completa",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 25,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "placas",
+        "penalidade de armadura"
+      ],
+      "descricao": "A mais forte e pesada das armaduras, formada por placas de metal ajustadas para cobrir todo o corpo. Precisa ser feita sob medida; adaptar uma armadura completa a outro usuário custa T$ 200.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "efeitos": [
+        {
+          "id": "armadura-completa-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 10,
+          "text": "Bônus de Defesa +10"
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.",
+      "armor": {
+        "defenseBonus": 10,
+        "armorPenalty": -5,
+        "type": "pesada"
       }
     }
   ]
