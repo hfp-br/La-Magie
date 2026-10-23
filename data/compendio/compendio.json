@@ -11110,6 +11110,444 @@
       },
       "resources": [],
       "properties": ""
+    },
+    {
+      "id": "t20-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 140,
+      "tags": [
+        "municao",
+        "flechas",
+        "arco",
+        "20 unidades"
+      ],
+      "descricao": "Conjunto com 20 flechas, usado como munição para arcos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 141,
+      "tags": [
+        "municao",
+        "virotes",
+        "besta",
+        "20 unidades"
+      ],
+      "descricao": "Caixa com 20 virotes, pequenas setas usadas como munição para bestas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-balas-20",
+      "nome": "Balas (20)",
+      "categoria": "municao",
+      "subtipo": "balas de funda",
+      "peso": 2,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 140,
+      "tags": [
+        "municao",
+        "balas de funda",
+        "funda",
+        "20 unidades"
+      ],
+      "descricao": "Conjunto com 20 balas usadas como munição para fundas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-municao-20",
+      "nome": "Munição (20)",
+      "categoria": "municao",
+      "subtipo": "arma de fogo",
+      "peso": 2,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 141,
+      "tags": [
+        "municao",
+        "arma de fogo",
+        "mosquete",
+        "pistola",
+        "20 unidades"
+      ],
+      "descricao": "Conjunto com 20 unidades de munição para armas de fogo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espada-deus",
+      "nome": "Espada-Deus",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 332,
+      "tags": [
+        "artefato",
+        "arma",
+        "unico",
+        "espada longa",
+        "rhond"
+      ],
+      "descricao": "Artefato divino cultuado como uma entidade por si só. É uma espada longa de aparência simples, mas considerada uma das armas mais poderosas de Arton.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [
+        {
+          "id": "espada-deus-other-e-indestrutivel-e-ignora-res",
+          "type": "other",
+          "mode": "always",
+          "text": "É indestrutível e ignora resistência a dano."
+        },
+        {
+          "id": "espada-deus-critico-other-seus-acertos-criticos-afetam",
+          "type": "other",
+          "mode": "always",
+          "text": "Seus acertos críticos afetam mesmo criaturas normalmente imunes a acertos críticos."
+        },
+        {
+          "id": "espada-deus-veloz-other-quando-usa-a-acao-atacar-pod",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando usa a ação atacar, pode gastar 2 PM para realizar um ataque adicional com ela; se possuir Ataque Extra, o custo diminui em –1 PM."
+        },
+        {
+          "id": "espada-deus-requisito-other-apenas-personagens-com-pelo-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Apenas personagens com pelo menos 15 níveis em classes que tenham Luta como perícia inicial podem usá-la; os demais erram todos os ataques e não conseguem removê-la de seu local de repouso."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Indestrutível; exige pelo menos 15 níveis em classes que tenham Luta como perícia inicial para ser usada corretamente; ignora resistência a dano; críticos afetam até criaturas imunes a acertos críticos.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada-Deus",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d12",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 4,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Atroz; precisa; pungente; ameaçadora; magnífica; veloz; ignora resistência a dano; críticos afetam criaturas imunes a crítico",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-joia-da-alma",
+      "nome": "Joia da Alma",
+      "categoria": "artefato",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 332,
+      "tags": [
+        "artefato",
+        "gema",
+        "unico",
+        "memoria"
+      ],
+      "descricao": "Gema indestrutível de vinte faces ligada aos primórdios da Criação. Recupera memórias perdidas, mas seu uso prolongado ameaça a sanidade de mortais.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [
+        {
+          "id": "joia-da-alma-attribute-6-em-inteligencia-enquanto-e",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+6 em Inteligência enquanto estiver portando a Joia.",
+          "target": "int",
+          "bonus": 6
+        },
+        {
+          "id": "joia-da-alma-magia-other-para-magos-o-custo-basico-de",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Para magos, o custo básico de magias arcanas diminui para 0 PM; custos de aprimoramentos ainda são pagos."
+        },
+        {
+          "id": "joia-da-alma-memoria-other-enquanto-a-segura-recupera-i",
+          "type": "other",
+          "mode": "always",
+          "text": "Enquanto a segura, recupera instantaneamente todas as memórias de sua vida; ao soltá-la, as memórias voltam ao esquecimento."
+        },
+        {
+          "id": "joia-da-alma-risco-other-empunhar-exige-vontade-cd-25",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Empunhar exige Vontade CD 25. A CD aumenta em +1 a cada dia; falhas sucessivas podem causar condições mentais graves e eventualmente tirar o personagem do controle do jogador."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Indestrutível; empunhar exige Vontade CD 25 e novos testes diários com CD cumulativamente maior."
+    },
+    {
+      "id": "t20-baralho-do-caos",
+      "nome": "Baralho do Caos",
+      "categoria": "artefato",
+      "subtipo": "baralho",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 333,
+      "tags": [
+        "artefato",
+        "baralho",
+        "unico",
+        "caos",
+        "jogatina"
+      ],
+      "descricao": "Baralho aparentemente comum capaz de alterar drasticamente o destino de quem aposta tudo e compra suas cartas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [
+        {
+          "id": "baralho-do-caos-skill-10-em-jogatina-durante-uso-n",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+10 em Jogatina durante uso normal; a critério do mestre pode virar –10 se o usuário abusar da sorte.",
+          "target": "Jogatina",
+          "bonus": 10
+        },
+        {
+          "id": "baralho-do-caos-cartas-other-ao-declarar-eu-aposto-tudo-s",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao declarar “Eu aposto tudo”, saque de 1 a 4 cartas e role os efeitos da tabela do Baralho do Caos. Um personagem treinado em Jogatina pode tentar CD 30 para rejeitar uma carta e sacar outra, uma vez. Após esse uso, o artefato desaparece e reaparece em outro lugar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Fornece +10 em Jogatina enquanto usado normalmente; abuso da sorte pode transformar o bônus em –10 a critério do mestre."
+    },
+    {
+      "id": "t20-olho-de-sszzaas",
+      "nome": "Olho de Sszzaas",
+      "categoria": "artefato",
+      "subtipo": "cajado",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 334,
+      "tags": [
+        "artefato",
+        "cajado",
+        "unico",
+        "sszzaas",
+        "magia"
+      ],
+      "descricao": "Cajado de madeira fossilizada que sustenta uma gema esverdeada contendo parte da consciência de Sszzaas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [
+        {
+          "id": "olho-de-sszzaas-other-permite-lancar-qualquer-magi",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar qualquer magia que o portador conheça ou tenha ouvido falar, arcana ou divina, sem pagar o custo básico em PM. Aprimoramentos ainda custam PM."
+        },
+        {
+          "id": "olho-de-sszzaas-teste-other-cada-magia-exige-misticismo-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Cada magia exige Misticismo CD 20 + custo em PM da magia incluindo aprimoramentos. Falha pode provocar efeito imprevisível, sob controle do mestre."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Reconhecer e aprender a usar exige Conhecimento CD 30."
+    },
+    {
+      "id": "t20-rubi-da-virtude",
+      "nome": "Rubi da Virtude",
+      "categoria": "artefato",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 335,
+      "tags": [
+        "artefato",
+        "gema",
+        "unico",
+        "rubi",
+        "divino"
+      ],
+      "descricao": "Uma das vinte gemas divinas conhecidas como Rubis da Virtude. Cada rubi carrega parte da essência dos antigos deuses do Panteão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [
+        {
+          "id": "rubi-da-virtude-nivel-other-cada-rubi-incrustado-fornece",
+          "type": "other",
+          "mode": "always",
+          "text": "Cada Rubi incrustado fornece um nível de experiência em uma classe que o portador já possua."
+        },
+        {
+          "id": "rubi-da-virtude-resistencia-other-cada-rubi-fornece-rd-2-e-1-e",
+          "type": "other",
+          "mode": "always",
+          "text": "Cada Rubi fornece RD 2 e +1 em testes de resistência; os benefícios são cumulativos inclusive entre Rubis."
+        },
+        {
+          "id": "rubi-da-virtude-adivinhacao-other-magias-de-adivinhacao-contra",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Magias de adivinhação contra o portador exigem Misticismo CD 25 + quantidade de Rubis ou falham."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Cada rubi é indetectável por meios mágicos e só pode ser destruído por um deus do Panteão. Para ativar seus benefícios deve ser incrustado no corpo com Cura CD 25; o efeito surge após um dia."
     }
   ]
 }
