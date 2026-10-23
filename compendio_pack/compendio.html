@@ -6,7 +6,13 @@
 <title>Compêndio — La Magie</title>
 <style>
 :root{--bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--ink:#322619;--muted:#7d684d;--line:rgba(104,75,43,.35);--accent:#705233;--green:#546547;--red:#8f493d;--gold:#aa7735;--panel:rgba(255,250,237,.82)}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.22),transparent 25%),linear-gradient(155deg,var(--bg1),var(--bg2))}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{width:min(1220px,100%);margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px}.brand h1{margin:0;font-size:clamp(30px,4vw,46px)}.brand small{color:var(--muted)}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:rgba(255,248,228,.95);color:var(--ink)}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);color:var(--paper);border-color:#3d2b1d}.btn.danger{color:var(--red)}.btn[disabled]{opacity:.5;cursor:not-allowed}.pill{display:inline-flex;gap:7px;align-items:center;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,248,228,.92);font-size:12px;font-weight:bold;color:var(--muted)}.dot{width:8px;height:8px;border-radius:50%;background:#88745c}.pill.admin .dot{background:var(--green)}.sheet{overflow:hidden;border:1px solid rgba(79,52,28,.45);border-radius:18px;background:linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.08)),repeating-linear-gradient(7deg,rgba(98,65,32,.025) 0,rgba(98,65,32,.025) 1px,transparent 1px,transparent 5px),var(--paper);box-shadow:0 12px 34px rgba(50,32,14,.2)}.sheet:before{content:"";display:block;height:7px;background:linear-gradient(90deg,#3d2b1d,var(--gold),#3d2b1d)}.content{padding:22px}.toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 180px 180px auto;gap:10px;align-items:end;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.field{display:grid;gap:5px}.field label,.mini{font-size:10px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.58);color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--accent)}textarea{min-height:110px;resize:vertical}.summary{display:flex;justify-content:space-between;gap:12px;margin:15px 2px 10px;color:var(--muted);font-size:13px}.sync.saved{color:var(--green)}.sync.saving{color:var(--gold)}.sync.error{color:var(--red)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,248,228,.96);box-shadow:0 5px 16px rgba(50,32,14,.08)}.card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(50,32,14,.13)}.card h3{margin:0 0 6px;font-size:19px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.tag{padding:4px 7px;border:1px solid rgba(169,119,53,.28);border-radius:999px;background:rgba(169,119,53,.12);font-size:10px;font-weight:bold}.desc{font-size:13px;line-height:1.45;color:#514330;min-height:38px}.foot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px;padding-top:10px;border-top:1px dashed rgba(112,82,51,.22);font-size:12px;color:var(--muted)}.card-actions{display:flex;gap:6px}.card-actions .btn{padding:5px 8px;font-size:11px}.empty{grid-column:1/-1;padding:34px;text-align:center;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}.admin-only{display:none!important}body.is-admin .admin-only{display:inline-flex!important}.note{margin-top:18px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(169,119,53,.09);color:var(--muted);font-size:12px;line-height:1.5}.backdrop{position:fixed;inset:0;z-index:10000;background:rgba(35,24,14,.58);backdrop-filter:blur(3px);display:none}.backdrop.show{display:block}.drawer{position:fixed;z-index:10001;top:0;right:0;width:min(560px,100vw);height:100vh;overflow:auto;background:var(--paper);box-shadow:-18px 0 48px rgba(30,20,10,.28);transform:translateX(105%);transition:.2s}.drawer.show{transform:translateX(0)}.drawer-head{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:15px 18px;border-bottom:1px solid var(--line);background:rgba(246,237,215,.97)}.drawer-head h2{margin:0}.drawer-body{padding:18px}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{grid-column:1/-1}.effects{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}.effect-row{display:grid;grid-template-columns:120px 1fr 34px;gap:8px;margin-top:8px;align-items:center}.login{position:fixed;z-index:10002;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 28px));padding:22px;border:1px solid rgba(79,52,28,.45);border-radius:14px;background:var(--paper);box-shadow:0 24px 70px rgba(40,25,10,.38);display:none}.login.show{display:block}.login h2{margin:0 0 7px}.login p{margin:0 0 16px;color:var(--muted);line-height:1.45}.login form{display:grid;gap:10px}.login-error{min-height:17px;color:var(--red);font-size:12px}@media(max-width:920px){.toolbar{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){body{padding:12px}.content{padding:14px}.toolbar,.grid,.editor-grid{grid-template-columns:1fr}.wide{grid-column:auto}.effect-row{grid-template-columns:1fr 34px}.effect-row select{grid-column:1/-1}}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;padding:24px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.22),transparent 25%),linear-gradient(155deg,var(--bg1),var(--bg2))}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{width:min(1220px,100%);margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:14px}.brand h1{margin:0;font-size:clamp(30px,4vw,46px)}.brand small{color:var(--muted)}.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);border-radius:9px;padding:8px 12px;background:rgba(255,248,228,.95);color:var(--ink)}.btn:hover{border-color:var(--accent)}.btn.primary{background:var(--accent);color:var(--paper);border-color:#3d2b1d}.btn.danger{color:var(--red)}.btn[disabled]{opacity:.5;cursor:not-allowed}.pill{display:inline-flex;gap:7px;align-items:center;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,248,228,.92);font-size:12px;font-weight:bold;color:var(--muted)}.dot{width:8px;height:8px;border-radius:50%;background:#88745c}.pill.admin .dot{background:var(--green)}.sheet{overflow:hidden;border:1px solid rgba(79,52,28,.45);border-radius:18px;background:linear-gradient(rgba(255,255,255,.18),rgba(255,255,255,.08)),repeating-linear-gradient(7deg,rgba(98,65,32,.025) 0,rgba(98,65,32,.025) 1px,transparent 1px,transparent 5px),var(--paper);box-shadow:0 12px 34px rgba(50,32,14,.2)}.sheet:before{content:"";display:block;height:7px;background:linear-gradient(90deg,#3d2b1d,var(--gold),#3d2b1d)}.content{padding:22px}.toolbar{display:grid;grid-template-columns:minmax(240px,1fr) 180px 180px auto;gap:10px;align-items:end;padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.field{display:grid;gap:5px}.field label,.mini{font-size:10px;font-weight:bold;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.58);color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--accent)}textarea{min-height:110px;resize:vertical}.summary{display:flex;justify-content:space-between;gap:12px;margin:15px 2px 10px;color:var(--muted);font-size:13px}.sync.saved{color:var(--green)}.sync.saving{color:var(--gold)}.sync.error{color:var(--red)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card{padding:14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,248,228,.96);box-shadow:0 5px 16px rgba(50,32,14,.08)}.card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(50,32,14,.13)}.card h3{margin:0 0 6px;font-size:19px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}.tag{padding:4px 7px;border:1px solid rgba(169,119,53,.28);border-radius:999px;background:rgba(169,119,53,.12);font-size:10px;font-weight:bold}.desc{font-size:13px;line-height:1.45;color:#514330;min-height:38px}.foot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:12px;padding-top:10px;border-top:1px dashed rgba(112,82,51,.22);font-size:12px;color:var(--muted)}.card-actions{display:flex;gap:6px}.card-actions .btn{padding:5px 8px;font-size:11px}.empty{grid-column:1/-1;padding:34px;text-align:center;border:1px dashed var(--line);border-radius:12px;color:var(--muted)}.admin-only{display:none!important}body.is-admin .admin-only{display:inline-flex!important}.note{margin-top:18px;padding:12px 14px;border-left:3px solid var(--gold);background:rgba(169,119,53,.09);color:var(--muted);font-size:12px;line-height:1.5}.backdrop{position:fixed;inset:0;z-index:10000;background:rgba(35,24,14,.58);backdrop-filter:blur(3px);display:none}.backdrop.show{display:block}.drawer{position:fixed;z-index:10001;top:0;right:0;width:min(560px,100vw);height:100vh;overflow:auto;background:var(--paper);box-shadow:-18px 0 48px rgba(30,20,10,.28);transform:translateX(105%);transition:.2s}.drawer.show{transform:translateX(0)}.drawer-head{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;padding:15px 18px;border-bottom:1px solid var(--line);background:rgba(246,237,215,.97)}.drawer-head h2{margin:0}.drawer-body{padding:18px}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{grid-column:1/-1}.effects{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}.effect-row{display:grid;grid-template-columns:130px 130px minmax(120px,1fr) 100px 34px;gap:8px;margin-top:8px;align-items:center}.login{position:fixed;z-index:10002;left:50%;top:50%;transform:translate(-50%,-50%);width:min(420px,calc(100vw - 28px));padding:22px;border:1px solid rgba(79,52,28,.45);border-radius:14px;background:var(--paper);box-shadow:0 24px 70px rgba(40,25,10,.38);display:none}.login.show{display:block}.login h2{margin:0 0 7px}.login p{margin:0 0 16px;color:var(--muted);line-height:1.45}.login form{display:grid;gap:10px}.login-error{min-height:17px;color:var(--red);font-size:12px}@media(max-width:920px){.toolbar{grid-template-columns:1fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.effect-row{grid-template-columns:1fr 1fr}.effect-row .effect-delete{grid-column:2}.effect-row .effect-description{grid-column:1/-1}}@media(max-width:620px){body{padding:12px}.content{padding:14px}.toolbar,.grid,.editor-grid{grid-template-columns:1fr}.wide{grid-column:auto}.effect-row{grid-template-columns:1fr 34px}.effect-row select{grid-column:1/-1}}
+
+.weapon-editor{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
+.weapon-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.weapon-grid .wide{grid-column:1/-1}@media(max-width:620px){.weapon-grid{grid-template-columns:1fr}.weapon-grid .wide{grid-column:auto}}
+
+.comp-advanced{margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.2)}
+.comp-resource-row{display:grid;grid-template-columns:1fr 80px 80px auto auto 34px;gap:7px;align-items:center;margin-top:7px}.comp-resource-row label{font-size:10px;color:var(--muted);display:flex;gap:4px;align-items:center}@media(max-width:700px){.comp-resource-row{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -19,7 +25,7 @@
     <div class="toolbar">
       <div class="field"><label>Buscar</label><input id="search" type="search" placeholder="nome, descrição, tag..."></div>
       <div class="field"><label>Categoria</label><select id="category"><option value="">Todas</option></select></div>
-      <div class="field"><label>Fonte</label><select id="source"><option value="">Todas</option></select></div>
+      <div class="field"><label>Sistema</label><select id="source"><option value="">Todos os sistemas</option></select></div>
       <button id="newBtn" class="btn primary admin-only">+ Novo item</button>
     </div>
     <div class="summary"><span id="count">0 itens</span><span id="sync" class="sync">Carregando…</span></div>
@@ -38,12 +44,48 @@
       <div class="field"><label>Peso (kg)</label><input id="itemWeight" type="number" step="0.01" min="0"></div>
       <div class="field"><label>Preço</label><input id="itemPrice" type="number" step="0.01" min="0"></div>
       <div class="field"><label>Moeda</label><input id="itemCurrency" placeholder="T$, PO..."></div>
-      <div class="field"><label>Fonte</label><input id="itemSource" placeholder="Tormenta 20"></div>
+      <div class="field"><label>Sistema / coleção</label><input id="itemSystem" placeholder="Tormenta 20, D&D 5e..."></div>
+      <div class="field"><label>Fonte / livro</label><input id="itemSource" placeholder="Livro Básico, suplemento..."></div>
       <div class="field"><label>Página</label><input id="itemPage" type="number" min="0"></div>
       <div class="field wide"><label>Tags</label><input id="itemTags" placeholder="marcial, corte, uma mão"></div>
       <div class="field wide"><label>Descrição</label><textarea id="itemDescription"></textarea></div>
     </div>
     <div class="effects"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Efeitos</div><small style="color:var(--muted)">Dados que as fichas poderão interpretar.</small></div><button id="addEffect" class="btn">+ Efeito</button></div><div id="effects"></div></div>
+    <div id="weaponEditor" class="weapon-editor" hidden>
+      <div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><div><div class="mini">Ataque da arma</div><small style="color:var(--muted)">Ao adicionar à ficha, este item já cria um ataque configurado. Os modificadores permitidos são escolhidos na cópia dentro de cada ficha.</small></div><label style="font-size:12px"><input id="weaponEnabled" type="checkbox" checked> Criar ataque</label></div>
+      <div class="weapon-grid">
+        <div class="field wide"><label>Nome do ataque</label><input id="weaponName" placeholder="usa o nome do item se vazio"></div>
+        <div class="field"><label>Perícia</label><select id="weaponSkill"><option>Luta</option><option>Pontaria</option><option>Atletismo</option><option>Acrobacia</option></select></div>
+        <div class="field"><label>Atributo</label><select id="weaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
+        <div class="field"><label>Dano</label><input id="weaponDamage" placeholder="1d8"></div>
+        <div class="field"><label>Tipo de dano</label><input id="weaponDamageType" placeholder="Corte"></div>
+        <div class="field"><label>Margem de ameaça</label><input id="weaponThreat" type="number" min="1" max="20" value="20"></div>
+        <div class="field"><label>Crítico</label><input id="weaponCrit" type="number" min="1" value="2"></div>
+        <div class="field"><label>Bônus próprio no acerto</label><input id="weaponHitBonus" type="number" step="1" value="0"></div>
+        <div class="field"><label>Bônus próprio no dano</label><input id="weaponDamageBonus" placeholder="2, 1d6, -1..."></div>
+        <div class="field"><label>Alcance</label><input id="weaponRange" placeholder="Corpo a corpo, 9 m..."></div>
+        <div class="field"><label>Mãos</label><input id="weaponHands" placeholder="1, 2, versátil..."></div>
+        <div class="field"><label>Munição</label><input id="weaponAmmo"></div>
+        <div class="field"><label>Recarga</label><input id="weaponReload"></div>
+        <div class="field wide"><label>Propriedades / observações</label><input id="weaponProperties"></div>
+      </div>
+    </div>
+    <div class="comp-advanced">
+      <div class="mini">Consumível</div>
+      <div class="editor-grid" style="margin-top:8px">
+        <label class="field"><span class="mini">Ativo</span><span><input id="consumableEnabled" type="checkbox"> botão Usar</span></label>
+        <div class="field"><label>Quantidade por uso</label><input id="consumableAmount" type="number" min="1" value="1"></div>
+        <div class="field wide"><label>Texto do botão</label><input id="consumableLabel" placeholder="Usar"></div>
+      </div>
+    </div>
+    <div class="comp-advanced">
+      <div class="mini">Resistências e imunidades</div>
+      <div class="editor-grid" style="margin-top:8px"><div class="field wide"><label>Resistências</label><textarea id="itemResistances"></textarea></div><div class="field wide"><label>Imunidades</label><textarea id="itemImmunities"></textarea></div></div>
+    </div>
+    <div class="comp-advanced">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><div><div class="mini">Recursos do item</div><small style="color:var(--muted)">Cargas, energia, munição especial etc.</small></div><button id="addItemResource" class="btn" type="button">+ Recurso</button></div>
+      <div id="itemResources"></div>
+    </div>
     <div style="display:flex;justify-content:space-between;gap:8px;margin-top:18px"><button id="deleteBtn" class="btn danger">Excluir</button><div style="display:flex;gap:8px"><button id="cancelBtn" class="btn">Cancelar</button><button id="saveBtn" class="btn primary">Salvar</button></div></div>
   </div>
 </aside>
@@ -59,8 +101,59 @@ const COMMIT_FUNCTION="compendio-commit";
 const DEMO_ITEMS=[];
 let items=[],isAdmin=false,editingId=null;
 const $=id=>document.getElementById(id);const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");const uid=name=>`${String(name||"item").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"")||"item"}-${crypto.randomUUID().slice(0,8)}`;
+
+const COMPENDIUM_SCHEMA_VERSION=4;
+function normalizarTemplateCompendioV4(item={}){
+  const out=item&&typeof item==="object"?item:{};
+  out.schemaVersion=COMPENDIUM_SCHEMA_VERSION;
+  out.efeitos=Array.isArray(out.efeitos)?out.efeitos:(Array.isArray(out.effects)?out.effects:[]);
+  const c=out.consumable||out.consumivel||{};
+  out.consumable={enabled:Boolean(c.enabled??false),amountPerUse:Math.max(1,Number(c.amountPerUse??1)||1),label:String(c.label||"Usar").trim()||"Usar"};
+  const d=out.defenses||out.defesas||{};
+  out.defenses={resistances:String(d.resistances??d.resistencias??""),immunities:String(d.immunities??d.imunidades??"")};
+  const recursos=Array.isArray(out.resources)?out.resources:(Array.isArray(out.recursos)?out.recursos:[]);
+  const ids=new Set();
+  out.resources=recursos.map(r=>{r=r&&typeof r==="object"?r:{};let id=String(r.id||"").trim();if(!id||ids.has(id))id=crypto.randomUUID();ids.add(id);const max=(r.max===null||r.max===""||r.max===undefined)?null:Math.max(0,Number(r.max)||0);let current=Math.max(0,Number(r.current??0)||0);if(max!==null)current=Math.min(current,max);return{...r,id,name:String(r.name||"Recurso").trim()||"Recurso",current,max,showNormal:r.showNormal!==false,showCombat:r.showCombat!==false}});
+  if(out.weaponAttack||out.ataqueArma){const w=out.weaponAttack||out.ataqueArma||{};out.weaponAttack={enabled:w.enabled!==false,name:String(w.name??w.nome??""),skill:String(w.skill??w.pericia??"Luta"),stat:String(w.stat??w.atributo??"str"),die:String(w.die??w.dano??"1d6"),type:String(w.type??w.tipoDano??""),threat:Math.max(1,Math.min(20,Number(w.threat??w.margemAmeaca??20)||20)),crit:Math.max(1,Number(w.crit??w.critico??2)||2),hitBonus:Number(w.hitBonus??w.bonusHit??0)||0,damageBonus:String(w.damageBonus??w.bonusDamage??""),range:String(w.range??w.alcance??""),hands:String(w.hands??w.maos??""),ammo:String(w.ammo??w.municao??""),reload:String(w.reload??w.recarga??""),properties:String(w.properties??w.propriedades??""),allowedToggles:[]};delete out.ataqueArma}
+  delete out.effects;delete out.consumivel;delete out.defesas;delete out.recursos;
+  return out;
+}
+
 function setSync(t,s=""){$("sync").textContent=t;$("sync").className=`sync ${s}`.trim()}function setAdmin(v){isAdmin=!!v;document.body.classList.toggle("is-admin",isAdmin);$("statusPill").classList.toggle("admin",isAdmin);$("statusText").textContent=isAdmin?"Modo edição":"Visão pública";$("loginBtn").style.display=isAdmin?"none":""}
-async function loadItems(){setSync("Carregando…");try{const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});if(!r.ok)throw new Error(`HTTP ${r.status}`);const d=await r.json();items=Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[]);setSync("Compêndio carregado","saved")}catch(e){console.warn(e);items=structuredClone(DEMO_ITEMS);setSync("Compêndio ainda não inicializado","error")}refreshFilters();render()}
+async function loadItems(){
+  setSync("Carregando…");
+  const edgeUrl=`${SUPABASE_URL}/functions/v1/${COMMIT_FUNCTION}`;
+  try{
+    // lê direto do GitHub através da Edge Function para evitar o atraso do GitHub Pages
+    const r=await fetch(`${edgeUrl}?v=${Date.now()}`,{
+      method:"GET",
+      cache:"no-store",
+      headers:{"apikey":SUPABASE_KEY}
+    });
+    if(!r.ok){
+      const d=await r.json().catch(()=>({}));
+      throw new Error(d?.error||`HTTP ${r.status}`);
+    }
+    const d=await r.json();
+    items=(Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[])).map(normalizarTemplateCompendioV4);
+    setSync("Compêndio carregado","saved");
+  }catch(edgeError){
+    console.warn("Leitura pela Edge Function falhou; tentando arquivo público.",edgeError);
+    try{
+      const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});
+      if(!r.ok)throw new Error(`HTTP ${r.status}`);
+      const d=await r.json();
+      items=(Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[])).map(normalizarTemplateCompendioV4);
+      setSync("Compêndio carregado (fallback)","saved");
+    }catch(fileError){
+      console.warn(fileError);
+      items=structuredClone(DEMO_ITEMS);
+      setSync("Compêndio ainda não inicializado","error");
+    }
+  }
+  refreshFilters();
+  render();
+}
 async function checkSession(){
   try{
     const {data,error}=await sb.auth.getSession();
@@ -77,11 +170,73 @@ async function checkSession(){
 function refreshFilters(){const cats=[...new Set(items.map(i=>i.categoria).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const srcs=[...new Set(items.map(i=>i.fonte).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));const c=$("category").value,s=$("source").value;$("category").innerHTML='<option value="">Todas</option>'+cats.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");$("source").innerHTML='<option value="">Todas</option>'+srcs.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join("");if(cats.includes(c))$("category").value=c;if(srcs.includes(s))$("source").value=s}
 function filtered(){const q=$("search").value.trim().toLowerCase(),c=$("category").value,s=$("source").value;return items.filter(i=>{if(c&&i.categoria!==c)return false;if(s&&i.fonte!==s)return false;if(!q)return true;return[i.nome,i.categoria,i.subtipo,i.fonte,i.descricao,...(i.tags||[])].join(" ").toLowerCase().includes(q)})}
 function render(){const list=filtered();$("count").textContent=`${list.length} ${list.length===1?"item":"itens"}`;if(!list.length){$("items").innerHTML='<div class="empty">Nenhum item encontrado.</div>';return}$("items").innerHTML=list.map(i=>{const tags=[i.categoria,i.subtipo,...(i.tags||[])].filter(Boolean).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join("");const price=i.preco?.valor!==undefined?`${esc(i.preco.valor)} ${esc(i.preco.moeda||"")}`.trim():"—";const src=[i.fonte,i.pagina?`p. ${i.pagina}`:""].filter(Boolean).join(" • ");return`<article class="card"><h3>${esc(i.nome||"Item sem nome")}</h3><div class="tags">${tags}</div><div class="desc">${esc(i.descricao||"Sem descrição.")}</div><div class="foot"><div><div>${i.peso??"—"} kg · ${price}</div><div>${esc(src||"Fonte não informada")}</div></div><div class="card-actions"><button class="btn" onclick="viewItem('${esc(i.id)}')">Ver</button><button class="btn admin-only" onclick="editItem('${esc(i.id)}')">Editar</button></div></div></article>`}).join("")}
-function emptyItem(){return{id:"",nome:"",categoria:"",subtipo:"",peso:0,preco:{valor:0,moeda:"T$"},fonte:"",pagina:"",tags:[],descricao:"",efeitos:[]}}
-function renderEffects(effects,viewOnly=false){$("effects").innerHTML="";effects.forEach(e=>{const row=document.createElement("div");row.className="effect-row";row.innerHTML=`<select class="effect-type" ${viewOnly?"disabled":""}>${["ataque","dano","ca","cura","pericia","atributo","recurso","outro"].map(t=>`<option value="${t}" ${t===e.tipo?"selected":""}>${t}</option>`).join("")}</select><input class="effect-value" value="${esc(e.valor||"")}" placeholder="Ex.: +2, 1d8 corte" ${viewOnly?"disabled":""}>${viewOnly?"":'<button class="btn danger effect-delete">×</button>'}`;if(!viewOnly)row.querySelector(".effect-delete").onclick=()=>row.remove();$("effects").appendChild(row)})}
-function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||[],viewOnly);document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
+function emptyItem(){return normalizarTemplateCompendioV4({id:"",nome:"",categoria:"",subtipo:"",peso:0,preco:{valor:0,moeda:"T$"},fonte:"",pagina:"",tags:[],descricao:"",efeitos:[],consumable:{enabled:false,amountPerUse:1,label:"Usar"},defenses:{resistances:"",immunities:""},resources:[]})}
+function renderEffects(effects,viewOnly=false){
+  $("effects").innerHTML="";
+  effects.forEach(e=>{
+    const row=document.createElement("div");row.className="effect-row";
+    const tipo=e.type||e.tipo||"skill";
+    const modo=e.mode||e.modo||"always";
+    const target=e.skill||e.stat||e.target||e.alvo||"";
+    let value="";
+    if(tipo==="attack") value=[e.bonusHit??0,e.bonusDamage??""].join(" | ");
+    else if(tipo==="spell") value=[e.dcBonus??0,e.attackBonus??0].join(" | ");
+    else value=e.bonus??e.valor??"";
+    const descricao=e.text||e.descricao||"";
+    const options=[["skill","Perícia"],["attack","Ataque"],["ac","CA"],["maxHp","PV Máximo"],["hpPerLevel","PV por nível"],["attribute","Atributo"],["spell","Conjuração"],["movement","Movimento"],["carryCapacity","Peso carregável"],["other","Outro"]];
+    row.innerHTML=`
+      <select class="effect-type" ${viewOnly?"disabled":""}>${options.map(([v,l])=>`<option value="${v}" ${v===tipo?"selected":""}>${l}</option>`).join("")}</select>
+      <select class="effect-mode" ${viewOnly?"disabled":""}>${[["always","Sempre ativo (ficha)"],["toggle","Toggle ON/OFF do item"],["conditional","Condicional (modificador de combate)"],["use","Ao usar"]].map(([v,l])=>`<option value="${v}" ${v===modo?"selected":""}>${l}</option>`).join("")}</select>
+      <input class="effect-target" value="${esc(target)}" placeholder="Perícia / atributo / alvo" ${viewOnly?"disabled":""}>
+      <input class="effect-value" value="${esc(value)}" placeholder="Valor (ataque: acerto | dano; magia: CD | ataque)" ${viewOnly?"disabled":""}>
+      ${viewOnly?"":'<button class="btn danger effect-delete">×</button>'}
+      <input class="effect-description" style="grid-column:1/-1" value="${esc(descricao)}" placeholder="Descrição opcional" ${viewOnly?"disabled":""}>
+    `;
+    if(!viewOnly)row.querySelector(".effect-delete").onclick=()=>row.remove();
+    $("effects").appendChild(row)
+  })
+}
+function collectEffectsFromEditor(){
+  return [...document.querySelectorAll(".effect-row")].map(r=>{
+    const type=r.querySelector(".effect-type")?.value||"skill";
+    const mode=r.querySelector(".effect-mode")?.value||"always";
+    const target=r.querySelector(".effect-target")?.value.trim()||"";
+    const raw=r.querySelector(".effect-value")?.value.trim()||"";
+    const text=r.querySelector(".effect-description")?.value.trim()||"";
+    const e={id:crypto.randomUUID(),type,modo:mode,mode,text,descricao:text};
+    if(type==="skill"){e.skill=target||"Iniciativa";e.bonus=Number(raw||0)}
+    else if(type==="attribute"){e.stat=target||"str";e.bonus=Number(raw||0)}
+    else if(["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)){e.bonus=Number(raw||0)}
+    else if(type==="attack"){const [h,d]=raw.split("|").map(v=>v.trim());e.bonusHit=Number(h||0);e.bonusDamage=d||""}
+    else if(type==="spell"){const [dc,atk]=raw.split("|").map(v=>v.trim());e.dcBonus=Number(dc||0);e.attackBonus=Number(atk||0)}
+    else if(type==="other"){e.target=target;e.valor=raw}
+    return e;
+  }).filter(e=>e.text||e.skill||e.stat||e.target||e.valor!==undefined||e.bonus!==undefined||e.bonusHit!==undefined||e.bonusDamage||e.dcBonus!==undefined||e.attackBonus!==undefined)
+}
+function isWeaponCategory(){const c=$("itemCategory").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim().toLowerCase();return /^armas?(\s|$)/.test(c)||c.includes("weapon")}
+function updateWeaponVisibility(){const w=$("weaponEditor");if(w)w.hidden=!isWeaponCategory()}
+function fillWeaponEditor(i,viewOnly){
+  const w=i.weaponAttack||i.ataqueArma||{};
+  $("weaponEnabled").checked=w.enabled!==false;$("weaponName").value=w.name||"";$("weaponSkill").value=w.skill||"Luta";$("weaponStat").value=w.stat||"str";$("weaponDamage").value=w.die||"1d6";$("weaponDamageType").value=w.type||"";$("weaponThreat").value=Number(w.threat??20);$("weaponCrit").value=Number(w.crit??2);
+  $("weaponHitBonus").value=Number(w.hitBonus??w.bonusHit??0);$("weaponDamageBonus").value=w.damageBonus??w.bonusDamage??"";$("weaponRange").value=w.range??w.alcance??"";$("weaponHands").value=w.hands??w.maos??"";$("weaponAmmo").value=w.ammo??w.municao??"";$("weaponReload").value=w.reload??w.recarga??"";$("weaponProperties").value=w.properties??w.propriedades??"";
+  updateWeaponVisibility();document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=viewOnly)
+}
+function collectWeapon(){
+  if(!isWeaponCategory())return null;
+  return{enabled:Boolean($("weaponEnabled").checked),name:$("weaponName").value.trim(),skill:$("weaponSkill").value||"Luta",stat:$("weaponStat").value||"str",die:$("weaponDamage").value.trim()||"1d6",type:$("weaponDamageType").value.trim(),threat:Math.max(1,Math.min(20,Number($("weaponThreat").value||20))),crit:Math.max(1,Number($("weaponCrit").value||2)),hitBonus:Number($("weaponHitBonus").value||0),damageBonus:$("weaponDamageBonus").value.trim(),range:$("weaponRange").value.trim(),hands:$("weaponHands").value.trim(),ammo:$("weaponAmmo").value.trim(),reload:$("weaponReload").value.trim(),properties:$("weaponProperties").value.trim(),allowedToggles:[]}
+}
+
+let compendiumResourceDraft=[];
+function renderCompendiumResources(list=compendiumResourceDraft,viewOnly=false){compendiumResourceDraft=structuredClone(Array.isArray(list)?list:[]);const root=$("itemResources");if(!root)return;root.innerHTML="";compendiumResourceDraft.forEach(r=>{const row=document.createElement("div");row.className="comp-resource-row";row.dataset.id=r.id||crypto.randomUUID();row.innerHTML=`<input class="r-name" placeholder="Nome"><input class="r-current" type="number" min="0" placeholder="Atual"><input class="r-max" type="number" min="0" placeholder="Máx"><label><input class="r-normal" type="checkbox"> Ficha</label><label><input class="r-combat" type="checkbox"> Combate</label>${viewOnly?"":'<button class="btn danger r-del" type="button">×</button>'}`;row.querySelector(".r-name").value=r.name||"";row.querySelector(".r-current").value=Number(r.current??0);row.querySelector(".r-max").value=r.max==null?"":Number(r.max);row.querySelector(".r-normal").checked=r.showNormal!==false;row.querySelector(".r-combat").checked=r.showCombat!==false;row.querySelectorAll("input").forEach(el=>el.disabled=viewOnly);row.querySelector(".r-del")?.addEventListener("click",()=>row.remove());root.appendChild(row)});if(!compendiumResourceDraft.length)root.innerHTML='<small style="color:var(--muted)">Nenhum recurso configurado.</small>'}
+function collectCompendiumResources(){return [...document.querySelectorAll("#itemResources .comp-resource-row")].map(row=>({id:row.dataset.id||crypto.randomUUID(),name:row.querySelector(".r-name")?.value.trim()||"Recurso",current:Number(row.querySelector(".r-current")?.value||0),max:row.querySelector(".r-max")?.value===""?null:Number(row.querySelector(".r-max")?.value||0),showNormal:Boolean(row.querySelector(".r-normal")?.checked),showCombat:Boolean(row.querySelector(".r-combat")?.checked)}))}
+function fillAdvancedCompendium(i,viewOnly){const c=i.consumable||i.consumivel||{};$("consumableEnabled").checked=Boolean(c.enabled??false);$("consumableAmount").value=Math.max(1,Number(c.amountPerUse??1));$("consumableLabel").value=c.label||"Usar";const d=i.defenses||i.defesas||{};$("itemResistances").value=d.resistances??d.resistencias??"";$("itemImmunities").value=d.immunities??d.imunidades??"";renderCompendiumResources(i.resources||i.recursos||[],viewOnly);["consumableEnabled","consumableAmount","consumableLabel","itemResistances","itemImmunities"].forEach(id=>$(id).disabled=viewOnly);$("addItemResource").style.display=viewOnly?"none":""}
+
+function openDrawer(i,viewOnly=false){editingId=i.id||null;$("drawerTitle").textContent=viewOnly?i.nome:(editingId?"Editar item":"Novo item");$("itemName").value=i.nome||"";$("itemCategory").value=i.categoria||"";$("itemSubtype").value=i.subtipo||"";$("itemWeight").value=i.peso??"";$("itemPrice").value=i.preco?.valor??"";$("itemCurrency").value=i.preco?.moeda||"";$("itemSource").value=i.fonte||"";$("itemPage").value=i.pagina??"";$("itemTags").value=(i.tags||[]).join(", ");$("itemDescription").value=i.descricao||"";renderEffects(i.efeitos||i.effects||[],viewOnly);fillWeaponEditor(i,viewOnly);fillAdvancedCompendium(i,viewOnly);$("itemCategory").oninput=updateWeaponVisibility;document.querySelectorAll("#drawer input,#drawer textarea,#drawer select").forEach(el=>el.disabled=viewOnly);if(!viewOnly){$("itemCategory").disabled=false;document.querySelectorAll("#weaponEditor input,#weaponEditor select").forEach(el=>el.disabled=false)}$("addEffect").style.display=viewOnly?"none":"";$("saveBtn").style.display=viewOnly?"none":"";$("cancelBtn").style.display=viewOnly?"none":"";$("deleteBtn").style.display=(!viewOnly&&editingId)?"":"none";$("drawerBackdrop").classList.add("show");$("drawer").classList.add("show")}
 function closeDrawer(){$("drawerBackdrop").classList.remove("show");$("drawer").classList.remove("show");editingId=null}function viewItem(id){const i=items.find(x=>x.id===id);if(i)openDrawer(i,true)}function editItem(id){if(!isAdmin)return;const i=items.find(x=>x.id===id);if(i)openDrawer(structuredClone(i),false)}
-function collect(){const efeitos=[...document.querySelectorAll(".effect-row")].map(r=>({tipo:r.querySelector(".effect-type")?.value||"outro",valor:r.querySelector(".effect-value")?.value.trim()||""})).filter(e=>e.valor);return{id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos}}
+function collect(){
+  const efeitos=collectEffectsFromEditor();const weaponAttack=collectWeapon();
+  return normalizarTemplateCompendioV4({id:editingId||uid($("itemName").value),nome:$("itemName").value.trim(),categoria:$("itemCategory").value.trim(),subtipo:$("itemSubtype").value.trim(),peso:Number($("itemWeight").value||0),preco:{valor:Number($("itemPrice").value||0),moeda:$("itemCurrency").value.trim()},fonte:$("itemSource").value.trim(),pagina:$("itemPage").value?Number($("itemPage").value):null,tags:$("itemTags").value.split(",").map(v=>v.trim()).filter(Boolean),descricao:$("itemDescription").value.trim(),efeitos,weaponAttack,consumable:{enabled:Boolean($("consumableEnabled").checked),amountPerUse:Math.max(1,Number($("consumableAmount").value||1)),label:$("consumableLabel").value.trim()||"Usar"},defenses:{resistances:$("itemResistances").value.trim(),immunities:$("itemImmunities").value.trim()},resources:collectCompendiumResources()})
+}
 async function invokeCommit(body){
   if(!isAdmin)throw new Error("Acesso não autorizado.");
   const {data,error}=await sb.functions.invoke(COMMIT_FUNCTION,{body});
@@ -89,7 +244,7 @@ async function invokeCommit(body){
     let message=error.message||"Falha ao salvar no GitHub.";
     try{
       const context=error.context;
-      if(context && typeof context.json==="function"){
+      if(context&&typeof context.json==="function"){
         const details=await context.json();
         if(details?.error)message=details.error;
       }
@@ -145,9 +300,442 @@ async function logout(){
   await sb.auth.signOut();
   setAdmin(false);
 }
-$("search").oninput=render;$("category").onchange=render;$("source").onchange=render;$("newBtn").onclick=()=>openDrawer(emptyItem());$("closeDrawer").onclick=closeDrawer;$("cancelBtn").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("addEffect").onclick=()=>{const current=[...document.querySelectorAll(".effect-row")].map(r=>({tipo:r.querySelector(".effect-type")?.value||"outro",valor:r.querySelector(".effect-value")?.value||""}));current.push({tipo:"outro",valor:""});renderEffects(current)};$("saveBtn").onclick=save;$("deleteBtn").onclick=removeItem;$("loginBtn").onclick=showLogin;$("cancelLogin").onclick=hideLogin;$("loginBackdrop").onclick=hideLogin;$("logoutBtn").onclick=logout;$("loginForm").onsubmit=async e=>{e.preventDefault();$("loginError").textContent="Entrando…";try{await doLogin($("username").value.trim(),$("password").value);$("password").value="";hideLogin()}catch(err){$("loginError").textContent=err.message}};document.onkeydown=e=>{if(e.key==="Escape"){hideLogin();closeDrawer()}};
+$("search").oninput=render;$("category").onchange=render;$("source").onchange=render;$("newBtn").onclick=()=>openDrawer(emptyItem());$("closeDrawer").onclick=closeDrawer;$("cancelBtn").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("addEffect").onclick=()=>{const current=collectEffectsFromEditor();current.push({tipo:"ca",modo:"toggle",alvo:"",valor:"0",descricao:""});renderEffects(current)};$("addItemResource").onclick=()=>{const current=collectCompendiumResources();current.push({id:crypto.randomUUID(),name:"",current:0,max:null,showNormal:true,showCombat:true});renderCompendiumResources(current,false)};$("saveBtn").onclick=save;$("deleteBtn").onclick=removeItem;$("loginBtn").onclick=showLogin;$("cancelLogin").onclick=hideLogin;$("loginBackdrop").onclick=hideLogin;$("logoutBtn").onclick=logout;$("loginForm").onsubmit=async e=>{e.preventDefault();$("loginError").textContent="Entrando…";try{await doLogin($("username").value.trim(),$("password").value);$("password").value="";hideLogin()}catch(err){$("loginError").textContent=err.message}};document.onkeydown=e=>{if(e.key==="Escape"){hideLogin();closeDrawer()}};
 sb.auth.onAuthStateChange(()=>{checkSession()});
 (async()=>{setAdmin(false);await Promise.all([loadItems(),checkSession()])})();
 </script>
 </body>
 </html>
+
+
+<style id="compendio-v5-library-css">
+body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{padding:18px!important}.toolbar{grid-template-columns:minmax(260px,1.5fr) 180px 180px auto!important;padding:12px!important;gap:9px!important;margin-bottom:12px}.summary{margin:8px 2px 12px!important}.compendium-library{display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:14px;min-height:620px}.compendium-list-panel,.compendium-preview-panel{border:1px solid var(--line);border-radius:13px;background:rgba(255,248,228,.72);overflow:hidden}.compendium-list-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 13px;border-bottom:1px solid rgba(112,82,51,.14);background:rgba(255,248,228,.90)}.compendium-list-scroll{max-height:680px;overflow:auto;padding:7px}.comp-item-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:10px;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--ink);text-align:left;cursor:pointer}.comp-item-row:hover{background:rgba(255,255,255,.34);border-color:rgba(112,82,51,.13)}.comp-item-row.active{background:rgba(143,73,61,.08);border-color:rgba(143,73,61,.26);box-shadow:inset 3px 0 0 rgba(143,73,61,.72)}.comp-item-row-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;font-weight:700}.comp-item-row-meta{display:flex;flex-wrap:wrap;gap:4px 7px;margin-top:3px;color:var(--muted);font-size:9px}.comp-item-row-weight{color:var(--muted);font-size:9px;white-space:nowrap}.compendium-preview-panel{display:flex;flex-direction:column;min-width:0}.comp-preview-empty{flex:1;display:grid;place-items:center;min-height:520px;padding:36px;color:var(--muted);text-align:center}.comp-preview-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:18px 20px 14px;border-bottom:1px solid rgba(112,82,51,.15);background:rgba(255,248,228,.90)}.comp-preview-title h2{margin:0;font-size:28px;line-height:1.05}.comp-preview-subtitle{margin-top:5px;color:var(--muted);font-size:11px}.comp-preview-actions{display:flex;gap:7px;flex-wrap:wrap}.comp-preview-body{padding:18px 20px 22px}.comp-preview-badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.comp-preview-badge{display:inline-flex;padding:4px 8px;border:1px solid rgba(112,82,51,.18);border-radius:999px;background:rgba(255,255,255,.28);color:var(--muted);font-size:9px;font-weight:700}.comp-preview-badge.primary{color:var(--ink);border-color:rgba(169,119,53,.26);background:rgba(169,119,53,.08)}.comp-preview-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:16px}.comp-preview-stat{padding:9px 10px;border:1px solid rgba(112,82,51,.14);border-radius:9px;background:rgba(255,255,255,.24)}.comp-preview-stat span{display:block;color:var(--muted);font-size:8px;font-weight:700;text-transform:uppercase}.comp-preview-stat strong{display:block;margin-top:3px;font-size:13px}.comp-preview-section{margin-top:14px;padding-top:14px;border-top:1px solid rgba(112,82,51,.13)}.comp-preview-section h3{margin:0 0 8px;font-size:12px;text-transform:uppercase}.comp-preview-text{color:#58452f;font-size:12px;line-height:1.55;white-space:pre-wrap}.comp-preview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px}.comp-preview-line{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed rgba(112,82,51,.11);font-size:11px}.comp-preview-line span:first-child{color:var(--muted)}.comp-preview-effect,.comp-preview-resource,.comp-preview-defense{padding:8px 9px;border:1px solid rgba(112,82,51,.14);border-radius:8px;background:rgba(255,255,255,.23);font-size:10px;line-height:1.4}.comp-preview-resource{border-color:rgba(84,101,71,.18);background:rgba(84,101,71,.05)}.comp-preview-defense{border-color:rgba(143,73,61,.15);background:rgba(143,73,61,.045)}.comp-preview-weapon{padding:12px;border:1px solid rgba(169,119,53,.20);border-radius:10px;background:rgba(169,119,53,.055)}.comp-preview-weapon-main{font-size:16px;font-weight:700;margin-bottom:8px}.comp-preview-weapon-meta{display:flex;flex-wrap:wrap;gap:6px}.comp-preview-weapon-chip{padding:4px 7px;border:1px solid rgba(112,82,51,.14);border-radius:7px;background:rgba(255,255,255,.28);color:var(--muted);font-size:9px}.comp-preview-origin{color:var(--muted);font-size:9px;margin-top:12px}#items{display:none!important}.comp-admin-only{display:none!important}body.is-admin .comp-admin-only{display:inline-flex!important}.drawer{width:min(700px,100vw)!important}@media(max-width:980px){.compendium-library{grid-template-columns:1fr}.compendium-list-scroll{max-height:330px}}@media(max-width:720px){.toolbar{grid-template-columns:1fr 1fr!important}.comp-preview-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.comp-preview-grid{grid-template-columns:1fr}}@media(max-width:520px){.toolbar{grid-template-columns:1fr!important}.comp-preview-head{flex-direction:column}}
+</style>
+
+
+<script id="compendio-v5-library-js">
+(() => {
+  let selectedCompendiumId = null;
+  const escV5 = v => String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
+  const statNameV5 = v => ({str:"FOR",dex:"DES",con:"CON",int:"INT",wis:"SAB",cha:"CAR"})[String(v||"").toLowerCase()] || String(v||"").toUpperCase();
+
+  function normalizeWeaponV5(item){
+    const w=item?.weaponAttack||item?.ataqueArma||null;if(!w)return null;
+    return {enabled:w.enabled!==false,name:w.name||w.nome||item.nome||"",skill:w.skill||w.pericia||"Luta",stat:w.stat||w.atributo||"str",die:w.die||w.dano||"1d6",type:w.type||w.tipoDano||"",threat:Number(w.threat??w.margemAmeaca??20),crit:Number(w.crit??w.critico??2),hitBonus:Number(w.hitBonus??w.bonusHit??0),damageBonus:w.damageBonus??w.bonusDamage??"",range:w.range||w.alcance||"",hands:w.hands||w.maos||"",ammo:w.ammo||w.municao||"",reload:w.reload||w.recarga||"",properties:w.properties||w.propriedades||""};
+  }
+  function priceV5(item){const p=item?.preco||{};if(p.valor===undefined||p.valor===null||p.valor==="")return"—";return `${p.valor} ${p.moeda||""}`.trim()}
+  function effectTextV5(e){
+    const type=e?.type||e?.tipo||"", mode=e?.mode||e?.modo||"always";
+    const mt={always:"Sempre ativo",toggle:"Toggle do item",conditional:"Condicional",use:"Ao usar"}[mode]||mode;
+    let main=e?.text||e?.descricao||"";
+    if(!main){
+      if(type==="skill")main=`${e.skill||e.alvo||"Perícia"} ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="attribute")main=`${statNameV5(e.stat||e.alvo)} ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="ac")main=`CA ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="attack")main=`Ataque: ${Number(e.bonusHit||0)>=0?"+":""}${Number(e.bonusHit||0)} acerto${e.bonusDamage?` • ${e.bonusDamage} dano`:""}`;
+      else main=e?.valor||e?.target||e?.alvo||"Efeito";
+    }
+    return `${main} · ${mt}`;
+  }
+  function getFilteredV5(){try{return typeof filtered==="function"?filtered():(items||[])}catch{return items||[]}}
+  function ensureLayoutV5(){
+    if(document.querySelector(".compendium-library"))return;
+    const oldItems=document.getElementById("items");if(!oldItems)return;
+    const library=document.createElement("div");library.className="compendium-library";
+    library.innerHTML=`<section class="compendium-list-panel"><div class="compendium-list-head"><strong>Itens</strong><span id="compV5ListCount" class="mini"></span></div><div id="compV5List" class="compendium-list-scroll"></div></section><section id="compV5Preview" class="compendium-preview-panel"><div class="comp-preview-empty"><div><div style="font-size:28px;margin-bottom:8px;opacity:.45">⌘</div><strong>Selecione um item</strong><div style="margin-top:5px;font-size:11px">Os detalhes aparecem aqui sem abrir o editor.</div></div></div></section>`;
+    oldItems.parentNode.insertBefore(library,oldItems);
+  }
+  function renderListV5(){
+    ensureLayoutV5();
+    const list=document.getElementById("compV5List"),count=document.getElementById("compV5ListCount");if(!list)return;
+    const arr=getFilteredV5();if(count)count.textContent=`${arr.length} ${arr.length===1?"item":"itens"}`;
+    if(!arr.length){list.innerHTML=`<div style="padding:24px 12px;text-align:center;color:var(--muted);font-size:11px">Nenhum item encontrado.</div>`;renderPreviewV5(null);return}
+    if(!selectedCompendiumId||!arr.some(i=>i.id===selectedCompendiumId))selectedCompendiumId=arr[0]?.id||null;
+    list.innerHTML="";
+    arr.forEach(item=>{
+      const row=document.createElement("button");row.type="button";row.className=`comp-item-row ${item.id===selectedCompendiumId?"active":""}`;
+      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}${(item.sistema||item.system)?`<span class="comp-item-system">• ${escV5(item.sistema||item.system)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
+      row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5()});list.appendChild(row);
+    });
+    renderPreviewV5(arr.find(i=>i.id===selectedCompendiumId)||arr[0]);
+  }
+  function renderPreviewV5(item){
+    const host=document.getElementById("compV5Preview");if(!host)return;
+    if(!item){host.innerHTML=`<div class="comp-preview-empty"><strong>Nenhum item selecionado.</strong></div>`;return}
+    const tags=[item.categoria,item.subtipo,...(Array.isArray(item.tags)?item.tags:[])].filter(Boolean).slice(0,8);
+    const w=normalizeWeaponV5(item),consumable=item.consumable||item.consumivel||{},defenses=item.defenses||item.defesas||{},resources=Array.isArray(item.resources)?item.resources:(Array.isArray(item.recursos)?item.recursos:[]),effects=Array.isArray(item.effects)?item.effects:(Array.isArray(item.efeitos)?item.efeitos:[]);
+    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([item.categoria,item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5DuplicateBtn">Duplicar</button><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Sistema / coleção</span><strong>${escV5(item.sistema||item.system||"—")}</strong></div><div class="comp-preview-stat"><span>Fonte / livro</span><strong>${escV5(item.fonte||"—")}${item.pagina?` · p. ${item.pagina}`:""}</strong></div></div>`;
+    if(w&&w.enabled){const threat=w.threat<20?`${w.threat}–20`:"20";body+=`<section class="comp-preview-section"><h3>Ataque</h3><div class="comp-preview-weapon"><div class="comp-preview-weapon-main">${escV5(w.skill)} + ${escV5(statNameV5(w.stat))} · ${escV5(w.die)} ${escV5(w.type)} · ${threat}/×${w.crit}</div><div class="comp-preview-weapon-meta">${w.hitBonus?`<span class="comp-preview-weapon-chip">Acerto ${w.hitBonus>=0?"+":""}${w.hitBonus}</span>`:""}${w.damageBonus?`<span class="comp-preview-weapon-chip">Dano ${escV5(w.damageBonus)}</span>`:""}${w.range?`<span class="comp-preview-weapon-chip">Alcance ${escV5(w.range)}</span>`:""}${w.hands?`<span class="comp-preview-weapon-chip">${escV5(w.hands)} mão(s)</span>`:""}${w.ammo?`<span class="comp-preview-weapon-chip">Munição ${escV5(w.ammo)}</span>`:""}${w.reload?`<span class="comp-preview-weapon-chip">Recarga ${escV5(w.reload)}</span>`:""}${w.properties?`<span class="comp-preview-weapon-chip">${escV5(w.properties)}</span>`:""}</div></div></section>`}
+    if(consumable?.enabled){body+=`<section class="comp-preview-section"><h3>Uso</h3><div class="comp-preview-grid"><div class="comp-preview-line"><span>Consumível</span><strong>Sim</strong></div><div class="comp-preview-line"><span>Gasta por uso</span><strong>${Number(consumable.amountPerUse||1)}</strong></div><div class="comp-preview-line"><span>Botão</span><strong>${escV5(consumable.label||"Usar")}</strong></div></div></section>`}
+    if(defenses?.resistances||defenses?.resistencias||defenses?.immunities||defenses?.imunidades){body+=`<section class="comp-preview-section"><h3>Defesas</h3><div class="comp-preview-grid">${defenses.resistances||defenses.resistencias?`<div class="comp-preview-defense"><strong>Resistências:</strong> ${escV5(defenses.resistances||defenses.resistencias)}</div>`:""}${defenses.immunities||defenses.imunidades?`<div class="comp-preview-defense"><strong>Imunidades:</strong> ${escV5(defenses.immunities||defenses.imunidades)}</div>`:""}</div></section>`}
+    if(resources.length){body+=`<section class="comp-preview-section"><h3>Recursos</h3><div class="comp-preview-grid">${resources.map(r=>`<div class="comp-preview-resource"><strong>${escV5(r.name||r.nome||"Recurso")}</strong><div style="margin-top:3px">${Number(r.current??r.atual??0)}${r.max!==undefined&&r.max!==null&&r.max!==""?` / ${r.max}`:""}</div></div>`).join("")}</div></section>`}
+    if(effects.length){body+=`<section class="comp-preview-section"><h3>Efeitos</h3><div class="comp-preview-grid">${effects.map(e=>`<div class="comp-preview-effect">${escV5(effectTextV5(e))}</div>`).join("")}</div></section>`}
+    if(item.descricao){body+=`<section class="comp-preview-section"><h3>Descrição</h3><div class="comp-preview-text">${escV5(item.descricao)}</div></section>`}
+    body+=`<div class="comp-preview-origin">${item.id?`ID: ${escV5(item.id)}`:""}</div></div></article>`;
+    host.innerHTML=body;
+    document.getElementById("compV5DuplicateBtn")?.addEventListener("click",()=>typeof window.duplicarItemCatalogoV51==="function"&&window.duplicarItemCatalogoV51(item.id));
+    document.getElementById("compV5EditBtn")?.addEventListener("click",()=>typeof editItem==="function"&&editItem(item.id));
+  }
+  const oldRender=window.render;
+  window.render=function(...args){const result=oldRender.apply(this,args);requestAnimationFrame(renderListV5);return result};
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>requestAnimationFrame(renderListV5),{once:true});else requestAnimationFrame(renderListV5);
+})();
+</script>
+
+
+
+<script id="compendio-v51-catalog-js">
+(() => {
+  const normalizarTextoCatalogo = valor => String(valor ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .toLowerCase()
+    .trim();
+
+  const normalizarTagCatalogo = valor => normalizarTextoCatalogo(valor)
+    .replace(/\s+/g," ");
+
+  const normalizarCategoriaCatalogo = valor => normalizarTextoCatalogo(valor)
+    .replace(/\s+/g," ");
+
+  function normalizarTagsCatalogo(tags){
+    const lista = Array.isArray(tags)
+      ? tags
+      : String(tags || "").split(",");
+
+    return [...new Set(
+      lista
+        .map(normalizarTagCatalogo)
+        .filter(Boolean)
+    )];
+  }
+
+  function normalizarItemCatalogo(item){
+    const agora = new Date().toISOString();
+    return {
+      ...item,
+      schemaVersion: Math.max(5, Number(item?.schemaVersion || 0)),
+      categoria: normalizarCategoriaCatalogo(item?.categoria),
+      tags: normalizarTagsCatalogo(item?.tags),
+      sistema: String(item?.sistema || item?.system || "").trim(),
+      updatedAt: item?.updatedAt || agora
+    };
+  }
+
+  // normaliza os itens já carregados em memória para filtros/lista,
+  // sem fazer commit automático no GitHub.
+  function normalizarItensEmMemoria(){
+    if(!Array.isArray(items)) return;
+    items = items.map(normalizarItemCatalogo);
+  }
+
+  // Busca canônica: ignora maiúsculas/minúsculas e acentos.
+  window.filtered = function(){
+    const q = normalizarTextoCatalogo(document.getElementById("search")?.value || "");
+    const c = normalizarCategoriaCatalogo(document.getElementById("category")?.value || "");
+    const s = document.getElementById("source")?.value || "";
+
+    return (items || []).filter(i => {
+      const item = normalizarItemCatalogo(i);
+
+      if(c && normalizarCategoriaCatalogo(item.categoria) !== c) return false;
+      if(s && item.fonte !== s) return false;
+      if(!q) return true;
+
+      const haystack = [
+        item.nome,
+        item.categoria,
+        item.subtipo,
+        item.sistema,
+        item.fonte,
+        item.descricao,
+        ...(item.tags || [])
+      ]
+        .map(normalizarTextoCatalogo)
+        .join(" ");
+
+      return haystack.includes(q);
+    });
+  };
+
+  // Atualiza filtros com categorias normalizadas e sem duplicatas por acento/case.
+  window.refreshFilters = function(){
+    const cats = [...new Set(
+      (items || [])
+        .map(i => normalizarCategoriaCatalogo(i?.categoria))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const srcs = [...new Set(
+      (items || [])
+        .map(i => i?.fonte)
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const category = document.getElementById("category");
+    const source = document.getElementById("source");
+    if(!category || !source) return;
+
+    const catAtual = normalizarCategoriaCatalogo(category.value);
+    const srcAtual = source.value;
+
+    category.innerHTML =
+      '<option value="">Todas</option>' +
+      cats.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    source.innerHTML =
+      '<option value="">Todas</option>' +
+      srcs.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    if(cats.includes(catAtual)) category.value = catAtual;
+    if(srcs.includes(srcAtual)) source.value = srcAtual;
+  };
+
+  // Espelha o campo novo no drawer.
+  const openDrawerOriginal = window.openDrawer;
+  window.openDrawer = function(i, viewOnly=false){
+    const item = normalizarItemCatalogo(i || {});
+    const result = openDrawerOriginal.call(this, item, viewOnly);
+
+    const system = document.getElementById("itemSystem");
+    if(system){
+      system.value = item.sistema || "";
+      system.disabled = Boolean(viewOnly);
+    }
+
+    return result;
+  };
+
+  // Salva categoria/tags sempre em forma canônica.
+  const collectOriginal = window.collect;
+  window.collect = function(){
+    const item = collectOriginal.call(this);
+
+    const sistema = document.getElementById("itemSystem")?.value.trim() || "";
+    const agora = new Date().toISOString();
+
+    return normalizarItemCatalogo({
+      ...item,
+      sistema,
+      categoria: normalizarCategoriaCatalogo(item.categoria),
+      tags: normalizarTagsCatalogo(item.tags),
+      schemaVersion: 5,
+      updatedAt: agora
+    });
+  };
+
+  // Enquanto digita categoria/tags, já deixa o texto em formato canônico.
+  function bindCanonicalInputs(){
+    const category = document.getElementById("itemCategory");
+    const tags = document.getElementById("itemTags");
+
+    if(category && category.dataset.catalogNormalize !== "1"){
+      category.dataset.catalogNormalize = "1";
+      category.addEventListener("blur", () => {
+        category.value = normalizarCategoriaCatalogo(category.value);
+        if(typeof updateWeaponVisibility === "function") updateWeaponVisibility();
+      });
+    }
+
+    if(tags && tags.dataset.catalogNormalize !== "1"){
+      tags.dataset.catalogNormalize = "1";
+      tags.addEventListener("blur", () => {
+        tags.value = normalizarTagsCatalogo(tags.value).join(", ");
+      });
+    }
+  }
+
+  // Duplicação: cria novo ID, nome "cópia", preserva conteúdo.
+  async function duplicarItemCatalogo(id){
+    if(!isAdmin) return;
+
+    const original = (items || []).find(i => i.id === id);
+    if(!original) return;
+
+    const copia = structuredClone(original);
+    copia.id = uid(`${original.nome || "item"} copia`);
+    copia.nome = `${original.nome || "Item"} (cópia)`;
+    copia.schemaVersion = 5;
+    copia.updatedAt = new Date().toISOString();
+
+    // recursos/efeitos internos também recebem IDs novos quando possível,
+    // evitando vínculos acidentais entre templates.
+    if(Array.isArray(copia.efeitos)){
+      copia.efeitos = copia.efeitos.map(e => ({...e, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.effects)){
+      copia.effects = copia.effects.map(e => ({...e, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.resources)){
+      copia.resources = copia.resources.map(r => ({...r, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.recursos)){
+      copia.recursos = copia.recursos.map(r => ({...r, id: crypto.randomUUID()}));
+    }
+
+    try{
+      setSync("Duplicando no GitHub…","saving");
+      await invokeCommit({action:"upsert",item:copia});
+      items = [...items, copia];
+      refreshFilters();
+      render();
+      setSync("Item duplicado","saved");
+      requestAnimationFrame(() => {
+        if(typeof renderListV5 === "function") renderListV5();
+      });
+    }catch(e){
+      console.error(e);
+      setSync(e.message || "Falha ao duplicar item.","error");
+      alert(e.message || "Falha ao duplicar item.");
+    }
+  }
+
+  window.duplicarItemCatalogoV51 = duplicarItemCatalogo;
+
+  function iniciarCatalogo(){
+    normalizarItensEmMemoria();
+    bindCanonicalInputs();
+    refreshFilters();
+    if(typeof render === "function") render();
+
+    observerPreview.observe(document.body,{childList:true,subtree:true});
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", iniciarCatalogo, {once:true});
+  }else{
+    iniciarCatalogo();
+  }
+
+  // campo novo pode aparecer depois de reabrir drawer
+  document.addEventListener("click", e => {
+    if(e.target.closest("#newBtn,.comp-admin-only,.card-actions")){
+      requestAnimationFrame(bindCanonicalInputs);
+    }
+  });
+})();
+</script>
+
+
+
+<style id="compendio-v5-2-system-card-css">
+.comp-item-system{
+  color:#7a463e!important;
+  font-weight:800!important;
+  letter-spacing:.015em;
+}
+</style>
+
+
+
+<script id="compendio-v5-3-live-filters">
+(() => {
+  const canon = value => String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+
+  // O antigo select "source" é mantido pelo ID para não quebrar código legado,
+  // mas a partir daqui representa Sistema.
+  window.refreshFilters = function(){
+    const category = document.getElementById("category");
+    const system = document.getElementById("source");
+    if(!category || !system) return;
+
+    const categoriaAtual = canon(category.value);
+    const sistemaAtual = canon(system.value);
+
+    const categorias = [...new Set(
+      (items || [])
+        .map(i => canon(i?.categoria))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const sistemas = [...new Set(
+      (items || [])
+        .map(i => canon(i?.sistema || i?.system))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    category.innerHTML =
+      '<option value="">Todas as categorias</option>' +
+      categorias.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    system.innerHTML =
+      '<option value="">Todos os sistemas</option>' +
+      sistemas.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    if(categorias.includes(categoriaAtual)) category.value = categoriaAtual;
+    if(sistemas.includes(sistemaAtual)) system.value = sistemaAtual;
+  };
+
+  window.filtered = function(){
+    const q = canon(document.getElementById("search")?.value || "");
+    const c = canon(document.getElementById("category")?.value || "");
+    const s = canon(document.getElementById("source")?.value || "");
+
+    return (items || []).filter(raw => {
+      const categoria = canon(raw?.categoria);
+      const sistema = canon(raw?.sistema || raw?.system);
+
+      if(c && categoria !== c) return false;
+      if(s && sistema !== s) return false;
+
+      // busca pode ficar vazia: nesse caso categoria/sistema funcionam sozinhos
+      if(!q) return true;
+
+      const haystack = [
+        raw?.nome,
+        raw?.categoria,
+        raw?.subtipo,
+        raw?.sistema,
+        raw?.system,
+        raw?.fonte,
+        raw?.descricao,
+        ...(Array.isArray(raw?.tags) ? raw.tags : [])
+      ].map(canon).join(" ");
+
+      return haystack.includes(q);
+    });
+  };
+
+  function atualizarEmTempoReal(){
+    // window.render já foi envelopado pelo layout V5 e atualiza
+    // tanto a estrutura antiga quanto lista/preview da biblioteca.
+    if(typeof window.render === "function") window.render();
+  }
+
+  function ligarFiltros(){
+    const search = document.getElementById("search");
+    const category = document.getElementById("category");
+    const system = document.getElementById("source");
+
+    if(search && search.dataset.liveFilterV53 !== "1"){
+      search.dataset.liveFilterV53 = "1";
+      search.addEventListener("input", atualizarEmTempoReal);
+      search.addEventListener("search", atualizarEmTempoReal);
+    }
+
+    if(category && category.dataset.liveFilterV53 !== "1"){
+      category.dataset.liveFilterV53 = "1";
+      category.addEventListener("change", atualizarEmTempoReal);
+    }
+
+    if(system && system.dataset.liveFilterV53 !== "1"){
+      system.dataset.liveFilterV53 = "1";
+      system.addEventListener("change", atualizarEmTempoReal);
+    }
+
+    refreshFilters();
+    atualizarEmTempoReal();
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", ligarFiltros, {once:true});
+  }else{
+    ligarFiltros();
+  }
+})();
+</script>
+
