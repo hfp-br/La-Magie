@@ -404,6 +404,28 @@ textarea.f{min-height:105px}
   #st{display:none}
   .pg{padding:18px 12px 36px}
 }
+
+/* Calendário individual e público - mesmo calendário de Arton da timeline */
+#cal{max-width:1180px;display:flex;flex-direction:column;gap:14px}
+.cal-toolbar,.cal-panel,.cal-agenda{border:1px solid color-mix(in srgb,var(--line) 65%,transparent);background:color-mix(in srgb,var(--panel) 83%,transparent);border-radius:13px;box-shadow:0 6px 20px rgba(40,25,10,.06)}
+.cal-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:14px}
+.cal-heading{display:flex;flex-direction:column;gap:2px}.cal-heading strong{font-size:1.24em;color:var(--acc)}.cal-heading small{color:var(--mut)}
+.cal-controls{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.cal-controls .b{min-width:36px}
+.cal-controls select{min-width:130px;width:auto}.cal-controls input{width:96px}
+.cal-panel{padding:11px}.cal-weekdays,.cal-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.cal-weekday{text-align:center;padding:8px 2px;color:var(--mut);font-size:.72em;font-weight:700}
+.cal-day{min-width:0;min-height:105px;padding:8px 7px;border:1px solid color-mix(in srgb,var(--line) 53%,transparent);border-radius:9px;background:color-mix(in srgb,var(--panel) 76%,white 9%);color:var(--ink);text-align:left;display:flex;flex-direction:column;gap:4px;cursor:pointer;transition:background .12s,border-color .12s}
+.cal-day:hover{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 8%,var(--panel))}
+.cal-day.selected{outline:2px solid var(--acc);outline-offset:-2px}
+.cal-day.today{background:color-mix(in srgb,var(--acc) 13%,var(--panel))}
+.cal-date{display:flex;align-items:center;justify-content:space-between;font-size:.88em;font-weight:700}.cal-today-text{font-size:.64em;color:var(--acc);font-style:italic}
+.cal-events{display:flex;flex-direction:column;gap:3px;min-width:0}.cal-event{font-size:.68em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:color-mix(in srgb,var(--acc) 13%,var(--panel));padding:3px 5px;border-radius:5px;border-left:2px solid var(--acc)}
+.cal-more{font-size:.67em;color:var(--mut)}.cal-empty-cell{min-height:105px;opacity:.25}
+.cal-agenda{padding:15px}.cal-agenda-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:12px}
+.cal-agenda-header strong{font-size:1.07em}.cal-agenda-list{display:grid;gap:8px}.cal-agenda-event{border:1px solid color-mix(in srgb,var(--line) 62%,transparent);background:color-mix(in srgb,var(--panel) 60%,transparent);border-radius:9px;padding:11px;display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.cal-agenda-event h3{font-size:1em;margin:0 0 4px}.cal-agenda-event p{white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:var(--mut);font-size:.84em}.cal-agenda-event .b{white-space:nowrap}.cal-agenda-empty{color:var(--mut);font-style:italic;font-size:.9em}
+@media(max-width:700px){#cal{padding:12px 8px 35px}.cal-panel{padding:5px}.cal-weekdays,.cal-days{gap:3px}.cal-weekday{font-size:.6em}.cal-day{min-height:64px;padding:5px 3px;gap:3px;border-radius:6px}.cal-date{font-size:.78em}.cal-event{display:none}.cal-more{font-size:.61em}.cal-today-text{font-size:.55em}.cal-toolbar{padding:10px}.cal-controls{width:100%}.cal-controls select{flex:1;min-width:115px}.cal-controls input{width:75px}.cal-agenda{padding:11px}.cal-agenda-event{flex-direction:column}.cal-agenda-event .b{align-self:flex-end}}
+@media(max-width:360px){.cal-weekday{font-size:.53em}.cal-day{min-height:55px}.cal-today-text{display:none}}
 </style>
 
 </head>
@@ -411,6 +433,7 @@ textarea.f{min-height:105px}
 <header>
   <h1>Linha do Tempo</h1>
   <button class="b on" data-t="sc">Linha do tempo</button>
+  <button class="b" data-t="cal">Calendário</button>
   <button class="b" data-t="lib">Biblioteca</button>
   <button class="b" data-t="set" id="appearanceTab">Aparência</button>
   <input id="q" class="f" type="search" placeholder="Buscar evento…" aria-label="Buscar evento">
@@ -429,6 +452,7 @@ textarea.f{min-height:105px}
   </div>
 </div>
 <div id="sc"><div id="tr"><div id="ly"></div><div class="axis"></div><div class="gh" id="gh">+</div></div></div>
+<div id="cal" class="pg" hidden></div>
 <div id="lib" class="pg" hidden></div>
 <div id="set" class="pg" hidden></div>
 <div id="tip"></div>
@@ -464,6 +488,7 @@ const MES=[['Caravana','Primavera'],['Pomo','Primavera'],['Keenvia','Primavera']
 const SEM=[['Valk','Valkaria'],['Hedryl','Khalmyr'],['Luna','Lena'],['Astar','Azgher'],['Dallia','Wynna'],['Haya','Marah'],['Leen','Ragnar']];
 const idx=(y,m,d)=>y*360+m*30+d-1,
  parts=i=>{const y=Math.floor(i/360),r=i-y*360;return{y,m:Math.floor(r/30),d:r%30+1}};
+let calendarMonth=null,calendarSelected=null;
 let cfg={
   vars:{},
   theme:{color:"#8a2d1c",mode:"normal",grain:.28,fontSize:16},
@@ -836,6 +861,8 @@ async function switchTimeline(slug){
     setSync("Timeline pública sincronizada","ok");
   }
 
+  calendarMonth={y:cfg.hoje.y,m:cfg.hoje.m};
+  calendarSelected=hoje();
   fitTimeline();
   render();
   renderTimelineTabs();
@@ -982,7 +1009,7 @@ function ticks(){
 /* linha do tempo */
 const X=t=>20+(t-t0)*ppm,match=(e,q)=>(e.name+' '+e.desc+' '+(e.tags||[]).join(' ')).toLowerCase().includes(q);
 function render(){
-  if(tab=='sc')drawTimeline();else if(tab=='lib')drawLib();
+  if(tab==='sc')drawTimeline();else if(tab==='lib')drawLib();else if(tab==='cal')drawCalendar();
 }
 function drawTimeline(){
   const [r0,r1]=range();
@@ -1250,7 +1277,7 @@ const near=e=>{const r=tr.getBoundingClientRect();return Math.abs(e.clientY-(r.t
 tr.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const n=canEdit&&!dg&&!pinch&&near(e);gh.style.display=n?'flex':'none';if(n)gh.style.left=e.clientX-tr.getBoundingClientRect().left+'px'});
 tr.addEventListener('mouseleave',()=>gh.style.display='none');
 tr.addEventListener('click',e=>{if(canEdit&&!dragged&&near(e))openDlg({t:Math.round(t0+(e.clientX-tr.getBoundingClientRect().left-20)/ppm)})});
-$('#add').onclick=()=>{if(canEdit)openDlg({t:tab=='sc'?Math.round(viewCenter??((t0+t1)/2)):hoje()})};
+$('#add').onclick=()=>{if(canEdit)openDlg({t:tab==='sc'?Math.round(viewCenter??((t0+t1)/2)):tab==='cal'?(calendarSelected??hoje()):hoje()})};
 
 /* diálogo */
 $('#dm').innerHTML=MES.map((m,i)=>`<option value="${i}">${m[0]} (${m[1]})</option>`).join('');
@@ -1833,12 +1860,82 @@ $('#timelineImportFile').addEventListener('change',async()=>{
   }
 });
 
+
+/* Calendário: renderiza os mesmos eventos e respeita edição somente local. */
+function calMoveMonth(delta){
+  const absolute=calendarMonth.y*12+calendarMonth.m+delta;
+  calendarMonth={y:Math.floor(absolute/12),m:((absolute%12)+12)%12};
+  calendarSelected=idx(calendarMonth.y,calendarMonth.m,1);
+  drawCalendar();
+}
+function drawCalendar(){
+  const host=$('#cal');if(!host||!currentTimeline)return;
+  if(!calendarMonth)calendarMonth={y:cfg.hoje.y,m:cfg.hoje.m};
+  const y=calendarMonth.y,m=calendarMonth.m;
+  const first=idx(y,m,1),selected=calendarSelected??hoje();
+  const offset=wk(first),q=$('#q').value.trim().toLowerCase();
+  const visible=filteredEvents().filter(e=>!q||match(e,q));
+  const byDay=new Map();
+  for(const e of visible){if(e.t<first||e.t>=first+30)continue;const d=parts(e.t).d;if(!byDay.has(d))byDay.set(d,[]);byDay.get(d).push(e)}
+  host.innerHTML='';
+  const toolbar=document.createElement('div');toolbar.className='cal-toolbar';
+  toolbar.innerHTML='<div class="cal-heading"><strong></strong><small></small></div><div class="cal-controls"><button class="b" id="calPrev" title="Mês anterior" type="button">‹</button><select class="f" id="calMonth" aria-label="Mês"></select><input class="f" id="calYear" type="number" aria-label="Ano"><button class="b" id="calNext" title="Próximo mês" type="button">›</button><button class="b" id="calToday" type="button">Hoje</button></div>';
+  toolbar.querySelector('.cal-heading strong').textContent=MES[m][0]+' · '+y+' DE';
+  toolbar.querySelector('.cal-heading small').textContent=MES[m][1]+' · '+(currentTimeline.slug==='local'?'Minha timeline pessoal':'Timeline Pública')+' · '+visible.filter(e=>e.t>=first&&e.t<first+30).length+' evento(s)';
+  const select=toolbar.querySelector('#calMonth');MES.forEach((mo,i)=>{const opt=document.createElement('option');opt.value=i;opt.textContent=mo[0];select.appendChild(opt)});select.value=String(m);
+  toolbar.querySelector('#calYear').value=String(y);
+  toolbar.querySelector('#calPrev').onclick=()=>calMoveMonth(-1);
+  toolbar.querySelector('#calNext').onclick=()=>calMoveMonth(1);
+  toolbar.querySelector('#calToday').onclick=()=>{calendarMonth={y:cfg.hoje.y,m:cfg.hoje.m};calendarSelected=hoje();drawCalendar()};
+  select.onchange=()=>{calendarMonth.m=Number(select.value);calendarSelected=idx(calendarMonth.y,calendarMonth.m,1);drawCalendar()};
+  toolbar.querySelector('#calYear').onchange=e=>{const v=Number(e.target.value);if(Number.isSafeInteger(v)&&Math.abs(v)<=100000){calendarMonth.y=v;calendarSelected=idx(v,calendarMonth.m,1);drawCalendar()}else e.target.value=y};
+  host.append(toolbar);
+  const panel=document.createElement('div');panel.className='cal-panel';
+  const weekdays=document.createElement('div');weekdays.className='cal-weekdays';
+  SEM.forEach(s=>{const day=document.createElement('div');day.className='cal-weekday';day.textContent=s[0];day.title=s[1];weekdays.append(day)});panel.append(weekdays);
+  const days=document.createElement('div');days.className='cal-days';
+  for(let i=0;i<offset;i++){const empty=document.createElement('div');empty.className='cal-empty-cell';days.append(empty)}
+  for(let d=1;d<=30;d++){
+    const t=idx(y,m,d),events=byDay.get(d)||[];
+    const b=document.createElement('button');b.type='button';b.className='cal-day'+(t===hoje()?' today':'')+(t===selected?' selected':'');
+    b.setAttribute('aria-label',`${d} de ${MES[m][0]}: ${events.length} evento(s)`);
+    const date=document.createElement('div');date.className='cal-date';
+    const num=document.createElement('span');num.textContent=String(d);date.append(num);
+    if(t===hoje()){const now=document.createElement('span');now.className='cal-today-text';now.textContent='hoje';date.append(now)}
+    b.append(date);
+    const names=document.createElement('div');names.className='cal-events';
+    events.slice(0,2).forEach(e=>{const chip=document.createElement('div');chip.className='cal-event';chip.textContent=e.name;names.append(chip)});
+    b.append(names);
+    if(events.length){const count=document.createElement('span');count.className='cal-more';count.textContent=events.length===1?'• 1 evento':`• ${events.length} eventos`;b.append(count)}
+    b.onclick=()=>{calendarSelected=t;drawCalendar()};days.append(b);
+  }
+  panel.append(days);host.append(panel);
+  const agenda=document.createElement('section');agenda.className='cal-agenda';
+  const selectedEvents=visible.filter(e=>e.t===selected);
+  const head=document.createElement('div');head.className='cal-agenda-header';
+  const title=document.createElement('strong');title.textContent=fd(selected)+' · '+SEM[wk(selected)][0];head.append(title);
+  if(canEdit){const add=document.createElement('button');add.className='b pri';add.type='button';add.textContent='+ Evento neste dia';add.onclick=()=>openDlg({t:selected});head.append(add)}
+  agenda.append(head);
+  const list=document.createElement('div');list.className='cal-agenda-list';
+  if(!selectedEvents.length){const none=document.createElement('p');none.className='cal-agenda-empty';none.textContent='Nenhum evento neste dia'+(q?' com a busca atual':'')+'.';list.append(none)}
+  for(const e of selectedEvents){
+    const entry=document.createElement('article');entry.className='cal-agenda-event';const copy=document.createElement('div');
+    const name=document.createElement('h3');name.textContent=e.name;copy.append(name);
+    if(e.desc){const desc=document.createElement('p');desc.textContent=e.desc;copy.append(desc)}
+    if(e.tags?.length){const tags=document.createElement('div');e.tags.forEach(tag=>{const chip=document.createElement('span');chip.className='tag-chip';chip.textContent=tag;tags.append(chip)});copy.append(tags)}
+    entry.append(copy);const action=document.createElement('button');action.className='b';action.type='button';action.textContent=canEdit?'Editar evento':'Ver na linha';
+    action.onclick=()=>{if(canEdit)openDlg(e);else{show('sc');centerOn(e.t,Math.max(zoom,5))}};entry.append(action);list.append(entry);
+  }
+  agenda.append(list);host.append(agenda);
+}
+
 /* abas e busca */
 function show(t){
   if(t==='set'&&!canEdit)t='sc';
-  tab=t;['sc','lib','set'].forEach(i=>$('#'+i).hidden=i!=t);
+  tab=t;['sc','cal','lib','set'].forEach(i=>$('#'+i).hidden=i!=t);
   document.querySelectorAll('[data-t]').forEach(b=>b.classList.toggle('on',b.dataset.t==t));
   $('#zm').hidden=t!='sc';$('#q').hidden=t=='set';
+  if(t==='cal'&&!calendarMonth){calendarMonth={y:cfg.hoje.y,m:cfg.hoje.m};calendarSelected=hoje()}
   t=='set'?drawSet():render();
 }
 document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>show(b.dataset.t));

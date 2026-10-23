@@ -406,11 +406,47 @@ textarea.f{min-height:105px}
 }
 </style>
 
+<style id="la-magie-calendar-style">
+/* calendário do mundo: 12 meses de 30 dias, semana de sete dias */
+.calendar-page{flex:1;min-height:0;overflow:auto;width:100%;max-width:1280px;margin:0 auto;padding:20px clamp(10px,3vw,30px) 42px;box-sizing:border-box}
+.calendar-shell{background:color-mix(in srgb,var(--panel) 85%,transparent);border:1px solid var(--line);border-radius:16px;box-shadow:0 10px 30px var(--shadow);overflow:hidden}
+.calendar-top{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;background:color-mix(in srgb,var(--panel2) 45%,transparent);border-bottom:1px solid var(--line)}
+.calendar-top h2{border:0;padding:0;margin:0;font-size:clamp(21px,3.1vw,31px);color:var(--ink)}
+.calendar-season{font-size:12px;color:var(--mut);margin-top:3px}
+.calendar-nav{display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.calendar-nav .b{min-width:35px}
+.calendar-year{width:92px!important;min-height:35px;text-align:center}
+.calendar-weekdays,.calendar-cells{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.calendar-weekday{text-align:center;padding:12px 5px;font-size:12px;color:var(--mut);font-weight:700;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--panel2) 28%,transparent)}
+.calendar-weekday small{display:block;font-size:9px;font-weight:400}
+.calendar-cell{min-width:0;min-height:112px;border:0;border-bottom:1px solid color-mix(in srgb,var(--line) 48%,transparent);border-right:1px solid color-mix(in srgb,var(--line) 48%,transparent);padding:9px 7px;display:flex;flex-direction:column;align-items:stretch;gap:5px;text-align:left;cursor:pointer;background:transparent;transition:background .12s}
+.calendar-cell:nth-child(7n){border-right:0}
+.calendar-cell:hover{background:color-mix(in srgb,var(--acc) 6%,var(--panel))}
+.calendar-cell.selected{background:color-mix(in srgb,var(--acc) 12%,var(--panel));box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--acc) 45%,transparent)}
+.calendar-cell.today .calendar-daynum{background:var(--acc);color:var(--panel);border-radius:50%;width:27px;height:27px;display:grid;place-items:center;margin:-3px 0 0 -3px}
+.calendar-cell.empty{cursor:default;opacity:.35;background:color-mix(in srgb,var(--line) 7%,transparent)}
+.calendar-daynum{font-weight:700;font-size:15px;line-height:23px}
+.calendar-event-pill{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font-size:11px;border-radius:5px;background:color-mix(in srgb,var(--acc) 11%,var(--panel));border-left:3px solid var(--acc);padding:3px 5px}
+.calendar-more{font-size:10px;color:var(--mut);font-weight:700}
+.calendar-day-count{font-size:10px;color:var(--acc);margin-top:auto}
+.calendar-agenda{padding:20px}
+.calendar-agenda-head{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.calendar-agenda-head h3{margin:0;font-size:19px}
+.calendar-agenda-head p{margin:3px 0 0;color:var(--mut);font-size:12px}
+.calendar-entry{width:100%;display:flex;align-items:center;gap:12px;text-align:left;padding:12px;margin:7px 0;border:1px solid color-mix(in srgb,var(--line) 55%,transparent);border-left:4px solid var(--acc);border-radius:9px;background:color-mix(in srgb,var(--panel) 80%,transparent);cursor:pointer}
+.calendar-entry:hover{background:color-mix(in srgb,var(--acc) 7%,var(--panel));border-color:var(--acc)}
+.calendar-entry-info{flex:1;min-width:0}.calendar-entry-info strong{display:block;overflow-wrap:anywhere}.calendar-entry-info small{display:block;font-size:11px;color:var(--mut);margin-top:3px;overflow-wrap:anywhere}
+.calendar-empty-agenda{padding:22px;border:1px dashed var(--line);border-radius:9px;color:var(--mut);font-style:italic;text-align:center}
+.calendar-read-dialog{width:min(550px,92vw)}.calendar-read-inner{padding:4px 18px 18px}.calendar-read-date{margin-top:14px;color:var(--mut);font-size:12px}.calendar-read-inner h2{font-size:23px;margin:8px 0 10px;overflow-wrap:anywhere}.calendar-read-inner p{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.55}.calendar-read-tags{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
+@media(max-width:720px){.calendar-page{padding:10px 7px 26px}.calendar-top{padding:12px}.calendar-weekday{font-size:10px;padding:10px 1px}.calendar-weekday small{font-size:8px}.calendar-cell{min-height:78px;padding:6px 3px;gap:3px}.calendar-daynum{font-size:13px}.calendar-event-pill{font-size:9px;padding:2px 3px;border-left-width:2px}.calendar-more{font-size:9px}.calendar-agenda{padding:12px}.calendar-day-count{font-size:9px}}
+@media(max-width:400px){.calendar-top{gap:8px}.calendar-nav{width:100%;justify-content:space-between}.calendar-cell{min-height:67px}.calendar-event-pill{display:none}.calendar-cell.has-events::after{content:attr(data-event-count) ' evento(s)';font-size:8px;color:var(--acc);line-height:1.3;overflow-wrap:anywhere}.calendar-day-count{display:none}}
+</style>
 </head>
 <body>
 <header>
   <h1>Linha do Tempo</h1>
   <button class="b on" data-t="sc">Linha do tempo</button>
+  <button class="b" data-t="cal">Calendário</button>
   <button class="b" data-t="lib">Biblioteca</button>
   <button class="b" data-t="set" id="appearanceTab">Aparência</button>
   <input id="q" class="f" type="search" placeholder="Buscar evento…" aria-label="Buscar evento">
@@ -431,9 +467,11 @@ textarea.f{min-height:105px}
   </div>
 </div>
 <div id="sc"><div id="tr"><div id="ly"></div><div class="axis"></div><div class="gh" id="gh">+</div></div></div>
+<div id="cal" class="calendar-page" hidden></div>
 <div id="lib" class="pg" hidden></div>
 <div id="set" class="pg" hidden></div>
 <div id="tip"></div>
+<dialog id="calReadDlg" class="calendar-read-dialog"><div class="calendar-read-inner"><div class="calendar-read-date" id="calReadDate"></div><h2 id="calReadTitle"></h2><p id="calReadDescription"></p><div id="calReadTags" class="calendar-read-tags"></div><div class="row"><button class="b pri" id="calReadClose" type="button">Fechar</button></div></div></dialog>
 <dialog id="dlg">
   <label>Nome<input id="nm" class="f" maxlength="120"></label>
   <label>Data (dia · mês · ano DE)<div class="r3"><input id="dd" class="f" type="number" min="1" max="30"><select id="dm" class="f"></select><input id="dy" class="f" type="number"></div></label>
@@ -691,6 +729,7 @@ async function switchTimeline(slug){
   tip.style.display="none";
 
   cfg=normalizedCfg(t.configuracao);
+  calendarMonth=null;calendarSelectedDay=null;
   aplicarTema();
   updateEditUi();
   renderTimelineTabs();
@@ -862,7 +901,7 @@ function ticks(){
 /* linha do tempo */
 const X=t=>20+(t-t0)*ppm,match=(e,q)=>(e.name+' '+e.desc+' '+(e.tags||[]).join(' ')).toLowerCase().includes(q);
 function render(){
-  if(tab=='sc')drawTimeline();else if(tab=='lib')drawLib();
+  if(tab=='sc')drawTimeline();else if(tab=='lib')drawLib();else if(tab=='cal')drawCalendar();
 }
 function drawTimeline(){
   const [r0,r1]=range();
@@ -1130,7 +1169,7 @@ const near=e=>{const r=tr.getBoundingClientRect();return Math.abs(e.clientY-(r.t
 tr.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;const n=canEdit&&!dg&&!pinch&&near(e);gh.style.display=n?'flex':'none';if(n)gh.style.left=e.clientX-tr.getBoundingClientRect().left+'px'});
 tr.addEventListener('mouseleave',()=>gh.style.display='none');
 tr.addEventListener('click',e=>{if(canEdit&&!dragged&&near(e))openDlg({t:Math.round(t0+(e.clientX-tr.getBoundingClientRect().left-20)/ppm)})});
-$('#add').onclick=()=>{if(canEdit)openDlg({t:tab=='sc'?Math.round(viewCenter??((t0+t1)/2)):hoje()})};
+$('#add').onclick=()=>{if(canEdit)openDlg({t:tab=='sc'?Math.round(viewCenter??((t0+t1)/2)):tab==='cal'?(calendarSelectedDay??hoje()):hoje()})};
 
 /* diálogo */
 $('#dm').innerHTML=MES.map((m,i)=>`<option value="${i}">${m[0]} (${m[1]})</option>`).join('');
@@ -1737,7 +1776,7 @@ $('#timelineImportFile').addEventListener('change',async()=>{
 /* abas e busca */
 function show(t){
   if(t==='set'&&!canEdit)t='sc';
-  tab=t;['sc','lib','set'].forEach(i=>$('#'+i).hidden=i!=t);
+  tab=t;['sc','cal','lib','set'].forEach(i=>$('#'+i).hidden=i!=t);
   document.querySelectorAll('[data-t]').forEach(b=>b.classList.toggle('on',b.dataset.t==t));
   $('#zm').hidden=t!='sc';$('#q').hidden=t=='set';
   t=='set'?drawSet():render();
@@ -1748,6 +1787,88 @@ $('#q').addEventListener('keydown',e=>{
   if(e.key!='Enter'||tab!='sc')return;const q=e.target.value.trim().toLowerCase(),m=ev.filter(x=>match(x,q)).sort((a,b)=>a.t-b.t)[0];
   if(q&&m)centerOn(m.t);
 });
+
+/* ==========================================================
+   VISÃO DE CALENDÁRIO — compartilha eventos, filtros e permissões
+   ========================================================== */
+let calendarMonth=null, calendarSelectedDay=null;
+const calStart=t=>{const p=parts(t);return idx(p.y,p.m,1)};
+function calendarNavigate(offset){
+  const current=parts(calendarMonth??calStart(hoje()));
+  calendarMonth=idx(current.y,current.m+offset,1);
+  calendarSelectedDay=calendarMonth;
+  drawCalendar();
+}
+function calendarDateLabel(day){
+  return `${SEM[wk(day)][0]} (${SEM[wk(day)][1]}) · ${fd(day)}`;
+}
+function openCalendarEvent(e){
+  if(canEdit){openDlg(e);return}
+  const d=$('#calReadDlg');
+  $('#calReadDate').textContent=calendarDateLabel(e.t);
+  $('#calReadTitle').textContent=e.name;
+  $('#calReadDescription').textContent=e.desc||'Este evento não possui descrição.';
+  const host=$('#calReadTags');host.replaceChildren();
+  (e.tags||[]).forEach(tag=>{const chip=document.createElement('span');chip.className='tag-chip';chip.textContent=tag;host.append(chip)});
+  d.showModal();
+}
+$('#calReadClose').onclick=()=>$('#calReadDlg').close();
+function drawCalendar(){
+  const host=$('#cal');if(!host)return;
+  if(calendarMonth===null)calendarMonth=calStart(hoje());
+  if(calendarSelectedDay===null)calendarSelectedDay=hoje();
+  const p=parts(calendarMonth);
+  const start=idx(p.y,p.m,1);
+  const firstOffset=wk(start);
+  const selected=calendarSelectedDay;
+  const q=$('#q').value.trim().toLowerCase();
+  const monthEvents=filteredEvents().filter(e=>e.t>=start&&e.t<start+30&&(!q||match(e,q)));
+  const byDate=new Map();
+  monthEvents.forEach(e=>{const a=byDate.get(e.t)||[];a.push(e);byDate.set(e.t,a)});
+  host.innerHTML='';
+  const shell=document.createElement('section');shell.className='calendar-shell';
+  const top=document.createElement('div');top.className='calendar-top';
+  const heading=document.createElement('div');
+  const h=document.createElement('h2');h.textContent=`${MES[p.m][0]} · ${p.y} DE`;
+  const subtitle=document.createElement('div');subtitle.className='calendar-season';subtitle.textContent=`${MES[p.m][1]} · ${monthEvents.length} evento(s) neste mês`;
+  heading.append(h,subtitle);
+  const nav=document.createElement('div');nav.className='calendar-nav';
+  const button=(label,title,action)=>{const b=document.createElement('button');b.className='b';b.type='button';b.textContent=label;b.title=title;b.onclick=action;return b};
+  const year=document.createElement('input');year.className='f calendar-year';year.type='number';year.value=String(p.y);year.setAttribute('aria-label','Ano do calendário');
+  year.onchange=()=>{const y=Number(year.value);if(Number.isSafeInteger(y)){calendarMonth=idx(y,p.m,1);calendarSelectedDay=calendarMonth;drawCalendar()}else year.value=String(p.y)};
+  nav.append(button('‹','Mês anterior',()=>calendarNavigate(-1)),button('Hoje','Ir para a data atual',()=>{calendarMonth=calStart(hoje());calendarSelectedDay=hoje();drawCalendar()}),year,button('›','Próximo mês',()=>calendarNavigate(1)));
+  top.append(heading,nav);shell.append(top);
+  const weekdays=document.createElement('div');weekdays.className='calendar-weekdays';
+  SEM.forEach(([short,god])=>{const el=document.createElement('div');el.className='calendar-weekday';el.textContent=short;const sm=document.createElement('small');sm.textContent=god;el.append(sm);weekdays.append(el)});
+  shell.append(weekdays);
+  const cells=document.createElement('div');cells.className='calendar-cells';
+  const count=Math.ceil((firstOffset+30)/7)*7;
+  for(let slot=0;slot<count;slot++){
+    const d=slot-firstOffset+1;
+    if(d<1||d>30){const empty=document.createElement('div');empty.className='calendar-cell empty';empty.setAttribute('aria-hidden','true');cells.append(empty);continue}
+    const t=idx(p.y,p.m,d),events=byDate.get(t)||[];
+    const cell=document.createElement('button');cell.type='button';cell.className='calendar-cell';
+    if(t===selected)cell.classList.add('selected');
+    if(t===hoje())cell.classList.add('today');
+    if(events.length){cell.classList.add('has-events');cell.dataset.eventCount=String(events.length)}
+    cell.setAttribute('aria-label',`${calendarDateLabel(t)} — ${events.length} evento(s)`);
+    const num=document.createElement('span');num.className='calendar-daynum';num.textContent=d;cell.append(num);
+    events.slice(0,2).forEach(e=>{const label=document.createElement('span');label.className='calendar-event-pill';label.textContent=e.name;label.title=e.name;cell.append(label)});
+    if(events.length>2){const more=document.createElement('span');more.className='calendar-more';more.textContent=`+${events.length-2} evento(s)`;cell.append(more)}
+    if(events.length){const foot=document.createElement('span');foot.className='calendar-day-count';foot.textContent=`${events.length} evento(s)`;cell.append(foot)}
+    cell.onclick=()=>{calendarSelectedDay=t;drawCalendar()};cells.append(cell);
+  }
+  shell.append(cells);
+  const agenda=document.createElement('section');agenda.className='calendar-agenda';
+  const ahead=document.createElement('div');ahead.className='calendar-agenda-head';
+  const heading2=document.createElement('div');const hh=document.createElement('h3');hh.textContent=`Dia ${parts(selected).d} · ${MES[parts(selected).m][0]}`;const note=document.createElement('p');note.textContent=calendarDateLabel(selected);heading2.append(hh,note);ahead.append(heading2);
+  if(canEdit){ahead.append(button('+ Novo evento','Criar evento neste dia',()=>openDlg({t:selected})))}
+  agenda.append(ahead);
+  const dayEvents=filteredEvents().filter(e=>e.t===selected&&(!q||match(e,q)));
+  if(!dayEvents.length){const empty=document.createElement('div');empty.className='calendar-empty-agenda';empty.textContent='Nenhum evento nesta data'+(q||includeTags.size||excludeTags.size?' com os filtros atuais.':'.');agenda.append(empty)}
+  else dayEvents.forEach(e=>{const entry=document.createElement('button');entry.type='button';entry.className='calendar-entry';const inf=document.createElement('span');inf.className='calendar-entry-info';const name=document.createElement('strong');name.textContent=e.name;const summary=document.createElement('small');summary.textContent=e.desc||((e.tags||[]).join(' · ')||'Sem descrição');inf.append(name,summary);entry.append(inf);const arrow=document.createElement('span');arrow.textContent=canEdit?'Editar ›':'Ver ›';entry.append(arrow);entry.onclick=()=>openCalendarEvent(e);agenda.append(entry)});
+  shell.append(agenda);host.append(shell);
+}
 
 /* início */
 (async()=>{
