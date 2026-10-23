@@ -1,4 +1,2249 @@
 {
   "versao": 1,
-  "itens": []
+  "itens": [
+    {
+      "id": "t20-adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve",
+        "arremesso",
+        "+2 em Ladinagem para ocultar",
+        "pode usar DES no teste de ataque"
+      ],
+      "descricao": "Faca curta e discreta, comum entre aventureiros e criminosos. Pode ser arremessada e permite usar Destreza no teste de ataque.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Adaga",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-espada-curta",
+      "nome": "Espada curta",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve"
+      ],
+      "descricao": "Espada compacta de uso muito comum, adequada como arma principal leve ou secundária.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada curta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-foice",
+      "nome": "Foice",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 1,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve"
+      ],
+      "descricao": "Ferramenta agrícola de lâmina curva, também usada como arma; é tradicional entre druidas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Foice",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-manopla",
+      "nome": "Manopla",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "ataque desarmado letal",
+        "não pode ser desarmada"
+      ],
+      "descricao": "Luva metálica que torna ataques desarmados letais. Modificações e encantos da manopla se aplicam aos ataques desarmados.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": false,
+        "name": "Manopla",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "",
+        "ammo": "",
+        "reload": "",
+        "properties": "ataque desarmado letal; não pode ser desarmada",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1.5,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Pedaço robusto de madeira usado como arma; é simples de obter e normalmente não tem custo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Clava",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - uma mao",
+        "arremesso"
+      ],
+      "descricao": "Haste com ponta afiada, muito comum por ser fácil de fabricar. Também pode ser arremessada.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "arremesso",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 6,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Arma de impacto com cabeça pesada, associada a combatentes que preferem esmagar em vez de cortar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-bordao",
+      "nome": "Bordão",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 2,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos",
+        "dupla"
+      ],
+      "descricao": "Cajado simples e acessível. É uma arma dupla, permitindo uso com técnicas de duas armas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Bordão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6/1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "dupla",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-pique",
+      "nome": "Pique",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos",
+        "alongada"
+      ],
+      "descricao": "Lança extremamente longa. É uma arma alongada, aumentando o alcance corpo a corpo, mas dificultando ataques adjacentes.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Pique",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "alongada",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-tacape",
+      "nome": "Tacape",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 4,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 147,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos"
+      ],
+      "descricao": "Versão maior e mais pesada de uma clava, às vezes reforçada com pregos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tacape",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-arco-curto",
+      "nome": "Arco curto",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "simples",
+        "ataque a distancia",
+        "disparo",
+        "pode ser usado montado"
+      ],
+      "descricao": "Arco comum usado para caça e guerra. Exige as duas mãos, mas pode ser usado enquanto o personagem está montado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco curto",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Flechas",
+        "reload": "Livre",
+        "properties": "disparo; pode ser usado montado",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-besta-leve",
+      "nome": "Besta leve",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 3,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "simples",
+        "ataque a distancia",
+        "disparo"
+      ],
+      "descricao": "Besta de madeira acionada por gatilho. Exige as duas mãos e precisa de uma ação de movimento para recarregar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta leve",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Virotes",
+        "reload": "Movimento",
+        "properties": "disparo",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "simples",
+        "ataque a distancia",
+        "arremesso",
+        "corpo a corpo com -5 no ataque"
+      ],
+      "descricao": "Lança leve feita para arremesso. Pode ser usada em combate corpo a corpo, mas com penalidade no teste de ataque.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Azagaia",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "arremesso; corpo a corpo com -5 no ataque",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-funda",
+      "nome": "Funda",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 0.25,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "simples",
+        "ataque a distancia",
+        "disparo",
+        "aplica FOR ao dano",
+        "pedras reduzem o dano em um passo"
+      ],
+      "descricao": "Tira de couro para lançar projéteis. Pode usar pedras improvisadas com dano menor e, diferente de outras armas de disparo, soma Força ao dano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Funda",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "Balas",
+        "reload": "Movimento",
+        "properties": "disparo; aplica FOR ao dano; pedras reduzem o dano em um passo",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-escudo-leve",
+      "nome": "Escudo leve",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 3,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - leve",
+        "perde o bonus de Defesa ate o proximo turno ao atacar"
+      ],
+      "descricao": "Pode ser usado como arma marcial. Ao atacar com ele, o usuário abre mão temporariamente do bônus defensivo do escudo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo leve",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 2,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - leve",
+        "leve",
+        "arremesso"
+      ],
+      "descricao": "Pequeno machado útil tanto como ferramenta quanto como arma. Pode ser arremessado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machadinha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve; arremesso",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "agil"
+      ],
+      "descricao": "Espada de lâmina curva e muito afiada. É uma arma ágil.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cimitarra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-escudo-pesado",
+      "nome": "Escudo pesado",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar"
+      ],
+      "descricao": "Pode ser usado como arma marcial. Ao atacar com ele, o usuário abre mão temporariamente do bônus defensivo do escudo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo pesado",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-espada-longa",
+      "nome": "Espada longa",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Espada clássica de soldados e guerreiros, com lâmina reta de dois gumes.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-florete",
+      "nome": "Florete",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "agil"
+      ],
+      "descricao": "Espada de lâmina fina e precisa. É uma arma ágil.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Florete",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machado-de-batalha",
+      "nome": "Machado de batalha",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 3,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Machado adaptado especificamente para combate, capaz de produzir ferimentos profundos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de batalha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2.5,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "versatil",
+        "+2 para desarmar"
+      ],
+      "descricao": "Arma com esfera metálica presa a uma corrente. Sua construção facilita prender e desarmar a arma do adversário.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mangual",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "versatil; +2 para desarmar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-martelo-de-guerra",
+      "nome": "Martelo de guerra",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2.5,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Ferramenta convertida em arma de combate, muito popular entre guerreiros anões.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo de guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-picareta",
+      "nome": "Picareta",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 3,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao"
+      ],
+      "descricao": "Ferramenta de mineração cuja ponta também é extremamente perigosa em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Picareta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 4,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 147,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "versatil",
+        "+2 para derrubar"
+      ],
+      "descricao": "Lança de três pontas usada por povos marinhos e gladiadores. É especialmente útil para derrubar oponentes.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tridente",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "versatil; +2 para derrubar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 6,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos",
+        "alongada"
+      ],
+      "descricao": "Arma de haste longa com lâmina de machado na ponta. É uma arma alongada.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alabarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte/perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "alongada",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-alfange",
+      "nome": "Alfange",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 4,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos"
+      ],
+      "descricao": "Grande espada curva derivada da cimitarra, comum entre guerreiros do Deserto da Perdição.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alfange",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-gadanho",
+      "nome": "Gadanho",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 5,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos"
+      ],
+      "descricao": "Versão grande da foice agrícola, usada com as duas mãos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Gadanho",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 4,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-lanca-montada",
+      "nome": "Lança montada",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos",
+        "alongada",
+        "montado pode usar com 1 mao",
+        "investida montada +2d8 dano"
+      ],
+      "descricao": "Lança longa de cavalaria. Pode ser usada com uma mão quando montado e causa dano extra em investidas montadas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança montada",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "alongada; montado pode usar com 1 mao; investida montada +2d8 dano",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machado-de-guerra",
+      "nome": "Machado de guerra",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 6,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos"
+      ],
+      "descricao": "Machado enorme de lâmina dupla, feito para golpes muito pesados.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-montante",
+      "nome": "Montante",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 4,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos"
+      ],
+      "descricao": "Espada enorme de cerca de um metro e meio, pesada e poderosa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Montante",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-arco-longo",
+      "nome": "Arco longo",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1.5,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "marcial",
+        "ataque a distancia",
+        "disparo",
+        "aplica FOR ao dano",
+        "nao pode ser usado montado"
+      ],
+      "descricao": "Arco de guerra reforçado e de grande porte. Exige as duas mãos, soma Força ao dano e não pode ser usado montado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco longo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Flechas",
+        "reload": "Livre",
+        "properties": "disparo; aplica FOR ao dano; nao pode ser usado montado",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-besta-pesada",
+      "nome": "Besta pesada",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 4,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "marcial",
+        "ataque a distancia",
+        "disparo"
+      ],
+      "descricao": "Versão maior e mais potente da besta leve. Exige as duas mãos e uma ação padrão para recarregar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta pesada",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d12",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Virotes",
+        "reload": "Padrão",
+        "properties": "disparo",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "agil",
+        "versatil",
+        "+2 para derrubar e desarmar",
+        "alcance 4,5 m"
+      ],
+      "descricao": "Chicote de combate capaz de atingir alvos a distância curta de corpo a corpo e auxiliar manobras de derrubar ou desarmar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Chicote",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d3",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "4,5 m",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-espada-bastarda",
+      "nome": "Espada bastarda",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 3,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 144,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "adaptavel",
+        "pode ser usada como marcial de duas maos"
+      ],
+      "descricao": "Espada maior que a longa. Com treinamento exótico funciona em uma mão; também pode ser usada com duas mãos como arma marcial.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada bastarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10/1d12",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "adaptavel; pode ser usada como marcial de duas maos",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-katana",
+      "nome": "Katana",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2.5,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "adaptavel",
+        "agil",
+        "pode ser usada como marcial de duas maos"
+      ],
+      "descricao": "Espada tradicional de lâmina curva e um gume. É adaptável e ágil; também pode ser empunhada com duas mãos como arma marcial.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Katana",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8/1d10",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "adaptavel; agil; pode ser usada como marcial de duas maos",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machado-anao",
+      "nome": "Machado anão",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 4,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "pode ser usado como marcial de duas maos"
+      ],
+      "descricao": "Machado tradicional anão de grande porte. Exige treino especial para uma mão, mas pode ser usado com duas mãos como arma marcial.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado anão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "pode ser usado como marcial de duas maos",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-corrente-de-espinhos",
+      "nome": "Corrente de espinhos",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 5,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 143,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - duas maos",
+        "agil",
+        "dupla",
+        "versatil",
+        "+2 para derrubar e desarmar",
+        "alcance 4,5 m"
+      ],
+      "descricao": "Corrente armada capaz de alcançar inimigos mais distantes e prender membros ou armas. É ágil, dupla e versátil.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Corrente de espinhos",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4/2d4",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "4,5 m",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil; dupla; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machado-taurico",
+      "nome": "Machado táurico",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 12,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 145,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - duas maos",
+        "-2 em testes de ataque"
+      ],
+      "descricao": "Machado ancestral dos minotauros, enorme e extremamente pesado. Seu formato desbalanceado impõe penalidade nos ataques.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado táurico",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "-2 em testes de ataque",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-rede",
+      "nome": "Rede",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 3,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "exotica",
+        "ataque a distancia",
+        "nao causa dano",
+        "enreda",
+        "corda em alcance curto"
+      ],
+      "descricao": "Rede com dentes e corda de controle. Ao acertar, não causa dano: deixa a vítima enredada e pode limitar seu movimento.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": false,
+        "name": "Rede",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "",
+        "type": "",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "nao causa dano; enreda; corda em alcance curto",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-mosquete",
+      "nome": "Mosquete",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 4,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "arma de fogo",
+        "ataque a distancia",
+        "disparo",
+        "arma de fogo"
+      ],
+      "descricao": "Arma de fogo de grande potência. Exige as duas mãos e uma ação padrão para recarregar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mosquete",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "2d8",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Munição",
+        "reload": "Padrão",
+        "properties": "disparo; arma de fogo",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-pistola",
+      "nome": "Pistola",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 146,
+      "tags": [
+        "arma",
+        "arma de fogo",
+        "ataque a distancia",
+        "disparo",
+        "conta como arma leve para Estilo de Duas Armas"
+      ],
+      "descricao": "Arma de fogo compacta. Conta como arma leve para técnicas de duas armas e exige uma ação padrão para recarregar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Pistola",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "2d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 3,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "Munição",
+        "reload": "Padrão",
+        "properties": "disparo; conta como arma leve para Estilo de Duas Armas",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    }
+  ]
 }
