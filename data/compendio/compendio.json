@@ -12788,10 +12788,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d4 de Perfuração. Crítico 19–20. Alcance 3m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.158Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12843,10 +12843,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Perfuração. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -12898,10 +12898,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d4 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13173,10 +13173,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: haste",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x2. Propriedades: haste.",
       "properties": "haste",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13228,10 +13228,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d10 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13338,10 +13338,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: frasco sagrado",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 2d6 de Especial. Crítico x2. Alcance 3m. Propriedades: frasco sagrado.",
       "properties": "frasco sagrado",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13393,10 +13393,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: duas mãos",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Perfuração. Crítico x3. Alcance 12m. Propriedades: duas mãos.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13448,10 +13448,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: arremesso",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Perfuração. Crítico x2. Alcance 9m. Propriedades: arremesso.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13558,10 +13558,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: frasco alquímico",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: frasco alquímico.",
       "properties": "frasco alquímico",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13668,10 +13668,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Arma simples de Tormenta RPG - Módulo Básico. Efeito: explosivo",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 4d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: explosivo.",
       "properties": "explosivo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -13722,10 +13722,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +1 na CA enquanto estiver usando. CA +1; Penalidade de armadura: -1",
+      "descricao": "Escudo leve, equipamento do Tormenta RPG. CA +1; Penalidade de armadura: -1.",
       "properties": "CA +1; Penalidade de armadura: -1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-escudo-leve-ca",
@@ -13767,10 +13767,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: arremesso",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Corte. Crítico x3. Alcance 3m. Propriedades: arremesso.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13822,10 +13822,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: arremesso",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Esmagamento. Crítico x2. Alcance 6m. Propriedades: arremesso.",
       "properties": "arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -13931,10 +13931,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +2 na CA enquanto estiver usando. CA +2; Penalidade de armadura: -2",
+      "descricao": "Escudo pesado, equipamento do Tormenta RPG. CA +2; Penalidade de armadura: -2.",
       "properties": "CA +2; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-escudo-pesado-ca",
@@ -13976,10 +13976,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14031,10 +14031,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d6 de Perfuração. Crítico 18–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14086,10 +14086,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Corte. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14141,10 +14141,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14196,10 +14196,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Esmagamento. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14306,10 +14306,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14361,10 +14361,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: haste",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d10 de Corte. Crítico x3. Propriedades: haste.",
       "properties": "haste",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14416,10 +14416,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 2d4 de Corte. Crítico 18–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14471,10 +14471,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 2d6 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14526,10 +14526,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 2d4 de Corte. Crítico x4.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14581,10 +14581,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: montada",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x3. Propriedades: montada.",
       "properties": "montada",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14636,10 +14636,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d12 de Corte. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14691,10 +14691,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: duas mãos; aplica Força no dano",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Perfuração. Crítico x3. Alcance 18m. Propriedades: duas mãos; aplica Força no dano.",
       "properties": "duas mãos; aplica Força no dano",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14746,10 +14746,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: duas mãos",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x3. Alcance 24m. Propriedades: duas mãos.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14801,10 +14801,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arma marcial de Tormenta RPG - Módulo Básico. Efeito: duas mãos; recarga",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d12 de Perfuração. Crítico 19–20. Alcance 27m. Propriedades: duas mãos; recarga.",
       "properties": "duas mãos; recarga",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14856,10 +14856,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Esmagamento. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14911,10 +14911,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -14966,10 +14966,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: obra-prima",
+      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Corte. Crítico 19–20. Propriedades: obra-prima.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15076,10 +15076,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d10 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15186,10 +15186,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d10 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15241,10 +15241,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: crítico especial",
+      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Corte. Crítico 19–20. Propriedades: crítico especial.",
       "properties": "crítico especial",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15351,10 +15351,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: arma dupla",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d8/1d8 de Corte. Crítico 19–20. Propriedades: arma dupla.",
       "properties": "arma dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15406,10 +15406,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 2d8 de Corte. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15461,10 +15461,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: crítico especial",
+      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 1d10 de Esmagamento. Crítico x2. Propriedades: crítico especial.",
       "properties": "crítico especial",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15516,10 +15516,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: arma de fogo",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 2d8 de Perfuração. Crítico 19–20/x3. Alcance 45m. Propriedades: arma de fogo.",
       "properties": "arma de fogo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15626,10 +15626,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico. Efeito: arma de manobra",
+      "descricao": "Rede, equipamento do Tormenta RPG. arma de manobra.",
       "properties": "arma de manobra",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15736,10 +15736,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Arma exotica de Tormenta RPG - Módulo Básico.",
+      "descricao": "Ataque a distancia do Tormenta RPG. Causa 2d4 de Esmagamento. Crítico x2. Alcance 24m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -15790,10 +15790,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +1 na CA enquanto estiver usando. CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0",
+      "descricao": "Armadura acolchoada, equipamento do Tormenta RPG. CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0.",
       "properties": "CA +1; Bônus máximo de Destreza: +8; Penalidade de armadura: 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-armadura-acolchoada-ca",
@@ -15878,10 +15878,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +3 na CA enquanto estiver usando. CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1",
+      "descricao": "Couro batido, equipamento do Tormenta RPG. CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1.",
       "properties": "CA +3; Bônus máximo de Destreza: +5; Penalidade de armadura: -1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-couro-batido-ca",
@@ -15922,10 +15922,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +4 na CA enquanto estiver usando. CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
+      "descricao": "Camisa de cota de malha, equipamento do Tormenta RPG. CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2.",
       "properties": "CA +4; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-camisa-de-cota-de-malha-ca",
@@ -15966,10 +15966,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +3 na CA enquanto estiver usando. CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
+      "descricao": "Gibão de peles, equipamento do Tormenta RPG. CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2.",
       "properties": "CA +3; Bônus máximo de Destreza: +4; Penalidade de armadura: -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-gibao-de-peles-ca",
@@ -16010,10 +16010,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +4 na CA enquanto estiver usando. CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3",
+      "descricao": "Brunea, equipamento do Tormenta RPG. CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3.",
       "properties": "CA +4; Bônus máximo de Destreza: +3; Penalidade de armadura: -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-brunea-ca",
@@ -16054,10 +16054,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +5 na CA enquanto estiver usando. CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3",
+      "descricao": "Cota de malha, equipamento do Tormenta RPG. CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3.",
       "properties": "CA +5; Bônus máximo de Destreza: +2; Penalidade de armadura: -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-cota-de-malha-ca",
@@ -16098,10 +16098,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +5 na CA enquanto estiver usando. CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4",
+      "descricao": "Couraça, equipamento do Tormenta RPG. CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4.",
       "properties": "CA +5; Bônus máximo de Destreza: +3; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-couraca-ca",
@@ -16142,10 +16142,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +6 na CA enquanto estiver usando. CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4",
+      "descricao": "Cota de talas, equipamento do Tormenta RPG. CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4.",
       "properties": "CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-cota-de-talas-ca",
@@ -16186,10 +16186,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +6 na CA enquanto estiver usando. CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
+      "descricao": "Loriga segmentada, equipamento do Tormenta RPG. CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5.",
       "properties": "CA +6; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-loriga-segmentada-ca",
@@ -16230,10 +16230,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de Tormenta RPG - Módulo Básico. Efeitos: +7 na CA enquanto estiver usando. CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4",
+      "descricao": "Meia-armadura, equipamento do Tormenta RPG. CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4.",
       "properties": "CA +7; Bônus máximo de Destreza: +1; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-meia-armadura-ca",
@@ -21396,10 +21396,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Estrepes (bolsa para 3m), item de equipamento de aventura apresentado em Heróis de Arton.",
+      "descricao": "Pequenas peças metálicas pontiagudas. Com uma ação padrão, você espalha os estrepes em uma área de até 3m; quem pisar nela sofre 1d4 de perfuração e, se sofrer dano, fica lento até o fim do próximo turno.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -25307,10 +25307,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Veleiro — Heróis de Arton, item de veiculo apresentado em Heróis de Arton.",
+      "descricao": "Navio de três mastros típico de viagens e comércio. Requer piloto, navegador, capitão e tripulação; tem tamanho Colossal, deslocamento de natação 12m, 220 PV, RD 5 e grande capacidade de passageiros e carga.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -28637,10 +28637,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Pérola da nulificação, acessório mágico específico de Heróis de Arton.",
+      "descricao": "Pequena pérola multicolorida de uso único. Ativá-la exige uma ação de movimento e cria ao redor do portador o efeito básico de Campo Antimagia até o fim da cena; depois disso, a pérola perde seu poder.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-10-23T04:53:06.088Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -37584,5 +37584,5 @@
       "properties": ""
     }
   ],
-  "updatedAt": "2026-10-23T04:52:02.753Z"
+  "updatedAt": "2026-10-23T04:53:06.088Z"
 }
