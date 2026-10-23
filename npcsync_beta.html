@@ -3768,144 +3768,6 @@ body.editing
 
 
 /* ============================================================
-   BETA — ITENS COM EFEITOS COMPLETOS + ARMAS GERANDO ATAQUES
-   ============================================================ */
-let inventoryDetailDraft = null;
-
-function itemInventarioEhArma(item) {
-    const categoria = String(item?.categoria || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
-    return categoria === "arma" || categoria.startsWith("arma ") || categoria.includes("weapon");
-}
-
-function normalizarAtaqueArmaItem(item) {
-    const original = item?.weaponAttack || item?.ataqueArma || {};
-    return {
-        enabled: original.enabled !== false,
-        name: original.name || original.nome || "",
-        skill: original.skill || original.pericia || "Luta",
-        stat: original.stat || original.atributo || "str",
-        die: original.die || original.dano || "1d6",
-        type: original.type || original.tipoDano || "",
-        threat: Number(original.threat ?? original.margemAmeaca ?? 20) || 20,
-        crit: Number(original.crit ?? original.critico ?? 2) || 2,
-        allowedToggles: Array.isArray(original.allowedToggles) ? [...original.allowedToggles] : (Array.isArray(original.modificadores) ? [...original.modificadores] : [])
-    };
-}
-
-function sincronizarAtaquesDeItensInventario() {
-    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
-    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
-    let mudou = false;
-
-    const antes = conteudo.ataques.length;
-    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
-    if (conteudo.ataques.length !== antes) mudou = true;
-
-    (conteudo.inventario || []).forEach(item => {
-        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
-        const arma = itemInventarioEhArma(item);
-        const config = normalizarAtaqueArmaItem(item);
-
-        if (!arma || !config.enabled) {
-            if (existenteIndex >= 0) { conteudo.ataques.splice(existenteIndex, 1); mudou = true; }
-            return;
-        }
-
-        item.weaponAttack = config;
-        delete item.ataqueArma;
-
-        const attack = {
-            ...(existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : {}),
-            id: existenteIndex >= 0 ? conteudo.ataques[existenteIndex].id : criarId(),
-            sourceItemId: item.id,
-            sourceType: "inventoryWeapon",
-            name: config.name || item.nome || "Arma",
-            subtitle: item.subtipo || item.descricao || "Item do inventário",
-            skill: config.skill || "Luta",
-            stat: config.stat || "str",
-            die: config.die || "1d6",
-            type: config.type || "",
-            critMargin: Math.max(1, Math.min(20, Number(config.threat || 20))),
-            critMultiplier: Math.max(1, Number(config.crit || 2)),
-            allowedCombatToggles: [...(config.allowedToggles || [])],
-            effects: existenteIndex >= 0 && Array.isArray(conteudo.ataques[existenteIndex].effects) ? conteudo.ataques[existenteIndex].effects : []
-        };
-
-        if (existenteIndex >= 0) {
-            const anterior = JSON.stringify(conteudo.ataques[existenteIndex]);
-            const novo = JSON.stringify(attack);
-            if (anterior !== novo) { conteudo.ataques[existenteIndex] = attack; mudou = true; }
-        } else {
-            conteudo.ataques.push(attack);
-            mudou = true;
-        }
-    });
-
-    if (mudou) agendarSalvamentoConteudo();
-    return mudou;
-}
-
-function renderizarEfeitosDetalhadosCompletos() {
-    const root = document.getElementById("inventoryDetailEffects");
-    if (!root || !inventoryDetailDraft) return;
-    root.innerHTML = "";
-    root.appendChild(criarEditorEfeitosCaracteristica(inventoryDetailDraft, "inventarioDetalhado"));
-}
-
-function preencherEditorAtaqueArma(item) {
-    const secao = document.getElementById("inventoryDetailWeaponSection");
-    if (!secao) return;
-    const ehArma = itemInventarioEhArma(item);
-    secao.hidden = !ehArma;
-    if (!ehArma) return;
-
-    const config = normalizarAtaqueArmaItem(item);
-    const skill = document.getElementById("inventoryDetailWeaponSkill");
-    if (skill) {
-        skill.innerHTML = "";
-        pericias.forEach(([nome]) => { const o=document.createElement("option"); o.value=nome; o.textContent=nome; skill.appendChild(o); });
-        skill.value = config.skill;
-    }
-    document.getElementById("inventoryDetailWeaponEnabled").checked = config.enabled;
-    document.getElementById("inventoryDetailWeaponName").value = config.name || "";
-    document.getElementById("inventoryDetailWeaponStat").value = config.stat || "str";
-    document.getElementById("inventoryDetailWeaponDamage").value = config.die || "1d6";
-    document.getElementById("inventoryDetailWeaponDamageType").value = config.type || "";
-    document.getElementById("inventoryDetailWeaponThreat").value = config.threat || 20;
-    document.getElementById("inventoryDetailWeaponCrit").value = config.crit || 2;
-
-    const mods = document.getElementById("inventoryDetailWeaponModifiers");
-    if (mods) {
-        mods.innerHTML = "";
-        (conteudo.togglesCombate || []).forEach(toggle => {
-            const label=document.createElement("label");
-            const input=document.createElement("input");
-            input.type="checkbox"; input.value=toggle.id; input.checked=(config.allowedToggles || []).includes(toggle.id);
-            label.appendChild(input); label.appendChild(document.createTextNode(toggle.name || "Modificador")); mods.appendChild(label);
-        });
-        if (!(conteudo.togglesCombate || []).length) {
-            const vazio=document.createElement("small"); vazio.style.color="var(--muted)"; vazio.textContent="Nenhum modificador de combate criado na ficha."; mods.appendChild(vazio);
-        }
-    }
-}
-
-function coletarAtaqueArmaDetalhado(item) {
-    if (!itemInventarioEhArma(item)) { delete item.weaponAttack; delete item.ataqueArma; return; }
-    const selected = [...document.querySelectorAll("#inventoryDetailWeaponModifiers input[type=checkbox]:checked")].map(el => el.value);
-    item.weaponAttack = {
-        enabled: Boolean(document.getElementById("inventoryDetailWeaponEnabled")?.checked),
-        name: document.getElementById("inventoryDetailWeaponName")?.value.trim() || "",
-        skill: document.getElementById("inventoryDetailWeaponSkill")?.value || "Luta",
-        stat: document.getElementById("inventoryDetailWeaponStat")?.value || "str",
-        die: document.getElementById("inventoryDetailWeaponDamage")?.value.trim() || "1d6",
-        type: document.getElementById("inventoryDetailWeaponDamageType")?.value.trim() || "",
-        threat: Math.max(1, Math.min(20, Number(document.getElementById("inventoryDetailWeaponThreat")?.value || 20))),
-        crit: Math.max(1, Number(document.getElementById("inventoryDetailWeaponCrit")?.value || 2)),
-        allowedToggles: selected
-    };
-}
-
-/* ============================================================
    BETA — EDITOR DETALHADO DO ITEM DO INVENTÁRIO
    ============================================================ */
 .inventory-more{
@@ -9844,6 +9706,145 @@ function agendarSalvamento(
 </script>
 
 <script>
+/* ============================================================
+   BETA — ITENS COM EFEITOS COMPLETOS + ARMAS GERANDO ATAQUES
+   ============================================================ */
+let inventoryDetailDraft = null;
+
+function itemInventarioEhArma(item) {
+    const categoria = String(item?.categoria || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+    return categoria === "arma" || categoria.startsWith("arma ") || categoria.includes("weapon");
+}
+
+function normalizarAtaqueArmaItem(item) {
+    const original = item?.weaponAttack || item?.ataqueArma || {};
+    return {
+        enabled: original.enabled !== false,
+        name: original.name || original.nome || "",
+        skill: original.skill || original.pericia || "Luta",
+        stat: original.stat || original.atributo || "str",
+        die: original.die || original.dano || "1d6",
+        type: original.type || original.tipoDano || "",
+        threat: Number(original.threat ?? original.margemAmeaca ?? 20) || 20,
+        crit: Number(original.crit ?? original.critico ?? 2) || 2,
+        allowedToggles: Array.isArray(original.allowedToggles) ? [...original.allowedToggles] : (Array.isArray(original.modificadores) ? [...original.modificadores] : [])
+    };
+}
+
+function sincronizarAtaquesDeItensInventario() {
+    if (!Array.isArray(conteudo.ataques)) conteudo.ataques = [];
+    const itemIds = new Set((conteudo.inventario || []).map(item => item.id));
+    let mudou = false;
+
+    const antes = conteudo.ataques.length;
+    conteudo.ataques = conteudo.ataques.filter(attack => !attack.sourceItemId || itemIds.has(attack.sourceItemId));
+    if (conteudo.ataques.length !== antes) mudou = true;
+
+    (conteudo.inventario || []).forEach(item => {
+        const existenteIndex = conteudo.ataques.findIndex(attack => attack.sourceItemId === item.id);
+        const arma = itemInventarioEhArma(item);
+        const config = normalizarAtaqueArmaItem(item);
+
+        if (!arma || !config.enabled) {
+            if (existenteIndex >= 0) { conteudo.ataques.splice(existenteIndex, 1); mudou = true; }
+            return;
+        }
+
+        item.weaponAttack = config;
+        delete item.ataqueArma;
+
+        const attack = {
+            ...(existenteIndex >= 0 ? conteudo.ataques[existenteIndex] : {}),
+            id: existenteIndex >= 0 ? conteudo.ataques[existenteIndex].id : criarId(),
+            sourceItemId: item.id,
+            sourceType: "inventoryWeapon",
+            name: config.name || item.nome || "Arma",
+            subtitle: item.subtipo || item.descricao || "Item do inventário",
+            skill: config.skill || "Luta",
+            stat: config.stat || "str",
+            die: config.die || "1d6",
+            type: config.type || "",
+            critMargin: Math.max(1, Math.min(20, Number(config.threat || 20))),
+            critMultiplier: Math.max(1, Number(config.crit || 2)),
+            allowedCombatToggles: [...(config.allowedToggles || [])],
+            effects: existenteIndex >= 0 && Array.isArray(conteudo.ataques[existenteIndex].effects) ? conteudo.ataques[existenteIndex].effects : []
+        };
+
+        if (existenteIndex >= 0) {
+            const anterior = JSON.stringify(conteudo.ataques[existenteIndex]);
+            const novo = JSON.stringify(attack);
+            if (anterior !== novo) { conteudo.ataques[existenteIndex] = attack; mudou = true; }
+        } else {
+            conteudo.ataques.push(attack);
+            mudou = true;
+        }
+    });
+
+    if (mudou) agendarSalvamentoConteudo();
+    return mudou;
+}
+
+function renderizarEfeitosDetalhadosCompletos() {
+    const root = document.getElementById("inventoryDetailEffects");
+    if (!root || !inventoryDetailDraft) return;
+    root.innerHTML = "";
+    root.appendChild(criarEditorEfeitosCaracteristica(inventoryDetailDraft, "inventarioDetalhado"));
+}
+
+function preencherEditorAtaqueArma(item) {
+    const secao = document.getElementById("inventoryDetailWeaponSection");
+    if (!secao) return;
+    const ehArma = itemInventarioEhArma(item);
+    secao.hidden = !ehArma;
+    if (!ehArma) return;
+
+    const config = normalizarAtaqueArmaItem(item);
+    const skill = document.getElementById("inventoryDetailWeaponSkill");
+    if (skill) {
+        skill.innerHTML = "";
+        pericias.forEach(([nome]) => { const o=document.createElement("option"); o.value=nome; o.textContent=nome; skill.appendChild(o); });
+        skill.value = config.skill;
+    }
+    document.getElementById("inventoryDetailWeaponEnabled").checked = config.enabled;
+    document.getElementById("inventoryDetailWeaponName").value = config.name || "";
+    document.getElementById("inventoryDetailWeaponStat").value = config.stat || "str";
+    document.getElementById("inventoryDetailWeaponDamage").value = config.die || "1d6";
+    document.getElementById("inventoryDetailWeaponDamageType").value = config.type || "";
+    document.getElementById("inventoryDetailWeaponThreat").value = config.threat || 20;
+    document.getElementById("inventoryDetailWeaponCrit").value = config.crit || 2;
+
+    const mods = document.getElementById("inventoryDetailWeaponModifiers");
+    if (mods) {
+        mods.innerHTML = "";
+        (conteudo.togglesCombate || []).forEach(toggle => {
+            const label=document.createElement("label");
+            const input=document.createElement("input");
+            input.type="checkbox"; input.value=toggle.id; input.checked=(config.allowedToggles || []).includes(toggle.id);
+            label.appendChild(input); label.appendChild(document.createTextNode(toggle.name || "Modificador")); mods.appendChild(label);
+        });
+        if (!(conteudo.togglesCombate || []).length) {
+            const vazio=document.createElement("small"); vazio.style.color="var(--muted)"; vazio.textContent="Nenhum modificador de combate criado na ficha."; mods.appendChild(vazio);
+        }
+    }
+}
+
+function coletarAtaqueArmaDetalhado(item) {
+    if (!itemInventarioEhArma(item)) { delete item.weaponAttack; delete item.ataqueArma; return; }
+    const selected = [...document.querySelectorAll("#inventoryDetailWeaponModifiers input[type=checkbox]:checked")].map(el => el.value);
+    item.weaponAttack = {
+        enabled: Boolean(document.getElementById("inventoryDetailWeaponEnabled")?.checked),
+        name: document.getElementById("inventoryDetailWeaponName")?.value.trim() || "",
+        skill: document.getElementById("inventoryDetailWeaponSkill")?.value || "Luta",
+        stat: document.getElementById("inventoryDetailWeaponStat")?.value || "str",
+        die: document.getElementById("inventoryDetailWeaponDamage")?.value.trim() || "1d6",
+        type: document.getElementById("inventoryDetailWeaponDamageType")?.value.trim() || "",
+        threat: Math.max(1, Math.min(20, Number(document.getElementById("inventoryDetailWeaponThreat")?.value || 20))),
+        crit: Math.max(1, Number(document.getElementById("inventoryDetailWeaponCrit")?.value || 2)),
+        allowedToggles: selected
+    };
+}
+
+
   /* ============================================================
      DADOS
      ============================================================ */
