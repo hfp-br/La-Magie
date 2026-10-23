@@ -44,7 +44,8 @@
       <div class="field"><label>Peso (kg)</label><input id="itemWeight" type="number" step="0.01" min="0"></div>
       <div class="field"><label>Preço</label><input id="itemPrice" type="number" step="0.01" min="0"></div>
       <div class="field"><label>Moeda</label><input id="itemCurrency" placeholder="T$, PO..."></div>
-      <div class="field"><label>Fonte</label><input id="itemSource" placeholder="Tormenta 20"></div>
+      <div class="field"><label>Sistema / coleção</label><input id="itemSystem" placeholder="Tormenta 20, D&D 5e..."></div>
+      <div class="field"><label>Fonte / livro</label><input id="itemSource" placeholder="Livro Básico, suplemento..."></div>
       <div class="field"><label>Página</label><input id="itemPage" type="number" min="0"></div>
       <div class="field wide"><label>Tags</label><input id="itemTags" placeholder="marcial, corte, uma mão"></div>
       <div class="field wide"><label>Descrição</label><textarea id="itemDescription"></textarea></div>
@@ -363,7 +364,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     if(!item){host.innerHTML=`<div class="comp-preview-empty"><strong>Nenhum item selecionado.</strong></div>`;return}
     const tags=[item.categoria,item.subtipo,...(Array.isArray(item.tags)?item.tags:[])].filter(Boolean).slice(0,8);
     const w=normalizeWeaponV5(item),consumable=item.consumable||item.consumivel||{},defenses=item.defenses||item.defesas||{},resources=Array.isArray(item.resources)?item.resources:(Array.isArray(item.recursos)?item.recursos:[]),effects=Array.isArray(item.effects)?item.effects:(Array.isArray(item.efeitos)?item.efeitos:[]);
-    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([item.categoria,item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Fonte</span><strong>${escV5(item.fonte||"—")}</strong></div><div class="comp-preview-stat"><span>Página</span><strong>${item.pagina??"—"}</strong></div></div>`;
+    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([item.categoria,item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5DuplicateBtn">Duplicar</button><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Sistema / coleção</span><strong>${escV5(item.sistema||item.system||"—")}</strong></div><div class="comp-preview-stat"><span>Fonte / livro</span><strong>${escV5(item.fonte||"—")}${item.pagina?` · p. ${item.pagina}`:""}</strong></div></div>`;
     if(w&&w.enabled){const threat=w.threat<20?`${w.threat}–20`:"20";body+=`<section class="comp-preview-section"><h3>Ataque</h3><div class="comp-preview-weapon"><div class="comp-preview-weapon-main">${escV5(w.skill)} + ${escV5(statNameV5(w.stat))} · ${escV5(w.die)} ${escV5(w.type)} · ${threat}/×${w.crit}</div><div class="comp-preview-weapon-meta">${w.hitBonus?`<span class="comp-preview-weapon-chip">Acerto ${w.hitBonus>=0?"+":""}${w.hitBonus}</span>`:""}${w.damageBonus?`<span class="comp-preview-weapon-chip">Dano ${escV5(w.damageBonus)}</span>`:""}${w.range?`<span class="comp-preview-weapon-chip">Alcance ${escV5(w.range)}</span>`:""}${w.hands?`<span class="comp-preview-weapon-chip">${escV5(w.hands)} mão(s)</span>`:""}${w.ammo?`<span class="comp-preview-weapon-chip">Munição ${escV5(w.ammo)}</span>`:""}${w.reload?`<span class="comp-preview-weapon-chip">Recarga ${escV5(w.reload)}</span>`:""}${w.properties?`<span class="comp-preview-weapon-chip">${escV5(w.properties)}</span>`:""}</div></div></section>`}
     if(consumable?.enabled){body+=`<section class="comp-preview-section"><h3>Uso</h3><div class="comp-preview-grid"><div class="comp-preview-line"><span>Consumível</span><strong>Sim</strong></div><div class="comp-preview-line"><span>Gasta por uso</span><strong>${Number(consumable.amountPerUse||1)}</strong></div><div class="comp-preview-line"><span>Botão</span><strong>${escV5(consumable.label||"Usar")}</strong></div></div></section>`}
     if(defenses?.resistances||defenses?.resistencias||defenses?.immunities||defenses?.imunidades){body+=`<section class="comp-preview-section"><h3>Defesas</h3><div class="comp-preview-grid">${defenses.resistances||defenses.resistencias?`<div class="comp-preview-defense"><strong>Resistências:</strong> ${escV5(defenses.resistances||defenses.resistencias)}</div>`:""}${defenses.immunities||defenses.imunidades?`<div class="comp-preview-defense"><strong>Imunidades:</strong> ${escV5(defenses.immunities||defenses.imunidades)}</div>`:""}</div></section>`}
@@ -372,11 +373,246 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     if(item.descricao){body+=`<section class="comp-preview-section"><h3>Descrição</h3><div class="comp-preview-text">${escV5(item.descricao)}</div></section>`}
     body+=`<div class="comp-preview-origin">${item.id?`ID: ${escV5(item.id)}`:""}</div></div></article>`;
     host.innerHTML=body;
+    document.getElementById("compV5DuplicateBtn")?.addEventListener("click",()=>typeof window.duplicarItemCatalogoV51==="function"&&window.duplicarItemCatalogoV51(item.id));
     document.getElementById("compV5EditBtn")?.addEventListener("click",()=>typeof editItem==="function"&&editItem(item.id));
   }
   const oldRender=window.render;
   window.render=function(...args){const result=oldRender.apply(this,args);requestAnimationFrame(renderListV5);return result};
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>requestAnimationFrame(renderListV5),{once:true});else requestAnimationFrame(renderListV5);
+})();
+</script>
+
+
+
+<script id="compendio-v51-catalog-js">
+(() => {
+  const normalizarTextoCatalogo = valor => String(valor ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .toLowerCase()
+    .trim();
+
+  const normalizarTagCatalogo = valor => normalizarTextoCatalogo(valor)
+    .replace(/\s+/g," ");
+
+  const normalizarCategoriaCatalogo = valor => normalizarTextoCatalogo(valor)
+    .replace(/\s+/g," ");
+
+  function normalizarTagsCatalogo(tags){
+    const lista = Array.isArray(tags)
+      ? tags
+      : String(tags || "").split(",");
+
+    return [...new Set(
+      lista
+        .map(normalizarTagCatalogo)
+        .filter(Boolean)
+    )];
+  }
+
+  function normalizarItemCatalogo(item){
+    const agora = new Date().toISOString();
+    return {
+      ...item,
+      schemaVersion: Math.max(5, Number(item?.schemaVersion || 0)),
+      categoria: normalizarCategoriaCatalogo(item?.categoria),
+      tags: normalizarTagsCatalogo(item?.tags),
+      sistema: String(item?.sistema || item?.system || "").trim(),
+      updatedAt: item?.updatedAt || agora
+    };
+  }
+
+  // normaliza os itens já carregados em memória para filtros/lista,
+  // sem fazer commit automático no GitHub.
+  function normalizarItensEmMemoria(){
+    if(!Array.isArray(items)) return;
+    items = items.map(normalizarItemCatalogo);
+  }
+
+  // Busca canônica: ignora maiúsculas/minúsculas e acentos.
+  window.filtered = function(){
+    const q = normalizarTextoCatalogo(document.getElementById("search")?.value || "");
+    const c = normalizarCategoriaCatalogo(document.getElementById("category")?.value || "");
+    const s = document.getElementById("source")?.value || "";
+
+    return (items || []).filter(i => {
+      const item = normalizarItemCatalogo(i);
+
+      if(c && normalizarCategoriaCatalogo(item.categoria) !== c) return false;
+      if(s && item.fonte !== s) return false;
+      if(!q) return true;
+
+      const haystack = [
+        item.nome,
+        item.categoria,
+        item.subtipo,
+        item.sistema,
+        item.fonte,
+        item.descricao,
+        ...(item.tags || [])
+      ]
+        .map(normalizarTextoCatalogo)
+        .join(" ");
+
+      return haystack.includes(q);
+    });
+  };
+
+  // Atualiza filtros com categorias normalizadas e sem duplicatas por acento/case.
+  window.refreshFilters = function(){
+    const cats = [...new Set(
+      (items || [])
+        .map(i => normalizarCategoriaCatalogo(i?.categoria))
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const srcs = [...new Set(
+      (items || [])
+        .map(i => i?.fonte)
+        .filter(Boolean)
+    )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+
+    const category = document.getElementById("category");
+    const source = document.getElementById("source");
+    if(!category || !source) return;
+
+    const catAtual = normalizarCategoriaCatalogo(category.value);
+    const srcAtual = source.value;
+
+    category.innerHTML =
+      '<option value="">Todas</option>' +
+      cats.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    source.innerHTML =
+      '<option value="">Todas</option>' +
+      srcs.map(v => `<option value="${esc(v)}">${esc(v)}</option>`).join("");
+
+    if(cats.includes(catAtual)) category.value = catAtual;
+    if(srcs.includes(srcAtual)) source.value = srcAtual;
+  };
+
+  // Espelha o campo novo no drawer.
+  const openDrawerOriginal = window.openDrawer;
+  window.openDrawer = function(i, viewOnly=false){
+    const item = normalizarItemCatalogo(i || {});
+    const result = openDrawerOriginal.call(this, item, viewOnly);
+
+    const system = document.getElementById("itemSystem");
+    if(system){
+      system.value = item.sistema || "";
+      system.disabled = Boolean(viewOnly);
+    }
+
+    return result;
+  };
+
+  // Salva categoria/tags sempre em forma canônica.
+  const collectOriginal = window.collect;
+  window.collect = function(){
+    const item = collectOriginal.call(this);
+
+    const sistema = document.getElementById("itemSystem")?.value.trim() || "";
+    const agora = new Date().toISOString();
+
+    return normalizarItemCatalogo({
+      ...item,
+      sistema,
+      categoria: normalizarCategoriaCatalogo(item.categoria),
+      tags: normalizarTagsCatalogo(item.tags),
+      schemaVersion: 5,
+      updatedAt: agora
+    });
+  };
+
+  // Enquanto digita categoria/tags, já deixa o texto em formato canônico.
+  function bindCanonicalInputs(){
+    const category = document.getElementById("itemCategory");
+    const tags = document.getElementById("itemTags");
+
+    if(category && category.dataset.catalogNormalize !== "1"){
+      category.dataset.catalogNormalize = "1";
+      category.addEventListener("blur", () => {
+        category.value = normalizarCategoriaCatalogo(category.value);
+        if(typeof updateWeaponVisibility === "function") updateWeaponVisibility();
+      });
+    }
+
+    if(tags && tags.dataset.catalogNormalize !== "1"){
+      tags.dataset.catalogNormalize = "1";
+      tags.addEventListener("blur", () => {
+        tags.value = normalizarTagsCatalogo(tags.value).join(", ");
+      });
+    }
+  }
+
+  // Duplicação: cria novo ID, nome "cópia", preserva conteúdo.
+  async function duplicarItemCatalogo(id){
+    if(!isAdmin) return;
+
+    const original = (items || []).find(i => i.id === id);
+    if(!original) return;
+
+    const copia = structuredClone(original);
+    copia.id = uid(`${original.nome || "item"} copia`);
+    copia.nome = `${original.nome || "Item"} (cópia)`;
+    copia.schemaVersion = 5;
+    copia.updatedAt = new Date().toISOString();
+
+    // recursos/efeitos internos também recebem IDs novos quando possível,
+    // evitando vínculos acidentais entre templates.
+    if(Array.isArray(copia.efeitos)){
+      copia.efeitos = copia.efeitos.map(e => ({...e, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.effects)){
+      copia.effects = copia.effects.map(e => ({...e, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.resources)){
+      copia.resources = copia.resources.map(r => ({...r, id: crypto.randomUUID()}));
+    }
+    if(Array.isArray(copia.recursos)){
+      copia.recursos = copia.recursos.map(r => ({...r, id: crypto.randomUUID()}));
+    }
+
+    try{
+      setSync("Duplicando no GitHub…","saving");
+      await invokeCommit({action:"upsert",item:copia});
+      items = [...items, copia];
+      refreshFilters();
+      render();
+      setSync("Item duplicado","saved");
+      requestAnimationFrame(() => {
+        if(typeof renderListV5 === "function") renderListV5();
+      });
+    }catch(e){
+      console.error(e);
+      setSync(e.message || "Falha ao duplicar item.","error");
+      alert(e.message || "Falha ao duplicar item.");
+    }
+  }
+
+  window.duplicarItemCatalogoV51 = duplicarItemCatalogo;
+
+  function iniciarCatalogo(){
+    normalizarItensEmMemoria();
+    bindCanonicalInputs();
+    refreshFilters();
+    if(typeof render === "function") render();
+
+    observerPreview.observe(document.body,{childList:true,subtree:true});
+  }
+
+  if(document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", iniciarCatalogo, {once:true});
+  }else{
+    iniciarCatalogo();
+  }
+
+  // campo novo pode aparecer depois de reabrir drawer
+  document.addEventListener("click", e => {
+    if(e.target.closest("#newBtn,.comp-admin-only,.card-actions")){
+      requestAnimationFrame(bindCanonicalInputs);
+    }
+  });
 })();
 </script>
 
