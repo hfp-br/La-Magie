@@ -11221,7 +11221,7 @@
       "nome": "Munição (20)",
       "categoria": "municao",
       "subtipo": "arma de fogo",
-      "peso": 2,
+      "peso": 0.5,
       "preco": {
         "valor": 20,
         "moeda": "T$"
@@ -11238,7 +11238,7 @@
       ],
       "descricao": "Conjunto com 20 unidades de munição para armas de fogo.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "updatedAt": "2026-10-23T04:30:18.301Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -31082,5 +31082,5 @@
       "resources": []
     }
   ],
-  "updatedAt": "2026-10-23T04:23:37.324Z"
+  "updatedAt": "2026-10-23T04:30:18.304Z"
 }
