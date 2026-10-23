@@ -305,3 +305,78 @@ sb.auth.onAuthStateChange(()=>{checkSession()});
 </script>
 </body>
 </html>
+
+
+<style id="compendio-v5-library-css">
+body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{padding:18px!important}.toolbar{grid-template-columns:minmax(260px,1.5fr) 180px 180px auto!important;padding:12px!important;gap:9px!important;margin-bottom:12px}.summary{margin:8px 2px 12px!important}.compendium-library{display:grid;grid-template-columns:minmax(280px,360px) minmax(0,1fr);gap:14px;min-height:620px}.compendium-list-panel,.compendium-preview-panel{border:1px solid var(--line);border-radius:13px;background:rgba(255,248,228,.72);overflow:hidden}.compendium-list-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 13px;border-bottom:1px solid rgba(112,82,51,.14);background:rgba(255,248,228,.90)}.compendium-list-scroll{max-height:680px;overflow:auto;padding:7px}.comp-item-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:10px;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--ink);text-align:left;cursor:pointer}.comp-item-row:hover{background:rgba(255,255,255,.34);border-color:rgba(112,82,51,.13)}.comp-item-row.active{background:rgba(143,73,61,.08);border-color:rgba(143,73,61,.26);box-shadow:inset 3px 0 0 rgba(143,73,61,.72)}.comp-item-row-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;font-weight:700}.comp-item-row-meta{display:flex;flex-wrap:wrap;gap:4px 7px;margin-top:3px;color:var(--muted);font-size:9px}.comp-item-row-weight{color:var(--muted);font-size:9px;white-space:nowrap}.compendium-preview-panel{display:flex;flex-direction:column;min-width:0}.comp-preview-empty{flex:1;display:grid;place-items:center;min-height:520px;padding:36px;color:var(--muted);text-align:center}.comp-preview-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:18px 20px 14px;border-bottom:1px solid rgba(112,82,51,.15);background:rgba(255,248,228,.90)}.comp-preview-title h2{margin:0;font-size:28px;line-height:1.05}.comp-preview-subtitle{margin-top:5px;color:var(--muted);font-size:11px}.comp-preview-actions{display:flex;gap:7px;flex-wrap:wrap}.comp-preview-body{padding:18px 20px 22px}.comp-preview-badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.comp-preview-badge{display:inline-flex;padding:4px 8px;border:1px solid rgba(112,82,51,.18);border-radius:999px;background:rgba(255,255,255,.28);color:var(--muted);font-size:9px;font-weight:700}.comp-preview-badge.primary{color:var(--ink);border-color:rgba(169,119,53,.26);background:rgba(169,119,53,.08)}.comp-preview-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:16px}.comp-preview-stat{padding:9px 10px;border:1px solid rgba(112,82,51,.14);border-radius:9px;background:rgba(255,255,255,.24)}.comp-preview-stat span{display:block;color:var(--muted);font-size:8px;font-weight:700;text-transform:uppercase}.comp-preview-stat strong{display:block;margin-top:3px;font-size:13px}.comp-preview-section{margin-top:14px;padding-top:14px;border-top:1px solid rgba(112,82,51,.13)}.comp-preview-section h3{margin:0 0 8px;font-size:12px;text-transform:uppercase}.comp-preview-text{color:#58452f;font-size:12px;line-height:1.55;white-space:pre-wrap}.comp-preview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px}.comp-preview-line{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed rgba(112,82,51,.11);font-size:11px}.comp-preview-line span:first-child{color:var(--muted)}.comp-preview-effect,.comp-preview-resource,.comp-preview-defense{padding:8px 9px;border:1px solid rgba(112,82,51,.14);border-radius:8px;background:rgba(255,255,255,.23);font-size:10px;line-height:1.4}.comp-preview-resource{border-color:rgba(84,101,71,.18);background:rgba(84,101,71,.05)}.comp-preview-defense{border-color:rgba(143,73,61,.15);background:rgba(143,73,61,.045)}.comp-preview-weapon{padding:12px;border:1px solid rgba(169,119,53,.20);border-radius:10px;background:rgba(169,119,53,.055)}.comp-preview-weapon-main{font-size:16px;font-weight:700;margin-bottom:8px}.comp-preview-weapon-meta{display:flex;flex-wrap:wrap;gap:6px}.comp-preview-weapon-chip{padding:4px 7px;border:1px solid rgba(112,82,51,.14);border-radius:7px;background:rgba(255,255,255,.28);color:var(--muted);font-size:9px}.comp-preview-origin{color:var(--muted);font-size:9px;margin-top:12px}#items{display:none!important}.comp-admin-only{display:none!important}body.is-admin .comp-admin-only{display:inline-flex!important}.drawer{width:min(700px,100vw)!important}@media(max-width:980px){.compendium-library{grid-template-columns:1fr}.compendium-list-scroll{max-height:330px}}@media(max-width:720px){.toolbar{grid-template-columns:1fr 1fr!important}.comp-preview-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.comp-preview-grid{grid-template-columns:1fr}}@media(max-width:520px){.toolbar{grid-template-columns:1fr!important}.comp-preview-head{flex-direction:column}}
+</style>
+
+
+<script id="compendio-v5-library-js">
+(() => {
+  let selectedCompendiumId = null;
+  const escV5 = v => String(v ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
+  const statNameV5 = v => ({str:"FOR",dex:"DES",con:"CON",int:"INT",wis:"SAB",cha:"CAR"})[String(v||"").toLowerCase()] || String(v||"").toUpperCase();
+
+  function normalizeWeaponV5(item){
+    const w=item?.weaponAttack||item?.ataqueArma||null;if(!w)return null;
+    return {enabled:w.enabled!==false,name:w.name||w.nome||item.nome||"",skill:w.skill||w.pericia||"Luta",stat:w.stat||w.atributo||"str",die:w.die||w.dano||"1d6",type:w.type||w.tipoDano||"",threat:Number(w.threat??w.margemAmeaca??20),crit:Number(w.crit??w.critico??2),hitBonus:Number(w.hitBonus??w.bonusHit??0),damageBonus:w.damageBonus??w.bonusDamage??"",range:w.range||w.alcance||"",hands:w.hands||w.maos||"",ammo:w.ammo||w.municao||"",reload:w.reload||w.recarga||"",properties:w.properties||w.propriedades||""};
+  }
+  function priceV5(item){const p=item?.preco||{};if(p.valor===undefined||p.valor===null||p.valor==="")return"—";return `${p.valor} ${p.moeda||""}`.trim()}
+  function effectTextV5(e){
+    const type=e?.type||e?.tipo||"", mode=e?.mode||e?.modo||"always";
+    const mt={always:"Sempre ativo",toggle:"Toggle do item",conditional:"Condicional",use:"Ao usar"}[mode]||mode;
+    let main=e?.text||e?.descricao||"";
+    if(!main){
+      if(type==="skill")main=`${e.skill||e.alvo||"Perícia"} ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="attribute")main=`${statNameV5(e.stat||e.alvo)} ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="ac")main=`CA ${Number(e.bonus||0)>=0?"+":""}${Number(e.bonus||0)}`;
+      else if(type==="attack")main=`Ataque: ${Number(e.bonusHit||0)>=0?"+":""}${Number(e.bonusHit||0)} acerto${e.bonusDamage?` • ${e.bonusDamage} dano`:""}`;
+      else main=e?.valor||e?.target||e?.alvo||"Efeito";
+    }
+    return `${main} · ${mt}`;
+  }
+  function getFilteredV5(){try{return typeof filtered==="function"?filtered():(items||[])}catch{return items||[]}}
+  function ensureLayoutV5(){
+    if(document.querySelector(".compendium-library"))return;
+    const oldItems=document.getElementById("items");if(!oldItems)return;
+    const library=document.createElement("div");library.className="compendium-library";
+    library.innerHTML=`<section class="compendium-list-panel"><div class="compendium-list-head"><strong>Itens</strong><span id="compV5ListCount" class="mini"></span></div><div id="compV5List" class="compendium-list-scroll"></div></section><section id="compV5Preview" class="compendium-preview-panel"><div class="comp-preview-empty"><div><div style="font-size:28px;margin-bottom:8px;opacity:.45">⌘</div><strong>Selecione um item</strong><div style="margin-top:5px;font-size:11px">Os detalhes aparecem aqui sem abrir o editor.</div></div></div></section>`;
+    oldItems.parentNode.insertBefore(library,oldItems);
+  }
+  function renderListV5(){
+    ensureLayoutV5();
+    const list=document.getElementById("compV5List"),count=document.getElementById("compV5ListCount");if(!list)return;
+    const arr=getFilteredV5();if(count)count.textContent=`${arr.length} ${arr.length===1?"item":"itens"}`;
+    if(!arr.length){list.innerHTML=`<div style="padding:24px 12px;text-align:center;color:var(--muted);font-size:11px">Nenhum item encontrado.</div>`;renderPreviewV5(null);return}
+    if(!selectedCompendiumId||!arr.some(i=>i.id===selectedCompendiumId))selectedCompendiumId=arr[0]?.id||null;
+    list.innerHTML="";
+    arr.forEach(item=>{
+      const row=document.createElement("button");row.type="button";row.className=`comp-item-row ${item.id===selectedCompendiumId?"active":""}`;
+      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
+      row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5()});list.appendChild(row);
+    });
+    renderPreviewV5(arr.find(i=>i.id===selectedCompendiumId)||arr[0]);
+  }
+  function renderPreviewV5(item){
+    const host=document.getElementById("compV5Preview");if(!host)return;
+    if(!item){host.innerHTML=`<div class="comp-preview-empty"><strong>Nenhum item selecionado.</strong></div>`;return}
+    const tags=[item.categoria,item.subtipo,...(Array.isArray(item.tags)?item.tags:[])].filter(Boolean).slice(0,8);
+    const w=normalizeWeaponV5(item),consumable=item.consumable||item.consumivel||{},defenses=item.defenses||item.defesas||{},resources=Array.isArray(item.resources)?item.resources:(Array.isArray(item.recursos)?item.recursos:[]),effects=Array.isArray(item.effects)?item.effects:(Array.isArray(item.efeitos)?item.efeitos:[]);
+    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([item.categoria,item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Fonte</span><strong>${escV5(item.fonte||"—")}</strong></div><div class="comp-preview-stat"><span>Página</span><strong>${item.pagina??"—"}</strong></div></div>`;
+    if(w&&w.enabled){const threat=w.threat<20?`${w.threat}–20`:"20";body+=`<section class="comp-preview-section"><h3>Ataque</h3><div class="comp-preview-weapon"><div class="comp-preview-weapon-main">${escV5(w.skill)} + ${escV5(statNameV5(w.stat))} · ${escV5(w.die)} ${escV5(w.type)} · ${threat}/×${w.crit}</div><div class="comp-preview-weapon-meta">${w.hitBonus?`<span class="comp-preview-weapon-chip">Acerto ${w.hitBonus>=0?"+":""}${w.hitBonus}</span>`:""}${w.damageBonus?`<span class="comp-preview-weapon-chip">Dano ${escV5(w.damageBonus)}</span>`:""}${w.range?`<span class="comp-preview-weapon-chip">Alcance ${escV5(w.range)}</span>`:""}${w.hands?`<span class="comp-preview-weapon-chip">${escV5(w.hands)} mão(s)</span>`:""}${w.ammo?`<span class="comp-preview-weapon-chip">Munição ${escV5(w.ammo)}</span>`:""}${w.reload?`<span class="comp-preview-weapon-chip">Recarga ${escV5(w.reload)}</span>`:""}${w.properties?`<span class="comp-preview-weapon-chip">${escV5(w.properties)}</span>`:""}</div></div></section>`}
+    if(consumable?.enabled){body+=`<section class="comp-preview-section"><h3>Uso</h3><div class="comp-preview-grid"><div class="comp-preview-line"><span>Consumível</span><strong>Sim</strong></div><div class="comp-preview-line"><span>Gasta por uso</span><strong>${Number(consumable.amountPerUse||1)}</strong></div><div class="comp-preview-line"><span>Botão</span><strong>${escV5(consumable.label||"Usar")}</strong></div></div></section>`}
+    if(defenses?.resistances||defenses?.resistencias||defenses?.immunities||defenses?.imunidades){body+=`<section class="comp-preview-section"><h3>Defesas</h3><div class="comp-preview-grid">${defenses.resistances||defenses.resistencias?`<div class="comp-preview-defense"><strong>Resistências:</strong> ${escV5(defenses.resistances||defenses.resistencias)}</div>`:""}${defenses.immunities||defenses.imunidades?`<div class="comp-preview-defense"><strong>Imunidades:</strong> ${escV5(defenses.immunities||defenses.imunidades)}</div>`:""}</div></section>`}
+    if(resources.length){body+=`<section class="comp-preview-section"><h3>Recursos</h3><div class="comp-preview-grid">${resources.map(r=>`<div class="comp-preview-resource"><strong>${escV5(r.name||r.nome||"Recurso")}</strong><div style="margin-top:3px">${Number(r.current??r.atual??0)}${r.max!==undefined&&r.max!==null&&r.max!==""?` / ${r.max}`:""}</div></div>`).join("")}</div></section>`}
+    if(effects.length){body+=`<section class="comp-preview-section"><h3>Efeitos</h3><div class="comp-preview-grid">${effects.map(e=>`<div class="comp-preview-effect">${escV5(effectTextV5(e))}</div>`).join("")}</div></section>`}
+    if(item.descricao){body+=`<section class="comp-preview-section"><h3>Descrição</h3><div class="comp-preview-text">${escV5(item.descricao)}</div></section>`}
+    body+=`<div class="comp-preview-origin">${item.id?`ID: ${escV5(item.id)}`:""}</div></div></article>`;
+    host.innerHTML=body;
+    document.getElementById("compV5EditBtn")?.addEventListener("click",()=>typeof editItem==="function"&&editItem(item.id));
+  }
+  const oldRender=window.render;
+  window.render=function(...args){const result=oldRender.apply(this,args);requestAnimationFrame(renderListV5);return result};
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",()=>requestAnimationFrame(renderListV5),{once:true});else requestAnimationFrame(renderListV5);
+})();
+</script>
+

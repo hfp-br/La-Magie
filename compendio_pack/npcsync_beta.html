@@ -21067,3 +21067,55 @@ body.editing .inventory-compact-row{display:none!important}
 })();
 </script>
 
+
+
+<style id="inventory-delete-v451-fix">
+/* V4.5.1 — corrige definitivamente o botão Excluir item do modal */
+#inventoryDetailModal #inventoryDetailDelete{
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+
+  width:auto!important;
+  min-width:108px!important;
+  max-width:none!important;
+
+  height:36px!important;
+  min-height:36px!important;
+
+  padding:7px 13px!important;
+  margin:0!important;
+
+  white-space:nowrap!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+
+  line-height:1!important;
+  font-size:11px!important;
+
+  flex:0 0 auto!important;
+  grid-column:auto!important;
+
+  border-radius:8px!important;
+}
+
+#inventoryDetailModal #inventoryDetailDelete br{
+  display:none!important;
+}
+
+#inventoryDetailModal .inventory-detail-actions{
+  grid-template-columns:none!important;
+}
+
+@media(max-width:520px){
+  #inventoryDetailModal #inventoryDetailDelete{
+    min-width:96px!important;
+    width:auto!important;
+    height:34px!important;
+    min-height:34px!important;
+    padding:6px 10px!important;
+    font-size:10px!important;
+  }
+}
+</style>
+
