@@ -4685,6 +4685,2109 @@
       },
       "resources": [],
       "properties": ""
+    },
+    {
+      "id": "t20-azagaia-dos-relampagos",
+      "nome": "Azagaia dos relâmpagos",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "simples",
+        "ataque a distancia",
+        "arremesso",
+        "corpo a corpo com -5 no ataque",
+        "magico",
+        "arma especifica",
+        "eletricidade"
+      ],
+      "descricao": "Azagaia mágica que, quando arremessada, transforma-se em um relâmpago e volta à forma normal ao final do alcance.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "azagaia-dos-relampagos-vi4yv",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao arremessar, transforma-se em Relâmpago: 6d6 de eletricidade em uma linha de alcance médio. Ao fim do alcance volta a ser azagaia e cai no chão."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Azagaia dos relâmpagos",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Médio",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "arremesso; corpo a corpo com -5 no ataque",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-espada-baronial",
+      "nome": "Espada baronial",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "magico",
+        "arma especifica",
+        "khalmyr",
+        "nobreza"
+      ],
+      "descricao": "Espada longa de guarda reta concedida a vassalos dignos. Seu poder cresce com honra, devoção a Khalmyr e treinamento em Nobreza.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "espada-baronial-pfuoo",
+          "type": "other",
+          "mode": "use",
+          "text": "Fornece +1 em ataque e dano. Esse bônus aumenta em +1 para cada condição cumprida: possuir código de conduta, ser devoto de Khalmyr e ser treinado em Nobreza; máximo +4."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada baronial",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 1,
+        "damageBonus": "1",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-lamina-da-luz",
+      "nome": "Lâmina da luz",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 3,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "adaptavel",
+        "pode ser usada como marcial de duas maos",
+        "magico",
+        "arma especifica",
+        "luz",
+        "formidavel"
+      ],
+      "descricao": "Espada bastarda formidável de lâmina prateada e reluzente, concedida a cavaleiros da Luz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "lamina-da-luz-594by",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: irradia luz brilhante em alcance médio até o fim da cena; inimigos dentro da luz ficam ofuscados."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lâmina da luz",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10/1d12",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "adaptavel; pode ser usada como marcial de duas maos",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-lanca-animalesca",
+      "nome": "Lança animalesca",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1.5,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - uma mao",
+        "arremesso",
+        "magico",
+        "arma especifica",
+        "natureza",
+        "forma selvagem",
+        "formidavel"
+      ],
+      "descricao": "Lança formidável coberta de espinhos e folhas vivas, ligada à transformação animal.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "lanca-animalesca-8gufg",
+          "type": "other",
+          "mode": "always",
+          "text": "Ao usar Forma Selvagem, aplique o bônus +2 de ataque e dano desta lança às suas armas naturais."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança animalesca",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "arremesso",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-maca-do-terror",
+      "nome": "Maça do terror",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 6,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - uma mao",
+        "magico",
+        "arma especifica",
+        "medo",
+        "formidavel"
+      ],
+      "descricao": "Maça formidável feita com osso e crânio, impregnada de magia aterradora.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "maca-do-terror-kdttb",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar Amedrontar. Se já conhece a magia, seu custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça do terror",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-florete-fugaz",
+      "nome": "Florete fugaz",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 1,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "agil",
+        "magico",
+        "arma especifica",
+        "formidavel",
+        "critico"
+      ],
+      "descricao": "Florete formidável com cabo e guarda trabalhados em prata e pedrarias, capaz de acelerar uma sequência perfeita de golpes.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "florete-fugaz-37ua8",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao usar a ação atacar, pode gastar 1 PM. Se acertar um crítico nesse turno, pode fazer um ataque adicional contra a mesma criatura."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Florete fugaz",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-cajado-da-destruicao",
+      "nome": "Cajado da destruição",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 2,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos",
+        "dupla",
+        "magico",
+        "arma especifica",
+        "magia",
+        "formidavel"
+      ],
+      "descricao": "Bordão formidável escuro e reforçado, procurado por conjuradores de batalha.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "cajado-da-destruicao-at6dm",
+          "type": "other",
+          "mode": "always",
+          "text": "Magias de dano lançadas por você causam +1 ponto de dano por dado."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cajado da destruição",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6/1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "dupla",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-cajado-da-vida",
+      "nome": "Cajado da vida",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 2,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos",
+        "dupla",
+        "magico",
+        "arma especifica",
+        "cura",
+        "magia",
+        "formidavel"
+      ],
+      "descricao": "Bordão formidável branco com runas prateadas, valorizado por curandeiros.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "cajado-da-vida-m4hfa",
+          "type": "other",
+          "mode": "always",
+          "text": "Magias de cura lançadas por você curam +2 PV por dado."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cajado da vida",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6/1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "dupla",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-machado-silvestre",
+      "nome": "Machado silvestre",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 3,
+      "preco": {
+        "valor": 35000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "magico",
+        "arma especifica",
+        "natureza",
+        "ermo",
+        "formidavel"
+      ],
+      "descricao": "Machado de batalha formidável gravado com plantas e animais selvagens.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "machado-silvestre-9axuj",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Em ambiente ermo e ao ar livre, causa +1d8 de dano e concede o poder Trespassar. Se já possuir Trespassar, pode usá-lo sem gastar PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado silvestre",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-martelo-de-doherimm",
+      "nome": "Martelo de Doherimm",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2.5,
+      "preco": {
+        "valor": 35000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "magico",
+        "arma especifica",
+        "anao",
+        "doherimm",
+        "formidavel"
+      ],
+      "descricao": "Martelo de guerra formidável de pedra e aço, cujo poder aumenta nas mãos de um anão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "martelo-de-doherimm-vy8oz",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Quando empunhado por um anão, adquire arremesso e causa +1d8 de dano, ou +2d8 contra criaturas Grandes ou maiores."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo de Doherimm",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-arco-do-poder",
+      "nome": "Arco do poder",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 1.5,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 322,
+      "tags": [
+        "arma",
+        "marcial",
+        "ataque a distancia",
+        "disparo",
+        "aplica FOR ao dano",
+        "nao pode ser usado montado",
+        "magico",
+        "arma especifica",
+        "energia",
+        "formidavel"
+      ],
+      "descricao": "Arco longo formidável sem corda física, capaz de criar flechas de energia diferentes conforme a intenção do usuário.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "arco-do-poder-ayffx",
+          "type": "other",
+          "mode": "use",
+          "text": "Flecha normal: 3d8 de essência. Flecha piedosa: 4d8 não letal. Flecha explosiva: 3d6 fogo no alvo e adjacentes (Reflexos CD 20 reduz pela metade para adjacentes). Flecha-rede: sem dano, deixa agarrado; Força CD 20 para escapar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco do poder",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "3d8",
+        "type": "Essência",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Flechas",
+        "reload": "Livre",
+        "properties": "disparo; aplica FOR ao dano; nao pode ser usado montado",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-lingua-do-deserto",
+      "nome": "Língua do deserto",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "agil",
+        "magico",
+        "arma especifica",
+        "fogo",
+        "deserto",
+        "formidavel"
+      ],
+      "descricao": "Cimitarra formidável originária do Deserto da Perdição, capaz de envolver sua lâmina em chamas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "lingua-do-deserto-mqlcw",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: transforma a lâmina em chamas até o fim da cena; dano aumenta um passo e passa a fogo."
+        },
+        {
+          "id": "lingua-do-deserto-brilho-a6q65",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM enquanto em chamas: inimigos em alcance curto ficam desprevenidos por 1 rodada."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Língua do deserto",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-besta-explosiva",
+      "nome": "Besta explosiva",
+      "categoria": "arma",
+      "subtipo": "ataque a distancia",
+      "peso": 4,
+      "preco": {
+        "valor": 50000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "marcial",
+        "ataque a distancia",
+        "disparo",
+        "magico",
+        "arma especifica",
+        "fogo",
+        "explosao",
+        "formidavel"
+      ],
+      "descricao": "Besta pesada formidável de madeira escurecida, capaz de transformar virotes em explosões de fogo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "besta-explosiva-s6uas",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao disparar, pode gastar 3 PM para transformar o virote em Bola de Fogo. Contra criatura: ataque normal + 6d6 fogo no alvo e 6d6 fogo em criaturas a até 6m (Reflexos reduz metade); se errar, não explode. Contra ponto no chão: funciona como Bola de Fogo, sem teste de ataque."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta explosiva",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d12",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "Médio",
+        "hands": "2",
+        "ammo": "Virotes",
+        "reload": "Padrão",
+        "properties": "disparo",
+        "allowedToggles": [],
+        "damageStat": "none"
+      }
+    },
+    {
+      "id": "t20-punhal-sszzaazita",
+      "nome": "Punhal sszzaazita",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve",
+        "arremesso",
+        "+2 em Ladinagem para ocultar",
+        "pode usar DES no teste de ataque",
+        "magico",
+        "arma especifica",
+        "sszzaas",
+        "veneno",
+        "assassina",
+        "formidavel"
+      ],
+      "descricao": "Adaga negra e ondulada, formidável, assassina e venenosa, capaz de assumir a forma de um objeto inofensivo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "punhal-sszzaazita-disfarce-00ltj",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão e 2 PM: transforma-se em objeto inofensivo de tamanho similar; nenhuma magia detecta a transformação. Voltar à forma de arma é ação livre."
+        },
+        {
+          "id": "punhal-sszzaazita-venenosa-cl5rk",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao atacar, pode gastar 2 PM; se acertar, a vítima fica envenenada e sofre 1d12 de dano por rodada durante 1d6 rodadas."
+        },
+        {
+          "id": "punhal-sszzaazita-assassina-fjwqz",
+          "type": "other",
+          "mode": "always",
+          "text": "Possui o encanto Assassina, aumentando o Ataque Furtivo do usuário."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Punhal sszzaazita",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "Curto",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-espada-sortuda",
+      "nome": "Espada sortuda",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 1,
+      "preco": {
+        "valor": 55000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve",
+        "magico",
+        "arma especifica",
+        "sorte",
+        "formidavel"
+      ],
+      "descricao": "Espada curta formidável cravejada de brilhantes que favorece seu portador com sorte sobrenatural.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "espada-sortuda-gvsnc",
+          "type": "other",
+          "mode": "always",
+          "text": "Fornece +2 em testes de resistência."
+        },
+        {
+          "id": "espada-sortuda-rerrolagem-bbgnn",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode gastar 3 PM para rolar novamente um teste recém-realizado, uma vez por teste. Se possuir Sortudo, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada sortuda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-avalanche",
+      "nome": "Avalanche",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 6,
+      "preco": {
+        "valor": 70000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos",
+        "magico",
+        "arma especifica",
+        "frio",
+        "gelo eterno",
+        "congelante",
+        "formidavel"
+      ],
+      "descricao": "Machado de guerra formidável de gelo eterno e encantado com frio, capaz de invocar uma tempestade de gelo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "avalanche-resistencia-e8ai8",
+          "type": "other",
+          "mode": "always",
+          "text": "Fornece resistência a fogo 10."
+        },
+        {
+          "id": "avalanche-tempestade-50syo",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão e 6 PM: cria tempestade de gelo em alcance curto ao redor. Criaturas recebem camuflagem e sofrem 3d6 impacto + 3d6 frio por rodada; você ignora esses efeitos. Gaste 1 PM no início de cada turno para manter."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Avalanche",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 3,
+        "hitBonus": 2,
+        "damageBonus": "2 + 1d6 frio",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-cajado-do-poder",
+      "nome": "Cajado do poder",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - duas maos",
+      "peso": 2,
+      "preco": {
+        "valor": 90000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 323,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - duas maos",
+        "dupla",
+        "magico",
+        "arma especifica",
+        "arcano",
+        "magnifico"
+      ],
+      "descricao": "Bordão magnífico de cabo liso com joia cintilante, feito para ampliar o poder de conjuradores arcanos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "cajado-do-poder-p51nw",
+          "type": "other",
+          "mode": "always",
+          "text": "O custo de suas magias arcanas diminui em –1 PM e a CD para resistir a elas aumenta em +2."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cajado do poder",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6/1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 4,
+        "damageBonus": "4",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "dupla",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-vingadora-sagrada",
+      "nome": "Vingadora sagrada",
+      "categoria": "arma",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 2,
+      "preco": {
+        "valor": 100000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 324,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "magico",
+        "arma especifica",
+        "paladino",
+        "sagrada",
+        "formidavel"
+      ],
+      "descricao": "Espada longa formidável que revela seu verdadeiro poder quando empunhada por um paladino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "vingadora-sagrada-n0hxs",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Nas mãos de um paladino: fornece +5 em ataque e dano, +5 em testes de resistência contra magia ao paladino e aliados em alcance curto, e reduz o custo de Golpe Divino em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Vingadora sagrada",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-cota-elfica",
+      "nome": "Cota élfica",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 20,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "pesada",
+        "malha",
+        "metal",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "elfica",
+        "mitral",
+        "defensora"
+      ],
+      "descricao": "Cota de malha defensora de mitral, feita de anéis finíssimos e leves. Permite aplicar Destreza na Defesa como se fosse uma armadura leve.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "cota-elfica-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 8,
+          "text": "Bônus de Defesa +8"
+        },
+        {
+          "id": "cota-elfica-n19qv",
+          "type": "other",
+          "mode": "always",
+          "text": "Permite aplicar o bônus de Destreza na Defesa como se fosse uma armadura leve."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.; Defensora (+2 Defesa); Mitral: penalidade de armadura –2; permite aplicar até 2 pontos de DES por ser armadura pesada; Pode aplicar DES na Defesa como armadura leve",
+      "armor": {
+        "defenseBonus": 8,
+        "armorPenalty": 0,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-couro-de-monstro",
+      "nome": "Couro de monstro",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 12,
+      "preco": {
+        "valor": 18000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "leve",
+        "peles",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "monstro",
+        "defensora"
+      ],
+      "descricao": "Gibão de peles defensor feito do couro de grandes monstros das Montanhas Sanguinárias.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "couro-de-monstro-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 6,
+          "text": "Bônus de Defesa +6"
+        },
+        {
+          "id": "couro-de-monstro-rwmwn",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Ao usar Ataque Poderoso ou fazer uma investida, recebe +2d6 nas rolagens de dano."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –3.",
+      "armor": {
+        "defenseBonus": 6,
+        "armorPenalty": -3,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-loriga-do-centuriao",
+      "nome": "Loriga do centurião",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 17,
+      "preco": {
+        "valor": 22000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "tauron",
+        "defensora",
+        "lideranca"
+      ],
+      "descricao": "Loriga segmentada defensora dourada e vermelha, marcada com o símbolo de Tauron.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "loriga-do-centuriao-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 9,
+          "text": "Bônus de Defesa +9"
+        },
+        {
+          "id": "loriga-do-centuriao-kmx7l",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Enquanto estiver liderando uma ou mais criaturas (Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
+      "armor": {
+        "defenseBonus": 9,
+        "armorPenalty": -3,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-manto-da-noite",
+      "nome": "Manto da noite",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 10,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "leve",
+        "couro",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "furtividade",
+        "sombrio",
+        "defensora",
+        "ajustada"
+      ],
+      "descricao": "Couro batido ajustado, defensor e sombrio, negro e com partes metálicas foscas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "manto-da-noite-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 5,
+          "text": "Bônus de Defesa +5"
+        },
+        {
+          "id": "manto-da-noite-15lh4",
+          "type": "other",
+          "mode": "always",
+          "text": "Você não sofre penalidade em Furtividade por se mover em deslocamento normal; a penalidade por atacar diminui para –10. Também possui os benefícios do encanto Sombrio."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –1.; Ajustada: reduz a penalidade de armadura em 1; Defensora: +2 Defesa; Sombrio: +5 Furtividade e ignora penalidade de armadura para Furtividade",
+      "armor": {
+        "defenseBonus": 5,
+        "armorPenalty": 0,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-couraca-do-comando",
+      "nome": "Couraça do comando",
+      "categoria": "armadura",
+      "subtipo": "leve",
+      "peso": 15,
+      "preco": {
+        "valor": 23000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "leve",
+        "metal",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "comando",
+        "carisma",
+        "defensora",
+        "sob medida"
+      ],
+      "descricao": "Couraça banhada a ouro, sob medida e defensora, que irradia uma aura de autoridade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "couraca-do-comando-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 7,
+          "text": "Bônus de Defesa +7"
+        },
+        {
+          "id": "couraca-comando-car",
+          "type": "attribute",
+          "mode": "toggle",
+          "target": "cha",
+          "bonus": 2,
+          "text": "+2 em Carisma"
+        },
+        {
+          "id": "couraca-do-comando-a7c1d",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se usar o poder Comandar, o bônus fornecido por ele aumenta para +2."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura leve; penalidade de armadura –4.; Banhada a ouro: +2 Diplomacia; Sob medida: reduz penalidade de armadura em 2 para o usuário específico; Defensora: +2 Defesa",
+      "armor": {
+        "defenseBonus": 7,
+        "armorPenalty": -2,
+        "type": "leve"
+      }
+    },
+    {
+      "id": "t20-baluarte-anao",
+      "nome": "Baluarte anão",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 25,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "placas",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "anao",
+        "adamante",
+        "defensora",
+        "reforcada"
+      ],
+      "descricao": "Armadura completa reforçada, defensora e feita de adamante, criada para oferecer proteção excepcional.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "baluarte-anao-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 13,
+          "text": "Bônus de Defesa +13"
+        },
+        {
+          "id": "baluarte-anao-sujat",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se você não se deslocar em seu turno, a RD fornecida pela armadura aumenta para 10 até o próximo turno."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "RD 5",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.; Reforçada: +1 Defesa e +1 penalidade de armadura; Defensora: +2 Defesa; Adamante: RD 5",
+      "armor": {
+        "defenseBonus": 13,
+        "armorPenalty": -6,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-carapaca-demoniaca",
+      "nome": "Carapaça demoníaca",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 25,
+      "preco": {
+        "valor": 32000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "placas",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "demonio",
+        "macabra",
+        "guardia",
+        "reforcada"
+      ],
+      "descricao": "Armadura completa macabra, reforçada e guardiã, forjada para fazer seu usuário parecer um demônio.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "carapaca-demoniaca-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 15,
+          "text": "Bônus de Defesa +15"
+        },
+        {
+          "id": "carapaca-demoniaca-ypywr",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se for devoto de uma divindade do Mal, seus ataques corpo a corpo causam +1d8 de trevas."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.; Macabra: +2 Intimidação e –2 Diplomacia; Reforçada: +1 Defesa e +1 penalidade; Guardiã: +4 Defesa",
+      "armor": {
+        "defenseBonus": 15,
+        "armorPenalty": -6,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-armadura-da-luz",
+      "nome": "Armadura da luz",
+      "categoria": "armadura",
+      "subtipo": "pesada",
+      "peso": 25,
+      "preco": {
+        "valor": 75000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "armadura",
+        "pesada",
+        "metal",
+        "placas",
+        "penalidade de armadura",
+        "magico",
+        "armadura especifica",
+        "khalmyr",
+        "luz",
+        "guardia",
+        "zelosa",
+        "reforcada"
+      ],
+      "descricao": "Armadura completa banhada a ouro, reforçada, guardiã e zelosa, marcada com o símbolo de Khalmyr.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "armadura-da-luz-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 15,
+          "text": "Bônus de Defesa +15"
+        },
+        {
+          "id": "armadura-da-luz-wvyvb",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se possuir código de conduta ou for devoto de uma divindade do Bem, recebe RD igual ao modificador de Carisma."
+        },
+        {
+          "id": "armadura-da-luz-zelosa-71l2c",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por rodada, quando aliado adjacente for alvo de ataque, pode gastar 1 PM para se tornar o alvo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.; Banhada a ouro: +2 Diplomacia; Reforçada: +1 Defesa e +1 penalidade; Guardiã: +4 Defesa; Zelosa: pode redirecionar ataque de aliado adjacente",
+      "armor": {
+        "defenseBonus": 15,
+        "armorPenalty": -6,
+        "type": "pesada"
+      }
+    },
+    {
+      "id": "t20-escudo-do-conjurador",
+      "nome": "Escudo do conjurador",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 3,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - leve",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "conjurador",
+        "defensora"
+      ],
+      "descricao": "Escudo leve defensor com uma tira de couro interna capaz de armazenar uma magia como se fosse um pergaminho.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-conjurador-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 3,
+          "text": "Bônus de Defesa +3"
+        },
+        {
+          "id": "escudo-do-conjurador-z0sjy",
+          "type": "other",
+          "mode": "use",
+          "text": "Um conjurador pode lançar uma magia na tira interna; ela fica armazenada e pode ser lida como pergaminho. Depois de usada, outra magia pode ser inscrita."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do conjurador",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
+      "armor": {
+        "defenseBonus": 3,
+        "armorPenalty": -1,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-espinhoso",
+      "nome": "Escudo espinhoso",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "espinhos",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor coberto de espinhos, capaz de disparar um deles magicamente.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "escudo-espinhoso-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-espinhoso-h7iki",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: dispara um espinho em alvo em alcance curto; acerta automaticamente e causa 1d10+2 de perfuração."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo espinhoso",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.; Defensora: +2 Defesa; Espinhoso: dano de ataque com escudo aumenta um passo",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-do-leao",
+      "nome": "Escudo do leão",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "leao",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor forjado como uma cabeça de leão rugindo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-leao-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-do-leao-b2s1w",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por rodada, pode gastar 2 PM para a cabeça morder criatura adjacente; acerta automaticamente e causa 2d6+2 de perfuração."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do leão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-do-eclipse",
+      "nome": "Escudo do eclipse",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 35000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "trevas",
+        "escuridao",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor completamente negro, que parece absorver a luz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-eclipse-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-do-eclipse-2g1zm",
+          "type": "other",
+          "mode": "always",
+          "text": "Fornece resistência a trevas 10."
+        },
+        {
+          "id": "escudo-do-eclipse-dano-odeh9",
+          "type": "other",
+          "mode": "always",
+          "text": "Um ataque com o escudo causa +1d8 de trevas."
+        },
+        {
+          "id": "escudo-do-eclipse-escuridao-2pih6",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: lança Escuridão."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do eclipse",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-de-azgher",
+      "nome": "Escudo de Azgher",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 70000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "azgher",
+        "sol",
+        "fogo",
+        "guardia"
+      ],
+      "descricao": "Escudo pesado guardião forjado na forma de um sol estilizado, dedicado a Azgher.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:25:06.604Z",
+      "efeitos": [
+        {
+          "id": "escudo-de-azgher-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 6,
+          "text": "Bônus de Defesa +6"
+        },
+        {
+          "id": "escudo-de-azgher-gsc7w",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão e 10 PM: emite luz em cone de alcance curto, gera os efeitos de Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 em mortos-vivos e criaturas vulneráveis à luz solar). Gaste 1 PM no início de cada turno para manter."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo de Azgher",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 6,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
     }
   ]
 }
