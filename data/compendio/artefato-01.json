@@ -1,0 +1,1566 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-espada-deus",
+      "nome": "Espada-Deus",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 332,
+      "tags": [
+        "artefato",
+        "arma",
+        "unico",
+        "espada longa",
+        "rhond"
+      ],
+      "descricao": "Artefato divino cultuado como uma entidade por si só. É uma espada longa de aparência simples, mas considerada uma das armas mais poderosas de Arton. Efeitos: É indestrutível e ignora resistência a dano. Seus acertos críticos afetam mesmo criaturas normalmente imunes a acertos críticos. Quando usa a ação atacar, pode gastar 2 PM para realizar um ataque adicional com ela; se possuir Ataque Extra, o custo diminui em –1 PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "espada-deus-other-e-indestrutivel-e-ignora-res",
+          "type": "other",
+          "mode": "always",
+          "text": "É indestrutível e ignora resistência a dano."
+        },
+        {
+          "id": "espada-deus-critico-other-seus-acertos-criticos-afetam",
+          "type": "other",
+          "mode": "always",
+          "text": "Seus acertos críticos afetam mesmo criaturas normalmente imunes a acertos críticos."
+        },
+        {
+          "id": "espada-deus-veloz-other-quando-usa-a-acao-atacar-pod",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando usa a ação atacar, pode gastar 2 PM para realizar um ataque adicional com ela; se possuir Ataque Extra, o custo diminui em –1 PM."
+        },
+        {
+          "id": "espada-deus-requisito-other-apenas-personagens-com-pelo-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Apenas personagens com pelo menos 15 níveis em classes que tenham Luta como perícia inicial podem usá-la; os demais erram todos os ataques e não conseguem removê-la de seu local de repouso."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Indestrutível; exige pelo menos 15 níveis em classes que tenham Luta como perícia inicial para ser usada corretamente; ignora resistência a dano; críticos afetam até criaturas imunes a acertos críticos.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada-Deus",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d12",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 4,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Atroz; precisa; pungente; ameaçadora; magnífica; veloz; ignora resistência a dano; críticos afetam criaturas imunes a crítico",
+        "allowedToggles": [],
+        "damageStat": "str"
+      }
+    },
+    {
+      "id": "t20-joia-da-alma",
+      "nome": "Joia da Alma",
+      "categoria": "artefato",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 332,
+      "tags": [
+        "artefato",
+        "gema",
+        "unico",
+        "memoria"
+      ],
+      "descricao": "Gema indestrutível de vinte faces ligada aos primórdios da Criação. Recupera memórias perdidas, mas seu uso prolongado ameaça a sanidade de mortais. Efeitos: +6 em Inteligência enquanto estiver portando a Joia. Para magos, o custo básico de magias arcanas diminui para 0 PM; custos de aprimoramentos ainda são pagos. Enquanto a segura, recupera instantaneamente todas as memórias de sua vida; ao soltá-la, as memórias voltam ao esquecimento.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "joia-da-alma-attribute-6-em-inteligencia-enquanto-e",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+6 em Inteligência enquanto estiver portando a Joia.",
+          "target": "int",
+          "bonus": 6
+        },
+        {
+          "id": "joia-da-alma-magia-other-para-magos-o-custo-basico-de",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Para magos, o custo básico de magias arcanas diminui para 0 PM; custos de aprimoramentos ainda são pagos."
+        },
+        {
+          "id": "joia-da-alma-memoria-other-enquanto-a-segura-recupera-i",
+          "type": "other",
+          "mode": "always",
+          "text": "Enquanto a segura, recupera instantaneamente todas as memórias de sua vida; ao soltá-la, as memórias voltam ao esquecimento."
+        },
+        {
+          "id": "joia-da-alma-risco-other-empunhar-exige-vontade-cd-25",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Empunhar exige Vontade CD 25. A CD aumenta em +1 a cada dia; falhas sucessivas podem causar condições mentais graves e eventualmente tirar o personagem do controle do jogador."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Indestrutível; empunhar exige Vontade CD 25 e novos testes diários com CD cumulativamente maior."
+    },
+    {
+      "id": "t20-baralho-do-caos",
+      "nome": "Baralho do Caos",
+      "categoria": "artefato",
+      "subtipo": "baralho",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 333,
+      "tags": [
+        "artefato",
+        "baralho",
+        "unico",
+        "caos",
+        "jogatina"
+      ],
+      "descricao": "Baralho aparentemente comum capaz de alterar drasticamente o destino de quem aposta tudo e compra suas cartas. Efeitos: +10 em Jogatina durante uso normal; a critério do mestre pode virar –10 se o usuário abusar da sorte. Ao declarar “Eu aposto tudo”, saque de 1 a 4 cartas e role os efeitos da tabela do Baralho do Caos. Um personagem treinado em Jogatina pode tentar CD 30 para rejeitar uma carta e sacar outra, uma vez. Após esse uso, o artefato desaparece e reaparece em outro lugar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "baralho-do-caos-skill-10-em-jogatina-durante-uso-n",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+10 em Jogatina durante uso normal; a critério do mestre pode virar –10 se o usuário abusar da sorte.",
+          "target": "Jogatina",
+          "bonus": 10
+        },
+        {
+          "id": "baralho-do-caos-cartas-other-ao-declarar-eu-aposto-tudo-s",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao declarar “Eu aposto tudo”, saque de 1 a 4 cartas e role os efeitos da tabela do Baralho do Caos. Um personagem treinado em Jogatina pode tentar CD 30 para rejeitar uma carta e sacar outra, uma vez. Após esse uso, o artefato desaparece e reaparece em outro lugar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Fornece +10 em Jogatina enquanto usado normalmente; abuso da sorte pode transformar o bônus em –10 a critério do mestre."
+    },
+    {
+      "id": "t20-olho-de-sszzaas",
+      "nome": "Olho de Sszzaas",
+      "categoria": "artefato",
+      "subtipo": "cajado",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 334,
+      "tags": [
+        "artefato",
+        "cajado",
+        "unico",
+        "sszzaas",
+        "magia"
+      ],
+      "descricao": "Cajado de madeira fossilizada que sustenta uma gema esverdeada contendo parte da consciência de Sszzaas. Efeitos: Permite lançar qualquer magia que o portador conheça ou tenha ouvido falar, arcana ou divina, sem pagar o custo básico em PM. Aprimoramentos ainda custam PM. Cada magia exige Misticismo CD 20 + custo em PM da magia incluindo aprimoramentos. Falha pode provocar efeito imprevisível, sob controle do mestre. Reconhecer e aprender a usar exige Conhecimento CD 30.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "olho-de-sszzaas-other-permite-lancar-qualquer-magi",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar qualquer magia que o portador conheça ou tenha ouvido falar, arcana ou divina, sem pagar o custo básico em PM. Aprimoramentos ainda custam PM."
+        },
+        {
+          "id": "olho-de-sszzaas-teste-other-cada-magia-exige-misticismo-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Cada magia exige Misticismo CD 20 + custo em PM da magia incluindo aprimoramentos. Falha pode provocar efeito imprevisível, sob controle do mestre."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Reconhecer e aprender a usar exige Conhecimento CD 30."
+    },
+    {
+      "id": "t20-rubi-da-virtude",
+      "nome": "Rubi da Virtude",
+      "categoria": "artefato",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 335,
+      "tags": [
+        "artefato",
+        "gema",
+        "unico",
+        "rubi",
+        "divino"
+      ],
+      "descricao": "Uma das vinte gemas divinas conhecidas como Rubis da Virtude. Cada rubi carrega parte da essência dos antigos deuses do Panteão. Efeitos: Cada Rubi incrustado fornece um nível de experiência em uma classe que o portador já possua. Cada Rubi fornece RD 2 e +1 em testes de resistência; os benefícios são cumulativos inclusive entre Rubis. Magias de adivinhação contra o portador exigem Misticismo CD 25 + quantidade de Rubis ou falham.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "rubi-da-virtude-nivel-other-cada-rubi-incrustado-fornece",
+          "type": "other",
+          "mode": "always",
+          "text": "Cada Rubi incrustado fornece um nível de experiência em uma classe que o portador já possua."
+        },
+        {
+          "id": "rubi-da-virtude-resistencia-other-cada-rubi-fornece-rd-2-e-1-e",
+          "type": "other",
+          "mode": "always",
+          "text": "Cada Rubi fornece RD 2 e +1 em testes de resistência; os benefícios são cumulativos inclusive entre Rubis."
+        },
+        {
+          "id": "rubi-da-virtude-adivinhacao-other-magias-de-adivinhacao-contra",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Magias de adivinhação contra o portador exigem Misticismo CD 25 + quantidade de Rubis ou falham."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Cada rubi é indetectável por meios mágicos e só pode ser destruído por um deus do Panteão. Para ativar seus benefícios deve ser incrustado no corpo com Cura CD 25; o efeito surge após um dia."
+    },
+    {
+      "id": "t20-gladio-da-alvorada",
+      "nome": "Gládio da Alvorada",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 78,
+      "tags": [
+        "artefato",
+        "arma",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Gládio de metal claro ligado ao Deus do Sol, capaz de banir mortos-vivos e forças profanas. Efeitos: Uma vez por cena, ação padrão e 3 PM: gera o efeito de Expulsar Mortos-Vivos como se você fosse um clérigo do seu nível. Preciso; piedoso; sagrado; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "gladio-da-alvorada-other-uma-vez-por-cena-acao-",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por cena, ação padrão e 3 PM: gera o efeito de Expulsar Mortos-Vivos como se você fosse um clérigo do seu nível."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Preciso; piedoso; sagrado; artefato.",
+      "weaponAttack": {
+        "enabled": false,
+        "name": "Gládio da Alvorada",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Preciso; piedoso; sagrado; artefato.",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-lamina-dos-ossos",
+      "nome": "Lâmina dos Ossos",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 1,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 79,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Espada curta feita com fragmentos humanos e associada aos espíritos daqueles mortos por ela. Efeitos: +2 em Defesa enquanto o item estiver ativo. Ação completa e 3 PM: invoca 2d4+2 espíritos em espaços desocupados em alcance curto. Cada espírito causa 1d6+1 de corte a uma criatura adjacente e desaparece no fim do turno; danos ao mesmo alvo se acumulam em um único dano. Precisa; defensora; formidável; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "lamina-dos-ossos-ac-2-em-defesa-enquanto-o",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 em Defesa enquanto o item estiver ativo.",
+          "bonus": 2
+        },
+        {
+          "id": "lamina-dos-ossos-other-acao-completa-e-3-pm-i",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação completa e 3 PM: invoca 2d4+2 espíritos em espaços desocupados em alcance curto. Cada espírito causa 1d6+1 de corte a uma criatura adjacente e desaparece no fim do turno; danos ao mesmo alvo se acumulam em um único dano."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lâmina dos Ossos",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve; Precisa; defensora; formidável; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Precisa; defensora; formidável; artefato."
+    },
+    {
+      "id": "t20-rapieira-do-destino",
+      "nome": "Rapieira do Destino",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 1,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 80,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "agil",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Florete ligado ao destino e à justiça, capaz de deslocar seu portador pelo espaço. Efeitos: Enquanto empunha a arma, pode lançar Salto Dimensional apenas em si mesmo. Se já conhece a magia, o custo diminui em –1 PM. Certeiro; equilibrado; veloz; artefato. agil; Certeiro; equilibrado; veloz; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "rapieira-do-destino-other-enquanto-empunha-a-arm",
+          "type": "other",
+          "mode": "use",
+          "text": "Enquanto empunha a arma, pode lançar Salto Dimensional apenas em si mesmo. Se já conhece a magia, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Rapieira do Destino",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "agil; Certeiro; equilibrado; veloz; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Certeiro; equilibrado; veloz; artefato."
+    },
+    {
+      "id": "t20-delirio-escarlate",
+      "nome": "Delírio Escarlate",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 2,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 80,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Espada longa viva e sanguinária que absorve parte do dano causado para assumir uma forma maior. Efeitos: Ao causar dano em animal, humanoide ou monstro, pode escolher reduzir o dano causado e armazenar essa quantidade. Ao acumular pelo menos 16 + For de dano numa cena, deixa de absorver e, até o fim da cena, passa a ser considerada uma montante cruel, drenante e magnífica. Cruel; drenante; formidável; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "delirio-escarlate-other-ao-causar-dano-em-anim",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Ao causar dano em animal, humanoide ou monstro, pode escolher reduzir o dano causado e armazenar essa quantidade. Ao acumular pelo menos 16 + For de dano numa cena, deixa de absorver e, até o fim da cena, passa a ser considerada uma montante cruel, drenante e magnífica."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Delírio Escarlate",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Cruel; drenante; formidável; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Cruel; drenante; formidável; artefato."
+    },
+    {
+      "id": "t20-perdicao-das-brumas",
+      "nome": "Perdição das Brumas",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 4,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 81,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Montante que grava os sonhos de criaturas inteligentes mortas por ela e pode transformá-los em aliados espectrais. Efeitos: Quando mata criatura com Int –2 ou maior, grava um sonho. Ação padrão e 1 PM: sacrifica um sonho para criar parceiro espectral atirador, combatente, fortão ou guardião. Até 5º nível: iniciante por 1 rodada; 6º–11º: veterano por 3 rodadas; 12º+: mestre por uma cena. Atroz; formidável; adamante; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "perdicao-das-brumas-other-quando-mata-criatura-c",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando mata criatura com Int –2 ou maior, grava um sonho. Ação padrão e 1 PM: sacrifica um sonho para criar parceiro espectral atirador, combatente, fortão ou guardião. Até 5º nível: iniciante por 1 rodada; 6º–11º: veterano por 3 rodadas; 12º+: mestre por uma cena."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Perdição das Brumas",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Atroz; formidável; adamante; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Atroz; formidável; adamante; artefato."
+    },
+    {
+      "id": "t20-lingua-do-trovao",
+      "nome": "Língua do Trovão",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 2.5,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 82,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "adaptavel",
+        "agil",
+        "pode ser usada como marcial de duas maos",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Katana de mitral ligada ao trovão e a uma antiga linhagem do Império. Efeitos: Pode gastar 2 PM para realizar um ataque extra. Se já tiver Ataque Extra, o custo dessa habilidade diminui em –1 PM. Pungente; elétrica; veloz; mitral; artefato. adaptavel; agil; pode ser usada como marcial de duas maos; Pungente; elétrica; veloz; mitral; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "efeitos": [
+        {
+          "id": "lingua-do-trovao-other-pode-gastar-2-pm-para-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode gastar 2 PM para realizar um ataque extra. Se já tiver Ataque Extra, o custo dessa habilidade diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Língua do Trovão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8/1d10",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "adaptavel; agil; pode ser usada como marcial de duas maos; Pungente; elétrica; veloz; mitral; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Pungente; elétrica; veloz; mitral; artefato."
+    },
+    {
+      "id": "t20-vinganca-rubra",
+      "nome": "Vingança Rubra",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 2,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 82,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Espada orgânica de matéria vermelha, cruel e faminta por sangue. Efeitos: Precisa ser alimentada com sangue de animal, humanoide ou monstro sempre que for desembainhada ou em até 1d6 dias. Caso contrário, For é reduzida em –1 até matar uma criatura desses tipos. Ao atacar, pode gastar 1 PM para causar +2d6 de dano. Criaturas que presenciarem a crueldade ficam abaladas por 1 rodada; Vontade CD Car evita. Cruel; macabra; excruciante; matéria vermelha; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "efeitos": [
+        {
+          "id": "vinganca-rubra-fome-other-precisa-ser-alimentada",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Precisa ser alimentada com sangue de animal, humanoide ou monstro sempre que for desembainhada ou em até 1d6 dias. Caso contrário, For é reduzida em –1 até matar uma criatura desses tipos."
+        },
+        {
+          "id": "vinganca-rubra-crueldade-other-ao-atacar-pode-gastar-",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao atacar, pode gastar 1 PM para causar +2d6 de dano. Criaturas que presenciarem a crueldade ficam abaladas por 1 rodada; Vontade CD Car evita."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Vingança Rubra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Cruel; macabra; excruciante; matéria vermelha; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Cruel; macabra; excruciante; matéria vermelha; artefato."
+    },
+    {
+      "id": "t20-alfange-dos-milagres",
+      "nome": "Alfange dos Milagres",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 4,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 84,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - duas maos",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Alfange azul e dourado associado às preces daqueles que precisam de proteção. Efeitos: +2 em Defesa enquanto o item estiver ativo. Quando faz um ataque, pode gastar 5 PM para criar por 1 rodada uma barreira que fornece RD 10 a você e aliados em raio de 6m. Ao surgir, inimigos em raio de 9m ficam cegos por 1 rodada; Reflexos CD For evita e torna imune a este efeito por 1 dia. Defensor; formidável; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "efeitos": [
+        {
+          "id": "alfange-dos-milagres-ac-2-em-defesa-enquanto-o",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 em Defesa enquanto o item estiver ativo.",
+          "bonus": 2
+        },
+        {
+          "id": "alfange-dos-milagres-other-quando-faz-um-ataque-p",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando faz um ataque, pode gastar 5 PM para criar por 1 rodada uma barreira que fornece RD 10 a você e aliados em raio de 6m. Ao surgir, inimigos em raio de 9m ficam cegos por 1 rodada; Reflexos CD For evita e torna imune a este efeito por 1 dia."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alfange dos Milagres",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d4",
+        "type": "Corte",
+        "threat": 18,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Defensor; formidável; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Defensor; formidável; artefato."
+    },
+    {
+      "id": "t20-equilibrio",
+      "nome": "Equilíbrio",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 3,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 84,
+      "tags": [
+        "arma",
+        "exotica",
+        "corpo a corpo - uma mao",
+        "adaptavel",
+        "pode ser usada como marcial de duas maos",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Espada bastarda forjada por sir Duncan como símbolo de paz e equilíbrio. Efeitos: +2 em Defesa enquanto o item estiver ativo. Se empunhada com duas mãos por um paladino com For 5 ou mais, concede os benefícios de uma Vingadora Sagrada: +5 em ataque e dano, Golpe Divino custa –1 PM e você e aliados em alcance curto recebem resistência a magia +5. Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "efeitos": [
+        {
+          "id": "equilibrio-ac-2-em-defesa-enquanto-o",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 em Defesa enquanto o item estiver ativo.",
+          "bonus": 2
+        },
+        {
+          "id": "equilibrio-other-se-empunhada-com-duas-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se empunhada com duas mãos por um paladino com For 5 ou mais, concede os benefícios de uma Vingadora Sagrada: +5 em ataque e dano, Golpe Divino custa –1 PM e você e aliados em alcance curto recebem resistência a magia +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Equilíbrio",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10/1d12",
+        "type": "Corte",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "adaptavel; pode ser usada como marcial de duas maos; Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais."
+    },
+    {
+      "id": "t20-brilhante-feerica",
+      "nome": "Brilhante Feérica",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 1,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 222",
+      "pagina": 85,
+      "tags": [
+        "arma",
+        "simples",
+        "corpo a corpo - leve",
+        "leve",
+        "artefato",
+        "magico",
+        "sir duncan",
+        "dragao brasil 222"
+      ],
+      "descricao": "Espada curta feérica de mitral que revela uma forma maior de pura energia mágica. Efeitos: Se possuir um código de conduta, ação de movimento e 2 PM: até o fim da cena, transforma-se em uma montante atroz, energética, formidável e de mitral. Atroz; formidável; mitral; artefato. leve; Atroz; formidável; mitral; artefato.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "efeitos": [
+        {
+          "id": "brilhante-feerica-other-se-possuir-um-codigo-d",
+          "type": "other",
+          "mode": "use",
+          "text": "Se possuir um código de conduta, ação de movimento e 2 PM: até o fim da cena, transforma-se em uma montante atroz, energética, formidável e de mitral."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Brilhante Feérica",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 19,
+        "crit": 2,
+        "hitBonus": 2,
+        "damageBonus": "2",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "leve; Atroz; formidável; mitral; artefato.",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "Atroz; formidável; mitral; artefato."
+    },
+    {
+      "id": "tormenta-rpg-o-desbravador",
+      "nome": "O Desbravador",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 261,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Mangual lendário de Valkaria, presenteado aos Libertadores. Artefato divino ligado à ambição e à aventura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-holy-avenger",
+      "nome": "Holy Avenger",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 261,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Espada bastarda divina de poder extremo, capaz de destruir criaturas com um golpe de poder absoluto. Efeito: Espada bastarda +10; artefato divino.",
+      "properties": "Espada bastarda +10; artefato divino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-kailash",
+      "nome": "Kailash",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 261,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Arma halfling mutável que pode assumir formas de maça, picareta ou lança, além de capturar e arrastar inimigos. Efeito: Arma mágica +3; explosão flamejante; retorno.",
+      "properties": "Arma mágica +3; explosão flamejante; retorno.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-o-olho-de-sszzaas",
+      "nome": "O Olho de Sszzaas",
+      "categoria": "artefato",
+      "subtipo": "cajado",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 262,
+      "tags": [
+        "artefato",
+        "cajado",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Cajado que carrega parte da consciência de Sszzaas e permite lançar magias conhecidas ou ouvidas, com efeitos metamágicos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-rhumnam-a-espada-da-justica",
+      "nome": "Rhumnam, a Espada da Justiça",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 262,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Espada pessoal de Khalmyr. Nas mãos de alguém digno, é devastadora contra criaturas malignas e mortos-vivos. Efeito: Espada grande inteligente +5.",
+      "properties": "Espada grande inteligente +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-rubi-da-virtude",
+      "nome": "Rubi da Virtude",
+      "categoria": "artefato",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 263,
+      "tags": [
+        "artefato",
+        "gema",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Um dos Rubis da Virtude, relíquias divinas indetectáveis e praticamente indestrutíveis que concedem grande poder ao portador.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-shorder",
+      "nome": "Shorder",
+      "categoria": "artefato",
+      "subtipo": "armadura",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 263,
+      "tags": [
+        "artefato",
+        "armadura",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Armadura completa colossal em aparência, extremamente poderosa e impossível de abandonar depois de vestida. Efeito: Armadura completa +5; aumenta Força; RD; bônus em resistências; movimentação livre.",
+      "properties": "Armadura completa +5; aumenta Força; RD; bônus em resistências; movimentação livre.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-slash-calliber",
+      "nome": "Slash Calliber",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 263,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "magico",
+        "unico"
+      ],
+      "descricao": "Espada inteligente que deseja combate e tenta provocar conflitos ao redor do portador. Efeito: Espada longa anárquica da velocidade +3.",
+      "properties": "Espada longa anárquica da velocidade +3.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.750Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-armadura-de-cranio-negro",
+      "nome": "Armadura de Crânio Negro",
+      "categoria": "artefato",
+      "subtipo": "armadura",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "armadura",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Fornece proteção extrema e mantém mobilidade incomum, mas expõe o usuário a memórias intrusivas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-escudo-impervio",
+      "nome": "Escudo Impérvio",
+      "categoria": "artefato",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "escudo",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Escudo grande lendário feito de uma liga extraordinária de adamante e mitral, associado a Mestre Arsenal. Fornece +8 na Defesa, +5 em testes de resistência e redução de dano 30.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-kailash",
+      "nome": "Kailash",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Arma mutável e lendária de Sandro Galtran, com capacidades de captura, arrasto e mudança de forma.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lorde-enxame",
+      "nome": "Lorde Enxame",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Espada longa inteligente com os encantos certeira, cruel, anticriatura (humanoides), magnífica e venenosa. Permite lançar Legião apenas sobre criaturas de natureza insetoide, a critério do mestre. Artefato de nível 20, Ego 39, com 31 PM, fala, percepção às cegas em alcance médio e as magias Compreensão, Enxame de Pestes e Visão Mística (CD 25).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-monoculo-da-verdade",
+      "nome": "Monóculo da Verdade",
+      "categoria": "artefato",
+      "subtipo": "acessorio",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "acessorio",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Relíquia capaz de ampliar percepção, iniciativa e discernimento, além de revelar verdades ocultas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-slash-calliber",
+      "nome": "Slash Calliber",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Espada longa inteligente, falante e provocadora, com os encantos certeira, cruel, elétrica e formidável. Permite ao portador lançar Relâmpago; se já conhecer essa magia, seu custo diminui em 1 PM. Artefato de nível 20, Ego 31, com 25 PM, visão no escuro e magias Compreensão e Relâmpago (CD 25).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-vinganca-de-khinlanas",
+      "nome": "Vingança de Khinlanas",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Arco longo lendário com os encantos atroz, preciso, pungente e magnífico. Concede +1 cumulativo em testes de ataque e dano se o portador for elfo e/ou devoto de Glórienn (+2 caso reúna ambas as condições). O portador também soma seu Carisma às rolagens de dano.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-wakizashi-da-morte",
+      "nome": "Wakizashi da Morte",
+      "categoria": "artefato",
+      "subtipo": "arma",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 274,
+      "tags": [
+        "artefato",
+        "arma",
+        "tormenta20",
+        "herois de arton",
+        "unico",
+        "magico"
+      ],
+      "descricao": "Espada curta formidável. Criaturas inteligentes que veem o próprio reflexo na lâmina recebem a visão de sua morte e, inicialmente, +2 na Defesa e nos testes de resistência. Quando o momento profetizado se aproxima, esses bônus se tornam penalidades de –10 e qualquer ataque que as acerte é um crítico automático. Mortes previstas fora de combate seguem efeitos próprios, decididos conforme a profecia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
