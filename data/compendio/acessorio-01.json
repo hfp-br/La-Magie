@@ -1,0 +1,5225 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-anel-do-sustento",
+      "nome": "Anel do sustento",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico",
+        "anel"
+      ],
+      "descricao": "Anel que elimina necessidades básicas após um período de adaptação. Efeito: Após uma semana de uso, você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-do-sustento-other-apos-uma-semana-de-uso-v",
+          "type": "other",
+          "mode": "always",
+          "text": "Após uma semana de uso, você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bainha-magica",
+      "nome": "Bainha mágica",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Bainha de couro e prata que muda de tamanho para acomodar qualquer arma corpo a corpo. Efeito: Permite lançar Arma Mágica em qualquer arma guardada nela sem pagar o custo em PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "bainha-magica-other-permite-lancar-arma-magi",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar Arma Mágica em qualquer arma guardada nela sem pagar o custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-corda-da-escalada",
+      "nome": "Corda da escalada",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Corda mágica de 15m, fina e extremamente resistente. Efeito: Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "corda-da-escalada-other-suporta-ate-1-500-kg-com",
+          "type": "other",
+          "mode": "use",
+          "text": "Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ferraduras-da-velocidade",
+      "nome": "Ferraduras da velocidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Ferraduras mágicas para uma montaria. Efeito: +3m no deslocamento da montaria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "ferraduras-da-velocidade-movement-3m-no-deslocamento-da-mo",
+          "type": "movement",
+          "mode": "always",
+          "text": "+3m no deslocamento da montaria.",
+          "bonus": 3
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-garrafa-da-fumaca-eterna",
+      "nome": "Garrafa da fumaça eterna",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Ânfora metálica que libera fumaça mágica enquanto permanece aberta. Efeito: Ao abrir, gera o efeito de Névoa. A fumaça persiste até a garrafa ser tampada e então se dissipa conforme as condições de vento.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "garrafa-da-fumaca-eterna-other-ao-abrir-gera-o-efeito-d",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao abrir, gera o efeito de Névoa. A fumaça persiste até a garrafa ser tampada e então se dissipa conforme as condições de vento."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-da-luminosidade",
+      "nome": "Gema da luminosidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Prisma cristalino capaz de emitir luz ou um clarão cegante. Efeito: Com um comando, emite luz como uma tocha ou um raio em alcance curto; Fortitude evita ficar cego por 1d4 rodadas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "gema-da-luminosidade-other-com-um-comando-emite-luz",
+          "type": "other",
+          "mode": "use",
+          "text": "Com um comando, emite luz como uma tocha ou um raio em alcance curto; Fortitude evita ficar cego por 1d4 rodadas."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-elfico",
+      "nome": "Manto élfico",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto cinza aparentemente comum que auxilia a ocultação. Efeito: +5 em Furtividade enquanto estiver com o capuz cobrindo o rosto.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manto-elfico-skill-5-em-furtividade-enquant",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+5 em Furtividade enquanto estiver com o capuz cobrindo o rosto.",
+          "target": "Furtividade",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-mochila-de-carga",
+      "nome": "Mochila de carga",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Mochila ligada a um espaço interdimensional. Efeito: Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "mochila-de-carga-other-pode-guardar-ate-100-kg-",
+          "type": "other",
+          "mode": "always",
+          "text": "Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-brincos-da-sagacidade",
+      "nome": "Brincos da sagacidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Par de brincos de safira que aguça o raciocínio. Efeito: +2 em Inteligência.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "brincos-da-sagacidade-attribute-2-em-inteligencia",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Inteligência.",
+          "target": "int",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-luvas-da-delicadeza",
+      "nome": "Luvas da delicadeza",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Luvas finas para manipulação precisa. Efeito: +2 em Destreza.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "luvas-da-delicadeza-attribute-2-em-destreza",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Destreza.",
+          "target": "dex",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manoplas-da-forca-do-ogro",
+      "nome": "Manoplas da força do ogro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Luvas grossas reforçadas com rebites de ferro. Efeito: +2 em Força.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manoplas-da-forca-do-ogro-attribute-2-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Força.",
+          "target": "str",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-da-resistencia",
+      "nome": "Manto da resistência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto grosso e pesado que protege o usuário. Efeito: +2 em testes de resistência.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manto-da-resistencia-other-2-em-testes-de-resistenc",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em testes de resistência."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-do-fascinio",
+      "nome": "Manto do fascínio",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto de veludo com bordados de ouro. Efeito: +2 em Carisma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manto-do-fascinio-attribute-2-em-carisma",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Carisma.",
+          "target": "cha",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pingente-da-sensatez",
+      "nome": "Pingente da sensatez",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pequena pérola em uma corrente leve. Efeito: +2 em Sabedoria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "pingente-da-sensatez-attribute-2-em-sabedoria",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Sabedoria.",
+          "target": "wis",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-torque-do-vigor",
+      "nome": "Torque do vigor",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Colar ou bracelete decorado com a figura de um animal poderoso. Efeito: +2 em Constituição.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "torque-do-vigor-attribute-2-em-constituicao",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Constituição.",
+          "target": "con",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-chapeu-do-disfarce",
+      "nome": "Chapéu do disfarce",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Chapéu mágico capaz de alterar sua própria aparência como parte de um disfarce. Efeito: Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "chapeu-do-disfarce-other-permite-lancar-disfarce-",
+          "type": "other",
+          "mode": "use",
+          "text": "Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-flauta-fantasma",
+      "nome": "Flauta fantasma",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Instrumento mágico usado para criar sons ilusórios. Efeito: Se for treinado em Atuação, pode lançar Esculpir Sons sem pagar o custo em PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "flauta-fantasma-other-se-for-treinado-em-atuac",
+          "type": "other",
+          "mode": "use",
+          "text": "Se for treinado em Atuação, pode lançar Esculpir Sons sem pagar o custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-lanterna-da-revelacao",
+      "nome": "Lanterna da revelação",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Lanterna que funciona como um lampião e revela o que está oculto. Efeito: Sua luz revela criaturas e objetos invisíveis em alcance curto.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "lanterna-da-revelacao-other-sua-luz-revela-criaturas",
+          "type": "other",
+          "mode": "always",
+          "text": "Sua luz revela criaturas e objetos invisíveis em alcance curto."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-protecao",
+      "nome": "Anel da proteção",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que desvia ataques contra seu usuário. Efeito: +2 em Defesa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-da-protecao-ac-2-em-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 em Defesa.",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-do-escudo-mental",
+      "nome": "Anel do escudo mental",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que protege a mente contra observação sobrenatural. Efeito: Imunidade a magias de adivinhação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-do-escudo-mental-other-imunidade-a-magias-de-ad",
+          "type": "other",
+          "mode": "always",
+          "text": "Imunidade a magias de adivinhação."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pingente-da-saude",
+      "nome": "Pingente da saúde",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico",
+        "pingente"
+      ],
+      "descricao": "Joia verde em cordão de prata que protege a saúde após um período de uso. Efeitos: Após uma semana de uso, concede imunidade a doenças e venenos. Imunidades: doenças; venenos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "pingente-da-saude-other-apos-uma-semana-de-uso-c",
+          "type": "other",
+          "mode": "always",
+          "text": "Após uma semana de uso, concede imunidade a doenças e venenos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": "doenças; venenos"
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-de-telecinesia",
+      "nome": "Anel de telecinesia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que permite manipular objetos à distância. Efeito: Pode lançar Telecinesia. Se já conhece a magia, o custo diminui em –1 PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-de-telecinesia-other-pode-lancar-telecinesia-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Telecinesia. Se já conhece a magia, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bola-de-cristal",
+      "nome": "Bola de cristal",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Esfera de cristal de 15cm usada para observar pessoas e lugares distantes. Efeito: Olhar através dela é uma ação completa e gera a magia Vidência.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "bola-de-cristal-other-olhar-atraves-dela-e-uma",
+          "type": "other",
+          "mode": "use",
+          "text": "Olhar através dela é uma ação completa e gera a magia Vidência."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-caveira-maldita",
+      "nome": "Caveira maldita",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 3500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pedra em formato de crânio que cria uma área profana. Efeito: Gera permanentemente Profanar com o crânio como origem; mortos-vivos e devotos de deuses do Mal na área recebem +2 em testes e Defesa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "caveira-maldita-other-gera-permanentemente-pro",
+          "type": "other",
+          "mode": "always",
+          "text": "Gera permanentemente Profanar com o crânio como origem; mortos-vivos e devotos de deuses do Mal na área recebem +2 em testes e Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-botas-aladas",
+      "nome": "Botas aladas",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 5000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Botas das quais podem brotar asas mágicas. Efeito: Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "botas-aladas-other-gaste-2-pm-para-receber-",
+          "type": "other",
+          "mode": "use",
+          "text": "Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-braceletes-de-bronze",
+      "nome": "Braceletes de bronze",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 5500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Braceletes que projetam um campo de força invisível. Efeito: +4 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "braceletes-de-bronze-ac-4-em-defesa-cumulativo-c",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+4 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+          "bonus": 4
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-energia",
+      "nome": "Anel da energia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que aumenta a reserva de mana após um dia de uso. Efeito: Após um dia de uso, recebe +5 PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-da-energia-other-apos-um-dia-de-uso-receb",
+          "type": "other",
+          "mode": "always",
+          "text": "Após um dia de uso, recebe +5 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-vitalidade",
+      "nome": "Anel da vitalidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que fortalece o usuário após um dia de uso. Efeito: +10 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-da-vitalidade-maxhp-10-pv",
+          "type": "maxHp",
+          "mode": "toggle",
+          "text": "+10 PV.",
+          "bonus": 10
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-de-invisibilidade",
+      "nome": "Anel de invisibilidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel de prata que torna seu usuário invisível. Efeito: Ao colocar, fica sob Invisibilidade. O efeito termina se atacar ou lançar magia ofensiva; retirar e recolocar é ação padrão e restaura o efeito.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "anel-de-invisibilidade-other-ao-colocar-fica-sob-invi",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao colocar, fica sob Invisibilidade. O efeito termina se atacar ou lançar magia ofensiva; retirar e recolocar é ação padrão e restaura o efeito."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bracadeiras-do-arqueiro",
+      "nome": "Braçadeiras do arqueiro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Protetores de punho mágicos para combatentes à distância. Efeito: +2 em rolagens de dano com armas de ataque à distância.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "bracadeiras-do-arqueiro-other-2-em-rolagens-de-dano-co",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em rolagens de dano com armas de ataque à distância."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-brincos-de-marah",
+      "nome": "Brincos de Marah",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Brincos brancos abençoados pela Deusa da Paz. Efeito: A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "brincos-de-marah-other-a-primeira-criatura-que-",
+          "type": "other",
+          "mode": "conditional",
+          "text": "A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-faixas-do-pugilista",
+      "nome": "Faixas do pugilista",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Faixas de pano surrado para punhos, braços ou testa. Efeito: +2 em testes de ataque e rolagens de dano com ataques desarmados.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "faixas-do-pugilista-other-2-em-testes-de-ataque-e-",
+          "type": "other",
+          "mode": "always",
+          "text": "+2 em testes de ataque e rolagens de dano com ataques desarmados."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-da-aranha",
+      "nome": "Manto da aranha",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto de seda negra com fios de prata. Efeitos: Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas. Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manto-da-aranha-other-recebe-escalada-igual-ao",
+          "type": "other",
+          "mode": "always",
+          "text": "Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas."
+        },
+        {
+          "id": "manto-da-aranha-teia-other-pode-lancar-teia-se-ja-c",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-vassoura-voadora",
+      "nome": "Vassoura voadora",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Vassoura mágica capaz de voar carregando até duas pessoas. Efeito: Como um tapete voador, mas carrega até duas pessoas ou 200 kg.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "vassoura-voadora-other-como-um-tapete-voador-ma",
+          "type": "other",
+          "mode": "use",
+          "text": "Como um tapete voador, mas carrega até duas pessoas ou 200 kg."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-simbolo-abencoado",
+      "nome": "Símbolo abençoado",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Colar de metal com o símbolo de um deus do Panteão, resistente ao uso em viagens. Se você for devoto dessa divindade, o custo de suas magias divinas diminui em 1 PM. Apenas inventores devotos do deus representado podem fabricar este item.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "simbolo-abencoado-other-se-for-devoto-da-divinda",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se for devoto da divindade representada, o custo de suas magias divinas diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-amuleto-da-robustez",
+      "nome": "Amuleto da robustez",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Disco dourado preso a uma corrente de ouro. Efeito: +5 em Constituição.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "amuleto-da-robustez-attribute-5-em-constituicao",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Constituição.",
+          "target": "con",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-botas-velozes",
+      "nome": "Botas velozes",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Botas mágicas que aumentam a velocidade. Efeitos: +3m no deslocamento. Pode lançar Velocidade apenas sobre você mesmo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "botas-velozes-movement-3m-no-deslocamento",
+          "type": "movement",
+          "mode": "toggle",
+          "text": "+3m no deslocamento.",
+          "bonus": 3
+        },
+        {
+          "id": "botas-velozes-velocidade-other-pode-lancar-velocidade-a",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Velocidade apenas sobre você mesmo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cinto-da-forca-do-gigante",
+      "nome": "Cinto da força do gigante",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Cinto largo de couro com rebites de ferro. Efeito: +5 em Força.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "cinto-da-forca-do-gigante-attribute-5-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Força.",
+          "target": "str",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-coroa-majestosa",
+      "nome": "Coroa majestosa",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Coroa de ouro com dezenas de pedras preciosas. Efeito: +5 em Carisma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "coroa-majestosa-attribute-5-em-carisma",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Carisma.",
+          "target": "cha",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-estola-da-serenidade",
+      "nome": "Estola da serenidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Faixa de pano com inscrições mágicas usada sobre a nuca. Efeito: +5 em Sabedoria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "estola-da-serenidade-attribute-5-em-sabedoria",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Sabedoria.",
+          "target": "wis",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manto-do-morcego",
+      "nome": "Manto do morcego",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Manto escuro que concede furtividade e permite transformação em morcego. Efeitos: +5 em Furtividade. À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "manto-do-morcego-skill-5-em-furtividade",
+          "type": "skill",
+          "mode": "toggle",
+          "text": "+5 em Furtividade.",
+          "target": "Furtividade",
+          "bonus": 5
+        },
+        {
+          "id": "manto-do-morcego-transformacao-other-a-noite-ou-em-ambientes-",
+          "type": "other",
+          "mode": "use",
+          "text": "À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pulseiras-da-celeridade",
+      "nome": "Pulseiras da celeridade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pulseira de platina que aguça os movimentos. Efeito: +5 em Destreza.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "pulseiras-da-celeridade-attribute-5-em-destreza",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Destreza.",
+          "target": "dex",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tiara-da-sapiencia",
+      "nome": "Tiara da sapiência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 8500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Tiara delicada com gema apoiada sobre a testa. Efeito: +5 em Inteligência; não concede perícias treinadas extras.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "tiara-da-sapiencia-attribute-5-em-inteligencia-nao-co",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+5 em Inteligência; não concede perícias treinadas extras.",
+          "target": "int",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-elmo-do-teletransporte",
+      "nome": "Elmo do teletransporte",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Elmo mágico voltado a deslocamento instantâneo. Efeito: Pode lançar Salto Dimensional e Teletransporte, apenas em você mesmo. Se já conhece essas magias, o custo diminui em –1 PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "elmo-do-teletransporte-other-pode-lancar-salto-dimens",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Salto Dimensional e Teletransporte, apenas em você mesmo. Se já conhece essas magias, o custo diminui em –1 PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-da-telepatia",
+      "nome": "Gema da telepatia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Gema que amplifica comunicação e influência mental. Efeito: Pode lançar Compreensão e Enfeitiçar sem pagar seu custo em PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "gema-da-telepatia-other-pode-lancar-compreensao-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Compreensão e Enfeitiçar sem pagar seu custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gema-elemental",
+      "nome": "Gema elemental",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Gema ligada às forças elementais. Efeito: Pode lançar Conjurar Elemental sem pagar seu custo em PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "efeitos": [
+        {
+          "id": "gema-elemental-other-pode-lancar-conjurar-ele",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Conjurar Elemental sem pagar seu custo em PM."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-da-saude-corporal",
+      "nome": "Manual da saúde corporal",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de resistência física. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Constituição em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "manual-da-saude-corporal-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Constituição em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-do-bom-exercicio",
+      "nome": "Manual do bom exercício",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de exercícios físicos. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "manual-do-bom-exercicio-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-manual-dos-movimentos-precisos",
+      "nome": "Manual dos movimentos precisos",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de coordenação e equilíbrio. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Destreza em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "manual-dos-movimentos-precisos-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Destreza em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-medalhao-de-lena",
+      "nome": "Medalhão de Lena",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Joia de energia positiva que protege o usuário da queda. Efeito: Quando é reduzido a 0 ou menos PV, cura 100 PV antes que caia. Ativa uma vez por dia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "medalhao-de-lena-other-quando-e-reduzido-a-0-ou",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Quando é reduzido a 0 ou menos PV, cura 100 PV antes que caia. Ativa uma vez por dia."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-da-compreensao",
+      "nome": "Tomo da compreensão",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de percepção e autocontrole. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Sabedoria em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "tomo-da-compreensao-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Sabedoria em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-da-lideranca-e-influencia",
+      "nome": "Tomo da liderança e influência",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de persuasão e liderança. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Carisma em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "tomo-da-lideranca-e-influencia-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Carisma em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tomo-dos-grandes-pensamentos",
+      "nome": "Tomo dos grandes pensamentos",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Livro mágico de raciocínio e memória. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Inteligência em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "tomo-dos-grandes-pensamentos-other-ler-leva-uma-semana-e-au",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler leva uma semana e aumenta Inteligência em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-refletor",
+      "nome": "Anel refletor",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Aro de platina capaz de devolver magias ao conjurador. Efeito: Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "anel-refletor-other-uma-vez-por-rodada-quand",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cinto-do-campeao",
+      "nome": "Cinto do campeão",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Cinturão de ouro dos antigos campeões gladiatoriais. Efeitos: +2 em Força. Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "cinto-do-campeao-attribute-2-em-forca",
+          "type": "attribute",
+          "mode": "toggle",
+          "text": "+2 em Força.",
+          "target": "str",
+          "bonus": 2
+        },
+        {
+          "id": "cinto-do-campeao-briga-other-concede-briga-se-ja-poss",
+          "type": "other",
+          "mode": "always",
+          "text": "Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-colar-guardiao",
+      "nome": "Colar guardião",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Diamante lapidado em corrente de platina que deflete ataques. Efeito: +5 em Defesa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "colar-guardiao-ac-5-em-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+5 em Defesa.",
+          "bonus": 5
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-estatueta-animista",
+      "nome": "Estatueta animista",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 17000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Pequena estatueta animal que ganha vida mediante comando. Efeito: Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "estatueta-animista-other-ao-ser-atirada-no-chao-e",
+          "type": "other",
+          "mode": "use",
+          "text": "Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-liberdade",
+      "nome": "Anel da liberdade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Relíquia da Igreja de Valkaria forjada em ouro. Efeito: Você fica permanentemente sob efeito de Libertação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "anel-da-liberdade-other-voce-fica-permanentement",
+          "type": "other",
+          "mode": "always",
+          "text": "Você fica permanentemente sob efeito de Libertação."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tapete-voador",
+      "nome": "Tapete voador",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Tapete mágico de 3m x 3m capaz de transportar um grupo pelo ar. Efeito: Com um comando, recebe voo 12m. Carrega até seis criaturas Médias ou 600 kg e pode ser comandado em alcance longo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "tapete-voador-other-com-um-comando-recebe-vo",
+          "type": "other",
+          "mode": "use",
+          "text": "Com um comando, recebe voo 12m. Carrega até seis criaturas Médias ou 600 kg e pode ser comandado em alcance longo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-braceletes-de-ouro",
+      "nome": "Braceletes de ouro",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 21500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Versão superior dos braceletes de bronze. Efeito: +8 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "braceletes-de-ouro-ac-8-em-defesa-cumulativo-c",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+8 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+          "bonus": 8
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-da-oposicao",
+      "nome": "Espelho da oposição",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Grande espelho mágico que cria um duplicado hostil de quem observa o próprio reflexo. Efeito: Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "espelho-da-oposicao-other-quando-ativado-quem-obse",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-robe-do-arquimago",
+      "nome": "Robe do arquimago",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Traje pesado que protege conjuradores arcanos usando a própria energia mágica. Efeito: Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "robe-do-arquimago-other-se-for-conjurador-arcano",
+          "type": "other",
+          "mode": "conditional",
+          "text": "Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-orbe-das-tempestades",
+      "nome": "Orbe das tempestades",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 32500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Esfera de vidro com fumaça e raios aprisionados em seu interior. Efeitos: Pode lançar Controlar o Clima e Fúria do Panteão; se já conhece a magia, o custo diminui em –1 PM. Você e aliados adjacentes ficam sob efeito de Suporte Ambiental.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "orbe-das-tempestades-other-pode-lancar-controlar-o-",
+          "type": "other",
+          "mode": "use",
+          "text": "Pode lançar Controlar o Clima e Fúria do Panteão; se já conhece a magia, o custo diminui em –1 PM."
+        },
+        {
+          "id": "orbe-das-tempestades-suporte-other-voce-e-aliados-adjacente",
+          "type": "other",
+          "mode": "always",
+          "text": "Você e aliados adjacentes ficam sob efeito de Suporte Ambiental."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-anel-da-regeneracao",
+      "nome": "Anel da regeneração",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 50000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Anel que acelera continuamente a recuperação do usuário. Efeito: Após um dia de uso, recebe Cura Acelerada 5.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "anel-da-regeneracao-other-apos-um-dia-de-uso-receb",
+          "type": "other",
+          "mode": "always",
+          "text": "Após um dia de uso, recebe Cura Acelerada 5."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-do-aprisionamento",
+      "nome": "Espelho do aprisionamento",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 75000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 328,
+      "tags": [
+        "acessorio",
+        "magico"
+      ],
+      "descricao": "Grande espelho de cristal que aprisiona criaturas em um espaço extradimensional. Efeito: Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "espelho-do-aprisionamento-other-quando-ativado-criatura-",
+          "type": "other",
+          "mode": "use",
+          "text": "Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "tormenta20-chave-de-wynna",
+      "nome": "Chave de Wynna",
+      "categoria": "acessorio",
+      "subtipo": "item magico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Atlas de Arton",
+      "pagina": 161,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "tormenta20",
+        "atlas de arton",
+        "equipamento"
+      ],
+      "descricao": "Item mágico usado para alcançar a Academia Arcana, reproduzindo o efeito de Portal para o Saber.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta20-tatuagem-mistica",
+      "nome": "Tatuagem Mística",
+      "categoria": "acessorio",
+      "subtipo": "tatuagem",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Atlas de Arton",
+      "pagina": 479,
+      "tags": [
+        "acessorio",
+        "tatuagem",
+        "tormenta20",
+        "atlas de arton",
+        "equipamento"
+      ],
+      "descricao": "Tatuagem especial dos tamalus de Khubar. Pode conceder +1 na Defesa, resistência a magia +2 ou permitir lançar uma magia de 1º círculo. Precisa ficar visível e ocupa o espaço de um item vestido.",
+      "properties": "Preço progressivo: T$ 1.000 x quantidade de tatuagens místicas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-algibeira-mordedora",
+      "nome": "Algibeira mordedora",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Possivelmente con- apaga. A chama mágica — na verdade um pequeno cebida por algum arcanista cansado de ser furtado elemental — atua como um parceiro vigilante e permite por punguistas, esta bolsa transforma sua abertura que você lance Controlar Fogo (se já puder lançar essa em uma bocarra de dentes atrozes, travando mandí- magia, seu custo diminui em –1 PM). bulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-algibeira-provedora",
+      "nome": "Algibeira provedora",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 6000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta bolsa de couro permite lançar uma magia divina de até 4º círculo a parece normal à primeira vista, mas tem uma cone- sua escolha, sem custo em PM. Contudo, para cada xão planar com o Reino de Nimb. Você pode gastar utilização, você deve realizar uma penitência ou busca uma ação completa para enfiar sua mão na algibeira determinada pelo mestre.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ampulheta-da-harmonia-temporal",
+      "nome": "Ampulheta da harmonia temporal",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Uma armas que estejam empunhando e ficam pasmas por ampulheta dourada com areia prateada que parece 1 rodada (apenas uma vez por cena). Além disso, você flutuar em ciclos irregulares. Quando invertida, per- pode lançar Guardião Divino.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.375Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-amuleto-da-visao-eterea",
+      "nome": "Amuleto da visão etérea",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este amuleto de Sonho. Se já puder lançar essa magia, uma vez por mês cristal translúcido é preso a uma corrente de prata e pode entregar um item para a pessoa ou roubar um brilha quando exposto à luz. Você recebe resistência a item de posse dela.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.375Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-amuleto-do-amparo",
+      "nome": "Amuleto do amparo",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este medalhão forjado com o item dela. em prata traz a figura de uma mão aberta. Quando você faz um teste para ajudar, o bônus que fornece Berço das Fadas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.376Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-anel-da-beleza-ilusoria",
+      "nome": "Anel da beleza ilusória",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este anel de ouro relento e sem um acampamento, oferece condição de contém uma gema que reflete a luz de maneira incodescanso confortável. Além disso, enquanto está no mum. Enquanto estiver vestindo este anel, você aparenta ser mais belo — não apenas conforme os padrões saco de dormir, você é considerado sob efeito da magia estéticos de seu povo ou raça, mas também de acordo Suporte Ambiental.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.377Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-anel-da-chama-dancante",
+      "nome": "Anel da chama dançante",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Um anel de ouro com uma pequena chama mágica viva que nunca se Algibeira Mordedora. Possivelmente con- apaga. A chama mágica — na verdade um pequeno cebida por algum arcanista cansado de ser furtado elemental — atua como um parceiro vigilante e permite por punguistas, esta bolsa transforma sua abertura que você lance Controlar Fogo (se já puder lançar essa em uma bocarra de dentes atrozes, travando mandí- magia, seu custo diminui em –1 PM).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.377Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-anel-da-protecao-mental",
+      "nome": "Anel da proteção mental",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este anel de plafaz um teste de Ladinagem para punga contra você, tina contém uma pequena pedra lunar que brilha suasofre 6d6 pontos de dano de corte e fica agarrada pela vemente. Você recebe resistência a efeitos mentais +5. algibeira.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.377Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-anel-do-pacto-oneroso",
+      "nome": "Anel do pacto oneroso",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este anel de plaação padrão e passar em um teste de Acrobacia (CD tina contém inscrições sobre um acordo com uma do item) — você pode liberar a criatura proferindo entidade poderosa — talvez um espírito ancestral, um uma palavra de comando (uma ação livre). Dragão-Real ou mesmo um deus do Panteão. O anel Algibeira Provedora.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bastao-da-grande-harmonia",
+      "nome": "Bastão da grande harmonia",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 25500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este bastão de de 9m de você ou até você procurar outro item. Se madeira de carvalho é gravado com símbolos antigos e rolar 5 ou menos, você sai de mãos vazias e a algibei- irregulares que irradiam uma energia suave. Você pode ra perde seus poderes por 1 dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bastao-do-sonhador",
+      "nome": "Bastão do sonhador",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este bastão longo e eventos. Uma vez por dia, você pode realizar uma esquelético possui uma gema cintilante na ponta e tarefa que normalmente consome de 1 minuto a 1 permite que você entre nos sonhos de uma pessoa hora como uma ação completa. adormecida.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-berco-das-fadas",
+      "nome": "Berço das fadas",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este saco de dormir mágico aumenta em +2. é feito de tecido macio e aveludado, em um tom de azul profundo que lembra o céu noturno. Mesmo ao Anel da Beleza Ilusória.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-botas-do-andarilho-das-sombras",
+      "nome": "Botas do andarilho das sombras",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Estas +5 em testes de perícias baseadas em Carisma, exceto botas de couro escuro são incrivelmente silenciosas, Intimidação, e pode lançar Enfeitiçar. Se já puder lançar permitindo ao usuário se mover sem emitir sons. essa magia, seu custo diminui em –1 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bracadeiras-da-forca-do-colosso",
+      "nome": "Braçadeiras da força do colosso",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 120000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Estas animais planares sagrados de Tanna-Toh. Você recebe braçadeiras de ferro negro são incrivelmente pesadas, a habilidade Engenhosidade (Tormenta20, p. 68); caso mas fornecem um aumento massivo na força física do já possua essa habilidade, o bônus fornecido por ela portador.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bracelete-do-coracao-vivaz",
+      "nome": "Bracelete do coração vivaz",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este bracelete abrir portas para lugares distantes. Inserida na fechade ouro adornado com um coração fornece +10 PV dura de uma porta comum, permite que você lance (somente após um dia de uso). Além disso, quando Teletransporte ou Viagem Planar, sem necessidade de você é reduzido a 0 PV ou menos, pode gastar 2 PM componente material, desde que também exista uma para curar 2d8+2 PV por luz.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-braceletes-da-amizade-intensa",
+      "nome": "Braceletes da amizade intensa",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 36000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Estes Cinto da Desmaterialização. Este cinto dois braceletes de prata são gravados com símbolos feito de couro e metal possui um fecho especial que antigos de união e lealdade. Quando colocados (cada permite ao usuário desmaterializar seu corpo por um um numa pessoa diferente), estabelecem uma ligação curto período.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-caixa-dos-ecos-perdidos",
+      "nome": "Caixa dos ecos perdidos",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta caixa de ma- gico reduz o peso do usuário, tornando-o mais ágil deira pequena e simples não aparenta nada especial, e permitindo saltos mais altos e movimentos mais sem adereços ou ornamentos. No entanto, quando é suaves. Você recebe +5 em Acrobacia e está sempre aberta, liberta ecos do passado: seus muitos comparti- sob o efeito básico de Queda Suave.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-calice-das-mares",
+      "nome": "Cálice das marés",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cálice de prata oferece se teletransportam para onde o outro está. ao portador o poder de comandar as águas. Você pode lançar Controlar Água (se já puder lançar essa magia, Cinturão do Trobo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-capa-nebulosa",
+      "nome": "Capa nebulosa",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 16500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Feita com finos fios de névoa peso e sua capacidade de carga aumenta em 5 espaços. mágica, esta capa permite ao usuário desaparecer em nevoeiros ou escuridão, como se fizesse parte da névoa Colar da Fúria Monstruosa. Este colar ou das trevas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-chapeu-dos-truques-infinitos",
+      "nome": "Chapéu dos truques infinitos",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta cartola de dano aumentam em +1. ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode Colar da Perseverança.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.381Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-chapeu-pensador",
+      "nome": "Chapéu pensador",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este estranhíssimo “chavez por dia, você pode lançar Salto Dimensional — mas péu” na verdade tem o formato triangular de um apenas se existir no destino uma sombra de tamanho telhado, com uma chaminé no topo, onde está alojado suficiente para sua passagem. um ninho de pássaros ruidosos — que dizem ser raros Braçadeiras da Força do Colosso. Estas animais planares sagrados de Tanna-Toh.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.381Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-chave-dos-planos",
+      "nome": "Chave dos planos",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 60000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta pequena chave de 5 PM para aumentar esse bônus para +8 por 1 rodada. metal parece comum à primeira vista, mas é capaz de Bracelete do Coração Vivaz. Este bracelete abrir portas para lugares distantes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.381Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinto-da-desmaterializacao",
+      "nome": "Cinto da desmaterialização",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 60000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cinto dois braceletes de prata são gravados com símbolos feito de couro e metal possui um fecho especial que antigos de união e lealdade. Quando colocados (cada permite ao usuário desmaterializar seu corpo por um um numa pessoa diferente), estabelecem uma ligação curto período. Você pode lançar Forma Etérea, mas poderosa entre seus usuários.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinto-da-flecha-veloz",
+      "nome": "Cinto da flecha veloz",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cinto de couro ver, ouvir e sentir tudo que o outro vê, ouve e sen- ajustável permite ao usuário acelerar seus movimentos te. Também podem sempre sentir em que direção e com arcos e bestas. Você recebe a habilidade Ataque distância o outro está.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinto-da-leveza-graciosa",
+      "nome": "Cinto da leveza graciosa",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cinto máCaixa dos Ecos Perdidos. Esta caixa de ma- gico reduz o peso do usuário, tornando-o mais ágil deira pequena e simples não aparenta nada especial, e permitindo saltos mais altos e movimentos mais sem adereços ou ornamentos. No entanto, quando é suaves.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinto-dos-caminhos-cruzados",
+      "nome": "Cinto dos caminhos cruzados",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cinto um bônus de +10 em um teste de perícia baseada em de couro possui fivelas de metal intrincadas que briInteligência que, a critério do mestre, se relacione a lham com energia mágica. Uma vez por cena, você pode um evento passado. gastar uma ação de movimento e 3 PM para trocar de lugar com um aliado em alcance curto — vocês dois Cálice das Marés.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.383Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinturao-do-trobo",
+      "nome": "Cinturão do trobo",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cinto de couro reseu custo diminui em –1 PM). sistente aumenta a força do usuário para erguer peso. Você recebe +5 em testes de Atletismo para erguer Capa Nebulosa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.383Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-colar-da-furia-monstruosa",
+      "nome": "Colar da fúria monstruosa",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este colar ou das trevas. Sempre que você estiver sob camufla- rústico, feito com ossos e presas de monstros variados, gem leve por escuridão ou neblina, essa camuflagem invoca a fúria primeva de Megalokk. Você adquire a se torna total.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.383Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-colar-da-perseveranca",
+      "nome": "Colar da perseverança",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este colar de âmbar lançar livremente qualquer versão truque de qualquer proporciona ao usuário um aumento considerável em magia de 1º círculo que ofereça esse aprimoramento, sua determinação. Você recebe +5 em Vontade e +2 mesmo que não a conheça. em todos os testes estendidos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-colar-do-tirano",
+      "nome": "Colar do tirano",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este item cruel é fabricado podem mais ser afetados — talvez explicando algumas por abissais e usado por escravagistas. Cada colar tem prisões ou banimentos sem motivo aparente... conexão planar com uma ou mais coleiras (tipicamente Cristal da Voz Silenciosa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-colar-das-bolas-de-fogo",
+      "nome": "Colar das bolas de fogo",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 12000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este colar de ouro o cristal é quebrado, pode acelerar o tempo dentro de possui cinco pequenos rubis incrustados (ou 1d4+1 um aposento. Em termos de jogo, gastar o cristal perrubis, se for encontrado num tesouro). Você recebe mite um intervalo entre aventuras no tempo de 1 dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-coracao-do-inverno",
+      "nome": "Coração do inverno",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cristal azul claro é Elixir da Mente Dividida. Este elixir de muito frio ao toque, parecendo emitir uma aura gélida. cor verde esmeralda permite ao usuário dividir sua Se estiver empunhando o cristal, você pode lançar Raio consciência em duas partes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.385Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-corda-da-resignacao",
+      "nome": "Corda da resignação",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 7500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta corda feita de em qualquer tarefa: sofre uma penalidade de –5 em fibras mágicas possui um feitiço de aprisionamento. testes de perícia (exceto testes feitos como reação) e Quando é usada para amarrar alguém, a CD do teste é considerado em condição ruim para lançar magias de Acrobacia para escapar aumenta em +20. Além (Tormenta20, p.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.385Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-coroa-da-floresta-sussurrante",
+      "nome": "Coroa da floresta sussurrante",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta tiara emoldurado em ferro e adornado com figuras de cefeita de galhos e folhas sempre verdes tem pequenas lestiais combatendo abissais. A imagem de qualquer flores que se abrem ao toque. Ao vesti-la, você é con- criatura ou objeto refletida no espelho revela sua forma siderado sob efeito da magia Voz Divina e pode lançar verdadeira, como a magia Visão da Verdade — sendo Acalmar Animal e Controlar Plantas (CD Sab; se já puder assim um item muitas vezes encontrado em locais lançar uma dessas magias, pode lançá-la como uma de alta segurança.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.386Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-coroa-da-majestade-distorcida",
+      "nome": "Coroa da majestade distorcida",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 25500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta coroa para lançar Vidência, aumentando a CD dessa magia de prata escura é adornada com pedras de obsidiana. em +5 e estendendo seu efeito de Visão da Verdade ao Usada por alguns monarcas, permite exercer uma alvo observado. aura de autoridade inquestionável.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.386Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cristal-da-voz-silenciosa",
+      "nome": "Cristal da voz silenciosa",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Usado como 1d8) destinadas a prisioneiros escravizados. Uma vez pingente junto à garganta, este cristal permite ao usupor rodada, o usuário do colar do tirano pode causar ário falar com uma voz mágica, audível apenas para as 2d8+2 pontos de dano de eletricidade a um escravo pessoas que ele selecionar, em alcance curto. Além de encoleirado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.386Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cristal-do-tempo-celere",
+      "nome": "Cristal do tempo célere",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cristal azutambém afeta todos os escravos encoleirados. lado contém em seu interior uma pequena porção de gás mágico que afeta a passagem do tempo. Quando Colar das Bolas de Fogo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-elixir-da-eternidade",
+      "nome": "Elixir da eternidade",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este elixir dourado, ou Car; se já puder lançar essa magia, você recebe 2 PM guardado em uma ampola de vidro de alta qualidade, para gastar em aprimoramentos dela). Quando lança é capaz de preservar a vitalidade de uma criatura viva Bola de Fogo, você pode gastar uma ação de movimento por um longo período. Quando ingerido, evita que o para arrancar e quebrar um dos rubis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-elixir-da-mente-dividida",
+      "nome": "Elixir da mente dividida",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este elixir de muito frio ao toque, parecendo emitir uma aura gélida. cor verde esmeralda permite ao usuário dividir sua Se estiver empunhando o cristal, você pode lançar Raio consciência em duas partes. Quando ingerido, permite Polar (CD Int ou Car; se já puder lançar essa magia, executar duas ações de movimento e duas ações padrão seus dados de dano aumentam em um passo).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espelho-da-verdade",
+      "nome": "Espelho da verdade",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este grande espelho é Coroa da Floresta Sussurrante. Esta tiara emoldurado em ferro e adornado com figuras de cefeita de galhos e folhas sempre verdes tem pequenas lestiais combatendo abissais. A imagem de qualquer flores que se abrem ao toque.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espelho-do-outro-lado",
+      "nome": "Espelho do outro lado",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 18000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este pequeno esCarisma (somente após um dia de uso) e pode lançar pelho de bronze polido reflete não apenas a imagem Comando (CD Car) como uma ação de movimento e física, mas a alma do indivíduo que o encara. Uma com um bônus de +2 na CD. Contudo, aqueles que vez por aventura, você pode encarar o espelho para passam em seu teste de resistência uma única vez não conversar por alguns minutos com sua contraparte Capítulo 3 266 <PARSED TEXT FOR PAGE: 269 / 330> espiritual.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-frigideira-do-chef-anao",
+      "nome": "Frigideira do chef anão",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 24000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta enorme das imagens aumenta a CD para resistir à magia em +5. frigideira de adamante, gravada com runas dos Máscara da Raposa. Esta máscara de marfim anões, é amplamente utilizada pelos maiores chefs de ornada com linhas em vermelho vivo é muitas vezes Doherimm.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gaiola-dos-arcanos",
+      "nome": "Gaiola dos arcanos",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 6000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este item é uma gaiola rústica amplifica os sentidos do caçador, facilitando de prata pequena e robusta, com um pequeno cristal o rastreio de sua presa. Você recebe +5 em testes de pulsante em seu interior. Quando uma criatura usa Investigação para procurar e em testes de Sobrevivência uma habilidade mágica em um raio de 9m da gaiola, para rastrear.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gema-da-profanacao",
+      "nome": "Gema da profanação",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta gema preciosa foi Monóculo da Franqueza. Esta lente emolabençoada por uma ou mais divindades malignas do durada em prata revela intenções e pensamentos Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch ocultos. Observando alguém em alcance curto através e outras que canalizam energia negativa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gema-da-purificacao",
+      "nome": "Gema da purificação",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 18000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta gema preciosa foi abençoada por Lena, Marah, Thyatis ou outra divindade Ocarina da Melodia Distante. Este inspiedosa. Você pode lançar a magia Purificação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gema-da-santificacao",
+      "nome": "Gema da santificação",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 24000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta gema preciosa e de médio para longo). foi abençoada por uma ou mais divindades benignas do Panteão, tipicamente Azgher, Khalmyr, Lena e Óculos da Revelação. Quando invoca o outras que canalizam energia positiva.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-instrumentos-da-celeridade",
+      "nome": "Instrumentos da celeridade",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Existe uma o reflexo pode se manifestar como um aliado solícito versão destas ferramentas mágicas para cada perícia que oferece conselhos ou como um crítico severo que de Ofício. Conta como instrumentos do Ofício em diminui sua autoconfiança. Em termos de regras, role questão aprimorado e permite fabricar um item adicio1d10–3.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.390Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lampada-da-ilusao-impecavel",
+      "nome": "Lâmpada da ilusão impecável",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 6000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta lâmpacom bônus de outros itens). Se você rolar um número da de cristal contém uma chama dourada que nunca negativo, o mestre recebe esse número em d6. Até o apaga.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.390Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-da-raposa",
+      "nome": "Máscara da raposa",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 18000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta máscara de marfim anões, é amplamente utilizada pelos maiores chefs de ornada com linhas em vermelho vivo é muitas vezes Doherimm. É um instrumento de Ofício (cozinhei- vista em representações recentes de Hyninn. Usando-a, ro) que fornece +5 nessa perícia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.390Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-do-predador",
+      "nome": "Máscara do predador",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta máscara metálica Gaiola dos Arcanos. Este item é uma gaiola rústica amplifica os sentidos do caçador, facilitando de prata pequena e robusta, com um pequeno cristal o rastreio de sua presa. Você recebe +5 em testes de pulsante em seu interior.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-monoculo-da-franqueza",
+      "nome": "Monóculo da franqueza",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 4500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta lente emolabençoada por uma ou mais divindades malignas do durada em prata revela intenções e pensamentos Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch ocultos. Observando alguém em alcance curto através e outras que canalizam energia negativa. O custo de do monóculo, o usuário recebe uma leitura superficial suas habilidades mágicas que causam dano de trevas de sua mente, discernindo mentiras ou intenções diminui em –2 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ocarina-da-melodia-distante",
+      "nome": "Ocarina da melodia distante",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este inspiedosa. Você pode lançar a magia Purificação. Caso seja trumento musical feito de porcelana fornece +2 em devoto de uma divindade que canaliza energia positiva Atuação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-oculos-da-revelacao",
+      "nome": "Óculos da revelação",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 10500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Quando invoca o outras que canalizam energia positiva. Toda a área poder destas lentes, você pode lançar a magia Lendas em alcance curto da gema é considerada sob efeito da e Histórias. magia Consagrar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.392Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-olhos-do-corvo",
+      "nome": "Olhos do corvo",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta tira de tecido deve ser dades, você pode também pagar PM para ativar seus amarrada sobre os olhos como uma venda, cobrindo-os aprimoramentos por uma cena. com desenhos que imitam olhos de ave. Enquanto Arsenal dos Heróis 267 <PARSED TEXT FOR PAGE: 270 / 330> usa o item, você fica cego em ambientes iluminados, Pérola da Nulificação Mágica.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.392Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-papiro-das-estrelas",
+      "nome": "Papiro das estrelas",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Um pergaminho preto cena (em vez de sustentada). Contudo, o item tem que parece conter constelações em sua superfície. apenas uma utilização; quando o efeito termina, a Desenrolado, projeta um mapa celeste mágico que pérola adquire tom acinzentado, perdendo seu poder.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.392Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-pedra-da-passagem",
+      "nome": "Pedra da passagem",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Uma pequena pedra Quando um aliado em alcance curto se fere, você dourada que emite uma leve pulsação de luz. Você pode gastar 2 PM. Se fizer isso, o aliado não sofre pode gastar uma ação padrão e 3 PM para segurá-la o dano, mas você perde PV em quantidade igual ao contra uma superfície sólida e produzir uma abertura dano que ele teria sofrido (após quaisquer efeitos de tamanho Médio.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-pena-da-criacao",
+      "nome": "Pena da criação",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 6000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta pena, que brilha em (apenas ar), Queda Suave e Suporte Ambiental (apenas tom roxo escuro, pertencia a um malafex — tipo de contra calor). Se já puder lançar qualquer dessas macorvo mágico sagrado de Nimb. Conta como instru- gias, seu custo diminui em –1 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-pergaminho-da-verdade-cosmica",
+      "nome": "Pergaminho da verdade cósmica",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este aventuras. Uma vez que você tenha feito isso, seu perigoso pergaminho contém uma revelação divina Golpe Pessoal recebe novos efeitos num total de até tão poderosa e terrível que pode destruir a mente 2 PM, que não contam no limite para construí-lo e do leitor (avisos a esse respeito estão gravados no que não aumentam seu custo em PM. Quando sobe estojo externo).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-perola-da-nulificacao",
+      "nome": "Pérola da nulificação",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Pequena pérola multicolorida de uso único. Ativá-la exige uma ação de movimento e cria ao redor do portador o efeito básico de Campo Antimagia até o fim da cena; depois disso, a pérola perde seu poder.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-pingente-da-dor-partilhada",
+      "nome": "Pingente da dor partilhada",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta joia degos iminentes. Fornece +5 em testes de Sobrevivência licada, feita de prata escurecida, é ornamentada com para orientar-se e rastrear, e em testes de Percepção um pequeno rubi em formato de lágrima, pulsando para evitar ser surpreendido por inimigos nos ermos. suavemente no ritmo do coração de seu portador.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.394Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-saco-dos-ventos-silenciosos",
+      "nome": "Saco dos ventos silenciosos",
+      "categoria": "acessorio",
+      "subtipo": "mágico menor",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico menor",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este saco buracos em armadilhas ou evita perigos complexos, de algodão cru parece conter uma brisa constante. mesmo que você ache as palavras “porta” ou “parede” Quando aberto, libera um vento silencioso que pode em algum lugar da descrição. Não abre buracos em ser usado para purificar ambientes, suavizar quedas ou nada exceto portas e paredes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.394Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sandalias-de-valkaria",
+      "nome": "Sandálias de Valkaria",
+      "categoria": "acessorio",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 12000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Estas sandálias leves por cena, você pode gastar uma ação completa para permitem andar sobre qualquer superfície, incluindo desenhar um monstro em um pergaminho ou outra água e neve. Você ignora terrenos difíceis, pode camisuperfície que aceite tinta. Faça um teste de Ofício nhar sobre líquidos (como o aprimoramento da magia (escriba) com CD 10.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.395Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-tomo-da-tecnica-definitiva",
+      "nome": "Tomo da técnica definitiva",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Destinado no Ofício apropriado (mas talvez o monstro invocado a guerreiros que desenvolveram seu próprio Golpe seja um pouco… esquisito). Pessoal, este manual permite aprimorar ainda mais sua técnica. Estudar o tomo exige uma ação entre Pergaminho da Verdade Cósmica.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.395Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-tomo-dos-companheiros",
+      "nome": "Tomo dos companheiros",
+      "categoria": "acessorio",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 262,
+      "tags": [
+        "acessorio",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Diz-se que este o efeito debilidade de Rogar Maldição, em sua versão livro volumoso veio da própria Biblioteca de Tanna-Toh, permanente. Contudo, em caso de sucesso, você pode em seu reino divino. De tão poderosas suas histórias, imediatamente lançar Intervenção Divina, para qualquer os personagens às vezes escapam para a vida real.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.395Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-baralho-etereo",
+      "nome": "Baralho Etéreo",
+      "categoria": "acessorio",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 12000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "acessorio",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Baralho fantasmagórico que funciona como kit de Jogatina aprimorado e permite lançar Augúrio.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-manto-magico",
+      "nome": "Manto Mágico",
+      "categoria": "acessorio",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 15000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "acessorio",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Manto mágico menor cuja principal função é proteger o usuário, fornecendo bônus mágico de +4 na Defesa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-virtude-inquebravel",
+      "nome": "Virtude inquebrável",
+      "categoria": "acessorio",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 21000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "acessorio",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Faixa de seda que concede resistência a dano, ampliada para usuários com código de conduta.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
