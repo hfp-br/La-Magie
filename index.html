@@ -11864,7 +11864,7 @@ effectsSlot.appendChild(
             element.querySelector(
                 ".spell-meta"
             ).textContent =
-                `${spell.level || 0}º nível • ${spell.school || "—"} • ${spell.castingTime || "—"} • ${spell.range || "—"}${concentrationText}`;
+                `${spell.level || 0}º nível • ${spell.school || "—"} • ${spell.castingTime || "—"} • ${spell.range || "—"}${spell.duration ? " • Duração: " + spell.duration : ""}${concentrationText}`;
 
 
             element.querySelector(
@@ -11923,7 +11923,7 @@ effectsSlot.appendChild(
                     ".spell-meta"
                 )
                 .textContent =
-                `${spell.castingTime || "—"} • ${spell.range || "—"}`;
+                `${spell.castingTime || "—"} • ${spell.range || "—"}${spell.duration ? " • Duração: " + spell.duration : ""}`;
 
 
             quickElement
