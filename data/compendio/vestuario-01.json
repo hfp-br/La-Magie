@@ -1,0 +1,185 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-traje-camuflado",
+      "nome": "Traje camuflado",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "furtividade",
+        "camuflagem"
+      ],
+      "descricao": "Traje feito para um tipo específico de terreno. No ambiente correto, fornece +2 em testes de Furtividade. Efeito: +2 em Furtividade no terreno correspondente. CD 20.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+2 em Furtividade no terreno correspondente. CD 20."
+    },
+    {
+      "id": "t20-traje-da-corte",
+      "nome": "Traje da corte",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "nobreza",
+        "social"
+      ],
+      "descricao": "Roupas luxuosas e sob medida, adequadas à nobreza e realeza. Em certos ambientes formais, não usar um traje da corte pode impor –5 em perícias baseadas em Carisma. Efeito: Em ambientes formais apropriados, não usar traje da corte pode impor –5 em perícias baseadas em Carisma. CD 20.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Em ambientes formais apropriados, não usar traje da corte pode impor –5 em perícias baseadas em Carisma. CD 20."
+    },
+    {
+      "id": "t20-traje-de-plebeu",
+      "nome": "Traje de plebeu",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 1,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "plebeu"
+      ],
+      "descricao": "Roupas simples de aldeão, com camisa larga e calças soltas ou saia e vestido. Não inclui calçados. Efeito: CD 10.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "CD 10."
+    },
+    {
+      "id": "t20-traje-de-viajante",
+      "nome": "Traje de viajante",
+      "categoria": "vestuario",
+      "subtipo": "traje",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "vestuario",
+        "traje",
+        "roupa",
+        "viagem",
+        "aventureiro"
+      ],
+      "descricao": "Botas resistentes, calças ou saia, cinto, camisa de linho e capa com capuz; roupas padrão de aventureiros. Efeito: CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "CD 15."
+    },
+    {
+      "id": "t20-dbfree-veste-da-noite",
+      "nome": "Veste da Noite",
+      "categoria": "vestuario",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 18000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "vestuario",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Traje camuflado urbano aprimorado multifuncional para Furtividade e Acrobacia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
