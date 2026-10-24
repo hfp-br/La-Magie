@@ -1,0 +1,1133 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-xanathar-amuleto-do-fragmento-negro",
+      "nome": "Amuleto do Fragmento Negro",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Foco arcano para bruxos, com tentativa limitada de conjurar um truque desconhecido.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-amuleto-relogio",
+      "nome": "Amuleto Relógio",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Permite substituir uma rolagem de ataque por um resultado 10, uma vez até o próximo amanhecer.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-armadura-ardente",
+      "nome": "Armadura Ardente",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Armadura que emite pequenos fios de fumaça inofensivos enquanto está equipada.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-armadura-brilhante",
+      "nome": "Armadura Brilhante",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Armadura que permanece limpa mesmo após o uso.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-armadura-da-libertacao",
+      "nome": "Armadura da Libertação",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Armadura que pode ser retirada rapidamente com uma ação.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-bengala-do-veterano",
+      "nome": "Bengala do Veterano",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 135,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Bengala encantada que pode se transformar em uma espada longa comum.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-bolsa-conveniente-de-especiarias-de-heward",
+      "nome": "Bolsa Conveniente de Especiarias de Heward",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Bolsa com cargas que fornece pequenas porções de temperos não mágicos.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-boneca-falante",
+      "nome": "Boneca Falante",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Boneca que reproduz frases configuradas quando certas condições ocorrem.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-botas-de-pegadas-falsas",
+      "nome": "Botas de Pegadas Falsas",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Botas que alteram a aparência das pegadas deixadas por quem as usa.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-cachimbo-dos-monstros-de-fumaca",
+      "nome": "Cachimbo dos Monstros de Fumaça",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Forma pequenas silhuetas de criaturas com a fumaça.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-cadeado-da-enganacao",
+      "nome": "Cadeado da Enganação",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Fechadura encantada que dificulta tentativas de arrombamento.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-cajado-canoro",
+      "nome": "Cajado Canoro",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Cajado que usa cargas para reproduzir cantos e chamados de pássaros.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-cajado-da-ornamentacao",
+      "nome": "Cajado da Ornamentação",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-cajado-das-flores",
+      "nome": "Cajado das Flores",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-caneca-da-sobriedade",
+      "nome": "Caneca da Sobriedade",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-capa-da-ondulacao",
+      "nome": "Capa da Ondulação",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-capa-de-muitas-modas",
+      "nome": "Capa de Muitas Modas",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-chapeu-da-feiticaria",
+      "nome": "Chapéu da Feitiçaria",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 136,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-chapeu-dos-vermes",
+      "nome": "Chapéu dos Vermes",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-chave-misteriosa",
+      "nome": "Chave Misteriosa",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-chifre-do-alarme-silencioso",
+      "nome": "Chifre do Alarme Silencioso",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-corda-do-reparo",
+      "nome": "Corda do Reparo",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-dado-do-charlatao",
+      "nome": "Dado do Charlatão",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-elmo-do-horror",
+      "nome": "Elmo do Horror",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-escudo-da-expressao",
+      "nome": "Escudo da Expressão",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-esfera-da-direcao",
+      "nome": "Esfera da Direção",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-esfera-do-tempo",
+      "nome": "Esfera do Tempo",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-espada-lunar",
+      "nome": "Espada Lunar",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-flecha-inquebravel",
+      "nome": "Flecha Inquebrável",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-gota-de-nutricao",
+      "nome": "Gota de Nutrição",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-gota-de-refrescancia",
+      "nome": "Gota de Refrescância",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-grimorio-duradouro",
+      "nome": "Grimório Duradouro",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-instrumento-da-escrita",
+      "nome": "Instrumento da Escrita",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 137,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-instrumento-de-ilusoes",
+      "nome": "Instrumento de Ilusões",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-mastro-da-diminuicao",
+      "nome": "Mastro da Diminuição",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-mastro-da-pescaria",
+      "nome": "Mastro da Pescaria",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-municao-colossal",
+      "nome": "Munição Colossal",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-perfume-do-encantamento",
+      "nome": "Perfume do Encantamento",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-roupas-do-remendo",
+      "nome": "Roupas do Remendo",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-rubi-do-mago-da-guerra",
+      "nome": "Rubi do Mago da Guerra",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-trombeta-da-audicao",
+      "nome": "Trombeta da Audição",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-varinha-carrancuda",
+      "nome": "Varinha Carrancuda",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 138,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-varinha-da-pirotecnia",
+      "nome": "Varinha da Pirotecnia",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-varinha-da-regencia",
+      "nome": "Varinha da Regência",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-varinha-sorridente",
+      "nome": "Varinha Sorridente",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-vaso-do-despertar",
+      "nome": "Vaso do Despertar",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-vela-das-profundezas",
+      "nome": "Vela das Profundezas",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "raridade": "comum",
+      "revisarDados": true,
+      "schemaVersion": 5
+    }
+  ]
+}
