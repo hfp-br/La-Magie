@@ -1,0 +1,468 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "tormenta-rpg-aco-rubi",
+      "nome": "Aço-rubi",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Armas feitas deste metal ignoram redução de dano, inclusive reduções normalmente impossíveis de superar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-adamante",
+      "nome": "Adamante",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Armas causam dano como se fossem uma categoria de tamanho maior; armaduras e escudos pesados podem fornecer redução de dano.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-gelo-eterno",
+      "nome": "Gelo eterno",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Material das Montanhas Uivantes. Armas causam dano adicional por frio; armaduras e escudos concedem resistência a frio.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-madeira-tollon",
+      "nome": "Madeira Tollon",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Madeira negra tão resistente quanto metal. Armas contam como mágicas para superar redução de dano; escudos leves podem conceder RD.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-materia-vermelha",
+      "nome": "Matéria vermelha",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Material lefeu. Armas ferem criaturas naturais com dano adicional, mas também machucam o usuário; armaduras distorcem ataques recebidos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-mitral",
+      "nome": "Mitral",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": ""
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 141,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Metal raro e muito leve. Armas ampliam a margem de ameaça e armaduras são mais leves e flexíveis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta20-presa-de-onix-de-constritora-arenosa",
+      "nome": "Presa de ônix de constritora arenosa",
+      "categoria": "material",
+      "subtipo": "material de fabricacao",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 231",
+      "pagina": 31,
+      "tags": [
+        "material",
+        "material de fabricacao",
+        "tormenta20",
+        "dragao brasil 231",
+        "equipamento"
+      ],
+      "descricao": "Presa de ônix extraída de uma constritora arenosa. Pode ser usada para fabricar uma arma superior de corte, leve ou de uma mão.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta20-gema-negra-de-constritora-arenosa",
+      "nome": "Gema negra de constritora arenosa",
+      "categoria": "material",
+      "subtipo": "gema",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 231",
+      "pagina": 31,
+      "tags": [
+        "material",
+        "gema",
+        "tormenta20",
+        "dragao brasil 231",
+        "equipamento"
+      ],
+      "descricao": "Gema negra que forma os olhos de uma constritora arenosa; cada criatura pode render duas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:09:12.522Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-chifre-de-monstro",
+      "nome": "Chifre de monstro",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 55,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta20",
+        "material adicional da dragao brasil"
+      ],
+      "descricao": "Apenas espadas; aumenta o multiplicador de crítico em 1.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-fio-de-aco",
+      "nome": "Fio-de-aço",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 55,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta20",
+        "material adicional da dragao brasil"
+      ],
+      "descricao": "Material especial para armas leves. Uma arma de fio-de-aço fornece +2 em manobras e em Atletismo para escalar, e é fabricada e consertada com Ofício (artesão), não armeiro.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-goradio",
+      "nome": "Gorádio",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 55,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta20",
+        "material adicional da dragao brasil"
+      ],
+      "descricao": "Arma leve comestível, equivalente a uma porção de gorad quente; vulnerável a fogo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-hajalbar",
+      "nome": "Hajalbar",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 55,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta20",
+        "material adicional da dragao brasil"
+      ],
+      "descricao": "Espadas de corte; conta como mágica e causa +2 de essência.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-lanajuste",
+      "nome": "Lanajuste",
+      "categoria": "material",
+      "subtipo": "material especial",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 55,
+      "tags": [
+        "material",
+        "material especial",
+        "tormenta20",
+        "material adicional da dragao brasil"
+      ],
+      "descricao": "Material especial extremamente afiado que só pode ser usado em cimitarras. Quando a arma obtém um acerto crítico, a criatura atingida fica sangrando.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
