@@ -1,0 +1,5731 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-agua-benta",
+      "nome": "Água benta",
+      "categoria": "consumivel",
+      "subtipo": "item geral",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "consumivel",
+        "item geral",
+        "sagrado",
+        "luz",
+        "arremesso"
+      ],
+      "descricao": "Frasco de água benta criado por clérigos. É especialmente útil contra mortos-vivos, demônios e diabos. Efeito: Ação padrão; escolha um morto-vivo, demônio ou diabo em alcance curto. O alvo sofre 2d10 de dano de luz; Reflexos CD Des reduz à metade. É inofensiva contra outras criaturas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "agua-benta-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; escolha um morto-vivo, demônio ou diabo em alcance curto. O alvo sofre 2d10 de dano de luz; Reflexos CD Des reduz à metade. É inofensiva contra outras criaturas."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-racao-de-viagem-por-dia",
+      "nome": "Ração de viagem (por dia)",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "viagem"
+      ],
+      "descricao": "Porção de alimentos conservados suficiente para alimentar uma pessoa por um dia. Mantida seca, dura bastante; molhada, estraga em 24 horas. Efeito: Consome uma porção de ração de viagem referente a um dia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "racao-de-viagem-por-dia-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consome uma porção de ração de viagem referente a um dia."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-acido",
+      "nome": "Ácido",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "acido",
+        "arremesso"
+      ],
+      "descricao": "Frasco com ácido alquímico corrosivo. É usado contra uma criatura em alcance curto. Efeito: Ação padrão; alvo em alcance curto sofre 2d4 de dano de ácido. Reflexos CD Des reduz à metade. CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "acido-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; alvo em alcance curto sofre 2d4 de dano de ácido. Reflexos CD Des reduz à metade. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "cura"
+      ],
+      "descricao": "Pasta medicinal verde e de odor forte, usada diretamente em ferimentos. Efeito: Ação completa; recupera 2d4 PV. CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "balsamo-restaurador-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação completa; recupera 2d4 PV. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bomba",
+      "nome": "Bomba",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "explosivo",
+        "impacto"
+      ],
+      "descricao": "Granada rudimentar popular entre goblins e usuários de pólvora. Efeito: Empunhar; ação de movimento para acender e ação padrão para arremessar em alcance curto. Criaturas a até 3m sofrem 6d6 impacto; Reflexos CD Des reduz à metade. CD 20.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "bomba-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Empunhar; ação de movimento para acender e ação padrão para arremessar em alcance curto. Criaturas a até 3m sofrem 6d6 impacto; Reflexos CD Des reduz à metade. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-essencia-de-mana",
+      "nome": "Essência de mana",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.1,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "mana",
+        "pocao"
+      ],
+      "descricao": "Poção feita de ervas raras e compostos alquímicos que restaura energia pessoal. Efeito: Ação padrão; recupera 1d4 PM. CD 20.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "essencia-de-mana-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; recupera 1d4 PM. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-fogo-alquimico",
+      "nome": "Fogo alquímico",
+      "categoria": "consumivel",
+      "subtipo": "alquimia",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "consumivel",
+        "alquimia",
+        "fogo",
+        "arremesso"
+      ],
+      "descricao": "Frasco de cerâmica com substância pegajosa que entra em combustão ao contato com o ar. Efeito: Ação padrão; alvo em alcance curto sofre 1d6 fogo e fica em chamas. Reflexos CD Des reduz o dano à metade e evita as chamas. CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "fogo-alquimico-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão; alvo em alcance curto sofre 1d6 fogo e fica em chamas. Reflexos CD Des reduz o dano à metade e evita as chamas. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-bebida-comum",
+      "nome": "Bebida comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "bebida",
+        "comida"
+      ],
+      "descricao": "Uma caneca da bebida comum do local, geralmente cerveja. Efeito: Consumir a bebida.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "bebida-comum-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consumir a bebida."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-refeicao-comum",
+      "nome": "Refeição comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida"
+      ],
+      "descricao": "Refeição típica com pão, queijo, cozido de carne ou galinha com legumes e uma bebida. Efeito: Consumir a refeição.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "refeicao-comum-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Consumir a refeição."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-batata-valkariana",
+      "nome": "Batata valkariana",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial"
+      ],
+      "descricao": "Batatas fritas populares em Valkaria. É um prato especial que dá um impulso para uma façanha durante o dia. Efeito: Recebe +1d6 em um único teste à sua escolha realizado nesse dia. Apenas um bônus de alimentação pode ser recebido por dia. CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "batata-valkariana-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +1d6 em um único teste à sua escolha realizado nesse dia. Apenas um bônus de alimentação pode ser recebido por dia. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-gorad-quente",
+      "nome": "Gorad quente",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "mana"
+      ],
+      "descricao": "Gorad e leite servidos quentes. É um prato especial que estimula a mente. Efeito: Recebe +2 PM temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 20.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "gorad-quente-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +2 PM temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-macarrao-de-yuvalin",
+      "nome": "Macarrão de Yuvalin",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "pv"
+      ],
+      "descricao": "Prato reforçado de macarrão, bacon e creme de leite criado em Yuvalin. Efeito: Recebe +5 PV temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 15.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "macarrao-de-yuvalin-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +5 PV temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-prato-do-aventureiro",
+      "nome": "Prato do aventureiro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 153,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "descanso"
+      ],
+      "descricao": "Cozido simples de galinha com legumes, pensado para sustentar aventureiros. Efeito: Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "prato-do-aventureiro-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-sopa-de-peixe",
+      "nome": "Sopa de peixe",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "comida",
+        "prato especial",
+        "descanso",
+        "mana"
+      ],
+      "descricao": "Cozido simples de peixe com verduras, associado a um descanso relaxante. Efeito: Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [
+        {
+          "id": "sopa-de-peixe-uso",
+          "type": "other",
+          "mode": "use",
+          "text": "Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-abencoar-alimentos",
+      "nome": "Óleo de Abençoar Alimentos",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Abençoar Alimentos. Efeito: Ação padrão para aplicar; gera o efeito de Abençoar Alimentos no objeto afetado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-abencoar-alimentos-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Abençoar Alimentos no objeto afetado."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-area-escorregadia",
+      "nome": "Granada de Área Escorregadia",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Área Escorregadia. Efeito: Ação padrão para arremessar em alcance curto; gera Área Escorregadia no ponto escolhido.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "granada-de-area-escorregadia-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Área Escorregadia no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-arma-magica",
+      "nome": "Óleo de Arma Mágica",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica. Efeito: Ação padrão para aplicar em uma arma; gera o efeito de Arma Mágica.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-arma-magica-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar em uma arma; gera o efeito de Arma Mágica."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-compreensao",
+      "nome": "Poção de Compreensão",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Compreensão. Efeito: Ação padrão para beber; gera o efeito de Compreensão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-compreensao-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Compreensão."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-2d8-2-pv",
+      "nome": "Poção de Curar Ferimentos (2d8+2 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 2d8+2 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-2d8-2-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 2d8+2 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-disfarce-ilusorio",
+      "nome": "Poção de Disfarce Ilusório",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Disfarce Ilusório. Efeito: Ação padrão para beber; gera o efeito de Disfarce Ilusório.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-disfarce-ilusorio-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Disfarce Ilusório."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-enfeiticar",
+      "nome": "Poção de Enfeitiçar",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Enfeitiçar. Efeito: Ação padrão para beber; o alvo fica enfeitiçado pela primeira criatura que enxergar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-enfeiticar-other-acao-padrao-para-beber-o",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; o alvo fica enfeitiçado pela primeira criatura que enxergar."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-escuridao",
+      "nome": "Óleo de Escuridão",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Escuridão. Efeito: Ação padrão para aplicar; gera o efeito de Escuridão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-escuridao-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Escuridão."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-luz",
+      "nome": "Óleo de Luz",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Luz. Efeito: Ação padrão para aplicar; gera o efeito de Luz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-luz-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Luz."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-nevoa",
+      "nome": "Granada de Névoa",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Névoa. Efeito: Ação padrão para arremessar em alcance curto; gera Névoa no ponto escolhido.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "granada-de-nevoa-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Névoa no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-primor-atletico",
+      "nome": "Poção de Primor Atlético",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Primor Atlético. Efeito: Ação padrão para beber; gera o efeito de Primor Atlético.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-primor-atletico-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Primor Atlético."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-protecao-divina",
+      "nome": "Poção de Proteção Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Proteção Divina. Efeito: Ação padrão para beber; gera o efeito de Proteção Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-protecao-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Proteção Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-resistencia-a-energia",
+      "nome": "Poção de Resistência a Energia",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Resistência a Energia. Efeito: Ação padrão para beber; gera o efeito de Resistência a Energia.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-resistencia-a-energia-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Resistência a Energia."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-sono",
+      "nome": "Poção de Sono",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Sono. Efeito: Ação padrão para beber; gera o efeito de Sono.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-sono-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Sono."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-suporte-ambiental",
+      "nome": "Poção de Suporte Ambiental",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Suporte Ambiental. Efeito: Ação padrão para beber; gera o efeito de Suporte Ambiental.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-suporte-ambiental-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Suporte Ambiental."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-tranca-arcana",
+      "nome": "Óleo de Tranca Arcana",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Tranca Arcana. Efeito: Ação padrão para aplicar; gera o efeito de Tranca Arcana.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-tranca-arcana-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Tranca Arcana."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-visao-mistica",
+      "nome": "Poção de Visão Mística",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Visão Mística. Efeito: Ação padrão para beber; gera o efeito de Visão Mística.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-visao-mistica-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Visão Mística."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-vitalidade-fantasma",
+      "nome": "Poção de Vitalidade Fantasma",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Vitalidade Fantasma. Efeito: Ação padrão para beber; gera o efeito de Vitalidade Fantasma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-vitalidade-fantasma-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Vitalidade Fantasma."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-escudo-da-fe-duracao-cena",
+      "nome": "Poção de Escudo da Fé (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 120,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Escudo da Fé. Efeito: Ação padrão para beber; gera Escudo da Fé com aprimoramento para duração de cena.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-escudo-da-fe-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Escudo da Fé com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-alterar-tamanho",
+      "nome": "Poção de Alterar Tamanho",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Alterar Tamanho. Efeito: Ação padrão para beber; gera o efeito de Alterar Tamanho.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-alterar-tamanho-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Alterar Tamanho."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-aparencia-perfeita",
+      "nome": "Poção de Aparência Perfeita",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Aparência Perfeita. Efeito: Ação padrão para beber; gera o efeito de Aparência Perfeita.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-aparencia-perfeita-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Aparência Perfeita."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-armamento-da-natureza",
+      "nome": "Óleo de Armamento da Natureza",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Armamento da Natureza. Efeito: Ação padrão para aplicar; gera o efeito de Armamento da Natureza.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-armamento-da-natureza-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Armamento da Natureza."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-bola-de-fogo",
+      "nome": "Granada de Bola de Fogo",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo. Efeito: Ação padrão para arremessar em alcance curto; gera Bola de Fogo no ponto escolhido.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "granada-de-bola-de-fogo-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Bola de Fogo no ponto escolhido."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-camuflagem-ilusoria",
+      "nome": "Poção de Camuflagem Ilusória",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Camuflagem Ilusória. Efeito: Ação padrão para beber; gera o efeito de Camuflagem Ilusória.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-camuflagem-ilusoria-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Camuflagem Ilusória."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-concentracao-de-combate-duracao-cena",
+      "nome": "Poção de Concentração de Combate (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Concentração de Combate. Efeito: Ação padrão para beber; gera Concentração de Combate com aprimoramento para duração de cena.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-concentracao-de-combate-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Concentração de Combate com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-4d8-4-pv",
+      "nome": "Poção de Curar Ferimentos (4d8+4 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 4d8+4 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-4d8-4-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 4d8+4 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-fisico-divino",
+      "nome": "Poção de Físico Divino",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino. Efeito: Ação padrão para beber; gera o efeito de Físico Divino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-fisico-divino-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Físico Divino."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-mente-divina",
+      "nome": "Poção de Mente Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Mente Divina. Efeito: Ação padrão para beber; gera o efeito de Mente Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-mente-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Mente Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-metamorfose",
+      "nome": "Poção de Metamorfose",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Metamorfose. Efeito: Ação padrão para beber; gera o efeito de Metamorfose.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-metamorfose-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Metamorfose."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-purificacao",
+      "nome": "Poção de Purificação",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Purificação. Efeito: Ação padrão para beber; gera o efeito de Purificação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-purificacao-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Purificação."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-velocidade",
+      "nome": "Poção de Velocidade",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Velocidade. Efeito: Ação padrão para beber; gera o efeito de Velocidade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-velocidade-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Velocidade."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-vestimenta-da-fe",
+      "nome": "Óleo de Vestimenta da Fé",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Vestimenta da Fé. Efeito: Ação padrão para aplicar; gera o efeito de Vestimenta da Fé.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-vestimenta-da-fe-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera o efeito de Vestimenta da Fé."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-voz-divina",
+      "nome": "Poção de Voz Divina",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 270,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Voz Divina. Efeito: Ação padrão para beber; gera o efeito de Voz Divina.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-voz-divina-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera o efeito de Voz Divina."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-oleo-de-arma-magica-3",
+      "nome": "Óleo de Arma Mágica (+3)",
+      "categoria": "consumivel",
+      "subtipo": "oleo",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "oleo",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica. Efeito: Ação padrão para aplicar; gera Arma Mágica com aprimoramento para bônus +3.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "oleo-de-arma-magica-3-other-acao-padrao-para-aplicar",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para aplicar; gera Arma Mágica com aprimoramento para bônus +3."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-7d8-7-pv",
+      "nome": "Poção de Curar Ferimentos (7d8+7 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 7d8+7 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-7d8-7-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 7d8+7 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-fisico-divino-tres-atributos",
+      "nome": "Poção de Físico Divino (três atributos)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino. Efeito: Ação padrão para beber; gera Físico Divino com aprimoramento para três atributos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-fisico-divino-tres-atributos-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Físico Divino com aprimoramento para três atributos."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-invisibilidade-duracao-cena",
+      "nome": "Poção de Invisibilidade (duração cena)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 1080,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Invisibilidade. Efeito: Ação padrão para beber; gera Invisibilidade com aprimoramento para duração de cena.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-invisibilidade-duracao-cena-other-acao-padrao-para-beber-g",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; gera Invisibilidade com aprimoramento para duração de cena."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-granada-de-bola-de-fogo-10d6",
+      "nome": "Granada de Bola de Fogo (10d6)",
+      "categoria": "consumivel",
+      "subtipo": "granada",
+      "peso": 0,
+      "preco": {
+        "valor": 1470,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "granada",
+        "magico",
+        "pocao"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo. Efeito: Ação padrão para arremessar em alcance curto; gera Bola de Fogo aprimorada para 10d6 de dano.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "granada-de-bola-de-fogo-10d6-other-acao-padrao-para-arremes",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para arremessar em alcance curto; gera Bola de Fogo aprimorada para 10d6 de dano."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pocao-de-curar-ferimentos-11d8-11-pv",
+      "nome": "Poção de Curar Ferimentos (11d8+11 PV)",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pocao",
+        "magico"
+      ],
+      "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 11d8+11 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pocao-de-curar-ferimentos-11d8-11-pv-other-acao-padrao-para-beber-r",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão para beber; recupera 11d8+11 PV."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pergaminho-magico",
+      "nome": "Pergaminho mágico",
+      "categoria": "consumivel",
+      "subtipo": "pergaminho",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 327,
+      "tags": [
+        "consumivel",
+        "pergaminho",
+        "magico",
+        "template"
+      ],
+      "descricao": "Template para um pergaminho contendo qualquer magia. Edite a cópia no inventário para registrar a magia e seu custo. Efeito: Ler em voz alta exige uma ação padrão ou a ação da magia, o que for maior. É preciso conhecer a magia ou passar em Misticismo (CD 20 + custo em PM da magia). Ao ativar, o pergaminho se desfaz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "pergaminho-magico-other-ler-em-voz-alta-exige-um",
+          "type": "other",
+          "mode": "use",
+          "text": "Ler em voz alta exige uma ação padrão ou a ação da magia, o que for maior. É preciso conhecer a magia ou passar em Misticismo (CD 20 + custo em PM da magia). Ao ativar, o pergaminho se desfaz."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-panelada-de-escorpiao-enorme-e-cogumelo-andante",
+      "nome": "Panelada de Escorpião Enorme e Cogumelo Andante",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 43,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Ensopado de cogumelos, raízes, algas e carne de escorpião enorme, preparado para restaurar aventureiros. Efeitos: Na próxima noite de sono, aumenta a recuperação de PV e PM em +1 por nível. Ingredientes/requisitos: carne de monstro e 3 porções de cogumelos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "panelada-de-escorpiao-enorme-e-cogumelo-andante-other-na-proxima-noite-de-so",
+          "type": "other",
+          "mode": "use",
+          "text": "Na próxima noite de sono, aumenta a recuperação de PV e PM em +1 por nível."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: carne de monstro e 3 porções de cogumelos."
+    },
+    {
+      "id": "t20-torta-de-planta-devoradora-de-homens",
+      "nome": "Torta de Planta Devoradora de Homens",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 43,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Torta feita com frutos e vegetais coletados de plantas carnívoras. Efeitos: Recebe +2 em testes de perícias baseadas em Sabedoria. Ingredientes/requisitos: 6 frutos de planta devoradora de homens.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "torta-de-planta-devoradora-de-homens-other-recebe-2-em-testes-de-",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +2 em testes de perícias baseadas em Sabedoria."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: 6 frutos de planta devoradora de homens."
+    },
+    {
+      "id": "t20-basilisco-assado",
+      "nome": "Basilisco Assado",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 44,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Carne de basilisco recheada e assada, com forte efeito restaurativo. Efeitos: Recupera 2d8+2 PV. PV excedentes recuperados dessa forma se tornam PV temporários. Ingredientes/requisitos: carne de basilisco.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "basilisco-assado-other-recupera-2d8-2-pv-pv-e",
+          "type": "other",
+          "mode": "use",
+          "text": "Recupera 2d8+2 PV. PV excedentes recuperados dessa forma se tornam PV temporários."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: carne de basilisco."
+    },
+    {
+      "id": "t20-omelete-de-basilisco-e-mandragora",
+      "nome": "Omelete de Basilisco e Mandrágora",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 44,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Omelete avermelhada feita com ovos de basilisco e raízes de mandrágora. Efeitos: Recebe +2 em rolagens de dano e resistência a veneno +2. Ingredientes/requisitos: 4 ovos de basilisco.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "omelete-de-basilisco-e-mandragora-other-recebe-2-em-rolagens-d",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +2 em rolagens de dano e resistência a veneno +2."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: 4 ovos de basilisco."
+    },
+    {
+      "id": "t20-tempura-de-mandragora-e-morcego-atroz",
+      "nome": "Tempura de Mandrágora e Morcego Atroz",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 45,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Pedaços de carne e vegetal fritos por imersão, resultando em uma refeição crocante. Efeitos: Recebe +2 em Fortitude e Vontade. Ingredientes/requisitos: carne de monstro e 2 ovos de basilisco.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "tempura-de-mandragora-e-morcego-atroz-other-recebe-2-em-fortitude-",
+          "type": "other",
+          "mode": "use",
+          "text": "Recebe +2 em Fortitude e Vontade."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: carne de monstro e 2 ovos de basilisco."
+    },
+    {
+      "id": "t20-refeicao-completa-de-armadura-animada",
+      "nome": "Refeição Completa de Armadura Animada",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 45,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "refeicao",
+        "dungeon meshi",
+        "dragao brasil 199"
+      ],
+      "descricao": "Banquete que utiliza moluscos de uma armadura animada em diferentes preparos. Efeitos: Escolha dois benefícios entre: +1 em Defesa; +1 em Atletismo e Reflexos; 5 PV temporários; ou 2 PM temporários. Ingredientes/requisitos: 4 moluscos de armadura animada.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [
+        {
+          "id": "refeicao-completa-de-armadura-animada-other-escolha-dois-beneficio",
+          "type": "other",
+          "mode": "use",
+          "text": "Escolha dois benefícios entre: +1 em Defesa; +1 em Atletismo e Reflexos; 5 PV temporários; ou 2 PM temporários."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ingredientes/requisitos: 4 moluscos de armadura animada."
+    },
+    {
+      "id": "tormenta-rpg-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "consumivel",
+      "subtipo": "equipamento geral",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 140,
+      "tags": [
+        "consumivel",
+        "equipamento geral",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Frasco de cerâmica com uma pasta verde e fedorenta de ervas medicinais. Aplicá-la em um ferimento exige uma ação completa e recupera 2d4 PV.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-racao-de-viagem",
+      "nome": "Ração de viagem",
+      "categoria": "consumivel",
+      "subtipo": "equipamento geral",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "TP"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 140,
+      "tags": [
+        "consumivel",
+        "equipamento geral",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Porção de alimentos conservados suficiente para alimentar uma pessoa por um dia. Dura até uma semana seca, mas estraga em 24 horas se molhar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-bebida",
+      "nome": "Bebida",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "TP"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 140,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Porção comum de bebida servida em tavernas e estalagens.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tormenta-rpg-refeicao",
+      "nome": "Refeição",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 1,
+      "preco": {
+        "valor": 3,
+        "moeda": "TP"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta RPG - Módulo Básico",
+      "pagina": 140,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta-rpg",
+        "tormenta rpg - modulo basico",
+        "equipamento"
+      ],
+      "descricao": "Refeição comum encontrada em tavernas e estalagens, representando uma porção simples de comida para uma pessoa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-acido-concentrado",
+      "nome": "Ácido concentrado",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Como ácido, mas o alvo Pó de Cinza. Este pó mineral serve como sofre 4d8 pontos de dano de ácido e fica vulnerável lubrificante para mecanismos. Gastar uma dose de pó até o fim da cena (Reflexos CD Des reduz à metade de cinza fornece +5 em um teste de Ladinagem para e evita a condição).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.345Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-analgesico",
+      "nome": "Analgésico",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Mais barato e menos eficiente fornecido por outros itens). que cura verdadeira, um analgésico apenas mascara Pó do Aparecimento. Um item favorito de os sintomas dos ferimentos, permitindo que um aventureiros que se deparam com muitos inimigos personagem continue lutando por pura força de invisíveis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.345Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estalinho-gury",
+      "nome": "Estalinho Gury",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este preparado, desenvolvido neste frasco se transforma em uma gosma corrosiva pelo famoso alquimista Jozhen Gury, gera uma onda instantaneamente em contato com o ar. Para usá-lo, de choque e um estouro muito alto (o tal “estalinho”) você gasta uma ação padrão e escolhe uma criatura quando detonado. Para usá-lo, você precisa empu- em alcance curto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.346Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-extrato-de-gelo-eterno",
+      "nome": "Extrato de gelo eterno",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um frasco de vidro Catalisadores contendo um líquido congelante. Para usar o extrato, Cristal Reflexivo. Um fragmento de um você gasta uma ação padrão e escolhe uma criatura material refletor como espelho, que duplica as proem alcance curto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.346Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-extrato-de-oxxdon",
+      "nome": "Extrato de oxxdon",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 180,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este frasco de vidro contém um extrato da substância secretada pelo oxxCompasso Místico. Este compasso ostenta don, capaz de arruinar objetos metálicos. Para usá-lo, marcações geométricas combinadas com símbolos você deve gastar uma ação padrão e arremessá-lo em arcanos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.347Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-frasco-abissal",
+      "nome": "Frasco abissal",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este temido preparado aluma de suas magias, você recebe 1 PM temporário químico é proibido no Reinado, pois faz o próprio (limitado pelo total de PM gasto na magia). ar pegar fogo. Para usar o frasco abissal, você gasta uma ação padrão e arremessa-o em um ponto em Varinha Armamentista.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.347Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-po-de-cinza",
+      "nome": "Pó de cinza",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este pó mineral serve como sofre 4d8 pontos de dano de ácido e fica vulnerável lubrificante para mecanismos. Gastar uma dose de pó até o fim da cena (Reflexos CD Des reduz à metade de cinza fornece +5 em um teste de Ladinagem para e evita a condição). abrir fechaduras ou sabotar (cumulativo com o bônus Analgésico.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.347Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-po-do-aparecimento",
+      "nome": "Pó do aparecimento",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um item favorito de os sintomas dos ferimentos, permitindo que um aventureiros que se deparam com muitos inimigos personagem continue lutando por pura força de invisíveis. Um frasco contendo um pó de alguma cor vontade. Usar um analgésico é uma ação padrão.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.348Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-visco-persistente",
+      "nome": "Visco persistente",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "O líquido leitoso contido Estalinho Gury. Este preparado, desenvolvido neste frasco se transforma em uma gosma corrosiva pelo famoso alquimista Jozhen Gury, gera uma onda instantaneamente em contato com o ar. Para usá-lo, de choque e um estouro muito alto (o tal “estalinho”) você gasta uma ação padrão e escolhe uma criatura quando detonado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.348Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cristal-reflexivo",
+      "nome": "Cristal reflexivo",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um fragmento de um você gasta uma ação padrão e escolhe uma criatura material refletor como espelho, que duplica as proem alcance curto. Essa criatura sofre 2d12 pontos de priedades divinatórias de certas magias. Quando lança dano de frio e fica lenta por 1 rodada (Reflexos CD uma magia de adivinhação, você recebe +1 na Defesa Des reduz à metade e evita a condição).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.348Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-essencia-fantasmal",
+      "nome": "Essência fantasmal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma pasta fabricada a captar a luz mundana do ambiente, mas também a partir de ectoplasma encontrado em locais de aparições energia positiva presente nela. Toda cura de luz fornecida fantasmagóricas. A magia ignora 5 pontos da RD de pela engenhoca aumenta em +1 por dado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.349Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-noz-saltadora",
+      "nome": "Noz saltadora",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma semente encantada com Comutador. Uma bobina de metal místico, uma fagulha de magia de teletransporte. Após lançar capaz de captar e potencializar a energia do ambiente.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.349Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-presa-de-hyninn",
+      "nome": "Presa de Hyninn",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Extraída dos temíveis Conversor-Alimentador. Este frasco de tigres-de-Hyninn, esta presa concede uma parte da vidro é ligado a tubos de metal e estranhos mecacapacidade ilusória dessas criaturas. Você recebe 25% nismos em forma de antena.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bolor-hemorragico",
+      "nome": "Bolor hemorrágico",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta pasta marrom aprimoramentos e para sustentá-la (caso se aplique). reduz a capacidade de cicatrização. Contato, vítima fica Engenho de Automação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-fumaca-onirica",
+      "nome": "Fumaça onírica",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este gás de cores variadas só segundo um padrão programado. Acoplado a uma afeta a mente, fazendo a vítima experimentar ilusões engenhoca que simula uma magia com duração susencantadoras. Inalação, vítima fica fascinada por 3 rodadas, tentada, permite que ela não conte no limite de magias apenas uma vez por cena (ofuscada por 1 rodada).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gas-moroso",
+      "nome": "Gás moroso",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este gás azulado inibe as reações, reduzindo as capacidades de defesa. Inalação, vítima fica Espera para Melhorias. Este aparato funciona vulnerável (vulnerável por 1 rodada).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-seiva-necrotica",
+      "nome": "Seiva necrótica",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 120,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Preparada a partir da seiva mesmas regras e custos para aplicar melhorias em de plantas impregnadas de energia negativa, esta itens convencionais. De forma geral, se uma melhoria substância causa ferimentos que não cicatrizam afeta uma característica da magia simulada pela ennaturalmente. Ferimento, perde 2d6 PV por rodada durante genhoca, ela pode ser aplicada (uma engenhoca que 3 rodadas (perde 2d6 PV).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.351Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-baga-celeste-cozida",
+      "nome": "Baga celeste cozida",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Encontradas originalengenhoca: uma série de molas, hastes e fios que mente nas encostas invertidas de Vectora, estas bagas se permite que a engenhoca seja “desmontada” e unida espalharam por toda Arton. Preparadas adequadamente, a um item de vestuário. A engenhoca não ocupa fornecem qualidades místicas de flutuação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cozido-de-pimenta",
+      "nome": "Cozido de pimenta",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um prato forte, capaz no limite de itens vestidos). Contudo, ela modifica de trazer lágrimas aos olhos do mais resistente dos drasticamente o item de vestuário. Qualquer um que comensais.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-manjar-de-sombras",
+      "nome": "Manjar de sombras",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A origem da receita original deste prato se perdeu, mas sua essência Sequenciador de Ativação. Este meca- se manteve inalterada. Consiste em um manjar nismo complexo, cheio de partes móveis, alavancas com ingredientes cultivados em terras próximas e engrenagens, é acoplado simultaneamente a três de cemitérios, que protege o corpo contra energias engenhocas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-baba-de-troll",
+      "nome": "Baba de troll",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma bebida sem álcool, à base para ativar o sequenciador. Você faz os testes de Ofício de leite, castanhas, nozes e mel. Fornece +1d4 em um (engenhoqueiro) normalmente para cada engenhoca.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-barba-queimada",
+      "nome": "Barba queimada",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Forte e amarga, esta cerveja próximas não serão mais ativadas como ação livre). anã fortalece o corpo e o espírito. Fornece redução de Sistema de Refrigeração.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.358Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cerveja-deheoni",
+      "nome": "Cerveja deheoni",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A bebida mais comum nas componentes da engenhoca e tubos cheios d’água, tavernas do Reinado. Fornece +1 em testes de resisque dissipam calor por sua correnteza interna. Uma tência.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.358Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-dilinio",
+      "nome": "Dilínio",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Destilado de Mortenstenn, antigo rei- Eu Bebo Sim no de Lamnor, feito com um cereal que só cresce no Fabricar uma bebida exige um teste continente sul. A receita se perdeu após as invasões de Ofício (cozinheiro) com CD 20 e duyshidakk e poucos barris chegaram ao Reinado, o que segue as regras normais de fabricação explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.358Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-grogue-negro",
+      "nome": "Grogue negro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Rum misturado com especiapenalidade de –5 no teste). rias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem — a Consumir uma bebida leva alguns receita foi criada por piratas do Conclave, que atuam minutos — embora seja possível tomar no Mar Negro.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.358Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-grogue-rubro",
+      "nome": "Grogue rubro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma variação do grogue negro, com calma! Benefícios de bebida com especiarias picantes que fazem a bebida adquirir duram 1 dia e se acumulam com outros uma coloração avermelhada — e quem a bebe, certa benefícios de alimentação (incluindo de inclinação para a violência. Você pode usar Audácia bebidas diferentes).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-hidromel-uivante",
+      "nome": "Hidromel uivante",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 21,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Fabricada nas montanhas deve fazer um teste de Fortitude (CD geladas, esta bebida aquece e incita. Fornece +2 em indicada no item; cada dose adicional rolagens de dano corpo a corpo. CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-licor-feerico",
+      "nome": "Licor feérico",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 450,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "De aparência enevoada, esta Se falhar, fica embriagado (–2 em testes bebida tem gosto adocicado, difícil de descrever. Dizem baseados em Destreza e Carisma). que é feito na Pondsmânia e trazido para o resto do Se já estava embriagado, fica bebum Reinado com muita dificuldade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sidra-ahleniense",
+      "nome": "Sidra ahleniense",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta bebida doce deixa por bebidas também anulam seus qualquer um mais falante, fornecendo +2 em testes de benefícios, pois eles andam lado a lado. perícias originalmente baseadas em Carisma. CD 15.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-vinho-pruss",
+      "nome": "Vinho Pruss",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Batizado em homenagem ao de dano ou bônus em perícias sociais ao antigo Rei-Imperador Thormy — dizem que era o fa- beber por estar levemente embriagado! vorito do monarca. Fornece 3 PM temporários.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-vinho-elfico",
+      "nome": "Vinho élfico",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "De sabor complexo, aguça a prejudiciais de itens ingeríveis (como mente, fornecendo +1 na CD para resistir a suas pelo poder Vida Rústica) pode abrir mão habilidades. CD 20. dessa imunidade ao beber para receber os benefícios da bebida.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-batatas-grelhadas",
+      "nome": "Batatas grelhadas",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +4 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 15.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [
+        {
+          "id": "batatas-grelhadas-other-oficio-4-cd-15",
+          "type": "other",
+          "mode": "use",
+          "text": "Ofício +4; CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-peixe-empanado",
+      "nome": "Peixe empanado",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Luta +1, Pontaria +1 e Vontade +1; CD 15.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "peixe-empanado-other-luta-1-pontaria-1-e-",
+          "type": "other",
+          "mode": "use",
+          "text": "Luta +1, Pontaria +1 e Vontade +1; CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-sopa-de-cebola-assada",
+      "nome": "Sopa de cebola assada",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +3 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 10.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [
+        {
+          "id": "sopa-de-cebola-assada-other-oficio-3-cd-10",
+          "type": "other",
+          "mode": "use",
+          "text": "Ofício +3; CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-cafe-da-manha-do-fazendeiro",
+      "nome": "Café da manhã do fazendeiro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Fortitude +1, Vontade +1 e 5 PV temporários; CD 10.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "cafe-da-manha-do-fazendeiro-other-fortitude-1-vontade-",
+          "type": "other",
+          "mode": "use",
+          "text": "Fortitude +1, Vontade +1 e 5 PV temporários; CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-salada-de-gengibre",
+      "nome": "Salada de gengibre",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Misticismo +2, Vontade +1 e 2 PM temporários; CD 15.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "salada-de-gengibre-other-misticismo-2-vontade",
+          "type": "other",
+          "mode": "use",
+          "text": "Misticismo +2, Vontade +1 e 2 PM temporários; CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-laghman",
+      "nome": "Laghman",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Fortitude +2, Vontade +1 e +4 PV; CD 15.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "laghman-other-fortitude-2-vontade-",
+          "type": "other",
+          "mode": "use",
+          "text": "Fortitude +2, Vontade +1 e +4 PV; CD 15."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-tako-yaki",
+      "nome": "Tako-yaki",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Vontade +2, 5 PV temporários e +2 dano em críticos; CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "tako-yaki-other-vontade-2-5-pv-tempo",
+          "type": "other",
+          "mode": "use",
+          "text": "Vontade +2, 5 PV temporários e +2 dano em críticos; CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-pao-de-bacon",
+      "nome": "Pão de bacon",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. 10 PV temporários e +2 dano em críticos; CD 10.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "pao-de-bacon-other-10-pv-temporarios-e-",
+          "type": "other",
+          "mode": "use",
+          "text": "10 PV temporários e +2 dano em críticos; CD 10."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-torta-de-nozes",
+      "nome": "Torta de nozes",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Misticismo +4 e 5 PM temporários; CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "torta-de-nozes-other-misticismo-4-e-5-pm-",
+          "type": "other",
+          "mode": "use",
+          "text": "Misticismo +4 e 5 PM temporários; CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-biscoito-de-cafe",
+      "nome": "Biscoito de café",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 47,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "receita",
+        "dragao brasil"
+      ],
+      "descricao": "Receita adaptada para Tormenta20. Ofício +2 e Percepção +2; CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [
+        {
+          "id": "biscoito-de-cafe-other-oficio-2-e-percepcao",
+          "type": "other",
+          "mode": "use",
+          "text": "Ofício +2 e Percepção +2; CD 20."
+        }
+      ],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-meteorito",
+      "nome": "Meteorito",
+      "categoria": "consumivel",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "consumivel",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Fragmento que armazena uma magia de 1º ou 2º círculo e se desfaz após o uso.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-semente-espada-curta",
+      "nome": "Semente-espada curta",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Semente que pode ser energizada para brotar uma espada curta temporária.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-semente-espada-longa",
+      "nome": "Semente-espada longa",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Semente que pode ser energizada para brotar uma espada longa temporária.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-sangue-do-dragao-rei",
+      "nome": "Sangue do Dragão-Rei",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Poção alquímica extremamente perigosa; sobreviver ao consumo pode aumentar permanentemente a Constituição.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-antidoto-universal",
+      "nome": "Antídoto Universal",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Líquido espesso verde-escuro de cheiro forte. Ingeri-lo remove uma condição causada por veneno; sua fabricação exige Ofício (alquimia) CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-elixir-de-vida",
+      "nome": "Elixir de Vida",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Tônico analgésico ingerido como ação padrão. Recupera 4d6 pontos de vida e sua fabricação exige Ofício (alquimia) CD 25.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-pomada-protetora",
+      "nome": "Pomada Protetora",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Pasta espessa e cinzenta que endurece a pele como pedra. Espalhá-la exige uma ação completa e fornece resistência a dano 5 por uma cena; Ofício (alquimia) CD 25.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-tonico-revigorante",
+      "nome": "Tônico Revigorante",
+      "categoria": "consumivel",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "consumivel",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Bebida amarga que, quando ingerida, remove uma condição de fadiga. Sua fabricação exige Ofício (alquimia) CD 20.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-acido",
+      "nome": "Ácido",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Frasco de ácido alquímico corrosivo. Com uma ação padrão, causa 2d4 de dano de ácido a uma criatura em alcance curto; Reflexos reduz à metade. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Pasta medicinal verde e de cheiro forte. Aplicá-la exige ação completa e recupera 2d4 PV. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-bomba",
+      "nome": "Bomba",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Granada rudimentar. Acender o pavio exige ação de movimento e arremessá-la, ação padrão; explode em alcance curto causando 6d6 de impacto em uma área de 3m, com Reflexos para reduzir à metade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-cosmetico",
+      "nome": "Cosmético",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Perfume ou maquiagem. Usar exige ação completa e fornece +2 em perícias baseadas em Carisma até o fim da cena. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-elixir-do-amor",
+      "nome": "Elixir do amor",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Líquido adocicado que faz um humanoide ficar enfeitiçado pela primeira criatura que enxergar por 1d3 dias; Vontade anula. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-de-mana",
+      "nome": "Essência de mana",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Poção de ervas raras e compostos alquímicos. Beber exige ação padrão e recupera 1d4 PM. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-fogo-alquimico",
+      "nome": "Fogo alquímico",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Substância que inflama em contato com o ar. Com ação padrão, causa 1d6 de fogo a uma criatura em alcance curto e a deixa em chamas; Reflexos reduz o dano e evita as chamas. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-do-desaparecimento",
+      "nome": "Pó do desaparecimento",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "jogo do ano"
+      ],
+      "descricao": "Pó que torna uma criatura ou objeto invisível por 2d6 rodadas, sem informar ao usuário exatamente quando o efeito terminará. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-baga-de-fogo",
+      "nome": "Baga-de-fogo",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pequeno fruto vermelho e picante. Como catalisador, acrescenta +1d6 de dano de fogo a uma magia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-dente-de-dragao",
+      "nome": "Dente-de-dragão",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Flor montanhosa em formato de presa. Como catalisador, aumenta o dano da magia em um dado do mesmo tipo. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-abissal",
+      "nome": "Essência abissal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Líquido espesso produzido com sangue demoníaco. Aumenta em uma categoria os dados de dano de magias de fogo, até d12. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-liquen-lilas",
+      "nome": "Líquen lilás",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Planta cristalina das Uivantes. Acrescenta +1d6 de dano de frio a uma magia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-musgo-purpura",
+      "nome": "Musgo púrpura",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Fungo cintilante de florestas fechadas. Fornece +2 na CD de magias de ilusão. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-ossos-de-monstro",
+      "nome": "Ossos de monstro",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pequenos ossos tratados com óleos alquímicos. Fornecem +2 na CD de magias de necromancia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-cristal",
+      "nome": "Pó de cristal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pó de mineral cristalino puro. Reduz em –1 PM o custo de magias de encantamento. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-giz",
+      "nome": "Pó de giz",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Calcário pulverizado usado como catalisador. Reduz em –1 PM o custo de magias de convocação. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-ramo-verdejante",
+      "nome": "Ramo verdejante",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Mistura de ervas que potencializa cura. Aumenta em +1 PV por dado a cura de uma magia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-saco-de-sal",
+      "nome": "Saco de sal",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Pequeno saco de sal marinho. Fornece +2 na CD de magias de abjuração. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-seixo-de-ambar",
+      "nome": "Seixo de âmbar",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Gema de seiva fossilizada. Reduz em –1 PM o custo de magias de transmutação. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-terra-de-cemiterio",
+      "nome": "Terra de cemitério",
+      "categoria": "consumivel",
+      "subtipo": "catalisador alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "catalisador alquimico",
+        "jogo do ano"
+      ],
+      "descricao": "Terra cinzenta colhida à noite em um cemitério. Acrescenta +1d6 de dano de trevas a uma magia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-beladona",
+      "nome": "Beladona",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno vegetal de ingestão que ataca o sistema nervoso. A vítima fica paralisada por 3 rodadas; mesmo resistindo, fica lenta. A CD para fabricar e resistir é aumentada em +5. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-bruma-sonolenta",
+      "nome": "Bruma sonolenta",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Gás sonífero de inalação. A vítima fica inconsciente; se resistir, fica enjoada por 1 rodada. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-cicuta",
+      "nome": "Cicuta",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno de ingestão que causa náusea, dor e pode matar. Provoca perda de 1d12 PV por rodada durante 3 rodadas; resistir ainda causa 1d12 PV. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-essencia-de-sombra",
+      "nome": "Essência de sombra",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno de contato criado com compostos ligados às trevas. Deixa a vítima debilitada; se resistir, fica fraca. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-nevoa-toxica",
+      "nome": "Névoa tóxica",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Gás verde corrosivo de inalação. Faz perder 1d12 PV por rodada durante 3 rodadas; resistir ainda causa 1d12 PV. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-comum",
+      "nome": "Peçonha comum",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno típico extraído de animais ou plantas tóxicas. Veneno de contato que causa perda de 1d12 PV. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-concentrada",
+      "nome": "Peçonha concentrada",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Dose mais forte da peçonha comum. Contato; causa perda de 1d12 PV por rodada durante 3 rodadas, com dano mesmo em caso de resistência. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-peconha-potente",
+      "nome": "Peçonha potente",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno muito forte extraído de seres perigosos. Contato; causa 2d12 PV por rodada durante 3 rodadas, com dano mesmo em caso de resistência. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-po-de-lich",
+      "nome": "Pó de lich",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Veneno letal de ingestão usado contra alvos poderosos. Causa 4d12 PV por rodada durante 5 rodadas; resistir ainda causa 4d12 PV. Suas CDs são aumentadas em +5. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-riso-de-nimb",
+      "nome": "Riso de Nimb",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "jogo do ano"
+      ],
+      "descricao": "Gás púrpura de inalação que provoca riso descontrolado e comportamento caótico. Deixa a vítima confusa; se resistir, fica lenta por 1 rodada. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-batata-valkariana",
+      "nome": "Batata valkariana",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Batatas fritas típicas de Valkaria. Ao comer, você recebe +1d6 em um único teste à sua escolha realizado até o fim do dia. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-gorad-quente",
+      "nome": "Gorad quente",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Gorad e leite servidos quentes. Fornece +2 PM temporários. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-macarrao-de-yuvalin",
+      "nome": "Macarrão de Yuvalin",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Prato reforçado de macarrão, bacon e creme de leite criado por mineiros de Yuvalin. Fornece +5 PV temporários. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-prato-do-aventureiro",
+      "nome": "Prato do aventureiro",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Cozido simples de galinha com legumes. Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-racao-de-viagem-por-dia",
+      "nome": "Ração de viagem (por dia)",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Porção de alimentos conservados suficiente para uma pessoa por um dia, como carne defumada, frutas secas, pão, queijo e biscoitos. Se molhar, estraga em 24 horas. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-refeicao-comum",
+      "nome": "Refeição comum",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Refeição típica com pão, queijo, cozido de carne ou galinha com legumes e uma bebida simples. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-sopa-de-peixe",
+      "nome": "Sopa de peixe",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "jogo do ano"
+      ],
+      "descricao": "Cozido de peixe com verduras. Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Efeito: Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.753Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    }
+  ]
+}
