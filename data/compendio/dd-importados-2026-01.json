@@ -1,0 +1,5259 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2014-arma-adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d4 perfurante. Propriedades: Acuidade, leve, arremesso (distância 6/18).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Adaga",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade, leve, arremesso (distância 6/18)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 9/36).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Azagaia",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Arremesso (distância 9/36)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-bordao",
+      "nome": "Bordão",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: Versátil (1d8).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Bordão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Versátil (1d8)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-clava-grande",
+      "nome": "Clava Grande",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d8 concussão. Propriedades: Pesada, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Clava Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-foice-curta",
+      "nome": "Foice Curta",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d4 cortante. Propriedades: Leve.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Foice Curta",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Leve",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 6/18), versátil (1d8).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Arremesso (distância 6/18), versátil (1d8)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "–",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d6 cortante. Propriedades: Leve, arremesso (distância 6/18).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machadinha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Leve, arremesso (distância 6/18)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-martelo-leve",
+      "nome": "Martelo Leve",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve, arremesso (distância 6/18).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo Leve",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Leve, arremesso (distância 6/18)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-porrete",
+      "nome": "Porrete",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Porrete",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Leve",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-arco-curto",
+      "nome": "Arco Curto",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 24/96), duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco Curto",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 24/96), duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-beste-leve",
+      "nome": "Beste Leve",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 24/96), recarga, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Beste Leve",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 24/96), recarga, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-dardo",
+      "nome": "Dardo",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0.1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (distância). Dano: 1d4 perfurante. Propriedades: Acuidade, arremesso (distância 6/18).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Dardo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade, arremesso (distância 6/18)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-funda",
+      "nome": "Funda",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma simples (distância). Dano: 1d4 concussão. Propriedades: Munição (distância 9/36).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Funda",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 9/36)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alabarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, alcance, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 cortante. Propriedades: Acuidade, leve.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cimitarra",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade, leve",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d4 cortante. Propriedades: Acuidade, alcance.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Chicote",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade, alcance",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-espada-curta",
+      "nome": "Espada Curta",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Acuidade, leve.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Curta",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade, leve",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-espada-grande",
+      "nome": "Espada Grande",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 cortante. Propriedades: Pesada, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-espada-longa",
+      "nome": "Espada Longa",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Versátil (1d10)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-glaive",
+      "nome": "Glaive",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Glaive",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, alcance, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-lanca-de-montaria",
+      "nome": "Lança de Montaria",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 perfurante. Propriedades: Alcance, especial.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança de Montaria",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Alcance, especial",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-lanca-longa",
+      "nome": "Lança Longa",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 4,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 perfurante. Propriedades: Pesada, alcance, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança Longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, alcance, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-maca-estrela",
+      "nome": "Maça Estrela",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça Estrela",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "–",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-machado-grande",
+      "nome": "Machado Grande",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 cortante. Propriedades: Pesada, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-machado-de-batalha",
+      "nome": "Machado de Batalha",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de Batalha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Versátil (1d10)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-malho",
+      "nome": "Malho",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 concussão. Propriedades: Pesada, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Malho",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Pesada, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mangual",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "–",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-martelo-de-guerra",
+      "nome": "Martelo de Guerra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: Versátil (1d10).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo de Guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Versátil (1d10)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-picareta-de-guerra",
+      "nome": "Picareta de Guerra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Picareta de Guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "–",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-rapieira",
+      "nome": "Rapieira",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: Acuidade.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Rapieira",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Acuidade",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (6/18), versátil (1d8).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tridente",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "corpo a corpo",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Arremesso (6/18), versátil (1d8)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-arco-longo",
+      "nome": "Arco Longo",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 45/180), pesada, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco Longo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 45/180), pesada, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-besta-de-mao",
+      "nome": "Besta de Mão",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 9/36), leve, recarga.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta de Mão",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 9/36), leve, recarga",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-besta-pesada",
+      "nome": "Besta Pesada",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 4.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (distância). Dano: 1d10 perfurante. Propriedades: Munição (distância 30/120), pesada, recarga, duas mãos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta Pesada",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "2",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 30/120), pesada, recarga, duas mãos",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-rede",
+      "nome": "Rede",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (distância). Dano: –. Propriedades: Especial, arremesso (distância 1,5/4,5).",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Rede",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "0",
+        "type": "",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Especial, arremesso (distância 1,5/4,5)",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-arma-zarabatana",
+      "nome": "Zarabatana",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 151,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Arma marcial (distância). Dano: 1 perfurante. Propriedades: Munição (distância 7,5/30), recarga.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Zarabatana",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "distância",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Munição (distância 7,5/30), recarga",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-abaco",
+      "nome": "Ábaco",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-acido-vidro",
+      "nome": "Ácido (vidro)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Ataque improvisado com o frasco: 2d6 de dano ácido em caso de acerto.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-agua-benta-frasco",
+      "nome": "Água benta (frasco)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Pode causar 2d6 de dano radiante a corruptores e mortos-vivos ao acertar.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-algemas",
+      "nome": "Algemas",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Prendem criatura Pequena ou Média; libertar-se ou quebrá-las exige testes de atributo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-algibeira",
+      "nome": "Algibeira",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-aljava",
+      "nome": "Aljava",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-ampulheta",
+      "nome": "Ampulheta",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-antidoto-vidro",
+      "nome": "Antídoto (vidro)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Concede vantagem em salvaguardas contra veneno durante 1 hora; não afeta constructos nem mortos-vivos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-apito-de-advertencia",
+      "nome": "Apito de advertência",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-ariete-portatil",
+      "nome": "Aríete portátil",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 17.5,
+      "preco": {
+        "valor": 4,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Ajuda a arrombar portas: +4 em teste de Força e pode receber ajuda.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-armadilha-de-caca",
+      "nome": "Armadilha de caça",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 12.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-arpeu",
+      "nome": "Arpéu",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-balanca-de-mercador",
+      "nome": "Balança de mercador",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-balde",
+      "nome": "Balde",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-barril",
+      "nome": "Barril",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 35,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-bau",
+      "nome": "Baú",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 12.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-bolsa-de-componentes",
+      "nome": "Bolsa de componentes",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-caixa-de-fogo",
+      "nome": "Caixa de Fogo",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-caneca",
+      "nome": "Caneca",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-caneta-tinteiro",
+      "nome": "Caneta tinteiro",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-cantil",
+      "nome": "Cantil",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-cesto",
+      "nome": "Cesto",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 4,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-cobertor-de-inverno",
+      "nome": "Cobertor de inverno",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-corda-de-canhamo-15-metros",
+      "nome": "Corda de cânhamo (15 metros)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Corda utilitária para escalada, amarração e transporte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-corda-de-seda-15-metros",
+      "nome": "Corda de seda (15 metros)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-corrente-3-metros",
+      "nome": "Corrente (3 metros)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-equipamento-de-pescaria",
+      "nome": "Equipamento de pescaria",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-escada-3-metros",
+      "nome": "Escada (3 metros)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 12.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-esferas-sacola-com-1-000",
+      "nome": "Esferas (sacola com 1.000)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-espelho-de-aco",
+      "nome": "Espelho de aço",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.25,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-estrepes-bolsa-com-20",
+      "nome": "Estrepes (bolsa com 20)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-fechadura",
+      "nome": "Fechadura",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-arcano-bastao",
+      "nome": "Foco arcano — Bastão",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-arcano-cajado",
+      "nome": "Foco arcano — Cajado",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-arcano-cristal",
+      "nome": "Foco arcano — Cristal",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-arcano-orbe",
+      "nome": "Foco arcano — Orbe",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-arcano-varinha",
+      "nome": "Foco arcano — Varinha",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-druidico-cajado-de-madeira",
+      "nome": "Foco druídico — Cajado de madeira",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-druidico-ramo-de-visco",
+      "nome": "Foco druídico — Ramo de visco",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-druidico-totem",
+      "nome": "Foco druídico — Totem",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-foco-druidico-varinha-de-teixo",
+      "nome": "Foco druídico — Varinha de teixo",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-fogo-alquimico-frasco",
+      "nome": "Fogo alquímico (frasco)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Substância incendiária arremessável que continua queimando até ser apagada.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-frasco",
+      "nome": "Frasco",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-garrafa-de-vidro",
+      "nome": "Garrafa de vidro",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-giz-1-peca",
+      "nome": "Giz (1 peça)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-grimorio",
+      "nome": "Grimório",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-jarra",
+      "nome": "Jarra",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 4,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-kit-de-escalada",
+      "nome": "Kit de escalada",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 6,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-kit-de-primeiros-socorros",
+      "nome": "Kit de primeiros-socorros",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Material médico usado para estabilizar criaturas feridas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-lampada",
+      "nome": "Lâmpada",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-lanterna-coberta",
+      "nome": "Lanterna coberta",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-lanterna-furta-fogo",
+      "nome": "Lanterna furta-fogo",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-lente-de-aumento",
+      "nome": "Lente de aumento",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-livro",
+      "nome": "Livro",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-luneta",
+      "nome": "Luneta",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-manto",
+      "nome": "Manto",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-marreta",
+      "nome": "Marreta",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-martelo",
+      "nome": "Martelo",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-mochila",
+      "nome": "Mochila",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-municao-balas-de-funda-20",
+      "nome": "Munição — Balas de Funda (20)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.75,
+      "preco": {
+        "valor": 4,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-municao-flechas-20",
+      "nome": "Munição — Flechas (20)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-municao-virotes-20",
+      "nome": "Munição — Virotes (20)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.75,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-municao-zarabatana-50",
+      "nome": "Munição — Zarabatana (50)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-oleo-frasco",
+      "nome": "Óleo (frasco)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pa",
+      "nome": "Pá",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-panela-de-ferro",
+      "nome": "Panela de ferro",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-papel-uma-folha",
+      "nome": "Papel (uma folha)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-parafina",
+      "nome": "Parafina",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pedra-de-amolar",
+      "nome": "Pedra de amolar",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-perfume-frasco",
+      "nome": "Perfume (frasco)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pergaminho-uma-folha",
+      "nome": "Pergaminho (uma folha)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-picareta-de-minerador",
+      "nome": "Picareta de minerador",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-piton",
+      "nome": "Píton",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pocao-de-cura",
+      "nome": "Poção de cura",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.25,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Restaura 2d4 + 2 pontos de vida ao ser bebida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-porta-mapas-ou-pergaminhos",
+      "nome": "Porta mapas ou pergaminhos",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-porta-virotes",
+      "nome": "Porta virotes",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-pregos-de-ferro-10",
+      "nome": "Pregos de ferro (10)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-racoes-de-viagem-1-dia",
+      "nome": "Rações de viagem (1 dia)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Alimento não perecível para sustento durante um dia de viagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-equipamento-robes",
+      "nome": "Robes",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-roldana-e-polia",
+      "nome": "Roldana e polia",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-roupas-comuns",
+      "nome": "Roupas comuns",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-roupas-de-viajante",
+      "nome": "Roupas de viajante",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-roupas-de-entretenimento",
+      "nome": "Roupas de entretenimento",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-roupas-finas",
+      "nome": "Roupas finas",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 3,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-sabao",
+      "nome": "Sabão",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-saco",
+      "nome": "Saco",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 3.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-simbolo-sagrado-amuleto",
+      "nome": "Símbolo sagrado — Amuleto",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-simbolo-sagrado-emblema",
+      "nome": "Símbolo sagrado — Emblema",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-simbolo-sagrado-relicario",
+      "nome": "Símbolo sagrado — Relicário",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-sinete",
+      "nome": "Sinete",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-sino",
+      "nome": "Sino",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-tenda-para-duas-pessoas",
+      "nome": "Tenda para duas pessoas",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 10,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-tocha",
+      "nome": "Tocha",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Fornece iluminação e pode ser usada como fonte de fogo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-tinta-frasco-de-30ml",
+      "nome": "Tinta (frasco de 30ml)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-vara-3-metros",
+      "nome": "Vara (3 metros)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 3.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-vela",
+      "nome": "Vela",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-equipamento-veneno-basico-frasco",
+      "nome": "Veneno básico (frasco)",
+      "categoria": "equipamento",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 152,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. ",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-acolchoada",
+      "nome": "Acolchoada",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 4,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "11 + modificador de Des",
+        "forcaMinima": "–",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-couro",
+      "nome": "Couro",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "11 + modificador de Des",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-couro-batido",
+      "nome": "Couro Batido",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 6.5,
+      "preco": {
+        "valor": 45,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura leve. CA: 12 + modificador de Des. Força mínima: –. Furtividade: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "12 + modificador de Des",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-gibao-de-peles",
+      "nome": "Gibão de Peles",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 6,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura média. CA: 12 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "12 + modificador de Des (máx. +2)",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-camisao-de-malha",
+      "nome": "Camisão de Malha",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 10,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura média. CA: 13 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "13 + modificador de Des (máx. +2)",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-brunea",
+      "nome": "Brunea",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 22.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "14 + modificador de Des (máx. +2)",
+        "forcaMinima": "–",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-peitoral",
+      "nome": "Peitoral",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 10,
+      "preco": {
+        "valor": 400,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "14 + modificador de Des (máx. +2)",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-meia-armadura",
+      "nome": "Meia-Armadura",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 20,
+      "preco": {
+        "valor": 750,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura média. CA: 15 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "15 + modificador de Des (máx. +2)",
+        "forcaMinima": "–",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-cota-de-aneis",
+      "nome": "Cota de anéis",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 20,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura pesada. CA: 14. Força mínima: –. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "14",
+        "forcaMinima": "–",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-cota-de-malha",
+      "nome": "Cota de malha",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 27.5,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura pesada. CA: 16. Força mínima: For 13. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "16",
+        "forcaMinima": "For 13",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-cota-de-talas",
+      "nome": "Cota de talas",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 30,
+      "preco": {
+        "valor": 200,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura pesada. CA: 17. Força mínima: For 15. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "17",
+        "forcaMinima": "For 15",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-armadura-placas",
+      "nome": "Placas",
+      "categoria": "armadura",
+      "subtipo": "",
+      "peso": 32.5,
+      "preco": {
+        "valor": 1500,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 147,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Proteção armadura pesada. CA: 18. Força mínima: For 15. Furtividade: Desvantagem.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "18",
+        "forcaMinima": "For 15",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "id": "dd-2014-ferramenta-kit-de-disfarce",
+      "nome": "Kit de disfarce",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-kit-de-falsificacao",
+      "nome": "Kit de falsificação",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-ladrao",
+      "nome": "Ferramentas de ladrão",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-carpinteiro",
+      "nome": "Ferramentas de carpinteiro",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-ferreiro",
+      "nome": "Ferramentas de ferreiro",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-alquimista",
+      "nome": "Ferramentas de alquimista",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-cozinheiro",
+      "nome": "Ferramentas de cozinheiro",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-suprimentos-de-caligrafia",
+      "nome": "Suprimentos de caligrafia",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-suprimentos-de-cervejeiro",
+      "nome": "Suprimentos de cervejeiro",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-alaude",
+      "nome": "Instrumento musical — Alaúde",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-flauta",
+      "nome": "Instrumento musical — Flauta",
+      "categoria": "ferramenta",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 156,
+      "tags": [
+        "dnd",
+        "equipamento"
+      ],
+      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-do-iluminador",
+      "nome": "Tatuagem do Iluminador",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "comum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-mascarada",
+      "nome": "Tatuagem Mascarada",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "comum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-membro-protetico",
+      "nome": "Membro Protético",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "comum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-de-feitico",
+      "nome": "Tatuagem de Feitiço",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "comum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-ferramenta-multifuncional",
+      "nome": "Ferramenta Multifuncional",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-amuleto-do-devoto",
+      "nome": "Amuleto do Devoto",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-grimorio-arcano",
+      "nome": "Grimório Arcano",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-barreira",
+      "nome": "Tatuagem Barreira",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-frasco-de-sangue",
+      "nome": "Frasco de Sangue",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-garra-mistica",
+      "nome": "Tatuagem Garra Mística",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-de-feywild",
+      "nome": "Fragmento de Feywild",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-emblema-do-guardiao",
+      "nome": "Emblema do Guardião",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-foice-da-lua",
+      "nome": "Foice da Lua",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-manto-da-natureza",
+      "nome": "Manto da Natureza",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tambor-fabricante-de-ritmo",
+      "nome": "Tambor Fabricante de Ritmo",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "incomum",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-compendio-alquimico",
+      "nome": "Compêndio Alquímico",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-astral",
+      "nome": "Fragmento Astral",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-arquivo-de-astromancia",
+      "nome": "Arquivo de Astromancia",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-atlas-de-infinitos-horizontes",
+      "nome": "Atlas de Infinitos Horizontes",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-sino-filial",
+      "nome": "Sino Filial",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-devoto-do-censer",
+      "nome": "Devoto do Censer",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-manuscrito-duplicado",
+      "nome": "Manuscrito Duplicado",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-de-essencia-elemental",
+      "nome": "Fragmento de Essência Elemental",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-do-plano-distante",
+      "nome": "Fragmento do Plano Distante",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-manual-do-tecelao-do-coracao",
+      "nome": "Manual do Tecelão do Coração",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-livro-da-alma-e-carne",
+      "nome": "Livro da Alma e Carne",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-lira-da-construcao",
+      "nome": "Lira da Construção",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-de-essencia-externa",
+      "nome": "Fragmento de Essência Externa",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-codex-do-invocador-de-planos",
+      "nome": "Códex do Invocador de Planos",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-versos-protetores",
+      "nome": "Versos Protetores",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-da-marca-de-shadowfell",
+      "nome": "Tatuagem da Marca de Shadowfell",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-fragmento-de-shadowfell",
+      "nome": "Fragmento de Shadowfell",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-da-absorcao",
+      "nome": "Tatuagem da Absorção",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "muito raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-caldeirao-do-renascimento",
+      "nome": "Caldeirão do Renascimento",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "muito raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-cronica-cristalina",
+      "nome": "Crônica Cristalina",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "muito raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-da-etapa-fantasma",
+      "nome": "Tatuagem da Etapa Fantasma",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "muito raro",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tatuagem-de-furia-de-sangue",
+      "nome": "Tatuagem de Fúria de Sangue",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade lendário. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "lendário",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-almofariz-e-pilao-de-baba-yaga",
+      "nome": "Almofariz e Pilão de Baba Yaga",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-tarokka-das-almas-de-luba",
+      "nome": "Tarokka das Almas de Luba",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-poderoso-servo-de-leuk-o",
+      "nome": "Poderoso Servo de Leuk-o",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato",
+      "revisarDados": true
+    },
+    {
+      "id": "dd-tasha-dentes-de-dahlver-nar",
+      "nome": "Dentes de Dahlver-Nar",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 119,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato",
+      "revisarDados": true
+    }
+  ]
+}
