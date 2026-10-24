@@ -1,0 +1,181 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2024-montaria-0",
+      "nome": "Camelo",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 225 kg.",
+      "capacidadeCarga": 225,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-1",
+      "nome": "Cavalo de Carga",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 270 kg.",
+      "capacidadeCarga": 270,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-2",
+      "nome": "Cavalo de Guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 270 kg.",
+      "capacidadeCarga": 270,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-3",
+      "nome": "Cavalo de Montaria",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 240 kg.",
+      "capacidadeCarga": 240,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-4",
+      "nome": "Elefante",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 660 kg.",
+      "capacidadeCarga": 660,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-5",
+      "nome": "Mastim",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 93 kg.",
+      "capacidadeCarga": 93,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-6",
+      "nome": "Mula",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 210 kg.",
+      "capacidadeCarga": 210,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-montaria-7",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Capacidade de carga: 112 kg.",
+      "capacidadeCarga": 112,
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
