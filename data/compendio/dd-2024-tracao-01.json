@@ -1,0 +1,215 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2024-tracao-0",
+      "nome": "Alimentação por dia",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-1",
+      "nome": "Biga",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 50,
+      "preco": {
+        "valor": 250,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-2",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 100,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-3",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 300,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-4",
+      "nome": "Estábulo por dia",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-5",
+      "nome": "Sela Exótica",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 20,
+      "preco": {
+        "valor": 60,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Necessária para montar criaturas aquáticas ou voadoras.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-6",
+      "nome": "Sela Militar",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 15,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Concede vantagem em testes de atributo para permanecer montado.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-7",
+      "nome": "Sela de Viagem",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 12.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-8",
+      "nome": "Trenó",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 150,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-tracao-9",
+      "nome": "Vagão",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 200,
+      "preco": {
+        "valor": 35,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 229,
+      "descricao": "Equipamento, veículo ou serviço para montarias.",
+      "tags": [
+        "dnd",
+        "2024",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
