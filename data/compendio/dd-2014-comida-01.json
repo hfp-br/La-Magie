@@ -1,0 +1,221 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2014-alimento-banquete-por-pessoa",
+      "nome": "Banquete (por pessoa)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-carne-pedaco",
+      "nome": "Carne (pedaço)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-cerveja-galao",
+      "nome": "Cerveja (galão)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-cerveja-caneca",
+      "nome": "Cerveja (caneca)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-pao-pedaco",
+      "nome": "Pão (pedaço)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-queijo-pedaco",
+      "nome": "Queijo (pedaço)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-vinho-comum-jarra",
+      "nome": "Vinho comum (jarra)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-alimento-vinho-fino-garrafa",
+      "nome": "Vinho fino (garrafa)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 160,
+      "descricao": "Preço por unidade ou porção indicado na tabela de comida, bebida e hospedagem. Massa não especificada.",
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Consumir"
+      },
+      "tags": [
+        "dnd",
+        "2014",
+        "comida",
+        "bebida"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
