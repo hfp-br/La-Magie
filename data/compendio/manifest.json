@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "files": [
+    "data/compendio/arma-01.json",
+    "data/compendio/armadura-01.json",
+    "data/compendio/consumivel-01.json",
+    "data/compendio/item-geral-01.json",
+    "data/compendio/vestuario-01.json",
+    "data/compendio/animal-01.json",
+    "data/compendio/veiculo-01.json",
+    "data/compendio/escudo-01.json",
+    "data/compendio/acessorio-01.json",
+    "data/compendio/municao-01.json",
+    "data/compendio/artefato-01.json",
+    "data/compendio/ingrediente-01.json",
+    "data/compendio/equipamento-01.json",
+    "data/compendio/material-01.json",
+    "data/compendio/esoterico-01.json",
+    "data/compendio/arma-magica-01.json",
+    "data/compendio/ferramenta-01.json"
+  ],
+  "updatedAt": "2026-10-24T00:19:33.798Z"
+}
