@@ -1,0 +1,885 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-escudo-do-conjurador",
+      "nome": "Escudo do conjurador",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - leve",
+      "peso": 3,
+      "preco": {
+        "valor": 20000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - leve",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "conjurador",
+        "defensora"
+      ],
+      "descricao": "Escudo leve defensor com uma tira de couro interna capaz de armazenar uma magia como se fosse um pergaminho. Efeitos: Bônus de Defesa +3 Um conjurador pode lançar uma magia na tira interna; ela fica armazenada e pode ser lida como pergaminho. Depois de usada, outra magia pode ser inscrita. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-conjurador-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 3,
+          "text": "Bônus de Defesa +3"
+        },
+        {
+          "id": "escudo-do-conjurador-z0sjy",
+          "type": "other",
+          "mode": "use",
+          "text": "Um conjurador pode lançar uma magia na tira interna; ela fica armazenada e pode ser lida como pergaminho. Depois de usada, outra magia pode ser inscrita."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do conjurador",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
+      "armor": {
+        "defenseBonus": 3,
+        "armorPenalty": -1,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-espinhoso",
+      "nome": "Escudo espinhoso",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "espinhos",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor coberto de espinhos, capaz de disparar um deles magicamente. Efeitos: Bônus de Defesa +4 Ação de movimento e 2 PM: dispara um espinho em alvo em alcance curto; acerta automaticamente e causa 1d10+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.; Defensora: +2 Defesa; Espinhoso: dano de ataque com escudo aumenta um passo",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "efeitos": [
+        {
+          "id": "escudo-espinhoso-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-espinhoso-h7iki",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: dispara um espinho em alvo em alcance curto; acerta automaticamente e causa 1d10+2 de perfuração."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo espinhoso",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.; Defensora: +2 Defesa; Espinhoso: dano de ataque com escudo aumenta um passo",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-do-leao",
+      "nome": "Escudo do leão",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "leao",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor forjado como uma cabeça de leão rugindo. Efeitos: Bônus de Defesa +4 Uma vez por rodada, pode gastar 2 PM para a cabeça morder criatura adjacente; acerta automaticamente e causa 2d6+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-leao-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-do-leao-b2s1w",
+          "type": "other",
+          "mode": "use",
+          "text": "Uma vez por rodada, pode gastar 2 PM para a cabeça morder criatura adjacente; acerta automaticamente e causa 2d6+2 de perfuração."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do leão",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-do-eclipse",
+      "nome": "Escudo do eclipse",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 35000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "trevas",
+        "escuridao",
+        "defensora"
+      ],
+      "descricao": "Escudo pesado defensor completamente negro, que parece absorver a luz. Efeitos: Bônus de Defesa +4 Fornece resistência a trevas 10. Um ataque com o escudo causa +1d8 de trevas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "escudo-do-eclipse-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 4,
+          "text": "Bônus de Defesa +4"
+        },
+        {
+          "id": "escudo-do-eclipse-2g1zm",
+          "type": "other",
+          "mode": "always",
+          "text": "Fornece resistência a trevas 10."
+        },
+        {
+          "id": "escudo-do-eclipse-dano-odeh9",
+          "type": "other",
+          "mode": "always",
+          "text": "Um ataque com o escudo causa +1d8 de trevas."
+        },
+        {
+          "id": "escudo-do-eclipse-escuridao-2pih6",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação de movimento e 2 PM: lança Escuridão."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo do eclipse",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 4,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-escudo-de-azgher",
+      "nome": "Escudo de Azgher",
+      "categoria": "escudo",
+      "subtipo": "corpo a corpo - uma mao",
+      "peso": 7,
+      "preco": {
+        "valor": 70000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 326,
+      "tags": [
+        "arma",
+        "marcial",
+        "corpo a corpo - uma mao",
+        "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "escudo",
+        "defesa",
+        "penalidade de armadura",
+        "magico",
+        "escudo especifico",
+        "azgher",
+        "sol",
+        "fogo",
+        "guardia"
+      ],
+      "descricao": "Escudo pesado guardião forjado na forma de um sol estilizado, dedicado a Azgher. Efeitos: Bônus de Defesa +6 Ação padrão e 10 PM: emite luz em cone de alcance curto, gera os efeitos de Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 em mortos-vivos e criaturas vulneráveis à luz solar). Gaste 1 PM no início de cada turno para manter. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "efeitos": [
+        {
+          "id": "escudo-de-azgher-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 6,
+          "text": "Bônus de Defesa +6"
+        },
+        {
+          "id": "escudo-de-azgher-gsc7w",
+          "type": "other",
+          "mode": "use",
+          "text": "Ação padrão e 10 PM: emite luz em cone de alcance curto, gera os efeitos de Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 em mortos-vivos e criaturas vulneráveis à luz solar). Gaste 1 PM no início de cada turno para manter."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Escudo de Azgher",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
+        "allowedToggles": [],
+        "damageStat": "str"
+      },
+      "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
+      "armor": {
+        "defenseBonus": 6,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-herois-broquel",
+      "nome": "Broquel",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 223,
+      "tags": [
+        "escudo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este escudo parece pequeno demais não é um traje apropriado para bailes, reuniões diplopara ter qualquer uso, protegendo apenas a mão e o máticas ou mesmo para andar na rua! O usuário pode pulso (o que impede o uso dessa mão). Contudo, ele ser barrado desses lugares ou o bônus da armadura não é como outros escudos: em vez de atuar como uma pode ser transformado em penalidade, a critério do barreira fixa entre o usuário e seus inimigos, ajuda mestre.",
+      "properties": "Defesa +0; Penalidade -1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.321Z",
+      "efeitos": [
+        {
+          "id": "broquel-ac-0-na-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+0 na Defesa.",
+          "bonus": 0
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "armor": {
+        "defenseBonus": 0,
+        "armorPenalty": -1,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-herois-escudo-de-vime",
+      "nome": "Escudo de vime",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 223,
+      "tags": [
+        "escudo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este escudo é grande e Sagna. Desenvolvido por devotos de Oceano desajeitado, mas extremamente leve devido a seu e muito comum em regiões praianas, este grande material. Parece não proteger muito, pois existem escudo de madeira também pode ser usado para pequenas “falhas” entre as fibras de vime.",
+      "properties": "Defesa +2; Penalidade -2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "efeitos": [
+        {
+          "id": "escudo-de-vime-ac-2-na-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 na Defesa.",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-herois-escudo-torre",
+      "nome": "Escudo torre",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 223,
+      "tags": [
+        "escudo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este escudo grande e retangular Colete Fora da Lei. Diz-se que este colete é feito de madeira e reforçado com aço e couro. É preso metálico único foi desenvolvido por uma quadrilha ao antebraço como um escudo pesado mas, devido de Smokestone — um bando com muita criatividade a seu tamanho, não pode ser usado para atacar, ou e pouco caráter.",
+      "properties": "Defesa +2; Penalidade -4",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "efeitos": [
+        {
+          "id": "escudo-torre-ac-2-na-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 na Defesa.",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -4,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-herois-sagna",
+      "nome": "Sagna",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 223,
+      "tags": [
+        "escudo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Desenvolvido por devotos de Oceano desajeitado, mas extremamente leve devido a seu e muito comum em regiões praianas, este grande material. Parece não proteger muito, pois existem escudo de madeira também pode ser usado para pequenas “falhas” entre as fibras de vime. À primeira deslizar pelas ondas.",
+      "properties": "Defesa +2; Penalidade -3",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "efeitos": [
+        {
+          "id": "sagna-ac-2-na-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "text": "+2 na Defesa.",
+          "bonus": 2
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -3,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-herois-escudo-da-luz-estelar",
+      "nome": "Escudo da luz estelar",
+      "categoria": "escudo",
+      "subtipo": "mágico específico",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 258,
+      "tags": [
+        "escudo",
+        "magico especifico",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este escudo leve em um aliado e gasta pelo menos 1 PM, recebe 1 PM defensor parece feito de cristal e brilha com a luz das temporário para gastar em aprimoramentos na próxima estrelas. Você recebe +5 em Percepção. Além disso, magia que lançar nessa cena.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.371Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-escudo-da-ira-vulcanica",
+      "nome": "Escudo da ira vulcânica",
+      "categoria": "escudo",
+      "subtipo": "mágico específico",
+      "peso": 0,
+      "preco": {
+        "valor": 54000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 258,
+      "tags": [
+        "escudo",
+        "magico especifico",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Feito de rocha mesmo tipo e deixam o alvo ofuscado por 1 rodada. vulcânica e gravado com runas de magma, este escudo pesado guardião fornece redução de fogo 10 e permite Clemente. O esotérico vibra com energia posique você lance Explosão de Chamas como uma ação tiva, como se estivesse ansioso para salvar vidas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.372Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-escudo-da-natureza-viva",
+      "nome": "Escudo da natureza viva",
+      "categoria": "escudo",
+      "subtipo": "mágico específico",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 258,
+      "tags": [
+        "escudo",
+        "magico especifico",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este escudo leve Por exemplo, uma labareda infernal pode virar uma defensor de madeira Tollon é feito de madeira viva e lufada de ar abafado que, em vez de carbonizar seu constantemente floresce com plantas. Você recebe alvo, irá apenas fazê-lo desmaiar. Quando lança uma +2 em Fortitude e pode lançar Curar Ferimentos (CD magia de dano, você pode gastar +1 PM para que ela Sab).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.372Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-escudo-do-grifo",
+      "nome": "Escudo do grifo",
+      "categoria": "escudo",
+      "subtipo": "mágico específico",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 258,
+      "tags": [
+        "escudo",
+        "magico especifico",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este escudo pesado defensor é um item mundano de tamanho equivalente — um forjado no formato de uma asa gigante. Você recebe cajado arcano pode parecer uma vassoura, enquanto redução de dano 10 contra ataques à distância e pode uma varinha pode parecer um cachimbo. Ele permite lançar Sopro das Uivantes (CD Sab).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.372Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-escudo-do-trovao",
+      "nome": "Escudo do trovão",
+      "categoria": "escudo",
+      "subtipo": "mágico específico",
+      "peso": 0,
+      "preco": {
+        "valor": 54000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 258,
+      "tags": [
+        "escudo",
+        "magico especifico",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este escudo pesado guardião na CD do teste de Misticismo para perceber que você de mitral é decorado com raios em alto-relevo. Sempre lançou uma magia. que você sofre dano de um ataque corpo a corpo, pode gastar 2 PM para liberar um estrondo sônico Emergencial.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.373Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-escudo-leve",
+      "nome": "Escudo leve",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "escudo",
+        "jogo do ano"
+      ],
+      "descricao": "Escudo normalmente de madeira, amarrado ao antebraço. Deixa a mão livre para carregar objetos, mas não para manusear uma arma. Efeitos: +1 na Defesa. Espaços: 1; Defesa +1; penalidade de armadura -1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-escudo-leve-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 1,
+          "text": "+1 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1; Defesa +1; penalidade de armadura -1",
+      "armor": {
+        "defenseBonus": 1,
+        "armorPenalty": -1,
+        "type": "escudo"
+      }
+    },
+    {
+      "id": "t20-jda-escudo-pesado",
+      "nome": "Escudo pesado",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 153,
+      "tags": [
+        "escudo",
+        "jogo do ano"
+      ],
+      "descricao": "Escudo normalmente de aço, preso ao antebraço e empunhado com firmeza, ocupando a mão que o utiliza. Efeitos: +2 na Defesa. Espaços: 2; Defesa +2; penalidade de armadura -2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [
+        {
+          "id": "t20-jda-escudo-pesado-defesa",
+          "type": "ac",
+          "mode": "toggle",
+          "bonus": 2,
+          "text": "+2 na Defesa."
+        }
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2; Defesa +2; penalidade de armadura -2",
+      "armor": {
+        "defenseBonus": 2,
+        "armorPenalty": -2,
+        "type": "escudo"
+      }
+    }
+  ]
+}
