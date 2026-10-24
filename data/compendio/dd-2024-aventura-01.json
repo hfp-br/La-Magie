@@ -63,9 +63,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequena bolsa de tecido ou couro usada na cintura para guardar moedas e objetos miúdos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-aljava",
@@ -85,9 +84,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Estojo próprio para carregar e retirar flechas com rapidez.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-antitoxina",
@@ -107,9 +105,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Líquido medicinal que auxilia o organismo a resistir a venenos durante um período limitado.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-apito-sinalizador",
@@ -129,9 +126,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Apito portátil cujo som agudo é usado para chamar atenção, transmitir sinais ou pedir socorro.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-ariete-portavel",
@@ -151,9 +147,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pesada viga reforçada, geralmente usada por mais de uma pessoa para arrombar portas e portões.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-armadilha-de-caca",
@@ -173,9 +168,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Armadilha metálica de pressão que imobiliza e fere animais ou criaturas que a acionarem.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-arpeu",
@@ -195,9 +189,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Gancho de ferro que pode ser preso à ponta de uma corda para escalar ou prender objetos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-balde",
@@ -217,9 +210,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Recipiente com alça para transportar água, areia e outros materiais em pequenas quantidades.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-baliza",
@@ -239,9 +231,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Haste ou bastão utilizado para delimitar áreas, marcar posições e sinalizar caminhos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-barril",
@@ -261,9 +252,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Grande recipiente de madeira para armazenamento e transporte de líquidos ou mantimentos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-bau",
@@ -283,9 +273,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Caixa rígida de armazenamento, adequada a equipamentos, roupas e tesouros.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-bolsa-de-componentes",
@@ -305,9 +294,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Bolsa que contém materiais consumíveis de conjuração sem preço específico, usados em magias que exigem componentes.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-cadeado",
@@ -327,9 +315,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Fechadura portátil para correntes, caixas ou portas; pode ser aberta com chave ou ferramentas apropriadas.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-caixa-para-fogo",
@@ -349,9 +336,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Caixa com pederneira, aço e material inflamável para acender fogueiras e tochas.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-caneta-tinteiro",
@@ -371,9 +357,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Instrumento de escrita usado com tinta em papel, pergaminhos e documentos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-cantil-cheio",
@@ -393,9 +378,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Recipiente portátil com água para beber durante viagens.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-cesta",
@@ -415,9 +399,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Recipiente trançado com alças para carregar alimentos, ferramentas e objetos leves.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-cobertor",
@@ -437,9 +420,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Manta de tecido utilizada para aquecer o corpo em descanso e proteger contra o frio moderado.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-corda",
@@ -459,9 +441,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Corda resistente para escalada, amarração, içamento e travessias; requer ancoragem adequada.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-cordao",
@@ -481,9 +462,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Fio ou cordão para amarrar pequenos objetos, prender bolsas e improvisar laços.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-corrente",
@@ -503,9 +483,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Elos metálicos resistentes usados para prender, puxar ou limitar movimentos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-escada",
@@ -525,9 +504,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Escada portátil de madeira para alcançar locais elevados ou transpor pequenos obstáculos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-esferas-de-metal",
@@ -547,9 +525,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequenas esferas que podem ser espalhadas pelo chão para tornar a passagem escorregadia e dificultar movimentação.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-espelho",
@@ -569,9 +546,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequeno espelho portátil usado para observar reflexos, examinar ângulos e fazer sinais luminosos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-estacas-de-ferro",
@@ -591,9 +567,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Estacas resistentes para fixar cordas, barracas e outros equipamentos ao solo.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-estojo-mapa-ou-pergaminho",
@@ -613,9 +588,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Tubo protetor para transportar mapas, cartas e pergaminhos enrolados sem danificá-los.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-estojo-virote-de-besta",
@@ -635,9 +609,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Estojo ou aljava apropriada para armazenar e transportar virotes de besta.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-estrepes",
@@ -657,9 +630,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Peças metálicas pontiagudas que podem ser espalhadas no chão para atrapalhar passagem e ferir pés desprotegidos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-fogo-alquimico",
@@ -679,9 +651,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Mistura inflamável em frasco; quando quebrado, o líquido se incendeia e pode queimar o alvo atingido.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-frasco",
@@ -701,9 +672,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequeno recipiente de vidro ou cerâmica usado para guardar substâncias, poções ou reagentes.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-garrafa-de-vidro-1-litro",
@@ -723,9 +693,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Garrafa reutilizável com capacidade aproximada de um litro para líquidos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-grilhoes",
@@ -745,9 +714,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Algemas metálicas para prender pulsos ou tornozelos; podem ser abertas por chave ou arrombamento.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-jarro-4-litros",
@@ -767,9 +735,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Recipiente grande, próprio para armazenar ou servir até quatro litros de líquido.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-artista",
@@ -789,9 +756,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pacote de suprimentos e utensílios para trabalhos artísticos e apresentações em viagem.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-assaltante",
@@ -811,9 +777,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Conjunto de apetrechos para exploração furtiva, como corda, ferramentas e materiais de infiltração.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-aventureiro",
@@ -833,9 +798,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pacote de suprimentos básicos de exploração e viagem, incluindo recipientes, iluminação e outros itens úteis.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-curandeiro",
@@ -877,9 +841,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Equipamento de apresentação e viagem de um emissário, com roupas e materiais para correspondência.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-erudito",
@@ -899,9 +862,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Conjunto de material de escrita, livros e acessórios para pesquisa e registro de informações.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-escalada",
@@ -921,9 +883,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Conjunto de equipamentos de segurança e fixação usado para subir paredões e superfícies íngremes.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-explorador-de-masmorras",
@@ -943,9 +904,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pacote de suprimentos para cavernas e ruínas, incluindo itens de iluminação, transporte e exploração.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-kit-de-sacerdote",
@@ -965,9 +925,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Conjunto de suprimentos de viagem para práticas religiosas, vestes e utensílios de devoção.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-lampada",
@@ -987,9 +946,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Luminária que queima óleo para fornecer luz durante uma viagem ou permanência em acampamento.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-lanterna-coberta",
@@ -1009,9 +967,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Lanterna a óleo com tampa, permitindo reduzir ou bloquear temporariamente a luz emitida.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-lanterna-foca-facho",
@@ -1031,9 +988,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Lanterna cujo refletor direciona a luz em um cone, útil para iluminar áreas à distância.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-livro",
@@ -1053,9 +1009,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Volume encadernado com páginas para consulta, estudo ou registro de informações.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-luneta",
@@ -1075,9 +1030,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Instrumento óptico portátil que aproxima visualmente objetos e locais muito distantes.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-lupa",
@@ -1097,9 +1051,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Lente convexa utilizada para examinar detalhes pequenos, inscrições e materiais delicados.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-mapa",
@@ -1119,9 +1072,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Representação de estradas, relevos ou locais conhecidos, útil para planejar rotas.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-mochila",
@@ -1141,9 +1093,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Bolsa de costas para transportar provisões, ferramentas e equipamentos pessoais.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-oleo",
@@ -1163,9 +1114,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequeno frasco com óleo combustível, empregado em lâmpadas e outros usos práticos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pa",
@@ -1185,9 +1135,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Ferramenta manual para cavar terra, abrir buracos e transportar areia ou cascalho.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-papel",
@@ -1207,9 +1156,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Folha própria para escrita e desenho, usada com tinta ou outro instrumento.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pe-de-cabra",
@@ -1229,9 +1177,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Barra de ferro usada como alavanca para deslocar objetos, abrir tampas ou forçar portas.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-perfume",
@@ -1251,9 +1198,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Frasco de fragrância usado na higiene e apresentação pessoal.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pergaminho",
@@ -1273,9 +1219,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Folha de material preparado para escrever cartas, anotações e registros duradouros.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-1-circulo",
@@ -1295,9 +1240,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pergaminho consumível com uma magia de 1º círculo inscrita; permite conjurá-la conforme as regras de pergaminhos mágicos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-truque",
@@ -1317,9 +1261,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pergaminho consumível que contém um truque mágico e desaparece após sua conjuração.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pocao-de-cura",
@@ -1361,9 +1304,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Vasilha pequena de cerâmica ou outro material, própria para guardar e servir alimentos ou materiais.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-pote-ferro",
@@ -1383,9 +1325,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Panela ou pote resistente de ferro para cozinhar sobre fogo e preparar alimentos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-racoes",
@@ -1405,9 +1346,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Porção de alimentos não perecíveis preparada para sustentar um viajante por um dia.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-rede",
@@ -1427,9 +1367,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Malha de cordas usada para pescar, capturar ou restringir temporariamente uma criatura.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-roldana-e-polias",
@@ -1449,9 +1388,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Conjunto mecânico de polias e cordas que auxilia a levantar ou movimentar cargas pesadas.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-roupas-fantasia",
@@ -1471,9 +1409,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Traje elaborado para espetáculos, festas, encenações ou disfarces visuais.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-roupas-finas",
@@ -1493,9 +1430,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Vestuário de boa qualidade, adequado a situações formais ou cerimônias.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-roupas-viagem",
@@ -1515,9 +1451,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Roupas resistentes e práticas para jornadas e deslocamentos frequentes.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-saca",
@@ -1537,9 +1472,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Saco simples de tecido para guardar ou transportar provisões e outros objetos.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-saco-de-dormir",
@@ -1559,9 +1493,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Rolo acolchoado que oferece uma superfície isolante para repousar ao ar livre.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-sino",
@@ -1581,9 +1514,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pequeno instrumento metálico que produz som claro quando agitado.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-tenda",
@@ -1603,9 +1535,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Abrigo portátil de lona destinado a proteger pessoas de vento, chuva moderada e exposição.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-tinta",
@@ -1625,9 +1556,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Pigmento líquido usado para escrever ou desenhar com caneta apropriada.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-tocha",
@@ -1647,9 +1577,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Haste combustível acesa para iluminar locais escuros; exige cuidado com fogo.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-vela",
@@ -1669,9 +1598,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Fonte simples de luz por combustão de cera ou material semelhante.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-tunica",
@@ -1691,9 +1619,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Peça de vestuário comprida usada como roupa cotidiana ou por cima de outras peças.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-equipamento-veneno-basico",
@@ -1713,9 +1640,8 @@
         "2024",
         "equipamento"
       ],
-      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
-      "schemaVersion": 5,
-      "revisarDescricao": true
+      "descricao": "Veneno preparado para aplicação em arma ou munição; causa dano venenoso conforme suas regras de uso.",
+      "schemaVersion": 5
     },
     {
       "id": "dd-2024-municao-agulhas-50",
