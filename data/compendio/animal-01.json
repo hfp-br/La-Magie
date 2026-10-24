@@ -1,0 +1,446 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-cao-de-guarda",
+      "nome": "Cão de guarda",
+      "categoria": "animal",
+      "subtipo": "montaria/aliado",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria/aliado",
+        "cao",
+        "montaria",
+        "aliado"
+      ],
+      "descricao": "Cachorro valente e leal. Pode servir como montaria para criaturas Pequenas ou Minúsculas, ou como aliado conforme as regras de Parceiro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cavalo",
+      "nome": "Cavalo",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "cavalo"
+      ],
+      "descricao": "Montaria comum no Reinado. Sem treinamento de guerra, se assusta facilmente em combate e exige Cavalgar CD 20 por rodada para permanecer montado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "cavalo",
+        "guerra"
+      ],
+      "descricao": "Cavalo treinado para combate. Diferente de um cavalo comum, não exige o teste de Cavalgar para permanecer montado em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ponei",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "ponei"
+      ],
+      "descricao": "Montaria comum entre raças Pequenas. Sem treinamento de guerra, exige Cavalgar CD 20 por rodada para permanecer montado em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-ponei-de-guerra",
+      "nome": "Pônei de guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "montaria",
+        "ponei",
+        "guerra"
+      ],
+      "descricao": "Pônei treinado para combate. Dispensa o teste de Cavalgar exigido por pôneis comuns durante um combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-trobo",
+      "nome": "Trobo",
+      "categoria": "animal",
+      "subtipo": "carga/tracao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "carga/tracao",
+        "trobo",
+        "carga",
+        "tracao"
+      ],
+      "descricao": "Grande ave semelhante a um avestruz com chifres e cascos de búfalo. Muito dócil, é usada como animal de carga e tração.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-alforje",
+      "nome": "Alforje",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Sacos de couro presos à sela. Permitem que uma montaria carregue até 10 espaços de itens para você.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cao-de-caca",
+      "nome": "Cão de caça",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Cão valente e leal. Pode funcionar como parceiro perseguidor para personagens treinados em Adestramento ou como montaria para criaturas Pequenas ou Minúsculas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cavalo",
+      "nome": "Cavalo",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Montaria comum do Reinado. Pode funcionar como parceiro montaria; cavalos sem treinamento exigem Cavalgar CD 20 por rodada durante combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Cavalo treinado para combate. Funciona como montaria e não exige o teste de Cavalgar necessário para cavalos comuns em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-ponei",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Montaria comum entre raças Pequenas. Pode funcionar como parceiro montaria; sem treinamento, exige Cavalgar CD 20 por rodada em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-ponei-de-guerra",
+      "nome": "Pônei de guerra",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Pônei treinado para combate. Funciona como montaria e dispensa o teste de Cavalgar exigido por pôneis comuns em combate.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-trobo",
+      "nome": "Trobo",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "animal",
+        "jogo do ano"
+      ],
+      "descricao": "Grande ave sem asas, semelhante a um avestruz com chifres, couro e cascos. É dócil, usada para carga, tração e também como montaria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    }
+  ]
+}
