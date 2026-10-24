@@ -1,0 +1,693 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-herois-compasso-mistico",
+      "nome": "Compasso místico",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "esoterico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este compasso ostenta don, capaz de arruinar objetos metálicos. Para usá-lo, marcações geométricas combinadas com símbolos você deve gastar uma ação padrão e arremessá-lo em arcanos. Quando lança uma magia com efeito em área, um quadrado de 1,5m em alcance curto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-flauta-convocadora",
+      "nome": "Flauta convocadora",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "esoterico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta réplica de flauta de metal (como golens) ficam fatigadas, mesmo que é esculpida em um único pedaço de cristal. Quando sejam imunes a essa condição. Em ambos os casos, lança uma magia que conjura capangas, você conjura um teste de Fortitude (CD Des) para cada item ou um capanga adicional do mesmo tipo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.344Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mandala-onirica",
+      "nome": "Mandala onírica",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "esoterico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta mandala é feita de passar em um teste de Ofício (artesão) contra CD 20. delicados fios metálicos entrelaçados. Quando ao menos um inimigo falha no teste de Vontade de Frasco Abissal.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.344Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-varinha-armamentista",
+      "nome": "Varinha armamentista",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "esoterico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Feita de metal alcance curto. Todas as criaturas a até 3m desse ou marfim, esta varinha canaliza seu poder pessoal ponto sofrem 6d6 pontos de dano de fogo e ficam para a energia da magia. Aumenta o bônus de dano em chamas (Reflexos CD Des reduz à metade e evita fornecido pelo poder Arcano de Batalha em +2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.344Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cajado-das-mares",
+      "nome": "Cajado das marés",
+      "categoria": "esoterico",
+      "subtipo": "mágico média",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 260,
+      "tags": [
+        "esoterico",
+        "magico media",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cajado arcano glacial é feito de coral azul e conchas. Você recebe deslocamento de natação 9m (se já possui deslocamento de natação, Encantos ele aumenta em +3m). Além disso, você pode gastar para Acessórios uma ação de movimento e 2 PM para conjurar um Encantos para acessórios são aplicados a itens redemoinho que empurra todos os inimigos adjacentes gerais (exceto esotéricos, que possuem sua própria 4,5m para longe de você (Ref CD Int evita).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.373Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-calice-sagrado",
+      "nome": "Cálice sagrado",
+      "categoria": "esoterico",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 150000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 260,
+      "tags": [
+        "esoterico",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este cálice pode ser luxuoso ou humilde — de ouro e adornado com gemas, ou Aconchegante. O vestuário torna o sono mais de barro e feitio rústico —, conforme a divindade à confortável, melhorando seu descanso em uma categoria. qual foi consagrado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.373Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-relogio-do-arcanista",
+      "nome": "Relógio do arcanista",
+      "categoria": "esoterico",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 60000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 260,
+      "tags": [
+        "esoterico",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este relógio de bolso Autoritário. O vestuário tem ornamentos com corpo de prata possui símbolos arcanos no lugar volumosos no peitoral e nas ombreiras, tornando sua de números em seu mostrador, e permite manipular o figura mais imponente. Fornece +2 em Intimidação tempo necessário para lançar magias arcanas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-varinha-milenar",
+      "nome": "Varinha milenar",
+      "categoria": "esoterico",
+      "subtipo": "mágico maior",
+      "peso": 0,
+      "preco": {
+        "valor": 200000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 260,
+      "tags": [
+        "esoterico",
+        "magico maior",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Um esotérico ancestral, goto, toda a imundície desaparece em 1 rodada. Fornece que já foi usado por diversos arquimagos ao longo da +2 em Diplomacia (cumulativo com outros bônus história artoniana… e absorveu um pouco do poder do item) e aumenta a CD de Aparência Inofensiva, de cada um deles. A varinha milenar conta como uma Presença Aristocrática e efeitos similares em +2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-cajado-da-destruicao",
+      "nome": "Cajado da Destruição",
+      "categoria": "esoterico",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 90000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "esoterico",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Cajado magnífico voltado a usuários de raio arcano. Aumenta em +2 a CD para resistir ao raio e acrescenta um dado de dano; ao disparar um raio, o usuário pode gastar 3 PM para lançar um segundo contra outro alvo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-varinha-elfica",
+      "nome": "Varinha Élfica",
+      "categoria": "esoterico",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 4600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "esoterico",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Varinha arcana feita de madeira de Tollon e com a melhoria energética, criada para potencializar o dano de magias.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-bolsa-de-po",
+      "nome": "Bolsa de pó",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Bolsa de pó multicolorido feito de pétalas da Pondsmânia. Ao lançar encantamentos ou ilusões, fornece +2 PM para gastar apenas em aprimoramentos da magia. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-cajado-arcano",
+      "nome": "Cajado arcano",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Cajado entalhado com runas. Aumenta em +1 o limite de PM e a CD de magias arcanas; precisa ser empunhado com as duas mãos e também pode ser usado como bordão. Efeito: Espaços: 2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 2"
+    },
+    {
+      "id": "t20-jda-cetro-elemental",
+      "nome": "Cetro elemental",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Cetro com gema associada a ácido, eletricidade, fogo ou frio. Magias que causem o tipo correspondente aumentam o dano em um dado do mesmo tipo. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-costela-de-lich",
+      "nome": "Costela de lich",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Varinha feita de osso de morto-vivo. Suas magias causam +1d6 de trevas, mas enquanto estiver empunhada você não recupera PV por cura mágica. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-dedo-de-ente",
+      "nome": "Dedo de ente",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Varinha feita de madeira de uma árvore senciente. Sempre que gastar PM para lançar magia, role 1d4; com 4, recupera 1 PM. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luva-de-ferro",
+      "nome": "Luva de ferro",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Conjunto de dedais metálicos ligados por correntes. Magias arcanas pessoais que dão bônus na Defesa ou resistências aumentam esse bônus em +1. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-medalhao-de-prata",
+      "nome": "Medalhão de prata",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Medalhão gravado com runa pessoal do conjurador. Reduz em –1 PM o custo de magias de alcance pessoal. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-orbe-cristalina",
+      "nome": "Orbe cristalina",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Esfera cristalina que concentra poder mágico. Aumenta em +1 o limite de PM que você pode gastar em magias arcanas. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tomo-hermetico",
+      "nome": "Tomo hermético",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Livro dedicado a uma escola de magia. Aumenta em +2 a CD para resistir às suas magias arcanas dessa escola. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-varinha-arcana",
+      "nome": "Varinha arcana",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "esoterico",
+        "jogo do ano"
+      ],
+      "descricao": "Varinha de madeira entalhada com runas. Aumenta em +1 a CD para resistir às suas magias arcanas. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    }
+  ]
+}
