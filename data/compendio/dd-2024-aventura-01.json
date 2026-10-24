@@ -1,0 +1,1826 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2024-equipamento-acido",
+      "nome": "Ácido",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Arremessável até 6 m: falha na salvaguarda de Destreza causa 2d6 de dano ácido.",
+      "schemaVersion": 5,
+      "revisarDescricao": false
+    },
+    {
+      "id": "dd-2024-equipamento-agua-benta",
+      "nome": "Água Benta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Arremessável até 6 m: ínferos e mortos-vivos sofrem 2d8 de dano radiante se falharem na salvaguarda de Destreza.",
+      "schemaVersion": 5,
+      "revisarDescricao": false
+    },
+    {
+      "id": "dd-2024-equipamento-algibeira",
+      "nome": "Algibeira",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-aljava",
+      "nome": "Aljava",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-antitoxina",
+      "nome": "Antitoxina",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-apito-sinalizador",
+      "nome": "Apito Sinalizador",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-ariete-portavel",
+      "nome": "Aríete Portável",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 16.5,
+      "preco": {
+        "valor": 4,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-armadilha-de-caca",
+      "nome": "Armadilha de Caça",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 12.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-arpeu",
+      "nome": "Arpéu",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-balde",
+      "nome": "Balde",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-baliza",
+      "nome": "Baliza",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 3.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-barril",
+      "nome": "Barril",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 35,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-bau",
+      "nome": "Baú",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 12.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-bolsa-de-componentes",
+      "nome": "Bolsa de Componentes",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-cadeado",
+      "nome": "Cadeado",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-caixa-para-fogo",
+      "nome": "Caixa para Fogo",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-caneta-tinteiro",
+      "nome": "Caneta Tinteiro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-cantil-cheio",
+      "nome": "Cantil (cheio)",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-cesta",
+      "nome": "Cesta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 4,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-cobertor",
+      "nome": "Cobertor",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-corda",
+      "nome": "Corda",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-cordao",
+      "nome": "Cordão",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-corrente",
+      "nome": "Corrente",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-escada",
+      "nome": "Escada",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 12.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-esferas-de-metal",
+      "nome": "Esferas de Metal",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-espelho",
+      "nome": "Espelho",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.25,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-estacas-de-ferro",
+      "nome": "Estacas de Ferro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-estojo-mapa-ou-pergaminho",
+      "nome": "Estojo, Mapa ou Pergaminho",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-estojo-virote-de-besta",
+      "nome": "Estojo, Virote de Besta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-estrepes",
+      "nome": "Estrepes",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-fogo-alquimico",
+      "nome": "Fogo Alquímico",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-frasco",
+      "nome": "Frasco",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-garrafa-de-vidro-1-litro",
+      "nome": "Garrafa de Vidro (1 litro)",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-grilhoes",
+      "nome": "Grilhões",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 3,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-jarro-4-litros",
+      "nome": "Jarro (4 litros)",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-artista",
+      "nome": "Kit de Artista",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 29,
+      "preco": {
+        "valor": 40,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-assaltante",
+      "nome": "Kit de Assaltante",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 21,
+      "preco": {
+        "valor": 16,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-aventureiro",
+      "nome": "Kit de Aventureiro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 27.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-curandeiro",
+      "nome": "Kit de Curandeiro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Dez usos; estabiliza uma criatura inconsciente com 0 PV sem teste de Medicina.",
+      "schemaVersion": 5,
+      "revisarDescricao": false
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-diplomata",
+      "nome": "Kit de Diplomata",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 19.5,
+      "preco": {
+        "valor": 39,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-erudito",
+      "nome": "Kit de Erudito",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 11,
+      "preco": {
+        "valor": 40,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-escalada",
+      "nome": "Kit de Escalada",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 6,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-explorador-de-masmorras",
+      "nome": "Kit de Explorador de Masmorras",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 27.5,
+      "preco": {
+        "valor": 12,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-kit-de-sacerdote",
+      "nome": "Kit de Sacerdote",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 14.5,
+      "preco": {
+        "valor": 33,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-lampada",
+      "nome": "Lâmpada",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-lanterna-coberta",
+      "nome": "Lanterna Coberta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-lanterna-foca-facho",
+      "nome": "Lanterna Foca-facho",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-livro",
+      "nome": "Livro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-luneta",
+      "nome": "Luneta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-lupa",
+      "nome": "Lupa",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-mapa",
+      "nome": "Mapa",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-mochila",
+      "nome": "Mochila",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-oleo",
+      "nome": "Óleo",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pa",
+      "nome": "Pá",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-papel",
+      "nome": "Papel",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pe-de-cabra",
+      "nome": "Pé de Cabra",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-perfume",
+      "nome": "Perfume",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pergaminho",
+      "nome": "Pergaminho",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pergaminho-magico-1-circulo",
+      "nome": "Pergaminho Mágico (1º Círculo)",
+      "categoria": "item mágico",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pergaminho-magico-truque",
+      "nome": "Pergaminho Mágico (Truque)",
+      "categoria": "item mágico",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pocao-de-cura",
+      "nome": "Poção de Cura",
+      "categoria": "item mágico",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.25,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Como ação bônus, permite recuperar 2d4 + 2 pontos de vida.",
+      "schemaVersion": 5,
+      "revisarDescricao": false
+    },
+    {
+      "id": "dd-2024-equipamento-pote",
+      "nome": "Pote",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-pote-ferro",
+      "nome": "Pote, Ferro",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-racoes",
+      "nome": "Rações",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-rede",
+      "nome": "Rede",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-roldana-e-polias",
+      "nome": "Roldana e Polias",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-roupas-fantasia",
+      "nome": "Roupas, Fantasia",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-roupas-finas",
+      "nome": "Roupas, Finas",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 3,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-roupas-viagem",
+      "nome": "Roupas, Viagem",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-saca",
+      "nome": "Saca",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-saco-de-dormir",
+      "nome": "Saco de Dormir",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 3.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-sino",
+      "nome": "Sino",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-tenda",
+      "nome": "Tenda",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 10,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-tinta",
+      "nome": "Tinta",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-tocha",
+      "nome": "Tocha",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-vela",
+      "nome": "Vela",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-tunica",
+      "nome": "Túnica",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-equipamento-veneno-basico",
+      "nome": "Veneno Básico",
+      "categoria": "equipamento",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 222,
+      "tags": [
+        "dnd",
+        "2024",
+        "equipamento"
+      ],
+      "descricao": "Equipamento de aventura. Consulte o Livro do Jogador de 2024, capítulo 6, para as condições de uso.",
+      "schemaVersion": 5,
+      "revisarDescricao": true
+    },
+    {
+      "id": "dd-2024-municao-agulhas-50",
+      "nome": "Agulhas (50)",
+      "categoria": "munição",
+      "subtipo": "munição",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 227,
+      "tags": [
+        "dnd",
+        "2024",
+        "munição"
+      ],
+      "descricao": "Pacote de munição para arma compatível.",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-municao-balas-de-arma-de-fogo-10",
+      "nome": "Balas de arma de fogo (10)",
+      "categoria": "munição",
+      "subtipo": "munição",
+      "peso": 1,
+      "preco": {
+        "valor": 3,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 227,
+      "tags": [
+        "dnd",
+        "2024",
+        "munição"
+      ],
+      "descricao": "Pacote de munição para arma compatível.",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-municao-balas-de-funda-20",
+      "nome": "Balas de funda (20)",
+      "categoria": "munição",
+      "subtipo": "munição",
+      "peso": 0.75,
+      "preco": {
+        "valor": 4,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 227,
+      "tags": [
+        "dnd",
+        "2024",
+        "munição"
+      ],
+      "descricao": "Pacote de munição para arma compatível.",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-municao-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "munição",
+      "subtipo": "munição",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 227,
+      "tags": [
+        "dnd",
+        "2024",
+        "munição"
+      ],
+      "descricao": "Pacote de munição para arma compatível.",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-municao-virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "munição",
+      "subtipo": "munição",
+      "peso": 0.75,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 227,
+      "tags": [
+        "dnd",
+        "2024",
+        "munição"
+      ],
+      "descricao": "Pacote de munição para arma compatível.",
+      "schemaVersion": 5
+    }
+  ]
+}
