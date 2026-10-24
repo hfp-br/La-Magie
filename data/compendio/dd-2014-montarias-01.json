@@ -1,0 +1,173 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2014-montaria-burro-ou-mula",
+      "nome": "Burro ou mula",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 12 m; capacidade de carga 210 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-camelo",
+      "nome": "Camelo",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 15 m; capacidade de carga 240 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 18 m; capacidade de carga 270 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-cavalo-de-montaria",
+      "nome": "Cavalo de montaria",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 18 m; capacidade de carga 220 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-cavalo-pesado",
+      "nome": "Cavalo pesado",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 12 m; capacidade de carga 270 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-elefante",
+      "nome": "Elefante",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 12 m; capacidade de carga 660 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-mastim",
+      "nome": "Mastim",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 12 m; capacidade de carga 100 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-montaria-ponei",
+      "nome": "Pônei",
+      "categoria": "animal",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Deslocamento 12 m; capacidade de carga 115 kg. O peso próprio do animal não é informado na tabela.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
