@@ -22,7 +22,10 @@
     "data/compendio/dd-2024-equipamentos-01.json",
     "data/compendio/dd-xanathar-magicos-comuns-01.json",
     "data/compendio/dd-2024-aventura-01.json",
-    "data/compendio/dd-2024-ferramentas-01.json"
+    "data/compendio/dd-2024-ferramentas-01.json",
+    "data/compendio/dd-2024-montarias-01.json",
+    "data/compendio/dd-2024-tracao-01.json",
+    "data/compendio/dd-2024-embarcacoes-01.json"
   ],
   "updatedAt": "2026-10-24T03:59:53.458Z"
 }
