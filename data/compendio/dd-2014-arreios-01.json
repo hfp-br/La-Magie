@@ -1,0 +1,278 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2014-arreio-alforje",
+      "nome": "Alforje",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 4,
+      "preco": {
+        "valor": 4,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-biga",
+      "nome": "Biga",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 50,
+      "preco": {
+        "valor": 250,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 100,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-carruagem",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 300,
+      "preco": {
+        "valor": 100,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-estabulo",
+      "nome": "Estábulo",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-freio-e-redea",
+      "nome": "Freio e rédea",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-racao-para-montaria-1-dia",
+      "nome": "Ração para montaria (1 dia)",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-sela-compacta",
+      "nome": "Sela compacta",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 7.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-sela-exotica",
+      "nome": "Sela exótica",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 20,
+      "preco": {
+        "valor": 60,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-sela-militar",
+      "nome": "Sela militar",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 15,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Ajuda o cavaleiro a manter-se montado em circunstâncias difíceis.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-sela-de-viagem",
+      "nome": "Sela de viagem",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 12.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-treno",
+      "nome": "Trenó",
+      "categoria": "veiculo",
+      "subtipo": "montaria e tração",
+      "peso": 150,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-arreio-armadura-de-montaria",
+      "nome": "Armadura de montaria",
+      "categoria": "equipamento",
+      "subtipo": "montaria e tração",
+      "peso": 0,
+      "preco": {
+        "valor": null,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "O custo é quatro vezes o da armadura equivalente e o peso é o dobro.",
+      "tags": [
+        "dnd",
+        "2014",
+        "montaria"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
