@@ -1,0 +1,1812 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-adaga",
+      "nome": "Adaga",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de perfuração. Propriedades: Acuidade, Arremesso (6/18 m), Leve. Maestria: Ágil.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Adaga",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Acuidade, Arremesso (6/18 m), Leve",
+        "maestria": "Ágil",
+        "allowedToggles": []
+      },
+      "maestria": "Ágil"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de perfuração. Propriedades: Arremesso (9/36 m). Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Azagaia",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Arremesso (9/36 m)",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-cajado",
+      "nome": "Cajado",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de impacto. Propriedades: Versátil (1d8). Maestria: Derrubar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cajado",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Versátil (1d8)",
+        "maestria": "Derrubar",
+        "allowedToggles": []
+      },
+      "maestria": "Derrubar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de impacto. Propriedades: Leve. Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Clava",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Leve",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-clava-grande",
+      "nome": "Clava Grande",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d8 de dano de impacto. Propriedades: Duas Mãos. Maestria: Empurrar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Clava Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos",
+        "maestria": "Empurrar",
+        "allowedToggles": []
+      },
+      "maestria": "Empurrar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-foice",
+      "nome": "Foice",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de corte. Propriedades: Leve. Maestria: Ágil.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Foice",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Leve",
+        "maestria": "Ágil",
+        "allowedToggles": []
+      },
+      "maestria": "Ágil"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-lanca",
+      "nome": "Lança",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de perfuração. Propriedades: Arremesso (6/18 m), Versátil (1d8). Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Arremesso (6/18 m), Versátil (1d8)",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de impacto. Propriedades: —. Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "—",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de corte. Propriedades: Arremesso (6/18 m), Leve. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machadinha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Arremesso (6/18 m), Leve",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-martelo-leve",
+      "nome": "Martelo Leve",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de impacto. Propriedades: Arremesso (6/18 m), Leve. Maestria: Ágil.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo Leve",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Arremesso (6/18 m), Leve",
+        "maestria": "Ágil",
+        "allowedToggles": []
+      },
+      "maestria": "Ágil"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-arco-curto",
+      "nome": "Arco Curto",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d6 de dano de perfuração. Propriedades: Duas Mãos, Munição (24/96 m). Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco Curto",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "2",
+        "properties": "Duas Mãos, Munição (24/96 m)",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-besta-leve",
+      "nome": "Besta Leve",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 2.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d8 de dano de perfuração. Propriedades: Duas Mãos, Munição (24/96 m), Recarga. Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta Leve",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "2",
+        "properties": "Duas Mãos, Munição (24/96 m), Recarga",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-dardo",
+      "nome": "Dardo",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0.15,
+      "preco": {
+        "valor": 5,
+        "moeda": "PC"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de perfuração. Propriedades: Acuidade, Arremesso (6/18 m). Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Dardo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "1",
+        "properties": "Acuidade, Arremesso (6/18 m)",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-funda",
+      "nome": "Funda",
+      "categoria": "arma",
+      "subtipo": "simples",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "pagina": 215,
+      "descricao": "Arma simples de D&D 2024. 1d4 de dano de impacto. Propriedades: Munição (9/36 m). Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Funda",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "1",
+        "properties": "Munição (9/36 m)",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-alabarda",
+      "nome": "Alabarda",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de corte. Propriedades: Duas Mãos, Extensão, Pesada. Maestria: Trespassar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Alabarda",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Extensão, Pesada",
+        "maestria": "Trespassar",
+        "allowedToggles": []
+      },
+      "maestria": "Trespassar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d4 de dano de corte. Propriedades: Acuidade, Extensão. Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Chicote",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d4",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Acuidade, Extensão",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d6 de dano de corte. Propriedades: Acuidade, Leve. Maestria: Ágil.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Cimitarra",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Acuidade, Leve",
+        "maestria": "Ágil",
+        "allowedToggles": []
+      },
+      "maestria": "Ágil"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-espada-curta",
+      "nome": "Espada Curta",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d6 de dano de perfuração. Propriedades: Acuidade, Leve. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Curta",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Acuidade, Leve",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-espada-grande",
+      "nome": "Espada Grande",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 2d6 de dano de corte. Propriedades: Duas Mãos, Pesada. Maestria: Garantido.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Pesada",
+        "maestria": "Garantido",
+        "allowedToggles": []
+      },
+      "maestria": "Garantido"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-espada-longa",
+      "nome": "Espada Longa",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de corte. Propriedades: Versátil (1d10). Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Espada Longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Versátil (1d10)",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-glaive",
+      "nome": "Glaive",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de corte. Propriedades: Duas Mãos, Extensão, Pesada. Maestria: Garantido.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Glaive",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Extensão, Pesada",
+        "maestria": "Garantido",
+        "allowedToggles": []
+      },
+      "maestria": "Garantido"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-lanca-de-montaria",
+      "nome": "Lança de Montaria",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de perfuração. Propriedades: Duas Mãos (exceto montado), Extensão, Pesada. Maestria: Derrubar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança de Montaria",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos (exceto montado), Extensão, Pesada",
+        "maestria": "Derrubar",
+        "allowedToggles": []
+      },
+      "maestria": "Derrubar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-lanca-longa",
+      "nome": "Lança Longa",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 9,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de perfuração. Propriedades: Duas Mãos, Extensão, Pesada. Maestria: Empurrar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Lança Longa",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Extensão, Pesada",
+        "maestria": "Empurrar",
+        "allowedToggles": []
+      },
+      "maestria": "Empurrar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-maca-estrela",
+      "nome": "Maça Estrela",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de perfuração. Propriedades: —. Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Maça Estrela",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "—",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-machado-de-batalha",
+      "nome": "Machado de Batalha",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de corte. Propriedades: Versátil (1d10). Maestria: Derrubar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado de Batalha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Versátil (1d10)",
+        "maestria": "Derrubar",
+        "allowedToggles": []
+      },
+      "maestria": "Derrubar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-machado-grande",
+      "nome": "Machado Grande",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 3.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d12 de dano de corte. Propriedades: Duas Mãos, Pesada. Maestria: Trespassar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Machado Grande",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d12",
+        "type": "Corte",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Pesada",
+        "maestria": "Trespassar",
+        "allowedToggles": []
+      },
+      "maestria": "Trespassar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-malho",
+      "nome": "Malho",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 2d6 de dano de impacto. Propriedades: Duas Mãos, Pesada. Maestria: Derrubar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Malho",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "2d6",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "2",
+        "properties": "Duas Mãos, Pesada",
+        "maestria": "Derrubar",
+        "allowedToggles": []
+      },
+      "maestria": "Derrubar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de impacto. Propriedades: —. Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mangual",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "—",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-martelo-de-guerra",
+      "nome": "Martelo de Guerra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de impacto. Propriedades: Versátil (1d10). Maestria: Empurrar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Martelo de Guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Impacto",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Versátil (1d10)",
+        "maestria": "Empurrar",
+        "allowedToggles": []
+      },
+      "maestria": "Empurrar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-picareta-de-guerra",
+      "nome": "Picareta de Guerra",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de perfuração. Propriedades: Versátil (1d10). Maestria: Drenar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Picareta de Guerra",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Versátil (1d10)",
+        "maestria": "Drenar",
+        "allowedToggles": []
+      },
+      "maestria": "Drenar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-rapieira",
+      "nome": "Rapieira",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de perfuração. Propriedades: Acuidade. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Rapieira",
+        "skill": "Luta",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Acuidade",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 2,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de perfuração. Propriedades: Arremesso (6/18 m), Versátil (1d10). Maestria: Derrubar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tridente",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Corpo a corpo",
+        "hands": "1",
+        "properties": "Arremesso (6/18 m), Versátil (1d10)",
+        "maestria": "Derrubar",
+        "allowedToggles": []
+      },
+      "maestria": "Derrubar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-arco-longo",
+      "nome": "Arco Longo",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d8 de dano de perfuração. Propriedades: Duas Mãos, Munição (45/180 m), Pesada. Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Arco Longo",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d8",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "2",
+        "properties": "Duas Mãos, Munição (45/180 m), Pesada",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-besta-de-mao",
+      "nome": "Besta de Mão",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d6 de dano de perfuração. Propriedades: Leve, Munição (9/36 m), Recarga. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta de Mão",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d6",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "1",
+        "properties": "Leve, Munição (9/36 m), Recarga",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-besta-pesada",
+      "nome": "Besta Pesada",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 9,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de perfuração. Propriedades: Duas Mãos, Munição (30/120 m), Pesada, Recarga. Maestria: Empurrar.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Besta Pesada",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "2",
+        "properties": "Duas Mãos, Munição (30/120 m), Pesada, Recarga",
+        "maestria": "Empurrar",
+        "allowedToggles": []
+      },
+      "maestria": "Empurrar"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-mosquete",
+      "nome": "Mosquete",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 5,
+      "preco": {
+        "valor": 500,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d12 de dano de perfuração. Propriedades: Duas Mãos, Munição (12/36 m), Recarga. Maestria: Lentidão.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Mosquete",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d12",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "2",
+        "properties": "Duas Mãos, Munição (12/36 m), Recarga",
+        "maestria": "Lentidão",
+        "allowedToggles": []
+      },
+      "maestria": "Lentidão"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-pistola",
+      "nome": "Pistola",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 250,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1d10 de dano de perfuração. Propriedades: Munição (9/27 m), Recarga. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Pistola",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1d10",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "1",
+        "properties": "Munição (9/27 m), Recarga",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "arma"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-arma-zarabatana",
+      "nome": "Zarabatana",
+      "categoria": "arma",
+      "subtipo": "marcial",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 215,
+      "descricao": "Arma marcial de D&D 2024. 1 de dano de perfuração. Propriedades: Munição (7,5/30 m), Recarga. Maestria: Afligir.",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Zarabatana",
+        "skill": "Pontaria",
+        "stat": "dex",
+        "die": "1",
+        "type": "Perfuração",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "Distância",
+        "hands": "1",
+        "properties": "Munição (7,5/30 m), Recarga",
+        "maestria": "Afligir",
+        "allowedToggles": []
+      },
+      "maestria": "Afligir"
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-acolchoada",
+      "nome": "Acolchoada",
+      "categoria": "armadura",
+      "subtipo": "Leve",
+      "peso": 4,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura leve de D&D 2024. CA: 11 + DES. Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "11 + DES",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-couro",
+      "nome": "Couro",
+      "categoria": "armadura",
+      "subtipo": "Leve",
+      "peso": 5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura leve de D&D 2024. CA: 11 + DES. Furtividade: —.",
+      "armor": {
+        "caTexto": "11 + DES",
+        "furtividade": "—"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-couro-batido",
+      "nome": "Couro Batido",
+      "categoria": "armadura",
+      "subtipo": "Leve",
+      "peso": 6.5,
+      "preco": {
+        "valor": 45,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura leve de D&D 2024. CA: 12 + DES. Furtividade: —.",
+      "armor": {
+        "caTexto": "12 + DES",
+        "furtividade": "—"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-gibao-de-peles",
+      "nome": "Gibão de Peles",
+      "categoria": "armadura",
+      "subtipo": "Média",
+      "peso": 6,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura média de D&D 2024. CA: 12 + DES (máx. 2). Furtividade: —.",
+      "armor": {
+        "caTexto": "12 + DES (máx. 2)",
+        "furtividade": "—"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-cota-de-malha-parcial",
+      "nome": "Cota de Malha Parcial",
+      "categoria": "armadura",
+      "subtipo": "Média",
+      "peso": 10,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura média de D&D 2024. CA: 13 + DES (máx. 2). Furtividade: —.",
+      "armor": {
+        "caTexto": "13 + DES (máx. 2)",
+        "furtividade": "—"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-loriga-de-escamas",
+      "nome": "Loriga de Escamas",
+      "categoria": "armadura",
+      "subtipo": "Média",
+      "peso": 22,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura média de D&D 2024. CA: 14 + DES (máx. 2). Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "14 + DES (máx. 2)",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-couraca-peitoral",
+      "nome": "Couraça Peitoral",
+      "categoria": "armadura",
+      "subtipo": "Média",
+      "peso": 10,
+      "preco": {
+        "valor": 400,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura média de D&D 2024. CA: 14 + DES (máx. 2). Furtividade: —.",
+      "armor": {
+        "caTexto": "14 + DES (máx. 2)",
+        "furtividade": "—"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-placas-parcial",
+      "nome": "Placas Parcial",
+      "categoria": "armadura",
+      "subtipo": "Média",
+      "peso": 20,
+      "preco": {
+        "valor": 750,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura média de D&D 2024. CA: 15 + DES (máx. 2). Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "15 + DES (máx. 2)",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-cota-de-aneis",
+      "nome": "Cota de Anéis",
+      "categoria": "armadura",
+      "subtipo": "Pesada",
+      "peso": 20,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura pesada de D&D 2024. CA: 14. Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "14",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-cota-de-malha",
+      "nome": "Cota de Malha",
+      "categoria": "armadura",
+      "subtipo": "Pesada",
+      "peso": 27,
+      "preco": {
+        "valor": 75,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura pesada de D&D 2024. CA: 16. Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "16",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-armadura-de-tala",
+      "nome": "Armadura de Tala",
+      "categoria": "armadura",
+      "subtipo": "Pesada",
+      "peso": 30,
+      "preco": {
+        "valor": 200,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura pesada de D&D 2024. CA: 17. Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "17",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-armadura-placas",
+      "nome": "Placas",
+      "categoria": "armadura",
+      "subtipo": "Pesada",
+      "peso": 32,
+      "preco": {
+        "valor": 1500,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Armadura pesada de D&D 2024. CA: 18. Furtividade: Desvantagem.",
+      "armor": {
+        "caTexto": "18",
+        "furtividade": "Desvantagem"
+      }
+    },
+    {
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "tags": [
+        "dnd",
+        "2024",
+        "proteção"
+      ],
+      "schemaVersion": 5,
+      "id": "dd-2024-escudo-escudo",
+      "nome": "Escudo",
+      "categoria": "escudo",
+      "subtipo": "Escudo",
+      "peso": 3,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "pagina": 219,
+      "descricao": "Escudo de D&D 2024. CA: +2 CA. Furtividade: —.",
+      "armor": {
+        "caTexto": "+2 CA",
+        "furtividade": "—"
+      }
+    }
+  ]
+}
