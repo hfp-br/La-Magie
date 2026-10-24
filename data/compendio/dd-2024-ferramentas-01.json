@@ -1,0 +1,698 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-carpinteiro",
+      "nome": "Ferramentas de Carpinteiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 3,
+      "preco": {
+        "valor": 8,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Força. Uso: Selar ou abrir porta/recipiente (CD 20).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-cartografo",
+      "nome": "Ferramentas de Cartógrafo",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 3,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Sabedoria. Uso: Criar mapa de pequena área (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-coureiro",
+      "nome": "Ferramentas de Coureiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Moldar aparência de item de couro (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-entalhador",
+      "nome": "Ferramentas de Entalhador",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Entalhar padrão em madeira (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-ferreiro",
+      "nome": "Ferramentas de Ferreiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Força. Uso: Forçar abertura de porta ou recipiente (CD 20).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-funileiro",
+      "nome": "Ferramentas de Funileiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Montar pequeno item de sucata que se desfaz em 1 minuto (CD 20).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-joalheiro",
+      "nome": "Ferramentas de Joalheiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Avaliar gema (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-oleiro",
+      "nome": "Ferramentas de Oleiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Examinar histórico recente de objeto de cerâmica (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-pedreiro",
+      "nome": "Ferramentas de Pedreiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Força. Uso: Cinzelar símbolo ou buraco em pedra (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-sapateiro",
+      "nome": "Ferramentas de Sapateiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Modificar calçado para ajudar na próxima Acrobacia (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-tecelao",
+      "nome": "Ferramentas de Tecelão",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Reparar roupa ou costurar ornamento (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-vidreiro",
+      "nome": "Ferramentas de Vidreiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 220,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Examinar manipulação recente de vidro (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-suprimentos-de-alquimista",
+      "nome": "Suprimentos de Alquimista",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Identificar substância ou iniciar fogo (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-suprimentos-de-caligrafo",
+      "nome": "Suprimentos de Calígrafo",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Escrever texto resistente à falsificação (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-suprimentos-de-cervejeiro",
+      "nome": "Suprimentos de Cervejeiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Detectar bebida envenenada (CD 15) ou identificar álcool (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-suprimentos-de-pintor",
+      "nome": "Suprimentos de Pintor",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Sabedoria. Uso: Pintar algo reconhecível visto anteriormente (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-utensilios-de-cozinheiro",
+      "nome": "Utensílios de Cozinheiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Sabedoria. Uso: Melhorar sabor da comida (CD 10) ou detectar comida estragada/envenenada (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-ladrao",
+      "nome": "Ferramentas de Ladrão",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Abrir fechadura ou desarmar armadilha (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-ferramentas-de-navegador",
+      "nome": "Ferramentas de Navegador",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Sabedoria. Uso: Traçar rota (CD 10) ou localizar-se pelas estrelas (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-kit-de-disfarce",
+      "nome": "Kit de Disfarce",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Carisma. Uso: Aplicar maquiagem (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-kit-de-falsificacao",
+      "nome": "Kit de Falsificação",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Destreza. Uso: Imitar escrita (CD 15) ou duplicar selo (CD 20).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-kit-de-herbalismo",
+      "nome": "Kit de Herbalismo",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Identificar planta (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-ferramenta-kit-de-veneno",
+      "nome": "Kit de Veneno",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "ferramenta"
+      ],
+      "descricao": "Atributo: Inteligência. Uso: Detectar objeto envenenado (CD 10).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-alaude",
+      "nome": "Instrumento musical — Alaúde",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 35,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-flauta",
+      "nome": "Instrumento musical — Flauta",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-flauta-de-pan",
+      "nome": "Instrumento musical — Flauta de Pan",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 12,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-gaita-de-foles",
+      "nome": "Instrumento musical — Gaita de Foles",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 3,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-lira",
+      "nome": "Instrumento musical — Lira",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-oboe",
+      "nome": "Instrumento musical — Oboé",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-tambor",
+      "nome": "Instrumento musical — Tambor",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1.5,
+      "preco": {
+        "valor": 6,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-trombeta",
+      "nome": "Instrumento musical — Trombeta",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 3,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-violino",
+      "nome": "Instrumento musical — Violino",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-instrumento-xilofone",
+      "nome": "Instrumento musical — Xilofone",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 221,
+      "tags": [
+        "dnd",
+        "2024",
+        "música"
+      ],
+      "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
+      "schemaVersion": 5
+    }
+  ]
+}
