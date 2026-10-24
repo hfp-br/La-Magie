@@ -1,0 +1,5599 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-algemas",
+      "nome": "Algemas",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "restricao"
+      ],
+      "descricao": "Par de algemas para criaturas Médias. Escapar exige uma ação completa e Acrobacia CD 30 ou Força CD 26.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-algibeira",
+      "nome": "Algibeira",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "moedas"
+      ],
+      "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-barraca",
+      "nome": "Barraca",
+      "categoria": "item geral",
+      "subtipo": "acampamento",
+      "peso": 10,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 150,
+      "tags": [
+        "item geral",
+        "acampamento",
+        "sobrevivencia"
+      ],
+      "descricao": "Barraca de lona para aventureiros. Conta como saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar. Efeito: +2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas."
+    },
+    {
+      "id": "t20-corda-10m",
+      "nome": "Corda (10m)",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "corda"
+      ],
+      "descricao": "Rolo com 10 metros de corda de cânhamo. Dar um nó firme exige Destreza CD 10; nó especial, CD 12; arrebentar a corda exige Força CD 23.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-espelho-de-metal",
+      "nome": "Espelho de metal",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0.25,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "espelho"
+      ],
+      "descricao": "Espelho de metal polido, útil para observar cantos, fazer sinais de luz, auxiliar disfarces e outras aplicações criativas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "item geral",
+      "subtipo": "instrumento",
+      "peso": 1.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 151,
+      "tags": [
+        "item geral",
+        "instrumento",
+        "musica",
+        "bardo"
+      ],
+      "descricao": "Instrumento típico, como alaúde, flauta ou lira, muito utilizado por bardos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-kit-de-oficio",
+      "nome": "Kit de Ofício",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 4,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "oficio"
+      ],
+      "descricao": "Conjunto de ferramentas apropriadas para um tipo de Ofício. Sem o kit necessário, o personagem sofre –5 nos testes daquele Ofício. Efeito: Sem o kit adequado: –5 nos testes do Ofício correspondente.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit adequado: –5 nos testes do Ofício correspondente."
+    },
+    {
+      "id": "t20-kit-de-disfarces",
+      "nome": "Kit de disfarces",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 4,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "disfarce",
+        "enganacao"
+      ],
+      "descricao": "Estojo com cosméticos, tintas e acessórios para criar disfarces. Sem este kit, o personagem sofre –5 em Enganação para fazer um disfarce. Efeito: Sem o kit: –5 em Enganação para fazer disfarces.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em Enganação para fazer disfarces."
+    },
+    {
+      "id": "t20-kit-de-ladrao",
+      "nome": "Kit de ladrão",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "ladinagem",
+        "gazua"
+      ],
+      "descricao": "Gazuas, arames e pequenas ferramentas para abrir fechaduras e sabotar mecanismos. Sem o kit, o personagem sofre –5 em Ladinagem para abrir fechaduras e sabotar. Efeito: Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar."
+    },
+    {
+      "id": "t20-kit-de-medicamentos",
+      "nome": "Kit de medicamentos",
+      "categoria": "item geral",
+      "subtipo": "kit",
+      "peso": 2,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "kit",
+        "cura",
+        "medicina"
+      ],
+      "descricao": "Caixa com ervas, unguentos, bandagens e materiais médicos. Sem este kit, o personagem sofre –5 em testes de Cura. Efeito: Sem o kit: –5 em testes de Cura.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Sem o kit: –5 em testes de Cura."
+    },
+    {
+      "id": "t20-lampiao",
+      "nome": "Lampião",
+      "categoria": "item geral",
+      "subtipo": "iluminacao",
+      "peso": 1,
+      "preco": {
+        "valor": 7,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "iluminacao",
+        "luz",
+        "oleo"
+      ],
+      "descricao": "Lampião alimentado por óleo. Ilumina até 9m; uma carga dura 6 horas e custa T$ 0,1. Efeito: Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1."
+    },
+    {
+      "id": "t20-mochila",
+      "nome": "Mochila",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "viagem"
+      ],
+      "descricao": "Bolsa reforçada de couro com bolsos e tiras para carregar equipamentos nas costas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-odre",
+      "nome": "Odre",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 2,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "agua",
+        "bebida"
+      ],
+      "descricao": "Bolsa de couro para líquidos. O modelo mais comum comporta 1 litro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "forca",
+        "arma improvisada"
+      ],
+      "descricao": "Barra de ferro para forçar portas e baús. Fornece +5 em testes de Força para abrir portas ou baús. Pode ser usada como uma clava. Efeito: +5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "+5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava."
+    },
+    {
+      "id": "t20-pederneira",
+      "nome": "Pederneira",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "fogo"
+      ],
+      "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna é uma ação completa.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pena",
+      "nome": "Pena",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita"
+      ],
+      "descricao": "Pena de ave preparada para servir como instrumento de escrita, normalmente usada junto de tinta.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-pergaminho-folha",
+      "nome": "Pergaminho (folha)",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita",
+        "pergaminho"
+      ],
+      "descricao": "Folha de pele preparada e tratada para escrita, usada para registrar textos, mapas, fórmulas e mensagens.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "item geral",
+      "subtipo": "acampamento",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "acampamento",
+        "descanso"
+      ],
+      "descricao": "Colchão e coberta fina enroláveis para pernoites. Dormir ao relento sem saco de dormir diminui a recuperação de PV e PM.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-saco-de-lona",
+      "nome": "Saco de lona",
+      "categoria": "item geral",
+      "subtipo": "recipiente",
+      "peso": 0.25,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "recipiente",
+        "bolsa",
+        "carga"
+      ],
+      "descricao": "Saco resistente fechado por corda, com capacidade para até 20 kg. Efeito: Capacidade: até 20 kg.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Capacidade: até 20 kg."
+    },
+    {
+      "id": "t20-tinta-frasco",
+      "nome": "Tinta (frasco)",
+      "categoria": "item geral",
+      "subtipo": "escrita",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "escrita",
+        "tinta"
+      ],
+      "descricao": "Frasco de 30 ml de tinta preta. Outras cores custam o dobro.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-tocha",
+      "nome": "Tocha",
+      "categoria": "item geral",
+      "subtipo": "iluminacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "iluminacao",
+        "luz",
+        "fogo",
+        "arma improvisada"
+      ],
+      "descricao": "Bastão combustível que queima por uma hora e ilumina até 6m. Pode ser usado como arma simples leve. Efeitos: Queima por 1 hora; ilumina 6m; pode ser usada como arma simples leve (1d4 + 1 fogo, crítico x2). Simples, leve; +1 de fogo",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Queima por 1 hora; ilumina 6m; pode ser usada como arma simples leve (1d4 + 1 fogo, crítico x2).",
+      "weaponAttack": {
+        "enabled": true,
+        "name": "Tocha",
+        "skill": "Luta",
+        "stat": "str",
+        "die": "1d4+1",
+        "type": "Impacto/Fogo",
+        "threat": 20,
+        "crit": 2,
+        "hitBonus": 0,
+        "damageBonus": "",
+        "range": "",
+        "hands": "1",
+        "ammo": "",
+        "reload": "",
+        "properties": "Simples, leve; +1 de fogo",
+        "allowedToggles": []
+      }
+    },
+    {
+      "id": "t20-vara-de-madeira-3m",
+      "nome": "Vara de madeira (3m)",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 0.2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 152,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "haste"
+      ],
+      "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. É frágil demais para servir como arma.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-sela",
+      "nome": "Sela",
+      "categoria": "item geral",
+      "subtipo": "montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "montaria",
+        "sela",
+        "arreios"
+      ],
+      "descricao": "Conjunto de sela, arreios, freios e alforjes para equipar uma montaria.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-herois-abaco",
+      "nome": "Ábaco",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este instrumento desenvolvido pelos Enquanto está voando, você fica vulnerável e em sábios sar-allan fornece a seu usuário a capacidade condição ruim para lançar magias (você ignora essas de fazer operações matemáticas complexas em pouco penalidades se for treinado em Pilotagem). tempo. Muito útil para determinar custos e margens de lucro!",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ampulheta",
+      "nome": "Ampulheta",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um objeto delicado, usado para medir o tempo. Um ciclo da ampulheta normalmente Bainha Adornada. Coberta de fios de ouro, equivale a uma hora.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.323Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-aparelho-de-cha",
+      "nome": "Aparelho de chá",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um conjunto de xícaras Bússola. Este avançadíssimo instrumento delicadas, pires e um bule. Qualquer um que se depare de navegação funciona por princípios simples, mas com um aparelho de chá fica automaticamente mais depende de materiais raros.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.323Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-astrolabio",
+      "nome": "Astrolábio",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um avançado instrumento de em Conhecimento. Se você fizer um teste de Ofício navegação, que usa a posição relativa das estrelas para sustento, recebe TO, em vez de T$. Além disso, para guiar seu usuário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-armacao-para-mochila",
+      "nome": "Armação para mochila",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma armação Cinto de Utilidades. Um cinturão de couro para mochila é uma estrutura de metal amarrada cheio de bolsos e fivelas, com espaço para os vários aos ombros, tórax e cintura do usuário. A mochila equipamentos esquisitos de um inventor.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-asas-do-texugo",
+      "nome": "Asas do texugo",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Criada por uma serelepe outros bônus de itens e com outras condecorações, tribo de kobolds, este implemento deixou inúmeros igual a 3x o patamar em que a condecoração foi conengenhoqueiros goblins se perguntando: “Por que não quistada (por exemplo, 6 PV para uma condecoração pensei nisso antes? ”. Consiste em uma mochila vesti- obtida em patamar veterano).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bainha-adornada",
+      "nome": "Bainha adornada",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Coberta de fios de ouro, equivale a uma hora. Usada por nobres para manter gemas e outros ornamentos, esta bainha permite controle de seus compromissos e por alquimistas para que você use armas como parte de um traje da corte medir o tempo de certas reações. Quando escolhe 10 (Tormenta20, p.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bussola",
+      "nome": "Bússola",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este avançadíssimo instrumento delicadas, pires e um bule. Qualquer um que se depare de navegação funciona por princípios simples, mas com um aparelho de chá fica automaticamente mais depende de materiais raros. Por meio de um ímã, a predisposto a conversar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cinto-de-utilidades",
+      "nome": "Cinto de utilidades",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um cinturão de couro para mochila é uma estrutura de metal amarrada cheio de bolsos e fivelas, com espaço para os vários aos ombros, tórax e cintura do usuário. A mochila equipamentos esquisitos de um inventor. Se você de aventureiro então é encaixada nessa estrutura, estiver vestindo um cinto de utilidades, pode sacar e garantindo que o peso seja mais bem distribuído, guardar engenhocas como uma ação livre.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.326Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-condecoracao-militar",
+      "nome": "Condecoração militar",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Condecorações não de aventureiro passa a aumentar sua capacidade de são compradas, são conquistadas! Uma condecoração carga em 6 espaços (em vez de 2). Entretanto, a ação militar é concedida por um reino ou igreja após uma necessária para sacar seus itens aumenta em um passo missão bem-sucedida.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.326Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-dente-falso",
+      "nome": "Dente falso",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um minúsculo frasco disfarçado Pedais, manivelas e roldanas permitem o “bater” das como um dente, dentro de sua boca. Permite que você asas, sustentando um voo um tanto irregular, mas con- carregue um preparado alquímico consumível ou trolável. Para voar com as asas do texugo, é necessário uma poção sem ocupar espaços.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.326Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-diagrama-anatomico",
+      "nome": "Diagrama anatômico",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este pergaminho Leque. Permite que damas e cavalheiros se com esquemas detalhados do corpo das principais abanem ou escondam a boca, para fofocar em paz. raças humanoides à primeira vista parece feito para Muitos usuários se abanam como uma verdadeira auxiliar curandeiros...",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espelho-refletor",
+      "nome": "Espelho refletor",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 45,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este pequeno espelho de azar recebem esse nome porque dependem do pode ser usado para refletir qualquer luz nos olhos acaso. Os melhores jogadores são capazes de usar seu de um inimigo, cegando-o temporariamente. Você magnetismo natural, frieza e capacidade de blefar para pode gastar uma ação de movimento para fazer um garantir vitória em quase qualquer mesa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estetoscopio",
+      "nome": "Estetoscópio",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Médicos de Salistick usam alguém consultando um destes livros podem bani-lo este aparato sofisticado para auscultar o coração de do jogo (ou fazer coisa bem pior). pacientes. No entanto, criminosos costumam usá-lo para ouvir os movimentos de mecanismos internos Lupa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estrepes-bolsa-para-3m",
+      "nome": "Estrepes (bolsa para 3m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Pequenas peças metálicas pontiagudas. Com uma ação padrão, você espalha os estrepes em uma área de até 3m; quem pisar nela sofre 1d4 de perfuração e, se sofrer dano, fica lento até o fim do próximo turno.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-favor-da-pessoa-amada",
+      "nome": "Favor da pessoa amada",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este item não saca essa arma como uma ação livre e ela recebe a pode ser comprado nem fabricado, apenas conquis- qualidade surpreendente para esse ataque. tado por meio de interpretação — deve ser dado Mochila Discreta. Como uma mochila espontaneamente para que tenha efeito em regras.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lampiao-de-foco",
+      "nome": "Lampião de foco",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta lanterna sofisticada cheta é imediatamente identificado como uma figura funciona como um lampião, mas possui uma cobertura de autoridade — talvez um inspetor de alguma guilda, e pequenos espelhos que concentram a luz em um ou um enviado de um nobre. Você pode fazer testes de cone de 24m. Nobreza para etiqueta mesmo sem ser treinado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-leque",
+      "nome": "Leque",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Permite que damas e cavalheiros se com esquemas detalhados do corpo das principais abanem ou escondam a boca, para fofocar em paz. raças humanoides à primeira vista parece feito para Muitos usuários se abanam como uma verdadeira auxiliar curandeiros... No entanto, basta um olhar mania, principalmente após ouvir algo ultrajante.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-livro-de-metodos-anti-nimb",
+      "nome": "Livro de métodos anti-Nimb",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Jogos Espelho Refletor. Este pequeno espelho de azar recebem esse nome porque dependem do pode ser usado para refletir qualquer luz nos olhos acaso. Os melhores jogadores são capazes de usar seu de um inimigo, cegando-o temporariamente.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lupa",
+      "nome": "Lupa",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma lente de aumento em uma armação de fechaduras e armadilhas, facilitando seu trabalho metálica, com cabo de madeira. Equipamento inardiloso. Você pode gastar uma ação padrão para fazer dispensável para detetives.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.329Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mapa",
+      "nome": "Mapa",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um mapa de uma região (determinada o fim do seu próximo turno. pelo mestre ao ser adquirido). Fornece +5 em testes Estrepes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.329Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mecanismo-de-mola",
+      "nome": "Mecanismo de mola",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta estrutura de metal um quadrado de até 3m de lado com os estrepes. Eles com molas é presa ao antebraço e fica engatilhada causam 1d4 pontos de dano de perfuração em qualquer até que seja ativada, com um movimento do pulso criatura que pise na área. Uma criatura que sofra dano do usuário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.329Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mochila-discreta",
+      "nome": "Mochila discreta",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Como uma mochila espontaneamente para que tenha efeito em regras. normal, mas tem um compartimento oculto onde o O favor da pessoa amada é uma mecha de cabelo, usuário pode esconder objetos equivalentes a 1 espaço. lenço perfumado, bilhete de amor, flor seca ou outro Esses itens contam em sua capacidade de carga, mas item pessoal (mas sem valor monetário) que alguém você recebe +5 em testes de Ladinagem para ocultá-los muito querido dá a um herói.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.330Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prancheta",
+      "nome": "Prancheta",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma simples tabuleta de madeira uma desavença ou decepcionarem um ao outro de com um pergaminho, no qual o usuário pode fingir alguma forma, este item para de funcionar. escrever alguma coisa. Alguém que carrega uma pranLampião de Foco.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.330Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sinete",
+      "nome": "Sinete",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um estojo de madeira ou metal contendo Instrumentos Musicais cera, papéis e um anel ou carimbo com o símbolo Clarim Deheoni. Feito de um fino metal, este pessoal do usuário. Reduz em –1 PM o custo das clarim produz um som marcial, que muitos associam habilidades Autoridade Feudal e Favor e de outras a um chamado às armas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.330Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-apito-de-caca",
+      "nome": "Apito de caça",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este pequeno apito fornece mágica que usarem. +1 em Adestramento e permite usar manejar animal Cornamusa de Doherimm. Criada pelos com um parceiro não inteligente (Int –4 ou –5) como anões para reverberar na acústica de cavernas, este ação livre uma vez por rodada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.331Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-baralho-marcado",
+      "nome": "Baralho marcado",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um baralho com marcações roncões imensos, que sobem pelas costas do músico sutis, que só o usuário é capaz de reconhecer. Uma numa curva e repousam em seus ombros. Diferente inspeção casual não revela nada além de um baralho de outros instrumentos, a cornamusa é vestida e não comum.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.331Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espelho-cirurgico",
+      "nome": "Espelho cirúrgico",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma haste de metal ou Flauta Sar-Allan. Uma flauta de Halak-Tûr, madeira com um espelho na ponta, dotada de meca- que produz um som característico, capaz de hipnotizar nismos que permitem controlar o ângulo do reflexo a certos animais. Concede +5 no teste de Atuação para partir da outra extremidade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.331Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estandarte",
+      "nome": "Estandarte",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um pedaço de tecido, geralmente pessoas odeia! Apenas um músico muito habilidoso retangular e com enfeites, com uma representação consegue transformar o lamento da gaita de foles em do brasão ou símbolo de uma família, senhor algo agradável. Ao usar Inspiração, faça um teste de feudal ou deus.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.332Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estandarte-portatil",
+      "nome": "Estandarte portátil",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Igual ao estandarte, mento suave, que produz um som pacífico e acalenmas feito para ser usado nas costas ou preso à sela tador. Bardos que usam liras costumam ser belos de uma montaria. Deixa as mãos livres.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.333Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-molde-pre-fabricado",
+      "nome": "Molde pré-fabricado",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A maior parte das gado como um “instrumento musical”. Você recebe engenhocas usa alguns princípios básicos, modifica- +2 no teste oposto de Atuação para usar os poderes dos e personalizados por cada inventor. Um molde Música: Balada Fascinante e Fascinar em Massa, e na pré-fabricado é um conjunto de peças já montadas, CD dos poderes Manipular e Manipular em Massa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.333Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-clarim-deheoni",
+      "nome": "Clarim deheoni",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Feito de um fino metal, este pessoal do usuário. Reduz em –1 PM o custo das clarim produz um som marcial, que muitos associam habilidades Autoridade Feudal e Favor e de outras a um chamado às armas. Criaturas a sua escolha sob habilidades em que, a critério do mestre, seu símbolo efeito de sua Inspiração recebem um bônus adicional pessoal tenha algum peso.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.333Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-citara-heptatonica",
+      "nome": "Cítara heptatônica",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um instrumento peFerramentas culiar, com som misterioso, que gera uma atmosfera mística. Criaturas a sua escolha sob efeito de sua Gerais Inspiração recebem +2 na CD da primeira habilidade Apito de Caça. Este pequeno apito fornece mágica que usarem.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-cornamusa-de-doherimm",
+      "nome": "Cornamusa de Doherimm",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Criada pelos com um parceiro não inteligente (Int –4 ou –5) como anões para reverberar na acústica de cavernas, este ação livre uma vez por rodada. instrumento é similar a uma gaita de foles, mas possui Baralho Marcado. Um baralho com marcações roncões imensos, que sobem pelas costas do músico sutis, que só o usuário é capaz de reconhecer.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-flauta-sar-allan",
+      "nome": "Flauta sar-allan",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma flauta de Halak-Tûr, madeira com um espelho na ponta, dotada de meca- que produz um som característico, capaz de hipnotizar nismos que permitem controlar o ângulo do reflexo a certos animais. Concede +5 no teste de Atuação para partir da outra extremidade. Muito usado por médicos usar uma Música de bardo, mas apenas contra criaturas de campo que só podem contar consigo mesmos para reptilianas como cobras, nagahs, medusas, trogs e suturar seus ferimentos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gaita-de-foles",
+      "nome": "Gaita de foles",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um instrumento polêmico — de Cura em si mesmo. algumas culturas adoram seu som, mas a maioria das Estandarte. Um pedaço de tecido, geralmente pessoas odeia!",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lira-de-casco-de-tartaruga",
+      "nome": "Lira de casco de tartaruga",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um instruEstandarte Portátil. Igual ao estandarte, mento suave, que produz um som pacífico e acalenmas feito para ser usado nas costas ou preso à sela tador. Bardos que usam liras costumam ser belos de uma montaria.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.335Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-marionetes",
+      "nome": "Marionetes",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Embora não produza nenhum som, como um item vestido dela (veja p. 238). este conjunto de bonecos articulados pode ser empreMolde Pré-Fabricado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.335Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-pandeiro-das-estradas",
+      "nome": "Pandeiro das estradas",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um instrumento de um molde para cada escola de magias. Usar um mol- ritmos populares, que convida todos a se juntar ao seu de pré-fabricado diminui o tempo de fabricação de som. Você pode gastar uma ação de movimento, em uma engenhoca que simule uma magia da respectiva vez de uma ação padrão, para manter a concentração escola para três dias.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.335Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-tamborete-marcial",
+      "nome": "Tamborete marcial",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 80,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Menor que um tambor, Chapéu Emplumado. Popular entre capitães este instrumento é tocado com um par de baquetas piratas e duelistas fanfarrões, este enorme chapéu pequenas. Produz um som rápido e cadenciado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.336Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-trombeta-tapistana",
+      "nome": "Trombeta tapistana",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Usado por incontáveis você recebe 1 PM temporário que dura até o fim da cena. exércitos ao longo dos séculos, este instrumento Elmo Leve. Um capuz de couro ou peles, ou um produz um som que qualquer guerreiro reconhece capacete aberto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.336Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-violino-soprano",
+      "nome": "Violino soprano",
+      "categoria": "item geral",
+      "subtipo": "instrumento musical",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "instrumento musical",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um instrumento difícil de 50%, mas impõe –5 em Iniciativa e Percepção. Se você ser dominado, usado pelos bardos mais habilidosos. tiver proficiência com armaduras pesadas, reduz essa Ver um mestre violinista em ação é um grande incen- penalidade para –2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.336Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-avental-de-forja",
+      "nome": "Avental de forja",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um avental grosso, feito de e gasta apenas metade do dinheiro (arredondado couro tratado alquimicamente. Um artesão protegido para cima) neles. dessa forma não precisa se preocupar com faíscas e Luva de Falcoaria.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.337Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-camisolao",
+      "nome": "Camisolão",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta roupa de dormir pode não como os ímãs funcionam — mas muitos sabem que ser muito elegante, mas com certeza é confortável! eles podem atrair certos metais. Esta luva tem peFeita de tecido macio (de preferência listrado), aberta quenos ímãs nas pontas dos dedos, sendo útil para o bastante para ser fresca no calor, aconchegante o surrupiar objetos ferrosos sem chamar a atenção.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.337Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-capa-com-dragonas",
+      "nome": "Capa com dragonas",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma capa elegante com permite respirar mas esconde boa parte das feições, ombreiras, utilizada como parte de uniformes. Enquanto deixando à mostra apenas olhos, testa e orelhas. A você estiver vestindo esta capa, sua armadura conta preferida de onze entre dez bandoleiros de estradas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.337Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-casaca-de-apetrechos",
+      "nome": "Casaca de apetrechos",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este casacão pesado (CD 25) para ser capaz de descrevê-lo mais tarde (útil recobre todo o corpo do usuário, estendendo-se até para fugir das autoridades após um crime). abaixo de seus joelhos. É forrado de bolsos por dentro Máscara Completa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-chapeu-emplumado",
+      "nome": "Chapéu emplumado",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Popular entre capitães este instrumento é tocado com um par de baquetas piratas e duelistas fanfarrões, este enorme chapéu pequenas. Produz um som rápido e cadenciado. tem abas largas e uma gigantesca pluma.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-elmo-leve",
+      "nome": "Elmo leve",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um capuz de couro ou peles, ou um produz um som que qualquer guerreiro reconhece capacete aberto. Fornece fortificação 25%, mas impõe — o som da peleja! Quando você usa Inspiração, –2 em Iniciativa e Percepção.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-elmo-pesado",
+      "nome": "Elmo pesado",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma coifa (capuz de cota de próximo turno. malha) ou capacete fechado. Fornece fortificação Violino Soprano.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-jaqueta-de-couro",
+      "nome": "Jaqueta de couro",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma jaqueta feita de couro a sua escolha sob efeito dessa Inspiração recebe um que protege costas e braços, mas é aberta na frente. bônus adicional de +1d4 em seu próximo teste de O couro pode variar de preto a marrom, com ou sem perícia (exceto testes de ataque). gola.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.339Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-luva-de-falcoaria",
+      "nome": "Luva de falcoaria",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta luva recobre o antepequenas gotas de metal derretido respingando sobre braço do usuário, permitindo que uma ave de rapina seu peito. Evitando ferimentos sérios, pode se arriscar pouse sobre ele sem machucá-lo com suas garras. mais ao trabalhar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.339Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-luva-magnetica",
+      "nome": "Luva magnética",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Poucos em Arton sabem Camisolão. Esta roupa de dormir pode não como os ímãs funcionam — mas muitos sabem que ser muito elegante, mas com certeza é confortável! eles podem atrair certos metais.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.339Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-bucal",
+      "nome": "Máscara bucal",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta máscara nada mais é condições de descanso confortáveis em luxuosas. que um pano que cobre nariz e boca do usuário. Ela Capa com Dragonas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-completa",
+      "nome": "Máscara completa",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta máscara cobre toe por fora, sendo ideal para carregar muitos pequenos talmente o rosto. Como a área da máscara é maior, itens de utilidade variada. Uma casaca de apetrechos geralmente ela tem a forma de uma criatura ou aumenta sua capacidade de carga em 4 espaços (ela entidade — ursos, demônios, golens, javalis...",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-de-baile",
+      "nome": "Máscara de baile",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Tapa a região dos olhos, Rondel. Dois discos de aço costurados rebitados testa e às vezes o nariz, deixando à mostra a boca, o na armadura. Aumentam o bônus na Defesa de sua queixo e as orelhas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-mascara-de-soldador",
+      "nome": "Máscara de soldador",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma chapa metálica uma aparência de descontração, autoconfiança e que recobre o rosto, com um visor protegido por uma requinte. Você recebe +5 em testes de Diplomacia lente grossa e escurecida. A máscara garante maior dentro de uma de suas estruturas (como sua base, segurança para os olhos e o rosto de um artesão, negócio ou domínio) — é preciso estar em casa para permitindo que ele chegue bem perto do item no que este item tenha efeito.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-monoculo",
+      "nome": "Monóculo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma lente corretiva utilizada para Rufo. Esta gola adornada e apertada é ajustada enxergar melhor com um olho, encaixada na órbita ao redor do pescoço, dando a aparência de que o ocular do usuário. Isso é o que dizem para os tolos — na usuário está sufocando...",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-oculos-de-aeronauta",
+      "nome": "Óculos de aeronauta",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta proteção para Sapatos Confortáveis. Calçados apropriados os olhos é indispensável para baloeiros e aeronautas para uso em jornadas longas, preservando os pés do em geral. Fornece +1 em Pilotagem (cumulativo com usuário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-palmar",
+      "nome": "Palmar",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este equipamento é usado nas mãos, do em –1,5m e você falha automaticamente em testes parecendo leques ou pequenas pranchas que as re- de Fortitude para marcha forçada. Em compensação, cobrem. Um personagem usando palmares não pode uma vez por cena você pode escolher uma criatura e empunhar nada em nenhuma das mãos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-peruca",
+      "nome": "Peruca",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Muitos aristocratas desejam pentea- em vez disso o bônus que ele fornece contra essa dos extravagantes sem todo o trabalho necessário criatura aumenta para +5). para moldar seus cabelos. Ou simplesmente estão Veste Acolchoada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-rondel",
+      "nome": "Rondel",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Dois discos de aço costurados rebitados testa e às vezes o nariz, deixando à mostra a boca, o na armadura. Aumentam o bônus na Defesa de sua queixo e as orelhas. Muito popular em bailes e festas armadura em +1 (cumulativo com outros bônus de requintadas… Ou picantes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.342Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-roupao-elegante",
+      "nome": "Roupão elegante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este traje de veludo é um teste de Diplomacia ou Enganação. refinado e casual ao mesmo tempo, dando ao usuário Máscara de Soldador. Uma chapa metálica uma aparência de descontração, autoconfiança e que recobre o rosto, com um visor protegido por uma requinte.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.342Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-rufo",
+      "nome": "Rufo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta gola adornada e apertada é ajustada enxergar melhor com um olho, encaixada na órbita ao redor do pescoço, dando a aparência de que o ocular do usuário. Isso é o que dizem para os tolos — na usuário está sufocando... mas aumentando muito verdade, o monóculo é um símbolo de dignidade, sua elegância em certos círculos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.342Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sapatos-confortaveis",
+      "nome": "Sapatos confortáveis",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Calçados apropriados os olhos é indispensável para baloeiros e aeronautas para uso em jornadas longas, preservando os pés do em geral. Fornece +1 em Pilotagem (cumulativo com usuário. Se estiver vestindo sapatos confortáveis, você outros bônus de itens).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sapatos-de-salto-alto",
+      "nome": "Sapatos de salto alto",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Para alguns, a eleestes óculos como um mero acessório estético têm gância vem antes do conforto, e a prova são estes sua atitude piorada em uma categoria em relação a verdadeiros instrumentos de tortura em nome da usuários que não sejam aeronautas. moda. Com estes sapatos, seu deslocamento é reduziPalmar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-veste-acolchoada",
+      "nome": "Veste acolchoada",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este traje completo com piolhos, raspam a cabeça e desejam continuar (casaco, calças, capuz) é feito de tecido resistente bonitos. De qualquer forma, uma peruca permite estofado com lã ou algodão. Usado sob uma armaduque um personagem com Carisma menor que 0 seja ra, aumenta sua penalidade de armadura em –2, mas considerado como se tivesse Carisma 0 para fins de reduz o multiplicador de crítico de qualquer ataque perícias originalmente baseadas nesse atributo (ex- sofrido em –1 (mínimo x2).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-captador-de-luz",
+      "nome": "Captador de luz",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 450,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um conjunto de lentes e Gatilho de Corda. Um mecanismo simples, cristais adaptado à engenhoca, capaz de não apenas com algumas engrenagens e uma chave. Este aparato Arsenal dos Heróis 235 <PARSED TEXT FOR PAGE: 238 / 330> só pode ser instalado em engenhocas que simulem vez por dia, você pode gastar uma ação completa e 1 magias com execução de ação padrão, e permite que PM para acionar as ventoinhas e resfriar a engenhoca.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.351Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-comutador",
+      "nome": "Comutador",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma bobina de metal místico, uma fagulha de magia de teletransporte. Após lançar capaz de captar e potencializar a energia do ambiente. a magia, você pode se teletransportar para qualquer Diminui o custo total dos aprimoramentos da engeespaço desocupado em 4,5m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.352Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-conversor-alimentador",
+      "nome": "Conversor-alimentador",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este frasco de tigres-de-Hyninn, esta presa concede uma parte da vidro é ligado a tubos de metal e estranhos mecacapacidade ilusória dessas criaturas. Você recebe 25% nismos em forma de antena. Comporta três doses de de chance de ignorar ataques e efeitos (incluindo de essência de mana (ou outros preparados alquímicos área) por 1 rodada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.352Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-engenho-de-automacao",
+      "nome": "Engenho de automação",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este aparato envolsangrando e a CD para remover essa condição aumenta em ve dezenas de engrenagens e pistões que funcionam +5 (fica sangrando). sob a instrução de cartões perfurados, agindo por si Fumaça Onírica. Este gás de cores variadas só segundo um padrão programado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.352Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espera-para-melhorias",
+      "nome": "Espera para melhorias",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este aparato funciona vulnerável (vulnerável por 1 rodada). como um adaptador que permite instalar melhorias de outros itens na engenhoca. Fazer isso segue as Seiva Necrótica.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.353Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estabilizador",
+      "nome": "Estabilizador",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 900,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma gaiola de arame fino que podem ser acoplados a mais de uma engenhoca. envolve uma engenhoca. Aumenta a CD para resistir Nesses casos, você paga o custo de um único aparato, ao efeito da engenhoca em +2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.353Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estimulador-de-sobrecarga",
+      "nome": "Estimulador de sobrecarga",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um mecanisativação) de cada uma das engenhocas às quais estiver mo de aparência agressiva, com engrenagens baruacoplado. Acoplar ou remover um aparato exige 1 lhentas que giram de forma independente. Aumenta hora de trabalho.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.353Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-gatilho-de-corda",
+      "nome": "Gatilho de corda",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um mecanismo simples, cristais adaptado à engenhoca, capaz de não apenas com algumas engrenagens e uma chave. Este aparato Arsenal dos Heróis 235 <PARSED TEXT FOR PAGE: 238 / 330> só pode ser instalado em engenhocas que simulem vez por dia, você pode gastar uma ação completa e 1 magias com execução de ação padrão, e permite que PM para acionar as ventoinhas e resfriar a engenhoca. você ative a engenhoca com uma ação de movimento.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.354Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-giroscopio",
+      "nome": "Giroscópio",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 450,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este sistema de contrapesos, de mau funcionamento. Uma vez por cena, a engeamortecedores e roldanas é instalado ao redor da en- nhoca não enguiça com uma falha no teste de ativação genhoca, deixando-a sempre estável. Você não aplica (ela não ativa seu efeito, mas a CD para o próximo sua penalidade de armadura por armadura nos testes teste não aumenta e ela continua funcionando sem de ativação da engenhoca (mas aplica penalidades de precisar ser consertada).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.354Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ligacao-de-convergencia",
+      "nome": "Ligação de convergência",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este aparato cristais ligados a mecanismos complexos, capaz de deve ser acoplado a duas engenhocas (nem mais, captar a energia mágica inerente a certos objetos e nem menos), transformando ambas em uma. As duas convertê-la para que possa ser usada em engenhocas. engenhocas contam como uma só para efeitos do Permite acoplar um item esotérico à engenhoca, que limite de engenhocas que você pode manter ao mesmo fornece seus benefícios à magia simulada por ela (sem tempo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.354Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-remontagem-de-portabilidade",
+      "nome": "Remontagem de portabilidade",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este Pratos Especiais aparato é na verdade uma modificação total da Baga Celeste Cozida. Encontradas originalengenhoca: uma série de molas, hastes e fios que mente nas encostas invertidas de Vectora, estas bagas se permite que a engenhoca seja “desmontada” e unida espalharam por toda Arton. Preparadas adequadamente, a um item de vestuário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.355Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sequenciador-de-ativacao",
+      "nome": "Sequenciador de ativação",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este meca- se manteve inalterada. Consiste em um manjar nismo complexo, cheio de partes móveis, alavancas com ingredientes cultivados em terras próximas e engrenagens, é acoplado simultaneamente a três de cemitérios, que protege o corpo contra energias engenhocas. Uma vez por cena, você pode gastar uma sombrias.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.355Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-sistema-de-refrigeracao",
+      "nome": "Sistema de refrigeração",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 900,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um conjunto dano 2. CD 20. de ventoinhas que fazem ar fresco circular entre os Cerveja Deheoni.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.356Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-supressor-de-seguranca",
+      "nome": "Supressor de segurança",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este sistema de só poderá ativá-la novamente após dar corda no gatilho, mecanismos de contingência é instalado dentro da o que exige uma ação completa. engenhoca e interrompe a operação do item em caso Giroscópio. Este sistema de contrapesos, de mau funcionamento.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.356Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-transformador-mistico",
+      "nome": "Transformador místico",
+      "categoria": "item geral",
+      "subtipo": "aparato",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "aparato",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um conjunto de Ligação de Convergência. Este aparato cristais ligados a mecanismos complexos, capaz de deve ser acoplado a duas engenhocas (nem mais, captar a energia mágica inerente a certos objetos e nem menos), transformando ambas em uma. As duas convertê-la para que possa ser usada em engenhocas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.356Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-armadura-de-montaria-leve",
+      "nome": "Armadura de montaria leve",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta obras de fantasia, não armadura permite que a montaria se exponha mais custa lembrar: na vida e, consequentemente, auxilie seu cavaleiro com mais real, consuma com eficiência. Deve ser vestida pela montaria e aumenta moderação! um bônus numérico fornecido por ela em +1 (se for fixo) ou em um passo (se for um bônus rolado).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-armadura-de-montaria-pesada",
+      "nome": "Armadura de montaria pesada",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Como a armadura de montaria leve, mas aumenta o bônus em Arqueiros. Um grupamento de arqueiros, +2 ou em dois passos. Contudo, diminui o desloca- soldados irregulares ou caçadores em busca de algum mento da montaria em –3m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-arreios-namalkahnianos",
+      "nome": "Arreios namalkahnianos",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Feitos de couro se todos os membros do com nós e fivelas que permitem ajustes precisos, estes grupo forem maiores arreios permitem que um animal de tração puxe um veículo da forma mais confortável e eficiente possível. de idade. E, por Contam como um item vestido do animal e aumentam o mais que tavernas deslocamento de um veículo de tração animal em +3m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.361Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-caparazao",
+      "nome": "Caparazão",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma espécie de “roupa” para montarias, o caparazão é uma cobertura de tecido Besteiro. Um combatente especializado em armas finamente decorado que adorna e protege o corpo de disparo. Atirador iniciante.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.361Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-estribos",
+      "nome": "Estribos",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Estes apoios para os pés fazem par- para contratar e comandar um bando de aldeões. Turba te do equipamento básico de um ginete. Parecem de camponeses iniciante (veja Capangas).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.362Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ornamento",
+      "nome": "Ornamento",
+      "categoria": "item geral",
+      "subtipo": "equipamento de montaria",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "item geral",
+        "equipamento de montaria",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Muito usado em desfiles, justas Conselheiro. Um estudioso de diversos ase outras ocasiões em que uma montaria precisa se suntos. Ajudante (Conhecimento, Misticismo e Nobreza) mostrar garbosa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-lancador-alquimico",
+      "nome": "Lançador Alquímico",
+      "categoria": "item geral",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 540,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "item geral",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Dispositivo de duas mãos que aumenta para médio o alcance de um item alquímico ou poção carregado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-agua-benta",
+      "nome": "Água benta",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Água sagrada criada com Abençoar Alimentos. Com uma ação padrão, pode atingir um morto-vivo, demônio ou diabo em alcance curto e causar 2d10 de dano de luz, com Reflexos para reduzir à metade.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-algemas",
+      "nome": "Algemas",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Par de algemas para criaturas Médias. Pode prender os dois pulsos ou um pulso a um objeto; escapar exige Acrobacia CD 30, Força CD 25 ou as chaves. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-arpeu",
+      "nome": "Arpéu",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Gancho de aço preso a uma corda para fixação em muros, janelas e parapeitos. Prendê-lo exige Pontaria CD 15 e usá-lo para subir fornece +5 em Atletismo. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-bandoleira-de-pocoes",
+      "nome": "Bandoleira de poções",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Cinto com bolsos para pequenos frascos. Enquanto estiver vestindo, permite sacar itens alquímicos e poções como uma ação livre. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-barraca",
+      "nome": "Barraca",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Barraca de lona que funciona como saco de dormir para duas pessoas e fornece +2 em Sobrevivência para acampar. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-corda",
+      "nome": "Corda",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Rolo de 10m de corda de cânhamo. Ajuda em escaladas e descidas, podendo fornecer +5 em Atletismo em situações apropriadas; também pode ser usada para amarrar criaturas e objetos. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-espelho",
+      "nome": "Espelho",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Pequeno espelho útil para observar cantos, refletir sinais de luz ou simplesmente se arrumar. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-lampiao",
+      "nome": "Lampião",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 7,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Lampião a óleo com portinholas. Acendê-lo é uma ação padrão; ilumina um raio de 15m e uma carga de óleo dura uma cena. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-mochila",
+      "nome": "Mochila",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Bolsa de lona com tiras para ser carregada nas costas. Por si só não conta como item vestido.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-mochila-de-aventureiro",
+      "nome": "Mochila de aventureiro",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Mochila de couro reforçado cheia de bolsos e presilhas. Quando vestida, aumenta sua capacidade de carga em 2 espaços e não ocupa espaço de carga.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-oleo",
+      "nome": "Óleo",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Frasco de óleo inflamável para lampiões. Pode ser arremessado em alcance curto; se o alvo sofrer dano de fogo antes do fim do seu próximo turno, sofre +1d6 de fogo e fica em chamas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-jda-organizador-de-pergaminhos",
+      "nome": "Organizador de pergaminhos",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Estojo rígido de madeira ou couro para pergaminhos. Enquanto estiver vestido, permite sacar pergaminhos como ação livre. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Barra de ferro que fornece +5 em testes de Força para abrir portas, janelas e baús. Também pode ser usada como uma clava. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-saco-de-dormir",
+      "nome": "Saco de dormir",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Colchão fino e enrolável com coberta, necessário para descansar adequadamente ao relento. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-simbolo-sagrado",
+      "nome": "Símbolo sagrado",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Medalhão de madeira ou metal com o símbolo de uma divindade. Se estiver vestido ou empunhado e representar um deus do qual você é devoto, fornece +1 em testes de resistência. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tocha",
+      "nome": "Tocha",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Bastão com material inflamável na ponta. Acender exige ação padrão; ilumina um raio de 9m por uma cena e pode ser usada como arma simples leve, causando 1d4 de impacto +1 de fogo. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-vara-de-madeira-3m",
+      "nome": "Vara de madeira (3m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento de aventura",
+      "peso": 0,
+      "preco": {
+        "valor": 0.2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "equipamento de aventura",
+        "jogo do ano"
+      ],
+      "descricao": "Haste de madeira de 3m, útil para alcançar locais distantes. É frágil demais para servir como arma. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-alaude-elfico",
+      "nome": "Alaúde élfico",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Alaúde de madeira refinada e manufatura delicada. Enquanto empunhado, permite usar Inspiração como ação de movimento e conta como instrumento musical. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-colecao-de-livros",
+      "nome": "Coleção de livros",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Pequena coleção de tomos sobre um assunto específico. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião, escolhido na compra ou fabricação. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-equipamento-de-viagem",
+      "nome": "Equipamento de viagem",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Saco com pederneira, utensílios de cozinha, anzol, linha e pequena pá. Sem este equipamento, você sofre –5 em Sobrevivência para montar acampamento. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-estojo-de-disfarces",
+      "nome": "Estojo de disfarces",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Conjunto de cosméticos, tintas e próteses simples. Sem ele, você sofre –5 em Enganação para criar disfarces. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-flauta-mistica",
+      "nome": "Flauta mística",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Instrumento com runas e pequenas gemas. Um bardo que a empunhe aumenta em +1 a CD para resistir às suas magias; também conta como instrumento musical. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-gazua",
+      "nome": "Gazua",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Barra fina de ferro com ponta curva. Sem uma gazua, você sofre –5 em Ladinagem para abrir fechaduras. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-instrumentos-de-oficio",
+      "nome": "Instrumentos de <ofício>",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Conjunto de ferramentas específicas para uma perícia de Ofício. Sem os instrumentos adequados, você sofre –5 nos testes desse Ofício. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Instrumento típico como bandolim, flauta ou lira. Bardos precisam empunhá-lo com duas mãos para seus benefícios e Músicas de Bardo; também pode funcionar como esotérico para bardos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luneta",
+      "nome": "Luneta",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Cilindro metálico com lentes que fornece +5 em Percepção para observar coisas em alcance longo ou além. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-maleta-de-medicamentos",
+      "nome": "Maleta de medicamentos",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Caixa com ervas, unguentos, bandagens e outros suprimentos médicos. Sem ela, você sofre –5 em Cura. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-sela",
+      "nome": "Sela",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Peça de couro e pelego com arreios para controlar uma montaria. Montar sem sela impõe –5 em Cavalgar; quando usada no animal, não ocupa espaço do personagem. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tambor-das-profundezas",
+      "nome": "Tambor das profundezas",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 80,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "jogo do ano"
+      ],
+      "descricao": "Tambor anão de som grave. Enquanto empunhado, dobra o alcance de Inspiração e de qualquer Música de Bardo; conta como instrumento musical. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-andrajos-de-aldeao",
+      "nome": "Andrajos de aldeão",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Roupas simples de camponês. Fornecem +2 em Investigação para interrogar e aumentam a CD de Aparência Inofensiva em +2, mas podem impor –2 em perícias de Carisma contra pessoas preocupadas com classe social.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-bandana",
+      "nome": "Bandana",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Lenço típico de bandidos e piratas. Fornece +1 em Intimidação. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-botas-reforcadas",
+      "nome": "Botas reforçadas",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Botas grossas de cano alto que protegem contra terreno ruim. Aumentam seu deslocamento em +1,5m quando ele for reduzido por terreno difícil. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-camisa-bufante",
+      "nome": "Camisa bufante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Blusa colorida com mangas e gola volumosas. Fornece +1 em Atuação. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-capa-esvoacante",
+      "nome": "Capa esvoaçante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Capa de seda de movimentos amplos e chamativos. Fornece +1 em Enganação. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-capa-pesada",
+      "nome": "Capa pesada",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Capa grossa de couro que protege e aquece. Fornece +1 em Fortitude. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-casaco-longo",
+      "nome": "Casaco longo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Casaco quente de peles ou couro forrado e impermeabilizado. Fornece +5 em Fortitude contra frio, mas impõe penalidade de armadura –2. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-chapeu-arcano",
+      "nome": "Chapéu arcano",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Chapéu pontudo adornado com símbolos místicos. Fornece +1 PM, mas apenas para personagens com Caminho do Arcanista. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-enfeite-de-elmo",
+      "nome": "Enfeite de elmo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Adorno vistoso para elmo, como plumas, asas ou totem animal. Fornece resistência a medo +2. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-farrapos-de-ermitao",
+      "nome": "Farrapos de ermitão",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Trapos adornados com plantas e raízes. Fornecem +2 em Adestramento, mas impõem –2 em Diplomacia e em Investigação para interrogar. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-gorro-de-ervas",
+      "nome": "Gorro de ervas",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Chapéu preenchido com ervas preparadas para concentração. Fornece +1 em Vontade. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-luva-de-pelica",
+      "nome": "Luva de pelica",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Luvas finas que preservam o tato e evitam que os dedos escorreguem. Fornecem +1 em Ladinagem. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manopla",
+      "nome": "Manopla",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Luva metálica que torna o dano de ataques desarmados letal. Conta como arma para receber melhorias e encantos usados nesses ataques. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manto-camuflado",
+      "nome": "Manto camuflado",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manto feito para um terreno específico. No terreno correto, fornece +2 em Furtividade. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-manto-eclesiastico",
+      "nome": "Manto eclesiástico",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manto típico de igrejas e templos. Fornece +1 em Religião. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-robe-mistico",
+      "nome": "Robe místico",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Manto longo com temas arcanos. Fornece +1 em Misticismo. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-sapatos-de-camurca",
+      "nome": "Sapatos de camurça",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Calçados leves e resistentes que melhoram o equilíbrio. Fornecem +1 em Acrobacia. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-tabardo",
+      "nome": "Tabardo",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Colete de tecido normalmente estampado com heráldica de reino, igreja, casa nobre ou ordem. Fornece +1 em Diplomacia. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-traje-da-corte",
+      "nome": "Traje da corte",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Roupas de luxo feitas sob medida, com joias e acessórios. Em ambientes formais, personagens sem esse traje podem sofrer –5 em perícias baseadas em Carisma. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-traje-de-viajante",
+      "nome": "Traje de viajante",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Conjunto de botas, calças ou saia, cinto, camisa de linho e capa com capuz; é a roupa padrão de aventureiros.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-veste-de-seda",
+      "nome": "Veste de seda",
+      "categoria": "item geral",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "item geral",
+        "vestuario",
+        "jogo do ano"
+      ],
+      "descricao": "Roupa leve e elegante que permite movimentos livres. Fornece +1 em Reflexos. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    }
+  ]
+}
