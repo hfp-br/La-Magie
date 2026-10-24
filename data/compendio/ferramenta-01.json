@@ -1,0 +1,42 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-dbfree-mpp",
+      "nome": "MPP",
+      "categoria": "ferramenta",
+      "subtipo": "equipamento adicional",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 70,
+      "tags": [
+        "ferramenta",
+        "equipamento adicional",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "dragao brasil",
+        "adicional"
+      ],
+      "descricao": "Ferramenta reconfigurável que funciona como espada curta e como kit de Ofício definido na fabricação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
