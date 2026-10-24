@@ -1,0 +1,131 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2014-embarcacao-barco-de-quilha",
+      "nome": "Barco de quilha",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 1.5 km/h. ",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-embarcacao-barco-a-remo",
+      "nome": "Barco a remo",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 45,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 2 km/h. Peso próprio: 45 kg.",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-embarcacao-dracar",
+      "nome": "Dracar",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 5 km/h. ",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-embarcacao-galera",
+      "nome": "Galera",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 6.5 km/h. ",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-embarcacao-navio-de-guerra",
+      "nome": "Navio de guerra",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 4 km/h. ",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-embarcacao-veleiro",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "descricao": "Velocidade: 3 km/h. ",
+      "tags": [
+        "dnd",
+        "2014",
+        "embarcação"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
