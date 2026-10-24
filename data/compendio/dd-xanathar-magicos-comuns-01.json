@@ -308,9 +308,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Mantém até três pequenos objetos de até 0,5 kg flutuando acima de sua ponta; eles podem girar lentamente.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -332,9 +331,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "10 cargas: gaste 1 com uma ação para produzir uma flor não mágica; recupera 1d6 + 4 cargas ao amanhecer.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -356,9 +354,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Permite beber bebidas alcoólicas não mágicas sem ficar embriagado; não neutraliza venenos ou líquidos perigosos.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -380,9 +377,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Enquanto veste a capa, uma ação bônus faz o tecido ondular dramaticamente.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -404,9 +400,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação bônus modifica visualmente a cor, o estilo e a qualidade da capa, sem reproduzir efeitos de outras capas mágicas.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -428,9 +423,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Foco arcano para magos; uma vez por descanso longo, permite tentar conjurar um truque desconhecido da lista de mago com teste de Arcanismo CD 10.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -452,9 +446,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "3 cargas: cada uma invoca um morcego, sapo ou rato normal por até 1 hora; recarrega ao amanhecer.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -476,9 +469,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Tem 5% de chance de abrir qualquer fechadura em que seja usada; desaparece ao conseguir abri-la.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -500,9 +492,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "4 cargas: somente a criatura designada, a até 180 m e capaz de ouvir, escuta o toque; recupera 1d4 cargas ao amanhecer.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -524,9 +515,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Corda de 15 m que pode ser cortada e reunida magicamente por comando se todos os pedaços estiverem encostados.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -548,9 +538,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Requer sintonização; o portador escolhe o resultado de qualquer lançamento deste dado de seis faces.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -572,9 +561,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Elmo de aparência aterradora que faz os olhos do usuário emitirem brilho vermelho; sem bônus de combate.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -596,9 +584,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Escudo com rosto esculpido cuja expressão pode ser alterada pelo usuário com uma ação bônus.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -620,9 +607,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação revela a direção do norte, desde que o portador esteja no Plano Material.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -644,9 +630,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação indica se é manhã, tarde ou noite no Plano Material.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -668,9 +653,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Quando desembainhada na escuridão, emite luz plena por 4,5 m e penumbra por outros 4,5 m.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -692,9 +676,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Flecha mágica que resiste a quebrar-se, salvo quando submetida a campo antimagia.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -716,9 +699,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Pequena pastilha comestível que supre as necessidades alimentares de um dia.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -740,9 +722,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Dissolve-se em líquido e transforma até meio litro em água potável e fresca; não purifica venenos nem líquidos mágicos.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -764,9 +745,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Grimório cujas páginas e escritos resistem a água, fogo e deterioração natural.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -788,9 +768,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "3 cargas: ao tocar, inscreve uma mensagem mágica de até seis palavras em superfície visível a até 9 m; desaparece em 24 h.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -812,9 +791,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Enquanto é tocado, produz pequenas ilusões visuais inofensivas num raio de 1,5 m; para bardos, 4,5 m.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -836,9 +814,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Mastro de 3 m que se retrai até 30 cm por palavra de comando e pode voltar ao comprimento original.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -860,9 +837,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Mastro de 3 m que vira vara de pescar equipada e retorna à forma original por comando.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -884,9 +860,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Projétil mágico que obriga a criatura atingida a superar uma salvaguarda de Força CD 10 ou cair no chão.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -908,9 +883,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma aplicação dura 1 hora e concede vantagem em testes de Carisma direcionados a humanoides de ND 1 ou menor.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -932,9 +906,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Traje que se repara automaticamente do desgaste cotidiano; não recria partes completamente destruídas.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -956,9 +929,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Exige sintonização por conjurador; fixa-se numa arma para permitir usá-la como foco arcano.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -980,9 +952,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Ao encostar no ouvido, permite ouvir normalmente mesmo sob efeitos que deixariam a criatura surda.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1004,9 +975,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação muda o desenho de um rosto na ponta da varinha para uma expressão carrancuda.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1028,9 +998,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "7 cargas: gaste uma com ação para produzir fogos de artifício e luzes coloridas inofensivas; recarga diária.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1052,9 +1021,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação cria música orquestral audível a uma curta distância; a melodia acompanha os gestos do portador.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1076,9 +1044,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Uma ação muda o rosto da varinha de carrancudo para sorridente.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1100,9 +1067,8 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Após plantar e manter um arbusto comum por trinta dias, a planta pode despertar e tornar-se uma criatura amigável.",
       "raridade": "comum",
-      "revisarDados": true,
       "schemaVersion": 5
     },
     {
@@ -1124,9 +1090,31 @@
         "mágico",
         "comum"
       ],
-      "descricao": "Item mágico comum. Propriedades e condições de uso detalhadas na fonte; efeitos ainda precisam de revisão antes de automatizar na ficha.",
+      "descricao": "Vela mágica cuja chama continua acesa mesmo submersa; emite iluminação como uma vela normal.",
       "raridade": "comum",
-      "revisarDados": true,
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-xanathar-olho-de-ersatz",
+      "nome": "Olho de Ersatz",
+      "categoria": "item mágico",
+      "subtipo": "comum",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Guia de Xanathar para Todas as Coisas",
+      "pagina": 139,
+      "raridade": "comum",
+      "tags": [
+        "dnd",
+        "xanathar",
+        "mágico",
+        "comum"
+      ],
+      "descricao": "Olho artificial mágico que substitui um olho perdido e restaura a visão normal enquanto estiver encaixado; requer sintonização.",
       "schemaVersion": 5
     }
   ]
