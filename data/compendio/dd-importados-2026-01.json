@@ -4288,12 +4288,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Permite escrever usando a ponta do dedo como caneta inesgotável e ocultar uma página de texto por 24 horas para todos exceto duas criaturas designadas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum",
-      "revisarDados": true
+      "raridade": "comum"
     },
     {
       "id": "dd-tasha-tatuagem-mascarada",
@@ -4312,12 +4311,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem mutável, cuja aparência pode ser alterada; permite conjurar Disfarçar-se uma vez por amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum",
-      "revisarDados": true
+      "raridade": "comum"
     },
     {
       "id": "dd-tasha-membro-protetico",
@@ -4336,12 +4334,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Prótese mágica que substitui um membro perdido e funciona como parte natural do corpo enquanto estiver conectada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum",
-      "revisarDados": true
+      "raridade": "comum"
     },
     {
       "id": "dd-tasha-tatuagem-de-feitico",
@@ -4360,12 +4357,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade comum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem de uso único que contém uma magia de até 5º círculo; após conjurar o efeito, desaparece.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum",
-      "revisarDados": true
+      "raridade": "comum"
     },
     {
       "id": "dd-tasha-ferramenta-multifuncional",
@@ -4384,12 +4380,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Ferramenta mágica de artífice que assume a forma de qualquer ferramenta de artesão, concede bônus às magias e permite aprender temporariamente um truque.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-amuleto-do-devoto",
@@ -4408,12 +4403,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Símbolo sagrado que oferece bônus às jogadas de ataque mágico e CDs de magias de clérigo ou paladino; também permite utilizar Canalizar Divindade sem gastar um uso, uma vez por amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-grimorio-arcano",
@@ -4432,12 +4426,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Grimório que serve de foco arcano e oferece bônus a ataques e CDs de magias de mago; permite recuperar uma utilização de Recuperação Arcana.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-tatuagem-barreira",
@@ -4456,12 +4449,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem protetora cuja raridade determina a Classe de Armadura que concede enquanto o portador não utiliza armadura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-frasco-de-sangue",
@@ -4480,12 +4472,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Foco arcano para feiticeiros que melhora ataques e CDs de magias; permite recuperar pontos de feitiçaria após gastar Dados de Vida.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-tatuagem-garra-mistica",
@@ -4504,12 +4495,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem que transforma ataques desarmados em mágicos e melhora sua eficácia; pode projetar golpes à distância por tempo limitado.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-fragmento-de-feywild",
@@ -4528,12 +4518,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Fragmento feérico usado como foco de feiticeiro; ativar Metamagia provoca um efeito mágico aleatório relacionado à Agrestia das Fadas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-emblema-do-guardiao",
@@ -4552,12 +4541,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Insígnia protetora usada por paladino ou clérigo que permite anular um acerto crítico recebido, dentro dos limites de uso do item.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-foice-da-lua",
@@ -4576,12 +4564,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Foice mágica para druida ou patrulheiro; acrescenta bônus a ataques, dano e magias, funcionando também como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-manto-da-natureza",
@@ -4600,12 +4587,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Manto para druida ou patrulheiro que serve como foco mágico e pode ocultar o portador com maior facilidade em ambientes naturais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-tambor-fabricante-de-ritmo",
@@ -4624,12 +4610,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade incomum. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tambor mágico que aprimora jogadas de ataque mágico e CDs das magias de bardo e permite recuperar um uso de Inspiração de Bardo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum",
-      "revisarDados": true
+      "raridade": "incomum"
     },
     {
       "id": "dd-tasha-compendio-alquimico",
@@ -4648,12 +4633,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Livro de magias de mago especializado em transmutação, com cargas que alteram magias preparadas e transformam materiais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-fragmento-astral",
@@ -4672,12 +4656,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Cristal planar de feiticeiro que concede mobilidade especial ao usar Metamagia, permitindo deslocamento instantâneo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-arquivo-de-astromancia",
@@ -4696,12 +4679,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Livro de magias associado à adivinhação; suas cargas permitem trocar magias preparadas e influenciar resultados por meio de presságios.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-atlas-de-infinitos-horizontes",
@@ -4720,12 +4702,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Grimório de conjuração planar que permite substituir magias preparadas e efetuar deslocamentos mágicos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-sino-filial",
@@ -4744,12 +4725,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Foco clerical de natureza protetora com efeitos ligados à recuperação e restauração de aliados.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-devoto-do-censer",
@@ -4768,12 +4748,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Incensário mágico usado como mangual e foco de clérigo ou paladino; pode causar dano radiante adicional e produzir incenso restaurador.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-manuscrito-duplicado",
@@ -4792,12 +4771,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Livro de magia ligado à ilusão; suas cargas permitem trocar magias preparadas e criar efeitos enganosos adicionais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-elemental",
@@ -4816,12 +4794,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Cristal de feiticeiro sintonizado com um elemento; Metamagia ativa um efeito de ar, terra, fogo ou água.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-fragmento-do-plano-distante",
@@ -4840,12 +4817,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Fragmento extraplanar de feiticeiro; quando usado com Metamagia, desencadeia um efeito perturbador sobre um alvo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-manual-do-tecelao-do-coracao",
@@ -4864,12 +4840,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Livro de magia ligado à escola de encantamento; contém magias e propriedades que afetam emoções e criaturas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-livro-da-alma-e-carne",
@@ -4888,12 +4863,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Grimório de necromancia que contém magias relacionadas a mortos-vivos e oferece poderes ligados à manipulação da vida e da morte.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-lira-da-construcao",
@@ -4912,12 +4886,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Instrumento mágico que protege estruturas e pode criar ou reparar construções e objetos por meio de magia.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-externa",
@@ -4936,12 +4909,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Cristal que contém essência de Plano Exterior; quando um feiticeiro aplica Metamagia, ativa um efeito conforme a natureza planar do fragmento.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-codex-do-invocador-de-planos",
@@ -4960,12 +4932,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Grimório que contém feitiços de conjuração e fornece cargas para magia de invocação e vínculos extraplanares.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-versos-protetores",
@@ -4984,12 +4955,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Grimório de abjuração capaz de trancar sua própria capa magicamente e usar cargas para proteção contra efeitos mágicos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-tatuagem-da-marca-de-shadowfell",
@@ -5008,12 +4978,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem sombria que concede visão no escuro e facilita furtividade; permite reduzir dano recebido com uma reação limitada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-fragmento-de-shadowfell",
@@ -5032,12 +5001,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Cristal das sombras para feiticeiro que, ao empregar Metamagia, pode enfraquecer um alvo com energia sombria.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro",
-      "revisarDados": true
+      "raridade": "raro"
     },
     {
       "id": "dd-tasha-tatuagem-da-absorcao",
@@ -5056,12 +5024,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem que proporciona resistência a um tipo específico de dano e permite absorver parte de uma fonte desse dano.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro",
-      "revisarDados": true
+      "raridade": "muito raro"
     },
     {
       "id": "dd-tasha-caldeirao-do-renascimento",
@@ -5080,12 +5047,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Caldeirão mágico que prepara poções e alimentos, cria substâncias e pode realizar um ritual de retorno à vida.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro",
-      "revisarDados": true
+      "raridade": "muito raro"
     },
     {
       "id": "dd-tasha-cronica-cristalina",
@@ -5104,12 +5070,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Cristal usado como grimório de mago que pode armazenar magias e ampliar capacidades de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro",
-      "revisarDados": true
+      "raridade": "muito raro"
     },
     {
       "id": "dd-tasha-tatuagem-da-etapa-fantasma",
@@ -5128,12 +5093,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade muito raro. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem que permite tornar-se parcialmente incorpóreo e atravessar criaturas ou objetos durante uma duração limitada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro",
-      "revisarDados": true
+      "raridade": "muito raro"
     },
     {
       "id": "dd-tasha-tatuagem-de-furia-de-sangue",
@@ -5152,12 +5116,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade lendário. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Tatuagem lendária com cargas: causa dano necrótico extra e cura o portador em golpes de arma; permite reagir com ataque a quem o feriu.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "lendário",
-      "revisarDados": true
+      "raridade": "lendário"
     },
     {
       "id": "dd-tasha-almofariz-e-pilao-de-baba-yaga",
@@ -5176,12 +5139,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Artefato de alquimia e viagem planar: produz materiais, tritura conteúdos por magia, transforma o pilão em bordão mágico +3 e transporta ocupantes.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato",
-      "revisarDados": true
+      "raridade": "artefato"
     },
     {
       "id": "dd-tasha-tarokka-das-almas-de-luba",
@@ -5200,12 +5162,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Baralho artefato que armazena espíritos malignos e pode alterar a sorte de criaturas, com riscos associados às cartas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato",
-      "revisarDados": true
+      "raridade": "artefato"
     },
     {
       "id": "dd-tasha-poderoso-servo-de-leuk-o",
@@ -5224,12 +5185,11 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Construto artefato Enorme operado por criaturas sintonizadas, com grande resistência, movimentos próprios e armamentos poderosos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato",
-      "revisarDados": true
+      "raridade": "artefato"
     },
     {
       "id": "dd-tasha-dentes-de-dahlver-nar",
@@ -5248,12 +5208,77 @@
         "dnd",
         "mágico"
       ],
-      "descricao": "Item mágico de raridade artefato. Consulte a descrição específica na fonte para efeitos, sintonização e uso; dados mecânicos ainda não importados.",
+      "descricao": "Conjunto de dentes artefato que podem ser implantados para obter efeitos individuais ou semeados para invocar criaturas relacionadas a antigas histórias.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato",
-      "revisarDados": true
+      "raridade": "artefato"
+    },
+    {
+      "id": "dd-tasha-tatuagem-de-aperto-em-espiral",
+      "nome": "Tatuagem de Aperto em Espiral",
+      "categoria": "item mágico",
+      "subtipo": "mágico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tudo de Tasha",
+      "pagina": 134,
+      "raridade": "incomum",
+      "descricao": "Tatuagem que projeta tentáculos de tinta contra uma criatura próxima, causando dano de força e podendo agarrá-la com uma salvaguarda de Força.",
+      "tags": [
+        "dnd",
+        "tasha",
+        "mágico"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-tasha-tratado-fulminante",
+      "nome": "Tratado Fulminante",
+      "categoria": "item mágico",
+      "subtipo": "mágico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tudo de Tasha",
+      "pagina": 135,
+      "raridade": "raro",
+      "descricao": "Grimório de evocação com três cargas que permite trocar uma magia preparada e intensificar magias ofensivas com dano de força adicional.",
+      "tags": [
+        "dnd",
+        "tasha",
+        "mágico"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-tasha-concertina-de-reveler",
+      "nome": "Concertina de Reveler",
+      "categoria": "item mágico",
+      "subtipo": "mágico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tudo de Tasha",
+      "pagina": 135,
+      "raridade": "raro",
+      "descricao": "Instrumento mágico associado a um bardo que aprimora apresentações e pode conjurar magias por meio da música.",
+      "tags": [
+        "dnd",
+        "tasha",
+        "mágico"
+      ],
+      "schemaVersion": 5
     }
   ]
 }
