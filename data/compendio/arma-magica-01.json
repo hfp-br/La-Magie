@@ -1,0 +1,1115 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-herois-adaga-da-bruma",
+      "nome": "Adaga da bruma",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta lâmina fina, que parece apresenta fendas que emitem calor e luz alaranjada. estar sempre envolta em névoa suave, é uma adaga É uma clava maciça flamejante formidável; quando acerformidável. Se acertar um ataque com esta arma, você ta um ataque com ela, você pode gastar 2 PM para pode gastar 2 PM para se tornar invisível por 1 rodada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.364Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-arco-das-sombras",
+      "nome": "Arco das sombras",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Feito de madeira negra e Espada da Tempestade. Esta espada longa fosca, que dizem provir do Reino de Tenebra, este arco precisa formidável trovejante possui uma lâmina azulacurto sombrio parece absorver a luz ao redor. Quando da, gravada com runas que brilham raivosas durante ataca com esta arma, você pode gastar 2 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.365Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-arco-do-crepusculo",
+      "nome": "Arco do crepúsculo",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Um arco longo formidável em alcance curto. que muda de cor conforme o sol se põe. Quando ataca Espada do Guardião.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.365Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-azagaia-fantasma",
+      "nome": "Azagaia fantasma",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta azagaia caçadora é feita PM para criar uma barreira que fornece RD 10 a você de um material transparente como cristal. Quando a e todos os aliados em um raio de 6m por 1 rodada. arremessa, você pode gastar 1 PM para que ela ignore Espada Solar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.365Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-besta-estelar",
+      "nome": "Besta estelar",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Incrustada com gemas que pode gastar 3 PM para fazer a espada emitir um clarão brilham como estrelas, esta é uma besta leve cravejada de que cega todos os inimigos em alcance curto por 1 gemas formidável. Você pode gastar 3 PM para disparar rodada (Ref CD For ou Des evita). Arsenal dos Heróis 257 <PARSED TEXT FOR PAGE: 260 / 330> Florete do Vendaval.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.366Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-clava-de-lava",
+      "nome": "Clava de lava",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta clava de madeira escura Adaga da Bruma. Esta lâmina fina, que parece apresenta fendas que emitem calor e luz alaranjada. estar sempre envolta em névoa suave, é uma adaga É uma clava maciça flamejante formidável; quando acerformidável.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.366Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espada-da-tempestade",
+      "nome": "Espada da tempestade",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta espada longa fosca, que dizem provir do Reino de Tenebra, este arco precisa formidável trovejante possui uma lâmina azulacurto sombrio parece absorver a luz ao redor. Quando da, gravada com runas que brilham raivosas durante ataca com esta arma, você pode gastar 2 PM. Se fizer tempestades.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.366Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espada-do-guardiao",
+      "nome": "Espada do guardião",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 54000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Uma espada longa defensocom esta arma, você pode gastar 1 PM. Se fizer isso e ra formidável com um cabo robusto e inscrições rúnicas acertar o ataque, o alvo fica ofuscado por 1d4 rodadas. protetoras.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.366Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-espada-solar",
+      "nome": "Espada solar",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 45000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta espada bastarda magnífica a RD do alvo. emite uma luz dourada que aquece o entorno. Você Besta Estelar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.367Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-florete-do-vendaval",
+      "nome": "Florete do vendaval",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 27000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você Armaduras & pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe Escudos Mágicos +5 na Defesa contra ataques à distância.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.367Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-lanca-da-fenix",
+      "nome": "Lança da fênix",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 100000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Esta lança flamejante magnífica Encantos para tem a ponta forjada no formato de uma chama. Sempre Armaduras & Escudos que reduz um inimigo a 0 PV, você recupera 10 PV. Abissal.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.367Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-machado-da-natureza",
+      "nome": "Machado da natureza",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este machado de ba- deslocamento de escalada 12m com duração sustentada. talha preciso formidável tem aparência rústica, coberto Anulador. Uma vez por rodada, quando é alvo por musgos e vinhas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-machado-do-abismo",
+      "nome": "Machado do abismo",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 36000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este machado de lâmina Arbóreo. Você recebe resistência a magia divina dupla é feito de metal negro e emite um leve brilho +5. Além disso, pode lançar a magia Controlar Plantas púrpura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-machado-do-vulcao",
+      "nome": "Machado do vulcão",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 54000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este machado de guerra Densa. A armadura gera uma aura de peso e maciço flamejante formidável tem textura vítrea, com mag- lentidão. Isso reduz o deslocamento de inimigos em ma rodopiando em seu interior.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-martelo-da-terra",
+      "nome": "Martelo da terra",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 33000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este martelo de guerra cra- à distância aumenta em +5. Além disso, uma vez por vejado de gemas formidável de adamante é adornado com cena, quando sofre dano de um ataque à distância, cristais brilhantes e gravuras de montanhas. Você pode você pode gastar 3 PM para ignorar esse dano.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.369Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-martelo-do-tita",
+      "nome": "Martelo do titã",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 22500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Este martelo de guerra formi- Esmérico. O item é decorado com esmeraldas dável, feito de rochas negras e pesadas, tem aparência encantadas. Você recebe redução de ácido 10 e resisrobusta.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.369Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-punhal-das-profundezas",
+      "nome": "Punhal das profundezas",
+      "categoria": "arma magica",
+      "subtipo": "arma específica",
+      "peso": 0,
+      "preco": {
+        "valor": 36000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 256,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "tormenta20",
+        "herois de arton",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Uma adaga for- duração sustentada que estende essa proteção para midável curva feita de um material escuro e úmido, todos os aliados em alcance curto. com cheiro de sal. Quando ataca com este punhal, Estígio.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.369Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-espada-da-heranca-heroica",
+      "nome": "Espada da Herança Heróica",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 210000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada longa ligada ao último desejo de um cavaleiro ou paladino morto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-florete-floral",
+      "nome": "Florete Floral",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 120000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Florete certeiro formidável ligado a névoa, flores e deslocamento mágico.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-guarda-esqueletica",
+      "nome": "Guarda Esquelética",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 60000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada curta defensora capaz de se transformar em um esqueleto guarda-costas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-gwurthun",
+      "nome": "Gwurthun",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 135000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada longa conjuradora que absorve energia de efeitos mágicos resistidos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-pequena-cobra",
+      "nome": "Pequena Cobra",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 75000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada curta formidável venenosa capaz de se transformar em cobra parceira.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-mata-dragoes",
+      "nome": "Mata-Dragões",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 145000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada bastarda colossal de adamante, feita para ignorar resistências e enfrentar criaturas enormes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-pilar-primordial",
+      "nome": "Pilar Primordial",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 270000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Montante formidável que alterna propriedades elementais e pode invocar elementais.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-talho-de-azgher",
+      "nome": "Talho de Azgher",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Cimitarra formidável que emite luz e pode gerar luz solar intensa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-valete-de-nimb",
+      "nome": "Valete de Nimb",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada longa caótica cujo dano muda aleatoriamente a cada acerto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-mosquete-taratect",
+      "nome": "Mosquete taratect",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 3800,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Mosquete certeiro com design aracnídeo, capaz de lançar Teia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-rebeliao",
+      "nome": "Rebelião",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 76600,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Arma híbrida aumentada, maciça, magnífica, lancinante e de adamante, capaz de assumir várias formas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-kiri",
+      "nome": "Kiri",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 150000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Katana ameaçadora formidável que cria névoa densa sem afetar seu portador.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dbfree-yasidi",
+      "nome": "Yasidi",
+      "categoria": "arma magica",
+      "subtipo": "item específico",
+      "peso": 0,
+      "preco": {
+        "valor": 170000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Material Adicional da Dragão Brasil",
+      "pagina": 49,
+      "tags": [
+        "arma magica",
+        "item especifico",
+        "tormenta20",
+        "material adicional da dragao brasil",
+        "magico",
+        "especifico"
+      ],
+      "descricao": "Espada longa corrosiva energética formidável que projeta uma lâmina de ácido.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
