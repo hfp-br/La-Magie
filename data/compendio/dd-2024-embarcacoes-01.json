@@ -1,0 +1,152 @@
+{
+  "versao": 6,
+  "itens": [
+    {
+      "id": "dd-2024-embarcacao-0",
+      "nome": "Aeronau",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 40000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 13 km/h; tripulação 10; passageiros 20; carga 1 t; CA 13; PV 300; limiar de dano —.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-1",
+      "nome": "Barco a Remo",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 45,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 2,4 km/h; tripulação 1; passageiros 3; carga não indicada t; CA 11; PV 50; limiar de dano —.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-2",
+      "nome": "Barco de Quilha",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 1,6 km/h; tripulação 1; passageiros 6; carga 0.5 t; CA 15; PV 100; limiar de dano 10.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-3",
+      "nome": "Dracar",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 4,8 km/h; tripulação 40; passageiros 150; carga 10 t; CA 15; PV 300; limiar de dano 15.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-4",
+      "nome": "Galera",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 30000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 6,5 km/h; tripulação 80; passageiros não indicado; carga 150 t; CA 15; PV 500; limiar de dano 20.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-5",
+      "nome": "Navio de Guerra",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 4 km/h; tripulação 60; passageiros 60; carga 200 t; CA 15; PV 500; limiar de dano 20.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    },
+    {
+      "id": "dd-2024-embarcacao-6",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "aéreo ou aquático",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2024",
+      "fonte": "Livro do Jogador (2024)",
+      "pagina": 230,
+      "descricao": "Deslocamento 3,2 km/h; tripulação 20; passageiros 20; carga 100 t; CA 15; PV 300; limiar de dano 15.",
+      "tags": [
+        "dnd",
+        "2024",
+        "veículo"
+      ],
+      "schemaVersion": 5
+    }
+  ]
+}
