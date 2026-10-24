@@ -1,0 +1,510 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-balao-goblin",
+      "nome": "Balão goblin",
+      "categoria": "veiculo",
+      "subtipo": "aereo",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aereo",
+        "goblin"
+      ],
+      "descricao": "Veículo aéreo goblin de tamanho Enorme, com deslocamento 12m, Defesa 8 + mod. Des do baloeiro e 80 PV. Pilotagem diária varia conforme o clima. Efeito: Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo."
+    },
+    {
+      "id": "t20-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "terrestre",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "terrestre",
+        "carga"
+      ],
+      "descricao": "Veículo aberto de duas ou quatro rodas para transportar cargas pesadas, puxado por dois cavalos ou um trobo. Inclui arreios.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-carruagem",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "terrestre",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "terrestre",
+        "passageiros"
+      ],
+      "descricao": "Veículo fechado de quatro rodas, com capacidade para até quatro passageiros na cabine e dois condutores, puxado por dois cavalos ou um trobo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-canoa",
+      "nome": "Canoa",
+      "categoria": "veiculo",
+      "subtipo": "aquatico",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aquatico",
+        "embarcacao"
+      ],
+      "descricao": "Embarcação simples feita a partir de um único tronco de árvore.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-veleiro",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "aquatico",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "aquatico",
+        "navio"
+      ],
+      "descricao": "Navio de viagem com três mastros, bastante utilizado por mercadores.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-herois-barcaca",
+      "nome": "Barcaça",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "veiculo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Este pequeno navio tem um único (veja Ladinagem em Tormenta20, p. 120). Se uma dessas mastro, de vela quadrangular, e alguns remos para partes for desabilitada, o piloto sofre uma penalidade suplementar a força da vela.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-biga-de-guerra",
+      "nome": "Biga de guerra",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "veiculo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Algumas nações amazonas, por criaturas, a descrição indica quantas delas são além de montar em cavalos diretamente, equipam necessárias. Se a quantidade de criaturas presentes for suas guerreiras com este veículo. Uma biga de guerra menor que o indicado, o piloto sofre –2 em testes de é como uma pequena carroça de duas rodas blindada, Pilotagem.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-dirigivel-goblin",
+      "nome": "Dirigível goblin",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 1200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "veiculo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma versão maior e mais Pilotagem para conduzir como normal. Se você passar, robusta do balão goblin (Tormenta20, p. 163), e o veículo percorre até o dobro de seu deslocamento proporcionalmente mais perigoso, este veículo é (mínimo 6m) em linha reta, podendo passar pelo espaço ocupado por criaturas menores que ele.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-jangada",
+      "nome": "Jangada",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "veiculo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um barco típico de pescadores, é sustentação. Já outros (indicados em sua descrição) essencialmente uma plataforma flutuante, com um precisam percorrer pelo menos metade do seu mastro simples e um leme. Além do piloto, requer deslocamento a cada rodada para se manter voando.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:51:01.364Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-veleiro-herois-de-arton",
+      "nome": "Veleiro — Heróis de Arton",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 227,
+      "tags": [
+        "veiculo",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Navio de três mastros típico de viagens e comércio. Requer piloto, navegador, capitão e tripulação; tem tamanho Colossal, deslocamento de natação 12m, 220 PV, RD 5 e grande capacidade de passageiros e carga.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-balao-goblin",
+      "nome": "Balão goblin",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Veículo aéreo goblin de bolsas de couro e gondola. Voa a 12m, comporta até 8 criaturas Médias ou 160 espaços e perde altitude gradualmente quando muito danificado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Veículo aberto de duas ou quatro rodas para cargas pesadas, puxado por dois cavalos ou um trobo. Leva até 4 criaturas Médias ou 80 espaços.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-carruagem",
+      "nome": "Carruagem",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Veículo fechado de quatro rodas para até quatro passageiros, além dos condutores. Usa as estatísticas de uma carroça e fornece cobertura leve aos passageiros.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-canoa",
+      "nome": "Canoa",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 70,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Embarcação simples escavada em um único tronco. Usa as estatísticas de uma carroça, mas possui deslocamento de natação.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-jda-veleiro",
+      "nome": "Veleiro",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 156,
+      "tags": [
+        "veiculo",
+        "jogo do ano"
+      ],
+      "descricao": "Navio de três mastros típico de viagens longas e muito usado por mercadores.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    }
+  ]
+}
