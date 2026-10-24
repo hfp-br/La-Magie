@@ -93,7 +93,7 @@ html {scroll-behavior:smooth}
 <div class="app">
   <div class="top">
     <div class="brand"><h1>Compêndio</h1><small>Biblioteca de itens de La Magie</small></div>
-    <div class="actions"><span id="statusPill" class="pill"><span class="dot"></span><span id="statusText">Visão pública</span></span><button id="loginBtn" class="btn">Entrar</button><button id="logoutBtn" class="btn danger admin-only">Sair</button></div>
+    <div class="actions"><span id="statusPill" class="pill"><span class="dot"></span><span id="statusText">Visão pública</span></span><button id="loginBtn" class="btn">Entrar</button><button id="migrateStorageBtn" class="btn admin-only" type="button" title="Dividir JSON por categoria">Organizar arquivos</button><button id="logoutBtn" class="btn danger admin-only">Sair</button></div>
   </div>
   <main class="sheet"><div class="content">
     <div class="toolbar">
@@ -214,9 +214,28 @@ async function loadItems(){
   }catch(edgeError){
     console.warn("Leitura pela Edge Function falhou; tentando arquivo público.",edgeError);
     try{
-      const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});
-      if(!r.ok)throw new Error(`HTTP ${r.status}`);
-      const d=await r.json();
+      // tenta primeiro o manifesto: depois da migração o JSON legado é apenas backup.
+      const mr=await fetch(`./data/compendio/manifest.json?v=${Date.now()}`,{cache:"no-store"});
+      let d;
+      if(mr.ok){
+        const manifest=await mr.json();
+        if(manifest.version!==2 || !Array.isArray(manifest.files))throw new Error("Manifesto inválido");
+        const paths=manifest.files;
+        if(paths.length>2000 || paths.some(p=>typeof p!=="string" || !/^data\/compendio\/[a-z0-9-]+\.json$/.test(p)))throw new Error("Caminho inválido no manifesto");
+        const parts=await Promise.all(paths.map(async path=>{
+          const res=await fetch(`./${path}?v=${Date.now()}`,{cache:"no-store"});
+          if(!res.ok)throw new Error(`Falha no arquivo ${path}: ${res.status}`);
+          const chunk=await res.json();
+          if(!Array.isArray(chunk.itens))throw new Error(`Arquivo sem itens: ${path}`);
+          return chunk.itens;
+        }));
+        d={itens:parts.flat()};
+        if(new Set(d.itens.map(i=>i.id)).size!==d.itens.length)throw new Error("IDs duplicados nos arquivos");
+      }else if(mr.status===404){
+        const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"});
+        if(!r.ok)throw new Error(`HTTP ${r.status}`);
+        d=await r.json();
+      }else throw new Error(`Não foi possível ler manifesto: HTTP ${mr.status}`);
       items=(Array.isArray(d)?d:(Array.isArray(d.itens)?d.itens:[])).map(normalizarTemplateCompendioV4);
       setSync("Compêndio carregado (fallback)","saved");
     }catch(fileError){
@@ -814,3 +833,22 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
 })();
 </script>
 
+
+<script id="compendio-v6-storage">
+(() => {
+ const btn = document.getElementById("migrateStorageBtn");
+ if(!btn)return;
+ btn.addEventListener("click", async()=>{
+   if(typeof isAdmin === "undefined" || !isAdmin)return;
+   if(!confirm("Dividir o Compêndio por categoria?\n\nOs IDs serão preservados e compendio.json permanecerá como backup. Serão criados commits no GitHub."))return;
+   btn.disabled=true; const old=btn.textContent;btn.textContent="Organizando…";
+   try{
+     const result=await invokeCommit({action:"migrate"});
+     if(!result?.ok)throw new Error(result?.error||"Migração falhou");
+     await loadItems();
+     alert(result.alreadyMigrated?"O Compêndio já foi organizado.":`Organizado! ${result.count} itens em ${result.files} arquivo(s). Arquivo original preservado.`);
+   }catch(err){console.error(err);alert(`Erro na organização: ${err?.message||err}\nO arquivo original não deve ser apagado.`)}
+   finally{btn.disabled=false;btn.textContent=old}
+ });
+})();
+</script>
