@@ -1,0 +1,422 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 140,
+      "tags": [
+        "municao",
+        "flechas",
+        "arco",
+        "20 unidades"
+      ],
+      "descricao": "Conjunto com 20 flechas, usado como munição para arcos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 1,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 141,
+      "tags": [
+        "municao",
+        "virotes",
+        "besta",
+        "20 unidades"
+      ],
+      "descricao": "Caixa com 20 virotes, pequenas setas usadas como munição para bestas.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T03:55:18.724Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-balas-20",
+      "nome": "Balas (20)",
+      "categoria": "municao",
+      "subtipo": "balas de funda",
+      "peso": 2,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 140,
+      "tags": [
+        "municao",
+        "balas de funda",
+        "funda",
+        "20 unidades"
+      ],
+      "descricao": "Saco com 20 balas de funda, pequenas pedras ou projéteis arredondados usados como munição para a funda.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-municao-20",
+      "nome": "Munição (20)",
+      "categoria": "municao",
+      "subtipo": "arma de fogo",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Livro Básico",
+      "pagina": 141,
+      "tags": [
+        "municao",
+        "arma de fogo",
+        "mosquete",
+        "pistola",
+        "20 unidades"
+      ],
+      "descricao": "Conjunto com 20 unidades de munição para armas de fogo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:30:18.301Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": ""
+    },
+    {
+      "id": "t20-herois-virotes-20-herois-de-arton",
+      "nome": "Virotes (20) — Heróis de Arton",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 219,
+      "tags": [
+        "municao",
+        "virotes",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Caixa com 20 virotes usados como munição para bestas, incluindo as novas bestas apresentadas no Arsenal dos Heróis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-flechas-20-herois-de-arton",
+      "nome": "Flechas (20) — Heróis de Arton",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 219,
+      "tags": [
+        "municao",
+        "flechas",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Aljava com 20 flechas usadas como munição para arcos, incluindo os arcos especiais apresentados no Arsenal dos Heróis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-balas-20-herois-de-arton",
+      "nome": "Balas (20) — Heróis de Arton",
+      "categoria": "municao",
+      "subtipo": "balas",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 219,
+      "tags": [
+        "municao",
+        "balas",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Pacote com 20 balas e pólvora para armas de fogo do Arsenal dos Heróis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-bola-de-ferro-1",
+      "nome": "Bola de ferro (1)",
+      "categoria": "municao",
+      "subtipo": "munição de canhão",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 219,
+      "tags": [
+        "municao",
+        "municao de canhao",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Projétil pesado de ferro usado como munição para o canhão portátil.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-balas-20",
+      "nome": "Balas (20)",
+      "categoria": "municao",
+      "subtipo": "arma de fogo",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "arma de fogo",
+        "jogo do ano"
+      ],
+      "descricao": "Bolsa com 20 pequenas esferas de chumbo e pólvora, usada em pistolas e mosquetes. Recarregar uma arma de fogo com balas exige uma ação padrão. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "flechas",
+        "jogo do ano"
+      ],
+      "descricao": "Aljava com 20 flechas de madeira, ponta metálica e penas para estabilizar o voo. Recarregar um arco com uma flecha é uma ação livre. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-pedras-20",
+      "nome": "Pedras (20)",
+      "categoria": "municao",
+      "subtipo": "funda",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "funda",
+        "jogo do ano"
+      ],
+      "descricao": "Saco de couro com 20 pedras polidas usadas como munição de funda. Recarregar uma funda com uma pedra é uma ação de movimento. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-jda-virotes-20",
+      "nome": "Virotes (20)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 151,
+      "tags": [
+        "municao",
+        "virotes",
+        "jogo do ano"
+      ],
+      "descricao": "Aljava com 20 pequenas setas de madeira para bestas. Recarregar uma besta leve é ação de movimento; uma besta pesada exige ação padrão. Efeito: Espaços: 1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Espaços: 1"
+    }
+  ]
+}
