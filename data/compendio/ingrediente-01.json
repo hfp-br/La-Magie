@@ -1,0 +1,293 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-porcao-de-cogumelos",
+      "nome": "Porção de cogumelos",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 36,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Porção extraída de um Cogumelo Andante. Pode ser usada em receitas de Dungeon Meshi/Tormenta20. Efeito: Extraída de Cogumelo Andante com teste apropriado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Extraída de Cogumelo Andante com teste apropriado."
+    },
+    {
+      "id": "t20-carne-de-monstro",
+      "nome": "Carne de monstro",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 36,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Carne extraída de monstros apropriados, usada em diversas receitas. Efeito: Exemplo de fonte: Escorpião Enorme ou Morcego Atroz.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Exemplo de fonte: Escorpião Enorme ou Morcego Atroz."
+    },
+    {
+      "id": "t20-miudos-de-slime",
+      "nome": "Miúdos de slime",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 37,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Partes aproveitáveis de um slime, usadas como ingrediente culinário. Efeito: Extraídos de slime com teste apropriado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Extraídos de slime com teste apropriado."
+    },
+    {
+      "id": "t20-carne-de-basilisco",
+      "nome": "Carne de basilisco",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 39,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Carne de basilisco usada em receitas especiais. Efeito: Extraída de basilisco com teste apropriado.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Extraída de basilisco com teste apropriado."
+    },
+    {
+      "id": "t20-ovo-de-basilisco",
+      "nome": "Ovo de basilisco",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 39,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Ovo de basilisco usado em receitas especiais. Efeito: Basiliscos podem render 2d6 ovos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Basiliscos podem render 2d6 ovos."
+    },
+    {
+      "id": "t20-fruto-de-planta-devoradora-de-homens",
+      "nome": "Fruto de planta devoradora de homens",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 39,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Fruto coletado de uma área de plantas devoradoras de homens. Efeito: Pode ser coletado durante o perigo complexo da planta.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Pode ser coletado durante o perigo complexo da planta."
+    },
+    {
+      "id": "t20-mandragora",
+      "nome": "Mandrágora",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 40,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Mandrágora aproveitada como ingrediente; sua cabeça é descrita como a parte mais nutritiva. Efeito: Pode ser extraída da criatura ou obtida ao desarmar a armadilha natural.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Pode ser extraída da criatura ou obtida ao desarmar a armadilha natural."
+    },
+    {
+      "id": "t20-molusco-de-armadura-animada",
+      "nome": "Molusco de armadura animada",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 199",
+      "pagina": 43,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "dungeon meshi",
+        "culinaria",
+        "dragao brasil 199"
+      ],
+      "descricao": "Molusco que vive dentro de uma armadura animada e pode ser preparado como alimento. Efeito: Uma armadura animada pode render 1d6 moluscos.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "properties": "Uma armadura animada pode render 1d6 moluscos."
+    }
+  ]
+}
