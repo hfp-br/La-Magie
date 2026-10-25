@@ -6407,7 +6407,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "A aristocracia de Deheon, que fornece +2 em testes para derrubar e quebrar. Namalkah e outros reinos vem recentemente redesco- Boleadeira. Esta arma de arremesso típica brindo um esporte dos povos originais do continente, de Namalkah pode se enrolar nos tornozelos de um que consiste em arremessar e rebater bolas duras.",
+      "descricao": "Bastão usado para rebater bolas duras em esportes tradicionais de Arton.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.304Z",
@@ -6731,7 +6731,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Geralmente fabricado de uma Serrilheira. Este facão possui gume serrilhado única peça de metal, este martelo é muito apreciado por e várias rebarbas dispostas ao longo de sua lâmina. anões como arma secundária.",
+      "descricao": "Martelo compacto, usado como arma secundária ou de arremesso.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.308Z",
@@ -6785,7 +6785,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta arma usada por bárbaros que o usuário da clava-grão estabeleça um elo com a e mercenários tem a lâmina menos afiada, mas mais arma. Quando ataca com uma clava-grão, você pode larga e pesada, que a da espada longa. aplicar sua Sabedoria às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 Espada-Gadanho.",
+      "descricao": "Espada de lâmina mais larga e pesada que a espada longa.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.309Z",
@@ -6893,7 +6893,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Uma maça com cravos, esta muito empregada por tropas treinadas para lutar em arma exige mais treinamento para ser empunhada, mas formação fechada. Ela é uma arma alongada que pode desfere golpes mais perigosos. Por seu peso e pontas ser arremessada.",
+      "descricao": "Maça com cravos que causa dano de impacto e perfuração.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.310Z",
@@ -7001,7 +7001,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Também chamada de “martelo de outras armas de disparo, você aplica sua Força às sambur”, esta arma consiste em uma haste de madeira rolagens de dano com uma balestra. Esta arma é muito de 2m de comprimento com uma ponta de lança em pesada e complexa para ser usada sem treinamento sua extremidade. Na base da ponta de lança há um especial, por isso é uma arma exótica.",
+      "descricao": "Arma alongada de haste com martelo e ponta. Concede +2 em testes para derrubar e quebrar.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.310Z",
@@ -7055,7 +7055,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Haste com ganchos metálicos articulados. Não causa dano: serve para agarrar, derrubar e empurrar, com bônus de +2 nesses testes.",
+      "descricao": "Haste alongada com ganchos móveis, usada para agarrar, derrubar e empurrar (+2 nos testes). Não causa dano direto.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.310Z",
@@ -7163,7 +7163,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta lança montada é feita esta arma é essencialmente uma pequena cabeça de para esporte, não combate real. Teoricamente, justas machado montada em um cabo longo. O machado de deveriam ser disputadas sempre com estas lanças, haste é uma arma adaptável e alongada.",
+      "descricao": "Lança de torneio para investidas montadas; provoca dano não letal, pode derrubar e pode quebrar após um acerto.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.311Z",
@@ -7217,7 +7217,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Uma ferramenta para uso em construcomo uma lança montada (Tormenta20, p. 148), mas ções, este martelo possui uma cabeça de madeira Tai-tai Bestas Garruchas de mão Espadas largas Agulhas Dirks de Ahlen Martelos leves Cinquedeas Maças-estrela Bestas duplas Serrilheiras Sifão cáustico Chakrams Bastões lúdicos Lanças de justa Adagas opostas Capítulo 3 220 <PARSED TEXT FOR PAGE: 223 / 330> dura e pesada, que o torna apropriado para enterrar Montante Cinético. Esta espada tem minúsestacas no chão.",
+      "descricao": "Martelo pesado com cabeça de madeira dura, apropriado para golpes de impacto.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.311Z",
@@ -7271,7 +7271,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Uma haste de madeira com ultrapassa a Defesa do alvo por 5 ou mais, você deixa 2m de comprimento, esta arma possui uma ponta de a vítima vulnerável por 1 rodada e sangrando. A apametal afiada ao lado de uma cabeça densa e pesada. rência agressiva da serrilheira, mesmo para uma arma, Combinando o alcance de uma alabarda com a con- impõe –2 em Diplomacia e Enganação, cumulativo tundência de um martelo, é uma arma alongada.",
+      "descricao": "Arma de haste alongada que combina ponta perfurante e cabeça de martelo.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.312Z",
@@ -7325,7 +7325,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta curiosa arma de duas mãos de cada criatura na área. O sifão usa ácido como é raríssima em Arton, usada apenas pela milícia munição (Tormenta20, p. 160); seu reservatório pode da cidade de Gorendill, em Deheon.",
+      "descricao": "Arma exótica de duas mãos, rara fora de Gorendill.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.312Z",
@@ -7379,7 +7379,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Este dispositivo hynne é uma catapulta desarmar, e pode ser usada para causar dano letal em miniatura presa ao antebraço, usada para disparar ou não letal, a sua escolha. Khopesh Espadas-gadanhos Balestras Tan-korak Desmontadores Bicos de corvo Martelos longos Machados de haste Lanças de falange Capítulo 3 222 <PARSED TEXT FOR PAGE: 225 / 330> Munições Bola de Ferro. Estas esferas metálicas com Tabela 3-2: Munições pólvora são a munição de canhões portáteis.",
+      "descricao": "Pequena catapulta hynne presa ao antebraço que dispara projéteis.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.312Z",
@@ -7433,7 +7433,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Este arco combina materiais fizer um ataque com ela, pode gastar 5 virotes para resistentes em uma estrutura mais curta, tornando-o disparar uma saraivada. Se fizer isso, pode atacar até próprio para ser disparado por um arqueiro montado. três alvos adjacentes (faça um único teste de ataque Você não sofre a penalidade em ataques à distância e compare com a Defesa de cada alvo) ou causar um devido ao balanço de sua montaria (Tormenta20, p.",
+      "descricao": "Arco próprio para uso montado. Evita a penalidade de atacar à distância pelo balanço da montaria.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.313Z",
@@ -7595,7 +7595,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta arma possui cabo fino e menos que gaste uma ação de movimento para predelgado e uma extremidade larga e arredondada. pará-la (isso elimina essa penalidade em seu próximo Clavas-grão não são “fabricadas”, mas cultivadas por ataque feito nesse turno). Contudo, um golpe certeiro druidas a partir de sementes específicas que emitem pode significar uma execução, mesmo em combate… uma energia natural.",
+      "descricao": "Clava vegetal cultivada por druidas, capaz de acrescentar Sabedoria ao dano conforme a regra especial.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.313Z",
@@ -7757,7 +7757,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Usada em eras antigas, especialmente Essa argola permite movimentos rápidos, capazes de nos impérios de Zarkhass e Nardmyr, esta espada curva Arsenal dos Heróis 219 <PARSED TEXT FOR PAGE: 222 / 330> sobreviveu ao teste do tempo e pode ser encontrada causa dano não letal. Em compensação, se fizer uma até hoje, sobretudo entre mercenários oriundos do investida montada com esta arma e acertar o ataque, Deserto da Perdição. A curvatura de sua lâmina forma você pode fazer a manobra derrubar como uma ação um gancho que pode ser usado para desestabilizar os livre.",
+      "descricao": "Espada curva com gancho na lâmina, que concede +2 em testes para derrubar.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.314Z",
@@ -7811,7 +7811,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta lança de infantaria é Maça-Estrela. Uma maça com cravos, esta muito empregada por tropas treinadas para lutar em arma exige mais treinamento para ser empunhada, mas formação fechada. Ela é uma arma alongada que pode desfere golpes mais perigosos.",
+      "descricao": "Lança alongada de infantaria, que também pode ser arremessada e usada com duas mãos.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.315Z",
@@ -7865,7 +7865,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Desenvolvida pelos anões uma arma marcial de duas mãos. para auxiliar suas formações fechadas em Doherimm, Lança de Justa. Esta lança montada é feita esta arma é essencialmente uma pequena cabeça de para esporte, não combate real.",
+      "descricao": "Machado alongado e adaptável que pode ser empunhado como arma marcial de duas mãos.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.315Z",
@@ -7973,7 +7973,7 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Uma versão mais pesada da marreta de resultado 1 ou 2 em um teste de ataque com esta arma, guerra, esta arma possui uma cabeça de metal capaz de erra e atinge a si mesmo, sofrendo o dano do ataque. partir pedra, aço e ossos. Um marrão é muito grande Rapieira.",
+      "descricao": "Marreta extremamente pesada capaz de partir materiais resistentes.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.315Z",
@@ -8081,7 +8081,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta arma de arremesso típica brindo um esporte dos povos originais do continente, de Namalkah pode se enrolar nos tornozelos de um que consiste em arremessar e rebater bolas duras. inimigo, derrubando-o. A boleadeira pode ser usada Existem variações: em algumas modalidades, é preciso para executar uma manobra derrubar à distância.",
+      "descricao": "Arma de arremesso usada para realizar a manobra derrubar à distância.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.316Z",
@@ -8135,7 +8135,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Um disco de metal com bordas afia- para atacar no mesmo turno, o oponente das, usado para arremesso. Sempre que acerta um fica desprevenido contra esse ataque. ataque com o chakram, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo Dirk.",
+      "descricao": "Disco metálico afiado de arremesso que pode retornar à mão ou ricochetear após um acerto.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.316Z",
@@ -8189,7 +8189,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Este arco robusto possui caixa acoplada com espaço para armazenar até 10 braços grossos e resistentes, capazes de disparos virotes e um sistema de recarga automática. Por seu poderosos. Como um arco longo, permite que você funcionamento complexo, a besta de repetição é uma aplique sua Força às rolagens de dano e não pode ser arma exótica.",
+      "descricao": "Arco de grande potência que permite aplicar Força ao dano, com restrições especiais de uso.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.317Z",
@@ -8459,7 +8459,7 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "A origem deste estranho pedras polidas. Na falta de munição adequada, pode engenho é controversa. Há quem diga que foi criado disparar pedras comuns, como uma funda, mas o dano por um inventor anão para combater os finntroll, é reduzido em um passo.",
+      "descricao": "Engenho alquímico que lança ácido em área e utiliza ácido como munição.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:51:01.318Z",
