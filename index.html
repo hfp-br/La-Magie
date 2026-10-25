@@ -9721,6 +9721,68 @@ function limparReferenciasEfeitosAtaque() {
     return alterou;
 }
 
+// Organiza os ataques pela alça sem perder IDs, efeitos ou vínculos com o inventário.
+function instalarOrdenacaoAtaque(element, container) {
+    const alca = document.createElement("button");
+    alca.type = "button";
+    alca.className = "attack-drag-handle";
+    alca.textContent = "☰";
+    alca.title = "Arraste para alterar a ordem dos ataques (ou use as setas)";
+    alca.setAttribute("aria-label", "Reorganizar ataque");
+    alca.setAttribute("aria-keyshortcuts", "ArrowUp ArrowDown");
+    element.appendChild(alca);
+
+    const salvarOrdem = () => {
+        const ordenados = [...container.querySelectorAll(":scope > [data-attack-id]")]
+            .map(el => el.dataset.attackId);
+        const porId = new Map((conteudo.ataques || []).map(a => [String(a.id), a]));
+        if (ordenados.length !== conteudo.ataques.length || ordenados.some(id => !porId.has(id))) return;
+        if (ordenados.every((id, i) => String(conteudo.ataques[i].id) === id)) return;
+        conteudo.ataques = ordenados.map(id => porId.get(id));
+        agendarSalvamentoConteudo();
+    };
+
+    // A alça funciona também por teclado, sem mudar o foco dos campos de edição.
+    alca.addEventListener("keydown", e => {
+        if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
+        e.preventDefault();
+        const outro = e.key === "ArrowUp" ? element.previousElementSibling : element.nextElementSibling;
+        if (!outro || !outro.matches("[data-attack-id]")) return;
+        if (e.key === "ArrowUp") container.insertBefore(element, outro);
+        else container.insertBefore(outro, element);
+        salvarOrdem();
+        alca.focus();
+    });
+
+    let pointerAtivo = null;
+    alca.addEventListener("pointerdown", e => {
+        if (e.button !== 0 && e.pointerType === "mouse") return;
+        e.preventDefault();
+        pointerAtivo = e.pointerId;
+        element.classList.add("attack-dragging");
+        alca.setPointerCapture(e.pointerId);
+    });
+    alca.addEventListener("pointermove", e => {
+        if (e.pointerId !== pointerAtivo) return;
+        e.preventDefault();
+        const sobPonteiro = document.elementFromPoint(e.clientX, e.clientY);
+        const destino = sobPonteiro?.closest("[data-attack-id]");
+        if (!destino || destino === element || destino.parentElement !== container) return;
+        const meio = destino.getBoundingClientRect().top + destino.getBoundingClientRect().height / 2;
+        if (e.clientY < meio) container.insertBefore(element, destino);
+        else container.insertBefore(element, destino.nextSibling);
+    });
+    const finalizar = e => {
+        if (e.pointerId !== pointerAtivo) return;
+        pointerAtivo = null;
+        element.classList.remove("attack-dragging");
+        if (e.type === "pointerup") salvarOrdem();
+    };
+    alca.addEventListener("pointerup", finalizar);
+    alca.addEventListener("pointercancel", finalizar);
+    alca.addEventListener("lostpointercapture", finalizar);
+}
+
 function renderizarAtaques() {
 
     sincronizarAtaquesDeItensInventario();
@@ -10206,6 +10268,7 @@ getAttackEffectDefinitions()
         }
 
 
+        instalarOrdenacaoAtaque(element, container);
         container.appendChild(
             element
         );
@@ -20768,5 +20831,32 @@ body.editing .inventory-compact-row{display:none!important}
   align-self:end;
 }
 
+
+/* Alça para reordenar ataques em desktop e celular */
+#attacks > [data-attack-id] { position: relative; }
+#attacks .attack-drag-handle {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(112,82,51,.25);
+    border-radius: 8px;
+    background: rgba(255,248,228,.92);
+    color: #755638;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+}
+#attacks .attack-drag-handle:active { cursor: grabbing; }
+#attacks .attack-drag-handle:focus-visible { outline: 2px solid #8a623c; outline-offset: 2px; }
+#attacks > .attack-dragging { opacity: .74; outline: 2px dashed rgba(138,98,60,.6); }
+#attacks > .attack, #attacks > .attack-editor { padding-right: 43px; }
 </style>
 
