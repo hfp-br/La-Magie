@@ -20295,7 +20295,7 @@ body.editing .inventory-compact-row{display:none!important}
   function resumoArmaV45(item){
     if(typeof itemInventarioEhArma !== "function" || !itemInventarioEhArma(item)) return "";
     const w = typeof normalizarAtaqueArmaItem === "function"
-      ? normalizarAtaqueArmaItem(item.weaponAttack || item.ataqueArma || {})
+      ? normalizarAtaqueArmaItem(item)
       : (item.weaponAttack || item.ataqueArma || {});
     if(!w || w.enabled === false) return "";
 
