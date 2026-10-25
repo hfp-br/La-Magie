@@ -18432,6 +18432,14 @@ const _normalizarAtaqueArmaAntesV4 = normalizarAtaqueArmaItem;
 normalizarAtaqueArmaItem = function(item) {
     const base = _normalizarAtaqueArmaAntesV4(item);
     const original = item?.weaponAttack || item?.ataqueArma || {};
+    // repara configurações antigas de armas exclusivamente de disparo do compêndio
+    if (item?.compendioId && base.skill === "Luta") {
+        const nomeArma = String(item.nome || item.name || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+        if (/^(arco( |$)|besta( |$)|funda$|mosquete$|pistola$|zarabatana$|balestra$|garrucha$|canhao portatil$|tai-tai$)/.test(nomeArma)) {
+            base.skill = "Pontaria";
+            base.stat = "dex";
+        }
+    }
     return {
         ...base,
         hitBonus: numeroFinitoItemV4(original.hitBonus ?? original.bonusHit ?? original.bonusAcerto ?? 0, 0),
@@ -20819,7 +20827,7 @@ body.editing .inventory-compact-row{display:none!important}
   function resumoArmaV45(item){
     if(typeof itemInventarioEhArma !== "function" || !itemInventarioEhArma(item)) return "";
     const w = typeof normalizarAtaqueArmaItem === "function"
-      ? normalizarAtaqueArmaItem(item.weaponAttack || item.ataqueArma || {})
+      ? normalizarAtaqueArmaItem(item)
       : (item.weaponAttack || item.ataqueArma || {});
     if(!w || w.enabled === false) return "";
 
