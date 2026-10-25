@@ -759,7 +759,17 @@ function saveCfg(){
 }
 
 async function loadAccessibleTimelines(){
-  const localCfg=await loadLocalConfig();
+  let localCfg=await loadLocalConfig();
+  // avança uma única vez o calendário pessoal que ainda está na data anterior
+  const advanceKey="la-magie-calendario-avanco-2026-10-25-v1";
+  if(localCfg && localStorage.getItem(advanceKey)!=="1"){
+    const h=localCfg.hoje||{};
+    if(Number(h.d)===14 && Number(h.m)===9 && Number(h.y)===5001 && Number(localCfg.wd)===1){
+      localCfg={...localCfg,hoje:{...h,d:15},wd:2};
+      await saveLocalConfig(localCfg);
+    }
+    localStorage.setItem(advanceKey,"1");
+  }
   LOCAL_TIMELINE.configuracao=localCfg||{
     hoje:{d:12,m:9,y:5001},
     wd:0,
