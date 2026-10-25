@@ -10218,6 +10218,136 @@ function limparReferenciasEfeitosAtaque() {
     return alterou;
 }
 
+// Reordena ataques sem modificar dados de efeitos, IDs ou vínculos de inventário.
+function instalarOrdenacaoAtaque(element, container) {
+    const alca = document.createElement("button");
+    alca.type = "button";
+    alca.className = "attack-drag-handle";
+    alca.innerHTML = '<span class="attack-grip-dots" aria-hidden="true"></span>';
+    alca.title = "Arraste para reorganizar (ou use as setas do teclado)";
+    alca.setAttribute("aria-label", "Reorganizar ataque");
+    alca.setAttribute("aria-keyshortcuts", "ArrowUp ArrowDown");
+    element.appendChild(alca);
+
+    const salvarOrdem = () => {
+        const ordenados = [...container.querySelectorAll(":scope > [data-attack-id]")]
+            .map(el => String(el.dataset.attackId));
+        const ataques = conteudo.ataques || [];
+        const porId = new Map(ataques.map(a => [String(a.id), a]));
+        if (ordenados.length !== ataques.length || ordenados.some(id => !porId.has(id))) return;
+        if (ordenados.every((id, i) => String(ataques[i].id) === id)) return;
+        conteudo.ataques = ordenados.map(id => porId.get(id));
+        agendarSalvamentoConteudo();
+    };
+
+    function animarOutros(antes) {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        for (const card of container.querySelectorAll(":scope > [data-attack-id]")) {
+            const anterior = antes.get(card);
+            if (!anterior || card === element) continue;
+            const atual = card.getBoundingClientRect();
+            const delta = anterior.top - atual.top;
+            if (Math.abs(delta) > 1) {
+                card.animate(
+                    [{ transform: `translateY(${delta}px)` }, { transform: "translateY(0)" }],
+                    { duration: 180, easing: "cubic-bezier(.2,.8,.2,1)" }
+                );
+            }
+        }
+    }
+
+    alca.addEventListener("keydown", e => {
+        if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
+        e.preventDefault();
+        const outro = e.key === "ArrowUp" ? element.previousElementSibling : element.nextElementSibling;
+        if (!outro || !outro.matches("[data-attack-id]")) return;
+        const antes = new Map([...container.querySelectorAll(":scope > [data-attack-id]")]
+            .map(card => [card, card.getBoundingClientRect()]));
+        if (e.key === "ArrowUp") container.insertBefore(element, outro);
+        else container.insertBefore(outro, element);
+        animarOutros(antes);
+        salvarOrdem();
+        alca.focus();
+    });
+
+    alca.addEventListener("pointerdown", e => {
+        if (e.button !== 0 && e.pointerType === "mouse") return;
+        if (container.querySelector(".attack-drop-placeholder")) return;
+        e.preventDefault();
+
+        const origem = element.getBoundingClientRect();
+        const inicioY = e.clientY;
+        const inicioX = e.clientX;
+        const pointerId = e.pointerId;
+        let iniciou = false;
+        let placeholder = null;
+        let terminou = false;
+        const next = element.nextSibling;
+
+        const mover = ev => {
+            if (ev.pointerId !== pointerId || terminou) return;
+            const deslocamento = ev.clientY - inicioY;
+            if (!iniciou) {
+                if (Math.hypot(ev.clientX - inicioX, deslocamento) < 5) return;
+                iniciou = true;
+                placeholder = document.createElement("div");
+                placeholder.className = "attack-drop-placeholder";
+                placeholder.style.height = origem.height + "px";
+                container.insertBefore(placeholder, element);
+                element.classList.add("attack-dragging");
+                Object.assign(element.style, {
+                    position: "fixed",
+                    left: origem.left + "px",
+                    top: origem.top + "px",
+                    width: origem.width + "px",
+                    height: origem.height + "px",
+                    margin: "0",
+                    zIndex: "9999",
+                    pointerEvents: "none",
+                    boxSizing: "border-box"
+                });
+            }
+            element.style.transform = `translate3d(0, ${deslocamento}px, 0) rotate(-.4deg)`;
+            const outros = [...container.querySelectorAll(":scope > [data-attack-id]")].filter(el => el !== element);
+            const alvo = outros.find(el => ev.clientY < el.getBoundingClientRect().top + el.getBoundingClientRect().height / 2);
+            const referencia = alvo || null;
+            if (placeholder.nextElementSibling !== referencia) {
+                const antes = new Map(outros.map(card => [card, card.getBoundingClientRect()]));
+                container.insertBefore(placeholder, referencia);
+                animarOutros(antes);
+            }
+        };
+
+        const finalizar = ev => {
+            if (ev.pointerId !== pointerId || terminou) return;
+            terminou = true;
+            document.removeEventListener("pointermove", mover);
+            document.removeEventListener("pointerup", finalizar);
+            document.removeEventListener("pointercancel", cancelar);
+            window.removeEventListener("blur", cancelar);
+            if (!iniciou) return;
+            if (ev.type === "pointerup") {
+                container.insertBefore(element, placeholder);
+            } else {
+                container.insertBefore(element, next && next.parentNode === container ? next : null);
+            }
+            placeholder.remove();
+            element.classList.remove("attack-dragging");
+            for (const prop of ["position", "left", "top", "width", "height", "margin", "zIndex", "pointerEvents", "boxSizing", "transform"]) {
+                element.style[prop] = "";
+            }
+            if (ev.type === "pointerup") salvarOrdem();
+            alca.focus({ preventScroll: true });
+        };
+        const cancelar = () => finalizar({ pointerId, type: "pointercancel" });
+
+        document.addEventListener("pointermove", mover, { passive: false });
+        document.addEventListener("pointerup", finalizar);
+        document.addEventListener("pointercancel", cancelar);
+        window.addEventListener("blur", cancelar, { once: true });
+    });
+}
+
 function renderizarAtaques() {
 
     sincronizarAtaquesDeItensInventario();
@@ -10703,6 +10833,7 @@ getAttackEffectDefinitions()
         }
 
 
+        instalarOrdenacaoAtaque(element, container);
         container.appendChild(
             element
         );
@@ -21300,5 +21431,66 @@ body.editing .inventory-compact-row{display:none!important}
   align-self:end;
 }
 
+/* Alça lateral de ataques: área confortável e feedback visual no arraste */
+#attacks > [data-attack-id] { position: relative; min-width: 0; }
+#attacks > .attack, #attacks > .attack-editor { padding-left: 48px; }
+#attacks .attack-drag-handle {
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 32px;
+    height: calc(100% - 14px);
+    min-height: 34px;
+    max-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: rgba(112,82,51,.055);
+    color: #88694e;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: background .18s ease, color .18s ease, border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+#attacks .attack-grip-dots {
+    width: 15px;
+    height: 25px;
+    background-image: radial-gradient(circle, currentColor 1.55px, transparent 1.8px);
+    background-size: 7px 7px;
+    background-position: center;
+    opacity: .8;
+}
+#attacks .attack-drag-handle:hover {
+    background: rgba(138,98,60,.16);
+    color: #624326;
+    border-color: rgba(112,82,51,.2);
+    transform: translateY(-50%) scale(1.04);
+}
+#attacks .attack-drag-handle:active { cursor: grabbing; }
+#attacks .attack-drag-handle:focus-visible { outline: 2px solid #8a623c; outline-offset: 2px; }
+#attacks > .attack-dragging {
+    opacity: .94;
+    box-shadow: 0 14px 32px rgba(34,25,16,.24);
+    outline: 1px solid rgba(138,98,60,.55);
+    transition: box-shadow .15s ease;
+}
+#attacks > .attack-dragging .attack-drag-handle { cursor: grabbing; background: rgba(138,98,60,.2); }
+#attacks > .attack-drop-placeholder {
+    border: 2px dashed rgba(138,98,60,.48);
+    border-radius: 10px;
+    background: rgba(138,98,60,.085);
+    box-sizing: border-box;
+    animation: attack-placeholder-appear .15s ease-out;
+}
+@keyframes attack-placeholder-appear { from { opacity: .4; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+    #attacks .attack-drag-handle, #attacks > .attack-dragging { transition: none; }
+    #attacks > .attack-drop-placeholder { animation: none; }
+}
 </style>
 
