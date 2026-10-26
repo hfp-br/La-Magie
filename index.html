@@ -4672,7 +4672,7 @@ body.editing
         📚 Compêndio
       </button>
 
-      <a href="exportar-compendio.html" target="_blank" rel="noopener noreferrer" class="compendium-export-link" title="Exportar catálogo para NotebookLM ou outras IAs">⬇ Exportar catálogo</a>
+      
 
       <button
         id="addInventoryItem"
@@ -17441,8 +17441,49 @@ async function alternarItemInventario(item) {
     await salvarConteudo();
 }
 
+// Exportação local do catálogo já carregado pelo Compêndio, sem gravar no banco.
+function baixarCompendioInventario(formato) {
+    const itens = inventoryCompendiumCache;
+    if (!Array.isArray(itens) || !itens.length) {
+        alert("Abra o Compêndio e aguarde o carregamento dos itens.");
+        return;
+    }
+    const texto = v => v == null ? "" : typeof v === "object" ? JSON.stringify(v) : String(v);
+    const linhasItem = (item, i, markdown) => {
+        const nome = texto(item.nome || item.name || "Item " + (i + 1));
+        const cabecalho = markdown ? "## " + nome : nome + "\n" + "-".repeat(nome.length);
+        return [cabecalho, ...Object.entries(item).filter(([k,v]) =>
+            !["nome","name"].includes(k) && v != null && v !== ""
+        ).map(([k,v]) => markdown ? "**" + k + ":** " + texto(v) : k + ": " + texto(v))].join("\n\n");
+    };
+    const hoje = new Date().toISOString().slice(0,10);
+    const conteudoArquivo = formato === "json"
+        ? JSON.stringify(itens, null, 2)
+        : (formato === "md" ? "# Compêndio La Magie" : "COMPÊNDIO LA MAGIE")
+          + "\n\n" + "Exportado em " + hoje + " • " + itens.length + " itens."
+          + "\n\n" + itens.map((item,i) => linhasItem(item,i,formato === "md")).join("\n\n---\n\n");
+    const blob = new Blob(["\uFEFF",conteudoArquivo], { type: (formato === "json" ? "application/json" : "text/plain") + ";charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "la-magie-compendio-" + hoje + "." + formato;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 3000);
+    document.getElementById("inventoryExportPopup").hidden = true;
+}
+
 function configurarCompendioInventario() {
     document.getElementById("openInventoryCompendium")?.addEventListener("click", abrirCompendioInventario);
+    const popupExportacao = document.getElementById("inventoryExportPopup");
+    document.getElementById("inventoryCompendiumExport")?.addEventListener("click", () => {
+        popupExportacao.hidden = !popupExportacao.hidden;
+    });
+    document.getElementById("inventoryExportCancel")?.addEventListener("click", () => { popupExportacao.hidden = true; });
+    popupExportacao?.querySelectorAll("[data-compendium-format]").forEach(botao =>
+        botao.addEventListener("click", () => baixarCompendioInventario(botao.dataset.compendiumFormat))
+    );
     document.getElementById("inventoryCompendiumClose")?.addEventListener("click", fecharCompendioInventario);
     document.getElementById("inventoryCompendiumOverlay")?.addEventListener("click", fecharCompendioInventario);
     document.getElementById("inventoryCompendiumSearch")?.addEventListener("input", renderizarCompendioInventario);
@@ -19115,6 +19156,7 @@ configurarTooltipsFicha();
 <section id="inventoryCompendiumModal" class="compendium-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="inventoryCompendiumTitle">
   <div class="compendium-modal-head">
     <h3 id="inventoryCompendiumTitle">Adicionar do Compêndio</h3>
+    <button id="inventoryCompendiumExport" class="add-button" type="button">⬇ Exportar</button>
     <button id="inventoryCompendiumClose" class="add-button" type="button">Fechar</button>
   </div>
   <div class="compendium-modal-tools">
@@ -19122,6 +19164,16 @@ configurarTooltipsFicha();
     <select id="inventoryCompendiumCategory">
       <option value="">Todas as categorias</option>
     </select>
+  </div>
+  <div id="inventoryExportPopup" class="inventory-export-popup" hidden role="dialog" aria-label="Escolher formato de exportação">
+    <strong>Exportar todos os itens</strong>
+    <p>Escolha o formato do arquivo:</p>
+    <div class="inventory-export-formats">
+      <button type="button" data-compendium-format="md">Markdown (.md)</button>
+      <button type="button" data-compendium-format="txt">Texto (.txt)</button>
+      <button type="button" data-compendium-format="json">JSON (.json)</button>
+    </div>
+    <button type="button" id="inventoryExportCancel" class="inventory-export-cancel">Cancelar</button>
   </div>
   <div id="inventoryCompendiumResults" class="compendium-results">
     <div class="compendium-empty">Abra o Compêndio para carregar os itens.</div>
@@ -20967,5 +21019,19 @@ body.editing .inventory-compact-row{display:none!important}
 /* Acesso à exportação do Compêndio */
 .compendium-export-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid rgba(112,82,51,.38);border-radius:8px;padding:8px 10px;color:#6b482a;background:rgba(255,248,228,.9);font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .16s ease,transform .16s ease}
 .compendium-export-link:hover{background:#e6d0af;transform:translateY(-1px)}
+
+/* Exportação do Compêndio: diálogo compacto dentro do modal. */
+#inventoryCompendiumModal { position: fixed; }
+#inventoryCompendiumModal .compendium-modal-head { display: flex; align-items: center; gap: 8px; }
+#inventoryCompendiumModal #inventoryCompendiumExport { margin-left: auto; }
+#inventoryExportPopup[hidden] { display: none !important; }
+#inventoryExportPopup { position: absolute; z-index: 25; right: 15px; top: 55px; width: min(310px,calc(100% - 30px)); border: 1px solid rgba(112,82,51,.35); border-radius: 12px; background: #faf3e7; color: #463425; padding: 17px; box-shadow: 0 14px 40px rgba(39,26,15,.26); animation: inventoryExportAppear .18s ease-out; }
+#inventoryExportPopup p { margin: 7px 0 12px; font-size: 13px; }
+#inventoryExportPopup .inventory-export-formats { display: grid; gap: 7px; }
+#inventoryExportPopup button { cursor: pointer; border: 1px solid rgba(112,82,51,.3); border-radius: 8px; padding: 9px; background: #efe1cc; color: #503923; font-weight: 600; }
+#inventoryExportPopup button:hover { background: #e2cbaa; }
+#inventoryExportPopup .inventory-export-cancel { width: 100%; margin-top: 9px; background: transparent; }
+@keyframes inventoryExportAppear { from { opacity: 0; transform: translateY(-6px) } to { opacity: 1; transform: translateY(0) } }
+@media (prefers-reduced-motion: reduce) { #inventoryExportPopup { animation: none; } }
 </style>
 
