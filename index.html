@@ -4672,6 +4672,8 @@ body.editing
         📚 Compêndio
       </button>
 
+      <a href="exportar-compendio.html" target="_blank" rel="noopener noreferrer" class="compendium-export-link" title="Exportar catálogo para NotebookLM ou outras IAs">⬇ Exportar catálogo</a>
+
       <button
         id="addInventoryItem"
         class="add-button edit-only"
@@ -20961,5 +20963,9 @@ body.editing .inventory-compact-row{display:none!important}
     #attacks .attack-drag-handle, #attacks > .attack-dragging { transition: none; }
     #attacks > .attack-drop-placeholder { animation: none; }
 }
+
+/* Acesso à exportação do Compêndio */
+.compendium-export-link{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid rgba(112,82,51,.38);border-radius:8px;padding:8px 10px;color:#6b482a;background:rgba(255,248,228,.9);font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap;transition:background .16s ease,transform .16s ease}
+.compendium-export-link:hover{background:#e6d0af;transform:translateY(-1px)}
 </style>
 
