@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Exportar Compêndio — La Magie</title>
+<style>
+:root{color-scheme:light;--ink:#382d26;--accent:#815d3b;--paper:#f6f0e6}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#e5d7bf,#f9f5ed);color:var(--ink);font:16px system-ui,-apple-system,sans-serif;min-height:100vh}
+main{max-width:760px;margin:7vh auto;padding:35px;background:var(--paper);border:1px solid #c9b89f;border-radius:18px;box-shadow:0 18px 55px #47321a20}
+h1{font-family:Georgia,serif;font-size:clamp(1.7rem,4vw,2.5rem);margin:0 0 10px}p{line-height:1.6}small{color:#665646}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.actions button{border:1px solid #705133;border-radius:9px;background:#795638;color:white;padding:13px 19px;font-weight:700;cursor:pointer}.actions button:hover{background:#604329}.actions button:disabled{opacity:.45;cursor:not-allowed}
+a{color:#704b2e}#status{padding:12px 15px;background:#eee1cc;border-radius:9px;min-height:48px;overflow-wrap:anywhere}#status[data-error="true"]{background:#f6d6d0;color:#692f28}
+@media(max-width:600px){main{margin:20px 12px;padding:24px}.actions button{flex:1}}
+</style></head><body><main><h1>📜 Exportar Compêndio</h1><p>Baixe uma cópia do catálogo de itens de <strong>La Magie</strong> para usar no NotebookLM, em outras IAs ou como arquivo de consulta.</p><div id="status" role="status" aria-live="polite">Carregando itens...</div><div class="actions"><button data-type="md" disabled>Baixar Markdown (.md)</button><button data-type="txt" disabled>Baixar texto (.txt)</button><button data-type="json" disabled>Baixar JSON (.json)</button></div><p><small>Exporta todos os itens disponíveis no catálogo, independentemente dos filtros de pesquisa. Os arquivos são gerados no seu navegador. Nenhuma modificação é feita na ficha, no GitHub ou no Supabase.</small></p><p><small>Para o NotebookLM, prefira Markdown ou TXT. A importação é uma cópia pontual; ao atualizar o Compêndio, exporte e envie um novo arquivo.</small></p><p><a href="index.html">← Voltar à ficha</a></p></main><script>
+"use strict";
+const statusEl=document.getElementById("status");
+const buttons=[...document.querySelectorAll("[data-type]")];
+const URL_CATALOGO="https://drkcfrhjgkztdtneuofr.supabase.co/functions/v1/compendio-commit";
+let itens=[];
+const str=v=>v==null?"":typeof v==="object"?JSON.stringify(v):String(v);
+const campo=(v,nomes)=>{for(const n of nomes){if(v[n]!=null&&v[n]!=="")return str(v[n]);}return "";};
+function textoItem(item,i){
+ const titulo=campo(item,["nome","name","titulo"])||"Item "+(i+1);
+ const linhas=["## "+titulo];
+ const chaves=[["Categoria",["categoria","category","tipo"]],["Fonte",["fonte","source","livro"]],["Raridade",["raridade","rarity"]],["Preço",["preco","price","valor"]],["Peso",["peso","weight"]],["Descrição",["descricao","description"]]];
+ const usadas=new Set(["nome","name","titulo"]);
+ for(const [rotulo,keys] of chaves){const val=campo(item,keys);keys.forEach(k=>usadas.add(k));if(val)linhas.push("**"+rotulo+":** "+val);}
+ for(const [key,val] of Object.entries(item)){if(usadas.has(key)||val==null||val==="")continue;linhas.push("**"+key+":** "+str(val));}
+ return linhas.join("\n\n");
+}
+function exportar(tipo){
+ if(!itens.length)return;
+ const agora=new Date().toISOString().slice(0,10);
+ let corpo,mime;
+ if(tipo==="json"){corpo=JSON.stringify(itens,null,2);mime="application/json";}
+ else {corpo="# Compêndio La Magie\n\nExportado em "+agora+" — "+itens.length+" itens.\n\n"+itens.map(textoItem).join("\n\n---\n\n");mime="text/plain";}
+ const blob=new Blob(["\uFEFF",corpo],{type:mime+";charset=utf-8"});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement("a");a.href=url;a.download="la-magie-compendio-"+agora+"."+tipo;document.body.appendChild(a);a.click();a.remove();
+ setTimeout(()=>URL.revokeObjectURL(url),3000);
+}
+for(const b of buttons)b.addEventListener("click",()=>exportar(b.dataset.type));
+(async()=>{
+ try{
+  const response=await fetch(URL_CATALOGO+"?v="+Date.now(),{cache:"no-store"});
+  if(!response.ok)throw new Error("Servidor retornou "+response.status);
+  const dados=await response.json();
+  const lista=Array.isArray(dados)?dados: dados?.itens;
+  if(!Array.isArray(lista)||!lista.length)throw new Error("O catálogo retornou vazio ou em formato inesperado.");
+  itens=lista;
+  statusEl.textContent=itens.length.toLocaleString("pt-BR")+" itens prontos para exportação.";
+  buttons.forEach(b=>b.disabled=false);
+ }catch(error){statusEl.dataset.error="true";statusEl.textContent="Não foi possível carregar o catálogo: "+error.message+". Tente atualizar a página.";}
+})();
+</script></body></html>
