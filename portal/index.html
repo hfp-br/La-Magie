@@ -27,11 +27,11 @@
 <header class="topbar"><div class="brand"><span class="emblem">✧</span> LA MAGIE</div><small>ARQUIVOS DA CAMPANHA</small></header>
 <section class="hero" aria-labelledby="title"><div class="eyebrow">✦ &nbsp; Portal da Campanha &nbsp; ✦</div><h1 id="title">LA MAGIE</h1><p>Um mundo, inúmeras histórias.<br>Seu próximo capítulo começa aqui.</p><div class="ornament" aria-hidden="true">✧</div></section>
 <main><div class="section-head"><h2>Escolha seu destino</h2></div><div class="cards">
-<button class="card" type="button" data-dialog="fichas" data-theme="amber"><div class="art"><span class="symbol" aria-hidden="true">⚔️</span></div><div class="details"><span class="tag">Personagens</span><span class="name">Fichas <span class="arrow">↗</span></span><span class="desc">Acesse os heróis, personagens e NPCs da campanha.</span></div></button>
+<a class="card" href="../index.html" data-theme="amber"><div class="art"><span class="symbol" aria-hidden="true">⚔️</span></div><div class="details"><span class="tag">Personagens</span><span class="name">Fichas <span class="arrow">↗</span></span><span class="desc">Acesse diretamente as fichas dos personagens jogadores.</span></div></a>
 <a class="card" href="../compendio_pack/compendio.html" data-theme="blue"><div class="art"><span class="symbol" aria-hidden="true">📖</span></div><div class="details"><span class="tag">Biblioteca</span><span class="name">Compêndio <span class="arrow">↗</span></span><span class="desc">Explore itens, equipamentos e descobertas do mundo.</span></div></a>
 <button class="card" type="button" data-dialog="timeline" data-theme="purple"><div class="art"><span class="symbol" aria-hidden="true">⌛</span></div><div class="details"><span class="tag">Crônicas</span><span class="name">Timeline <span class="arrow">↗</span></span><span class="desc">Acompanhe a história e os acontecimentos da campanha.</span></div></button>
 <a class="card" href="../Cambio.html" data-theme="green"><div class="art"><span class="symbol" aria-hidden="true">🪙</span></div><div class="details"><span class="tag">Economia</span><span class="name">Câmbio <span class="arrow">↗</span></span><span class="desc">Converta moedas e consulte valores em suas jornadas.</span></div></a>
-<a class="card" href="../npcssync.html" data-theme="red"><div class="art"><span class="symbol" aria-hidden="true">🗝️</span></div><div class="details"><span class="tag">Ferramentas do mestre</span><span class="name">Gestão de NPCs <span class="arrow">↗</span></span><span class="desc">Organize personagens não jogáveis e seus registros.</span></div></a>
+<button class="card" type="button" data-dialog="mundo" data-theme="red"><div class="art"><span class="symbol" aria-hidden="true">🗝️</span></div><div class="details"><span class="tag">Ferramentas do mestre</span><span class="name">Gestão de Mundo <span class="arrow">↗</span></span><span class="desc">Gerencie NPCs e consulte o Monstruário da campanha.</span></div></button>
 
 </div></main>
 <footer class="footer"><span>✧ &nbsp; LA MAGIE — PORTAL DA CAMPANHA</span><span>Que suas histórias sejam lembradas.</span></footer>
@@ -40,8 +40,9 @@
 <script>
 const raiz="../";
 const modalData={
- fichas:{icon:"⚔️",title:"Fichas",subtitle:"Qual tipo de ficha deseja acessar?",choices:[
-  {icon:"🛡️",title:"Jogadores",subtitle:"Fichas dos personagens dos jogadores",url:raiz+"index.html"}
+ mundo:{icon:"🗝️",title:"Gestão de Mundo",subtitle:"O que deseja acessar?",choices:[
+  {icon:"📜",title:"NPCs",subtitle:"Gerenciamento dos personagens não jogáveis",url:raiz+"npcssync.html"},
+  {icon:"🐉",title:"Monstros",subtitle:"Acessar o Monstruário da campanha",url:raiz+"monstruario.html"}
  ]},
  timeline:{icon:"⌛",title:"Timeline",subtitle:"Escolha qual cronologia deseja consultar.",choices:[
   {icon:"👑",title:"Mestre",subtitle:"Linha do tempo principal da campanha",url:raiz+"Timeline.html"},
