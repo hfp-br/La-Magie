@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Magie — Mapa de Malkharya</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#131412;--bg2:#211b17;--panel:#241f1b;--panel2:#382b20;--line:#85694b85;--txt:#f3ead9;--mut:#c0b2a0;--gold:#e8b87a;--gold2:#d6a467;--red:#c76a5a;--secret:#9972b1}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:linear-gradient(180deg,var(--bg2) 0%,var(--bg) 72%);color:var(--txt);font-family:'DM Sans',system-ui,sans-serif;display:flex;flex-direction:column;overflow:hidden}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--gold)}
+
+/* topo */
+header{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);background:#1a1714e6;z-index:5;flex-wrap:wrap}
+header h1{margin:0;font:600 19px Cinzel,Georgia,serif;letter-spacing:.04em;flex:1;min-width:180px}
+header h1 small{display:block;font:500 10px 'DM Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#d4b78e}
+.back{text-decoration:none;font-size:13px;color:var(--mut)}
+.back:hover{color:var(--gold)}
+#accountLabel{font-size:12px;color:var(--mut)}
+.b{border:1px solid var(--line);background:linear-gradient(150deg,var(--panel2),var(--panel));border-radius:9px;padding:7px 13px;cursor:pointer;font-size:13px;transition:border-color .2s,transform .15s}
+.b:hover{border-color:var(--gold)}
+.b:active{transform:translateY(1px)}
+.b.pri{background:linear-gradient(150deg,#8a6331,#5e4223);border-color:var(--gold2)}
+.b.danger{border-color:#a3524585;color:#f0b9ad}
+.b.on{border-color:var(--gold);box-shadow:0 0 0 1px #e8b87a55 inset;color:var(--gold)}
+.b[hidden]{display:none}
+
+/* corpo */
+main{flex:1;display:flex;min-height:0;position:relative}
+aside{width:280px;flex-shrink:0;border-right:1px solid var(--line);background:#1b1815;display:flex;flex-direction:column;min-height:0;transition:margin-left .25s}
+aside.closed{margin-left:-280px}
+.side-head{padding:12px;display:flex;gap:8px;border-bottom:1px solid #85694b40}
+.side-head input{flex:1;min-width:0}
+.f{background:#151311;border:1px solid var(--line);border-radius:8px;padding:7px 10px;width:100%}
+.f:focus{outline:none;border-color:var(--gold)}
+#mapList{flex:1;overflow:auto;padding:8px 6px 16px;list-style:none;margin:0}
+#mapList ul{list-style:none;margin:0;padding-left:14px;border-left:1px solid #85694b33;margin-left:10px}
+.map-item{display:flex;align-items:center;gap:8px;width:100%;text-align:left;background:none;border:1px solid transparent;border-radius:8px;padding:7px 9px;cursor:pointer;font-size:14px}
+.map-item:hover{background:#2a231d}
+.map-item.active{background:#382b20;border-color:var(--line);color:var(--gold)}
+.map-item .tipo{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#a99a86;margin-left:auto}
+.lock{font-size:11px;color:var(--secret)}
+.empty-list{padding:16px;color:var(--mut);font-size:13px;line-height:1.5}
+
+#stage{flex:1;position:relative;min-width:0}
+#map{position:absolute;inset:0;background:#0f100e}
+.leaflet-container{font-family:'DM Sans',system-ui,sans-serif}
+
+/* barra sobre o mapa */
+.toolbar{position:absolute;top:12px;left:12px;right:12px;z-index:500;display:flex;gap:8px;align-items:flex-start;pointer-events:none;flex-wrap:wrap}
+.toolbar>*{pointer-events:auto}
+.crumbs{background:#1a1714e6;border:1px solid var(--line);border-radius:10px;padding:7px 12px;font-size:13px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;max-width:100%}
+.crumbs[hidden]{display:none}
+.crumbs button{background:none;border:none;padding:0;cursor:pointer;color:var(--mut)}
+.crumbs button:hover{color:var(--gold)}
+.crumbs b{font-family:Cinzel,Georgia,serif;font-weight:600;color:var(--gold)}
+.spacer{flex:1}
+.toolbar .b{background:#1a1714e6}
+.edit-hint{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);z-index:500;background:#3a2a17ee;border:1px solid var(--gold2);border-radius:10px;padding:8px 14px;font-size:13px;pointer-events:none;white-space:nowrap}
+.edit-hint[hidden]{display:none}
+.banner{position:absolute;top:58px;left:12px;z-index:550;max-width:min(520px,calc(100% - 24px));background:#3a1f1aee;border:1px solid #a35245;border-radius:10px;padding:9px 13px;font-size:13px;line-height:1.45}
+.banner[hidden]{display:none}
+#filterBox{position:absolute;top:56px;right:12px;z-index:600;background:#1d1916f5;border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:4px;font-size:13px;max-height:60vh;overflow:auto}
+#filterBox[hidden]{display:none}
+#filterBox label{display:flex;gap:8px;align-items:center;cursor:pointer}
+
+.placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:24px;color:var(--mut);z-index:400;pointer-events:none}
+.placeholder h2{font:600 22px Cinzel,Georgia,serif;color:var(--txt);margin:0}
+.placeholder[hidden]{display:none}
+.placeholder .b{pointer-events:auto}
+
+/* marcadores */
+.pin{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:linear-gradient(150deg,#4a3826,#241b13);border:2px solid var(--gold2);box-shadow:0 4px 10px #000a}
+.pin span{transform:rotate(45deg);font-size:17px;line-height:1}
+.pin.secret{border-style:dashed;border-color:var(--secret);opacity:.85}
+.pin.editable{cursor:move}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#221d19;color:var(--txt);border:1px solid var(--line)}
+.leaflet-popup-content{margin:12px 14px;min-width:180px;max-width:280px}
+.pop h3{margin:0 0 2px;font:600 16px Cinzel,Georgia,serif;color:var(--gold)}
+.pop .cat{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#a99a86}
+.pop p{margin:8px 0 0;font-size:13px;line-height:1.5;white-space:pre-wrap;color:var(--mut)}
+.pop .row{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+.pop .b{padding:5px 10px;font-size:12px}
+.leaflet-container a.leaflet-popup-close-button{color:var(--mut)}
+.leaflet-bar a{background:#221d19;color:var(--txt);border-color:#85694b55}
+.leaflet-bar a:hover{background:#382b20}
+
+/* diálogos */
+dialog{background:linear-gradient(160deg,#2c231c,#1b1815);color:var(--txt);border:1px solid var(--line);border-radius:14px;padding:20px;width:min(440px,92vw);box-shadow:0 20px 60px #000c}
+dialog::backdrop{background:#0b0a09b8;backdrop-filter:blur(2px)}
+dialog h2{margin:0 0 14px;font:600 19px Cinzel,Georgia,serif}
+dialog label{display:grid;gap:5px;font-size:12px;color:var(--mut);margin-bottom:11px}
+dialog label.check{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--txt)}
+dialog textarea{min-height:90px;resize:vertical}
+.dlg-row{display:flex;gap:8px;justify-content:flex-end;margin-top:6px;flex-wrap:wrap}
+.dlg-row .left{margin-right:auto}
+.help{margin:-4px 0 14px;color:var(--mut);font-size:12px;line-height:1.45}
+.err{min-height:18px;color:#f0a191;font-size:12px;margin:2px 0 6px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+#toast{position:fixed;bottom:18px;right:18px;z-index:2000;background:#2b221b;border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:13px;opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none}
+#toast.show{opacity:1;transform:none}
+#toast.err{border-color:#a35245}
+#toast.busy{opacity:1;transform:none}
+
+@media (max-width:760px){
+  aside{position:absolute;top:0;bottom:0;left:0;z-index:700;box-shadow:8px 0 30px #000a}
+  header h1{font-size:16px}
+  .grid2{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="portal/">← Portal</a>
+  <button class="b" id="toggleSide" type="button" aria-label="Mostrar ou esconder lista de mapas">☰ Mapas</button>
+  <h1>Mapa de Malkharya<small>Atlas da campanha</small></h1>
+  <span id="accountLabel">Visualização pública</span>
+  <button class="b" id="loginBtn" type="button">Entrar</button>
+  <button class="b" id="logoutBtn" type="button" hidden>Sair</button>
+</header>
+
+<main>
+  <aside id="side">
+    <div class="side-head">
+      <input id="search" class="f" type="search" placeholder="Buscar mapa ou local…" autocomplete="off">
+      <button class="b pri" id="newMapBtn" type="button" title="Novo mapa" hidden>＋</button>
+    </div>
+    <ul id="mapList"></ul>
+  </aside>
+
+  <section id="stage">
+    <div id="map"></div>
+    <div class="toolbar">
+      <nav class="crumbs" id="crumbs" hidden></nav>
+      <span class="spacer"></span>
+      <button class="b" id="filterBtn" type="button" hidden>Filtrar</button>
+      <button class="b" id="editMapBtn" type="button" hidden>Editar mapa</button>
+      <button class="b" id="editModeBtn" type="button" hidden>✎ Modo edição</button>
+    </div>
+    <div id="filterBox" hidden></div>
+    <div class="banner" id="banner" hidden></div>
+    <div class="edit-hint" id="editHint" hidden>Clique no mapa para criar um marcador • arraste para mover</div>
+    <div class="placeholder" id="placeholder">
+      <h2>Nenhum mapa selecionado</h2>
+      <span id="placeholderText">Escolha um continente ou país na lista.</span>
+    </div>
+  </section>
+</main>
+
+<dialog id="loginDlg">
+  <h2>Entrar</h2>
+  <p class="help">Qualquer pessoa vê os mapas públicos. O login da Timeline (H ou mestre) permite criar e editar mapas e marcadores.</p>
+  <label>Usuário<input id="loginUser" class="f" autocomplete="username"></label>
+  <label>Senha<input id="loginPassword" class="f" type="password" autocomplete="current-password"></label>
+  <div class="err" id="loginError"></div>
+  <div class="dlg-row">
+    <button class="b" id="loginCancel" type="button">Cancelar</button>
+    <button class="b pri" id="loginSubmit" type="button">Entrar</button>
+  </div>
+</dialog>
+
+<dialog id="mapDlg">
+  <h2 id="mapDlgTitle">Novo mapa</h2>
+  <label>Nome<input id="mNome" class="f" maxlength="120"></label>
+  <div class="grid2">
+    <label>Tipo
+      <select id="mTipo" class="f">
+        <option value="mundo">Mundo</option>
+        <option value="continente">Continente</option>
+        <option value="pais">País / Reino</option>
+        <option value="regiao" selected>Região</option>
+        <option value="cidade">Cidade</option>
+        <option value="local">Local / Masmorra</option>
+      </select>
+    </label>
+    <label>Dentro de<select id="mParent" class="f"></select></label>
+  </div>
+  <label>Descrição<textarea id="mDesc" class="f"></textarea></label>
+  <label>Imagem do mapa (PNG, JPG ou WEBP; acima de 20 MB é comprimida)<input id="mImg" class="f" type="file" accept="image/png,image/jpeg,image/webp"></label>
+  <label class="check"><input id="mSecreto" type="checkbox"> Secreto (só o mestre e quem criou veem)</label>
+  <p class="help" id="mSecretoAviso" hidden>Este mapa já foi público: quem olhar o histórico do GitHub ainda acha a versão antiga. Daqui para frente ele e os marcadores dele ficam só no repositório privado.</p>
+  <div class="err" id="mapError"></div>
+  <div class="dlg-row">
+    <button class="b danger left" id="mapDelete" type="button" hidden>Apagar mapa</button>
+    <button class="b" id="mapCancel" type="button">Cancelar</button>
+    <button class="b pri" id="mapSave" type="button">Salvar</button>
+  </div>
+</dialog>
+
+<dialog id="pinDlg">
+  <h2 id="pinDlgTitle">Novo marcador</h2>
+  <label>Nome<input id="pNome" class="f" maxlength="120"></label>
+  <div class="grid2">
+    <label>Categoria<select id="pCat" class="f"></select></label>
+    <label>Abre o mapa<select id="pLink" class="f"></select></label>
+  </div>
+  <label>Descrição<textarea id="pDesc" class="f"></textarea></label>
+  <label class="check"><input id="pSecreto" type="checkbox"> <span id="pSecretoTxt">Secreto (só o mestre e quem criou veem)</span></label>
+  <div class="err" id="pinError"></div>
+  <div class="dlg-row">
+    <button class="b danger left" id="pinDelete" type="button" hidden>Apagar</button>
+    <button class="b" id="pinCancel" type="button">Cancelar</button>
+    <button class="b pri" id="pinSave" type="button">Salvar</button>
+  </div>
+</dialog>
+
+<dialog id="confirmDlg">
+  <h2 id="confirmTitle">Tem certeza?</h2>
+  <p class="help" id="confirmText"></p>
+  <div class="dlg-row">
+    <button class="b" id="confirmNo" type="button">Cancelar</button>
+    <button class="b danger" id="confirmYes" type="button">Apagar</button>
+  </div>
+</dialog>
+
+<div id="toast" role="status"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script>
+const SUPABASE_URL="https://drkcfrhjgkztdtneuofr.supabase.co";
+const SUPABASE_KEY="sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY";
+const sb=supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+
+// os dados ficam no GitHub: públicos no La-Magie, secretos no La-Magie-segredos.
+// a Edge Function mapa-commit lê e grava os dois; o Supabase só faz o login.
+const FN_URL=`${SUPABASE_URL}/functions/v1/mapa-commit`;
+const RAW_PUBLICO="https://raw.githubusercontent.com/hfp-br/La-Magie/main/";
+
+// mesmas contas da Timeline
+const H_USER_ID="36617d4a-e694-4016-8cf0-adea302f8220";
+const OWNER_EMAILS=["h@mestre.rpg"];
+const MASTER_EMAIL="matheus@mestre.rpg";
+const MAX_ENVIO=20*1024*1024;
+
+const CATEGORIAS=[
+  {id:"capital",nome:"Capital",icon:"👑"},
+  {id:"cidade",nome:"Cidade",icon:"🏰"},
+  {id:"vila",nome:"Vila / Povoado",icon:"🏘️"},
+  {id:"porto",nome:"Porto",icon:"⚓"},
+  {id:"forte",nome:"Forte / Militar",icon:"🛡️"},
+  {id:"templo",nome:"Templo",icon:"🕯️"},
+  {id:"masmorra",nome:"Masmorra",icon:"💀"},
+  {id:"ruina",nome:"Ruína",icon:"🏛️"},
+  {id:"natureza",nome:"Natureza",icon:"🌲"},
+  {id:"montanha",nome:"Montanha",icon:"⛰️"},
+  {id:"perigo",nome:"Perigo",icon:"⚠️"},
+  {id:"grupo",nome:"Grupo",icon:"🚩"},
+  {id:"local",nome:"Ponto de interesse",icon:"📍"}
+];
+const CAT=Object.fromEntries(CATEGORIAS.map(c=>[c.id,c]));
+const TIPOS={mundo:"Mundo",continente:"Continente",pais:"País",regiao:"Região",cidade:"Cidade",local:"Local"};
+
+const $=s=>document.querySelector(s);
+
+let currentUser=null;
+let mapas=[];
+let todosMarcadores=[];
+let atual=null;          // mapa aberto
+let marcadores=[];       // marcadores do mapa aberto
+let editMode=false;
+let hiddenCats=new Set();
+let imageLayer=null;
+let editingMap=null;
+let editingPin=null;     // marcador sendo editado (ou {x,y} se novo)
+const urlsSecretas=new Map();
+
+const map=L.map("map",{crs:L.CRS.Simple,minZoom:-5,maxZoom:5,zoomSnap:.25,zoomDelta:.5,attributionControl:false,zoomControl:true});
+map.zoomControl.setPosition("bottomright");
+const markerLayer=L.layerGroup().addTo(map);
+
+/* util */
+function toast(msg,tipo=""){
+  const t=$('#toast');
+  t.textContent=msg;
+  t.className="show "+tipo;
+  clearTimeout(toast._t);
+  if(tipo!=="busy")toast._t=setTimeout(()=>t.className=tipo,2800);
+}
+
+function el(tag,props={},...kids){
+  const e=document.createElement(tag);
+  Object.assign(e,props);
+  kids.flat().forEach(k=>e.append(k));
+  return e;
+}
+
+function role(){
+  const email=(currentUser?.email||"").toLowerCase();
+  if(currentUser?.id===H_USER_ID||OWNER_EMAILS.includes(email))return"h";
+  if(email===MASTER_EMAIL)return"master";
+  return"viewer";
+}
+const canEdit=()=>role()!=="viewer";
+
+function porId(id){return mapas.find(m=>m.id===id)}
+
+function cadeia(m){
+  const out=[];
+  const vistos=new Set();
+  while(m&&!vistos.has(m.id)){vistos.add(m.id);out.unshift(m);m=porId(m.parent_id)}
+  return out;
+}
+
+function banner(msg){
+  $('#banner').textContent=msg||"";
+  $('#banner').hidden=!msg;
+}
+
+/* comunicação com a Edge Function */
+async function cabecalhos(){
+  const {data:{session}}=await sb.auth.getSession();
+  const h={apikey:SUPABASE_KEY};
+  if(session)h.Authorization=`Bearer ${session.access_token}`;
+  return h;
+}
+
+async function api(action,dados={}){
+  const res=await fetch(FN_URL,{method:"POST",headers:{...await cabecalhos(),"Content-Type":"application/json"},body:JSON.stringify({action,...dados})});
+  const body=await res.json().catch(()=>({}));
+  if(!res.ok)throw new Error(body.error||`Erro ${res.status}`);
+  return body;
+}
+
+async function carregarDados(){
+  try{
+    const res=await fetch(FN_URL,{headers:await cabecalhos(),cache:"no-store"});
+    const body=await res.json();
+    if(!res.ok)throw new Error(body.error||res.status);
+    mapas=(body.mapas||[]).sort((a,b)=>(a.ordem-b.ordem)||a.nome.localeCompare(b.nome,"pt-BR"));
+    todosMarcadores=body.marcadores||[];
+    banner(canEdit()&&body.privado===false
+      ?"⚠️ O repositório de segredos não está acessível: mapas e marcadores secretos não aparecem nem podem ser salvos. Avise o H."
+      :"");
+  }catch(e){
+    console.error(e);
+    toast("Falha ao carregar os mapas","err");
+  }
+  renderLista();
+}
+
+function filtrarMarcadores(){
+  marcadores=atual?todosMarcadores.filter(p=>p.mapa_id===atual.id):[];
+  renderMarcadores();
+  renderFiltro();
+}
+
+/* lista lateral */
+function renderLista(){
+  const q=$('#search').value.trim().toLocaleLowerCase("pt-BR");
+  const box=$('#mapList');
+  box.replaceChildren();
+
+  if(!mapas.length){
+    box.append(el("li",{className:"empty-list",textContent:canEdit()
+      ?"Nenhum mapa ainda. Use o botão ＋ para enviar o primeiro."
+      :"Nenhum mapa publicado ainda."}));
+    return;
+  }
+
+  // a busca também procura nos nomes dos marcadores
+  const bate=m=>!q||m.nome.toLocaleLowerCase("pt-BR").includes(q)
+    ||todosMarcadores.some(p=>p.mapa_id===m.id&&p.nome.toLocaleLowerCase("pt-BR").includes(q));
+  const temMatch=m=>bate(m)||mapas.some(f=>f.parent_id===m.id&&temMatch(f));
+
+  const item=m=>{
+    const b=el("button",{className:"map-item"+(atual?.id===m.id?" active":""),type:"button"},
+      el("span",{textContent:m.nome}),
+      m.secreto?el("span",{className:"lock",textContent:"🔒",title:"Secreto"}):"",
+      el("span",{className:"tipo",textContent:TIPOS[m.tipo]||""}));
+    b.onclick=()=>abrirMapa(m.id);
+    const li=el("li",{},b);
+    const subs=mapas.filter(f=>f.parent_id===m.id&&temMatch(f));
+    if(subs.length)li.append(el("ul",{},subs.map(item)));
+    return li;
+  };
+  // mapas cujo pai não é visível sobem para a raiz
+  const visiveis=mapas.filter(m=>(!m.parent_id||!porId(m.parent_id))&&temMatch(m));
+  if(!visiveis.length)box.append(el("li",{className:"empty-list",textContent:"Nada encontrado."}));
+  visiveis.forEach(m=>box.append(item(m)));
+}
+
+/* abrir mapa */
+async function urlImagem(m){
+  if(!m.secreto)return RAW_PUBLICO+m.imagem.split("/").map(encodeURIComponent).join("/");
+  if(urlsSecretas.has(m.imagem))return urlsSecretas.get(m.imagem);
+  const res=await fetch(`${FN_URL}?img=${encodeURIComponent(m.imagem)}`,{headers:await cabecalhos()});
+  if(!res.ok)throw new Error(`Imagem secreta: HTTP ${res.status}`);
+  const url=URL.createObjectURL(await res.blob());
+  urlsSecretas.set(m.imagem,url);
+  return url;
+}
+
+async function abrirMapa(id,{manterVista=false}={}){
+  const m=porId(id);
+  if(!m){toast("Mapa não encontrado ou sem acesso","err");return}
+  const mesmo=atual?.id===m.id;
+  atual=m;
+  history.replaceState(null,"",`#mapa=${m.id}`);
+  if(innerWidth<=760)$('#side').classList.add("closed");
+  renderLista();
+  renderCrumbs();
+  atualizarUi();
+
+  if(imageLayer){map.removeLayer(imageLayer);imageLayer=null}
+  markerLayer.clearLayers();
+
+  if(!m.imagem||!m.largura||!m.altura){
+    $('#placeholder').hidden=false;
+    $('#placeholder h2').textContent=m.nome;
+    $('#placeholderText').textContent=canEdit()?"Este mapa ainda não tem imagem. Use “Editar mapa” para enviar uma.":"Este mapa ainda não tem imagem.";
+    filtrarMarcadores();
+    return;
+  }
+  $('#placeholder').hidden=true;
+
+  try{
+    const url=await urlImagem(m);
+    const bounds=[[0,0],[m.altura,m.largura]];
+    imageLayer=L.imageOverlay(url,bounds).addTo(map);
+    map.setMaxBounds(L.latLngBounds(bounds).pad(.25));
+    if(!(manterVista&&mesmo)){
+      map.setMinZoom(-5);
+      map.fitBounds(bounds,{animate:false});
+      const z=map.getZoom();
+      map.setMinZoom(z-1);
+      map.setMaxZoom(z+5);
+    }
+  }catch(e){
+    console.error(e);
+    toast("Falha ao carregar a imagem do mapa","err");
+  }
+  filtrarMarcadores();
+}
+
+function renderCrumbs(){
+  const box=$('#crumbs');
+  box.replaceChildren();
+  if(!atual){box.hidden=true;return}
+  box.hidden=false;
+  const c=cadeia(atual);
+  c.forEach((m,i)=>{
+    if(i)box.append(el("span",{textContent:"›",ariaHidden:"true"}));
+    if(i===c.length-1)box.append(el("b",{textContent:m.nome}),m.secreto?el("span",{className:"lock",textContent:" 🔒"}):"");
+    else{
+      const b=el("button",{type:"button",textContent:m.nome});
+      b.onclick=()=>abrirMapa(m.id);
+      box.append(b);
+    }
+  });
+}
+
+/* coordenadas: x,y normalizados 0..1 com origem no canto superior esquerdo */
+function paraLatLng(x,y){return L.latLng((1-y)*atual.altura,x*atual.largura)}
+function deLatLng(ll){
+  return{
+    x:Math.min(1,Math.max(0,ll.lng/atual.largura)),
+    y:Math.min(1,Math.max(0,1-ll.lat/atual.altura))
+  };
+}
+
+/* marcadores */
+function iconeDe(p){
+  const c=CAT[p.categoria]||CAT.local;
+  return L.divIcon({
+    className:"",
+    html:`<div class="pin${p.secreto?" secret":""}${editMode?" editable":""}"><span>${c.icon}</span></div>`,
+    iconSize:[34,34],iconAnchor:[17,34],popupAnchor:[0,-32]
+  });
+}
+
+function popupDe(p){
+  const c=CAT[p.categoria]||CAT.local;
+  const box=el("div",{className:"pop"},
+    el("div",{className:"cat",textContent:c.nome+(p.secreto?" • secreto 🔒":"")}),
+    el("h3",{textContent:p.nome}));
+  if(p.descricao)box.append(el("p",{textContent:p.descricao}));
+  const row=el("div",{className:"row"});
+  const destino=p.link_mapa_id&&porId(p.link_mapa_id);
+  if(destino){
+    const b=el("button",{className:"b pri",type:"button",textContent:`Abrir ${destino.nome} →`});
+    b.onclick=()=>abrirMapa(destino.id);
+    row.append(b);
+  }
+  if(canEdit()){
+    const e=el("button",{className:"b",type:"button",textContent:"Editar"});
+    e.onclick=()=>{map.closePopup();abrirPinDlg(p)};
+    row.append(e);
+  }
+  if(row.childNodes.length)box.append(row);
+  return box;
+}
+
+function renderMarcadores(){
+  markerLayer.clearLayers();
+  if(!atual?.largura)return;
+  marcadores.filter(p=>!hiddenCats.has(p.categoria)).forEach(p=>{
+    const mk=L.marker(paraLatLng(p.x,p.y),{icon:iconeDe(p),draggable:editMode&&canEdit(),title:p.nome,keyboard:true});
+    mk.bindPopup(()=>popupDe(p));
+    mk.on("dragend",async()=>{
+      const pos=deLatLng(mk.getLatLng());
+      toast("Movendo…","busy");
+      try{
+        const r=await api("salvarMarcador",{marcador:{...p,...pos},secreto:p.secreto});
+        Object.assign(p,r.marcador);
+        toast("Marcador movido");
+      }catch(e){
+        mk.setLatLng(paraLatLng(p.x,p.y));
+        toast("Não foi possível mover: "+e.message,"err");
+      }
+    });
+    markerLayer.addLayer(mk);
+  });
+}
+
+function renderFiltro(){
+  const usadas=[...new Set(marcadores.map(p=>p.categoria))];
+  $('#filterBtn').hidden=!usadas.length;
+  const box=$('#filterBox');
+  box.replaceChildren();
+  CATEGORIAS.filter(c=>usadas.includes(c.id)).forEach(c=>{
+    const cb=el("input",{type:"checkbox",checked:!hiddenCats.has(c.id)});
+    cb.onchange=()=>{cb.checked?hiddenCats.delete(c.id):hiddenCats.add(c.id);renderMarcadores()};
+    box.append(el("label",{},cb,`${c.icon} ${c.nome}`));
+  });
+}
+
+map.on("click",e=>{
+  if(!editMode||!canEdit()||!atual?.largura)return;
+  abrirPinDlg(null,deLatLng(e.latlng));
+});
+
+/* UI de permissões */
+function atualizarUi(){
+  const r=role();
+  $('#accountLabel').textContent=r==="h"?"Conectado como H":r==="master"?"Conectado como mestre":currentUser?"Conta sem permissão de edição":"Visualização pública";
+  $('#loginBtn').hidden=!!currentUser;
+  $('#logoutBtn').hidden=!currentUser;
+  $('#newMapBtn').hidden=!canEdit();
+  $('#editMapBtn').hidden=!canEdit()||!atual;
+  $('#editModeBtn').hidden=!canEdit()||!atual?.largura;
+  if(!canEdit()&&editMode)setEditMode(false);
+}
+
+function setEditMode(on){
+  editMode=on;
+  $('#editModeBtn').classList.toggle("on",on);
+  $('#editHint').hidden=!on;
+  renderMarcadores();
+}
+
+/* diálogo: mapa */
+function opcoesMapas(select,{vazio,excluir}={}){
+  select.replaceChildren(el("option",{value:"",textContent:vazio}));
+  const proibidos=new Set();
+  if(excluir){
+    // não deixa um mapa virar filho de si mesmo ou de um descendente
+    const marca=id=>{proibidos.add(id);mapas.filter(m=>m.parent_id===id).forEach(m=>marca(m.id))};
+    marca(excluir);
+  }
+  const add=(m,nivel)=>{
+    if(!proibidos.has(m.id))select.append(el("option",{value:m.id,textContent:"  ".repeat(nivel)+m.nome+(m.secreto?" 🔒":"")}));
+    mapas.filter(f=>f.parent_id===m.id).forEach(f=>add(f,nivel+1));
+  };
+  mapas.filter(m=>!m.parent_id||!porId(m.parent_id)).forEach(m=>add(m,0));
+}
+
+function abrirMapDlg(m){
+  editingMap=m;
+  $('#mapDlgTitle').textContent=m?"Editar mapa":"Novo mapa";
+  opcoesMapas($('#mParent'),{vazio:"— Nenhum (topo) —",excluir:m?.id});
+  $('#mNome').value=m?.nome||"";
+  $('#mTipo').value=m?.tipo||(atual?"regiao":"continente");
+  $('#mParent').value=m?(m.parent_id||""):(atual?.id||"");
+  $('#mDesc').value=m?.descricao||"";
+  $('#mSecreto').checked=!!m?.secreto;
+  $('#mSecretoAviso').hidden=true;
+  $('#mImg').value="";
+  $('#mapError').textContent="";
+  $('#mapDelete').hidden=!m;
+  $('#mapDlg').showModal();
+  setTimeout(()=>$('#mNome').focus(),0);
+}
+
+$('#mSecreto').onchange=()=>{
+  $('#mSecretoAviso').hidden=!(editingMap&&!editingMap.secreto&&$('#mSecreto').checked);
+};
+
+function carregarImagem(file){
+  return new Promise((ok,fail)=>{
+    const url=URL.createObjectURL(file);
+    const img=new Image();
+    img.onload=()=>ok({img,url});
+    img.onerror=()=>{URL.revokeObjectURL(url);fail(new Error("Imagem inválida"))};
+    img.src=url;
+  });
+}
+
+function blobParaBase64(blob){
+  return new Promise((ok,fail)=>{
+    const r=new FileReader();
+    r.onload=()=>ok(String(r.result).split(",")[1]);
+    r.onerror=()=>fail(r.error);
+    r.readAsDataURL(blob);
+  });
+}
+
+// prepara a imagem para envio; arquivos grandes são recomprimidos em WEBP
+async function prepararImagem(file){
+  const {img,url}=await carregarImagem(file);
+  try{
+    const largura=img.naturalWidth,altura=img.naturalHeight;
+    let blob=file,ext=(file.name.split(".").pop()||"").toLowerCase();
+    if(ext==="jpeg")ext="jpg";
+    if(file.size>MAX_ENVIO){
+      const c=document.createElement("canvas");
+      c.width=largura;c.height=altura;
+      c.getContext("2d").drawImage(img,0,0);
+      for(const q of [.9,.8,.7,.6]){
+        blob=await new Promise(r=>c.toBlob(r,"image/webp",q));
+        if(blob&&blob.size<=MAX_ENVIO)break;
+      }
+      if(!blob||blob.size>MAX_ENVIO)throw new Error("A imagem é grande demais mesmo comprimida. Reduza a resolução e tente de novo.");
+      ext="webp";
+    }
+    return{base64:await blobParaBase64(blob),ext,largura,altura};
+  }finally{
+    URL.revokeObjectURL(url);
+  }
+}
+
+async function salvarMapa(){
+  const nome=$('#mNome').value.trim();
+  if(!nome){$('#mapError').textContent="Dê um nome ao mapa.";return}
+  const file=$('#mImg').files[0];
+  const mapa={
+    id:editingMap?.id,
+    nome,
+    tipo:$('#mTipo').value,
+    parent_id:$('#mParent').value||null,
+    descricao:$('#mDesc').value.trim(),
+    ordem:editingMap?.ordem
+  };
+  $('#mapSave').disabled=true;
+  try{
+    let imagem=null;
+    if(file){
+      $('#mapError').textContent="Preparando imagem…";
+      imagem=await prepararImagem(file);
+    }
+    $('#mapError').textContent=imagem?"Enviando imagem para o GitHub… (pode levar alguns segundos)":"Salvando…";
+    const r=await api("salvarMapa",{mapa,secreto:$('#mSecreto').checked,imagem});
+    $('#mapDlg').close();
+    await carregarDados();
+    await abrirMapa(r.mapa.id,{manterVista:!!editingMap&&!file});
+    toast(editingMap?"Mapa atualizado":"Mapa criado");
+  }catch(e){
+    console.error(e);
+    $('#mapError').textContent="Não foi possível salvar: "+e.message;
+  }finally{
+    $('#mapSave').disabled=false;
+  }
+}
+
+async function apagarMapa(){
+  const m=editingMap;
+  const nFilhos=mapas.filter(f=>f.parent_id===m.id).length;
+  const ok=await confirmar(`Apagar “${m.nome}”?`,
+    `Todos os marcadores deste mapa serão apagados junto com a imagem.`+
+    (nFilhos?` Os ${nFilhos} submapa(s) não serão apagados: eles sobem para o topo da lista.`:"")+
+    " Dá para recuperar pelo histórico do GitHub, mas não por aqui.");
+  if(!ok)return;
+  $('#mapError').textContent="Apagando…";
+  try{
+    await api("apagarMapa",{id:m.id});
+  }catch(e){
+    $('#mapError').textContent="Não foi possível apagar: "+e.message;
+    return;
+  }
+  $('#mapDlg').close();
+  if(atual?.id===m.id)fecharMapa();
+  await carregarDados();
+  toast("Mapa apagado");
+}
+
+function fecharMapa(){
+  atual=null;
+  marcadores=[];
+  if(imageLayer){map.removeLayer(imageLayer);imageLayer=null}
+  markerLayer.clearLayers();
+  history.replaceState(null,"",location.pathname);
+  $('#placeholder').hidden=false;
+  $('#placeholder h2').textContent="Nenhum mapa selecionado";
+  $('#placeholderText').textContent="Escolha um continente ou país na lista.";
+  renderCrumbs();
+  atualizarUi();
+}
+
+/* diálogo: marcador */
+function abrirPinDlg(p,pos){
+  editingPin=p||pos;
+  $('#pinDlgTitle').textContent=p?"Editar marcador":"Novo marcador";
+  const cat=$('#pCat');
+  cat.replaceChildren(...CATEGORIAS.map(c=>el("option",{value:c.id,textContent:`${c.icon} ${c.nome}`})));
+  opcoesMapas($('#pLink'),{vazio:"— Nenhum —"});
+  $('#pNome').value=p?.nome||"";
+  cat.value=p?.categoria||"local";
+  $('#pLink').value=p?.link_mapa_id||"";
+  $('#pDesc').value=p?.descricao||"";
+  // em mapa secreto todo marcador é secreto
+  $('#pSecreto').checked=!!p?.secreto||!!atual?.secreto;
+  $('#pSecreto').disabled=!!atual?.secreto;
+  $('#pSecretoTxt').textContent=atual?.secreto
+    ?"Secreto (o mapa inteiro é secreto)"
+    :"Secreto (só o mestre e quem criou veem)";
+  $('#pinError').textContent="";
+  $('#pinDelete').hidden=!p;
+  $('#pinDlg').showModal();
+  setTimeout(()=>$('#pNome').focus(),0);
+}
+
+async function salvarPin(){
+  const nome=$('#pNome').value.trim();
+  if(!nome){$('#pinError').textContent="Dê um nome ao marcador.";return}
+  const marcador={
+    id:editingPin.id,
+    mapa_id:atual.id,
+    nome,
+    categoria:$('#pCat').value,
+    link_mapa_id:$('#pLink').value||null,
+    descricao:$('#pDesc').value.trim(),
+    x:editingPin.x,
+    y:editingPin.y
+  };
+  $('#pinSave').disabled=true;
+  $('#pinError').textContent="Salvando…";
+  try{
+    const r=await api("salvarMarcador",{marcador,secreto:$('#pSecreto').checked});
+    todosMarcadores=[...todosMarcadores.filter(p=>p.id!==r.marcador.id),r.marcador];
+  }catch(e){
+    console.error(e);
+    $('#pinError').textContent="Não foi possível salvar: "+e.message;
+    return;
+  }finally{
+    $('#pinSave').disabled=false;
+  }
+  $('#pinDlg').close();
+  filtrarMarcadores();
+  toast("Marcador salvo");
+}
+
+async function apagarPin(){
+  const p=editingPin;
+  const ok=await confirmar(`Apagar “${p.nome}”?`,"O marcador será removido do mapa.");
+  if(!ok)return;
+  $('#pinError').textContent="Apagando…";
+  try{
+    await api("apagarMarcador",{id:p.id});
+  }catch(e){
+    $('#pinError').textContent="Não foi possível apagar: "+e.message;
+    return;
+  }
+  todosMarcadores=todosMarcadores.filter(x=>x.id!==p.id);
+  $('#pinDlg').close();
+  filtrarMarcadores();
+  toast("Marcador apagado");
+}
+
+/* confirmação */
+function confirmar(titulo,texto){
+  return new Promise(ok=>{
+    $('#confirmTitle').textContent=titulo;
+    $('#confirmText').textContent=texto;
+    const dlg=$('#confirmDlg');
+    const fim=v=>{dlg.close();ok(v)};
+    $('#confirmYes').onclick=()=>fim(true);
+    $('#confirmNo').onclick=()=>fim(false);
+    dlg.oncancel=()=>ok(false);
+    dlg.showModal();
+  });
+}
+
+/* login / sessão */
+function loginEmailFromUsername(raw){
+  const u=String(raw||"").trim().toLowerCase();
+  if(!u)return"";
+  if(u.includes("@"))return u;
+  if(u==="h")return"h@mestre.rpg";
+  if(u==="matheus"||u==="mestre")return MASTER_EMAIL;
+  return`${u}@players.rpg`;
+}
+
+async function submitLogin(){
+  const email=loginEmailFromUsername($('#loginUser').value);
+  const password=$('#loginPassword').value;
+  if(!email||!password){$('#loginError').textContent="Preencha usuário e senha.";return}
+  $('#loginError').textContent="Entrando…";
+  const {data,error}=await sb.auth.signInWithPassword({email,password});
+  if(error){console.error(error);$('#loginError').textContent="Usuário ou senha inválidos.";return}
+  currentUser=data.user;
+  $('#loginDlg').close();
+  await recarregarTudo();
+}
+
+async function recarregarTudo(){
+  const id=atual?.id||new URLSearchParams(location.hash.slice(1)).get("mapa");
+  await carregarDados();
+  atualizarUi();
+  if(id&&porId(id))await abrirMapa(id,{manterVista:true});
+  else if(atual)fecharMapa();
+}
+
+/* eventos */
+$('#loginBtn').onclick=()=>{
+  $('#loginError').textContent="";
+  $('#loginUser').value="";
+  $('#loginPassword').value="";
+  $('#loginDlg').showModal();
+  setTimeout(()=>$('#loginUser').focus(),0);
+};
+$('#loginCancel').onclick=()=>$('#loginDlg').close();
+$('#loginSubmit').onclick=submitLogin;
+$('#loginPassword').addEventListener("keydown",e=>{if(e.key==="Enter")submitLogin()});
+$('#logoutBtn').onclick=async()=>{
+  await sb.auth.signOut();
+  currentUser=null;
+  setEditMode(false);
+  urlsSecretas.forEach(u=>URL.revokeObjectURL(u));
+  urlsSecretas.clear();
+  await recarregarTudo();
+};
+
+$('#toggleSide').onclick=()=>{$('#side').classList.toggle("closed");setTimeout(()=>map.invalidateSize(),260)};
+$('#search').oninput=renderLista;
+$('#newMapBtn').onclick=()=>abrirMapDlg(null);
+$('#editMapBtn').onclick=()=>abrirMapDlg(atual);
+$('#editModeBtn').onclick=()=>setEditMode(!editMode);
+$('#filterBtn').onclick=()=>{$('#filterBox').hidden=!$('#filterBox').hidden};
+
+$('#mapCancel').onclick=()=>$('#mapDlg').close();
+$('#mapSave').onclick=salvarMapa;
+$('#mapDelete').onclick=apagarMapa;
+$('#pinCancel').onclick=()=>$('#pinDlg').close();
+$('#pinSave').onclick=salvarPin;
+$('#pinDelete').onclick=apagarPin;
+$('#pNome').addEventListener("keydown",e=>{if(e.key==="Enter")salvarPin()});
+
+addEventListener("keydown",e=>{
+  if(e.key==="Escape"&&editMode&&!document.querySelector("dialog[open]"))setEditMode(false);
+});
+
+/* início */
+(async()=>{
+  if(innerWidth<=760)$('#side').classList.add("closed");
+  const {data:{session}}=await sb.auth.getSession();
+  currentUser=session?.user||null;
+  await recarregarTudo();
+})();
+</script>
+</body>
+</html>
