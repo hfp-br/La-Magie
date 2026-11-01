@@ -5065,6 +5065,7 @@ let conteudo = {
     spellcasting: {
     enabled: false,
     usesSlots: false,
+    dcFormula: "legacy",
     slotsByLevel: {},
 
     currentSlots: [
@@ -6161,6 +6162,8 @@ spellcasting:
                     dados.spellcasting
                         .usesSlots
                 ),
+
+            dcFormula: dados.spellcasting.dcFormula === "t20" ? "t20" : "legacy",
 
             slotsByLevel:
     (
