@@ -7,6 +7,14 @@ window.CondicoesEfeitos = (() => {
   };
   const ATRIBUTOS = { str: "FOR", dex: "DES", con: "CON", int: "INT", wis: "SAB", cha: "CAR" };
   const PERICIAS = ["Acrobacia", "Adestramento", "Atletismo", "Atuação", "Cavalgar", "Conhecimento", "Cura", "Diplomacia", "Enganação", "Fortitude", "Furtividade", "Guerra", "Iniciativa", "Intimidação", "Intuição", "Investigação", "Jogatina", "Ladinagem", "Luta", "Misticismo", "Nobreza", "Ofício", "Percepção", "Pilotagem", "Pontaria", "Reflexos", "Religião", "Sobrevivência", "Vontade"];
+  const FISICAS = ["Acrobacia", "Atletismo", "Cavalgar", "Fortitude", "Furtividade", "Iniciativa", "Ladinagem", "Luta", "Pilotagem", "Pontaria", "Reflexos"];
+  const MENTAIS = PERICIAS.filter(p => !FISICAS.includes(p));
+  const GRUPOS = {
+    "grupo:todas": { nome: "Todas as perícias", skills: PERICIAS },
+    "grupo:fisicas": { nome: "Perícias de FOR, DES e CON", skills: FISICAS },
+    "grupo:mentais": { nome: "Perícias de INT, SAB e CAR", skills: MENTAIS }
+  };
+  const grupoDe = skills => Object.keys(GRUPOS).find(g => GRUPOS[g].skills.length === skills?.length && GRUPOS[g].skills.every(p => skills.includes(p)));
   const numero = valor => Number.isFinite(Number(valor)) ? Number(valor) : 0;
   const sinal = valor => `${valor >= 0 ? "+" : ""}${valor}`;
 
@@ -15,6 +23,10 @@ window.CondicoesEfeitos = (() => {
     return (Array.isArray(lista) ? lista : []).slice(0, 20).flatMap(bruto => {
       const type = bruto?.type;
       if (!Object.hasOwn(TIPOS, type)) return [];
+      if (type === "skill" && Array.isArray(bruto.skills)) {
+        const skills = bruto.skills.filter(p => PERICIAS.includes(p));
+        return skills.length ? [{ type, skills, bonus: numero(bruto.bonus) }] : [];
+      }
       if (type === "skill") return [{ type, skill: PERICIAS.includes(bruto.skill) ? bruto.skill : "Iniciativa", bonus: numero(bruto.bonus) }];
       if (type === "attribute") return [{ type, stat: Object.hasOwn(ATRIBUTOS, bruto.stat) ? bruto.stat : "str", bonus: numero(bruto.bonus) }];
       if (type === "spell") return [{ type, dcBonus: numero(bruto.dcBonus), attackBonus: numero(bruto.attackBonus) }];
@@ -27,6 +39,7 @@ window.CondicoesEfeitos = (() => {
   }
 
   function descrever(efeito) {
+    if (efeito.skills) return `${GRUPOS[grupoDe(efeito.skills)]?.nome ?? efeito.skills.join(", ")} ${sinal(efeito.bonus)}`;
     if (efeito.type === "skill") return `${efeito.skill} ${sinal(efeito.bonus)}`;
     if (efeito.type === "attribute") return `${ATRIBUTOS[efeito.stat]} ${sinal(efeito.bonus)}`;
     if (efeito.type === "spell") return `CD ${sinal(efeito.dcBonus)}, ataque mágico ${sinal(efeito.attackBonus)}`;
@@ -86,9 +99,12 @@ window.CondicoesEfeitos = (() => {
         campos.replaceChildren();
         const t = atual.type;
         if (t === "skill") {
-          const skill = seletor(PERICIAS.map(p => [p, p]), atual.skill), bonus = entrada(atual.bonus ?? 0);
+          const opcoes = [...Object.entries(GRUPOS).map(([g, v]) => [g, v.nome]), ...PERICIAS.map(p => [p, p])];
+          const skill = seletor(opcoes, atual.skills ? grupoDe(atual.skills) ?? "grupo:todas" : atual.skill), bonus = entrada(atual.bonus ?? 0);
           campos.append(campo("Perícia", skill), campo("Bônus", bonus));
-          ler = () => ({ type: t, skill: skill.value, bonus: bonus.value });
+          ler = () => GRUPOS[skill.value]
+            ? { type: t, skills: GRUPOS[skill.value].skills, bonus: bonus.value }
+            : { type: t, skill: skill.value, bonus: bonus.value };
         } else if (t === "attribute") {
           const stat = seletor(Object.entries(ATRIBUTOS), atual.stat), bonus = entrada(atual.bonus ?? 0);
           campos.append(campo("Atributo", stat), campo("Bônus", bonus));
