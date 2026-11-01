@@ -17537,7 +17537,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const hint = document.getElementById("spellCDFormulaHint");
         if (hint) hint.textContent = selector.value === "t20"
             ? "CD = 10 + metade do nível (arredondada para baixo) + atributo + efeitos."
-            : "CD antiga preservada = 8 + proficiência + atributo + efeitos.";
+            : "";
     };
     selector.addEventListener("change", () => {
         conteudo.spellcasting ||= {};
