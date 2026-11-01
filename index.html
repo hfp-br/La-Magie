@@ -4468,6 +4468,13 @@ body.editing
 >
 
   <div class="section-title">Conjuração</div>
+  <label class="spell-cd-formula-control edit-only">Fórmula da CD:
+    <select id="spellDCFormula" aria-label="Fórmula da CD de conjuração">
+      <option value="legacy">Clássica: 8 + proficiência + atributo</option>
+      <option value="t20">T20: 10 + metade do nível + atributo</option>
+    </select>
+  </label>
+  <small id="spellCDFormulaHint" class="spell-cd-formula-hint"></small>
 
       <div class="grid-3">
 
@@ -9851,6 +9858,19 @@ function instalarOrdenacaoAtaque(element, container) {
     });
 }
 
+function calcularCDAtaque(attack) {
+    const modo = attack.conditionDCMode || "none";
+    if (modo === "none") return null;
+    if (modo === "manual") {
+        const valor = Number(attack.conditionDCValue);
+        return attack.conditionDCValue !== "" && attack.conditionDCValue != null && Number.isFinite(valor) ? valor : null;
+    }
+    const mods = getMods();
+    const nivel = Math.max(1, num("level"));
+    const mod = Number(mods[attack.conditionDCStat || attack.stat || "str"] || 0);
+    return 10 + Math.floor(nivel / 2) + mod + Number(attack.conditionDCBonus || 0);
+}
+
 function renderizarAtaques() {
 
     sincronizarAtaquesDeItensInventario();
@@ -9950,6 +9970,23 @@ function renderizarAtaques() {
                 <div
                     class="attack-editor-options attack-effect-options"
                 ></div>
+                <div class="attack-condition-edit">
+                  <label>Condição aplicada <input class="attack-edit-condition" type="text" placeholder="Ex.: Envenenado"></label>
+                  <label>Resistência <select class="attack-edit-save">
+                    <option value="">Sem resistência</option><option value="str">FOR</option><option value="dex">DES</option>
+                    <option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option>
+                  </select></label>
+                  <label>CD <select class="attack-edit-dc-mode">
+                    <option value="none">Sem CD</option><option value="auto">Automática (T20)</option><option value="manual">Manual</option>
+                  </select></label>
+                  <label>Atributo da CD <select class="attack-edit-dc-stat">
+                    <option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option>
+                    <option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option>
+                  </select></label>
+                  <label>CD manual <input class="attack-edit-dc-value" type="number" placeholder="Ex.: 17"></label>
+                  <label>Modificador da CD <input class="attack-edit-dc-bonus" type="number" step="1" placeholder="0"></label>
+                  <label class="attack-condition-notes">Regras / duração <textarea class="attack-edit-condition-notes" rows="2" placeholder="Ex.: falha: envenenado por 1 minuto"></textarea></label>
+                </div>
             `;
 
 
@@ -10125,6 +10162,40 @@ getAttackEffectDefinitions()
             threat.value = Number(attack.critMargin ?? 20);
             crit.value = Number(attack.critMultiplier ?? 2);
 
+
+            const condControls = {
+                condition: element.querySelector(".attack-edit-condition"),
+                save: element.querySelector(".attack-edit-save"),
+                mode: element.querySelector(".attack-edit-dc-mode"),
+                stat: element.querySelector(".attack-edit-dc-stat"),
+                value: element.querySelector(".attack-edit-dc-value"),
+                bonus: element.querySelector(".attack-edit-dc-bonus"),
+                notes: element.querySelector(".attack-edit-condition-notes")
+            };
+            condControls.condition.value = attack.conditionName || "";
+            condControls.save.value = attack.conditionSave || "";
+            condControls.mode.value = attack.conditionDCMode || "none";
+            condControls.stat.value = attack.conditionDCStat || attack.stat || "str";
+            condControls.value.value = attack.conditionDCValue ?? "";
+            condControls.bonus.value = attack.conditionDCBonus ?? 0;
+            condControls.notes.value = attack.conditionNotes || "";
+            const atualizarCamposCondicao = () => {
+                condControls.value.disabled = condControls.mode.value !== "manual";
+                condControls.stat.disabled = condControls.mode.value !== "auto";
+                condControls.bonus.disabled = condControls.mode.value !== "auto";
+            };
+            atualizarCamposCondicao();
+            const condKeys = {
+                condition:"conditionName",save:"conditionSave",mode:"conditionDCMode",
+                stat:"conditionDCStat",value:"conditionDCValue",bonus:"conditionDCBonus",notes:"conditionNotes"
+            };
+            Object.entries(condControls).forEach(([key, input]) => {
+                input.addEventListener(key === "mode" || key === "stat" || key === "save" ? "change" : "input", () => {
+                    attack[condKeys[key]] = key === "value" || key === "bonus" ? (input.value === "" ? "" : Number(input.value)) : input.value;
+                    atualizarCamposCondicao();
+                    agendarSalvamentoConteudo();
+                });
+            });
 
             if (attack.sourceItemId) {
                 excluir.disabled = true;
@@ -10326,7 +10397,19 @@ getAttackEffectDefinitions()
                 .textContent =
                 attack.type || "—";
 
-            const critEl = element.querySelector(".attack-critical");
+            if (attack.conditionName || attack.conditionNotes || attack.conditionDCMode && attack.conditionDCMode !== "none") {
+                const conditionLine = document.createElement("div");
+                conditionLine.className = "attack-condition-view";
+                const cd = calcularCDAtaque(attack);
+                const fragments = [];
+                if (attack.conditionName) fragments.push("Condição: " + attack.conditionName);
+                if (attack.conditionSave) fragments.push("Resistência: " + attack.conditionSave.toUpperCase());
+                if (cd !== null) fragments.push("CD " + cd);
+                if (attack.conditionNotes) fragments.push(attack.conditionNotes);
+                conditionLine.textContent = fragments.join(" • ");
+                element.appendChild(conditionLine);
+            }
+                        const critEl = element.querySelector(".attack-critical");
             if (critEl) {
                 const margem = Number(attack.critMargin ?? 20);
                 const multi = Number(attack.critMultiplier ?? 2);
@@ -11491,9 +11574,8 @@ function formatarTextoMagia(texto) {
 
 
     const spellDC =
-        8 +
+        (conteudo.spellcasting?.dcFormula === "t20" ? 10 + Math.floor(level / 2) : 8 + pb) +
         spellMod +
-        pb +
         spellEffects.dc;
 
 
@@ -14212,9 +14294,8 @@ document
 
 
 const spellDC =
-    8 +
+    (conteudo.spellcasting?.dcFormula === "t20" ? 10 + Math.floor(level / 2) : 8 + pb) +
     spellMod +
-    pb +
     spellEffects.dc;
 
 
@@ -17448,6 +17529,30 @@ function configurarCompendioInventario() {
 }
 
 document.addEventListener("DOMContentLoaded", configurarCompendioInventario);
+document.addEventListener("DOMContentLoaded", () => {
+    const selector = document.getElementById("spellDCFormula");
+    if (!selector) return;
+    const atualizar = () => {
+        selector.value = conteudo.spellcasting?.dcFormula === "t20" ? "t20" : "legacy";
+        const hint = document.getElementById("spellCDFormulaHint");
+        if (hint) hint.textContent = selector.value === "t20"
+            ? "CD = 10 + metade do nível (arredondada para baixo) + atributo + efeitos."
+            : "CD antiga preservada = 8 + proficiência + atributo + efeitos.";
+    };
+    selector.addEventListener("change", () => {
+        conteudo.spellcasting ||= {};
+        conteudo.spellcasting.dcFormula = selector.value;
+        atualizar();
+        updateSheet();
+        agendarSalvamentoConteudo();
+    });
+    atualizar();
+    document.getElementById("editModeToggle")?.addEventListener("change", atualizar);
+    // fichas antigas continuam na fórmula anterior até o jogador selecionar a nova.
+    document.addEventListener("click", event => {
+        if (event.target?.id === "spellcastingSection") atualizar();
+    });
+});
 
 
 
@@ -20961,5 +21066,16 @@ body.editing .inventory-compact-row{display:none!important}
     #attacks .attack-drag-handle, #attacks > .attack-dragging { transition: none; }
     #attacks > .attack-drop-placeholder { animation: none; }
 }
+
+/* Campos de condição e CD opcionais em ataques */
+.attack-condition-edit{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:8px;padding:12px;border:1px solid var(--sand-3);border-radius:8px}
+.attack-condition-edit label{display:grid;gap:5px;font-size:11px;color:var(--muted)}
+.attack-condition-edit input,.attack-condition-edit select,.attack-condition-edit textarea{width:100%;min-width:0;padding:7px;border:1px solid var(--sand-3);border-radius:5px;background:var(--panel);color:var(--ink)}
+.attack-condition-edit .attack-condition-notes{grid-column:1/-1}
+.attack-condition-view{grid-column:1/-1;padding:8px 10px;border-top:1px solid var(--sand-3);font-size:12px;color:var(--ink);white-space:pre-wrap}
+.spell-cd-formula-control{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;margin:8px 0}
+.spell-cd-formula-control select{max-width:100%;padding:7px;border:1px solid var(--sand-3);border-radius:6px;background:var(--panel);color:var(--ink)}
+.spell-cd-formula-hint{display:block;color:var(--muted);margin:4px 0 10px}
+@media(max-width:700px){.attack-condition-edit{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 
