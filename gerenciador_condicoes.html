@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerenciador de Condições — La Magie</title>
+<link rel="stylesheet" href="condicoes.css">
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Gerenciador de Condições</h1>
+    <div class="actions">
+      <a class="btn" href="condicoes.html">Compêndio</a>
+      <button class="btn" id="sairBtn" hidden>Sair</button>
+    </div>
+  </header>
+  <p id="status" role="status"></p>
+
+  <section class="panel" id="loginPanel" hidden>
+    <h2>Acesso do Mestre</h2>
+    <form id="loginForm">
+      <input id="usuario" autocomplete="username" placeholder="Usuário" required>
+      <input id="senha" type="password" autocomplete="current-password" placeholder="Senha" required>
+      <button class="btn primary">Entrar</button>
+      <p class="erro" id="loginErro"></p>
+    </form>
+  </section>
+
+  <div id="conteudoMestre" hidden>
+    <section class="panel">
+      <h2>Envios pendentes</h2>
+      <div id="pendentes"></div>
+    </section>
+    <section class="panel">
+      <h2>No gerenciador</h2>
+      <div id="noGerenciador"></div>
+    </section>
+    <section class="panel">
+      <h2>Adicionar do compêndio</h2>
+      <label>Buscar <input id="busca" type="search" placeholder="Nome ou descrição"></label>
+      <div id="disponiveis"></div>
+    </section>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="condicoes-comum.js"></script>
+<script>
+let condicoes = [];
+
+const texto = (c, tags = "") => `<div class="row-text"><strong>${esc(c.nome)}</strong>${tags}<p>${esc(c.descricao)}</p></div>`;
+
+function renderizar() {
+  const pendentes = condicoes.filter(c => c.status === "pendente");
+  $("pendentes").innerHTML = pendentes.length ? pendentes.map(c => `
+    <div class="row">
+      <div class="row-text"><strong>${esc(c.enviado_por_nome || "Alguém")}</strong> tentou enviar <strong>${esc(c.nome)}</strong><p>${esc(c.descricao)}</p></div>
+      <div class="actions">
+        <button class="btn good" data-acao="aprovar" data-id="${esc(c.id)}">Aprovar</button>
+        <button class="btn danger" data-acao="recusar" data-id="${esc(c.id)}">Recusar</button>
+      </div>
+    </div>`).join("") : `<p class="empty">Nenhum envio pendente.</p>`;
+
+  const ativas = condicoes.filter(c => c.no_gerenciador);
+  $("noGerenciador").innerHTML = ativas.length ? ativas.map(c => {
+    const origem = c.origem === "jogador" ? `<span class="tag src">Enviada por ${esc(c.enviado_por_nome || "jogador")}</span>` : "";
+    const estado = c.liberada ? `<span class="tag on">Ativada nas fichas</span>` : `<span class="tag off">Desativada nas fichas</span>`;
+    return `<div class="row">
+      ${texto(c, estado + origem)}
+      <div class="actions">
+        <button class="btn" data-acao="${c.liberada ? "desativar" : "ativar"}" data-id="${esc(c.id)}">${c.liberada ? "Desativar" : "Ativar"}</button>
+        <button class="btn danger" data-acao="remover" data-id="${esc(c.id)}">Remover</button>
+      </div>
+    </div>`;
+  }).join("") : `<p class="empty">Nenhuma condição no gerenciador. Adicione abaixo.</p>`;
+
+  const busca = $("busca").value.trim().toLowerCase();
+  const fora = condicoes.filter(c => c.origem === "compendio" && !c.no_gerenciador && `${c.nome} ${c.descricao}`.toLowerCase().includes(busca));
+  $("disponiveis").innerHTML = fora.length ? fora.map(c => `
+    <div class="row">
+      ${texto(c)}
+      <div class="actions"><button class="btn primary" data-acao="adicionar" data-id="${esc(c.id)}">Adicionar</button></div>
+    </div>`).join("") : `<p class="empty">Nada para adicionar.</p>`;
+}
+
+async function carregar() {
+  const { data, error } = await sb.from("condicoes").select("*").neq("status", "recusada");
+  if (error) { console.error(error); mostrarStatus("Não foi possível carregar as condições.", true); return; }
+  condicoes = data.sort(ordenarPorNome);
+  renderizar();
+}
+
+const ACOES = {
+  aprovar: { dados: { status: "aprovada", no_gerenciador: true, liberada: true }, msg: "aprovada e ativada nas fichas" },
+  recusar: { dados: { status: "recusada" }, msg: "recusada" },
+  ativar: { dados: { liberada: true }, msg: "ativada nas fichas" },
+  desativar: { dados: { liberada: false }, msg: "desativada nas fichas" },
+  adicionar: { dados: { no_gerenciador: true, liberada: true }, msg: "adicionada e ativada nas fichas" }
+};
+
+async function remover(condicao) {
+  const jogador = condicao.origem === "jogador";
+  const aviso = jogador
+    ? `Tem certeza que quer remover “${condicao.nome}”? Ela será apagada e o jogador precisará enviá-la de novo. As fichas que já a usam mantêm a própria cópia.`
+    : `Tem certeza que quer remover “${condicao.nome}” do gerenciador? Ela continua no compêndio. As fichas que já a usam mantêm a própria cópia.`;
+  if (!confirm(aviso)) return null;
+  const consulta = sb.from("condicoes");
+  return jogador
+    ? consulta.delete().eq("id", condicao.id)
+    : consulta.update({ no_gerenciador: false, liberada: false }).eq("id", condicao.id);
+}
+
+$("conteudoMestre").onclick = async event => {
+  const { acao, id } = event.target.dataset;
+  if (!acao) return;
+  const condicao = condicoes.find(c => c.id === id);
+  if (!condicao) return;
+  event.target.disabled = true;
+  let resultado, mensagem;
+  if (acao === "remover") {
+    resultado = await remover(condicao);
+    mensagem = "removida";
+    if (!resultado) { event.target.disabled = false; return; }
+  } else {
+    resultado = await sb.from("condicoes").update(ACOES[acao].dados).eq("id", id);
+    mensagem = ACOES[acao].msg;
+  }
+  if (resultado.error) { console.error(resultado.error); mostrarStatus(`Não foi possível alterar “${condicao.nome}”.`, true); }
+  else mostrarStatus(`“${condicao.nome}” ${mensagem}.`);
+  await carregar();
+};
+
+$("busca").oninput = renderizar;
+
+function mostrarAcesso(admin) {
+  $("loginPanel").hidden = admin;
+  $("conteudoMestre").hidden = !admin;
+  $("sairBtn").hidden = !admin;
+}
+
+$("loginForm").onsubmit = async event => {
+  event.preventDefault();
+  $("loginErro").textContent = "";
+  try {
+    await entrar($("usuario").value, $("senha").value);
+    $("senha").value = "";
+    mostrarAcesso(true);
+    await carregar();
+    ouvirAlteracoes("condicoes-gerenciador", carregar);
+  } catch (erro) { $("loginErro").textContent = erro.message; }
+};
+
+$("sairBtn").onclick = async () => { await sb.auth.signOut(); location.reload(); };
+
+(async () => {
+  const admin = await usuarioEhAdmin();
+  mostrarAcesso(admin);
+  if (!admin) return;
+  await carregar();
+  ouvirAlteracoes("condicoes-gerenciador", carregar);
+})();
+</script>
+</body>
+</html>

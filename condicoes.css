@@ -1,0 +1,30 @@
+:root{--paper:#f6edd7;--ink:#322619;--muted:#7d684d;--line:rgba(104,75,43,.35);--accent:#705233;--green:#546547;--red:#8f493d;--gold:#aa7735;--panel:rgba(255,250,237,.82)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;min-height:100vh;padding:24px 16px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;background:linear-gradient(160deg,#dcc28d,#b8955f) fixed}
+.page{max-width:900px;margin:0 auto}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+h1{margin:0;font-size:30px}
+h2{margin:0 0 12px;font-size:18px;text-transform:uppercase;letter-spacing:.06em}
+a{color:var(--accent)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+.row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:10px;padding:12px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row-text{flex:1 1 280px;min-width:0;overflow-wrap:anywhere}
+.row-text p{margin:5px 0 0;color:var(--muted);white-space:pre-wrap}
+.actions{display:flex;flex-wrap:wrap;gap:7px}
+.btn{min-height:38px;padding:7px 13px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn:disabled{opacity:.6;cursor:wait}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.danger{color:var(--red);border-color:var(--red)}
+.btn.good{color:var(--green);border-color:var(--green)}
+input,textarea{width:100%;min-height:38px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.55);color:var(--ink);font:inherit}
+form{display:grid;gap:10px}
+label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.tag{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;border:1px solid currentColor;font-size:11px;vertical-align:middle}
+.tag.on{color:var(--green)}.tag.off{color:var(--red)}.tag.src{color:var(--gold)}
+.empty{margin:0;color:var(--muted)}
+#status{min-height:20px;margin:0 0 12px;color:var(--muted)}
+#status.erro,.erro{color:var(--red)}
+.erro{margin:0}

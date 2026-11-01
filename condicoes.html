@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Condições — La Magie</title>
+<link rel="stylesheet" href="condicoes.css">
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>Compêndio de Condições</h1>
+    <div class="actions">
+      <a class="btn" href="gerenciador_condicoes.html" id="linkGerenciador" hidden>Gerenciador</a>
+      <button class="btn primary" id="novaBtn" hidden>+ Nova condição</button>
+      <button class="btn" id="acessoBtn">Entrar</button>
+    </div>
+  </header>
+  <p id="status" role="status"></p>
+
+  <section class="panel" id="loginPanel" hidden>
+    <h2>Acesso do Mestre</h2>
+    <form id="loginForm">
+      <input id="usuario" autocomplete="username" placeholder="Usuário" required>
+      <input id="senha" type="password" autocomplete="current-password" placeholder="Senha" required>
+      <button class="btn primary">Entrar</button>
+      <p class="erro" id="loginErro"></p>
+    </form>
+  </section>
+
+  <section class="panel" id="editorPanel" hidden>
+    <h2 id="editorTitulo">Nova condição</h2>
+    <form id="editorForm">
+      <label>Nome <input id="nome" maxlength="120" required></label>
+      <label>Descrição <textarea id="descricao" rows="6" maxlength="5000"></textarea></label>
+      <div class="actions">
+        <button class="btn primary">Salvar</button>
+        <button class="btn" type="button" id="cancelarBtn">Cancelar</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="panel">
+    <label>Buscar <input id="busca" type="search" placeholder="Nome ou descrição"></label>
+    <div id="lista"></div>
+  </section>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="condicoes-comum.js"></script>
+<script>
+let condicoes = [], admin = false, editandoId = null;
+
+function renderizar() {
+  $("novaBtn").hidden = !admin;
+  $("linkGerenciador").hidden = !admin;
+  $("acessoBtn").textContent = admin ? "Sair" : "Entrar";
+  const busca = $("busca").value.trim().toLowerCase();
+  const visiveis = condicoes.filter(c => `${c.nome} ${c.descricao}`.toLowerCase().includes(busca));
+  $("lista").innerHTML = visiveis.length ? visiveis.map(c => `
+    <div class="row">
+      <div class="row-text"><strong>${esc(c.nome)}</strong><p>${esc(c.descricao)}</p></div>
+      ${admin ? `<div class="actions">
+        <button class="btn" data-editar="${esc(c.id)}">Editar</button>
+        <button class="btn danger" data-excluir="${esc(c.id)}">Excluir</button>
+      </div>` : ""}
+    </div>`).join("") : `<p class="empty">Nenhuma condição encontrada.</p>`;
+}
+
+async function carregar() {
+  const { data, error } = await sb.from("condicoes").select("*").eq("origem", "compendio");
+  if (error) { console.error(error); mostrarStatus("Não foi possível carregar as condições.", true); return; }
+  condicoes = data.sort(ordenarPorNome);
+  renderizar();
+}
+
+function abrirEditor(condicao) {
+  editandoId = condicao?.id ?? null;
+  $("editorTitulo").textContent = condicao ? "Editar condição" : "Nova condição";
+  $("nome").value = condicao?.nome ?? "";
+  $("descricao").value = condicao?.descricao ?? "";
+  $("editorPanel").hidden = false;
+  $("nome").focus();
+}
+
+$("novaBtn").onclick = () => abrirEditor(null);
+$("cancelarBtn").onclick = () => { $("editorPanel").hidden = true; };
+$("busca").oninput = renderizar;
+
+$("acessoBtn").onclick = async () => {
+  if (admin) { await sb.auth.signOut(); admin = false; $("editorPanel").hidden = true; renderizar(); return; }
+  $("loginPanel").hidden = !$("loginPanel").hidden;
+};
+
+$("loginForm").onsubmit = async event => {
+  event.preventDefault();
+  $("loginErro").textContent = "";
+  try {
+    await entrar($("usuario").value, $("senha").value);
+    admin = true;
+    $("loginPanel").hidden = true;
+    $("senha").value = "";
+    renderizar();
+  } catch (erro) { $("loginErro").textContent = erro.message; }
+};
+
+$("editorForm").onsubmit = async event => {
+  event.preventDefault();
+  const dados = { nome: $("nome").value.trim(), descricao: $("descricao").value.trim() };
+  if (!dados.nome) return;
+  const { error } = editandoId
+    ? await sb.from("condicoes").update(dados).eq("id", editandoId)
+    : await sb.from("condicoes").insert({ ...dados, origem: "compendio", status: "aprovada" });
+  if (error) { console.error(error); mostrarStatus("Não foi possível salvar.", true); return; }
+  $("editorPanel").hidden = true;
+  mostrarStatus(`“${dados.nome}” salva.`);
+  await carregar();
+};
+
+$("lista").onclick = async event => {
+  const editar = event.target.dataset.editar, excluir = event.target.dataset.excluir;
+  if (editar) abrirEditor(condicoes.find(c => c.id === editar));
+  if (!excluir) return;
+  const condicao = condicoes.find(c => c.id === excluir);
+  if (!confirm(`Excluir “${condicao.nome}” do compêndio? Ela também sai do gerenciador. As fichas que já a usam mantêm a própria cópia.`)) return;
+  const { error } = await sb.from("condicoes").delete().eq("id", excluir);
+  if (error) { console.error(error); mostrarStatus("Não foi possível excluir.", true); return; }
+  mostrarStatus(`“${condicao.nome}” excluída.`);
+  await carregar();
+};
+
+(async () => {
+  admin = await usuarioEhAdmin();
+  await carregar();
+  ouvirAlteracoes("condicoes-compendio", carregar);
+})();
+</script>
+</body>
+</html>
