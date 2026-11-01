@@ -23,10 +23,16 @@
     .cond-envio summary{cursor:pointer;font-size:13px}
     .cond-envio form{display:grid;gap:8px;margin-top:8px}
     .cond-enviar-ataque{grid-column:1/-1;justify-self:start}
-    .cond-enviadas{margin-top:12px}
-    .cond-enviadas-titulo{margin:0 0 4px;font-size:13px;font-weight:bold}
-    .cond-enviada-status{margin-left:6px;font-size:11px;font-weight:normal;color:var(--muted)}
-    #condicoesPainel .cond-lixeira{min-width:36px;padding:5px}
+    #condicoesPainel .cond-envio form{margin:8px 14px 14px}
+    .cond-enviadas{margin:0 14px 14px;padding-top:12px;border-top:1px solid rgba(104,75,43,.25)}
+    .cond-enviadas-titulo{margin:0 0 8px;font-size:13px;font-weight:bold}
+    #condEnviadasLista{display:grid;gap:8px}
+    #condEnviadasLista .cond-item{padding:10px 12px;border:1px solid rgba(104,75,43,.25);border-radius:9px;background:rgba(255,255,255,.35)}
+    #condEnviadasLista .cond-topo strong{display:flex;flex-wrap:wrap;align-items:center;gap:8px;min-width:0}
+    #condEnviadasLista .cond-descricao{margin:8px 0 0}
+    #condEnviadasLista .cond-efeitos-texto{margin:6px 0 0}
+    .cond-enviada-status{padding:2px 8px;border:1px solid rgba(104,75,43,.3);border-radius:999px;font-size:11px;font-weight:normal;color:var(--muted)}
+    #condicoesPainel .cond-lixeira{display:inline-flex;align-items:center;justify-content:center;width:36px;padding:0}
     .cond-efeitos-texto{margin:4px 0;font-size:13px;color:#546547}
     .cond-efeito-linha{display:grid;grid-template-columns:minmax(110px,1fr) minmax(0,2fr) auto;align-items:end;gap:8px;padding:7px 0;border-top:1px solid rgba(104,75,43,.25)}
     .cond-efeito-linha label{display:grid;gap:3px;font-size:11px;color:var(--muted)}
