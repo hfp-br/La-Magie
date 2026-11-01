@@ -5234,6 +5234,7 @@ let conteudo = {
     spellcasting: {
         enabled: false,
         usesSlots: false,
+    dcFormula: "legacy",
         slotsByLevel: {},
         currentSlots: [
             0, 0, 0,
@@ -5406,6 +5407,7 @@ function criarConteudoPadraoNpc() {
         spellcasting: {
             enabled: false,
             usesSlots: false,
+    dcFormula: "legacy",
             slotsByLevel: {},
             currentSlots: [
                 0, 0, 0,
@@ -6768,6 +6770,8 @@ spellcasting:
                     dados.spellcasting
                         .usesSlots
                 ),
+
+            dcFormula: dados.spellcasting.dcFormula === "t20" ? "t20" : "legacy",
 
             slotsByLevel:
     (
