@@ -1,10 +1,14 @@
-// Condições na ficha. Carregado só pelo beta_index.html, depois do script principal,
+// Condições na ficha. Carregado depois do script principal,
 // cujas variáveis globais (sb, FICHA_ID, isOwner) ele usa.
 (() => {
   const estilo = document.createElement("style");
   estilo.textContent = `
     #condicoesPainel{margin:0 0 22px}
-    #condicoesPainel .cond-beta{padding:1px 7px;border:1px solid var(--sand-3);border-radius:999px;font-size:11px;letter-spacing:0;text-transform:none;color:var(--muted)}
+    #condicoesPainel .cond-alternar{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0;border:0;background:none;font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;cursor:pointer}
+    #condicoesPainel .cond-seta{display:inline-block;transition:transform .15s}
+    #condicoesPainel .cond-alternar[aria-expanded="true"] .cond-seta{transform:rotate(90deg)}
+    #condicoesPainel .cond-contagem{font-weight:normal;letter-spacing:0}
+    @media(prefers-reduced-motion:reduce){#condicoesPainel .cond-seta{transition:none}}
     #condicoesPainel select,#condicoesPainel input,#condicoesPainel textarea{width:100%;min-height:36px;padding:6px 9px;border:1px solid var(--sand-3);border-radius:7px;background:rgba(255,255,255,.42);color:var(--ink);font:inherit}
     #condicoesPainel button,.cond-enviar-ataque{min-height:36px;padding:5px 11px;border:1px solid var(--sand-3);border-radius:7px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px;cursor:pointer}
     .cond-adicionar{display:flex;gap:8px;margin-bottom:10px}
@@ -32,7 +36,14 @@
   painel.id = "condicoesPainel";
   painel.hidden = true;
   painel.innerHTML = `
-    <div class="section-title">Condições <span class="cond-beta">beta</span></div>
+    <div class="section-title">
+      <button type="button" class="cond-alternar" id="condAlternar" aria-expanded="false" aria-controls="condCorpo">
+        <span class="cond-seta" aria-hidden="true">▸</span>
+        <span>Condições</span>
+        <span class="cond-contagem" id="condContagem"></span>
+      </button>
+    </div>
+    <div id="condCorpo" hidden>
     <div class="cond-adicionar">
       <select id="condSeletor" data-gameplay="true" aria-label="Condição disponível"></select>
       <button type="button" id="condAplicar">Aplicar</button>
@@ -47,7 +58,8 @@
         <div id="condEnvioEfeitos"></div>
         <div><button>Enviar</button></div>
       </form>
-    </details>`;
+    </details>
+    </div>`;
   document.getElementById("combatToggleList").after(painel);
 
   const datalist = document.createElement("datalist");
@@ -59,6 +71,19 @@
   let todas = [], naFicha = [], fichaAtual = null, canalFicha = null;
   const disponiveis = () => todas.filter(c => c.liberada);
   const msg = texto => { el("condMsg").textContent = texto; };
+
+  // Fechado por padrão; a escolha fica neste navegador.
+  const CHAVE_ABERTO = "condicoes_painel_aberto";
+  function definirAberto(aberto) {
+    el("condCorpo").hidden = !aberto;
+    el("condAlternar").setAttribute("aria-expanded", String(aberto));
+  }
+  try { definirAberto(localStorage.getItem(CHAVE_ABERTO) === "1"); } catch { definirAberto(false); }
+  el("condAlternar").onclick = () => {
+    const aberto = el("condCorpo").hidden;
+    definirAberto(aberto);
+    try { localStorage.setItem(CHAVE_ABERTO, aberto ? "1" : "0"); } catch { /* preferência opcional */ }
+  };
 
   // Efeitos das condições aplicadas, no formato que a ficha já soma.
   // O nome vem de outro jogador e aparece em tooltips, então vai sem caracteres de HTML.
@@ -91,6 +116,9 @@
     seletor.replaceChildren(...(opcoes.length ? opcoes : [{ id: "", nome: "Nenhuma condição disponível" }]).map(c => new Option(c.nome, c.id)));
     seletor.disabled = el("condAplicar").disabled = !opcoes.length;
     datalist.replaceChildren(...disponiveis().map(c => new Option("", c.nome)));
+
+    // Efeitos seguem ativos com o painel fechado, então a contagem fica sempre à vista.
+    el("condContagem").textContent = naFicha.length ? `(${naFicha.length})` : "";
 
     const lista = el("condLista");
     lista.replaceChildren();
