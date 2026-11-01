@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Condições — La Magie</title>
+<title>Códice — La Magie</title>
 <link rel="stylesheet" href="condicoes.css">
 </head>
 <body>
 <div class="page">
   <header>
-    <h1>Compêndio de Condições</h1>
+    <h1>Códice</h1>
     <div class="actions">
       <a class="btn" href="gerenciador_condicoes.html" id="linkGerenciador" hidden>Gerenciador</a>
       <button class="btn primary" id="novaBtn" hidden>+ Nova condição</button>
@@ -125,7 +125,7 @@ $("lista").onclick = async event => {
   if (editar) abrirEditor(condicoes.find(c => c.id === editar));
   if (!excluir) return;
   const condicao = condicoes.find(c => c.id === excluir);
-  if (!confirm(`Excluir “${condicao.nome}” do compêndio? Ela também sai do gerenciador. As fichas que já a usam mantêm a própria cópia.`)) return;
+  if (!confirm(`Excluir “${condicao.nome}” do Códice? Ela também sai do gerenciador. As fichas que já a usam mantêm a própria cópia.`)) return;
   const { error } = await sb.from("condicoes").delete().eq("id", excluir);
   if (error) { console.error(error); mostrarStatus("Não foi possível excluir.", true); return; }
   mostrarStatus(`“${condicao.nome}” excluída.`);
