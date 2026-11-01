@@ -13801,6 +13801,9 @@ if (damageElement) {
 }
 
   function updateSheet() {
+    const seletorFormulaCD = document.getElementById("spellDCFormula");
+    if (seletorFormulaCD) seletorFormulaCD.value = conteudo.spellcasting?.dcFormula === "t20" ? "t20" : "legacy";
+
     const configName =
     document.getElementById(
         "configName"
