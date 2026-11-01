@@ -17535,9 +17535,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const atualizar = () => {
         selector.value = conteudo.spellcasting?.dcFormula === "t20" ? "t20" : "legacy";
         const hint = document.getElementById("spellCDFormulaHint");
-        if (hint) hint.textContent = selector.value === "t20"
-            ? "CD = 10 + metade do nível (arredondada para baixo) + atributo + efeitos."
-            : "";
+        if (hint) hint.textContent = "";
     };
     selector.addEventListener("change", () => {
         conteudo.spellcasting ||= {};
@@ -21077,5 +21075,8 @@ body.editing .inventory-compact-row{display:none!important}
 .spell-cd-formula-control select{max-width:100%;padding:7px;border:1px solid var(--sand-3);border-radius:6px;background:var(--panel);color:var(--ink)}
 .spell-cd-formula-hint{display:block;color:var(--muted);margin:4px 0 10px}
 @media(max-width:700px){.attack-condition-edit{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Respeita linhas e parágrafos digitados nas descrições das magias. */
+.spell-description { white-space: pre-wrap; overflow-wrap: anywhere; }
 </style>
 
