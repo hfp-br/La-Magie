@@ -1,7 +1,8 @@
 // Código compartilhado entre condicoes.html e gerenciador_condicoes.html.
 const SUPABASE_URL = "https://drkcfrhjgkztdtneuofr.supabase.co";
 const SUPABASE_KEY = "sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY";
-const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+// Sessão própria: sem isso, entrar como Mestre aqui troca a conta da ficha aberta no mesmo navegador.
+const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { storageKey: "la-magie-condicoes-mestre" } });
 const $ = id => document.getElementById(id);
 const esc = valor => String(valor ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[c]));
 const linhaEfeitos = c => {

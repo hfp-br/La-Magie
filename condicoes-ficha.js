@@ -181,7 +181,13 @@
     const condicao = todas.find(c => c.id === el("condSeletor").value);
     if (!condicao) return;
     const { error } = await sb.from("ficha_condicoes").insert({ ficha_id: fichaAtual, condicao_id: condicao.id, nome: condicao.nome, descricao: condicao.descricao, efeitos: CondicoesEfeitos.normalizar(condicao.efeitos) });
-    if (error) { console.error(error); msg(`Não foi possível aplicar “${condicao.nome}”.`); return; }
+    if (error) {
+      console.error(error);
+      msg(error.code === "42501"
+        ? "Este navegador entrou com outra conta depois de abrir a ficha. Recarregue a página e entre com a conta da ficha."
+        : `Não foi possível aplicar “${condicao.nome}”.`);
+      return;
+    }
     msg("");
     await carregarFicha();
   };

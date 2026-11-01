@@ -17543,13 +17543,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const hint = document.getElementById("spellCDFormulaHint");
         if (hint) hint.textContent = "";
     };
-    selector.addEventListener("change", () => {
+    // "input" em captura: precisa rodar antes do listener geral da aba, cujo updateSheet()
+    // sincroniza o seletor com conteudo e apagaria a escolha antes de ser lida.
+    selector.addEventListener("input", () => {
         conteudo.spellcasting ||= {};
         conteudo.spellcasting.dcFormula = selector.value;
         atualizar();
         updateSheet();
         agendarSalvamentoConteudo();
-    });
+    }, true);
     atualizar();
     document.getElementById("editModeToggle")?.addEventListener("change", atualizar);
     // fichas antigas continuam na fórmula anterior até o jogador selecionar a nova.
