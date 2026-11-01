@@ -23,6 +23,10 @@
     .cond-envio summary{cursor:pointer;font-size:13px}
     .cond-envio form{display:grid;gap:8px;margin-top:8px}
     .cond-enviar-ataque{grid-column:1/-1;justify-self:start}
+    .cond-enviadas{margin-top:12px}
+    .cond-enviadas-titulo{margin:0 0 4px;font-size:13px;font-weight:bold}
+    .cond-enviada-status{margin-left:6px;font-size:11px;font-weight:normal;color:var(--muted)}
+    #condicoesPainel .cond-lixeira{min-width:36px;padding:5px}
     .cond-efeitos-texto{margin:4px 0;font-size:13px;color:#546547}
     .cond-efeito-linha{display:grid;grid-template-columns:minmax(110px,1fr) minmax(0,2fr) auto;align-items:end;gap:8px;padding:7px 0;border-top:1px solid rgba(104,75,43,.25)}
     .cond-efeito-linha label{display:grid;gap:3px;font-size:11px;color:var(--muted)}
@@ -58,6 +62,10 @@
         <div id="condEnvioEfeitos"></div>
         <div><button>Enviar</button></div>
       </form>
+      <div class="cond-enviadas" id="condEnviadas" hidden>
+        <p class="cond-enviadas-titulo">Condições enviadas</p>
+        <div id="condEnviadasLista"></div>
+      </div>
     </details>
     </div>`;
   document.getElementById("combatToggleList").after(painel);
@@ -68,7 +76,7 @@
 
   const el = id => document.getElementById(id);
   const editorEnvio = CondicoesEfeitos.criarEditor(el("condEnvioEfeitos"));
-  let todas = [], naFicha = [], fichaAtual = null, canalFicha = null;
+  let todas = [], naFicha = [], enviadas = [], statusEnviadas = new Map(), fichaAtual = null, canalFicha = null;
   const disponiveis = () => todas.filter(c => c.liberada);
   const msg = texto => { el("condMsg").textContent = texto; };
 
@@ -183,6 +191,87 @@
     });
   }
 
+  // Reenviar só aparece quando a condição não está mais com o Mestre, para não duplicar.
+  function renderizarEnviadas() {
+    el("condEnviadas").hidden = !enviadas.length;
+    el("condEnviadasLista").replaceChildren(...enviadas.map(enviada => {
+      const status = statusEnviadas.get(enviada.condicao_id);
+      const item = document.createElement("div");
+      item.className = "cond-item";
+      const topo = document.createElement("div");
+      topo.className = "cond-topo";
+      const titulo = document.createElement("strong");
+      titulo.textContent = enviada.nome;
+      const rotulo = document.createElement("span");
+      rotulo.className = "cond-enviada-status";
+      rotulo.textContent = { pendente: "Aguardando o Mestre", aprovada: "Aprovada", recusada: "Recusada" }[status] ?? "Removida pelo Mestre";
+      titulo.appendChild(rotulo);
+      const acoes = document.createElement("div");
+      acoes.className = "cond-acoes";
+      if (status !== "pendente" && status !== "aprovada") {
+        const reenviar = document.createElement("button");
+        reenviar.type = "button";
+        reenviar.textContent = "Reenviar";
+        reenviar.onclick = () => reenviarCondicao(enviada, reenviar);
+        acoes.appendChild(reenviar);
+      }
+      const lixeira = document.createElement("button");
+      lixeira.type = "button";
+      lixeira.className = "cond-lixeira";
+      lixeira.textContent = "🗑";
+      lixeira.title = "Apagar da lista";
+      lixeira.setAttribute("aria-label", `Apagar ${enviada.nome} da lista`);
+      lixeira.onclick = () => apagarEnviada(enviada);
+      acoes.appendChild(lixeira);
+      topo.append(titulo, acoes);
+      item.appendChild(topo);
+      if (enviada.descricao) {
+        const descricao = document.createElement("p");
+        descricao.className = "cond-descricao";
+        descricao.textContent = enviada.descricao;
+        item.appendChild(descricao);
+      }
+      const efeitos = CondicoesEfeitos.descreverLista(enviada.efeitos);
+      if (efeitos) {
+        const linha = document.createElement("p");
+        linha.className = "cond-efeitos-texto";
+        linha.textContent = efeitos;
+        item.appendChild(linha);
+      }
+      return item;
+    }));
+  }
+
+  async function carregarEnviadas() {
+    if (!fichaAtual) return;
+    const [lista, condicoes] = await Promise.all([
+      sb.from("ficha_condicoes_enviadas").select("*").eq("ficha_id", fichaAtual),
+      sb.from("condicoes").select("id,status").eq("enviado_por", currentUser?.id ?? "")
+    ]);
+    if (lista.error || condicoes.error) { console.error(lista.error || condicoes.error); msg("Não foi possível carregar as condições enviadas."); return; }
+    enviadas = lista.data.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
+    statusEnviadas = new Map(condicoes.data.map(c => [c.id, c.status]));
+    renderizarEnviadas();
+  }
+
+  async function reenviarCondicao(enviada, botao) {
+    botao.disabled = true;
+    const condicaoId = await criarCondicao(enviada.nome, enviada.descricao, CondicoesEfeitos.normalizar(enviada.efeitos));
+    if (!condicaoId) { botao.disabled = false; msg(`Não foi possível reenviar “${enviada.nome}”.`); return; }
+    const { error } = await sb.from("ficha_condicoes_enviadas").update({ condicao_id: condicaoId }).eq("id", enviada.id);
+    if (error) console.error(error);
+    msg(`“${enviada.nome}” reenviada ao gerenciador. Aguardando aprovação do Mestre.`);
+    await carregarEnviadas();
+  }
+
+  // Só apaga a cópia desta lista: o que já está com o Mestre não muda.
+  async function apagarEnviada(enviada) {
+    if (!confirm(`Apagar “${enviada.nome}” das condições enviadas? Para enviá-la de novo, será preciso refazê-la.`)) return;
+    const { error } = await sb.from("ficha_condicoes_enviadas").delete().eq("id", enviada.id);
+    if (error) { console.error(error); msg(`Não foi possível apagar “${enviada.nome}”.`); return; }
+    await carregarEnviadas();
+  }
+
   async function alterar(id, dados) {
     const { error } = await sb.from("ficha_condicoes").update(dados).eq("id", id);
     if (error) { console.error(error); msg("Não foi possível salvar a condição."); return; }
@@ -220,9 +309,18 @@
     await carregarFicha();
   };
 
+  async function criarCondicao(nome, descricao, efeitos) {
+    const { data, error } = await sb.from("condicoes").insert({ nome, descricao, efeitos, origem: "jogador" }).select("id").single();
+    if (error) { console.error(error); return null; }
+    return data.id;
+  }
+
   async function enviar(nome, descricao, efeitos = []) {
-    const { error } = await sb.from("condicoes").insert({ nome, descricao, efeitos, origem: "jogador" });
-    if (error) { console.error(error); return false; }
+    const condicaoId = await criarCondicao(nome, descricao, efeitos);
+    if (!condicaoId) return false;
+    const { error } = await sb.from("ficha_condicoes_enviadas").insert({ ficha_id: fichaAtual, condicao_id: condicaoId, nome, descricao, efeitos });
+    if (error) console.error(error);
+    await carregarEnviadas();
     return true;
   }
 
@@ -275,16 +373,19 @@
     if (ficha === fichaAtual) return;
     fichaAtual = ficha;
     naFicha = [];
+    enviadas = [];
+    renderizarEnviadas();
     updateSheet();
     painel.hidden = !ficha;
     if (canalFicha) { sb.removeChannel(canalFicha); canalFicha = null; }
     if (!ficha) return;
     canalFicha = sb.channel(`ficha-condicoes-${ficha}`)
       .on("postgres_changes", { event: "*", schema: "public", table: "ficha_condicoes", filter: `ficha_id=eq.${ficha}` }, carregarFicha)
-      .on("postgres_changes", { event: "*", schema: "public", table: "condicoes" }, carregarLista)
+      .on("postgres_changes", { event: "*", schema: "public", table: "condicoes" }, () => { carregarLista(); carregarEnviadas(); })
       .subscribe();
     carregarLista();
     carregarFicha();
+    carregarEnviadas();
   }
   setInterval(acompanharFicha, 1000);
   acompanharFicha();
