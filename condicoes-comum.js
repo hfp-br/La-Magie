@@ -4,6 +4,10 @@ const SUPABASE_KEY = "sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY";
 const sb = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const $ = id => document.getElementById(id);
 const esc = valor => String(valor ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[c]));
+const linhaEfeitos = c => {
+  const efeitos = CondicoesEfeitos.descreverLista(c.efeitos);
+  return efeitos ? `<p class="efeitos-texto">Efeitos: ${esc(efeitos)}</p>` : "";
+};
 const ordenarPorNome = (a, b) => a.nome.localeCompare(b.nome, "pt-BR");
 
 function mostrarStatus(texto, erro = false) {

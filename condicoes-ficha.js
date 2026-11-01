@@ -19,6 +19,12 @@
     .cond-envio summary{cursor:pointer;font-size:13px}
     .cond-envio form{display:grid;gap:8px;margin-top:8px}
     .cond-enviar-ataque{grid-column:1/-1;justify-self:start}
+    .cond-efeitos-texto{margin:4px 0;font-size:13px;color:#546547}
+    .cond-efeito-linha{display:grid;grid-template-columns:minmax(110px,1fr) minmax(0,2fr) auto;align-items:end;gap:8px;padding:7px 0;border-top:1px solid rgba(104,75,43,.25)}
+    .cond-efeito-linha label{display:grid;gap:3px;font-size:11px;color:var(--muted)}
+    #condicoesPainel .cond-efeito-linha input,#condicoesPainel .cond-efeito-linha select{font-size:14px}
+    .cond-efeito-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(85px,1fr));gap:8px}
+    @media(max-width:560px){.cond-efeito-linha{grid-template-columns:1fr}}
   `;
   document.head.appendChild(estilo);
 
@@ -28,7 +34,7 @@
   painel.innerHTML = `
     <div class="section-title">Condições <span class="cond-beta">beta</span></div>
     <div class="cond-adicionar">
-      <select id="condSeletor" aria-label="Condição disponível"></select>
+      <select id="condSeletor" data-gameplay="true" aria-label="Condição disponível"></select>
       <button type="button" id="condAplicar">Aplicar</button>
     </div>
     <div id="condLista"></div>
@@ -36,8 +42,9 @@
     <details class="cond-envio">
       <summary>Enviar condição ao gerenciador</summary>
       <form id="condEnvioForm">
-        <input id="condEnvioNome" maxlength="120" placeholder="Nome da condição" required>
-        <textarea id="condEnvioDescricao" rows="3" maxlength="5000" placeholder="O que ela faz"></textarea>
+        <input id="condEnvioNome" data-gameplay="true" maxlength="120" placeholder="Nome da condição" required>
+        <textarea id="condEnvioDescricao" data-gameplay="true" rows="3" maxlength="5000" placeholder="O que ela faz"></textarea>
+        <div id="condEnvioEfeitos"></div>
         <div><button>Enviar</button></div>
       </form>
     </details>`;
@@ -48,9 +55,34 @@
   document.body.appendChild(datalist);
 
   const el = id => document.getElementById(id);
+  const editorEnvio = CondicoesEfeitos.criarEditor(el("condEnvioEfeitos"));
   let todas = [], naFicha = [], fichaAtual = null, canalFicha = null;
   const disponiveis = () => todas.filter(c => c.liberada);
   const msg = texto => { el("condMsg").textContent = texto; };
+
+  // Efeitos das condições aplicadas, no formato que a ficha já soma.
+  // O nome vem de outro jogador e aparece em tooltips, então vai sem caracteres de HTML.
+  function efeitosDasCondicoes(tipo) {
+    return naFicha.flatMap(aplicada =>
+      CondicoesEfeitos.normalizar(aplicada.efeitos)
+        .filter(efeito => efeito.type === tipo)
+        .map((efeito, i) => ({
+          ...efeito,
+          id: `condicao-${aplicada.id}-${i}`,
+          source: aplicada.nome.replace(/[<>&"']/g, ""),
+          requiresToggle: ""
+        })));
+  }
+
+  // Ataque fica de fora da coleta geral para não virar opção marcável nos ataques:
+  // uma condição vale para todos os ataques, inclusive os de armas.
+  const coletarOriginal = coletarEfeitosCaracteristicas;
+  coletarEfeitosCaracteristicas = tipo => {
+    const efeitos = coletarOriginal(tipo);
+    return tipo === "attack" ? efeitos : [...efeitos, ...efeitosDasCondicoes(tipo)];
+  };
+  const efeitosAtaqueOriginal = getAttackEffects;
+  getAttackEffects = ataque => [...efeitosAtaqueOriginal(ataque), ...efeitosDasCondicoes("attack")];
 
   function renderizar() {
     const usadas = new Set(naFicha.map(c => c.condicao_id));
@@ -84,11 +116,13 @@
       }
       const acoes = document.createElement("div");
       acoes.className = "cond-acoes";
-      if (original && (original.nome !== aplicada.nome || original.descricao !== aplicada.descricao)) {
+      const desatualizada = original && (original.nome !== aplicada.nome || original.descricao !== aplicada.descricao
+        || JSON.stringify(CondicoesEfeitos.normalizar(original.efeitos)) !== JSON.stringify(CondicoesEfeitos.normalizar(aplicada.efeitos)));
+      if (desatualizada) {
         const atualizar = document.createElement("button");
         atualizar.type = "button";
-        atualizar.textContent = "Atualizar texto";
-        atualizar.onclick = () => alterar(aplicada.id, { nome: original.nome, descricao: original.descricao });
+        atualizar.textContent = "Atualizar";
+        atualizar.onclick = () => alterar(aplicada.id, { nome: original.nome, descricao: original.descricao, efeitos: CondicoesEfeitos.normalizar(original.efeitos) });
         acoes.appendChild(atualizar);
       }
       const remover = document.createElement("button");
@@ -105,12 +139,18 @@
       descricao.className = "cond-descricao";
       descricao.textContent = aplicada.descricao;
       const notas = document.createElement("input");
+      notas.dataset.gameplay = "true";
       notas.placeholder = "Notas (ex.: 3 rodadas)";
       notas.maxLength = 2000;
       notas.value = aplicada.notas;
       notas.setAttribute("aria-label", `Notas de ${aplicada.nome}`);
       notas.onchange = () => alterar(aplicada.id, { notas: notas.value });
-      item.append(topo, descricao, notas);
+      const efeitos = document.createElement("p");
+      efeitos.className = "cond-efeitos-texto";
+      efeitos.textContent = CondicoesEfeitos.descreverLista(aplicada.efeitos);
+      item.append(topo, descricao);
+      if (efeitos.textContent) item.append(efeitos);
+      item.append(notas);
       lista.appendChild(item);
     });
   }
@@ -122,7 +162,7 @@
   }
 
   async function carregarLista() {
-    const { data, error } = await sb.from("condicoes").select("id,nome,descricao,liberada").eq("status", "aprovada");
+    const { data, error } = await sb.from("condicoes").select("id,nome,descricao,efeitos,liberada").eq("status", "aprovada");
     if (error) { console.error(error); msg("Não foi possível carregar as condições."); return; }
     todas = data.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
     renderizar();
@@ -134,19 +174,20 @@
     if (error) { console.error(error); msg("Não foi possível carregar as condições da ficha."); return; }
     naFicha = data.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
     renderizar();
+    updateSheet();
   }
 
   el("condAplicar").onclick = async () => {
     const condicao = todas.find(c => c.id === el("condSeletor").value);
     if (!condicao) return;
-    const { error } = await sb.from("ficha_condicoes").insert({ ficha_id: fichaAtual, condicao_id: condicao.id, nome: condicao.nome, descricao: condicao.descricao });
+    const { error } = await sb.from("ficha_condicoes").insert({ ficha_id: fichaAtual, condicao_id: condicao.id, nome: condicao.nome, descricao: condicao.descricao, efeitos: CondicoesEfeitos.normalizar(condicao.efeitos) });
     if (error) { console.error(error); msg(`Não foi possível aplicar “${condicao.nome}”.`); return; }
     msg("");
     await carregarFicha();
   };
 
-  async function enviar(nome, descricao) {
-    const { error } = await sb.from("condicoes").insert({ nome, descricao, origem: "jogador" });
+  async function enviar(nome, descricao, efeitos = []) {
+    const { error } = await sb.from("condicoes").insert({ nome, descricao, efeitos, origem: "jogador" });
     if (error) { console.error(error); return false; }
     return true;
   }
@@ -155,8 +196,9 @@
     event.preventDefault();
     const nome = el("condEnvioNome").value.trim();
     if (!nome) return;
-    if (!await enviar(nome, el("condEnvioDescricao").value.trim())) { msg("Não foi possível enviar a condição."); return; }
+    if (!await enviar(nome, el("condEnvioDescricao").value.trim(), editorEnvio.coletar())) { msg("Não foi possível enviar a condição."); return; }
     event.target.reset();
+    editorEnvio.definir([]);
     msg(`“${nome}” enviada ao gerenciador. Aguardando aprovação do Mestre.`);
   };
 
@@ -199,6 +241,7 @@
     if (ficha === fichaAtual) return;
     fichaAtual = ficha;
     naFicha = [];
+    updateSheet();
     painel.hidden = !ficha;
     if (canalFicha) { sb.removeChannel(canalFicha); canalFicha = null; }
     if (!ficha) return;

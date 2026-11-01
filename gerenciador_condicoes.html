@@ -44,17 +44,18 @@
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="condicoes-efeitos.js"></script>
 <script src="condicoes-comum.js"></script>
 <script>
 let condicoes = [];
 
-const texto = (c, tags = "") => `<div class="row-text"><strong>${esc(c.nome)}</strong>${tags}<p>${esc(c.descricao)}</p></div>`;
+const texto = (c, tags = "") => `<div class="row-text"><strong>${esc(c.nome)}</strong>${tags}<p>${esc(c.descricao)}</p>${linhaEfeitos(c)}</div>`;
 
 function renderizar() {
   const pendentes = condicoes.filter(c => c.status === "pendente");
   $("pendentes").innerHTML = pendentes.length ? pendentes.map(c => `
     <div class="row">
-      <div class="row-text"><strong>${esc(c.enviado_por_nome || "Alguém")}</strong> tentou enviar <strong>${esc(c.nome)}</strong><p>${esc(c.descricao)}</p></div>
+      <div class="row-text"><strong>${esc(c.enviado_por_nome || "Alguém")}</strong> tentou enviar <strong>${esc(c.nome)}</strong><p>${esc(c.descricao)}</p>${linhaEfeitos(c)}</div>
       <div class="actions">
         <button class="btn good" data-acao="aprovar" data-id="${esc(c.id)}">Aprovar</button>
         <button class="btn danger" data-acao="recusar" data-id="${esc(c.id)}">Recusar</button>
