@@ -13797,6 +13797,15 @@ if (damageElement) {
 
 }
 
+    // bônus condicionais de margem de ameaça, como Dança a Dois
+    const bonusMargemCritica = effects.reduce((total, effect) => total + Number(effect.bonusCritMargin || 0), 0);
+    const margemCritica = Math.max(1, Math.min(20, Number(attack.critMargin ?? 20) - bonusMargemCritica));
+    const critElement = element.querySelector(".attack-critical");
+    if (critElement) {
+        const multiplicador = Number(attack.critMultiplier ?? 2);
+        critElement.textContent = `${margemCritica === 20 ? "20" : `${margemCritica}–20`}/×${multiplicador}`;
+    }
+
   });
 }
 
