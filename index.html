@@ -13684,8 +13684,10 @@ function getAttackEffects(attack) {
         });
     }
 
-    const ids = Array.isArray(attack.effects) ? attack.effects : [];
-    return definitions.filter(effect => ids.includes(effect.id) && efeitoEstaAtivo(effect));
+    // Efeitos de ataque das características são gerais: também valem
+    // para ataques manuais, mesmo sem IDs selecionados no card.
+    // requiresToggle continua determinando quais estão ativos.
+    return definitions.filter(efeitoEstaAtivo);
 }
 
 
