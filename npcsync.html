@@ -1518,6 +1518,8 @@ body.editing .attribute-score-value {
 
     grid-template-columns:
         minmax(0, 1fr)
+        70px
+        110px
         34px;
 
     gap: 8px;
@@ -2544,6 +2546,10 @@ body.editing
 }
 
 
+.attack-editor .attack-edit-damage-stat {
+    font-size: 12px;
+}
+
 .attack-delete {
     border: none;
     background: transparent;
@@ -3517,6 +3523,12 @@ body.editing
 .skill:has(.tooltip-open),
 .skill:has(.tooltip-hovering) {
   z-index: 100010 !important;
+}
+
+.attack:has(.attack-tooltip-trigger:hover),
+.attack:has(.attack-tooltip-trigger:focus) {
+  position: relative;
+  z-index: 100010;
 }
 
 .hp-tooltip,
@@ -7590,6 +7602,35 @@ function renderizarTogglesCombate() {
                 excluir.textContent =
                     "🗑";
 
+                const bonusHit =
+                    document.createElement("input");
+                bonusHit.type = "number";
+                bonusHit.step = "1";
+                bonusHit.placeholder = "Acerto";
+                bonusHit.title = "Bônus no acerto enquanto o marcador estiver ativo";
+                bonusHit.value = toggle.bonusHit ? String(toggle.bonusHit) : "";
+                bonusHit.addEventListener("input", () => {
+                    const valor = Number(bonusHit.value || 0);
+                    if (valor) toggle.bonusHit = valor;
+                    else delete toggle.bonusHit;
+                    agendarSalvamentoConteudo();
+                    updateSheet();
+                });
+
+                const bonusDamage =
+                    document.createElement("input");
+                bonusDamage.type = "text";
+                bonusDamage.placeholder = "Dano (2, 1d6…)";
+                bonusDamage.title = "Bônus no dano enquanto o marcador estiver ativo";
+                bonusDamage.value = toggle.bonusDamage || "";
+                bonusDamage.addEventListener("input", () => {
+                    const valor = bonusDamage.value.trim();
+                    if (valor) toggle.bonusDamage = valor;
+                    else delete toggle.bonusDamage;
+                    agendarSalvamentoConteudo();
+                    updateSheet();
+                });
+
 
                 name.addEventListener(
                     "input",
@@ -7667,6 +7708,14 @@ function renderizarTogglesCombate() {
 
                 row.appendChild(
                     name
+                );
+
+                row.appendChild(
+                    bonusHit
+                );
+
+                row.appendChild(
+                    bonusDamage
                 );
 
                 row.appendChild(
@@ -10451,6 +10500,7 @@ function renderizarAtaques() {
 
                 <select
                     class="attack-edit-stat"
+                    title="Atributo do acerto"
                 >
                     <option value="str">FOR</option>
                     <option value="dex">DES</option>
@@ -10458,6 +10508,21 @@ function renderizarAtaques() {
                     <option value="int">INT</option>
                     <option value="wis">SAB</option>
                     <option value="cha">CAR</option>
+                    <option value="none">Sem atributo</option>
+                </select>
+
+                <select
+                    class="attack-edit-damage-stat"
+                    title="Atributo somado ao dano (= mesmo do acerto, — sem atributo)"
+                >
+                    <option value="">Dano: =</option>
+                    <option value="none">Dano: —</option>
+                    <option value="str">Dano: FOR</option>
+                    <option value="dex">Dano: DES</option>
+                    <option value="con">Dano: CON</option>
+                    <option value="int">Dano: INT</option>
+                    <option value="wis">Dano: SAB</option>
+                    <option value="cha">Dano: CAR</option>
                 </select>
 
                 <input
@@ -10670,6 +10735,19 @@ getAttackEffectDefinitions()
             stat.value =
                 attack.stat ?? "str";
 
+            const damageStatSelect =
+                element.querySelector(".attack-edit-damage-stat");
+            if (damageStatSelect) {
+                damageStatSelect.value = attack.damageStat || "";
+                damageStatSelect.addEventListener("change", () => {
+                    if (damageStatSelect.value) attack.damageStat = damageStatSelect.value;
+                    else delete attack.damageStat;
+                    agendarSalvamentoConteudo();
+                    updateSheet();
+                });
+                if (attack.sourceItemId) damageStatSelect.disabled = true;
+            }
+
             die.value =
                 attack.die ?? "1d6";
 
@@ -10848,11 +10926,14 @@ getAttackEffectDefinitions()
                         Acerto
                     </span>
 
-                    <strong
-                        class="attack-hit"
-                    >
-                        +0
-                    </strong>
+                    <span class="hp-max-value attack-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição do acerto">
+                        <strong
+                            class="attack-hit"
+                        >
+                            +0
+                        </strong>
+                        <span class="hp-tooltip ac-tooltip attack-hit-tooltip"></span>
+                    </span>
 
                 </div>
 
@@ -10863,9 +10944,12 @@ getAttackEffectDefinitions()
                         Dano
                     </span>
 
-                    <strong
-                        class="attack-damage"
-                    ></strong>
+                    <span class="hp-max-value attack-tooltip-trigger" tabindex="0" role="button" aria-label="Mostrar composição do dano">
+                        <strong
+                            class="attack-damage"
+                        ></strong>
+                        <span class="hp-tooltip ac-tooltip attack-damage-tooltip"></span>
+                    </span>
 
                 </div>
 
@@ -14078,7 +14162,7 @@ async function excluirAtaque(id) {
       );
 
   if (!row) {
-    return mods[stat];
+    return Number(mods[stat] || 0);
   }
 
 
@@ -14116,7 +14200,7 @@ async function excluirAtaque(id) {
 
 
   return (
-    mods[stat] +
+    Number(mods[stat] || 0) +
     progressionBonus +
     abilityBonus
   );
@@ -14142,6 +14226,85 @@ async function excluirAtaque(id) {
   /* ============================================================
      UPDATE PRINCIPAL
      ============================================================ */
+const NOMES_ATRIBUTO_ATAQUE = { str: "FOR", dex: "DES", con: "CON", int: "INT", wis: "SAB", cha: "CAR" };
+
+function nomeMarcadorCombate(toggleId) {
+    const toggle = (conteudo.togglesCombate || []).find(item => item.id === toggleId);
+    return toggle?.name || "Modificador";
+}
+
+function rotuloEfeitoAtaque(effect) {
+    if (effect.fromToggle) return nomeMarcadorCombate(effect.requiresToggle);
+    return effect.source || effect.text || "Outro bônus";
+}
+
+function detalheEfeitoAtaque(effect) {
+    if (effect.fromToggle) return "Bônus do próprio marcador";
+    if (effect.requiresToggle) return `Marcador: ${nomeMarcadorCombate(effect.requiresToggle)}`;
+    if (effect.source && effect.text && effect.text !== effect.source) return effect.text;
+    return "Sempre ativo";
+}
+
+// linhas de atributo, perícia e efeitos de perícia; somam o mesmo que getAttackSkillBonus
+function montarLinhasBaseAcerto(attack, hitStat, mods, level) {
+    const rows = [];
+    if (hitStat === "none") {
+        rows.push({ label: "Sem atributo", detail: "Este ataque não soma atributo no acerto", value: 0 });
+    } else {
+        rows.push({ label: NOMES_ATRIBUTO_ATAQUE[hitStat] || hitStat, detail: "Atributo do acerto", value: Number(mods[hitStat] || 0) });
+    }
+    const skillRow = [...document.querySelectorAll(".skill")].find(row => row.dataset.name === attack.skill);
+    if (!skillRow) return rows;
+    const trained = Boolean(skillRow.querySelector(".skill-prof")?.checked);
+    rows.push({
+        label: attack.skill,
+        detail: trained ? "Perícia treinada (inclui metade do nível)" : "Perícia sem treino (metade do nível)",
+        value: skillProgressionBonus(level, trained)
+    });
+    getSkillEffects(attack.skill).forEach(effect => {
+        const valor = Number(effect.bonus || 0);
+        if (!valor) return;
+        rows.push({
+            label: effect.source || "Outro bônus",
+            detail: effect.requiresToggle ? `Bônus na perícia · Marcador: ${nomeMarcadorCombate(effect.requiresToggle)}` : `Bônus na perícia ${attack.skill}`,
+            value: valor
+        });
+    });
+    return rows;
+}
+
+function montarTooltipComposicaoAtaque(titulo, rows, totalTexto, totalDetalhe, numerico) {
+    let acumulado = 0;
+    const body = rows.map(row => {
+        acumulado += Number(row.value || 0);
+        const valor = row.text ?? fmt(row.value);
+        const parcial = numerico ? `(${fmt(acumulado)})` : "";
+        return `
+        <div class="ac-breakdown-row">
+            <div class="ac-row-label">
+                <span class="ac-row-name">${escapeHtml(row.label)}</span>
+                <span class="ac-row-detail">${escapeHtml(row.detail || "")}</span>
+            </div>
+            <span class="ac-row-value">${escapeHtml(valor)}</span>
+            <span class="ac-row-total">${parcial}</span>
+        </div>`;
+    }).join("");
+    return `<div class="ac-tooltip-card">
+        <div class="ac-tooltip-head"><strong>${escapeHtml(titulo)}</strong></div>
+        <div class="ac-breakdown-list">
+            ${body}
+            <div class="ac-breakdown-row total">
+                <div class="ac-row-label">
+                    <span class="ac-row-name">Total</span>
+                    <span class="ac-row-detail">${escapeHtml(totalDetalhe)}</span>
+                </div>
+                <span class="ac-row-value">=</span>
+                <span class="ac-row-total">${escapeHtml(totalTexto)}</span>
+            </div>
+        </div>
+    </div>`;
+}
+
 function getAttackEffects(attack) {
     const definitions = getAttackEffectDefinitions();
 
@@ -14175,19 +14338,29 @@ function updateAttacks(mods, level) {
     if (!element) return;
 
 
-    /* atributo da arma */
+    /* atributos: o dano pode usar outro atributo ou nenhum (ex.: armas de fogo) */
+
+    const hitStat =
+      attack.stat || "str";
+
+    const damageStat =
+      attack.damageStat || hitStat;
 
     const statMod =
-      mods[attack.stat];
+      damageStat === "none"
+        ? 0
+        : Number(mods[damageStat] || 0);
 
     let hit =
     getAttackSkillBonus(
         attack.skill,
-        attack.stat,
+        hitStat,
         mods,
         level
     );
 
+    const hitRows =
+      montarLinhasBaseAcerto(attack, hitStat, mods, level);
 
       const effects =
           getAttackEffects(
@@ -14197,10 +14370,20 @@ function updateAttacks(mods, level) {
 
       effects.forEach(effect => {
 
-          hit +=
+          const valor =
               Number(
                   effect.bonusHit || 0
               );
+
+          hit += valor;
+
+          if (valor) {
+              hitRows.push({
+                  label: rotuloEfeitoAtaque(effect),
+                  detail: detalheEfeitoAtaque(effect),
+                  value: valor
+              });
+          }
 
       });
 
@@ -14210,6 +14393,12 @@ function updateAttacks(mods, level) {
     let damage =
       attack.die;
 
+    const damageRows = [{
+        label: "Dado",
+        detail: "Dano base do ataque",
+        text: attack.die || "—"
+    }];
+
     if (statMod > 0) {
       damage += `+${statMod}`;
     }
@@ -14217,6 +14406,12 @@ function updateAttacks(mods, level) {
     else if (statMod < 0) {
       damage += `${statMod}`;
     }
+
+    damageRows.push(
+        damageStat === "none"
+            ? { label: "Sem atributo", detail: "Este ataque não soma atributo no dano", text: "—" }
+            : { label: NOMES_ATRIBUTO_ATAQUE[damageStat] || damageStat, detail: "Atributo somado ao dano", text: fmt(statMod) }
+    );
 
     effects.forEach(effect => {
 
@@ -14230,17 +14425,19 @@ function updateAttacks(mods, level) {
         return;
     }
 
-
-    if (
+    const parcela =
         bonus.startsWith("+") ||
         bonus.startsWith("-")
-    ) {
-        damage += bonus;
-    }
+            ? bonus
+            : `+${bonus}`;
 
-    else {
-        damage += `+${bonus}`;
-    }
+    damage += parcela;
+
+    damageRows.push({
+        label: rotuloEfeitoAtaque(effect),
+        detail: detalheEfeitoAtaque(effect),
+        text: parcela
+    });
 
 });
 
@@ -14268,6 +14465,22 @@ if (damageElement) {
     damageElement.textContent =
         damage;
 
+}
+
+const hitTooltip =
+    element.querySelector(".attack-hit-tooltip");
+
+if (hitTooltip) {
+    hitTooltip.innerHTML =
+        montarTooltipComposicaoAtaque("Composição do acerto", hitRows, fmt(hit), "Bônus final no d20", true);
+}
+
+const damageTooltip =
+    element.querySelector(".attack-damage-tooltip");
+
+if (damageTooltip) {
+    damageTooltip.innerHTML =
+        montarTooltipComposicaoAtaque("Composição do dano", damageRows, damage || "—", "Rolagem final de dano", false);
 }
 
   });
@@ -15853,9 +16066,26 @@ function somarEfeitos(
 
 function getAttackEffectDefinitions() {
 
-    return coletarEfeitosCaracteristicas(
-        "attack"
-    );
+    // bônus definidos direto no marcador valem como efeitos de ataque
+    // condicionados ao próprio marcador
+    const doMarcador = (conteudo.togglesCombate || [])
+        .filter(toggle => Number(toggle.bonusHit || 0) || String(toggle.bonusDamage || "").trim())
+        .map(toggle => ({
+            id: `toggle-own-${toggle.id}`,
+            type: "attack",
+            fromToggle: true,
+            requiresToggle: toggle.id,
+            bonusHit: Number(toggle.bonusHit || 0),
+            bonusDamage: String(toggle.bonusDamage || "").trim(),
+            source: toggle.name || "Modificador"
+        }));
+
+    return [
+        ...coletarEfeitosCaracteristicas(
+            "attack"
+        ),
+        ...doMarcador
+    ];
 }
 
 function renderizarFonteEfeito(
@@ -18707,6 +18937,7 @@ normalizarAtaqueArmaItem = function(item) {
         ...base,
         hitBonus: numeroFinitoItemV4(original.hitBonus ?? original.bonusHit ?? original.bonusAcerto ?? 0, 0),
         damageBonus: String(original.damageBonus ?? original.bonusDamage ?? original.bonusDano ?? "").trim(),
+        ...(original.damageStat ? { damageStat: String(original.damageStat).trim() } : {}),
         range: String(original.range ?? original.alcance ?? "").trim(),
         hands: String(original.hands ?? original.maos ?? original.mãos ?? "").trim(),
         ammo: String(original.ammo ?? original.municao ?? original.munição ?? "").trim(),
@@ -18767,6 +18998,8 @@ sincronizarAtaquesDeItensInventario = function() {
             weaponProperties: config.properties || "",
             effects: anterior && Array.isArray(anterior.effects) ? anterior.effects : []
         };
+        if (config.damageStat) attack.damageStat = config.damageStat;
+        else delete attack.damageStat;
 
         if (existenteIndex >= 0) {
             if (JSON.stringify(anterior) !== JSON.stringify(attack)) {
@@ -18811,6 +19044,7 @@ preencherEditorAtaqueArma = function(item) {
     const pares = {
         inventoryDetailWeaponHitBonus: config.hitBonus,
         inventoryDetailWeaponDamageBonus: config.damageBonus,
+        inventoryDetailWeaponDamageStat: config.damageStat,
         inventoryDetailWeaponRange: config.range,
         inventoryDetailWeaponHands: config.hands,
         inventoryDetailWeaponAmmo: config.ammo,
@@ -18829,6 +19063,9 @@ coletarAtaqueArmaDetalhado = function(item) {
     if (!item?.weaponAttack) return;
     item.weaponAttack.hitBonus = numeroFinitoItemV4(document.getElementById("inventoryDetailWeaponHitBonus")?.value, 0);
     item.weaponAttack.damageBonus = String(document.getElementById("inventoryDetailWeaponDamageBonus")?.value || "").trim();
+    const damageStatArma = String(document.getElementById("inventoryDetailWeaponDamageStat")?.value || "").trim();
+    if (damageStatArma) item.weaponAttack.damageStat = damageStatArma;
+    else delete item.weaponAttack.damageStat;
     item.weaponAttack.range = String(document.getElementById("inventoryDetailWeaponRange")?.value || "").trim();
     item.weaponAttack.hands = String(document.getElementById("inventoryDetailWeaponHands")?.value || "").trim();
     item.weaponAttack.ammo = String(document.getElementById("inventoryDetailWeaponAmmo")?.value || "").trim();
@@ -19706,7 +19943,8 @@ configurarTooltipsFicha();
       <div class="inventory-detail-grid" style="margin-top:10px">
         <div class="inventory-detail-field wide"><label for="inventoryDetailWeaponName">Nome do ataque</label><input id="inventoryDetailWeaponName" type="text" placeholder="Usa o nome do item se ficar vazio"></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponSkill">Perícia</label><select id="inventoryDetailWeaponSkill"></select></div>
-        <div class="inventory-detail-field"><label for="inventoryDetailWeaponStat">Atributo</label><select id="inventoryDetailWeaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponStat">Atributo</label><select id="inventoryDetailWeaponStat"><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option><option value="none">Sem atributo</option></select></div>
+        <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageStat">Atributo no dano</label><select id="inventoryDetailWeaponDamageStat"><option value="">Mesmo do acerto</option><option value="none">Sem atributo</option><option value="str">FOR</option><option value="dex">DES</option><option value="con">CON</option><option value="int">INT</option><option value="wis">SAB</option><option value="cha">CAR</option></select></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamage">Dano</label><input id="inventoryDetailWeaponDamage" type="text" placeholder="1d8"></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponDamageType">Tipo de dano</label><input id="inventoryDetailWeaponDamageType" type="text" placeholder="Corte"></div>
         <div class="inventory-detail-field"><label for="inventoryDetailWeaponThreat">Margem de ameaça</label><input id="inventoryDetailWeaponThreat" type="number" min="1" max="20" value="20"></div>
