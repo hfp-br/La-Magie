@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Compras — La Magie</title>
+<style>
+:root{
+  --bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--paper2:#efe2c4;--ink:#322619;--muted:#7d684d;
+  --line:rgba(104,75,43,.32);--accent:#705233;--green:#546547;--green2:#6f8560;--red:#8f493d;
+  --gold:#aa7735;--gold2:#d4a55a;--panel:rgba(255,250,237,.86);--tip:#2b2017;--tip-ink:#f6edd7;
+  --ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.34,1.56,.64,1)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;min-height:100vh;padding:28px 24px 48px;color:var(--ink);
+  font-family:Georgia,"Times New Roman",serif;
+  background:
+    radial-gradient(ellipse at 50% -10%,rgba(255,244,214,.55),transparent 55%),
+    radial-gradient(circle at 12% 85%,rgba(120,80,30,.18),transparent 40%),
+    linear-gradient(155deg,var(--bg1),var(--bg2));
+  background-attachment:fixed;
+}
+button,input{font:inherit;color:inherit}
+.app{max-width:760px;margin:0 auto;animation:fadeUp .6s var(--ease) both}
+
+/* ---------- cabeçalho ---------- */
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:6px}
+.brand{display:flex;align-items:center;gap:14px}
+.brand-icon{
+  width:54px;height:54px;flex:none;display:grid;place-items:center;border-radius:16px;font-size:28px;
+  background:linear-gradient(145deg,#fff7e3,#ead6aa);border:1px solid var(--line);
+  box-shadow:0 6px 18px rgba(80,50,20,.18),inset 0 1px 0 rgba(255,255,255,.8);
+}
+.brand-icon.bump{animation:wobble .55s var(--spring)}
+.brand h1{margin:0;font-size:38px;letter-spacing:.02em;line-height:1.05;text-shadow:0 1px 0 rgba(255,255,255,.35)}
+.brand small{color:var(--muted);display:block;margin-top:3px}
+.ornament{display:flex;align-items:center;gap:10px;color:var(--gold);margin:12px 4px 16px;font-size:12px}
+.ornament::before,.ornament::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+
+.btn{
+  display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(255,255,255,.4);cursor:pointer;text-decoration:none;color:var(--ink);font-size:13px;
+  transition:transform .18s var(--ease),background .18s,box-shadow .18s,opacity .18s;
+}
+.btn:hover:not(:disabled){background:rgba(255,255,255,.72);transform:translateY(-1px);box-shadow:0 4px 12px rgba(80,50,20,.14)}
+.btn:active:not(:disabled){transform:translateY(0) scale(.97)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.danger{color:var(--red)}
+.btn.primary{background:linear-gradient(180deg,#8a6640,var(--accent));color:#fbf3df;border-color:rgba(60,40,20,.5)}
+.btn.primary:hover:not(:disabled){background:linear-gradient(180deg,#977049,#7a5a38)}
+
+/* ---------- folha ---------- */
+.sheet{
+  position:relative;padding:20px;border-radius:20px;border:1px solid var(--line);
+  background:
+    repeating-linear-gradient(0deg,rgba(120,90,50,.025) 0 2px,transparent 2px 4px),
+    linear-gradient(180deg,var(--paper),var(--paper2));
+  box-shadow:0 22px 60px rgba(50,30,10,.28),inset 0 1px 0 rgba(255,255,255,.7);
+}
+.sheet::before{
+  content:"";position:absolute;inset:7px;border:1px solid rgba(170,119,53,.22);border-radius:15px;pointer-events:none
+}
+.add{position:relative;display:flex;gap:8px;margin-bottom:16px}
+.add input{
+  flex:1;min-width:0;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.55);
+  transition:border-color .2s,box-shadow .2s,background .2s;outline:none
+}
+.add input:focus{border-color:var(--gold);background:rgba(255,255,255,.85);box-shadow:0 0 0 4px rgba(212,165,90,.22)}
+.add.shake{animation:shake .35s}
+.bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:var(--muted)}
+.bar .group{display:flex;gap:6px;flex-wrap:wrap}
+.progress{height:5px;border-radius:99px;background:rgba(104,75,43,.13);overflow:hidden;margin:-4px 0 14px}
+.progress span{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--green2),var(--green));transition:width .5s var(--ease)}
+
+/* ---------- linhas ---------- */
+.list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.row{
+  position:relative;display:grid;grid-template-columns:20px 26px minmax(0,1fr) auto 28px;align-items:center;gap:9px;
+  padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 1px 0 rgba(255,255,255,.6) inset,0 2px 6px rgba(80,50,20,.06);
+  transition:background .25s,box-shadow .25s,opacity .3s,transform .25s var(--ease);
+}
+.row::before{
+  content:"";position:absolute;left:-1px;top:8px;bottom:8px;width:4px;border-radius:0 4px 4px 0;
+  background:linear-gradient(180deg,var(--gold2),var(--gold));transition:background .3s
+}
+.row:hover{background:rgba(255,252,243,.97);box-shadow:0 1px 0 rgba(255,255,255,.6) inset,0 6px 16px rgba(80,50,20,.12)}
+.row.done > :not(.tip){opacity:.62;transition:opacity .3s}
+.row:hover,.row.open,.row:focus-within{z-index:15}
+.row.done::before{background:linear-gradient(180deg,var(--green2),var(--green))}
+.row.entering{animation:rowIn .45s var(--ease) both;animation-delay:calc(var(--i,0) * 45ms)}
+.row.fresh{animation:rowIn .45s var(--ease) both,glow 1.4s ease-out .1s}
+.row.leaving{animation:rowOut .32s var(--ease) forwards;pointer-events:none}
+.row.dragging{
+  z-index:10;cursor:grabbing;background:#fffaf0;transform:scale(1.025) rotate(-.6deg);
+  box-shadow:0 18px 36px rgba(60,35,10,.28);transition:box-shadow .2s,background .2s
+}
+.handle{
+  cursor:grab;color:var(--muted);text-align:center;user-select:none;touch-action:none;font-size:15px;line-height:1;
+  opacity:.55;transition:opacity .2s,transform .2s
+}
+.row:hover .handle{opacity:1}
+.handle:hover{transform:scale(1.15)}
+
+/* caixa de seleção animada */
+.check{position:relative;width:22px;height:22px;cursor:pointer}
+.check input{position:absolute;inset:0;margin:0;opacity:0;cursor:pointer}
+.check .box{
+  position:absolute;inset:0;border-radius:7px;border:1.5px solid rgba(104,75,43,.5);background:rgba(255,255,255,.7);
+  transition:background .25s,border-color .25s,transform .25s var(--spring)
+}
+.check svg{position:absolute;inset:3px;width:16px;height:16px;fill:none;stroke:#fbf3df;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.check path{stroke-dasharray:20;stroke-dashoffset:20;transition:stroke-dashoffset .3s var(--ease) .05s}
+.check input:checked ~ .box{background:var(--green);border-color:var(--green);transform:scale(1.08)}
+.check input:checked ~ svg path{stroke-dashoffset:0}
+.check input:focus-visible ~ .box{box-shadow:0 0 0 3px rgba(212,165,90,.4)}
+.check:active .box{transform:scale(.88)}
+
+.info{min-width:0;cursor:help;outline:none}
+.name{
+  display:inline;font-weight:600;overflow-wrap:anywhere;
+  background:linear-gradient(var(--muted),var(--muted)) no-repeat 0 55%/0 1.5px;
+  transition:background-size .35s var(--ease),color .3s
+}
+.row.done .name{background-size:100% 1.5px;color:var(--muted)}
+.meta{display:block;font-size:11px;color:var(--muted);overflow-wrap:anywhere;margin-top:1px}
+.price{color:var(--gold);font-weight:600}
+
+.qty{display:flex;align-items:center;gap:3px;padding:2px;border-radius:999px;background:rgba(104,75,43,.07)}
+.qty button{
+  width:24px;height:24px;border:0;border-radius:50%;background:rgba(255,255,255,.75);cursor:pointer;padding:0;line-height:1;
+  box-shadow:0 1px 2px rgba(80,50,20,.15);transition:transform .15s var(--spring),background .15s
+}
+.qty button:hover{background:#fff;transform:scale(1.12)}
+.qty button:active{transform:scale(.9)}
+.qty span{min-width:24px;text-align:center;font-variant-numeric:tabular-nums;font-weight:600}
+.qty span.bump{animation:bump .3s var(--spring)}
+.del{
+  width:28px;height:28px;border:0;border-radius:50%;background:transparent;color:var(--red);cursor:pointer;font-size:15px;padding:0;
+  opacity:.5;transition:opacity .2s,background .2s,transform .2s var(--spring)
+}
+.row:hover .del{opacity:1}
+.del:hover{background:rgba(143,73,61,.12);transform:rotate(90deg)}
+
+/* detalhes ao passar o mouse */
+.tip{
+  position:absolute;left:58px;top:calc(100% + 8px);z-index:20;width:min(360px,calc(100vw - 60px));padding:12px 14px;
+  border-radius:11px;background:var(--tip);color:var(--tip-ink);font-size:12px;line-height:1.5;
+  box-shadow:0 18px 40px rgba(20,12,6,.45),0 0 0 1px rgba(255,255,255,.08);
+  opacity:0;visibility:hidden;transform:translateY(-4px) scale(.97);transform-origin:20px 0;
+  transition:opacity .18s var(--ease),transform .22s var(--ease),visibility .18s;pointer-events:none
+}
+.tip::before{content:"";position:absolute;left:18px;top:-6px;width:12px;height:12px;background:var(--tip);transform:rotate(45deg);border-radius:2px 0 0 0}
+.tip strong{display:block;font-size:14px;margin-bottom:2px;color:#f3d9a4}
+.tip .sub{color:rgba(246,237,215,.75)}
+.tip .stats{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0}
+.tip .stats span{padding:2px 8px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);font-size:11px}
+.tip .desc{white-space:pre-line;max-height:180px;overflow:auto;color:rgba(246,237,215,.92)}
+.info:hover + .tip,.info:focus + .tip,.row.open .tip{opacity:1;visibility:visible;transform:none;transition-delay:.08s}
+.row.dragging .tip{display:none}
+
+/* vazio e total */
+.empty{padding:38px 10px 30px;text-align:center;color:var(--muted);animation:fadeUp .5s var(--ease) both}
+.empty .icon{font-size:40px;display:inline-block;animation:float 3s ease-in-out infinite;filter:drop-shadow(0 6px 6px rgba(80,50,20,.18))}
+.empty p{margin:8px 0 0}
+.totals{
+  margin-top:16px;padding:12px 14px;border-radius:12px;border:1px dashed rgba(170,119,53,.5);
+  background:rgba(255,255,255,.3);font-size:13px;color:var(--muted);
+  display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;animation:fadeUp .4s var(--ease) both
+}
+.totals strong{color:var(--ink);font-size:17px;font-variant-numeric:tabular-nums}
+.totals:empty{display:none}
+
+/* aviso flutuante */
+.toast{
+  position:fixed;left:50%;bottom:22px;transform:translate(-50%,16px);padding:10px 16px;border-radius:999px;
+  background:var(--tip);color:var(--tip-ink);font-size:13px;box-shadow:0 12px 30px rgba(20,12,6,.4);
+  opacity:0;transition:opacity .2s,transform .3s var(--spring);pointer-events:none;z-index:50;display:flex;gap:10px;align-items:center
+}
+.toast.show{opacity:1;transform:translate(-50%,0);pointer-events:auto}
+.toast button{border:0;background:none;color:var(--gold2);cursor:pointer;font-weight:700;padding:0}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes rowIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes rowOut{to{opacity:0;transform:translateX(30px) scale(.96)}}
+@keyframes glow{0%{box-shadow:0 0 0 0 rgba(212,165,90,.65)}100%{box-shadow:0 0 0 14px rgba(212,165,90,0)}}
+@keyframes bump{50%{transform:scale(1.45);color:var(--gold)}}
+@keyframes wobble{30%{transform:rotate(-12deg) scale(1.1)}60%{transform:rotate(8deg)}100%{transform:none}}
+@keyframes float{50%{transform:translateY(-7px) rotate(-4deg)}}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+
+@media(max-width:620px){
+  body{padding:14px 10px 30px}
+  .top{flex-direction:column;align-items:flex-start}
+  .brand h1{font-size:29px}
+  .brand-icon{width:44px;height:44px;font-size:22px;border-radius:13px}
+  .sheet{padding:13px;border-radius:16px}
+  .row{grid-template-columns:18px 24px minmax(0,1fr) auto 26px;gap:7px;padding:9px}
+  .tip{left:8px;width:calc(100% - 16px)}
+  .tip::before{left:50px}
+  .del,.handle{opacity:1}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="brand">
+      <div class="brand-icon" id="brandIcon" aria-hidden="true">🛒</div>
+      <div><h1>Lista de Compras</h1><small>Itens do Compêndio e anotações livres · salva neste navegador</small></div>
+    </div>
+    <a class="btn" href="compendio.html">← Compêndio</a>
+  </div>
+  <div class="ornament">✦</div>
+  <main class="sheet">
+    <form class="add" id="addForm">
+      <input id="addInput" type="text" placeholder="Adicionar item avulso (ex.: corda, rações…)" autocomplete="off">
+      <button class="btn primary" type="submit">Adicionar</button>
+    </form>
+    <div class="bar">
+      <span id="count"></span>
+      <div class="group">
+        <button class="btn" id="toggleAll" type="button">Marcar todos</button>
+        <button class="btn danger" id="removeDone" type="button">Remover marcados</button>
+        <button class="btn danger" id="clearAll" type="button">Limpar lista</button>
+      </div>
+    </div>
+    <div class="progress" id="progress" hidden><span></span></div>
+    <ul class="list" id="list"></ul>
+    <div class="totals" id="totals"></div>
+  </main>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const LISTA_KEY = "laMagie.listaCompras.v1";
+const reduzMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function lerLista() {
+  try {
+    const dados = JSON.parse(localStorage.getItem(LISTA_KEY) || "[]");
+    return Array.isArray(dados) ? dados : [];
+  } catch { return []; }
+}
+function salvarLista() {
+  try { localStorage.setItem(LISTA_KEY, JSON.stringify(lista)); } catch {}
+}
+
+let lista = lerLista();
+const $ = id => document.getElementById(id);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const linhas = new Map(); // uid -> <li>
+let primeiraVez = true;
+
+function numeroPreco(valor) {
+  const n = Number(String(valor ?? "").replace(",", "."));
+  return Number.isFinite(n) ? n : null;
+}
+
+/* ---------- FLIP: as outras linhas deslizam quando a ordem muda ---------- */
+function medir() {
+  const pos = new Map();
+  linhas.forEach((li, uid) => pos.set(uid, li.getBoundingClientRect().top));
+  return pos;
+}
+function animarDeslocamento(antes, exceto) {
+  if (reduzMovimento) return;
+  linhas.forEach((li, uid) => {
+    if (li === exceto || !antes.has(uid)) return;
+    const dy = antes.get(uid) - li.getBoundingClientRect().top;
+    if (!dy) return;
+    li.animate([{ transform: `translateY(${dy}px)` }, { transform: "none" }], { duration: 260, easing: "cubic-bezier(.2,.8,.2,1)" });
+  });
+}
+
+/* ---------- linha ---------- */
+function criarLinha(item) {
+  const li = document.createElement("li");
+  li.className = "row";
+  li.dataset.uid = item.uid;
+  li.innerHTML = `
+    <span class="handle" title="Arrastar para reordenar" aria-label="Arrastar">⠿</span>
+    <label class="check" title="Marcar como comprado">
+      <input type="checkbox">
+      <span class="box"></span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7"/></svg>
+    </label>
+    <span class="info" tabindex="0"><span class="name"></span><span class="meta"></span></span>
+    <div class="tip"></div>
+    <div class="qty">
+      <button type="button" data-q="-1" aria-label="Diminuir">−</button>
+      <span class="n"></span>
+      <button type="button" data-q="1" aria-label="Aumentar">+</button>
+    </div>
+    <button class="del" type="button" title="Remover" aria-label="Remover">✕</button>`;
+
+  const achar = () => lista.find(i => i.uid === item.uid);
+
+  li.querySelector("input").addEventListener("change", e => {
+    const it = achar(); if (!it) return;
+    it.done = e.target.checked;
+    salvarLista(); atualizarLinha(li, it); atualizarResumo();
+  });
+  li.querySelectorAll("[data-q]").forEach(b => b.addEventListener("click", () => {
+    const it = achar(); if (!it) return;
+    const novo = Math.max(1, Number(it.qtd || 1) + Number(b.dataset.q));
+    if (novo === Number(it.qtd || 1)) return;
+    it.qtd = novo;
+    salvarLista(); atualizarLinha(li, it, true); atualizarResumo();
+  }));
+  li.querySelector(".del").addEventListener("click", () => remover([item.uid]));
+  li.querySelector(".info").addEventListener("click", () => {
+    const aberto = li.classList.contains("open");
+    document.querySelectorAll(".row.open").forEach(r => r.classList.remove("open"));
+    if (!aberto) li.classList.add("open");
+  });
+  ativarArraste(li.querySelector(".handle"), li);
+  li.addEventListener("animationend", e => { if (e.target === li) li.classList.remove("entering", "fresh"); });
+  return li;
+}
+
+function atualizarLinha(li, item, pulsar = false) {
+  li.classList.toggle("done", Boolean(item.done));
+  li.querySelector("input").checked = Boolean(item.done);
+  li.querySelector("input").setAttribute("aria-label", `Marcar ${item.nome || "item"}`);
+  li.querySelector(".name").textContent = item.nome || "Item";
+  const meta = [item.categoria, item.subtipo].filter(Boolean).join(" • ") || (item.avulso ? "Item avulso" : "");
+  li.querySelector(".meta").innerHTML = esc(meta) + (item.preco ? `${meta ? " · " : ""}<span class="price">${esc(item.preco)}</span>` : "");
+  const n = li.querySelector(".qty .n");
+  n.textContent = Number(item.qtd || 1);
+  if (pulsar && !reduzMovimento) { n.classList.remove("bump"); void n.offsetWidth; n.classList.add("bump"); }
+  const stats = [
+    item.preco ? `Preço: ${esc(item.preco)}` : "",
+    item.peso !== undefined && item.peso !== null && item.peso !== "" ? `Peso: ${esc(Number(item.peso).toFixed(2))} kg` : "",
+    item.fonte ? esc(item.fonte) : ""
+  ].filter(Boolean).map(s => `<span>${s}</span>`).join("");
+  li.querySelector(".tip").innerHTML = `
+    <strong>${esc(item.nome || "Item")}</strong>
+    ${[item.categoria, item.subtipo].filter(Boolean).length ? `<div class="sub">${esc([item.categoria, item.subtipo].filter(Boolean).join(" • "))}</div>` : ""}
+    ${stats ? `<div class="stats">${stats}</div>` : ""}
+    <div class="desc">${esc(item.descricao || (item.avulso ? "Item avulso, sem ficha no Compêndio." : "Sem descrição."))}</div>`;
+}
+
+/* ---------- lista inteira (reaproveita as linhas existentes) ---------- */
+function render(novoUid = null) {
+  const ul = $("list");
+  const antes = medir();
+  const vivos = new Set(lista.map(i => i.uid));
+  linhas.forEach((li, uid) => { if (!vivos.has(uid)) { li.remove(); linhas.delete(uid); } });
+  ul.querySelector(".empty")?.remove();
+
+  lista.forEach((item, idx) => {
+    let li = linhas.get(item.uid);
+    if (!li) {
+      li = criarLinha(item);
+      linhas.set(item.uid, li);
+      if (!reduzMovimento) {
+        if (item.uid === novoUid) li.classList.add("fresh");
+        else { li.classList.add("entering"); li.style.setProperty("--i", primeiraVez ? idx : 0); }
+      }
+    }
+    atualizarLinha(li, item);
+    if (ul.children[idx] !== li) ul.insertBefore(li, ul.children[idx] || null);
+  });
+
+  if (!lista.length) {
+    ul.innerHTML = `<li class="empty"><span class="icon">🛒</span><p><strong>A lista está vazia.</strong></p><p>Use “🛒 Adicionar à lista” num item do Compêndio,<br>ou escreva um item acima.</p></li>`;
+  }
+  if (!primeiraVez) animarDeslocamento(antes);
+  primeiraVez = false;
+  atualizarResumo();
+}
+
+let totalExibido = {};
+function atualizarResumo() {
+  const marcados = lista.filter(i => i.done).length;
+  $("count").textContent = lista.length
+    ? `${lista.length} ${lista.length === 1 ? "item" : "itens"} · ${marcados} marcado${marcados === 1 ? "" : "s"}`
+    : "";
+  $("toggleAll").textContent = lista.length && marcados === lista.length ? "Desmarcar todos" : "Marcar todos";
+  $("toggleAll").disabled = !lista.length;
+  $("clearAll").disabled = !lista.length;
+  $("removeDone").disabled = !marcados;
+  $("progress").hidden = !lista.length;
+  $("progress").firstElementChild.style.width = lista.length ? `${(marcados / lista.length) * 100}%` : "0";
+
+  // total por moeda dos itens ainda não marcados
+  const totais = {};
+  lista.filter(i => !i.done).forEach(i => {
+    const n = numeroPreco(i.precoValor);
+    if (n === null || n === 0) return;
+    const moeda = i.precoMoeda || "";
+    totais[moeda] = (totais[moeda] || 0) + n * Number(i.qtd || 1);
+  });
+  const moedas = Object.keys(totais);
+  if (!moedas.length) { $("totals").innerHTML = ""; totalExibido = {}; return; }
+  if (!$("totals").firstChild) $("totals").innerHTML = `<span>Falta comprar (itens com preço)</span><span id="totalValores"></span>`;
+  $("totalValores").innerHTML = moedas.map(m => `<strong data-m="${esc(m)}"></strong> ${esc(m)}`).join(" · ");
+  moedas.forEach(m => contar($("totalValores").querySelector(`[data-m="${CSS.escape(m)}"]`), totalExibido[m] || 0, totais[m]));
+  totalExibido = totais;
+}
+
+function contar(el, de, ate) {
+  const fmt = v => String(+v.toFixed(2));
+  if (reduzMovimento || de === ate) { el.textContent = fmt(ate); return; }
+  const t0 = performance.now(), dur = 450;
+  const passo = t => {
+    const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+    el.textContent = fmt(de + (ate - de) * e);
+    if (k < 1) requestAnimationFrame(passo);
+  };
+  requestAnimationFrame(passo);
+}
+
+/* ---------- remover com animação e opção de desfazer ---------- */
+let desfazer = null;
+function remover(uids) {
+  const removidos = lista.map((it, idx) => ({ it, idx })).filter(x => uids.includes(x.it.uid));
+  if (!removidos.length) return;
+  const finalizar = () => {
+    lista = lista.filter(i => !uids.includes(i.uid));
+    salvarLista(); render();
+  };
+  if (reduzMovimento) finalizar();
+  else {
+    uids.forEach(uid => linhas.get(uid)?.classList.add("leaving"));
+    setTimeout(finalizar, 300);
+  }
+  desfazer = removidos;
+  aviso(removidos.length === 1 ? `“${esc(removidos[0].it.nome)}” removido` : `${removidos.length} itens removidos`, true);
+}
+
+let avisoTimer;
+function aviso(html, comDesfazer = false) {
+  const t = $("toast");
+  t.innerHTML = `<span>${html}</span>${comDesfazer ? `<button type="button">Desfazer</button>` : ""}`;
+  t.querySelector("button")?.addEventListener("click", () => {
+    if (!desfazer) return;
+    desfazer.sort((a, b) => a.idx - b.idx).forEach(({ it, idx }) => lista.splice(Math.min(idx, lista.length), 0, it));
+    desfazer = null;
+    salvarLista(); render();
+    t.classList.remove("show");
+  });
+  t.classList.add("show");
+  clearTimeout(avisoTimer);
+  avisoTimer = setTimeout(() => { t.classList.remove("show"); desfazer = null; }, 4500);
+}
+
+/* ---------- reordenar arrastando a alça (mouse e toque) ---------- */
+function ativarArraste(handle, li) {
+  handle.addEventListener("pointerdown", e => {
+    e.preventDefault();
+    const ul = $("list");
+    li.classList.add("dragging");
+    li.classList.remove("open");
+    const mover = ev => {
+      const outros = [...ul.children].filter(el => el !== li);
+      const alvo = outros.find(el => {
+        const r = el.getBoundingClientRect();
+        return ev.clientY < r.top + r.height / 2;
+      });
+      const proximo = alvo || null;
+      if (li.nextElementSibling === proximo) return;
+      const antes = medir();
+      ul.insertBefore(li, proximo);
+      animarDeslocamento(antes, li);
+    };
+    const soltar = () => {
+      window.removeEventListener("pointermove", mover);
+      window.removeEventListener("pointerup", soltar);
+      window.removeEventListener("pointercancel", soltar);
+      li.classList.remove("dragging");
+      const ordem = [...ul.children].map(el => el.dataset.uid);
+      lista.sort((a, b) => ordem.indexOf(a.uid) - ordem.indexOf(b.uid));
+      salvarLista();
+    };
+    window.addEventListener("pointermove", mover);
+    window.addEventListener("pointerup", soltar);
+    window.addEventListener("pointercancel", soltar);
+  });
+}
+
+/* ---------- ações ---------- */
+$("addForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const nome = $("addInput").value.trim();
+  if (!nome) {
+    const f = $("addForm"); f.classList.remove("shake"); void f.offsetWidth; f.classList.add("shake");
+    $("addInput").focus();
+    return;
+  }
+  const uid = crypto.randomUUID();
+  lista.push({ uid, nome, avulso: true, qtd: 1, done: false, addedAt: Date.now() });
+  $("addInput").value = "";
+  salvarLista(); render(uid);
+  const icon = $("brandIcon"); icon.classList.remove("bump"); void icon.offsetWidth; icon.classList.add("bump");
+});
+
+$("toggleAll").addEventListener("click", () => {
+  const todos = lista.every(i => i.done);
+  lista.forEach((i, idx) => {
+    i.done = !todos;
+    const li = linhas.get(i.uid);
+    if (!li) return;
+    // cascata: um de cada vez
+    setTimeout(() => atualizarLinha(li, i), reduzMovimento ? 0 : idx * 40);
+  });
+  salvarLista(); atualizarResumo();
+});
+
+$("removeDone").addEventListener("click", () => {
+  remover(lista.filter(i => i.done).map(i => i.uid));
+});
+
+$("clearAll").addEventListener("click", () => {
+  if (!lista.length || !confirm("Apagar a lista inteira?")) return;
+  remover(lista.map(i => i.uid));
+});
+
+document.addEventListener("click", e => {
+  if (!e.target.closest(".row")) document.querySelectorAll(".row.open").forEach(r => r.classList.remove("open"));
+});
+
+// outra aba (ex.: o Compêndio) mudou a lista
+window.addEventListener("storage", e => {
+  if (e.key !== LISTA_KEY) return;
+  const antigos = new Set(lista.map(i => i.uid));
+  lista = lerLista();
+  const novo = lista.find(i => !antigos.has(i.uid));
+  render(novo?.uid || null);
+});
+
+render();
+</script>
+</body>
+</html>
