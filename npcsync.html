@@ -21902,3 +21902,22 @@ body.editing .inventory-compact-row{display:none!important}
   passo();
 })();
 </script>
+
+<script id="combate-botao">
+/* Botão "Combate": abre o Gerenciador de Combate com este NPC selecionado.
+   Só abre outra página; não altera a ficha. */
+(() => {
+  const controle = document.querySelector(".edit-mode-control");
+  const id = new URLSearchParams(location.search).get("id");
+  if (!controle || !id) return;
+  const link = document.createElement("a");
+  link.href = `combate.html?adicionar=npc:${encodeURIComponent(id)}`;
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.className = "logout-button";
+  link.style.textDecoration = "none";
+  link.title = "Adicionar este NPC ao combate";
+  link.textContent = "⚔ Combate";
+  controle.prepend(link);
+})();
+</script>

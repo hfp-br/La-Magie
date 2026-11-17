@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerenciador de Combate — La Magie</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<style>
+:root{
+  --bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--paper2:#efe2c4;--ink:#322619;--muted:#7d684d;
+  --line:rgba(104,75,43,.32);--accent:#705233;--green:#546547;--green2:#6f8560;--red:#8f493d;--red2:#b5604f;
+  --gold:#aa7735;--gold2:#d4a55a;--blue:#3f5f86;--blue2:#5b80ad;--panel:rgba(255,250,237,.88);
+  --tip:#2b2017;--tip-ink:#f6edd7;--ease:cubic-bezier(.2,.8,.2,1);--spring:cubic-bezier(.34,1.56,.64,1)
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;padding:24px 20px 60px;color:var(--ink);font-family:Georgia,"Times New Roman",serif;
+  background:radial-gradient(ellipse at 50% -10%,rgba(255,244,214,.55),transparent 55%),
+             radial-gradient(circle at 12% 85%,rgba(120,80,30,.18),transparent 40%),
+             linear-gradient(155deg,var(--bg1),var(--bg2));
+  background-attachment:fixed;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+[hidden]{display:none!important}
+.app{max-width:860px;margin:0 auto}
+
+/* ---------- topo ---------- */
+.top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;animation:fadeDown .45s var(--ease) backwards}
+.brand{display:flex;align-items:center;gap:14px}
+.brand-icon{width:54px;height:54px;flex:none;display:grid;place-items:center;border-radius:16px;
+  background:linear-gradient(145deg,#fff7e3,#ead6aa);border:1px solid var(--line);
+  box-shadow:0 6px 18px rgba(80,50,20,.18),inset 0 1px 0 rgba(255,255,255,.8)}
+.brand-icon svg{width:36px;height:36px}
+.brand h1{margin:0;font-size:34px;line-height:1.05;letter-spacing:.02em}
+.brand small{color:var(--muted);display:block;margin-top:3px}
+.conta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.4);font-size:12px}
+.pill.mestre{background:rgba(112,82,51,.85);color:#fbf3df;border-color:rgba(60,40,20,.5)}
+.ornament{display:flex;align-items:center;gap:10px;color:var(--gold);margin:12px 4px 16px;font-size:12px}
+.ornament::before,.ornament::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:7px 13px;border:1px solid var(--line);border-radius:999px;
+  background:rgba(255,255,255,.42);cursor:pointer;color:var(--ink);font-size:13px;text-decoration:none;
+  transition:transform .18s var(--ease),background .18s,box-shadow .18s,opacity .18s}
+.btn:hover:not(:disabled){background:rgba(255,255,255,.75);transform:translateY(-1px);box-shadow:0 4px 12px rgba(80,50,20,.14)}
+.btn:active:not(:disabled){transform:scale(.97)}
+.btn:disabled{opacity:.42;cursor:not-allowed}
+.btn.primary{background:linear-gradient(180deg,#8a6640,var(--accent));color:#fbf3df;border-color:rgba(60,40,20,.5)}
+.btn.primary:hover:not(:disabled){background:linear-gradient(180deg,#977049,#7a5a38)}
+.btn.danger{color:var(--red)}
+.btn.small{padding:4px 9px;font-size:12px}
+
+/* ---------- folha ---------- */
+.sheet{position:relative;padding:20px;border-radius:20px;border:1px solid var(--line);
+  background:repeating-linear-gradient(0deg,rgba(120,90,50,.025) 0 2px,transparent 2px 4px),linear-gradient(180deg,var(--paper),var(--paper2));
+  box-shadow:0 22px 60px rgba(50,30,10,.28),inset 0 1px 0 rgba(255,255,255,.7);animation:fadeUp .5s var(--ease) .06s backwards}
+.sheet::before{content:"";position:absolute;inset:7px;border:1px solid rgba(170,119,53,.22);border-radius:15px;pointer-events:none}
+.combate-head{position:relative;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.combate-nome{font-size:21px;font-weight:700}
+.rodada{display:inline-flex;align-items:center;gap:6px;margin-left:8px;padding:3px 10px;border-radius:999px;background:rgba(170,119,53,.16);color:var(--accent);font-size:13px;font-weight:600;vertical-align:middle}
+.rodada.bump{animation:bump .45s var(--spring)}
+.acoes{display:flex;gap:6px;flex-wrap:wrap}
+.vazio{position:relative;padding:44px 10px;text-align:center;color:var(--muted)}
+.vazio .icone{display:inline-block;animation:float 3s ease-in-out infinite}
+.vazio .icone svg{width:60px;height:60px;filter:drop-shadow(0 6px 6px rgba(80,50,20,.18))}
+.aviso{position:relative;margin:0 0 12px;padding:9px 12px;border-radius:10px;border:1px dashed rgba(170,119,53,.55);background:rgba(255,255,255,.35);font-size:13px;color:var(--muted)}
+
+/* ---------- ordem de iniciativa ---------- */
+.lista{position:relative;list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.card{position:relative;display:grid;grid-template-columns:30px 48px minmax(0,1fr) auto;gap:10px;align-items:center;
+  padding:10px 12px;border-radius:14px;border:1px solid var(--line);background:var(--panel);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.6),0 2px 6px rgba(80,50,20,.06);
+  transition:background .25s,box-shadow .3s,border-color .3s,opacity .3s}
+.card::before{content:"";position:absolute;left:-1px;top:9px;bottom:9px;width:4px;border-radius:0 4px 4px 0;background:var(--cor-tipo,var(--gold))}
+.card[data-tipo=jogador]{--cor-tipo:linear-gradient(180deg,var(--blue2),var(--blue))}
+.card[data-tipo=npc]{--cor-tipo:linear-gradient(180deg,var(--gold2),var(--gold))}
+.card[data-tipo=monstro]{--cor-tipo:linear-gradient(180deg,var(--red2),var(--red))}
+.card.entrando{animation:cardIn .45s var(--ease) both;animation-delay:calc(var(--i,0) * 45ms)}
+.card.turno{border-color:rgba(170,119,53,.75);background:#fffaf0;box-shadow:0 0 0 3px rgba(212,165,90,.35),0 10px 26px rgba(80,50,20,.16)}
+.card.turno .pos{background:linear-gradient(180deg,var(--gold2),var(--gold));color:#fff8e8;border-color:transparent;animation:pulse 2s ease-in-out infinite}
+.card.oculto{opacity:.6;border-style:dashed}
+.card.caido .retrato{filter:grayscale(1) brightness(.85)}
+.pos{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);font-size:13px;font-weight:700;color:var(--muted);background:rgba(255,255,255,.5)}
+.retrato{width:48px;height:48px;border-radius:12px;object-fit:cover;border:1px solid var(--line);background:linear-gradient(145deg,#efe0bd,#d9c08e);display:grid;place-items:center;font-weight:700;color:var(--accent);font-size:18px;overflow:hidden}
+.info{min-width:0}
+.nome{font-weight:700;font-size:16px;overflow-wrap:anywhere}
+.sub{display:flex;flex-wrap:wrap;gap:5px;margin-top:3px;font-size:11px;color:var(--muted)}
+.tag{padding:1px 7px;border-radius:99px;background:rgba(104,75,43,.09);border:1px solid rgba(104,75,43,.14)}
+.tag.cond{background:rgba(143,73,61,.1);border-color:rgba(143,73,61,.25);color:var(--red)}
+.barras{display:grid;gap:4px;margin-top:7px;max-width:340px}
+.barra{position:relative;height:11px;border-radius:99px;background:rgba(104,75,43,.14);overflow:hidden;box-shadow:inset 0 1px 2px rgba(60,35,10,.15)}
+.barra span{position:absolute;inset:0 auto 0 0;border-radius:inherit;transition:width .6s var(--ease),background .4s}
+.barra.pv span{background:linear-gradient(90deg,#6f8560,#546547)}
+.barra.pv.media span{background:linear-gradient(90deg,#d0a54f,#aa7735)}
+.barra.pv.baixa span{background:linear-gradient(90deg,#c8705d,#8f493d)}
+.barra.pm span{background:linear-gradient(90deg,#6f95c4,#3f5f86)}
+.barra-linha{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px}
+.barra-linha em{font-style:normal;font-size:11px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums;min-width:74px}
+.barra-linha em b{color:var(--ink)}
+.barra.flash{animation:flash .6s ease}
+.ajuste{display:flex;align-items:center;gap:4px;margin-top:5px}
+.ajuste input{width:64px;padding:3px 7px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.6);font-size:12px}
+.lateral{display:flex;align-items:center;gap:6px}
+.ini{display:grid;justify-items:center;gap:2px;min-width:52px}
+.ini small{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.ini strong{font-size:22px;font-variant-numeric:tabular-nums}
+.ini input{width:54px;padding:4px;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.65);text-align:center;font-size:18px;font-weight:700}
+.icone-btn{width:32px;height:32px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;font-size:14px;padding:0;position:relative;
+  transition:transform .18s var(--spring),background .18s}
+.icone-btn:hover{background:#fff;transform:scale(1.08)}
+.icone-btn:active{transform:scale(.92)}
+.icone-btn .n{position:absolute;top:-5px;right:-5px;min-width:16px;height:16px;padding:0 4px;border-radius:99px;background:var(--red);color:#fff;font-size:10px;line-height:16px;font-weight:700}
+.icone-btn.ativo{background:var(--accent);color:#fbf3df;border-color:transparent}
+.menu-admin{display:flex;gap:4px}
+
+/* painel que expande com as condições */
+.painel{grid-column:1/-1;display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s var(--ease)}
+.card.aberto .painel{grid-template-rows:1fr}
+.painel > div{overflow:hidden}
+.painel-inner{margin-top:8px;padding:10px 12px;border-radius:11px;background:rgba(255,255,255,.45);border:1px solid rgba(104,75,43,.14)}
+.painel h4{margin:0 0 6px;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+.condicao{padding:6px 0;border-top:1px dashed rgba(104,75,43,.2)}
+.condicao:first-of-type{border-top:0}
+.condicao strong{color:var(--red)}
+.condicao p{margin:2px 0 0;font-size:12px;color:var(--muted);white-space:pre-line}
+.condicao .remover{float:right;border:0;background:none;color:var(--red);cursor:pointer;font-size:13px}
+.add-cond{display:flex;gap:6px;margin-top:8px}
+.add-cond select{flex:1;min-width:0;padding:5px 8px;border:1px solid var(--line);border-radius:9px;background:rgba(255,255,255,.65)}
+
+/* ---------- diálogos ---------- */
+dialog{border:1px solid var(--line);border-radius:18px;padding:0;background:linear-gradient(180deg,var(--paper),var(--paper2));color:var(--ink);
+  width:min(560px,calc(100vw - 24px));box-shadow:0 30px 80px rgba(30,18,8,.45)}
+dialog[open]{animation:pop .3s var(--ease)}
+dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
+.dlg-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.dlg-head h2{margin:0;font-size:19px}
+.dlg-body{padding:14px 18px;max-height:min(62vh,560px);overflow:auto}
+.dlg-foot{display:flex;justify-content:flex-end;gap:8px;padding:12px 18px;border-top:1px solid var(--line)}
+.abas{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.abas .btn.on{background:var(--accent);color:#fbf3df}
+.busca{width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.6);margin-bottom:10px}
+.opcoes{display:grid;gap:6px}
+.opcao{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:9px;align-items:center;padding:7px 9px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.4)}
+.opcao .retrato{width:38px;height:38px;border-radius:9px;font-size:14px}
+.opcao.ja{opacity:.5}
+.opcao-conf{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);flex-wrap:wrap;justify-content:flex-end}
+.opcao-conf input[type=number]{width:52px;padding:3px 6px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.7)}
+.campo{display:grid;gap:4px;margin-bottom:10px;font-size:13px}
+.campo input{padding:8px 11px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.65)}
+.erro{color:var(--red);font-size:13px;min-height:1.2em}
+.dica{font-size:12px;color:var(--muted)}
+
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,16px);padding:10px 16px;border-radius:999px;background:var(--tip);color:var(--tip-ink);
+  font-size:13px;box-shadow:0 12px 30px rgba(20,12,6,.4);opacity:0;transition:opacity .2s,transform .3s var(--spring);pointer-events:none;z-index:50}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+@keyframes cardIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(212,165,90,.25)}}
+@keyframes bump{50%{transform:scale(1.18)}}
+@keyframes flash{30%{box-shadow:0 0 0 3px rgba(212,165,90,.7)}}
+@keyframes float{50%{transform:translateY(-7px) rotate(-4deg)}}
+
+@media(max-width:620px){
+  body{padding:14px 10px 40px}
+  .brand h1{font-size:27px}
+  .brand-icon{width:44px;height:44px;border-radius:13px}
+  .sheet{padding:13px;border-radius:16px}
+  .card{grid-template-columns:26px 40px minmax(0,1fr);gap:8px;padding:9px}
+  .pos{width:26px;height:26px;font-size:12px}
+  .retrato{width:40px;height:40px;font-size:15px}
+  .lateral{grid-column:1/-1;justify-content:flex-end;flex-wrap:wrap}
+  .opcao{grid-template-columns:32px minmax(0,1fr)}
+  .opcao .retrato{width:32px;height:32px}
+  .opcao-conf{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+<link rel="stylesheet" href="encanto.css">
+</head>
+<body>
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="iconeEspadas" viewBox="0 0 64 64">
+    <defs>
+      <linearGradient id="lamina" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4ecdc"/><stop offset="1" stop-color="#a99a83"/></linearGradient>
+      <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d58e"/><stop offset="1" stop-color="#b37f2e"/></linearGradient>
+    </defs>
+    <path d="M10 8 L14 6 L42 34 L38 38 Z" fill="url(#lamina)" stroke="#4a3a28" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M54 8 L50 6 L22 34 L26 38 Z" fill="url(#lamina)" stroke="#4a3a28" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect x="33" y="36" width="14" height="4.5" rx="2" transform="rotate(45 40 38)" fill="url(#ouro)" stroke="#5c3b10" stroke-width="1.2"/>
+    <rect x="17" y="36" width="14" height="4.5" rx="2" transform="rotate(-45 24 38)" fill="url(#ouro)" stroke="#5c3b10" stroke-width="1.2"/>
+    <path d="M41 42 L49 50" stroke="#5e3b1c" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M23 42 L15 50" stroke="#5e3b1c" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="51" cy="52" r="3.4" fill="url(#ouro)" stroke="#5c3b10" stroke-width="1.2"/>
+    <circle cx="13" cy="52" r="3.4" fill="url(#ouro)" stroke="#5c3b10" stroke-width="1.2"/>
+  </symbol>
+</svg>
+
+<div class="app">
+  <div class="top">
+    <div class="brand">
+      <div class="brand-icon" aria-hidden="true"><svg><use href="#iconeEspadas"/></svg></div>
+      <div><h1>Gerenciador de Combate</h1><small>Ordem de iniciativa, vida e condições</small></div>
+    </div>
+    <div class="conta">
+      <a class="btn small" href="portal/index.html">← Portal</a>
+      <span id="contaPill" class="pill">Desconectado</span>
+      <button id="btnSair" class="btn small" type="button" hidden>Sair</button>
+    </div>
+  </div>
+  <div class="ornament">✦</div>
+
+  <main class="sheet">
+    <div id="avisoMestreBanco" class="aviso" hidden>
+      Para ver PV de NPCs e monstros, entre também no banco de NPCs.
+      <button id="btnEntrarBancoNpc" class="btn small" type="button">Entrar no banco de NPCs</button>
+    </div>
+
+    <div id="semLogin" class="vazio" hidden>
+      <span class="icone"><svg><use href="#iconeEspadas"/></svg></span>
+      <p><strong>Entre para ver o combate.</strong></p>
+      <p class="dica">Use o mesmo usuário e senha da sua ficha.</p>
+      <button id="btnAbrirLogin" class="btn primary" type="button">Entrar</button>
+    </div>
+
+    <div id="semCombate" class="vazio" hidden>
+      <span class="icone"><svg><use href="#iconeEspadas"/></svg></span>
+      <p><strong>Nenhum combate em andamento.</strong></p>
+      <p class="dica" id="semCombateDica">Quando o Mestre iniciar um combate, ele aparece aqui.</p>
+      <button id="btnNovoCombate" class="btn primary" type="button" hidden>Iniciar combate</button>
+    </div>
+
+    <section id="painelCombate" hidden>
+      <div class="combate-head">
+        <div><span class="combate-nome" id="combateNome">Combate</span><span class="rodada" id="rodada">Rodada 1</span></div>
+        <div class="acoes" id="acoesMestre" hidden>
+          <button id="btnAdicionar" class="btn" type="button">+ Adicionar</button>
+          <button id="btnRolarInimigos" class="btn" type="button" title="Rola 1d20 para NPCs e monstros sem iniciativa">🎲 Rolar inimigos</button>
+          <button id="btnAnterior" class="btn" type="button" title="Turno anterior">◀</button>
+          <button id="btnProximo" class="btn primary" type="button">Próximo turno ▶</button>
+          <button id="btnEncerrar" class="btn danger" type="button">Encerrar</button>
+        </div>
+      </div>
+      <ul class="lista" id="lista"></ul>
+    </section>
+  </main>
+</div>
+
+<!-- login -->
+<dialog id="dlgLogin">
+  <form id="formLogin" method="dialog">
+    <div class="dlg-head"><h2>Entrar</h2><button class="btn small" type="button" data-fechar>✕</button></div>
+    <div class="dlg-body">
+      <label class="campo">Usuário<input id="loginUsuario" autocomplete="username" required></label>
+      <label class="campo">Senha<input id="loginSenha" type="password" autocomplete="current-password" required></label>
+      <div class="erro" id="loginErro"></div>
+      <p class="dica">Jogadores: o mesmo login da ficha. Mestre: o login de Mestre.</p>
+    </div>
+    <div class="dlg-foot"><button class="btn primary" type="submit">Entrar</button></div>
+  </form>
+</dialog>
+
+<!-- login no banco de NPCs (Npcs Do Mestre) -->
+<dialog id="dlgLoginNpc">
+  <form id="formLoginNpc" method="dialog">
+    <div class="dlg-head"><h2>Banco de NPCs</h2><button class="btn small" type="button" data-fechar>✕</button></div>
+    <div class="dlg-body">
+      <label class="campo">Usuário<input id="npcUsuario" autocomplete="username" required></label>
+      <label class="campo">Senha<input id="npcSenha" type="password" autocomplete="current-password" required></label>
+      <div class="erro" id="npcErro"></div>
+      <p class="dica">O mesmo login da biblioteca de NPCs e do Monstruário.</p>
+    </div>
+    <div class="dlg-foot"><button class="btn primary" type="submit">Entrar</button></div>
+  </form>
+</dialog>
+
+<!-- adicionar participantes -->
+<dialog id="dlgAdicionar">
+  <div class="dlg-head"><h2>Adicionar ao combate</h2><button class="btn small" type="button" data-fechar>✕</button></div>
+  <div class="dlg-body">
+    <div class="abas" id="abasAdicionar">
+      <button class="btn small on" type="button" data-aba="jogador">Jogadores</button>
+      <button class="btn small" type="button" data-aba="npc">NPCs</button>
+      <button class="btn small" type="button" data-aba="monstro">Monstros</button>
+    </div>
+    <input class="busca" id="buscaAdicionar" type="search" placeholder="Buscar pelo nome…">
+    <div class="opcoes" id="opcoesAdicionar"></div>
+  </div>
+  <div class="dlg-foot"><span class="dica" style="margin-right:auto">“Cópias” criam versões só deste combate; a ficha original não muda.</span><button class="btn" type="button" data-fechar>Fechar</button></div>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ============================================================
+   Gerenciador de Combate
+   - Batalha e ordem ficam em Projeto Players (batalhas/*).
+   - PV/PM de jogadores: só leitura, vindos da ficha.
+   - PV/PM de cópias de monstro: batalha_estado_privado (só Mestre).
+   - Fichas de NPC/monstro originais NÃO são alteradas por esta página.
+   ============================================================ */
+const URL_PLAYERS = "https://drkcfrhjgkztdtneuofr.supabase.co";
+const KEY_PLAYERS = "sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY";
+const URL_MESTRE = "https://deugjkzscsbmpahlrlpr.supabase.co";
+const KEY_MESTRE = "sb_publishable_WZiiRJhBAqPU_Ea3aEgamg_17v0qKXS";
+
+// Sessão própria nesta página: entrar aqui não troca a conta da ficha aberta.
+const sbP = supabase.createClient(URL_PLAYERS, KEY_PLAYERS, { auth: { storageKey: "la-magie-combate" } });
+// Mesma sessão da biblioteca de NPCs / Monstruário (já logado lá = logado aqui).
+const sbM = supabase.createClient(URL_MESTRE, KEY_MESTRE);
+
+const $ = id => document.getElementById(id);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const reduzMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const params = new URLSearchParams(location.search);
+
+let usuario = null, mestre = false, temBancoNpc = false;
+let batalha = null, participantes = [], privado = new Map(), condicoesJogador = new Map();
+const fichas = new Map(), resumos = new Map(), npcs = new Map(), monstros = new Map(), fichaCondMestre = new Map();
+let codice = [];
+const abertos = new Set();
+let jaRenderizados = new Set();
+let pedidoAdicionar = params.get("adicionar"); // ex.: "npc:<id>" vindo da ficha
+
+/* ---------- utilidades ---------- */
+function aviso(texto) {
+  const t = $("toast");
+  t.textContent = texto;
+  t.classList.add("show");
+  clearTimeout(aviso._t);
+  aviso._t = setTimeout(() => t.classList.remove("show"), 2600);
+}
+const normalizar = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+const mod = v => Math.floor((Number(v ?? 10) - 10) / 2);
+const num = v => { const n = Number(v); return Number.isFinite(n) ? n : null; };
+const iniciais = nome => String(nome || "?").trim().split(/\s+/).slice(0, 2).map(p => p[0]).join("").toUpperCase();
+const fmt = n => (n > 0 ? "+" : "") + n;
+
+// Recurso de mana: "PM", "Mana", "MANA", "Pontos de Mana (PM)…"
+function acharMana(recursos) {
+  if (!Array.isArray(recursos)) return null;
+  const r = recursos.find(x => {
+    const nome = normalizar(x?.name ?? x?.nome);
+    return /\bpm\b/.test(nome) || nome.includes("mana");
+  });
+  if (!r) return null;
+  const atual = num(r.current ?? r.atual), max = num(r.max ?? r.maximo);
+  if (atual === null && max === null) return null;
+  return { atual: atual ?? 0, max: max ?? atual ?? 0 };
+}
+
+/* ---------- valores de cada participante (PV/PM/bônus) ---------- */
+function statsDe(p) {
+  if (p.instancia) {
+    const e = privado.get(p.id);
+    if (!e) return null;
+    return {
+      pv: { atual: e.pv_atual ?? 0, max: e.pv_max ?? e.pv_atual ?? 0 },
+      pm: e.pm_max != null ? { atual: e.pm_atual ?? 0, max: e.pm_max } : null,
+      editavel: true
+    };
+  }
+  if (p.tipo === "jogador") {
+    const f = fichas.get(p.origem_id);
+    if (!f) return null;
+    const r = resumos.get(p.origem_id);
+    const maxEstimado = (num(f.pv_base_nivel_1) ?? 0) + (num(f.pv_por_nivel) ?? 0) * Math.max(0, (num(f.nivel) ?? 1) - 1);
+    const pm = r?.pm_max != null ? { atual: r.pm_atual ?? 0, max: r.pm_max } : acharMana(f.conteudo_dinamico?.recursos);
+    return { pv: { atual: num(f.vida_atual) ?? 0, max: r?.pv_max ?? maxEstimado, estimado: r?.pv_max == null }, pm, editavel: false };
+  }
+  if (p.tipo === "npc") {
+    const n = npcs.get(p.origem_id);
+    const ficha = n?.dados?.ficha;
+    if (!ficha) return null;
+    const maxCampo = num(n.dados?.resumo_combate?.pv_max) ?? num(ficha.vida_max) ?? num(n.dados?.vida_maxima) ?? num(n.dados?.pv_total);
+    const maxEstimado = (num(ficha.pv_base_nivel_1) ?? 0) + (num(ficha.pv_por_nivel) ?? 0) * Math.max(0, (num(ficha.nivel) ?? 1) - 1);
+    let pm = acharMana(ficha.conteudo_dinamico?.recursos);
+    if (!pm && (num(ficha.mana_max) ?? 0) > 0) pm = { atual: num(ficha.mana_atual) ?? 0, max: num(ficha.mana_max) };
+    return { pv: { atual: num(ficha.vida_atual) ?? 0, max: maxCampo ?? maxEstimado, estimado: maxCampo == null }, pm, editavel: false };
+  }
+  if (p.tipo === "monstro") {
+    const m = monstros.get(p.origem_id);
+    const ficha = m?.dados?.ficha;
+    if (!ficha) return null;
+    return { pv: { atual: num(ficha.vida_atual) ?? 0, max: num(ficha.vida_maxima) ?? num(ficha.vida_atual) ?? 0 }, pm: null, editavel: false };
+  }
+  return null;
+}
+
+
+/* ---------- ordem ---------- */
+function ordenados() {
+  return [...participantes].sort((a, b) =>
+    (b.iniciativa ?? -999) - (a.iniciativa ?? -999) ||
+    (a.ordem ?? 0) - (b.ordem ?? 0) ||
+    String(a.nome).localeCompare(String(b.nome), "pt-BR"));
+}
+
+/* ---------- carregar ---------- */
+async function carregarTudo() {
+  if (!usuario) { render(); return; }
+  const { data: bs, error } = await sbP.from("batalhas").select("*").eq("ativa", true).order("criado_em", { ascending: false }).limit(1);
+  if (error) { console.error(error); aviso("Erro ao carregar o combate."); return; }
+  batalha = bs?.[0] || null;
+  participantes = [];
+  privado = new Map();
+  if (batalha) {
+    const { data: ps } = await sbP.from("batalha_participantes").select("*").eq("batalha_id", batalha.id);
+    participantes = ps || [];
+    if (mestre && participantes.length) {
+      const { data: es } = await sbP.from("batalha_estado_privado").select("*").in("participante_id", participantes.map(p => p.id));
+      (es || []).forEach(e => privado.set(e.participante_id, e));
+    }
+    await Promise.all([carregarCondicoes(), mestre ? carregarFontes() : null]);
+  }
+  render();
+}
+
+async function carregarCondicoes() {
+  condicoesJogador = new Map();
+  if (!batalha) return;
+  const { data, error } = await sbP.rpc("condicoes_da_batalha", { p_batalha: batalha.id });
+  if (error) { console.error(error); return; }
+  (data || []).forEach(c => {
+    if (!condicoesJogador.has(c.participante_id)) condicoesJogador.set(c.participante_id, []);
+    condicoesJogador.get(c.participante_id).push(c);
+  });
+}
+
+async function carregarFontes() {
+  const idsFicha = participantes.filter(p => p.tipo === "jogador").map(p => p.origem_id).filter(Boolean);
+  const idsNpc = participantes.filter(p => p.tipo === "npc" && !p.instancia).map(p => p.origem_id).filter(Boolean);
+  const idsMonstro = participantes.filter(p => p.tipo === "monstro" && !p.instancia).map(p => p.origem_id).filter(Boolean);
+  const tarefas = [];
+  if (idsFicha.length) {
+    tarefas.push(sbP.from("fichas").select("id,nome,nome_personagem,retrato_url,vida_atual,nivel,pv_base_nivel_1,pv_por_nivel,destreza,conteudo_dinamico").in("id", idsFicha)
+      .then(({ data }) => (data || []).forEach(f => fichas.set(f.id, f))));
+    tarefas.push(sbP.from("ficha_resumo_combate").select("*").in("ficha_id", idsFicha)
+      .then(({ data }) => (data || []).forEach(r => resumos.set(r.ficha_id, r))));
+  }
+  if (temBancoNpc && idsNpc.length) {
+    tarefas.push(sbM.from("npcs").select("id,nome,retrato,dados").in("id", idsNpc)
+      .then(({ data }) => (data || []).forEach(n => npcs.set(n.id, n))));
+  }
+  if (temBancoNpc && idsMonstro.length) {
+    tarefas.push(sbM.from("monstros").select("id,nome,retrato,dados").in("id", idsMonstro)
+      .then(({ data }) => (data || []).forEach(m => monstros.set(m.id, m))));
+  }
+  await Promise.all(tarefas);
+}
+
+async function carregarCodice() {
+  const { data } = await sbP.from("condicoes").select("id,nome,descricao,efeitos").eq("status", "aprovada").order("nome");
+  codice = data || [];
+}
+
+/* ---------- render ---------- */
+function render() {
+  $("semLogin").hidden = !!usuario;
+  $("semCombate").hidden = !usuario || !!batalha;
+  $("painelCombate").hidden = !usuario || !batalha;
+  $("btnNovoCombate").hidden = !mestre;
+  $("semCombateDica").textContent = mestre ? "Inicie um combate para montar a ordem de iniciativa." : "Quando o Mestre iniciar um combate, ele aparece aqui.";
+  $("acoesMestre").hidden = !mestre;
+  $("avisoMestreBanco").hidden = !(mestre && !temBancoNpc);
+  if (!usuario || !batalha) { jaRenderizados = new Set(); return; }
+
+  $("combateNome").textContent = batalha.nome || "Combate";
+  const rod = $("rodada");
+  const textoRodada = `Rodada ${batalha.rodada}`;
+  if (rod.textContent !== textoRodada) { rod.textContent = textoRodada; rod.classList.remove("bump"); void rod.offsetWidth; rod.classList.add("bump"); }
+
+  const ul = $("lista");
+  const lista = ordenados();
+  if (!lista.length) {
+    ul.innerHTML = `<li class="vazio" style="padding:26px 10px">${mestre ? "Adicione jogadores, NPCs e monstros com “+ Adicionar”." : "O Mestre ainda está montando o combate."}</li>`;
+    jaRenderizados = new Set();
+    return;
+  }
+  const foco = document.activeElement?.dataset?.focoId;
+  ul.innerHTML = lista.map((p, i) => cardHtml(p, i)).join("");
+  ul.querySelectorAll(".card").forEach((li, i) => {
+    if (!jaRenderizados.has(li.dataset.id) && !reduzMovimento) { li.classList.add("entrando"); li.style.setProperty("--i", jaRenderizados.size ? 0 : i); }
+  });
+  jaRenderizados = new Set(lista.map(p => p.id));
+  if (foco) ul.querySelector(`[data-foco-id="${CSS.escape(foco)}"]`)?.focus();
+}
+
+function condicoesDe(p) {
+  return p.tipo === "jogador" && !p.instancia ? (condicoesJogador.get(p.id) || []) : (Array.isArray(p.condicoes) ? p.condicoes : []);
+}
+
+function barraHtml(tipo, atual, max, estimado) {
+  const pct = max > 0 ? Math.max(0, Math.min(100, (atual / max) * 100)) : 0;
+  const nivel = tipo === "pv" ? (pct <= 25 ? " baixa" : pct <= 55 ? " media" : "") : "";
+  return `<div class="barra-linha" title="${tipo === "pv" ? "Pontos de vida" : "Mana"}${estimado ? " (máximo estimado)" : ""}">
+    <div class="barra ${tipo}${nivel}"><span style="width:${pct}%"></span></div>
+    <em>${tipo.toUpperCase()} <b>${atual}</b> / ${max}${estimado ? "≈" : ""}</em></div>`;
+}
+
+function cardHtml(p, i) {
+  const conds = condicoesDe(p);
+  const turno = batalha.turno_participante_id === p.id;
+  const st = mestre ? statsDe(p) : null;
+  const retratoUrl = p.retrato || (p.tipo === "jogador" ? fichas.get(p.origem_id)?.retrato_url : "");
+  const tipoTxt = { jogador: "Jogador", npc: "NPC", monstro: "Monstro" }[p.tipo] + (p.instancia ? " · cópia" : "");
+  const caido = st && st.pv.atual <= 0;
+
+  let barras = "";
+  if (mestre) {
+    if (st) {
+      barras = `<div class="barras">${barraHtml("pv", st.pv.atual, st.pv.max, st.pv.estimado)}${st.pm ? barraHtml("pm", st.pm.atual, st.pm.max) : ""}</div>`;
+      if (st.editavel) barras += `<div class="ajuste"><input type="number" placeholder="±PV" data-ajuste="${p.id}" data-foco-id="aj-${p.id}" title="Dano (negativo) ou cura (positivo)"><button class="btn small" type="button" data-aplicar="${p.id}">Aplicar</button></div>`;
+    } else {
+      const motivo = p.tipo !== "jogador" && !temBancoNpc ? "entre no banco de NPCs" : "sem acesso a esta ficha";
+      barras = `<div class="dica" style="margin-top:5px">PV indisponível (${motivo})</div>`;
+    }
+  }
+
+  const iniciativa = mestre
+    ? `<input type="number" value="${p.iniciativa ?? ""}" data-ini="${p.id}" data-foco-id="ini-${p.id}" aria-label="Iniciativa de ${esc(p.nome)}">`
+    : `<strong>${p.iniciativa ?? "—"}</strong>`;
+
+  const tagsCond = conds.slice(0, 3).map(c => `<span class="tag cond">${esc(c.nome)}</span>`).join("") + (conds.length > 3 ? `<span class="tag cond">+${conds.length - 3}</span>` : "");
+
+  const listaCond = conds.length
+    ? conds.map((c, idx) => `<div class="condicao">${mestre && p.tipo !== "jogador" ? `<button class="remover" type="button" data-remover-cond="${p.id}" data-idx="${idx}" title="Remover">✕</button>` : ""}<strong>${esc(c.nome)}</strong>${c.descricao ? `<p>${esc(c.descricao)}</p>` : ""}</div>`).join("")
+    : `<div class="dica">Sem condições.</div>`;
+  const addCond = mestre && p.tipo !== "jogador"
+    ? `<div class="add-cond"><select data-sel-cond="${p.id}"><option value="">Adicionar condição do Códice…</option>${codice.map(c => `<option value="${c.id}">${esc(c.nome)}</option>`).join("")}</select><button class="btn small" type="button" data-add-cond="${p.id}">Adicionar</button></div>`
+    : (mestre ? `<div class="dica" style="margin-top:6px">Condições de jogador vêm da ficha dele.</div>` : "");
+
+  const menu = mestre ? `<div class="menu-admin">
+      <button class="icone-btn" type="button" data-rolar="${p.id}" title="Rolar 1d20">🎲</button>
+      <button class="icone-btn${p.oculto ? " ativo" : ""}" type="button" data-ocultar="${p.id}" title="${p.oculto ? "Oculto dos jogadores — clique para revelar" : "Ocultar dos jogadores"}">${p.oculto ? "🙈" : "👁"}</button>
+      <button class="icone-btn" type="button" data-remover="${p.id}" title="Remover do combate">✕</button>
+    </div>` : "";
+
+  return `<li class="card${turno ? " turno" : ""}${p.oculto ? " oculto" : ""}${abertos.has(p.id) ? " aberto" : ""}${caido ? " caido" : ""}" data-id="${p.id}" data-tipo="${p.tipo}">
+    <div class="pos">${i + 1}</div>
+    ${retratoUrl ? `<img class="retrato" src="${esc(retratoUrl)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : `<div class="retrato">${esc(iniciais(p.nome))}</div>`}
+    <div class="info">
+      <div class="nome">${esc(p.nome)}</div>
+      <div class="sub"><span class="tag">${tipoTxt}</span>${p.oculto ? `<span class="tag">oculto</span>` : ""}${tagsCond}</div>
+      ${barras}
+    </div>
+    <div class="lateral">
+      <div class="ini"><small>Iniciativa</small>${iniciativa}</div>
+      <button class="icone-btn" type="button" data-expandir="${p.id}" title="Condições" aria-expanded="${abertos.has(p.id)}">✦${conds.length ? `<span class="n">${conds.length}</span>` : ""}</button>
+      ${menu}
+    </div>
+    <div class="painel"><div><div class="painel-inner"><h4>Condições</h4>${listaCond}${addCond}</div></div></div>
+  </li>`;
+}
+
+/* ---------- ações do Mestre ---------- */
+async function salvarParticipante(id, campos) {
+  const { error } = await sbP.from("batalha_participantes").update(campos).eq("id", id);
+  if (error) { console.error(error); aviso("Não foi possível salvar."); return false; }
+  const p = participantes.find(x => x.id === id);
+  if (p) Object.assign(p, campos);
+  return true;
+}
+
+async function salvarBatalha(campos) {
+  const { error } = await sbP.from("batalhas").update({ ...campos, atualizado_em: new Date().toISOString() }).eq("id", batalha.id);
+  if (error) { console.error(error); aviso("Não foi possível salvar."); return false; }
+  Object.assign(batalha, campos);
+  return true;
+}
+
+async function mudarTurno(direcao) {
+  const lista = ordenados();
+  if (!lista.length) return;
+  const idx = lista.findIndex(p => p.id === batalha.turno_participante_id);
+  let novoIdx = idx + direcao, rodada = batalha.rodada;
+  if (idx === -1) novoIdx = 0;
+  else if (novoIdx >= lista.length) { novoIdx = 0; rodada++; }
+  else if (novoIdx < 0) { novoIdx = lista.length - 1; rodada = Math.max(1, rodada - 1); }
+  if (await salvarBatalha({ turno_participante_id: lista[novoIdx].id, rodada })) render();
+}
+
+$("btnProximo").addEventListener("click", () => mudarTurno(1));
+$("btnAnterior").addEventListener("click", () => mudarTurno(-1));
+
+$("btnNovoCombate").addEventListener("click", async () => {
+  const nome = (prompt("Nome do combate:", "Combate") || "").trim();
+  if (!nome) return;
+  const { data, error } = await sbP.from("batalhas").insert({ nome }).select().single();
+  if (error) { console.error(error); aviso("Não foi possível iniciar o combate."); return; }
+  batalha = data; participantes = [];
+  render();
+  if (pedidoAdicionar) processarPedidoAdicionar(); else abrirAdicionar("jogador");
+});
+
+$("btnEncerrar").addEventListener("click", async () => {
+  if (!confirm("Encerrar este combate?\n\nAs fichas originais não mudam; só a ordem e as cópias deste combate deixam de aparecer.")) return;
+  if (await salvarBatalha({ ativa: false })) { batalha = null; participantes = []; render(); aviso("Combate encerrado."); }
+});
+
+$("btnRolarInimigos").addEventListener("click", async () => {
+  const alvos = participantes.filter(p => p.tipo !== "jogador" && p.iniciativa == null);
+  if (!alvos.length) { aviso("Todos os inimigos já têm iniciativa."); return; }
+  await Promise.all(alvos.map(p => salvarParticipante(p.id, { iniciativa: rolar(p) })));
+  render();
+  aviso(`${alvos.length} iniciativa(s) rolada(s).`);
+});
+
+// O bônus das fichas não é confiável aqui (ex.: perícia Iniciativa): rola só o d20.
+const rolar = () => 1 + Math.floor(Math.random() * 20);
+
+$("lista").addEventListener("click", async e => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  const d = b.dataset;
+  if (d.expandir) {
+    abertos.has(d.expandir) ? abertos.delete(d.expandir) : abertos.add(d.expandir);
+    const li = b.closest(".card");
+    li.classList.toggle("aberto", abertos.has(d.expandir));
+    b.setAttribute("aria-expanded", abertos.has(d.expandir));
+    return;
+  }
+  if (!mestre) return;
+  if (d.rolar) {
+    const p = participantes.find(x => x.id === d.rolar);
+    const valor = rolar(p);
+    if (await salvarParticipante(p.id, { iniciativa: valor })) { render(); aviso(`${p.nome}: ${valor} (1d20)`); }
+  } else if (d.ocultar) {
+    const p = participantes.find(x => x.id === d.ocultar);
+    if (await salvarParticipante(p.id, { oculto: !p.oculto })) render();
+  } else if (d.remover) {
+    const p = participantes.find(x => x.id === d.remover);
+    const texto = p.instancia ? `Remover “${p.nome}” do combate? (é só uma cópia deste combate)` : `Remover “${p.nome}” do combate? A ficha não muda.`;
+    if (!confirm(texto)) return;
+    const { error } = await sbP.from("batalha_participantes").delete().eq("id", p.id);
+    if (error) { console.error(error); aviso("Não foi possível remover."); return; }
+    participantes = participantes.filter(x => x.id !== p.id);
+    render();
+  } else if (d.aplicar) {
+    aplicarAjuste(d.aplicar);
+  } else if (d.addCond) {
+    const sel = document.querySelector(`[data-sel-cond="${CSS.escape(d.addCond)}"]`);
+    const c = codice.find(x => x.id === sel?.value);
+    if (!c) return;
+    const p = participantes.find(x => x.id === d.addCond);
+    const atuais = Array.isArray(p.condicoes) ? p.condicoes : [];
+    if (atuais.some(x => x.id === c.id)) { aviso("Já tem essa condição."); return; }
+    if (await salvarParticipante(p.id, { condicoes: [...atuais, { id: c.id, nome: c.nome, descricao: c.descricao || "", efeitos: c.efeitos || [] }] })) render();
+  } else if (d.removerCond) {
+    const p = participantes.find(x => x.id === d.removerCond);
+    const atuais = Array.isArray(p.condicoes) ? [...p.condicoes] : [];
+    atuais.splice(Number(d.idx), 1);
+    if (await salvarParticipante(p.id, { condicoes: atuais })) render();
+  }
+});
+
+$("lista").addEventListener("change", async e => {
+  const id = e.target.dataset.ini;
+  if (!id || !mestre) return;
+  const valor = e.target.value === "" ? null : Math.trunc(Number(e.target.value));
+  if (await salvarParticipante(id, { iniciativa: valor })) render();
+});
+
+$("lista").addEventListener("keydown", e => {
+  if (e.key === "Enter" && e.target.dataset.ajuste) aplicarAjuste(e.target.dataset.ajuste);
+});
+
+// Dano/cura só em cópias (estado privado deste combate); a ficha original não muda.
+async function aplicarAjuste(id) {
+  const input = document.querySelector(`[data-ajuste="${CSS.escape(id)}"]`);
+  const delta = Math.trunc(Number(input?.value || 0));
+  if (!delta) return;
+  const e = privado.get(id);
+  if (!e) return;
+  const novo = Math.max(0, Math.min(e.pv_max ?? Infinity, (e.pv_atual ?? 0) + delta));
+  const { error } = await sbP.from("batalha_estado_privado").update({ pv_atual: novo, atualizado_em: new Date().toISOString() }).eq("participante_id", id);
+  if (error) { console.error(error); aviso("Não foi possível salvar o PV."); return; }
+  e.pv_atual = novo;
+  render();
+  document.querySelector(`.card[data-id="${CSS.escape(id)}"] .barra.pv`)?.classList.add("flash");
+}
+
+/* ---------- adicionar participantes ---------- */
+let abaAdicionar = "jogador";
+const catalogo = { jogador: [], npc: [], monstro: [] };
+
+async function carregarCatalogo(tipo) {
+  if (tipo === "jogador") {
+    const { data } = await sbP.from("fichas").select("id,nome,nome_personagem,retrato_url,destreza").order("nome_personagem");
+    catalogo.jogador = data || [];
+    const ids = catalogo.jogador.map(f => f.id);
+    if (ids.length) {
+      const { data: rs } = await sbP.from("ficha_resumo_combate").select("*").in("ficha_id", ids);
+      (rs || []).forEach(r => resumos.set(r.ficha_id, r));
+    }
+  } else if (temBancoNpc) {
+    const { data } = await sbM.from(tipo === "npc" ? "npcs" : "monstros").select("id,nome,retrato,dados").order("nome");
+    catalogo[tipo] = data || [];
+  }
+}
+
+function abrirAdicionar(tipo = abaAdicionar) {
+  abaAdicionar = tipo;
+  document.querySelectorAll("#abasAdicionar [data-aba]").forEach(b => b.classList.toggle("on", b.dataset.aba === tipo));
+  $("buscaAdicionar").value = "";
+  if (!$("dlgAdicionar").open) $("dlgAdicionar").showModal();
+  $("opcoesAdicionar").innerHTML = `<div class="dica">Carregando…</div>`;
+  carregarCatalogo(tipo).then(desenharOpcoes);
+}
+
+function desenharOpcoes() {
+  const tipo = abaAdicionar, termo = normalizar($("buscaAdicionar").value);
+  const box = $("opcoesAdicionar");
+  if (tipo !== "jogador" && !temBancoNpc) {
+    box.innerHTML = `<div class="dica">Entre no banco de NPCs para listar NPCs e monstros.</div>`;
+    return;
+  }
+  const itens = catalogo[tipo].filter(it => normalizar(it.nome_personagem || it.nome).includes(termo));
+  if (!itens.length) { box.innerHTML = `<div class="dica">Nada encontrado.</div>`; return; }
+  box.innerHTML = itens.slice(0, 80).map(it => {
+    const nome = tipo === "jogador" ? (it.nome_personagem || it.nome) : it.nome;
+    const retrato = tipo === "jogador" ? it.retrato_url : (it.retrato || it.dados?.ficha?.retrato_url);
+    const jaEsta = participantes.some(p => p.tipo === tipo && p.origem_id === it.id && !p.instancia);
+    // padrão: NPC é único, monstro gera cópias (a opção da ficha pode mudar isso)
+    const multiplo = tipo === "monstro" ? (it.dados?.combate_multiplo !== false) : (tipo === "npc" && it.dados?.combate_multiplo === true);
+    const conf = tipo === "jogador" ? "" : `
+      <label><input type="checkbox" data-multi ${multiplo ? "checked" : ""}> cópias</label>
+      <label>qtd <input type="number" min="1" max="20" value="1" data-qtd></label>`;
+    return `<div class="opcao${jaEsta ? " ja" : ""}" data-add-id="${esc(it.id)}">
+      ${retrato ? `<img class="retrato" src="${esc(retrato)}" alt="" loading="lazy">` : `<div class="retrato">${esc(iniciais(nome))}</div>`}
+      <div><div class="nome" style="font-size:14px">${esc(nome)}</div><div class="dica">${jaEsta ? "já está no combate" : (tipo === "jogador" ? "Jogador" : tipo === "npc" ? "NPC" : "Monstro")}</div></div>
+      <div class="opcao-conf">${conf}<label><input type="checkbox" data-oculto> oculto</label><button class="btn small primary" type="button" data-confirmar>Adicionar</button></div>
+    </div>`;
+  }).join("");
+}
+
+$("abasAdicionar").addEventListener("click", e => { const b = e.target.closest("[data-aba]"); if (b) abrirAdicionar(b.dataset.aba); });
+$("buscaAdicionar").addEventListener("input", desenharOpcoes);
+$("btnAdicionar").addEventListener("click", () => abrirAdicionar());
+
+$("opcoesAdicionar").addEventListener("click", async e => {
+  const b = e.target.closest("[data-confirmar]");
+  if (!b) return;
+  const linha = b.closest("[data-add-id]");
+  const it = catalogo[abaAdicionar].find(x => String(x.id) === linha.dataset.addId);
+  if (!it) return;
+  const multi = linha.querySelector("[data-multi]")?.checked ?? false;
+  const qtd = Math.max(1, Math.min(20, Math.trunc(Number(linha.querySelector("[data-qtd]")?.value || 1))));
+  const oculto = linha.querySelector("[data-oculto]")?.checked ?? false;
+  b.disabled = true;
+  await adicionar(abaAdicionar, it, { multi, qtd, oculto });
+  b.disabled = false;
+  desenharOpcoes();
+});
+
+async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = {}) {
+  if (!batalha) return;
+  const nomeBase = tipo === "jogador" ? (it.nome_personagem || it.nome || "Jogador") : (it.nome || "Sem nome");
+  const retrato = tipo === "jogador" ? (it.retrato_url || "") : (it.retrato || it.dados?.ficha?.retrato_url || "");
+  const proxOrdem = participantes.reduce((m, p) => Math.max(m, p.ordem ?? 0), 0) + 1;
+
+  if (tipo === "jogador" || !multi) {
+    if (participantes.some(p => p.tipo === tipo && p.origem_id === String(it.id) && !p.instancia)) { aviso(`${nomeBase} já está no combate.`); return; }
+    const { data, error } = await sbP.from("batalha_participantes").insert({
+      batalha_id: batalha.id, tipo, origem_id: String(it.id), instancia: false, nome: nomeBase, retrato, ordem: proxOrdem, oculto
+    }).select().single();
+    if (error) { console.error(error); aviso("Não foi possível adicionar."); return; }
+    participantes.push(data);
+  } else {
+    // cópias: só existem neste combate, com PV próprio
+    const ficha = it.dados?.ficha || {};
+    const pvMax = tipo === "monstro" ? (num(ficha.vida_maxima) ?? num(ficha.vida_atual) ?? 1)
+      : (num(it.dados?.resumo_combate?.pv_max) ?? num(ficha.vida_max) ?? num(it.dados?.vida_maxima) ?? num(ficha.vida_atual) ?? 1);
+    const mana = tipo === "npc" ? acharMana(ficha.conteudo_dinamico?.recursos) : null;
+    const existentes = participantes.filter(p => p.origem_id === String(it.id) && p.instancia).length;
+    const linhas = Array.from({ length: qtd }, (_, k) => ({
+      batalha_id: batalha.id, tipo, origem_id: String(it.id), instancia: true, nome: `${nomeBase} ${existentes + k + 1}`,
+      retrato, ordem: proxOrdem + k, oculto
+    }));
+    const { data, error } = await sbP.from("batalha_participantes").insert(linhas).select();
+    if (error) { console.error(error); aviso("Não foi possível adicionar."); return; }
+    const estados = data.map(p => ({ participante_id: p.id, pv_atual: pvMax, pv_max: pvMax, pm_atual: mana?.max ?? null, pm_max: mana?.max ?? null }));
+    const { error: e2 } = await sbP.from("batalha_estado_privado").insert(estados);
+    if (e2) console.error(e2);
+    participantes.push(...data);
+    estados.forEach(s => privado.set(s.participante_id, s));
+  }
+  if (tipo === "npc") npcs.set(it.id, it);
+  if (tipo === "monstro") monstros.set(it.id, it);
+  await carregarFontes();
+  render();
+  aviso(`${nomeBase}${multi && tipo !== "jogador" ? ` ×${qtd}` : ""} entrou no combate.`);
+}
+
+// Vindo do botão "Adicionar ao combate" da ficha de NPC/monstro
+async function processarPedidoAdicionar() {
+  if (!pedidoAdicionar || !mestre) return;
+  const [tipo, id] = pedidoAdicionar.split(":");
+  pedidoAdicionar = null;
+  history.replaceState(null, "", location.pathname);
+  if (!["npc", "monstro"].includes(tipo) || !id) return;
+  if (!temBancoNpc) { aviso("Entre no banco de NPCs para adicionar."); $("dlgLoginNpc").showModal(); pedidoAdicionar = `${tipo}:${id}`; return; }
+  if (!batalha) { aviso("Inicie um combate primeiro."); pedidoAdicionar = `${tipo}:${id}`; return; }
+  await abrirAdicionar(tipo);
+  await carregarCatalogo(tipo);
+  const it = catalogo[tipo].find(x => String(x.id) === id);
+  if (it) { $("buscaAdicionar").value = it.nome; desenharOpcoes(); }
+}
+
+/* ---------- login ---------- */
+document.querySelectorAll("[data-fechar]").forEach(b => b.addEventListener("click", () => b.closest("dialog").close()));
+$("btnAbrirLogin").addEventListener("click", () => $("dlgLogin").showModal());
+$("btnEntrarBancoNpc").addEventListener("click", () => $("dlgLoginNpc").showModal());
+
+$("formLogin").addEventListener("submit", async e => {
+  e.preventDefault();
+  const nome = $("loginUsuario").value.trim().toLowerCase(), senha = $("loginSenha").value;
+  $("loginErro").textContent = "";
+  const emails = nome.includes("@") ? [nome] : [`${nome}@mestre.rpg`, `${nome}@players.rpg`];
+  let ok = false;
+  for (const email of emails) {
+    const { error } = await sbP.auth.signInWithPassword({ email, password: senha });
+    if (!error) { ok = true; break; }
+  }
+  if (!ok) { $("loginErro").textContent = "Usuário ou senha inválidos."; return; }
+  $("dlgLogin").close();
+  $("loginSenha").value = "";
+  await iniciarSessao();
+  // Mestre: tenta entrar também no banco de NPCs com o mesmo login, se ainda não estiver
+  if (mestre && !temBancoNpc && !nome.includes("@")) {
+    const { error } = await sbM.auth.signInWithPassword({ email: `${nome}@mestre.rpg`, password: senha });
+    if (!error) { await verificarBancoNpc(); await carregarTudo(); }
+  }
+});
+
+$("formLoginNpc").addEventListener("submit", async e => {
+  e.preventDefault();
+  const nome = $("npcUsuario").value.trim().toLowerCase();
+  const email = nome.includes("@") ? nome : `${nome}@mestre.rpg`;
+  const { error } = await sbM.auth.signInWithPassword({ email, password: $("npcSenha").value });
+  if (error) { $("npcErro").textContent = "Usuário ou senha inválidos."; return; }
+  $("dlgLoginNpc").close();
+  $("npcSenha").value = "";
+  await verificarBancoNpc();
+  await carregarTudo();
+  processarPedidoAdicionar();
+});
+
+$("btnSair").addEventListener("click", async () => {
+  await sbP.auth.signOut();
+  usuario = null; mestre = false; batalha = null; participantes = [];
+  atualizarConta();
+  render();
+});
+
+async function verificarBancoNpc() {
+  const { data: { session } } = await sbM.auth.getSession();
+  temBancoNpc = !!session;
+}
+
+function atualizarConta() {
+  const pill = $("contaPill");
+  pill.classList.toggle("mestre", mestre);
+  pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : (usuario.email || "").split("@")[0];
+  $("btnSair").hidden = !usuario;
+}
+
+async function iniciarSessao() {
+  const { data: { session } } = await sbP.auth.getSession();
+  usuario = session?.user || null;
+  mestre = false;
+  if (usuario) {
+    const { data } = await sbP.rpc("eh_mestre");
+    mestre = data === true;
+  }
+  if (mestre) { await verificarBancoNpc(); await carregarCodice(); }
+  atualizarConta();
+  await carregarTudo();
+  ligarTempoReal();
+  if (pedidoAdicionar && mestre) processarPedidoAdicionar();
+}
+
+/* ---------- tempo real ---------- */
+let canais = [], recarregarTimer = null;
+// não redesenha enquanto o Mestre digita uma iniciativa ou dano
+const recarregar = () => {
+  clearTimeout(recarregarTimer);
+  recarregarTimer = setTimeout(() => {
+    if (document.activeElement?.closest?.("#lista input, #lista select")) { recarregar(); return; }
+    carregarTudo();
+  }, 250);
+};
+
+function ligarTempoReal() {
+  canais.forEach(c => c.unsubscribe());
+  canais = [];
+  if (!usuario) return;
+  const c1 = sbP.channel("combate-" + usuario.id)
+    .on("postgres_changes", { event: "*", schema: "public", table: "batalhas" }, recarregar)
+    .on("postgres_changes", { event: "*", schema: "public", table: "batalha_participantes" }, recarregar);
+  if (mestre) {
+    c1.on("postgres_changes", { event: "*", schema: "public", table: "batalha_estado_privado" }, recarregar)
+      .on("postgres_changes", { event: "*", schema: "public", table: "ficha_resumo_combate" }, recarregar)
+      .on("postgres_changes", { event: "UPDATE", schema: "public", table: "fichas" }, recarregar)
+      .on("postgres_changes", { event: "*", schema: "public", table: "ficha_condicoes" }, recarregar);
+  }
+  canais.push(c1.subscribe());
+  if (mestre && temBancoNpc) {
+    canais.push(sbM.channel("combate-npc-" + usuario.id)
+      .on("postgres_changes", { event: "UPDATE", schema: "public", table: "npcs" }, recarregar)
+      .on("postgres_changes", { event: "UPDATE", schema: "public", table: "monstros" }, recarregar)
+      .subscribe());
+  }
+}
+
+// Jogadores não recebem tempo real das condições de outras fichas: atualiza a cada 20 s.
+setInterval(() => { if (usuario && batalha && !mestre && !document.hidden) carregarCondicoes().then(render); }, 20000);
+
+iniciarSessao();
+</script>
+</body>
+</html>

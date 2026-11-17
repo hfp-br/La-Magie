@@ -2214,5 +2214,21 @@ $("logoutMonsterButton")
 
 iniciar();
 </script>
+
+<script id="combate-botao">
+/* Botão "Combate": abre o Gerenciador de Combate com este monstro selecionado.
+   Só abre outra página; não altera a ficha. */
+(() => {
+  const lugar = document.querySelector(".left-actions");
+  const id = new URLSearchParams(location.search).get("id");
+  if (!lugar || !id) return;
+  const botao = document.createElement("button");
+  botao.type = "button";
+  botao.title = "Adicionar este monstro ao combate";
+  botao.textContent = "⚔ Combate";
+  botao.addEventListener("click", () => window.open(`combate.html?adicionar=monstro:${encodeURIComponent(id)}`, "_blank", "noopener"));
+  lugar.querySelector("#backBtn")?.after(botao);
+})();
+</script>
 </body>
 </html>
