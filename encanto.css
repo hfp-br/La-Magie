@@ -1,0 +1,84 @@
+/* ==========================================================================
+   ENCANTO — camada visual compartilhada de La Magie
+   Só aparência: transições, entradas suaves e detalhes de foco.
+   Não altera dados, eventos nem a estrutura das páginas.
+
+   Regras genéricas usam :where() (especificidade zero), então qualquer
+   estilo próprio da página continua vencendo. As animações de entrada
+   usam fill-mode "backwards": terminam sem deixar transform/opacity
+   aplicados, para não interferir em tooltips, modais e elementos fixos.
+   ========================================================================== */
+
+:root {
+  --enc-ease: cubic-bezier(.2, .8, .2, 1);
+  --enc-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --enc-gold: rgba(212, 165, 90, .38);
+}
+
+@keyframes encFadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes encFadeDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes encFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes encPop {
+  from { opacity: 0; transform: translateY(10px) scale(.97); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ---------- botões: leve elevação ao passar o mouse, aperto ao clicar ---------- */
+:where(button, .btn, .b) {
+  transition:
+    transform .18s var(--enc-ease),
+    box-shadow .2s ease,
+    background-color .2s ease,
+    border-color .2s ease,
+    color .2s ease,
+    opacity .2s ease;
+}
+:where(button, .btn, .b):where(:not(:disabled)):hover {
+  transform: translateY(-1px);
+}
+:where(button, .btn, .b):where(:not(:disabled)):active {
+  transform: translateY(0) scale(.97);
+  transition-duration: .06s;
+}
+
+/* ---------- campos: transição suave no foco ---------- */
+:where(input, select, textarea) {
+  transition: border-color .2s ease, box-shadow .2s ease, background-color .2s ease;
+}
+:where(input:not([type=checkbox]):not([type=radio]):not([type=range]), select, textarea):focus-visible {
+  box-shadow: 0 0 0 3px var(--enc-gold);
+}
+
+/* ---------- caixas de diálogo nativas ---------- */
+:where(dialog[open]) {
+  animation: encPop .28s var(--enc-ease) backwards;
+}
+:where(dialog[open])::backdrop {
+  animation: encFade .25s ease backwards;
+}
+
+/* ---------- detalhes ---------- */
+:where(details) > :where(summary) { cursor: pointer; }
+:where(details[open]) > :where(:not(summary)) {
+  animation: encFade .25s ease backwards;
+}
+::selection { background: rgba(212, 165, 90, .4); }
+:where(html) { scrollbar-color: rgba(112, 82, 51, .45) transparent; }
+
+/* ---------- quem pede menos movimento não recebe animação ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}

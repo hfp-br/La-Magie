@@ -428,6 +428,14 @@ textarea.f{min-height:105px}
 @media(max-width:360px){.cal-weekday{font-size:.53em}.cal-day{min-height:55px}.cal-today-text{display:none}}
 </style>
 
+<link rel="stylesheet" href="encanto.css">
+<style id="encanto-pagina">
+/* Encanto: entradas e detalhes visuais desta página (só aparência) */
+body > header{animation:encFadeDown .45s var(--enc-ease) backwards}
+.timeline-bar{animation:encFadeDown 0.45s var(--enc-ease) 0.06s backwards}
+#sc{animation:encFade 0.6s var(--enc-ease) 0.1s backwards}
+#cal:not([hidden]),#lib:not([hidden]),#set:not([hidden]){animation:encFadeUp 0.4s var(--enc-ease) 0s backwards}
+</style>
 </head>
 <body>
 <header>

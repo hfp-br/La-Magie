@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gerenciador de Condições — La Magie</title>
 <link rel="stylesheet" href="condicoes.css">
+<link rel="stylesheet" href="encanto.css">
+<style id="encanto-pagina">
+/* Encanto: entradas e detalhes visuais desta página (só aparência) */
+.page > header{animation:encFadeDown .45s var(--enc-ease) backwards}
+#status{animation:encFade 0.45s var(--enc-ease) 0.1s backwards}
+.panel:not([hidden]){animation:encFadeUp 0.45s var(--enc-ease) 0.08s backwards}
+</style>
 </head>
 <body>
 <div class="page">

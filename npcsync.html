@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="encanto.css">
 <style>
 /* ==========================================================
    IMAGENS OPCIONAIS
@@ -21864,3 +21865,40 @@ body.editing .inventory-compact-row{display:none!important}
 }
 </style>
 
+<style id="encanto-pagina">
+/* Encanto: entradas e detalhes visuais desta página (só aparência) */
+.tabs{animation:encFadeDown 0.45s var(--enc-ease) 0s backwards}
+.tab-panel.active{animation:encFadeUp 0.45s var(--enc-ease) 0.06s backwards}
+/* botão de modo edição acompanha a rolagem com suavidade */
+.edit-mode-control{padding:6px 8px;margin:-6px -8px;border-radius:999px;will-change:transform;
+  transition:background-color .3s ease,box-shadow .3s ease,backdrop-filter .3s ease}
+.edit-mode-control.encanto-flutuando{background-color:rgba(255,248,228,.82);
+  box-shadow:0 8px 22px rgba(60,35,10,.2),0 0 0 1px rgba(104,75,43,.18);
+  backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+</style>
+
+<script id="encanto-modo-edicao">
+/* Encanto: o controle de modo edição segue a rolagem com atraso suave.
+   Só move o elemento na tela; não mexe no checkbox nem nos dados. */
+(() => {
+  const controle = document.querySelector(".edit-mode-control");
+  if (!controle) return;
+  const reduz = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let atual = window.scrollY, rodando = false;
+  const passo = () => {
+    const alvo = window.scrollY;
+    atual += (alvo - atual) * (reduz ? 1 : 0.16);
+    if (Math.abs(alvo - atual) < 0.5) atual = alvo;
+    controle.style.transform = atual ? `translate3d(0, ${atual.toFixed(1)}px, 0)` : "";
+    controle.classList.toggle("encanto-flutuando", alvo > 40);
+    if (atual !== alvo) requestAnimationFrame(passo);
+    else rodando = false;
+  };
+  window.addEventListener("scroll", () => {
+    if (rodando) return;
+    rodando = true;
+    requestAnimationFrame(passo);
+  }, { passive: true });
+  passo();
+})();
+</script>

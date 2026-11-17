@@ -752,6 +752,15 @@ dialog::backdrop{
 @media(max-width:700px){.currency-input-panel{grid-template-columns:1fr}.calendar-weekdays,.calendar-grid{gap:3px}.calendar-day{min-height:88px;padding:5px}.master-tabs{padding:8px 12px}.currency-hero-top{align-items:center}.currency-grid{grid-template-columns:1fr}.currency-body,.currency-hero{padding-left:14px;padding-right:14px}}
 
 </style>
+<link rel="stylesheet" href="encanto.css">
+<style id="encanto-pagina">
+/* Encanto: entradas e detalhes visuais desta página (só aparência) */
+.topbar{animation:encFadeDown 0.45s var(--enc-ease) 0s backwards}
+.master-tabs{animation:encFadeDown 0.45s var(--enc-ease) 0.06s backwards}
+.master-view:not([hidden]){animation:encFadeUp 0.45s var(--enc-ease) 0.1s backwards}
+:where(.npc-card){transition:transform .2s var(--enc-ease),box-shadow .2s ease,border-color .2s ease}
+:where(.npc-card):hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(60,35,10,.16)}
+</style>
 </head>
 
 <body>

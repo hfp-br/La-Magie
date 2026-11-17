@@ -352,6 +352,14 @@ input:focus,select:focus{
   }
 }
 </style>
+<link rel="stylesheet" href="encanto.css">
+<style id="encanto-pagina">
+/* Encanto: entradas e detalhes visuais desta página (só aparência) */
+.topbar{animation:encFadeDown 0.45s var(--enc-ease) 0s backwards}
+.currency-card{animation:encFadeUp 0.45s var(--enc-ease) 0.08s backwards}
+:where(.currency-result){transition:transform .2s var(--enc-ease),box-shadow .2s ease,border-color .2s ease}
+:where(.currency-result):hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(60,35,10,.16)}
+</style>
 </head>
 <body>
   <main class="app">
