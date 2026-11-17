@@ -21921,3 +21921,57 @@ body.editing .inventory-compact-row{display:none!important}
   controle.prepend(link);
 })();
 </script>
+
+<script id="resumo-combate">
+/* Gerenciador de Combate: publica o PV máximo, a mana e a iniciativa que esta
+   ficha já mostra, numa tabela separada (npc_resumo_combate). Não altera a ficha. */
+(() => {
+  const TABELA = "npc_resumo_combate", CHAVE = "npc_id";
+  const alvo = () => typeof NPC_ID !== "undefined" ? NPC_ID : null;
+  const numero = t => { const n = parseInt(String(t ?? "").replace(/[^\d-]/g, ""), 10); return Number.isFinite(n) ? n : null; };
+  const normalizar = s => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  let ultimo = "", timer = null;
+
+  function mana() {
+    const lista = Array.isArray(conteudo?.recursos) ? conteudo.recursos : [];
+    const r = lista.find(x => { const n = normalizar(x?.name ?? x?.nome); return /\bpm\b/.test(n) || n.includes("mana"); });
+    if (!r) return { pm_atual: null, pm_max: null };
+    const atual = Number(r.current ?? r.atual);
+    const temMax = r.max !== null && r.max !== undefined && r.max !== "";
+    const max = temMax ? Number(r.max) : NaN;
+    return {
+      pm_atual: Number.isFinite(atual) ? atual : null,
+      pm_max: Number.isFinite(max) ? max : (Number.isFinite(atual) ? atual : null)
+    };
+  }
+
+  async function publicar() {
+    const id = alvo();
+    if (!id || !isOwner) return;
+    const { data: { session } } = await sb.auth.getSession();
+    if (!session) return;
+    const resumo = {
+      pv_max: numero(document.getElementById("hpMax")?.textContent),
+      bonus_iniciativa: numero(document.getElementById("initiative")?.textContent),
+      ...mana()
+    };
+    if (resumo.pv_max == null) return;
+    const assinatura = JSON.stringify(resumo);
+    if (assinatura === ultimo) return;
+    const { error } = await sb.from(TABELA).upsert(
+      { [CHAVE]: id, ...resumo, atualizado_em: new Date().toISOString() },
+      { onConflict: CHAVE }
+    );
+    if (error) { console.warn("Resumo de combate não publicado:", error.message); return; }
+    ultimo = assinatura;
+  }
+
+  const agendar = () => { clearTimeout(timer); timer = setTimeout(() => publicar().catch(e => console.warn(e)), 1500); };
+  ["hpMax", "initiative"].forEach(i => {
+    const el = document.getElementById(i);
+    if (el) new MutationObserver(agendar).observe(el, { childList: true, characterData: true, subtree: true });
+  });
+  setInterval(agendar, 15000); // a mana pode mudar sem mexer no PV
+  agendar();
+})();
+</script>
