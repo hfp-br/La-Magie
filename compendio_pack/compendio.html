@@ -1053,3 +1053,121 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
 })();
 </script>
+
+<style id="moeda-precos-css">
+.precos-bar{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:10px 0 0;padding:8px 12px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.precos-bar > span{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.precos-bar button{padding:4px 11px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.45);color:var(--ink);font-size:12px;cursor:pointer;
+  transition:background .18s,color .18s,transform .18s cubic-bezier(.34,1.56,.64,1)}
+.precos-bar button:hover{background:rgba(255,255,255,.85);transform:translateY(-1px)}
+.precos-bar button[aria-pressed="true"]{background:var(--accent);color:#fbf3df;border-color:transparent}
+.precos-bar small{margin-left:auto;font-size:10px;color:var(--muted)}
+.comp-row-preco{color:var(--gold);font-weight:700}
+.comp-preco-trocado{animation:precoTroca .35s ease}
+@keyframes precoTroca{from{opacity:.25;transform:translateY(2px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.comp-preco-trocado{animation:none}}
+@media(max-width:620px){.precos-bar small{margin-left:0;width:100%}}
+</style>
+<script id="moeda-precos-js">
+/* Preços em outra moeda: só muda o que aparece na tela.
+   Os itens e seus preços originais não são alterados. */
+(() => {
+  // Mesma tabela do Câmbio (Cambio.html), em tibares.
+  const EM_TIBARES = { "T$": 1, "PC": 0.1, "PP": 1, "PE": 5, "PO": 10, "PL": 100 };
+  const ORDEM = ["T$", "PC", "PP", "PE", "PO", "PL"];
+  // Tibares do Tormenta: TC = 1/10 T$, TP = Tibar de Prata = T$, TO = 10 T$.
+  const TIBARES_EXTRAS = { "TC": 0.1, "TP": 1, "TO": 10 };
+  const CHAVE = "laMagie.compendioMoeda";
+  const fmt = n => new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 6 }).format(n);
+  let moeda = "";
+  try { moeda = localStorage.getItem(CHAVE) || ""; } catch {}
+  if (moeda && !EM_TIBARES[moeda]) moeda = "";
+
+  function precoTexto(item) {
+    const p = item?.preco || {};
+    if (p.valor === undefined || p.valor === null || p.valor === "") return { texto: "—", titulo: "" };
+    const original = `${p.valor} ${p.moeda || ""}`.trim();
+    const valor = Number(String(p.valor).replace(",", "."));
+    const sigla = String(p.moeda || "").trim().toUpperCase();
+    const taxa = EM_TIBARES[sigla] ?? TIBARES_EXTRAS[sigla];
+    if (!moeda) return { texto: original, titulo: "" };
+    if (!Number.isFinite(valor) || !taxa) return { texto: original, titulo: "Moeda sem conversão no Câmbio" };
+    const convertido = (valor * taxa) / EM_TIBARES[moeda];
+    const nota = TIBARES_EXTRAS[sigla] && !EM_TIBARES[sigla] ? ` (1 ${sigla} = ${fmt(taxa)} T$)` : "";
+    return { texto: `${fmt(convertido)} ${moeda}`, titulo: `Original: ${original}${nota}` };
+  }
+
+  function definir(el, texto, titulo) {
+    if (!el || el.textContent === texto) return;
+    el.textContent = texto;
+    el.title = titulo || "";
+    el.classList.remove("comp-preco-trocado"); void el.offsetWidth; el.classList.add("comp-preco-trocado");
+  }
+
+  const lista = () => (typeof items !== "undefined" && Array.isArray(items) ? items : []);
+
+  function aplicarPreview() {
+    const host = document.getElementById("compV5Preview");
+    if (!host) return;
+    const id = (host.querySelector(".comp-preview-origin")?.textContent || "").replace(/^\s*ID:\s*/, "").trim();
+    const item = id && lista().find(i => String(i.id) === id);
+    if (!item) return;
+    const stat = [...host.querySelectorAll(".comp-preview-stat")].find(s => s.querySelector("span")?.textContent.trim() === "Preço");
+    const { texto, titulo } = precoTexto(item);
+    definir(stat?.querySelector("strong"), texto, titulo);
+  }
+
+  function aplicarLista() {
+    const linhas = [...document.querySelectorAll("#compV5List .comp-item-row")];
+    if (!linhas.length) return;
+    let arr = [];
+    try { arr = typeof filtered === "function" ? filtered() : lista(); } catch { arr = lista(); }
+    linhas.forEach((linha, i) => {
+      const nome = linha.querySelector(".comp-item-row-name")?.textContent;
+      const item = arr[i]?.nome === nome ? arr[i] : arr.find(x => x.nome === nome);
+      const meta = linha.querySelector(".comp-item-row-meta");
+      if (!item || !meta) return;
+      let span = meta.querySelector(".comp-row-preco");
+      if (!span) { span = document.createElement("span"); span.className = "comp-row-preco"; meta.appendChild(span); }
+      const { texto, titulo } = precoTexto(item);
+      if (span.textContent !== `• ${texto}`) { span.textContent = `• ${texto}`; span.title = titulo; }
+    });
+  }
+
+  function colocarBarra() {
+    const toolbar = document.querySelector(".toolbar");
+    if (!toolbar || document.getElementById("precosBar")) return;
+    const bar = document.createElement("div");
+    bar.id = "precosBar";
+    bar.className = "precos-bar";
+    bar.innerHTML = `<span>Preços em</span>` +
+      [["", "Original"], ...ORDEM.map(m => [m, m])].map(([v, t]) => `<button type="button" data-moeda="${v}" aria-pressed="${v === moeda}">${t}</button>`).join("") +
+      `<small>Conversão do Câmbio · 1 TO = 1 PO = 10 T$</small>`;
+    bar.addEventListener("click", e => {
+      const b = e.target.closest("[data-moeda]");
+      if (!b) return;
+      moeda = b.dataset.moeda;
+      try { localStorage.setItem(CHAVE, moeda); } catch {}
+      bar.querySelectorAll("[data-moeda]").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.moeda === moeda)));
+      aplicar();
+    });
+    toolbar.after(bar);
+  }
+
+  let agendado = false;
+  function aplicar() { aplicarLista(); aplicarPreview(); }
+  function agendar() {
+    if (agendado) return;
+    agendado = true;
+    requestAnimationFrame(() => { agendado = false; aplicar(); });
+  }
+
+  function iniciar() {
+    colocarBarra();
+    const alvo = document.querySelector(".compendium-library") ? document.querySelector(".compendium-library").parentNode : document.body;
+    new MutationObserver(agendar).observe(alvo, { childList: true, subtree: true });
+    agendar();
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
+})();
+</script>
