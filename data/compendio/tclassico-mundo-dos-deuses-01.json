@@ -1,0 +1,1045 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "tclassico-mundo-arma-aprisionador",
+      "nome": "Aprisionador",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 6.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Esta arma de haste (com alcance de 3m) não causa dano, mas pode ser usada para manobras de combate. O aprisionador tem uma espécie de garfo cego e acolchoado na ponta, que pode ser usado para prender o pescoço, corpo ou membros do oponente contra uma parede ou o chão.",
+      "properties": "Dano —, crítico —",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-tan-korak",
+      "nome": "Tan-korak",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 2.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Esta curiosa arma de duas mãos é raríssima em Arton, usada apenas pela milícia da cidade de Gorendill, em Deheon. O fundador da milícia, Marcus Dubeau, afirma que aprendeu a usá-la com um monge nativo de Tamu-ra — mas, estranhamente, não há notícias de nenhum tamuraniano usando essa arma. O mistério se complica (ou se elucida?) com o fato da tan-korak ser uma arma comum em Serena, mundo de Marah.",
+      "properties": "Dano 1d6, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-tunica-calamarina",
+      "nome": "Túnica calamarina",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 3.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Esta arma exótica muito usada por sereias (que a tratam como arma marcial) é uma espécie de túnica escamada, cujas mangas drapejam em cinco fitas cada uma. Estas permitem que a água passe por dentro delas, como se fossem tubos, e alguns pesos afiados nas pontas ajudam a dar controle, servindo também como armas de corte e perfuração. A túnica calamarina é uma arma dupla. Novas Armaduras Aço-Rubi (material especial): Em Arton, o aço-rubi é um material muito raro e, por isso, não costuma ser usado para forjar armaduras — é usado apenas em armas.",
+      "properties": "Dano 1d6/1d6, crítico x3, tipo corte ou perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-arcabuz",
+      "nome": "Arcabuz",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 6.0,
+      "preco": {
+        "valor": 700,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Similar ao mosquete, o arcabuz possui um cano mais curto e bocal aberto, perfeito para disparar simultaneamente múltiplos projéteis pequenos. O arcabuz acerta todas as criaturas em um cone de 6m à sua frente; os projéteis se dispersam demais e perdem força além deste alcance. Apenas uma jogada de ataque é necessária, comparada contra a CA de cada alvo na área, incluindo aliados. Recarregar um arcabuz é uma ação completa.",
+      "properties": "Dano 3d4, crítico x3, distância especial, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-municao-de-arcabuz-10",
+      "nome": "Munição de arcabuz (10)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 1.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição para arcabuz (10 unidades).",
+      "properties": "Peso 1kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-balista",
+      "nome": "Balista",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 150.0,
+      "preco": {
+        "valor": 500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Basicamente uma espécie de besta gigante, a balista fica instalada em torres giratórias e dispara arpões enormes (em termos de regras, uma balista que possa ser carregada na verdade é uma besta pesada Grande).",
+      "properties": "Dano 5d8, crítico 19-20, distância 45m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-municao-de-balista-1",
+      "nome": "Munição de balista (1)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 50.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição para balista (1 unidade).",
+      "properties": "Peso 50kg, dano 2d10",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-boleadeira",
+      "nome": "Boleadeira",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.0,
+      "preco": {
+        "valor": 5,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Uma boleadeira é um par de pesos metálicos ou de pedra, conectados por uma corda fina. Boleadeiras causam dano não letal e podem ser usadas na manobra derrubar, mesmo à distância.",
+      "properties": "Dano 1d4, crítico x2, distância 3m, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-canhao",
+      "nome": "Canhão",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 200.0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Usados extensivamente nas naves-vivas que cruzam o vazio, canhões são pesados e lentos, mas oferecem grande poder de destruição. Assim como uma balista, um canhão só pode ser usado instalado em uma plataforma (em termos de regras, um canhão que possa ser carregado na verdade é um mosquetão Grande). Disparar um canhão é uma ação completa; recarregá-lo exige quatro ações completas, mas até duas pessoas podem recarregá-lo ao mesmo tempo (de modo que duas pessoas gastando suas ações completas podem recarregá-lo em duas rodadas).",
+      "properties": "Dano 5d12, crítico x3, distância 60m, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-municao-de-canhao-1",
+      "nome": "Munição de canhão (1)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 5.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição para canhão (1 unidade).",
+      "properties": "Peso 5kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-laco",
+      "nome": "Laço",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "TP"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Uma corda de 9m com um nó aberto na ponta, que permite que você aprisione um inimigo. Se acertar seu ataque, a vítima fica enredada. Além disso, se você for bem-sucedido em um teste oposto de Força, a vítima só pode se mover até o limite da corda. A vítima pode se soltar com uma ação completa e um teste de Acrobacia CD 20. O laço tem 2 PV, e exige um teste de Força CD 23 para ser arrebentado. Ao acertar um inimigo, o laço é apertado; para usá-lo de novo você deve usar uma ação padrão para reabrir o laço. Nativos de Namalkah tratam o laço como arma marcial em vez de arma exótica.",
+      "properties": "Dano —, crítico —, distância 9m (corda)",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-mosquetao",
+      "nome": "Mosquetão",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 5.5,
+      "preco": {
+        "valor": 1000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Dano 2d10, crítico 19-20x3, distância 30m, tipo perfuração.",
+      "properties": "Dano 2d10, crítico 19-20x3, distância 30m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-municao-de-mosquete-10",
+      "nome": "Munição de mosquete (10)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 10.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição para mosquete (10 unidades).",
+      "properties": "Peso 10kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-nebulbo",
+      "nome": "Nebulbo",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 250.0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Esta variedade de canhão é muito usada nos gog’magogues. Sua munição normal são rastrêlas, uma espécie de foguete explosivo capaz de manobras e desvios simples no vazio do éter. O nebulbo é uma arma Enorme, e disparar um deles exige um ataque à distância com penalidade conforme o tamanho do atirador (–6 para personagens Pequenos, –4 para Médios e –2 para Grandes), causando 8d8 pontos de dano (4d8 por fogo e 4d8 por esmagamento), em uma explosão de 6m. Um teste de Reflexos CD 20 reduz o dano à metade.",
+      "properties": "Dano 8d8, crítico x3, distância 90m, tipo fogo e esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-rastrela-1",
+      "nome": "Rastrêla (1)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 8.0,
+      "preco": {
+        "valor": 100,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição normal do nebulbo (1 unidade).",
+      "properties": "Peso 8kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-rastrela-de-rapina-1",
+      "nome": "Rastrêla de Rapina (1)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 50.0,
+      "preco": {
+        "valor": 500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Esta é uma munição especial para o nebulbo. Rastrêlas de rapina combinam o poder explosivo das rastrêlas com a orientação precisa de rêmoras espaciais, que vivem no couro dos gog’magogues. A rastrêla de rapina sempre se desvia na direção do alvo se ele for um gog’magogue ou outra criatura nativa do espaço entre-mundos; ela anula quaisquer chances de erro, como cobertura e camuflagem.",
+      "properties": "Peso 50kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-arma-pistola-fecho-de-roda",
+      "nome": "Pistola Fecho-de-roda",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 2.5,
+      "preco": {
+        "valor": 750,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Também chamada apenas pistola de roda, esta arma de tiro único usa um sistema diferente para acender a pólvora e disparar.",
+      "properties": "Dano 2d6, crítico 19–20/x3, distância 15m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-municao-municao-de-pistola-10",
+      "nome": "Munição de pistola (10)",
+      "categoria": "municao",
+      "subtipo": "municao",
+      "peso": 1.0,
+      "preco": {
+        "valor": 35,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 137,
+      "tags": [
+        "municao",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Munição para pistola (10 unidades).",
+      "properties": "Peso 1kg",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-armadura-couro-cristalino",
+      "nome": "Couro cristalino",
+      "categoria": "armadura",
+      "subtipo": "armadura leve",
+      "peso": 10.0,
+      "preco": {
+        "valor": 4500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "armadura",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Essa armadura é feita com o couro de um animal de cristal. Devido ao seu efeito de distorção de luz, o usuário pode fazer testes de Furtividade para se esconder em áreas iluminadas (mas não pode se esconder se estiver sendo diretamente observado). Uma vez por dia, o usuário pode usar uma ação padrão para receber camuflagem (20% de chance de erro em ataques) por 1d6 rodadas. Material: couro de um animal de cristal. Armadura de Couro Dracônico Cristalino (item monstruoso): essa raríssima armadura é feita com o couro de um dragão de cristal.",
+      "properties": "Bônus na CA +3, Destreza máxima +5, penalidade de armadura 0",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-armadura-couro-draconico-cristalino",
+      "nome": "Couro dracônico cristalino",
+      "categoria": "armadura",
+      "subtipo": "armadura media",
+      "peso": 25.0,
+      "preco": {
+        "valor": 90000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "armadura",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Essa raríssima armadura é feita com o couro de um dragão de cristal. Tem as mesmas propriedades de uma armadura de couro cristalino normal, mas também algumas habilidades adicionais. Seu usuário recebe um bônus de +2 no Carisma, e cura acelerada 5/energia negativa. Ela não pode receber aprimoramentos de armadura.",
+      "properties": "Bônus na CA +9, Destreza máxima +5, penalidade de armadura –2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-armadura-escafandro",
+      "nome": "Escafandro",
+      "categoria": "armadura",
+      "subtipo": "armadura media",
+      "peso": 30.0,
+      "preco": {
+        "valor": 5000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "armadura",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Algumas naves dos sklirynei e muitas de suas colônias costumam possuir uma ou mais dessas armaduras especiais, que permitem que seu usuário caminhe no vazio do espaço. Um escafandro parece uma armadura completa, mas é tecnologicamente selado e inclui uma pesada mochila metálica às costas, que armazena ar. O usuário do escafandro fica imune ao vácuo e possui 1 hora de ar enquanto a armadura estiver em um ambiente sem ar. Use as regras de ar impuro (p. XX) e sufocamento (Tormenta RPG, p. 238) quando o ar estiver esgotado.",
+      "properties": "Bônus na CA +8, Destreza máxima +2, penalidade de armadura –5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-consumivel-capsula-da-sinergia",
+      "nome": "Cápsula da sinergia",
+      "categoria": "consumivel",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "consumivel",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Cápsula especial para um mago pistoleiro arcano: um conjurador arcano pode lançar uma magia diretamente nela, e o pistoleiro arcano a usa sem contar no limite de magias preparadas. É destruída depois de disparada. Custo variável: 200 TO por PM que a cápsula pode receber (magia e talentos metamágicos), até 2.000 TO por uma cápsula de 10 PM.",
+      "properties": "Preço variável: 200 TO × PM (máximo 2.000 TO).",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-acessorio-anel-anti-veneno",
+      "nome": "Anel anti-veneno",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 40000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 141,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Estes raros anéis são muito procurados por quem explora as imensidões venenosas de Venomia. Usando o anel, o usuário é imune a qualquer veneno, normal ou mágico. Há rumores de que alguns são amaldiçoados por servos do Deus da Traição: parecem funcionar, mas um único tipo de veneno vence sua imunidade.",
+      "properties": "Aura moderada; Criar Itens Maravilhosos, remover envenenamento.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-acessorio-bastao-das-maravilhas",
+      "nome": "Bastão das maravilhas",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Bastão simples de madeira ordinária que muda de aparência sempre que é usado. Ao proferir uma palavra mágica, gera um efeito aleatório (o mestre escolhe ou rola 1d100 na tabela do livro). Possui 50 PM e consome 1 PM por ativação; sem PM, vira um item mundano. CD dos testes de resistência: 15 + mod. Carisma do usuário.",
+      "properties": "Aura moderada; Criar Item Maravilhoso, Randomizar Magia, confusão, objeto aleatório.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-acessorio-cinturao-de-controle-da-gravidade",
+      "nome": "Cinturão de controle da gravidade",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 5000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Cinto com dois cristais na fivela, usado por tripulantes de naves-vivas para reparos externos. Ativado com uma ação padrão, permite andar em qualquer superfície como em terra firme: o usuário ganha deslocamento de escalar igual ao terrestre e nunca sofre dano por quedas enquanto usa o cinto.",
+      "properties": "Aura tênue; Criar Itens Maravilhosos, patas de aranha, queda suave.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-acessorio-cruz-dos-cacadores",
+      "nome": "Cruz dos caçadores",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 20000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 139,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Cordão com uma cruz de prata, símbolo da Ordem dos Caçadores de Sombria. Personagens de tendência Bondosa a até 9m do caçador recebem +1 em ataques e testes de resistência; nas mãos de quem canaliza energia positiva (tendência Bondosa), permite usar essa habilidade em Sombria como se tivesse metade do nível. Não pode ser comprada: é oferecida pela Ordem. Em mercados ilegais, pode ser encontrada por 20.000 TO ou mais.",
+      "properties": "Não está à venda; preço de mercado ilegal.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-consumivel-elixir-do-estrangeiro",
+      "nome": "Elixir do estrangeiro",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 140,
+      "tags": [
+        "consumivel",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Em Skerry, o Mundo Despedaçado, a baixa gravidade atrofia aos poucos músculos e ossos de quem vem de fora. O elixir do estrangeiro é a solução para evitar esse efeito.",
+      "properties": "Aura tênue; Preparar Poções, recuperar musculatura.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-consumivel-elixir-estrambolico",
+      "nome": "Elixir estrambólico",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 141,
+      "tags": [
+        "consumivel",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Muito procurado para evitar os efeitos “normalizadores” da Síndrome de Khalmyr, em Ordine. Ao beber, todos os redutores e bônus causados pela presença continuada nesse mundo são removidos, e o usuário fica imune a eles por 1 semana.",
+      "properties": "Aura tênue; Preparar Poções, não pode ser devoto de Khalmyr.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-consumivel-nota-promissoria-do-poder",
+      "nome": "Nota promissória do poder",
+      "categoria": "consumivel",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 141,
+      "tags": [
+        "consumivel",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Pergaminho usado para transferir valores com segurança. Uma criatura assina, garantindo um único uso de uma habilidade de classe, talento ou magia para o receptor indicado (ativar é uma ação padrão). Custo variável: magias de 1º a 3º nível custam como um pergaminho; de 4º a 9º, nível da magia × nível mínimo para usá-la × 25 TO, mais componentes e XP.",
+      "properties": "Preço variável (ver descrição).",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-mundo-acessorio-pedra-da-boa-sorte",
+      "nome": "Pedra da boa sorte",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - O Mundo dos Deuses",
+      "pagina": 141,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "mundo dos deuses",
+        "tormenta classico"
+      ],
+      "descricao": "Normalmente uma ágata ou outra pedra preciosa polida, presa em uma corrente de prata. Uma vez por dia, o usuário pode rolar novamente uma jogada ou teste que tenha acabado de realizar. Dizem que são lágrimas solidificadas de Nimb — ou não.",
+      "properties": "Aura tênue; Criar Itens Maravilhosos, Domínio da Sorte, auxílio divino.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
