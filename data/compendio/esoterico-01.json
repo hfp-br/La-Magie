@@ -688,6 +688,78 @@
       },
       "resources": [],
       "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-dragao-brasil-228-alma-de-dragao",
+      "nome": "Alma de dragão",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 250,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 20,
+      "tags": [
+        "esoterico",
+        "esoterico",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Uma pedra translúcida, no formato de uma escama de dragão e do tamanho de um punho fechado, que faz parte das posses de todos os Herdeiros da Escama. Quando sofrer dano de um dos tipos a seguir, você pode reduzir o dano sofrido em um dado como uma reação. Então este item deixa de ser translúcido e armazena a energia do dano, tomando a aparência de uma pedra preciosa: diamante (luz), esmeralda (ácido), ônix (trevas), rubi (fogo), safira (frio) ou topázio (eletricidade).",
+      "properties": "Item esotérico.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dragao-brasil-228-rosario-da-vida",
+      "nome": "Rosário da vida",
+      "categoria": "esoterico",
+      "subtipo": "esoterico",
+      "peso": 0,
+      "preco": {
+        "valor": 750,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 27,
+      "tags": [
+        "esoterico",
+        "esoterico",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Este item costuma ser usado por Parteiras das Mandíbulas para aumentar o efeito das suas magias de cura e, assim, diminuir a dor sentida pelas criaturas durante o parto. Quando empunhado por alguém que siga as Obrigações & Restrições de Lena, este rosário aumenta o número de PV recuperados por efeitos de cura mágica de luz em um dado do mesmo tipo por patamar de personagem (1 dado do mesmo tipo no 1º patamar, 2 dados no 2º e assim por diante).",
+      "properties": "Esotérico.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }

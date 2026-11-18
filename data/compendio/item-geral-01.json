@@ -5594,6 +5594,42 @@
       },
       "resources": [],
       "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-dragao-brasil-228-citola-da-paz",
+      "nome": "Cítola da paz",
+      "categoria": "item geral",
+      "subtipo": "ferramenta",
+      "peso": 0,
+      "preco": {
+        "valor": 175,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 25,
+      "tags": [
+        "item geral",
+        "ferramenta",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Feita de madeira de qualidade, com cordas douradas e encantada por um devoto de Marah, esta cítola é entregue por seus tutores como um símbolo de independência para Mestres de Cerimônia. Enquanto seguir as Obrigações & Restrições de Marah, sua Inspiração e suas músicas de bardo custam –1 PM e você recebe um bônus de +5 em testes de perícia para mudar atitude. Conta como um instrumento musical.",
+      "properties": "Ferramenta.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }

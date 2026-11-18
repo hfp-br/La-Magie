@@ -1110,6 +1110,78 @@
         "immunities": ""
       },
       "resources": []
+    },
+    {
+      "id": "t20-dragao-brasil-228-arco-dos-arautos",
+      "nome": "Arco dos Arautos",
+      "categoria": "arma magica",
+      "subtipo": "arma especifica",
+      "peso": 0,
+      "preco": {
+        "valor": 39100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 12,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Arma favorita dos Arautos do Destruidor, este arco longo cruel preciso caçador pode ser encontrado por qualquer aventureiro que vasculhe os equipamentos de um membro desta organização. Você recebe a habilidade Marca da Presa do caçador, mas só pode usá-la com esta arma. Se já possui essa habilidade, em vez disso, o custo para usá-la com esta arma diminui em –1 PM.",
+      "properties": "Arma específica média.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dragao-brasil-228-arma-silente",
+      "nome": "Arma silente",
+      "categoria": "arma magica",
+      "subtipo": "arma especifica",
+      "peso": 0,
+      "preco": {
+        "valor": 31000,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 23,
+      "tags": [
+        "arma magica",
+        "arma especifica",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Uma arma silente é o espólio obtido por aqueles que derrotam um membro da Lança Silente. Este item é uma arma (escolha entre alabarda, azagaia, lança, lança de falange, lança montada, machado de haste ou pique) certeira equilibrada formidável de adamante que fornece +5 em testes de Conhecimento, Guerra e Nobreza cujo objetivo seja perpetuar a guerra.",
+      "properties": "Arma específica menor.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }

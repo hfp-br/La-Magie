@@ -6540,6 +6540,186 @@
         "immunities": ""
       },
       "resources": []
+    },
+    {
+      "id": "t20-dragao-brasil-228-bilhete-de-valluk-delsori",
+      "nome": "Bilhete de Valluk Delsori",
+      "categoria": "consumivel",
+      "subtipo": "magico uso unico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 16,
+      "tags": [
+        "consumivel",
+        "magico uso unico",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Este item mágico é concedido apenas àqueles que conseguirem descobrir onde a companhia irá se apresentar e consigam assistir a cinco de suas apresentações seguidas. Rasgar o bilhete (como se faz ao entrar para assistir a um espetáculo) permite que o usuário se transforme em uma das grandes figuras de Arton — como o herói Orion Drake ou a própria Rainha-Imperatriz Shivara I —, mas com uma característica diferente da verdadeira pessoa. Você poderia, por exemplo, se transformar em sir Alenn Toren, mas seu tapa-olho estaria no olho esquerdo, em vez do direito.",
+      "properties": "Item mágico de uso único.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-dragao-brasil-228-bomba-de-tinta",
+      "nome": "Bomba de tinta",
+      "categoria": "consumivel",
+      "subtipo": "alquimico preparado",
+      "peso": 0,
+      "preco": {
+        "valor": 35,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Dragão Brasil 228",
+      "pagina": 31,
+      "tags": [
+        "consumivel",
+        "alquimico preparado",
+        "novo item",
+        "dragao brasil 228",
+        "tormenta20"
+      ],
+      "descricao": "Favorito entre os Zoyrak, este item segue as mesmas regras da bomba (Tormenta20, p. 180), mas, em vez de causar dano, afeta uma esfera com 6m de raio que fica sob efeito simulado da magia Área Escorregadia até o fim da cena. Criaturas dentro dessa área durante a explosão da bomba também ficam lentas (Reflexos CD Des evita); elas podem gastar uma ação de movimento para fazer um teste de Força (CD Des) para se recuperar da condição.",
+      "properties": "Preparado alquímico.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-atlas-de-arton-macarrao-de-caravana",
+      "nome": "Macarrão de caravana",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Atlas de Arton",
+      "pagina": 463,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "atlas de arton",
+        "tormenta20"
+      ],
+      "descricao": "Recebe +2 em testes de Fortitude contra marcha forçada e em testes contra o perigo complexo jornada pelos ermos. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-atlas-de-arton-assado-deheoni",
+      "nome": "Assado deheoni",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Atlas de Arton",
+      "pagina": 463,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "atlas de arton",
+        "tormenta20"
+      ],
+      "descricao": "Até o fim do dia, você pode rolar novamente um único teste recém realizado (exceto testes de ataque), mas deve ficar com o segundo resultado. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-atlas-de-arton-buque-de-thantalla",
+      "nome": "Buquê de Thantalla",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Atlas de Arton",
+      "pagina": 463,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "atlas de arton",
+        "tormenta20"
+      ],
+      "descricao": "Efeitos que recuperem seus pontos de mana recuperam 1 PM a mais. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
