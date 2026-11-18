@@ -1,0 +1,2665 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "tclassico-arcano-item-geral-ampulheta",
+      "nome": "Ampulheta",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 100,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "item geral",
+        "equipamento",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um objeto delicado, usado para medir o tempo. Um ciclo da ampulheta normalmente equivale a uma hora. Usada por nobres para manter controle de seus compromissos e por alquimistas. Concede +1 em testes de Ofício (alquimia).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-item-geral-frasco-obra-prima",
+      "nome": "Frasco obra-prima",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "item geral",
+        "equipamento",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Para aqueles que podem pagar, existem versões obra-prima de frascos ou potes para guardar os itens alquímicos. Concedem um bônus de +1 nas jogadas de ataque quando são arremessados.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-item-geral-kit-de-herbalista",
+      "nome": "Kit de herbalista",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 1.0,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "item geral",
+        "equipamento",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Inclui uma pequena foice, bolsas, reagentes para testar ervas e talvez um manual resumido de identificação de plantas. Um personagem sem este kit sofre uma penalidade de –4 nos testes para coletar ervas (página 61). A versão obra-prima concede um bônus de +2 nesses testes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-item-geral-kit-de-mineracao",
+      "nome": "Kit de mineração",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 2.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "item geral",
+        "equipamento",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Inclui uma peneira, uma lupa para examinar pepitas, uma pequena picareta e um elmo para proteger a cabeça. Um personagem sem este kit sofre uma penalidade de –4 nos testes para coletar minerais (página 61). A versão obra-prima concede um bônus de +2 nesses testes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-comum",
+      "nome": "Varinha comum",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 5,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Esta varinha não tem efeito em regras, a menos que o mestre esteja usando a regra opcional de exigir varinhas para lançar magias arcanas (veja na página 113).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-de-aco-rubi",
+      "nome": "Varinha de aço rubi",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um personagem empunhando esta varinha deve rolar 1d4 sempre que lançar uma magia. Com um resultado 4, a CD do teste de resistência contra a magia aumenta em 2 pontos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-de-adamante",
+      "nome": "Varinha de adamante",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 1.0,
+      "preco": {
+        "valor": 3000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Magias com alcance pessoal lançadas com o auxílio desta varinha têm sua duração duplicada, como se afetadas pelo talento Estender Magia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-costela-de-lich",
+      "nome": "Varinha costela de lich",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 1000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Magias que causam dano lançadas com o auxílio desta varinha causam 1 ponto de dano adicional de energia negativa. Um personagem não pode lançar magias com o descritor cura enquanto estiver empunhando esta varinha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-dedo-de-ente",
+      "nome": "Varinha dedo de ente",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 1000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um personagem empunhando esta varinha deve rolar 1d4 sempre que lançar uma magia. Com um resultado 4, a magia custa 1 PM a menos para ser lançada (mínimo de 1 PM).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-espinho-de-manticora",
+      "nome": "Varinha espinho de mantícora",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 750,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Magias que causam dano lançadas com o auxílio desta varinha causam 2 pontos de dano adicional. Contudo, o usuário sofre 1 ponto de dano ao lançar estas magias.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-de-gelo-eterno",
+      "nome": "Varinha de gelo eterno",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 1500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Magias que causam dano com o descritor frio lançadas com o auxílio desta varinha causam 2 pontos de dano adicional. Um personagem não pode lançar magias com o descritor fogo enquanto estiver empunhando esta varinha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-de-madeira-tollon",
+      "nome": "Varinha de madeira Tollon",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 300,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um personagem empunhando esta varinha recebe RD 1. Contudo, não pode lançar magias com o descritor eletricidade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-varinha-de-mitral",
+      "nome": "Varinha de mitral",
+      "categoria": "esoterico",
+      "subtipo": "varinha",
+      "peso": 0.1,
+      "preco": {
+        "valor": 500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 56,
+      "tags": [
+        "esoterico",
+        "varinha",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Magias que exigem jogadas de ataque lançadas com o auxílio desta varinha têm sua margem de ameaça de crítico aumentada em 1 ponto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-acido-concentrado",
+      "nome": "Ácido concentrado",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Versão mais forte do ácido alquímico, arremessada em frasco como o ácido comum (veja o livro para o dano).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-agua-congelante",
+      "nome": "Água congelante",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um frasco de vidro contendo um líquido congelante. Você atira o frasco, fazendo um ataque de dano de frio. Se errar, ele sofre metade desse dano.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-anabolizante",
+      "nome": "Anabolizante",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 25,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Este “remédio” aumenta a Força do usuário, mas reduz sua coordenação: concede +1 em Força e –1 em Destreza, cumulativos, por semana de uso, até +4 e –4 na quarta semana. Depois disso, é preciso continuar tomando para manter a “forma”; se parar, o usuário volta ao normal e fica fatigado.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-antitoxina",
+      "nome": "Antitoxina",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um coquetel que aumenta as defesas do corpo. Quando usado, concede um bônus de +5 em testes de Fortitude contra venenos por uma hora.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-bolsa-de-cola",
+      "nome": "Bolsa de cola",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bolsa de couro com uma substância altamente pegajosa. Você a arremessa; se acertar, o alvo fica enredado (–2 nas jogadas de ataque, –4 em Destreza, metade do deslocamento, sem correr nem fazer investidas) por um minuto, ou até gastar uma ação completa para arrancar a cola. Não funciona contra criaturas Enormes ou maiores.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-bomba-fetida",
+      "nome": "Bomba fétida",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de gás fétido. A bomba cria uma área de mau cheiro de 3m de raio. Qualquer criatura dentro da área deve cará enjoada (spode realizar uma ação padrão ou de movimento por rodada) enquanto estiver na área. Depois de sair da área, criaturas enjoadas permanecem assim por mais uma rodada. O mau cheiro dura três rodadas, mas pode ser dissipado antes disso por um vento forte. Para arremessar a bomba no chão, faça um ataque cador de distância (+2 para cada 3m).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-bomba-de-fumaca",
+      "nome": "Bomba de fumaça",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura. A bomba cria uma área de fumaça de 6m de raio. Dentro desta área, criaturas a 56 agem, e criaturas a partir agem total. A fumaça dura três rodadas, mapode ser dissipada antes disso por um vento forte. Para arrecador de distância (+2 para cada 3m).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-cola",
+      "nome": "Cola",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Frasco de cola comum.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-formol",
+      "nome": "Formol",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Líquido utilizado para embalsamar cadáveres e empalhar criaturas, indispensável para necromantes. Utilizar um frasco ao lançar magias de criar mortos-vivos concede CA +1 aos mortos-vivos criados.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-giz-arcano",
+      "nome": "Giz arcano",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Serve para desenhar runas e símbolos arcanos em rituais de invocação. Criaturas invocadas com uso do giz têm +1 PV por nível.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-elixir-de-vida-menor",
+      "nome": "Elixir de vida, menor",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 60,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Tônico analgésico que pode ser usado como uma poção, por isso é mais valorizado que bálsamos restauradores. A versão menor recupera 2d6 PV.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-elixir-de-vida-maior",
+      "nome": "Elixir de vida, maior",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 150,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Tônico analgésico que pode ser usado como uma poção, por isso é mais valorizado que bálsamos restauradores. A versão maior recupera 4d6 PV.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-elixir-de-vida-puro",
+      "nome": "Elixir de vida, puro",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 300,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Tônico analgésico que pode ser usado como uma poção. A versão pura recupera 6d6 PV (as versões menor e maior recuperam 2d6 e 4d6 PV).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-essencia-de-mana-menor",
+      "nome": "Essência de mana, menor",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 90,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Poção de ervas raras e compostos alquímicos que recupera 1d4 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-essencia-de-mana-maior",
+      "nome": "Essência de mana, maior",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 200,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Poção de ervas raras e compostos alquímicos que recupera 2d4 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-essencia-de-mana-pura",
+      "nome": "Essência de mana, pura",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Poção de ervas raras e compostos alquímicos que recupera 4d4 PM.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-estalinho-gury",
+      "nome": "Estalinho Gury",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Variação da granada criada pelo alquimista Jozhen Gury, arremessada com força contra o chão para gerar um estouro muito alto. Criaturas a até 3m do estouro devem fazer um teste de resistência ou ficam surdas por um minuto (Tormenta RPG, p. 229). O arremesso tem bônus pela distância (+2 a cada 3m).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-extrato-de-gelo-eterno",
+      "nome": "Extrato de gelo eterno",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Versão aprimorada da água congelante. Causa 2d8 pontos de dano de frio (metade em caso de erro). Além disso, se você acertar o ataque, cristais de gelo se formam sobre o alvo, impondo uma penalidade de –2 em ataques e CA por uma rodada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-fogo-fumegante",
+      "nome": "Fogo fumegante",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Semelhante ao fogo alquímico, mas mais poderoso. Você atira o frasco; se acertar, o alvo sofre dano de fogo e pega fogo (se errar, sofre metade do dano e não pega fogo). Uma criatura em chamas sofre 1d6 de dano por turno até apagar as chamas com uma ação completa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-granada-de-nimb",
+      "nome": "Granada de Nimb",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 300,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Versão maior e mais potente da granada, famosa pela imprevisibilidade. Criaturas a até 4,5m do alvo sofrem 8d6 de dano (o teste de resistência reduz). Quando o pavio é aceso, há 10% de chance de a granada explodir nas mãos do usuário antes de ser arremessada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-granada-sonica",
+      "nome": "Granada sônica",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Versão aprimorada dos estalinhos de Jozhen Gury, usada da mesma forma. Criaturas a até 4,5m do estouro devem fazer um teste de resistência ou ficam atordoadas e surdas por 1 rodada. Como criaturas surdas sofrem –4 em Iniciativa, usada antes do combate dá uma grande vantagem.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-incenso",
+      "nome": "Incenso",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Geralmente vem em uma barra cilíndrica, queimada como um charuto, liberando sua fragrância no ambiente. Também pode vir em pó, sendo queimado em um braseiro.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-licor-de-feiticeiro",
+      "nome": "Licor de feiticeiro",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Tônico que deixa um feiticeiro mais confiante. Durante o dia, dá +2 em Carisma e –2 em Inteligência. Se não tomar o licor no dia seguinte, sofre –2 em Carisma e Inteligência por uma semana.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-oleo-detector-de-veneno",
+      "nome": "Óleo detector de veneno",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Este líquido muda de cor quando entra em contato com uma substância venenosa, mas permanece incolor em contato com outras substâncias. Revela qualquer veneno que não esteja oculto por magia. amável: um frasco de vidro contendo óleo que não entra em combustão em contato com o ar, mas que é um ótimo combustível. Você atira o frasco, fazendo um ataque de nerabilidade a fogo (+50% de dano por efeitos de fogo) até o m do combate. Além disso, se o alvo sofrer pelo menos 1 ponto de dano de fogo, ou simplesmente entrar em contato com qualquer chama, pegará fogo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-oleo-de-lampiao-obra-prima",
+      "nome": "Óleo de lampião obra-prima",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Este óleo é mais potente e puro, fazendo com que a chama de um lampião queime por 12 horas e ilumine até 12m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-oleo-da-pureza",
+      "nome": "Óleo da pureza",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Óleo que absorve as impurezas de líquidos: anula todos os venenos e impurezas, tornando qualquer líquido seguro para beber. Armaduras polidas com ele ficam brilhantes como um espelho.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-po-cegante-vanndaime",
+      "nome": "Pó cegante Vanndaime",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Pó que ficou célebre por irritar os olhos. Você atira o pó; se acertar, o alvo fica cego por 1d4 rodadas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-sedativo",
+      "nome": "Sedativo",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Esta poção diminui as dores do usuário. Durante todo o dia, o usuário recebe +2 em Constituição, mas sofre –2 em Destreza. Se você não tomar uma dose de sedativo no dia seguinte, sofre uma penalidade de –2 em Constituição e Destreza por uma semana.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-suco-de-mago",
+      "nome": "Suco de mago",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Este tônico faz com que um mago (ou qualquer outro usuário) se concentre melhor. Durante todo o dia, o usuário recebe +2 em Inteligência e –2 em Carisma. Se você não tomar o suco no dia seguinte, sofre uma penalidade de –2 em Inteligência e Carisma por uma semana.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-tinta-invisivel",
+      "nome": "Tinta invisível",
+      "categoria": "consumivel",
+      "subtipo": "alquimico",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 58,
+      "tags": [
+        "consumivel",
+        "alquimico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Tinta que fica invisível dentro de uma hora. Para o texto reaparecer, é preciso passar sobre ele a mesma tinta invisível; com uma tinta de outro tipo, o texto fica borrado e ilegível. Assim, só quem tem a tinta exata pode revelar a mensagem.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-avental",
+      "nome": "Avental",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um típico avental é feito de couro ou algodão, de cor natural branca ou bege. Possui um ou mais bolsos para guardar ferramentas que auxiliam no trabalho. Ajuda a proteger o corpo de sujeira, faíscas e respingos, concedendo um bônus de +1 em testes de Ofício; entretanto, seu peso impõe –1 de penalidade de armadura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-botas-de-couro",
+      "nome": "Botas de couro",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.0,
+      "preco": {
+        "valor": 8,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Têm solado duro e são amarradas por tiras de couro acima do calcanhar. Ótimas companheiras de viagem, concedem +1 em testes de Fortitude para fazer marcha forçada (Tormenta RPG, página 233). Costumam combinar com calças ou vestidos sensuais!",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-capa",
+      "nome": "Capa",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Capa simples que protege do clima, com +1 contra efeitos climáticos (a capa elegante aumenta o bônus para +2).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-capa-elegante",
+      "nome": "Capa elegante",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Uma capa tingida de cor viva, com forro para maior conforto. O bônus contra efeitos climáticos aumenta para +2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-fez",
+      "nome": "Fez",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Este chapéu feito de tecido aveludado tem a forma de um cilindro baixo. Pode ter um cordão ou crina saindo do topo como enfeite.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-chapeu-conico",
+      "nome": "Chapéu cônico",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Geralmente feito com uma armação de couro sobreposta por um tecido leve. Tingido de cores vivas, pode contar com bordados como enfeite.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-chapeu-pontudo",
+      "nome": "Chapéu pontudo",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um chapéu cônico com abas para melhor proteger do sol e da chuva.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-tiara",
+      "nome": "Tiara",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um círculo de metal (geralmente prata ou ouro) enfeitado com entalhes ou pedras preciosas, usado ao redor da cabeça.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-touca",
+      "nome": "Touca",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Feita de pano, cobre todo o couro cabeludo. Ideal para arcanos dorminhocos. Um pompom na ponta é opcional. Um chapéu concede um bônus de +1 em uma perícia mestre. Por exemplo, um barrete (típico de mercenários) pode ajudar em Intimidação, enquanto que um vistoso turbante auxilia em Atuação.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-turbante",
+      "nome": "Turbante",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um pano longo, amarrado em várias camadas na que totalmente enrolado. Típico dos qareen.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-cinto-bandoleira-de-pocoes",
+      "nome": "Cinto/bandoleira de poções",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Pode guardar até 5 frascos capazes de armazenar itens alquímicos de até 0,5 kg. A versão cinto é usada na cintura, enquanto que a bandoleira cruza o ou uma poção no cinto ou bandoleira pode ser sacado como uma ação livre.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-luvas-de-trabalho",
+      "nome": "Luvas de trabalho",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0.25,
+      "preco": {
+        "valor": 5,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Feitas de couro grosso e resistente, protegem o usuário de materiais muito frios ou quentes, substâncias corrosivas, etc. Concedem um bônus de +1 em testes de Ofício, cumulativo com avental. Contudo, por limitarem a destreza manual, impõem –1 de penalidade em testes de Ladinagem. Roupas e Acessórios Item Preço Peso Avental 1 TO 1kg Botas de couro 8 TO 1kg Capa 1 TO 1kg Capa elegante 30 TO 1,5kg Barrete 2 TO —",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-oculos",
+      "nome": "Óculos",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Essencial para arcanos míopes. Embora não haja regras específicas para problemas de visão, o mestre pode impor uma penalidade de –2 em testes de Percepção de personagens que passaram da meia idade (Tormenta RPG, página 118), ou oferecer algum pequeno bônus para um jogador que aceitar voluntariamente a penalidade. Nesses casos, os óculos cancelam-na, concedendo visão normal.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-organizador-de-pergaminhos",
+      "nome": "Organizador de pergaminhos",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Uma caixa de couro que armazena pergaminhos, geralmente pendurada no cinto. Possui separadores internos que permitem organizar até 6 pergaminhos confortavelmente. Um pergaminho no organizador pode ser sacado como uma ação livre. Não é impermeável. Fez 5 TO — Chapéu cônico 12 TO — Chapéu pontudo 15 TO — Tiara 20 TO —",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-robe-manto",
+      "nome": "Robe/manto",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 2.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "vestuario",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Um tecido que cobre todo o corpo, geralmente amarrado na cintura. Possui inúmeras variações, mas a maior parte tem mangas compridas e uma espécie de saia. É o típico visual de “mago”, e concede +2 em testes de Diplomacia em situações em que magos são bem vistos (na Academia Arcana, em Wynlla, etc.). Da mesma forma, concede +2 em testes de Enganação para alguém que esteja tentando se fazer passar por um mago! Touca 2 TO — Turbante 8 TO — Cinto/bandoleira de poções 20 TO 0,5kg Luvas de trabalho 5 TO 250g Óculos 100 TO — Organizador de pergaminhos 25",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-amuleto-do-conhecimento-arcano",
+      "nome": "Amuleto do conhecimento arcano",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Amuleto de prata com o brasão da Academia Arcana, usado como prendedor de capa ou broche; prêmio do Teste do Vento. Uma vez por dia, dá +10 em um teste de Conhecimento (arcano). Não funciona no território da Academia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-anel-da-contramagica",
+      "nome": "Anel da contramágica",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 4000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Anel de aço polido com uma pérola incrustada que armazena uma magia arcana. Quando o usuário é alvo da mesma magia armazenada, pode anulá-la automaticamente; a magia do anel é então gasta. Armazenar uma magia exige o tempo de execução normal dela.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-anel-da-graca-das-aguas",
+      "nome": "Anel da graça das águas",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Anel de prata com uma turmalina gravada com o brasão da Academia Arcana; prêmio do Teste da Água. Fornece +1 na CA e, uma vez por dia, +5 em um teste de Conhecimento (natureza). O bônus de CA funciona em qualquer lugar, mas o de Conhecimento não funciona no território da Academia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-item-geral-barraca-segura-de-aleph",
+      "nome": "Barraca segura de Aleph",
+      "categoria": "item geral",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 7500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 62,
+      "tags": [
+        "item geral",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Barraca de tecido simples para duas criaturas Médias, criada por Aleph Olhos Vermelhos. Protege os ocupantes de todas as intempéries, mesmo extremas, em temperatura e umidade confortáveis. Se uma criatura chega a menos de 9m com intenção de ferir, os ocupantes acordam imediatamente. Só funciona fechada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-esoterico-bastao-do-favor-de-wynna",
+      "nome": "Bastão do favor de Wynna",
+      "categoria": "esoterico",
+      "subtipo": "bastao",
+      "peso": 0,
+      "preco": {
+        "valor": 9000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "esoterico",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bastão de metal com faixas de cores exóticas, um rubi e uma ametista nas pontas; prêmio do Teste do Fogo e prova de formatura na Academia Arcana. Funciona como um bastão metamágico, mas o talento é sorteado ao nascer do sol (1d10: Aumentar, Estender, Silenciosa, Potencializar ou Maximizar Magia).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-da-defesa",
+      "nome": "Bordão da defesa",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 16000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão +2 de aço com empunhaduras de cobre, marca dos arcanos lutadores. Concede CA +2 ao usuário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-da-evocacao",
+      "nome": "Bordão da evocação",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 38000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão +3 de ferro escuro. Enquanto um conjurador arcano o empunha, todas as suas magias que causam dano têm +1 dado de dano do mesmo tipo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-da-invocacao",
+      "nome": "Bordão da invocação",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 25000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão +1 de vidro, entalhado com inúmeras criaturas. Criaturas invocadas pelo conjurador que o empunha recebem redução de dano igual ao nível da magia que as invocou (por exemplo, RD 4 com invocar monstro IV).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-das-maldicoes",
+      "nome": "Bordão das maldições",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 2500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão +1 de madeira Tollon retorcida, de aparência sinistra e adornos rústicos. Fornece +5 nos testes para as maldições de um bruxo.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-do-geomante",
+      "nome": "Bordão do geomante",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão de aparência abrutalhada, ligado aos geomantes. Concede +1 em ataques, dano, CA e testes de resistência ao servo elemental de um geomante, e o usuário recebe redução de dano 2.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-arma-magica-bordao-do-tempo",
+      "nome": "Bordão do tempo",
+      "categoria": "arma magica",
+      "subtipo": "bordao",
+      "peso": 0,
+      "preco": {
+        "valor": 150000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "arma magica",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Bordão +4 de madeira, de aparência simples, mas com grande poder. Uma vez por dia, com uma ação completa, concede o poder do tempo: 1d6 aliados a até 9m podem usar uma ação padrão no turno do usuário, além de suas ações normais na rodada.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-chave-de-wynna",
+      "nome": "Chave de Wynna",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 900,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Pequena chave dourada com a efígie da Deusa da Magia. Uma vez por dia, permite lançar portal para o saber. Só pode ser criada por quem visitou a Academia Arcana.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-colar-das-bolas-de-fogo",
+      "nome": "Colar das bolas de fogo",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 12000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Colar de ouro com cinco pequenos rubis. Uma vez por dia, com uma ação padrão, o usuário lança uma bola de fogo (CD 17). Além disso, recebe resistência a fogo 10.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-criatura-em-miniatura",
+      "nome": "Criatura em miniatura",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 2000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Construto mágico em miniatura de uma criatura real (gnolls, águias, ogros e até dragões), que cabe na palma da mão. Uma vez por dia, ao ser arremessado ao chão com uma palavra de comando, torna-se uma versão em tamanho real da criatura. Preço pelo ND da criatura: até 2, 2.000 TO; 3 a 8, 12.000 TO; 9 a 14, 35.000 TO; 15 a 19, 70.000 TO; 20 ou mais, 120.000 TO.",
+      "properties": "Preço variável pelo ND da criatura.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-consumivel-elixir-da-juventude",
+      "nome": "Elixir da juventude",
+      "categoria": "consumivel",
+      "subtipo": "pocao",
+      "peso": 0,
+      "preco": {
+        "valor": 10000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "consumivel",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Elixir raro e cobiçado: ao ingeri-lo, a idade do usuário cai 1d6+4 anos, possivelmente recuperando penalidades por idade (só em Força, Destreza e Constituição). A partir da segunda dose, há 1% de chance cumulativa de reverter à idade original, o que pode matar quem já passou da longevidade da raça. Preço de mercado; pode subir conforme a disponibilidade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-acessorio-monoculo-da-aguia",
+      "nome": "Monóculo da águia",
+      "categoria": "acessorio",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 12500,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "acessorio",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Monóculo que se encaixa magicamente sobre o olho de qualquer criatura Grande ou menor, concedendo visão perfeita. O usuário recebe +5 em Percepção e a habilidade de classe encontrar armadilhas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-vestuario-robe-das-estrelas",
+      "nome": "Robe das estrelas",
+      "categoria": "vestuario",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 29000,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "vestuario",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Robe escuro, presente de Tenebra a alguns de seus servos arcanos, que só revela seu poder à noite ou em lugares muito escuros, quando estrelas brilham nele. Nessas condições, o usuário recebe +2 em todas as habilidades e visão no escuro, mas sofre –4 em Furtividade. Só pode ser criado por um devoto de Tenebra.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-arcano-artefato-chapeu-da-conjuracao-imprevisivel",
+      "nome": "Chapéu da conjuração imprevisível",
+      "categoria": "artefato",
+      "subtipo": "magico",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual do Arcano",
+      "pagina": 60,
+      "tags": [
+        "artefato",
+        "item magico",
+        "manual do arcano",
+        "tormenta classico"
+      ],
+      "descricao": "Artefato: chapéu pontudo verde de um jovem mago de outro mundo, devorado por otyughs pouco depois de chegar a Arton. Tem dois efeitos: magias lançadas com ele ficam maximizadas, mas há 50% de chance de sair outra magia aleatória de mesmo nível; e o usuário pode, recitando uma rima, tirar do chapéu uma magia arcana qualquer, com resultados imprevisíveis.",
+      "properties": "Artefato (sem preço).",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
