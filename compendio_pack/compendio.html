@@ -106,6 +106,7 @@ html {scroll-behavior:smooth}
       <div class="field"><label>Buscar</label><input id="search" type="search" placeholder="nome, descrição, tag..."></div>
       <div class="field"><label>Categoria</label><select id="category"><option value="">Todas</option></select></div>
       <div class="field"><label>Sistema</label><select id="source"><option value="">Todos os sistemas</option></select></div>
+      <div class="field"><label>Livro</label><select id="livroFiltro"><option value="">Todos os livros</option></select></div>
       <button id="exportCatalogBtn" class="btn" type="button">⬇ Exportar</button>
       <button id="newBtn" class="btn primary admin-only">+ Novo item</button>
     </div>
@@ -1167,6 +1168,68 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     const alvo = document.querySelector(".compendium-library") ? document.querySelector(".compendium-library").parentNode : document.body;
     new MutationObserver(agendar).observe(alvo, { childList: true, subtree: true });
     agendar();
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
+})();
+</script>
+
+<style id="filtro-livro-css">
+@media(min-width:1001px){.toolbar{grid-template-columns:minmax(220px,1.4fr) 170px 170px minmax(170px,220px) auto!important}}
+@media(min-width:721px) and (max-width:1000px){.toolbar{grid-template-columns:repeat(3,minmax(0,1fr))!important}.toolbar .field:first-child{grid-column:1/-1}}
+</style>
+<script id="filtro-livro-js">
+/* Filtro "Livro": filtra pela fonte do item. Só muda o que aparece; não altera os itens. */
+(() => {
+  const canon = v => String(v ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+  const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const sel = () => document.getElementById("livroFiltro");
+  const lista = () => (typeof items !== "undefined" && Array.isArray(items) ? items : []);
+
+  function montarLivros() {
+    const s = sel(); if (!s) return;
+    const sistema = canon(document.getElementById("source")?.value || "");
+    const atual = s.value;
+    const nomes = new Map();
+    lista().forEach(i => {
+      if (sistema && canon(i?.sistema || i?.system) !== sistema) return;
+      const f = String(i?.fonte || "").trim();
+      if (f && !nomes.has(canon(f))) nomes.set(canon(f), f);
+    });
+    const ordenados = [...nomes.entries()].sort((a, b) => a[1].localeCompare(b[1], "pt-BR"));
+    s.innerHTML = '<option value="">Todos os livros</option>' + ordenados.map(([k, f]) => `<option value="${esc(k)}">${esc(f)}</option>`).join("");
+    if (nomes.has(atual)) s.value = atual;
+  }
+
+  function instalar() {
+    if (typeof window.filtered !== "function" || window.filtered.__livro) return false;
+    const original = window.filtered;
+    const comLivro = function (...args) {
+      const livro = sel()?.value || "";
+      const base = original.apply(this, args);
+      return livro ? base.filter(i => canon(i?.fonte) === livro) : base;
+    };
+    comLivro.__livro = true;
+    window.filtered = comLivro;
+    if (typeof window.refreshFilters === "function" && !window.refreshFilters.__livro) {
+      const refOriginal = window.refreshFilters;
+      const ref = function (...args) { const r = refOriginal.apply(this, args); montarLivros(); return r; };
+      ref.__livro = true;
+      window.refreshFilters = ref;
+    }
+    return true;
+  }
+
+  function iniciar() {
+    instalar();
+    montarLivros();
+    sel()?.addEventListener("change", () => { if (typeof render === "function") render(); });
+    document.getElementById("source")?.addEventListener("change", () => {
+      montarLivros();
+      if (typeof render === "function") render();
+    });
+    // os itens chegam depois do carregamento: refaz a lista quando o total muda
+    let ultimo = -1;
+    setInterval(() => { const n = lista().length; if (n !== ultimo) { ultimo = n; instalar(); montarLivros(); } }, 800);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
 })();
