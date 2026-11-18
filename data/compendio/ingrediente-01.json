@@ -288,6 +288,726 @@
       },
       "resources": [],
       "properties": "Uma armadura animada pode render 1d6 moluscos."
+    },
+    {
+      "id": "t20-herois-ingrediente-acucar-das-fadas",
+      "nome": "Açúcar das fadas",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um pó prateado, brilhante e doce. Alguns dizem que é tirado de frutas que nascem apenas na Pondsmânia; outros, que cai das asas de certas criaturas feéricas. Seja como for, é raro e caro. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-ave",
+      "nome": "Ave",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Carne de aves comuns, como frango e ganso. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-avela-de-norba",
+      "nome": "Avelã de Norba",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 40,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um tipo específico de avelã, que apenas os esquilos de Norba (nas Repúblicas Livres de Sambúrdia) conseguem encontrar. Regras Opcionais 305 Carne. De ovelha, gado ou trobo. Um alimento caro, pois esses animais são criados primariamente para outros usos — respectivamente, lã, leite e tração. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-carne",
+      "nome": "Carne",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 16,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "De ovelha, gado ou trobo. Um alimento caro, pois esses animais são criados primariamente para outros usos — respectivamente, lã, leite e tração. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-carne-de-caca",
+      "nome": "Carne de caça",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 32,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "De animais como cervo, javali e faisão, ou mesmo de monstros como urso-coruja, serpe e lobo-das-cavernas. É ainda mais cara que a carne de animais de criação, mas também é mais nutritiva e possui sabor mais pronunciado. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-cereal",
+      "nome": "Cereal",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A base da alimentação artoniana. Os mais comuns são o trigo, o centeio e a cevada, embora outros, como o arroz, o milho e a aveia, sejam consumidos em reinos e regiões específicos. Os preços listados na tabela são para uma porção individual do prato pronto, mas se você cozinhar o prato gastando seus ingredientes, prepara comida suficiente para seu grupo inteiro (por volta de 5 pessoas). Obviamente, nem todos os pratos estarão disponíveis em toda taverna. O mestre pode se divertir construindo o cardápio de cada lugar! Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-cogumelo",
+      "nome": "Cogumelo",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um alimento comum e acessível. Contudo, por sua ligação com a natureza e a magia, é visto com maus olhos em certos ambientes. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-especiarias",
+      "nome": "Especiarias",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Pimentas, ervas, flores e outros tipos de temperos trazidos de terras distantes, ou até mesmo com origem mágica. São valorizadas por casas nobres, tanto por seu sabor quanto por serem um símbolo de poder e riqueza. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-farinha",
+      "nome": "Farinha",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Pó obtido da moagem de certos cereais. Crucial para pães, mingaus e bolos, alimentos comuns entre camponeses artonianos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-fruta",
+      "nome": "Fruta",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Das mais comuns, como maçãs, peras e pêssegos, às mais raras (do ponto de vista de um habitante do Reinado), como melões, tâmaras e figos, podem ser servidas cozidas, como acompanhamento, ou cruas, como sobremesa. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-gorad",
+      "nome": "Gorad",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma iguaria doce originária da pequena província de Tragematum, no Império de Tauron. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-legume",
+      "nome": "Legume",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Inclui cebola, alho, nabo, cenoura, ervilha, feijão e outros. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-leite",
+      "nome": "Leite",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um alimento importante por si só, além de ser a base de manteigas e queijos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-molho-tamuraniano",
+      "nome": "Molho tamuraniano",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um molho escuro, salgado e forte, fabricado apenas no Império de Jade (e no bairro de Nitamu-ra, em Valkaria). O segredo do molho nunca foi revelado a estrangeiros, motivo pelo qual é raro e caro. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-oleo-de-cozinha",
+      "nome": "Óleo de cozinha",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "De origem vegetal, o óleo é usado para cozinhar, temperar e conservar alimentos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-ovo-de-monstro",
+      "nome": "Ovo de monstro",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Ovos de criaturas monstruosas, como grifos, serpes e ursos-corujas. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-peixe",
+      "nome": "Peixe",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 7,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Consumidos frescos, salgados ou defumados. Os mais apreciados são o salmão, a enguia e a lampreia. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-porco",
+      "nome": "Porco",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A carne de açougue mais comum no Reinado — ao contrário de outros animais, o porco é criado primariamente para o abate. 306 Capítulo 4 Pratos Especiais Assado de Carnes. Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-queijo",
+      "nome": "Queijo",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Fortes ou suaves, com ou sem aromatizantes, são comuns tanto em tavernas quanto em banquetes nobres. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-ingrediente-verdura",
+      "nome": "Verdura",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente culinario",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 304,
+      "tags": [
+        "ingrediente",
+        "ingrediente culinario",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Inclui repolho, couve, urtiga, acelga, espinafre, alface e outras. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "properties": "Espaços: 0.5",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }

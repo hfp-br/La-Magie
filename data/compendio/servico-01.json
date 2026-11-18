@@ -1,0 +1,773 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "t20-herois-servico-banho-quente",
+      "nome": "Banho quente",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Disponível em casas de banho e algumas estalagens, um bom banho é relaxante, limpa o corpo e fortalece a imunidade. Você recebe +1d6 em seu próximo teste de resistência feito até o fim do próximo dia (cumulativo com bônus de outros itens).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-bigode-encerado",
+      "nome": "Bigode encerado",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um barbeiro especializado, além de extrair dentes e realizar pequenas cirurgias, pode aparar e moldar com cera a barba e (principalmente) o bigode de um cliente. Um bigode de respeito impõe esse respeito a todos. A primeira criatura inteligente (Int –3 ou maior) que usar um efeito que exija um teste de Vontade contra você em uma cena deve fazer ela própria um teste de Vontade (CD Car). Se falhar, perde sua ação. O efeito do bigode só funciona uma vez por cena. Um bigode encerado dura 1 dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-instrucao-marcial",
+      "nome": "Instrução marcial",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Algumas horas de treino com um mestre de armas custam caro, mas afiam as habilidades de qualquer um. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de ataque, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-maquiagem-profissional",
+      "nome": "Maquiagem profissional",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um maquiador especializado, além de criar disfarces e ouvir os últimos boatos da corte, pode realizar uma verdadeira transformação no rosto de um cliente, ressaltando seus olhos, afinando seu nariz, escondendo cicatrizes etc. Com uma maquiagem profissional, você causa uma primeira impressão mais impactante. Quando faz seu primeiro teste de Diplomacia para mudar atitude em cada cena, você rola dois dados e usa o melhor resultado. Uma maquiagem profissional dura 1 dia.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-opera",
+      "nome": "Ópera",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Disponíveis em grandes cidades onde a cultura seja valorizada e apreciada, as óperas têm um impacto profundo naqueles que possuem uma compreensão artística apurada. Se você for treinado em Atuação ou Conhecimento e assistir a uma ópera, seu total de PM aumenta em +1d4 até o fim da aventura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-sarau-informativo",
+      "nome": "Sarau informativo",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Em alguns lugares, é comum viajantes ou eruditos se reunirem para compartilhar as notícias da região. Passar algumas horas em um destes encontros permite se manter informado a respeito dos últimos acontecimentos. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de Conhecimento ou Nobreza, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-mercenario-parceiro-iniciante-por-cena",
+      "nome": "Mercenário: parceiro iniciante (por cena)",
+      "categoria": "servico",
+      "subtipo": "mercenario",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "mercenario",
+        "parceiro",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Mercenário contratado como parceiro (Tormenta20, p. 260). O valor é o preço para contratar o NPC por uma cena: ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios até que você peça sua ajuda; então fornece seu benefício até o fim da cena e vai embora. A critério do mestre, pode ser contratado para uma aventura inteira pelo triplo do preço. Heróis de Arton descreve tipos específicos (Alquimista de Batalha, Guarda-Costas, Homem de Armas etc.).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-mercenario-parceiro-veterano-por-cena",
+      "nome": "Mercenário: parceiro veterano (por cena)",
+      "categoria": "servico",
+      "subtipo": "mercenario",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "mercenario",
+        "parceiro",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Mercenário contratado como parceiro (Tormenta20, p. 260). O valor é o preço para contratar o NPC por uma cena: ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios até que você peça sua ajuda; então fornece seu benefício até o fim da cena e vai embora. A critério do mestre, pode ser contratado para uma aventura inteira pelo triplo do preço. Heróis de Arton descreve tipos específicos (Alquimista de Batalha, Guarda-Costas, Homem de Armas etc.).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-mercenario-capangas-iniciantes-por-cena",
+      "nome": "Mercenário: capangas iniciantes (por cena)",
+      "categoria": "servico",
+      "subtipo": "mercenario",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "mercenario",
+        "capangas",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Mercenário contratado como parceiro (Tormenta20, p. 260). O valor é o preço para contratar o NPC por uma cena: ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios até que você peça sua ajuda; então fornece seu benefício até o fim da cena e vai embora. A critério do mestre, pode ser contratado para uma aventura inteira pelo triplo do preço. Heróis de Arton descreve tipos específicos (Alquimista de Batalha, Guarda-Costas, Homem de Armas etc.).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-servico-mercenario-capangas-veteranos-por-cena",
+      "nome": "Mercenário: capangas veteranos (por cena)",
+      "categoria": "servico",
+      "subtipo": "mercenario",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 228,
+      "tags": [
+        "servico",
+        "mercenario",
+        "capangas",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Mercenário contratado como parceiro (Tormenta20, p. 260). O valor é o preço para contratar o NPC por uma cena: ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios até que você peça sua ajuda; então fornece seu benefício até o fim da cena e vai embora. A critério do mestre, pode ser contratado para uma aventura inteira pelo triplo do preço. Heróis de Arton descreve tipos específicos (Alquimista de Batalha, Guarda-Costas, Homem de Armas etc.).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-estadia-comum-por-noite",
+      "nome": "Estadia comum (por noite)",
+      "categoria": "servico",
+      "subtipo": "estadia",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "estadia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Hospedagem simples por uma noite.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-estadia-confortavel-por-noite",
+      "nome": "Estadia confortável (por noite)",
+      "categoria": "servico",
+      "subtipo": "estadia",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "estadia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Hospedagem confortável por uma noite.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-estadia-luxuosa-por-noite",
+      "nome": "Estadia luxuosa (por noite)",
+      "categoria": "servico",
+      "subtipo": "estadia",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "estadia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Hospedagem luxuosa por uma noite.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-conducao-terrestre-por-km",
+      "nome": "Condução terrestre (por km)",
+      "categoria": "servico",
+      "subtipo": "conducao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "conducao",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-conducao-maritima-por-km",
+      "nome": "Condução marítima (por km)",
+      "categoria": "servico",
+      "subtipo": "conducao",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "conducao",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-conducao-aerea-por-km",
+      "nome": "Condução aérea (por km)",
+      "categoria": "servico",
+      "subtipo": "conducao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "conducao",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-curandeiro",
+      "nome": "Curandeiro",
+      "categoria": "servico",
+      "subtipo": "curandeiro",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "curandeiro",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "O preço para você receber cuidados prolongados ou tratamento contra uma doença ou veneno (veja a página 117). Isso considera que você vai até a casa do curandeiro ou onde quer que ele receba seus pacientes — curandeiros não aceitam acompanhar aventureiros em suas jornadas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-mensageiro-por-km",
+      "nome": "Mensageiro (por km)",
+      "categoria": "servico",
+      "subtipo": "mensageiro",
+      "peso": 0,
+      "preco": {
+        "valor": 0.5,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "mensageiro",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Inclui mensagens entregues a pé, por cavaleiros ou navios.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-magia-de-1-circulo-lancamento",
+      "nome": "Magia de 1º círculo (lançamento)",
+      "categoria": "servico",
+      "subtipo": "magia",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 163,
+      "tags": [
+        "servico",
+        "magia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Preço para lançar uma magia em uma situação comum: você vai até o conjurador e lançar a magia não oferece risco para ele. Se pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-magia-de-2-circulo-lancamento",
+      "nome": "Magia de 2º círculo (lançamento)",
+      "categoria": "servico",
+      "subtipo": "magia",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 163,
+      "tags": [
+        "servico",
+        "magia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Preço para lançar uma magia em uma situação comum: você vai até o conjurador e lançar a magia não oferece risco para ele. Se pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-magia-de-3-circulo-lancamento",
+      "nome": "Magia de 3º círculo (lançamento)",
+      "categoria": "servico",
+      "subtipo": "magia",
+      "peso": 0,
+      "preco": {
+        "valor": 360,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 163,
+      "tags": [
+        "servico",
+        "magia",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Preço para lançar uma magia em uma situação comum: você vai até o conjurador e lançar a magia não oferece risco para ele. Se pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-jda-servico-estabulo-por-dia",
+      "nome": "Estábulo (por dia)",
+      "categoria": "servico",
+      "subtipo": "estabulo",
+      "peso": 0,
+      "preco": {
+        "valor": 0.1,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "estabulo",
+        "tormenta20",
+        "jogo do ano"
+      ],
+      "descricao": "Inclui alimentação para o animal.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}

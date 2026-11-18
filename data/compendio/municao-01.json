@@ -417,6 +417,150 @@
       },
       "resources": [],
       "properties": "Espaços: 1"
+    },
+    {
+      "id": "t20-herois-flechas-assobiadoras-20",
+      "nome": "Flechas assobiadoras (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 222,
+      "tags": [
+        "municao",
+        "flechas",
+        "20 unidades",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Estas flechas simulam o canto de um pássaro quando disparadas. Artesãos élficos criavam flechas que faziam sons específicos, reconhecidos por suas sentinelas. Por exemplo, o crocitar de um falcão indicava um ataque, enquanto que o chiado de uma coruja significava um avanço furtivo. Um grupo pode usar estas flechas para se comunicar à distância (ainda que de forma rudimentar). Além disso, o som distrativo desta flecha permite que ela seja usada para fazer uma finta contra qualquer alvo dentro do alcance dela (normalmente, uma finta só pode ser feita contra alvos em alcance curto).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-flechas-de-caca-20",
+      "nome": "Flechas de caça (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 222,
+      "tags": [
+        "municao",
+        "flechas",
+        "20 unidades",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Estas flechas possuem cabeças chatas e pesadas, criadas para atordoar presas pequenas em vez de destruí-las completamente, como outros tipos de flechas fariam. Uma flecha de caça causa dano de impacto não letal.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-flechas-pesadas-20",
+      "nome": "Flechas pesadas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 222,
+      "tags": [
+        "municao",
+        "flechas",
+        "20 unidades",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Estas munições são versões de ponta mais pesada e afiada das flechas ou virotes normais. Você sofre –2 em testes de ataque com estas flechas, mas ignora 5 pontos da RD dos alvos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-virotes-pesados-20",
+      "nome": "Virotes pesados (20)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 222,
+      "tags": [
+        "municao",
+        "virotes",
+        "20 unidades",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Estas munições são versões de ponta mais pesada e afiada das flechas ou virotes normais. Você sofre –2 em testes de ataque com estas flechas, mas ignora 5 pontos da RD dos alvos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }

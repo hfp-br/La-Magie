@@ -5726,6 +5726,820 @@
       },
       "resources": [],
       "properties": "Espaços: 0.5"
+    },
+    {
+      "id": "t20-herois-prato-assado-de-carnes",
+      "nome": "Assado de carnes",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em rolagens de dano corpo a corpo. Ingredientes: Carne, carne de caça, porco (T$ 56). Cozinhar: Ofício (cozinheiro) CD 25, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-balinhas",
+      "nome": "Balinhas",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Balas coloridas e doces. Arcanistas gostam delas — dizem que o açúcar feérico usado nas balinhas potencializa suas magias. Claro… Apesar do ceticismo dos outros, você recebe +2 em rolagens de dano de magias. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em rolagens de dano de magias. Ingredientes: Açúcar das fadas, fruta (T$ 53). Cozinhar: Ofício (cozinheiro) CD 25, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-banquete-dos-herois",
+      "nome": "Banquete dos heróis",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma mesa repleta das melhores comidas que o dinheiro pode pagar. Você recebe +1 em um atributo a sua escolha. Esse aumento não oferece PV, PM e perícias adicionais. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1 em um atributo. Ingredientes: Carne de caça, ovo de monstro, avelã de Norba (T$ 82). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-bolo-de-cenoura",
+      "nome": "Bolo de cenoura",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma sobremesa simples, que “faz bem para a vista”, segundo anciões de todo o Reinado. Aparentemente, os anciões estão certos, pois o bolo de cenoura fornece +2 em testes de Percepção. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Percepção. Ingredientes: Farinha, fruta, óleo (T$ 7). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-bolo-do-panteao",
+      "nome": "Bolo do Panteão",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 200,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma sobremesa divina! Este bolo de gorad é preparado com os melhores ingredientes, por isso é caríssimo, servido apenas em banquetes reais — ou em tavernas que atendem aventureiros famosos. Comer uma fatia de um bolo do Panteão torna mais fácil dar o melhor de si, seja desferindo um golpe especial, seja lançando uma magia. Quando você come este prato, escolha uma habilidade. Seu custo para usar a habilidade escolhida diminui em –1 PM (mínimo 1). Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: Reduz em –1 PM o custo de uma habilidade. Ingredientes: Açúcar das fadas, avelã de Norba, farinha, gorad (T$ 121). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-ensopado-reforcado",
+      "nome": "Ensopado reforçado",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um prato nutritivo e pesado. Você recebe +20 PV temporários. Contudo, seu deslocamento diminui em –1,5m. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +20 PV temporários, –1,5m no deslocamento. Ingredientes: Fruta, porco, verdura (T$ 12). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-estrogonofe",
+      "nome": "Estrogonofe",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 18,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Essa iguaria deliciosa foi inventada nas cortes do antigo Reino de Yudennach — dizem que é uma das poucas coisas boas a sair daquele lugar. Comer estrogonofe deixa você firme em suas convicções. Você recebe +2 em testes de Vontade. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Vontade. Ingredientes: Carne, cogumelo, leite (T$ 22). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-futomaki",
+      "nome": "Futomaki",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 12,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Criado no Império de Jade, este prato consiste em um rolo de arroz recheado com peixes, folhas e raízes. Uma refeição elegante, que deixa todos dispostos a dialogar. Você recebe +2 em testes de Diplomacia. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Diplomacia. Ingredientes: Cereal, peixe (T$ 8). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-gorvela",
+      "nome": "Gorvelã",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 90,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Gorad com avelã de Norba. É uma sobremesa cara, mas deliciosa. Fornece +5 PM temporários. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +5 PM temporários. Ingredientes: Gorad, avelã de Norba (T$ 70). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-javali-do-bosque-enevoado",
+      "nome": "Javali do Bosque Enevoado",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um ensopado de javali cozido em caldo de cerveja escura e mel, servido com pão rústico recheado de cogumelos. Quem experimenta este prato de sabor forte fica mais confiante para encarar qualquer luta. Você recebe +2 na Defesa. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 na Defesa. Ingredientes: Carne de caça, cogumelo, farinha (T$ 38). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-manjar-dos-titas",
+      "nome": "Manjar dos titãs",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e 308 Capítulo 4 disposto. Você recebe +1d4 de bônus em testes de perícias baseadas em Força, Destreza ou Constituição. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1d4 em testes de perícias físicas. Ingredientes: Avelã de Norba, farinha, ovo de monstro (T$ 91). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-ovo-de-monstro-frito",
+      "nome": "Ovo de monstro frito",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "A receita é simples — o segredo está nos ingredientes. Feito com ovos de monstros, este ovo frito é extremamente nutritivo. Você recebe +10 PV temporários. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +10 PV temporários. Ingredientes: Ovo de monstro, óleo (T$ 53). Cozinhar: Ofício (cozinheiro) CD 25, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-pao-de-queijo",
+      "nome": "Pão de queijo",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um bom pão de queijo deixa qualquer aventureiro bem nutrido e saudável. Você recebe +2 em testes de Fortitude. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Fortitude. Ingredientes: Farinha, queijo (T$ 7). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-pavao-celestial",
+      "nome": "Pavão celestial",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 150,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Feito de ave de caça marinada em vinho e acompanhada de um molho espesso de pêssegos e figos, este prato é extremamente elegante. Você recebe +1d4 de bônus em testes de perícias baseadas em Inteligência, Sabedoria e Carisma. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1d4 em testes de perícias mentais. Ingredientes: Açúcar das fadas, carne de caça, fruta (T$ 85). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-pizza",
+      "nome": "Pizza",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um disco de massa coberto com molho de tomate e queijo, este prato foi criado por Guido Venusto, um nobre de Ahlen que queria ascender socialmente. Inepto nas artes da intriga, Venusto resolveu manipular a corte pela barriga. Funcionou — o prato foi um sucesso e o nobre teve muita influência por anos. Certa noite, um espião conseguiu roubar a receita. O segredo da pizza se espalhou e, sem seu trunfo, Venusto foi assassinado logo depois. Comer uma pizza deixa-o pronto para encarar qualquer perigo: você recebe +1 em todos os testes de resistência. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1 em testes de resistência. Ingredientes: Farinha, fruta, queijo (T$ 10). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-porco-deheoni",
+      "nome": "Porco deheoni",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 36,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Um prato típico e popular em Deheon, que já se alastrou pelo Reinado. Comer um porco assado deixa-o valente e brigão. Você recebe +1 em testes de ataque corpo a corpo. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1 em ataques corpo a corpo. Ingredientes: Porco, fruta, legume (T$ 12). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-salada-de-salistick",
+      "nome": "Salada de Salistick",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Com folhas e carne de frango, esta salada foi criada no Reino sem Deuses, onde a saúde é uma grande preocupação. Uma alimentação leve, mas nutritiva, aumenta seu deslocamento em +1,5m. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1,5m no deslocamento. Ingredientes: Ave, fruta, legume (T$ 8). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-salada-elfica",
+      "nome": "Salada élfica",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta salada vegetariana leva uma mistura de folhas, frutas e legumes. Segundo os relatos, a receita foi inventada em Lenórienn e passada aos reinos humanos de Lamnor, antes do isolamento dos povos. Felizmente, a salada se espalhou por Arton antes da queda do continente. Um prato leve e equilibrado, inspira disparos precisos. Fornece +1 em testes de ataque à distância. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +1 em ataques à distância. Ingredientes: Fruta, legume, verdura (T$ 5). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-salada-imperial",
+      "nome": "Salada imperial",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma mistura de folhas com bacon e queijo, esta salada é leve, mas empolgante. Fornece +2 em testes de Iniciativa. Comida é melhor que XP… Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Iniciativa. Ingredientes: Porco, queijo, verdura (T$ 15). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-sashimi",
+      "nome": "Sashimi",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 60,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Uma iguaria da culinária tamuraniana, este prato consiste de peixes e frutos do mar fatiados em pequenos pedaços e servidos com um molho do Império de Jade. Uma refeição refinada, leve e equilibrada, fornece +2 em rolagens de dano à distância. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em rolagens de dano à distância. Ingredientes: Peixe, molho tamuraniano (T$ 37). Cozinhar: Ofício (cozinheiro) CD 25, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-sopa-de-cogumelos",
+      "nome": "Sopa de cogumelos",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Esta sopa expande sua percepção mística. Você recebe +2 em testes de Misticismo. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: +2 em Misticismo. Ingredientes: Cogumelo, legume, verdura (T$ 7). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "t20-herois-prato-torta-de-maca",
+      "nome": "Torta de maçã",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "T$"
+      },
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "pagina": 306,
+      "tags": [
+        "consumivel",
+        "alimentacao",
+        "prato especial",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton"
+      ],
+      "descricao": "Dizem que, após uma bruxa usar uma maçã envenenada para matar uma princesa, Thantalla-Dhaedelin, a Rainha das Fadas, decretou que maçãs nunca mais fariam mal a ninguém. Se a lenda é verdade ou se maçãs são simplesmente saudáveis, ninguém sabe dizer, mas comer este prato fornece resistência a veneno +5. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "properties": "Benefício: Resistência a veneno +5. Ingredientes: Farinha, fruta (T$ 4). Cozinhar: Ofício (cozinheiro) CD 20, faz comida para o grupo.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
