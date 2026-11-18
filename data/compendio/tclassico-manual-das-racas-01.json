@@ -1,0 +1,185 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "tclassico-racas-aji",
+      "nome": "Aji",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual das Raças",
+      "pagina": 25,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "elfo negro",
+        "manual das racas",
+        "tormenta classico"
+      ],
+      "descricao": "Peça metálica em forma de arco, com empunhadura interna e lâmina curvada para fora. Própria para uso aos pares: lutar com duas aji reduz em –2 a penalidade por Combater com Duas Armas. Elfos negros (destino) se tornam treinados no seu uso.",
+      "properties": "Arma exótica leve. Dano 1d6, crítico 19-20, tipo corte.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-racas-acoite-finntroll",
+      "nome": "Açoite finntroll",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 2.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual das Raças",
+      "pagina": 114,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "finntroll",
+        "manual das racas",
+        "tormenta classico"
+      ],
+      "descricao": "Tiras de couro com farpas de aço nas pontas, ao mesmo tempo arma e instrumento de tortura. Uma criatura atingida deve fazer um teste de Fortitude (CD 10 + dano recebido); se falhar, sofre –2 em todas as jogadas e testes durante a próxima rodada, devido à dor.",
+      "properties": "Arma exótica de uma mão. Dano 1d8, crítico x2, tipo corte.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-racas-autogiro",
+      "nome": "Autogiro",
+      "categoria": "veiculo",
+      "subtipo": "aeronave goblin",
+      "peso": 0,
+      "preco": {
+        "valor": 350,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual das Raças",
+      "pagina": 104,
+      "tags": [
+        "veiculo",
+        "aeronave",
+        "goblin",
+        "manual das racas",
+        "tormenta classico"
+      ],
+      "descricao": "Engenho voador que levanta voo com o zumbido de um inseto monstruoso. Mede 4,5m de diâmetro e transporta apenas um piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 15; voa a 50km/h (deslocamento 15m em combate) e o piloto fica sob cobertura.",
+      "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 8, 30 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-racas-demoiselle",
+      "nome": "Demoiselle",
+      "categoria": "veiculo",
+      "subtipo": "aeronave goblin",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual das Raças",
+      "pagina": 104,
+      "tags": [
+        "veiculo",
+        "aeronave",
+        "goblin",
+        "manual das racas",
+        "tormenta classico"
+      ],
+      "descricao": "Engenho com grandes asas de morcego que, à distância, lembra um dragão. Envergadura de 4,5m; transporta um único piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 12; voa a 60km/h (deslocamento 18m em combate) e o piloto fica sob cobertura.",
+      "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 2, 80 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-racas-dirigivel",
+      "nome": "Dirigível",
+      "categoria": "veiculo",
+      "subtipo": "aeronave goblin",
+      "peso": 0,
+      "preco": {
+        "valor": 550,
+        "moeda": "TO"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Manual das Raças",
+      "pagina": 105,
+      "tags": [
+        "veiculo",
+        "aeronave",
+        "goblin",
+        "manual das racas",
+        "tormenta classico"
+      ],
+      "descricao": "Versão maior e mais manobrável do balão goblin, em forma de charuto gigantesco, com sistemas de propulsão próprios (–10 na CD de Ofício (baloeiro) para pilotá-lo). A gôndola dá cobertura aos passageiros, mas não aos pilotos. Transporta até seis passageiros Médios e dois pilotos Pequenos.",
+      "properties": "Tamanho Descomunal, CA 2 (+ Des do piloto), RD 5, 120 PV.",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}
