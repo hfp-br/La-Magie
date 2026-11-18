@@ -11,7 +11,7 @@
         "valor": 15,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -46,7 +46,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -81,7 +81,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -116,7 +116,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -151,7 +151,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -186,7 +186,7 @@
         "valor": 10,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -221,7 +221,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -256,7 +256,7 @@
         "valor": 30,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -291,7 +291,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -326,7 +326,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -361,7 +361,7 @@
         "valor": 7,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -396,7 +396,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -431,7 +431,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -466,7 +466,7 @@
         "valor": 2,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -501,7 +501,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -536,7 +536,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -571,7 +571,7 @@
         "valor": 2,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -606,7 +606,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -641,7 +641,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -676,7 +676,7 @@
         "valor": 8,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -711,7 +711,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -746,7 +746,7 @@
         "valor": 2,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -781,7 +781,7 @@
         "valor": 50,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -816,7 +816,7 @@
         "valor": 1,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -851,7 +851,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [

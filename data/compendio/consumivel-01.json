@@ -2514,7 +2514,7 @@
         "valor": 25,
         "moeda": "TO"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -2550,7 +2550,7 @@
         "valor": 5,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -2586,7 +2586,7 @@
         "valor": 1,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
@@ -2622,7 +2622,7 @@
         "valor": 3,
         "moeda": "TP"
       },
-      "sistema": "tormenta20",
+      "sistema": "tormenta-classico",
       "fonte": "Tormenta RPG - Módulo Básico",
       "pagina": 140,
       "tags": [
