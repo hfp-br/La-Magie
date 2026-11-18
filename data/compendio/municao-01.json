@@ -78,7 +78,7 @@
       "subtipo": "balas de funda",
       "peso": 2,
       "preco": {
-        "valor": 20,
+        "valor": 0.5,
         "moeda": "T$"
       },
       "sistema": "tormenta20",

@@ -2286,12 +2286,12 @@
       "subtipo": "ataque a distancia",
       "peso": 1,
       "preco": {
-        "valor": 15000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -2304,7 +2304,7 @@
       ],
       "descricao": "Azagaia mágica que, quando arremessada, transforma-se em um relâmpago e volta à forma normal ao final do alcance. Efeitos: Ao arremessar, transforma-se em Relâmpago: 6d6 de eletricidade em uma linha de alcance médio. Ao fim do alcance volta a ser azagaia e cai no chão. arremesso; corpo a corpo com -5 no ataque",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "azagaia-dos-relampagos-vi4yv",
@@ -2350,12 +2350,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 2,
       "preco": {
-        "valor": 15000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -2367,7 +2367,7 @@
       ],
       "descricao": "Espada longa de guarda reta concedida a vassalos dignos. Seu poder cresce com honra, devoção a Khalmyr e treinamento em Nobreza. Efeito: Fornece +1 em ataque e dano. Esse bônus aumenta em +1 para cada condição cumprida: possuir código de conduta, ser devoto de Khalmyr e ser treinado em Nobreza; máximo +4.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "espada-baronial-pfuoo",
@@ -2413,12 +2413,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 3,
       "preco": {
-        "valor": 20000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "exotica",
@@ -2432,7 +2432,7 @@
       ],
       "descricao": "Espada bastarda formidável de lâmina prateada e reluzente, concedida a cavaleiros da Luz. Efeitos: Ação de movimento e 2 PM: irradia luz brilhante em alcance médio até o fim da cena; inimigos dentro da luz ficam ofuscados. adaptavel; pode ser usada como marcial de duas maos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "lamina-da-luz-594by",
@@ -2478,12 +2478,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 1.5,
       "preco": {
-        "valor": 20000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -2497,7 +2497,7 @@
       ],
       "descricao": "Lança formidável coberta de espinhos e folhas vivas, ligada à transformação animal. Efeitos: Ao usar Forma Selvagem, aplique o bônus +2 de ataque e dano desta lança às suas armas naturais. arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "lanca-animalesca-8gufg",
@@ -2543,12 +2543,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 6,
       "preco": {
-        "valor": 20000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -2560,7 +2560,7 @@
       ],
       "descricao": "Maça formidável feita com osso e crânio, impregnada de magia aterradora. Efeito: Permite lançar Amedrontar. Se já conhece a magia, seu custo diminui em –1 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "maca-do-terror-kdttb",
@@ -2606,12 +2606,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 1,
       "preco": {
-        "valor": 25000,
+        "valor": 50000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -2624,7 +2624,7 @@
       ],
       "descricao": "Florete formidável com cabo e guarda trabalhados em prata e pedrarias, capaz de acelerar uma sequência perfeita de golpes. Efeitos: Ao usar a ação atacar, pode gastar 1 PM. Se acertar um crítico nesse turno, pode fazer um ataque adicional contra a mesma criatura. agil",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "florete-fugaz-37ua8",
@@ -2670,12 +2670,12 @@
       "subtipo": "corpo a corpo - duas maos",
       "peso": 2,
       "preco": {
-        "valor": 30000,
+        "valor": 60000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -2688,7 +2688,7 @@
       ],
       "descricao": "Bordão formidável escuro e reforçado, procurado por conjuradores de batalha. Efeitos: Magias de dano lançadas por você causam +1 ponto de dano por dado. dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cajado-da-destruicao-at6dm",
@@ -2734,12 +2734,12 @@
       "subtipo": "corpo a corpo - duas maos",
       "peso": 2,
       "preco": {
-        "valor": 30000,
+        "valor": 60000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -2753,7 +2753,7 @@
       ],
       "descricao": "Bordão formidável branco com runas prateadas, valorizado por curandeiros. Efeitos: Magias de cura lançadas por você curam +2 PV por dado. dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cajado-da-vida-m4hfa",
@@ -2799,12 +2799,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 3,
       "preco": {
-        "valor": 35000,
+        "valor": 70000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -2817,7 +2817,7 @@
       ],
       "descricao": "Machado de batalha formidável gravado com plantas e animais selvagens. Efeito: Em ambiente ermo e ao ar livre, causa +1d8 de dano e concede o poder Trespassar. Se já possuir Trespassar, pode usá-lo sem gastar PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "machado-silvestre-9axuj",
@@ -2863,12 +2863,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 2.5,
       "preco": {
-        "valor": 35000,
+        "valor": 70000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -2881,7 +2881,7 @@
       ],
       "descricao": "Martelo de guerra formidável de pedra e aço, cujo poder aumenta nas mãos de um anão. Efeito: Quando empunhado por um anão, adquire arremesso e causa +1d8 de dano, ou +2d8 contra criaturas Grandes ou maiores.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "martelo-de-doherimm-vy8oz",
@@ -2927,12 +2927,12 @@
       "subtipo": "ataque a distancia",
       "peso": 1.5,
       "preco": {
-        "valor": 45000,
+        "valor": 90000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 322,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -2947,7 +2947,7 @@
       ],
       "descricao": "Arco longo formidável sem corda física, capaz de criar flechas de energia diferentes conforme a intenção do usuário. Efeitos: Flecha normal: 3d8 de essência. Flecha piedosa: 4d8 não letal. Flecha explosiva: 3d6 fogo no alvo e adjacentes (Reflexos CD 20 reduz pela metade para adjacentes). Flecha-rede: sem dano, deixa agarrado; Força CD 20 para escapar. disparo; aplica FOR ao dano; nao pode ser usado montado",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "arco-do-poder-ayffx",
@@ -2993,12 +2993,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 2,
       "preco": {
-        "valor": 45000,
+        "valor": 90000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -3012,7 +3012,7 @@
       ],
       "descricao": "Cimitarra formidável originária do Deserto da Perdição, capaz de envolver sua lâmina em chamas. Efeitos: Ação de movimento e 2 PM: transforma a lâmina em chamas até o fim da cena; dano aumenta um passo e passa a fogo. Ação de movimento e 2 PM enquanto em chamas: inimigos em alcance curto ficam desprevenidos por 1 rodada. agil",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "lingua-do-deserto-mqlcw",
@@ -3064,12 +3064,12 @@
       "subtipo": "ataque a distancia",
       "peso": 4,
       "preco": {
-        "valor": 50000,
+        "valor": 100000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -3083,7 +3083,7 @@
       ],
       "descricao": "Besta pesada formidável de madeira escurecida, capaz de transformar virotes em explosões de fogo. Efeitos: Ao disparar, pode gastar 3 PM para transformar o virote em Bola de Fogo. Contra criatura: ataque normal + 6d6 fogo no alvo e 6d6 fogo em criaturas a até 6m (Reflexos reduz metade); se errar, não explode. Contra ponto no chão: funciona como Bola de Fogo, sem teste de ataque. disparo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "besta-explosiva-s6uas",
@@ -3129,12 +3129,12 @@
       "subtipo": "corpo a corpo - leve",
       "peso": 0.5,
       "preco": {
-        "valor": 50000,
+        "valor": 100000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 324,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -3152,7 +3152,7 @@
       ],
       "descricao": "Adaga negra e ondulada, formidável, assassina e venenosa, capaz de assumir a forma de um objeto inofensivo. Efeitos: Ação padrão e 2 PM: transforma-se em objeto inofensivo de tamanho similar; nenhuma magia detecta a transformação. Voltar à forma de arma é ação livre. Ao atacar, pode gastar 2 PM; se acertar, a vítima fica envenenada e sofre 1d12 de dano por rodada durante 1d6 rodadas. Possui o encanto Assassina, aumentando o Ataque Furtivo do usuário.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "punhal-sszzaazita-disfarce-00ltj",
@@ -3210,12 +3210,12 @@
       "subtipo": "corpo a corpo - leve",
       "peso": 1,
       "preco": {
-        "valor": 55000,
+        "valor": 110000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -3228,7 +3228,7 @@
       ],
       "descricao": "Espada curta formidável cravejada de brilhantes que favorece seu portador com sorte sobrenatural. Efeitos: Fornece +2 em testes de resistência. Pode gastar 3 PM para rolar novamente um teste recém-realizado, uma vez por teste. Se possuir Sortudo, o custo diminui em –1 PM. leve",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "espada-sortuda-gvsnc",
@@ -3280,12 +3280,12 @@
       "subtipo": "corpo a corpo - duas maos",
       "peso": 6,
       "preco": {
-        "valor": 70000,
+        "valor": 140000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "marcial",
@@ -3299,7 +3299,7 @@
       ],
       "descricao": "Machado de guerra formidável de gelo eterno e encantado com frio, capaz de invocar uma tempestade de gelo. Efeitos: Fornece resistência a fogo 10. Ação padrão e 6 PM: cria tempestade de gelo em alcance curto ao redor. Criaturas recebem camuflagem e sofrem 3d6 impacto + 3d6 frio por rodada; você ignora esses efeitos. Gaste 1 PM no início de cada turno para manter.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "avalanche-resistencia-e8ai8",
@@ -3351,12 +3351,12 @@
       "subtipo": "corpo a corpo - duas maos",
       "peso": 2,
       "preco": {
-        "valor": 90000,
+        "valor": 180000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 323,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 339,
       "tags": [
         "arma",
         "simples",
@@ -3369,7 +3369,7 @@
       ],
       "descricao": "Bordão magnífico de cabo liso com joia cintilante, feito para ampliar o poder de conjuradores arcanos. Efeitos: O custo de suas magias arcanas diminui em –1 PM e a CD para resistir a elas aumenta em +2. dupla",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cajado-do-poder-p51nw",

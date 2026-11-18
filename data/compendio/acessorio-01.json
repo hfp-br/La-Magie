@@ -8,12 +8,12 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico",
@@ -21,7 +21,7 @@
       ],
       "descricao": "Anel que elimina necessidades básicas após um período de adaptação. Efeito: Após uma semana de uso, você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-do-sustento-other-apos-uma-semana-de-uso-v",
@@ -49,19 +49,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Bainha de couro e prata que muda de tamanho para acomodar qualquer arma corpo a corpo. Efeito: Permite lançar Arma Mágica em qualquer arma guardada nela sem pagar o custo em PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "bainha-magica-other-permite-lancar-arma-magi",
@@ -89,19 +89,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Corda mágica de 15m, fina e extremamente resistente. Efeito: Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "corda-da-escalada-other-suporta-ate-1-500-kg-com",
@@ -129,19 +129,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Ferraduras mágicas para uma montaria. Efeito: +3m no deslocamento da montaria.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "ferraduras-da-velocidade-movement-3m-no-deslocamento-da-mo",
@@ -170,19 +170,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Ânfora metálica que libera fumaça mágica enquanto permanece aberta. Efeito: Ao abrir, gera o efeito de Névoa. A fumaça persiste até a garrafa ser tampada e então se dissipa conforme as condições de vento.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "garrafa-da-fumaca-eterna-other-ao-abrir-gera-o-efeito-d",
@@ -210,19 +210,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Prisma cristalino capaz de emitir luz ou um clarão cegante. Efeito: Com um comando, emite luz como uma tocha ou um raio em alcance curto; Fortitude evita ficar cego por 1d4 rodadas.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "gema-da-luminosidade-other-com-um-comando-emite-luz",
@@ -250,19 +250,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Manto cinza aparentemente comum que auxilia a ocultação. Efeito: +5 em Furtividade enquanto estiver com o capuz cobrindo o rosto.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-elfico-skill-5-em-furtividade-enquant",
@@ -292,19 +292,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1000,
+        "valor": 3000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Mochila ligada a um espaço interdimensional. Efeito: Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "mochila-de-carga-other-pode-guardar-ate-100-kg-",
@@ -332,19 +332,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Par de brincos de safira que aguça o raciocínio. Efeito: +2 em Inteligência.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "brincos-da-sagacidade-attribute-2-em-inteligencia",
@@ -374,19 +374,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Luvas finas para manipulação precisa. Efeito: +2 em Destreza.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "luvas-da-delicadeza-attribute-2-em-destreza",
@@ -416,19 +416,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Luvas grossas reforçadas com rebites de ferro. Efeito: +2 em Força.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manoplas-da-forca-do-ogro-attribute-2-em-forca",
@@ -458,19 +458,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Manto grosso e pesado que protege o usuário. Efeito: +2 em testes de resistência.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-da-resistencia-other-2-em-testes-de-resistenc",
@@ -498,19 +498,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Manto de veludo com bordados de ouro. Efeito: +2 em Carisma.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-do-fascinio-attribute-2-em-carisma",
@@ -540,19 +540,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Pequena pérola em uma corrente leve. Efeito: +2 em Sabedoria.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pingente-da-sensatez-attribute-2-em-sabedoria",
@@ -582,19 +582,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 1500,
+        "valor": 4500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Colar ou bracelete decorado com a figura de um animal poderoso. Efeito: +2 em Constituição.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "torque-do-vigor-attribute-2-em-constituicao",
@@ -624,19 +624,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 2000,
+        "valor": 6000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Chapéu mágico capaz de alterar sua própria aparência como parte de um disfarce. Efeito: Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "chapeu-do-disfarce-other-permite-lancar-disfarce-",
@@ -664,19 +664,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 2000,
+        "valor": 6000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Instrumento mágico usado para criar sons ilusórios. Efeito: Se for treinado em Atuação, pode lançar Esculpir Sons sem pagar o custo em PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "flauta-fantasma-other-se-for-treinado-em-atuac",
@@ -704,19 +704,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 2000,
+        "valor": 6000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Lanterna que funciona como um lampião e revela o que está oculto. Efeito: Sua luz revela criaturas e objetos invisíveis em alcance curto.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "lanterna-da-revelacao-other-sua-luz-revela-criaturas",
@@ -744,19 +744,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3000,
+        "valor": 9000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que desvia ataques contra seu usuário. Efeito: +2 em Defesa.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-da-protecao-ac-2-em-defesa",
@@ -785,19 +785,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3000,
+        "valor": 9000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que protege a mente contra observação sobrenatural. Efeito: Imunidade a magias de adivinhação.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-do-escudo-mental-other-imunidade-a-magias-de-ad",
@@ -825,12 +825,12 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3000,
+        "valor": 9000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico",
@@ -838,7 +838,7 @@
       ],
       "descricao": "Joia verde em cordão de prata que protege a saúde após um período de uso. Efeitos: Após uma semana de uso, concede imunidade a doenças e venenos. Imunidades: doenças; venenos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pingente-da-saude-other-apos-uma-semana-de-uso-c",
@@ -866,19 +866,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3500,
+        "valor": 10500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que permite manipular objetos à distância. Efeito: Pode lançar Telecinesia. Se já conhece a magia, o custo diminui em –1 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-de-telecinesia-other-pode-lancar-telecinesia-",
@@ -906,19 +906,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3500,
+        "valor": 10500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Esfera de cristal de 15cm usada para observar pessoas e lugares distantes. Efeito: Olhar através dela é uma ação completa e gera a magia Vidência.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "bola-de-cristal-other-olhar-atraves-dela-e-uma",
@@ -946,19 +946,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 3500,
+        "valor": 10500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Pedra em formato de crânio que cria uma área profana. Efeito: Gera permanentemente Profanar com o crânio como origem; mortos-vivos e devotos de deuses do Mal na área recebem +2 em testes e Defesa.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "caveira-maldita-other-gera-permanentemente-pro",
@@ -986,19 +986,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 5000,
+        "valor": 15000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Botas das quais podem brotar asas mágicas. Efeito: Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "botas-aladas-other-gaste-2-pm-para-receber-",
@@ -1026,19 +1026,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 5500,
+        "valor": 16500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Braceletes que projetam um campo de força invisível. Efeito: +4 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "braceletes-de-bronze-ac-4-em-defesa-cumulativo-c",
@@ -1067,19 +1067,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que aumenta a reserva de mana após um dia de uso. Efeito: Após um dia de uso, recebe +5 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-da-energia-other-apos-um-dia-de-uso-receb",
@@ -1107,19 +1107,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que fortalece o usuário após um dia de uso. Efeito: +10 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-da-vitalidade-maxhp-10-pv",
@@ -1148,19 +1148,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel de prata que torna seu usuário invisível. Efeito: Ao colocar, fica sob Invisibilidade. O efeito termina se atacar ou lançar magia ofensiva; retirar e recolocar é ação padrão e restaura o efeito.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-de-invisibilidade-other-ao-colocar-fica-sob-invi",
@@ -1188,19 +1188,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Protetores de punho mágicos para combatentes à distância. Efeito: +2 em rolagens de dano com armas de ataque à distância.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "bracadeiras-do-arqueiro-other-2-em-rolagens-de-dano-co",
@@ -1228,19 +1228,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Brincos brancos abençoados pela Deusa da Paz. Efeito: A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "brincos-de-marah-other-a-primeira-criatura-que-",
@@ -1268,19 +1268,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Faixas de pano surrado para punhos, braços ou testa. Efeito: +2 em testes de ataque e rolagens de dano com ataques desarmados.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "faixas-do-pugilista-other-2-em-testes-de-ataque-e-",
@@ -1308,19 +1308,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Manto de seda negra com fios de prata. Efeitos: Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas. Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-da-aranha-other-recebe-escalada-igual-ao",
@@ -1354,19 +1354,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Vassoura mágica capaz de voar carregando até duas pessoas. Efeito: Como um tapete voador, mas carrega até duas pessoas ou 200 kg.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "vassoura-voadora-other-como-um-tapete-voador-ma",
@@ -1394,19 +1394,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 7000,
+        "valor": 21000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Colar de metal com o símbolo de um deus do Panteão, resistente ao uso em viagens. Se você for devoto dessa divindade, o custo de suas magias divinas diminui em 1 PM. Apenas inventores devotos do deus representado podem fabricar este item.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "simbolo-abencoado-other-se-for-devoto-da-divinda",
@@ -1434,19 +1434,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Disco dourado preso a uma corrente de ouro. Efeito: +5 em Constituição.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "amuleto-da-robustez-attribute-5-em-constituicao",
@@ -1476,19 +1476,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Botas mágicas que aumentam a velocidade. Efeitos: +3m no deslocamento. Pode lançar Velocidade apenas sobre você mesmo.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "botas-velozes-movement-3m-no-deslocamento",
@@ -1523,19 +1523,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Cinto largo de couro com rebites de ferro. Efeito: +5 em Força.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cinto-da-forca-do-gigante-attribute-5-em-forca",
@@ -1565,19 +1565,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Coroa de ouro com dezenas de pedras preciosas. Efeito: +5 em Carisma.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "coroa-majestosa-attribute-5-em-carisma",
@@ -1607,19 +1607,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Faixa de pano com inscrições mágicas usada sobre a nuca. Efeito: +5 em Sabedoria.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "estola-da-serenidade-attribute-5-em-sabedoria",
@@ -1649,19 +1649,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Manto escuro que concede furtividade e permite transformação em morcego. Efeitos: +5 em Furtividade. À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-do-morcego-skill-5-em-furtividade",
@@ -1697,19 +1697,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Pulseira de platina que aguça os movimentos. Efeito: +5 em Destreza.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pulseiras-da-celeridade-attribute-5-em-destreza",
@@ -1739,19 +1739,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 8500,
+        "valor": 25500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Tiara delicada com gema apoiada sobre a testa. Efeito: +5 em Inteligência; não concede perícias treinadas extras.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "tiara-da-sapiencia-attribute-5-em-inteligencia-nao-co",
@@ -1781,19 +1781,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Elmo mágico voltado a deslocamento instantâneo. Efeito: Pode lançar Salto Dimensional e Teletransporte, apenas em você mesmo. Se já conhece essas magias, o custo diminui em –1 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "elmo-do-teletransporte-other-pode-lancar-salto-dimens",
@@ -1821,19 +1821,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Gema que amplifica comunicação e influência mental. Efeito: Pode lançar Compreensão e Enfeitiçar sem pagar seu custo em PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "gema-da-telepatia-other-pode-lancar-compreensao-",
@@ -1861,19 +1861,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Gema ligada às forças elementais. Efeito: Pode lançar Conjurar Elemental sem pagar seu custo em PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.747Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "gema-elemental-other-pode-lancar-conjurar-ele",
@@ -1901,19 +1901,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de resistência física. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Constituição em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manual-da-saude-corporal-other-ler-leva-uma-semana-e-au",
@@ -1941,19 +1941,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de exercícios físicos. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manual-do-bom-exercicio-other-ler-leva-uma-semana-e-au",
@@ -1981,19 +1981,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de coordenação e equilíbrio. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Destreza em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manual-dos-movimentos-precisos-other-ler-leva-uma-semana-e-au",
@@ -2021,19 +2021,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Joia de energia positiva que protege o usuário da queda. Efeito: Quando é reduzido a 0 ou menos PV, cura 100 PV antes que caia. Ativa uma vez por dia.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "medalhao-de-lena-other-quando-e-reduzido-a-0-ou",
@@ -2061,19 +2061,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de percepção e autocontrole. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Sabedoria em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "tomo-da-compreensao-other-ler-leva-uma-semana-e-au",
@@ -2101,19 +2101,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de persuasão e liderança. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Carisma em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "tomo-da-lideranca-e-influencia-other-ler-leva-uma-semana-e-au",
@@ -2141,19 +2141,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 10000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Livro mágico de raciocínio e memória. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Inteligência em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "tomo-dos-grandes-pensamentos-other-ler-leva-uma-semana-e-au",
@@ -2181,19 +2181,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 17000,
+        "valor": 51000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Aro de platina capaz de devolver magias ao conjurador. Efeito: Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-refletor-other-uma-vez-por-rodada-quand",
@@ -2221,19 +2221,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 17000,
+        "valor": 51000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Cinturão de ouro dos antigos campeões gladiatoriais. Efeitos: +2 em Força. Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cinto-do-campeao-attribute-2-em-forca",
@@ -2269,19 +2269,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 17000,
+        "valor": 51000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Diamante lapidado em corrente de platina que deflete ataques. Efeito: +5 em Defesa.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "colar-guardiao-ac-5-em-defesa",
@@ -2310,19 +2310,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 17000,
+        "valor": 51000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Pequena estatueta animal que ganha vida mediante comando. Efeito: Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "estatueta-animista-other-ao-ser-atirada-no-chao-e",
@@ -2350,19 +2350,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 20000,
+        "valor": 60000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Relíquia da Igreja de Valkaria forjada em ouro. Efeito: Você fica permanentemente sob efeito de Libertação.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-da-liberdade-other-voce-fica-permanentement",
@@ -2390,19 +2390,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 20000,
+        "valor": 60000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Tapete mágico de 3m x 3m capaz de transportar um grupo pelo ar. Efeito: Com um comando, recebe voo 12m. Carrega até seis criaturas Médias ou 600 kg e pode ser comandado em alcance longo.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "tapete-voador-other-com-um-comando-recebe-vo",
@@ -2430,19 +2430,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 21500,
+        "valor": 64500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Versão superior dos braceletes de bronze. Efeito: +8 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "braceletes-de-ouro-ac-8-em-defesa-cumulativo-c",
@@ -2471,19 +2471,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 25000,
+        "valor": 75000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Grande espelho mágico que cria um duplicado hostil de quem observa o próprio reflexo. Efeito: Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "espelho-da-oposicao-other-quando-ativado-quem-obse",
@@ -2511,19 +2511,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 30000,
+        "valor": 90000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Traje pesado que protege conjuradores arcanos usando a própria energia mágica. Efeito: Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "robe-do-arquimago-other-se-for-conjurador-arcano",
@@ -2551,19 +2551,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 32500,
+        "valor": 97500,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Esfera de vidro com fumaça e raios aprisionados em seu interior. Efeitos: Pode lançar Controlar o Clima e Fúria do Panteão; se já conhece a magia, o custo diminui em –1 PM. Você e aliados adjacentes ficam sob efeito de Suporte Ambiental.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "orbe-das-tempestades-other-pode-lancar-controlar-o-",
@@ -2597,19 +2597,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 50000,
+        "valor": 150000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Anel que acelera continuamente a recuperação do usuário. Efeito: Após um dia de uso, recebe Cura Acelerada 5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "anel-da-regeneracao-other-apos-um-dia-de-uso-receb",
@@ -2637,19 +2637,19 @@
       "subtipo": "magico",
       "peso": 0,
       "preco": {
-        "valor": 75000,
+        "valor": 150000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 328,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 345,
       "tags": [
         "acessorio",
         "magico"
       ],
       "descricao": "Grande espelho de cristal que aprisiona criaturas em um espaço extradimensional. Efeito: Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.748Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "espelho-do-aprisionamento-other-quando-ativado-criatura-",

@@ -488,12 +488,12 @@
       "subtipo": "pesada",
       "peso": 20,
       "preco": {
-        "valor": 15000,
+        "valor": 30000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "pesada",
@@ -508,7 +508,7 @@
       ],
       "descricao": "Cota de malha defensora de mitral, feita de anéis finíssimos e leves. Permite aplicar Destreza na Defesa como se fosse uma armadura leve. Efeitos: Bônus de Defesa +8 Permite aplicar o bônus de Destreza na Defesa como se fosse uma armadura leve. Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.; Defensora (+2 Defesa); Mitral: penalidade de armadura –2; permite aplicar até 2 pontos de DES por ser armadura pesada; Pode aplicar DES na Defesa como armadura leve",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "cota-elfica-defesa",
@@ -548,12 +548,12 @@
       "subtipo": "leve",
       "peso": 12,
       "preco": {
-        "valor": 18000,
+        "valor": 36000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "leve",
@@ -566,7 +566,7 @@
       ],
       "descricao": "Gibão de peles defensor feito do couro de grandes monstros das Montanhas Sanguinárias. Efeitos: Bônus de Defesa +6 Ao usar Ataque Poderoso ou fazer uma investida, recebe +2d6 nas rolagens de dano. Armadura leve; penalidade de armadura –3.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "couro-de-monstro-defesa",
@@ -606,12 +606,12 @@
       "subtipo": "pesada",
       "peso": 17,
       "preco": {
-        "valor": 22000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "pesada",
@@ -625,7 +625,7 @@
       ],
       "descricao": "Loriga segmentada defensora dourada e vermelha, marcada com o símbolo de Tauron. Efeitos: Bônus de Defesa +9 Enquanto estiver liderando uma ou mais criaturas (Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo. Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "loriga-do-centuriao-defesa",
@@ -665,12 +665,12 @@
       "subtipo": "leve",
       "peso": 10,
       "preco": {
-        "valor": 22500,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "leve",
@@ -685,7 +685,7 @@
       ],
       "descricao": "Couro batido ajustado, defensor e sombrio, negro e com partes metálicas foscas. Efeitos: Bônus de Defesa +5 Você não sofre penalidade em Furtividade por se mover em deslocamento normal; a penalidade por atacar diminui para –10. Também possui os benefícios do encanto Sombrio. Armadura leve; penalidade de armadura –1.; Ajustada: reduz a penalidade de armadura em 1; Defensora: +2 Defesa; Sombrio: +5 Furtividade e ignora penalidade de armadura para Furtividade",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "manto-da-noite-defesa",
@@ -725,12 +725,12 @@
       "subtipo": "leve",
       "peso": 15,
       "preco": {
-        "valor": 23000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "leve",
@@ -745,7 +745,7 @@
       ],
       "descricao": "Couraça banhada a ouro, sob medida e defensora, que irradia uma aura de autoridade. Efeitos: Bônus de Defesa +7 +2 em Carisma Se usar o poder Comandar, o bônus fornecido por ele aumenta para +2.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "couraca-do-comando-defesa",
@@ -793,12 +793,12 @@
       "subtipo": "pesada",
       "peso": 25,
       "preco": {
-        "valor": 25000,
+        "valor": 50000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "pesada",
@@ -814,7 +814,7 @@
       ],
       "descricao": "Armadura completa reforçada, defensora e feita de adamante, criada para oferecer proteção excepcional. Efeitos: Bônus de Defesa +13 Se você não se deslocar em seu turno, a RD fornecida pela armadura aumenta para 10 até o próximo turno. Resistências: RD 5.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "baluarte-anao-defesa",
@@ -854,12 +854,12 @@
       "subtipo": "pesada",
       "peso": 25,
       "preco": {
-        "valor": 32000,
+        "valor": 63000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "armadura",
         "pesada",
@@ -875,7 +875,7 @@
       ],
       "descricao": "Armadura completa macabra, reforçada e guardiã, forjada para fazer seu usuário parecer um demônio. Efeitos: Bônus de Defesa +15 Se for devoto de uma divindade do Mal, seus ataques corpo a corpo causam +1d8 de trevas. Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.; Macabra: +2 Intimidação e –2 Diplomacia; Reforçada: +1 Defesa e +1 penalidade; Guardiã: +4 Defesa",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "carapaca-demoniaca-defesa",

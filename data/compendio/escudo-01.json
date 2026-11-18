@@ -8,12 +8,12 @@
       "subtipo": "corpo a corpo - leve",
       "peso": 3,
       "preco": {
-        "valor": 20000,
+        "valor": 45000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "arma",
         "marcial",
@@ -29,7 +29,7 @@
       ],
       "descricao": "Escudo leve defensor com uma tira de couro interna capaz de armazenar uma magia como se fosse um pergaminho. Efeitos: Bônus de Defesa +3 Um conjurador pode lançar uma magia na tira interna; ela fica armazenada e pode ser lida como pergaminho. Depois de usada, outra magia pode ser inscrita. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "escudo-do-conjurador-defesa",
@@ -88,12 +88,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 7,
       "preco": {
-        "valor": 25000,
+        "valor": 50000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "arma",
         "marcial",
@@ -109,7 +109,7 @@
       ],
       "descricao": "Escudo pesado defensor coberto de espinhos, capaz de disparar um deles magicamente. Efeitos: Bônus de Defesa +4 Ação de movimento e 2 PM: dispara um espinho em alvo em alcance curto; acerta automaticamente e causa 1d10+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.; Defensora: +2 Defesa; Espinhoso: dano de ataque com escudo aumenta um passo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.745Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "escudo-espinhoso-defesa",
@@ -168,12 +168,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 7,
       "preco": {
-        "valor": 25000,
+        "valor": 50000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "arma",
         "marcial",
@@ -189,7 +189,7 @@
       ],
       "descricao": "Escudo pesado defensor forjado como uma cabeça de leão rugindo. Efeitos: Bônus de Defesa +4 Uma vez por rodada, pode gastar 2 PM para a cabeça morder criatura adjacente; acerta automaticamente e causa 2d6+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "escudo-do-leao-defesa",
@@ -248,12 +248,12 @@
       "subtipo": "corpo a corpo - uma mao",
       "peso": 7,
       "preco": {
-        "valor": 35000,
+        "valor": 70000,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 326,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 342,
       "tags": [
         "arma",
         "marcial",
@@ -270,7 +270,7 @@
       ],
       "descricao": "Escudo pesado defensor completamente negro, que parece absorver a luz. Efeitos: Bônus de Defesa +4 Fornece resistência a trevas 10. Um ataque com o escudo causa +1d8 de trevas.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "escudo-do-eclipse-defesa",

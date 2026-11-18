@@ -1634,12 +1634,12 @@
       "subtipo": "pocao",
       "peso": 0,
       "preco": {
-        "valor": 270,
+        "valor": 30,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 343,
       "tags": [
         "consumivel",
         "pocao",
@@ -1647,7 +1647,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 4d8+4 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pocao-de-curar-ferimentos-4d8-4-pv-other-acao-padrao-para-beber-r",
@@ -1963,12 +1963,12 @@
       "subtipo": "oleo",
       "peso": 0,
       "preco": {
-        "valor": 750,
+        "valor": 30,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 343,
       "tags": [
         "consumivel",
         "oleo",
@@ -1977,7 +1977,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica. Efeito: Ação padrão para aplicar; gera Arma Mágica com aprimoramento para bônus +3.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "oleo-de-arma-magica-3-other-acao-padrao-para-aplicar",
@@ -2005,12 +2005,12 @@
       "subtipo": "pocao",
       "peso": 0,
       "preco": {
-        "valor": 1080,
+        "valor": 30,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 343,
       "tags": [
         "consumivel",
         "pocao",
@@ -2018,7 +2018,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 7d8+7 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pocao-de-curar-ferimentos-7d8-7-pv-other-acao-padrao-para-beber-r",
@@ -2046,12 +2046,12 @@
       "subtipo": "pocao",
       "peso": 0,
       "preco": {
-        "valor": 1080,
+        "valor": 270,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "consumivel",
         "pocao",
@@ -2059,7 +2059,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino. Efeito: Ação padrão para beber; gera Físico Divino com aprimoramento para três atributos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pocao-de-fisico-divino-tres-atributos-other-acao-padrao-para-beber-g",
@@ -2128,12 +2128,12 @@
       "subtipo": "granada",
       "peso": 0,
       "preco": {
-        "valor": 1470,
+        "valor": 270,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 344,
       "tags": [
         "consumivel",
         "granada",
@@ -2142,7 +2142,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo. Efeito: Ação padrão para arremessar em alcance curto; gera Bola de Fogo aprimorada para 10d6 de dano.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "granada-de-bola-de-fogo-10d6-other-acao-padrao-para-arremes",
@@ -2170,12 +2170,12 @@
       "subtipo": "pocao",
       "peso": 0,
       "preco": {
-        "valor": 3000,
+        "valor": 30,
         "moeda": "T$"
       },
       "sistema": "tormenta20",
-      "fonte": "Livro Básico",
-      "pagina": 327,
+      "fonte": "Tormenta20 Jogo do Ano",
+      "pagina": 343,
       "tags": [
         "consumivel",
         "pocao",
@@ -2183,7 +2183,7 @@
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 11d8+11 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.746Z",
+      "updatedAt": "2026-11-18T23:24:10.158Z",
       "efeitos": [
         {
           "id": "pocao-de-curar-ferimentos-11d8-11-pv-other-acao-padrao-para-beber-r",
