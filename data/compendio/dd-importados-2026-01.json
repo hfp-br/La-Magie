@@ -4480,7 +4480,7 @@
     },
     {
       "id": "dd-tasha-tatuagem-garra-mistica",
-      "nome": "Tatuagem Garra Mística",
+      "nome": "Tatuagem da Garra Mística",
       "categoria": "item mágico",
       "subtipo": "",
       "peso": 0,
@@ -5225,7 +5225,7 @@
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
-      "fonte": "Caldeirão de Tudo de Tasha",
+      "fonte": "Caldeirão de Tasha para Tudo",
       "pagina": 134,
       "raridade": "incomum",
       "descricao": "Tatuagem que projeta tentáculos de tinta contra uma criatura próxima, causando dano de força e podendo agarrá-la com uma salvaguarda de Força.",
@@ -5247,7 +5247,7 @@
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
-      "fonte": "Caldeirão de Tudo de Tasha",
+      "fonte": "Caldeirão de Tasha para Tudo",
       "pagina": 135,
       "raridade": "raro",
       "descricao": "Grimório de evocação com três cargas que permite trocar uma magia preparada e intensificar magias ofensivas com dano de força adicional.",
@@ -5260,7 +5260,7 @@
     },
     {
       "id": "dd-tasha-concertina-de-reveler",
-      "nome": "Concertina de Reveler",
+      "nome": "Sanfona de Folião",
       "categoria": "item mágico",
       "subtipo": "mágico",
       "peso": 0,
@@ -5269,7 +5269,7 @@
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
-      "fonte": "Caldeirão de Tudo de Tasha",
+      "fonte": "Caldeirão de Tasha para Tudo",
       "pagina": 135,
       "raridade": "raro",
       "descricao": "Instrumento mágico associado a um bardo que aprimora apresentações e pode conjurar magias por meio da música.",
@@ -5279,6 +5279,52 @@
         "mágico"
       ],
       "schemaVersion": 5
+    },
+    {
+      "id": "dd-2014-tasha-cajado-de-rao",
+      "nome": "Cajado de Rao",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 121,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "Ferramenta criada pelo deus Rao para proteger seus fiéis contra os males dos Planos Inferiores; foi danificada por Iggwilv, que a infectou com uma maldição. Propriedades aleatórias (Guia do Mestre): 2 benéficas menores, 1 benéfica principal e 1 prejudicial menor. Tem 6 cargas: enquanto o segura, você pode usar uma ação e gastar cargas para lançar aura de vida, aura de pureza, banimento, farol de esperança e outras magias (CD 18). Veja o livro para as regras completas, inclusive a maldição.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato"
+    },
+    {
+      "id": "dd-2014-tasha-demonmico-de-iggwilv",
+      "nome": "Demonômico de Iggwilv",
+      "categoria": "item mágico",
+      "subtipo": "",
+      "peso": 0,
+      "preco": {
+        "valor": 0,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Caldeirão de Tasha para Tudo",
+      "pagina": 123,
+      "tags": [
+        "dnd",
+        "mágico"
+      ],
+      "descricao": "O tratado de demonologia mais completo e blasfemo do multiverso, documentando as camadas e os habitantes do Abismo. Um pedaço do próprio Abismo, enjaulado em suas linhas, mantém o livro sempre atualizado, não importa quantas páginas sejam arrancadas. Possui propriedades aleatórias de artefato e poderes ligados a demônios e magias; veja o livro para as regras completas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "raridade": "artefato"
     }
   ]
 }
