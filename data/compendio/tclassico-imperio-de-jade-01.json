@@ -1,0 +1,4567 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "tclassico-jade-arma-kama",
+      "nome": "Kama",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 1.0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Originalmente um implemento agrícola, esta pequena foice pode ser encontrada até nas mãos dos mais humildes fazendeiros.",
+      "properties": "Dano 1d6, crítico x2, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-kunai-adaga",
+      "nome": "Kunai (adaga)",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma adaga afiada, útil para apunhalar ou arremessar. Você recebe +4 em testes de Ladinagem para escondê-la.",
+      "properties": "Dano 1d4, crítico 19, distância 3m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-tanto",
+      "nome": "Tanto",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 0.5,
+      "preco": {
+        "valor": 302,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Grande adaga com apenas um gume, finamente trabalhada, lembrando uma pequena katana. Você recebe +2 em testes de Ladinagem para escondê-la. Existe apenas em versão obra-prima (seu custo já inclui esta qualidade), oferecendo +1 nas jogadas de ataque.",
+      "properties": "Dano 1d4, crítico 18, tipo corte ou perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-clava",
+      "nome": "Clava",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 1.5,
+      "preco": {
+        "valor": 0,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por nezumi, bakemono e outras criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero. Besta Pesada: versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão. Usar esta besta também exige as duas mãos. 144 Bo: um cajado apreciado por viajantes e camponeses por sua praticidade e preço — assim como uma clava, seu custo é zero. O bordão é uma arma dupla.",
+      "properties": "Dano 1d6, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-maca",
+      "nome": "Maça",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 6.0,
+      "preco": {
+        "valor": 12,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um bastão metálico com um peso cheio de protuberâncias na extremidade. A versão tamuraniana desta arma é mais alongada, com fileiras de rebites ou cravos. Tridente Picareta Tonfa Lajatang Neko-te Tacape Tetsubo Bo Kra'Tann Yari Naginata 146 ~ ^ capitulo tres Kakko'Dai Leque Kusari-gama Nunchaku Mangual Corrente Sansetsukon Chicote Machadinha: ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada. Machado de Batalha: diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Pouco usado em Tamu-ra, exceto pelos nezumi.",
+      "properties": "Dano 1d8, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-yari-lanca",
+      "nome": "Yari (lança)",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 1.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ou “lança”, é qualquer arma feita com uma haste de madeira e uma ponta afiada. Por sua facilidade de fabricação, é muito comum entre os nezumi, bakemono e outras raças selvagens. Uma yari pode ser arremessada. Causa dano dobrado em uma investida montada.",
+      "properties": "Dano 1d6, crítico x2, distância 6m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-bo-bordao",
+      "nome": "Bo (bordão)",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 2.0,
+      "preco": {
+        "valor": 0,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um cajado apreciado por viajantes e camponeses por sua praticidade e preço — assim como uma clava, seu custo é zero. O bordão é uma arma dupla.",
+      "properties": "Dano 1d6/1d6, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-tacape",
+      "nome": "Tacape",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 4.0,
+      "preco": {
+        "valor": 0,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Versão mais perigosa da clava, maior e/ou com pregos. Bastante utilizada por ogros e outros bakemono brutais.",
+      "properties": "Dano 1d10, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-azagaia",
+      "nome": "Azagaia",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 1.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo-a-corpo, mas você sofre uma penalidade de –4 na jogada de ataque.",
+      "properties": "Dano 1d6, crítico x2, distância 9m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-besta-leve",
+      "nome": "Besta leve",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 3.0,
+      "preco": {
+        "valor": 35,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos.",
+      "properties": "Dano 1d8, crítico 19, distância 18 m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-municao-virotes-10",
+      "nome": "Virotes (10)",
+      "categoria": "municao",
+      "subtipo": "virotes",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "municao",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Pequenas setas de madeira que servem como munição para bestas. Armas Ninjas. Usar qualquer das seguintes armas é uma violação de honra severa: fukiya, granada, hankyu, neko-te, ninja-to, shuriken.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-fukiya-zarabatana",
+      "nome": "Fukiya (zarabatana)",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma zarabatana, em geral bem trabalhada ou oculta em outro item. Seus dardos são excelentes para inocular veneno; o alvo sofre um redutor de –2 em seu teste de Fortitude contra o veneno.",
+      "properties": "Dano 1d3, crítico x2, distância 4,5 m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-hankyu-arco-curto",
+      "nome": "Hankyu (arco curto)",
+      "categoria": "arma",
+      "subtipo": "arma simples",
+      "peso": 1.0,
+      "preco": {
+        "valor": 30,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma simples",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Bastante comum, este arco curto é muito usado por povos selvagens ou caçadores — o tamanho pequeno é apropriado para manuseio em florestas e outros ambientes fechados. Também é um grande amigo dos ninjas em suas emboscadas, principalmente quando suas flechas estão envenenadas e a vítima está cercada de armadilhas! Exige as duas mãos.",
+      "properties": "Dano 1d6, crítico x3, distância 12 m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-municao-flechas-20",
+      "nome": "Flechas (20)",
+      "categoria": "municao",
+      "subtipo": "flechas",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "municao",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Hastes de madeira com ponta metálica e penas para estabilizar o voo, flechas são vendidas em aljavas com 20 unidades. Recarregar um arco com uma flecha é uma ação livre.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-escudo-leve",
+      "nome": "Escudo leve",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 3.0,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este escudo de madeira ou bambu é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma. Escudo Pesado: este grande escudo de aço é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+      "properties": "Dano 1d4, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-espada-curta",
+      "nome": "Espada curta",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Dano 1d6, crítico 19, tipo perfuração.",
+      "properties": "Dano 1d6, crítico 19, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-jitte",
+      "nome": "Jitte",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 0.5,
+      "preco": {
+        "valor": 4,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ou jutte, é semelhante à sai; um bastão curto de metal com uma pequena haste, próprio para aparar espadas. Concede +4 em para desarmar ou separar. Em Tamu-ra, é também um símbolo para o cargo de magistrado; exceto para estes oficiais do Império, usar o jitte é uma violação de honra severa. Kakko’Dai: irônico que os pequenos e ágeis nezumi tenham criado uma arma tão imensa e desajeitada.",
+      "properties": "Dano 1d4, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-machadinha",
+      "nome": "Machadinha",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 2.0,
+      "preco": {
+        "valor": 6,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada. Machado de Batalha: diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Pouco usado em Tamu-ra, exceto pelos nezumi.",
+      "properties": "Dano 1d6, crítico x3, distância 3m, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-neko-te",
+      "nome": "Neko-te",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 0.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Tipo de luva com garras metálicas na palma e dorso — seu nome significa “mão de gato”. Oferece +2 em testes de Atletismo para escalar.",
+      "properties": "Dano 1d4, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-ninja-to",
+      "nome": "Ninja-to",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Espada curta própria para ser carregada às costas. Mede entre 50 e 60cm. Por mais 5 ¥o inclui um compartimento secreto na bainha, que oferece +4 em testes de Ladinagem para esconder itens. Um personagem com a habilidade truques ninjas pode gastar uma ação padrão e 1, 3 ou 6 PM para assoprar pimenta de dentro da bainha em um oponente adjacente. A vítima deve fazer um teste de Reflexos, com CD de acordo com os PM gastos (1 PM = CD 15; 3 PM = CD 18; 6 PM = CD 22). Se falhar, fica cega por 1d6 rodadas.",
+      "properties": "Dano 1d6, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-nunchaku",
+      "nome": "Nunchaku",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Dois bastões curtos de madeira ligados por uma corrente ou tira de couro, o nunchaku era usado por camponeses para separar o joio do trigo, sendo mais tarde adotado como arma.",
+      "properties": "Dano 1d6, crítico x3, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-sai",
+      "nome": "Sai",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Parecida com um grande garfo de metal, a adaga sai é própria para prender as armas do oponente. Oferece +4 em manobras de desarmar.",
+      "properties": "Dano 1d6, crítico x2, tipo P/E",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-tonfa",
+      "nome": "Tonfa",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Bastão de madeira com uma guarda lateral, que serve para segurar e executar manobras variadas, incluindo bloquear ataques. Você recebe CA+1 ao usar o talento Bloqueio Ambidestro ou Especialização em Combate (não cumulativos). Shuriken Chakram Hankyu Granada Besta leve Besta pesada Rede 148 Fukiya ~ ^ capitulo tres Daikyu Armaduras & Escudos Armaduras são classificadas em três grupos, de acordo com a sua facilidade de uso, peso, proteção e mobilidade. Armaduras leves. Normalmente feitas de tecido ou couro, oferecem pouca proteção, mas muita liberdade de movimentos. Vestir ou remover uma armadura leve demora uma ação completa.",
+      "properties": "Dano 1d6, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-wakizashi",
+      "nome": "Wakizashi",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 310,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Não é necessário saber usá-las, são apenas um símbolo de sua posição. Portar o daisho sem pertencer à nobreza é uma violação de honra moderada (muito embora membros de outras classes possam usar estas armas separadamente). ~ construcao de personagem 89 Shimin: os Cidadãos Nai’nin: Não-Pessoas Enquanto os nobres praticam as artes da guerra, os plebeus trabalham pelo sustento do Império. Shimin é como são chamados os membros da casta trabalhadora — ou seja, todos os cidadãos que não pertencem à nobreza. São os fazendeiros, artesãos, mercadores, pescadores.",
+      "properties": "Dano 1d6, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-espada-longa",
+      "nome": "Espada longa",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Dano 1d8, crítico 19, tipo corte.",
+      "properties": "Dano 1d8, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-cimitarra",
+      "nome": "Cimitarra",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 2.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Espada com a lâmina curva, leve e muito afiada. O talento Acuidade com Arma se aplica à cimitarra. Besta Leve: um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos.",
+      "properties": "Dano 1d6, crítico 18, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-escudo-pesado",
+      "nome": "Escudo pesado",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 7.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este grande escudo de aço é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+      "properties": "Dano 1d6, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-kratann",
+      "nome": "Kra’tann",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 6.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Esta clava espinhosa pode ter aspectos variados, mas é sempre feita com o crânio de algum bakemono, oni ou kaijin. Como várias outras armas nezumi, tem mais intenção de aterrorizar que ser efetiva em combate, oferecendo +2 em testes de Intimidação. Usar a kra’tann é uma violação de honra moderada.",
+      "properties": "Dano 2d4, crítico x2, tipo E/P",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-machado-de-batalha",
+      "nome": "Machado de batalha",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 3.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Pouco usado em Tamu-ra, exceto pelos nezumi.",
+      "properties": "Dano 1d8, crítico x3, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-mangual",
+      "nome": "Mangual",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 2.5,
+      "preco": {
+        "valor": 8,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Artistas marciais utilizam numerosas variações desta arma, composta por uma haste metálica presa a uma corrente com um peso metálico na outra extremidade. O mangual pode se enroscar na arma do adversário; você recebe +4 em jogadas de ataque para desarmar.",
+      "properties": "Dano 1d8, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-picareta",
+      "nome": "Picareta",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 3.0,
+      "preco": {
+        "valor": 8,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Outra ferramenta convertida em arma, é extremamente perigosa quando consegue um golpe certeiro.",
+      "properties": "Dano 1d6, crítico x4, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-tridente",
+      "nome": "Tridente",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 2.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma lança com três pontas preferida por alguns artistas marciais, própria para prender as pernas do oponente. Oferece +4 em jogadas de ataque para derrubar. Armas de Monges e Ninjas Armas de Monge. As seguintes armas podem ser usadas em conjunto com a rajada de golpes do monge: ataque desarmado, bo, jitte, lajatang, leque, naginata, nunchaku, sansetsukon, sai, shuriken, tonfa, yari.",
+      "properties": "Dano 1d8, crítico x2, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-naginata",
+      "nome": "Naginata",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Arma de haste feita com um cabo de madeira e uma grande lâmina curva na ponta. Às vezes tem uma guarda após a lâmina e/ou um pequeno contrapeso na outra extremidade. É utilizada por soldados, monges e samurais, sendo uma arma tradicional de mulheres nobres.",
+      "properties": "Dano 1d12, crítico x3, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-nodachi",
+      "nome": "Nodachi",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 8.0,
+      "preco": {
+        "valor": 400,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Versão muito maior da katana, às vezes excedendo a altura de uma pessoa. Existe apenas em versão obra-prima.",
+      "properties": "Dano 2d6, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-tetsubo",
+      "nome": "Tetsubo",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 10.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Também conhecido como kanabo, é uma versão mais sofisticada do tacape. Mede entre 1,5 e 2m. Costuma ser de madeira reforçada com anéis metálicos, rebites e/ou cravos. Alguns samurais a utilizam, mas tem maior preferência entre os bushi e os demônios oni. Azagaia Tonfa: bastão de madeira com uma guarda lateral, que serve para segurar e executar manobras variadas, incluindo bloquear ataques. Você recebe CA+1 ao usar o talento Bloqueio Ambidestro ou Especialização em Combate (não cumulativos).",
+      "properties": "Dano 3d4, crítico x2, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-besta-pesada",
+      "nome": "Besta pesada",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 4.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão. Usar esta besta também exige as duas mãos. 144 Bo: um cajado apreciado por viajantes e camponeses por sua praticidade e preço — assim como uma clava, seu custo é zero. O bordão é uma arma dupla.",
+      "properties": "Dano 1d12, crítico 19, distância 27 m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-daikyu-arco-longo",
+      "nome": "Daikyu (arco longo)",
+      "categoria": "arma",
+      "subtipo": "arma marcial",
+      "peso": 1.5,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma marcial",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este arco longo assimétrico é bastante utilizado por soldados e samurais. Feito de bambu, madeira e couro, chega a 2m de altura e, diferente do hankyu, é próprio para campos de batalha e outras áreas abertas — seu longo alcance permite atingir o inimigo a grandes distâncias. Exige as duas mãos.",
+      "properties": "Dano 1d8, crítico x3, distância 24m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-jian",
+      "nome": "Jian",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.0,
+      "preco": {
+        "valor": 35,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Espada curta muito bela, leve e flexível, preferida por artistas marciais. Você recebe +4 em jogadas de ataque para manobras de combate.",
+      "properties": "Dano 1d6, crítico 19, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-leque",
+      "nome": "Leque",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.0,
+      "preco": {
+        "valor": 40,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "O gunsen ou tessen é um leque reforçado para uso como arma. Existe em três versões: normal (de madeira), cortante (com lâminas na borda) e perfurante (com espinhos na borda). Todos podem ser fechados/ abertos como uma ação livre e transformados em um pequeno bastão (1d4 esmagamento). Se você abrir o leque e, na mesma rodada, usá-lo para atacar, o oponente fica desprevenido contra esse ataque (mas este truque só funciona uma vez por combate). Por ser pequeno e discreto, fornece +4 em testes de Ladinagem para escondê-lo. Kra’Tann: esta clava espinhosa pode ter aspectos variados, mas é sempre feita com o crânio de algum bakemono, oni ou kaijin.",
+      "properties": "Dano 1d6, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-chicote",
+      "nome": "Chicote",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "A versão tamuraniana desta arma é feita de metal. Tem alcance 4,5m e pode se enroscar nas mãos, Espada Curta ou Longa: estas armas são consideradas arcaicas em Tamu-ra, cujas técnicas metalúrgicas ~ ^ capitulo tres produzem obras-primas como a katana, wakizashi, chuan e jian. Ainda assim, podem ser encontradas em versões de belo acabamento, ou nas mãos de bakemono e outros povos selvagens. Escudo Leve ou Pesado: se você tem o talento Usar Escudos, pode usar um escudo como uma arma marcial, mas perde seu bônus na CA até o próximo turno.",
+      "properties": "Dano 1d4, crítico x2, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-chuan",
+      "nome": "Chuan",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Espada longa muito bela, leve e flexível, preferida por artistas marciais. Você recebe +4 em jogadas de ataque para manobras de combate. O talento Acuidade com Arma se aplica à chuan.",
+      "properties": "Dano 1d8, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-katana",
+      "nome": "Katana",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 3.0,
+      "preco": {
+        "valor": 350,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. É muito grande para ser empunhada com uma só mão sem treinamento especial; por isso, é uma arma exótica. Pode ser usada como uma arma marcial de duas mãos. O talento Acuidade com Arma se aplica à katana. Cada katana é uma obra de arte única, com belos entalhes no cabo, guarda e lâmina. Existe apenas em versão obra-prima (seu custo já inclui esta qualidade), oferecendo +1 nas jogadas de ataque.",
+      "properties": "Dano 1d10, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-corrente",
+      "nome": "Corrente",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 2.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Esta arma dupla é um pedaço de corrente de metal grosso, com comprimento aproximado de 1 a 1,5m. Pode ser utilizada apenas com uma mão, causando 1d8 pontos de dano.",
+      "properties": "Dano 1d6/1d6, crítico x3, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-kakkodai",
+      "nome": "Kakko’dai",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 10.0,
+      "preco": {
+        "valor": 35,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Irônico que os pequenos e ágeis nezumi tenham criado uma arma tão imensa e desajeitada. Esta Kama Clava Maça Machado de batalha Kunai Jitte Cimitarra Tanto Chuan Sai Jian Wakizashi Ninja-to Katana Nodachi Machadinha Zanbatou Armas & equipamento 145 massiva arma de haste é feita com ossos, chifres, garras e pinças de animais e monstros diversos — especialmente aberrações da Tormenta. Funciona como um grande machado, golpeando em arcos amplos. A arma é tão desequilibrada que usá-la impõe –1 na classe de armadura. Usar a kakko’dai é uma violação de honra moderada.",
+      "properties": "Dano 2d8, crítico x3, tipo corte ou perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-kusari-gama",
+      "nome": "Kusari-gama",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 2.0,
+      "preco": {
+        "valor": 25,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma pequena foice (dano 1d4, crítico 19, corte) ligada a uma corrente com um peso de metal (dano 1d6, crítico x2, esmagamento) na outra extremidade. É uma arma dupla com alcance de 3m. Oferece +4 em manobras de derrubar ou desarmar. O talento Acuidade com Arma se aplica à kusari-gama.",
+      "properties": "Dano 1d4/1d6, crítico 19/x2, tipo C/E",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-lajatang",
+      "nome": "Lajatang",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 4.0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Arma dupla que consiste em um cajado com uma lâmina em cada ponta, em forma de luas crescentes.",
+      "properties": "Dano 1d8/1d8, crítico 19, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-sansetsukon",
+      "nome": "Sansetsukon",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 3.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ou sanjiegun, é uma versão maior e mais complexa do nunchaku, com três bastões maiores (60cm) ligados por correntes. Pode ser usado como arma dupla com as duas mãos, ou como uma arma de uma mão com alcance de 3m.",
+      "properties": "Dano 1d6/1d6, crítico x3, tipo esmagamento",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-zanbatou",
+      "nome": "Zanbatou",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 12.0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "A origem desta espada imensa é controversa. Alguns dizem ter sido inventada para derrubar samurais a cavalo (com seu cavalo), enquanto outras afirmam ser uma arma bakemono ou oni. De fato, poucas pessoas conseguem usar a zanbatou, que atinge quase duas vezes a altura de um homem — além do talento Usar Arma Exótica, exige Força 19 para ser empunhada.",
+      "properties": "Dano 2d8, crítico x2, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-chakram",
+      "nome": "Chakram",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 1.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Disco de metal com bordas afiadas para arremessos. Após um ataque bem-sucedido, pode ricochetear de volta e ser recuperado pelo atacante — ou ricochetear na direção de outro alvo, atacando com penalidade de –4. O personagem pode seguir fazendo novos ataques, acumulando –4 em cada um, até a arma retornar ou errar.",
+      "properties": "Dano 1d6, crítico x3, distância 9m, tipo corte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-granada",
+      "nome": "Granada",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 0.5,
+      "preco": {
+        "valor": 150,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Importada do Reinado e empregada por ninjas e outros desonrados, esta bomba rudimentar tem um pavio que precisa ser aceso antes do uso (uma ação de movimento). Faça um ataque à distância. Qualquer criatura a até 3m do alvo sofre 4d6 pontos de dano de corte, perfuração ou esmagamento (o que for melhor) ou metade desse dano, com um teste bem-sucedido de Reflexos (CD igual ao resultado da jogada de ataque).",
+      "properties": "Dano 4d6, crítico —, distância 3m, tipo C/P/E",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-rede",
+      "nome": "Rede",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 3.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Faça um ataque de toque à distância: se acertar, a vítima fica enredada. Se você é bem-sucedido em um teste oposto de Força, a vítima só pode se mover até o alcance da corda (12m). A vítima pode se soltar com uma ação padrão e um teste de Acrobacia (CD 20). A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas até uma categoria de tamanho maiores que você.",
+      "properties": "Dano —, crítico —, distância 3m",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-arma-shuriken",
+      "nome": "Shuriken",
+      "categoria": "arma",
+      "subtipo": "arma exotica",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 142,
+      "tags": [
+        "arma",
+        "arma exotica",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Pequenos projéteis metálicos em forma de estrelas ou dardos. Você pode gastar 1 PM para arremessar uma shuriken adicional num ataque. Um personagem com a habilidade truques ninjas não precisa pagar esse custo. Armas & equipamento 147 Tridente: uma lança com três pontas preferida por alguns artistas marciais, própria para prender as pernas do oponente. Oferece +4 em jogadas de ataque para derrubar. Armas de Monges e Ninjas Armas de Monge. As seguintes armas podem ser usadas em conjunto com a rajada de golpes do monge: ataque desarmado, bo, jitte, lajatang, leque, naginata, nunchaku, sansetsukon, sai, shuriken, tonfa, yari.",
+      "properties": "Dano 1d4, crítico x2, distância 3m, tipo perfuração",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-armadura-de-couro",
+      "nome": "Armadura de couro",
+      "categoria": "armadura",
+      "subtipo": "armadura leves",
+      "peso": 7.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura leves",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar rígido, enquanto as demais partes são feitas de couro flexível. Embora utilizem couro em cintas e outros acessórios, muitos tamuranianos acham repulsivo vestir a pele de um animal morto: usar qualquer armadura de couro é uma violação de honra leve. Armas & equipamento 149 Armadura de Ossos: famosos (infames) por seu artesanato com ossos, os nezumi estendem sua arte à fabricação destas armaduras sinistras. Usar uma armadura de ossos é uma violação de honra moderada.",
+      "properties": "Bônus na CA +2, Destreza máxima +6, penalidade de armadura 0",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-armadura-de-ossos",
+      "nome": "Armadura de ossos",
+      "categoria": "armadura",
+      "subtipo": "armadura leves",
+      "peso": 10.0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura leves",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Famosos (infames) por seu artesanato com ossos, os nezumi estendem sua arte à fabricação destas armaduras sinistras. Usar uma armadura de ossos é uma violação de honra moderada.",
+      "properties": "Bônus na CA +3, Destreza máxima +4, penalidade de armadura –2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-armadura-ashigaru",
+      "nome": "Armadura ashigaru",
+      "categoria": "armadura",
+      "subtipo": "armadura leves",
+      "peso": 10.0,
+      "preco": {
+        "valor": 25,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura leves",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Armadura padrão para soldados e guardas do Império, também preferida pelos bushi por sua leveza e custo reduzido. É composta por uma placa peitoral e várias tiras metálicas justapostas, além de um elmo cônico que lembra um chapéu de palha. Armadura de Couro: o peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar rígido, enquanto as demais partes são feitas de couro flexível. Embora utilizem couro em cintas e outros acessórios, muitos tamuranianos acham repulsivo vestir a pele de um animal morto: usar qualquer armadura de couro é uma violação de honra leve.",
+      "properties": "Bônus na CA +3, Destreza máxima +5, penalidade de armadura –1",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-char-aina",
+      "nome": "Char-aina",
+      "categoria": "armadura",
+      "subtipo": "armadura medias",
+      "peso": 5.0,
+      "preco": {
+        "valor": 75,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura medias",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ou “quatro-espelhos”, é formada por quatro grandes placas metálicas unidas por cintas, fechadas junto ao torso como uma caixa. É facilmente adaptável a qualquer formato. Pode ser usada sozinha ou sobreposta a uma armadura leve ou média, acumulando todos os bônus e redutores. Também pode ser usada por um kaijin, ignorando sua inabilidade racial para usar itens.",
+      "properties": "Bônus na CA +2, Destreza máxima —, penalidade de armadura –2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-haramaki",
+      "nome": "Haramaki",
+      "categoria": "armadura",
+      "subtipo": "armadura medias",
+      "peso": 15.0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura medias",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Tipo de armadura yoroi parcial, mais leve, preferida por aqueles que buscam mais liberdade de movimentos. Quase sempre usada sem elmo, por quem deseja ser reconhecido por seus adversários. Carapaça Kappa: sempre buscando proteger a retaguarda, os nezumi extraem a rígida concha dorsal destes bakemono-tartaruga para uso próprio. Ao usar esta carapaça você não pode ser flanqueado. Além disso, se jogando no chão e ficando caído, um usuário Pequeno ou Médio recebe cobertura (CA+4). Pode ser usada sozinha ou sobreposta a uma armadura leve ou média, acumulando todos os bônus e penalidades, e considerando o pior bônus máximo de Destreza.",
+      "properties": "Bônus na CA +4, Destreza máxima +4, penalidade de armadura –3",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-lamelar",
+      "nome": "Lamelar",
+      "categoria": "armadura",
+      "subtipo": "armadura medias",
+      "peso": 15.0,
+      "preco": {
+        "valor": 250,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura medias",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ou armadura laminada, formada por centenas de pequenas placas metálicas sobrepostas como escamas.",
+      "properties": "Bônus na CA +5, Destreza máxima +3, penalidade de armadura –4",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-suchiiru",
+      "nome": "Suchiiru",
+      "categoria": "armadura",
+      "subtipo": "armadura medias",
+      "peso": 10.0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura medias",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Esta armadura é feita com o raro e duríssimo bambu suchiiru, encontrado em florestas dos youkai. Tem o aspecto geral de uma yoroi, mas mais leve e igualmente resistente. Oferece RD 1 ao usuário. Escudo Leve: este escudo de madeira ou bambu é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma. Escudo Pesado: este grande escudo de aço é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+      "properties": "Bônus na CA +6, Destreza máxima +4, penalidade de armadura –2",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-carapaca-kappa",
+      "nome": "Carapaça kappa",
+      "categoria": "armadura",
+      "subtipo": "armadura pesadas",
+      "peso": 20.0,
+      "preco": {
+        "valor": 30,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura pesadas",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Sempre buscando proteger a retaguarda, os nezumi extraem a rígida concha dorsal destes bakemono-tartaruga para uso próprio. Ao usar esta carapaça você não pode ser flanqueado. Além disso, se jogando no chão e ficando caído, um usuário Pequeno ou Médio recebe cobertura (CA+4). Pode ser usada sozinha ou sobreposta a uma armadura leve ou média, acumulando todos os bônus e penalidades, e considerando o pior bônus máximo de Destreza. Usar uma carapaça kappa é uma violação de honra moderada.",
+      "properties": "Bônus na CA especial, Destreza máxima +1, penalidade de armadura –8",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-yoroi",
+      "nome": "Yoroi",
+      "categoria": "armadura",
+      "subtipo": "armadura pesadas",
+      "peso": 20.0,
+      "preco": {
+        "valor": 500,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura pesadas",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Cota de talas composta por um grande número de placas metálicas laqueadas e coloridas, unidas com tiras de couro ou tecido. O elmo muitas vezes inclui uma máscara demoníaca removível. É a armadura padrão do samurai.",
+      "properties": "Bônus na CA +6, Destreza máxima +2, penalidade de armadura –3",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-armadura-o-yoroi",
+      "nome": "O-Yoroi",
+      "categoria": "armadura",
+      "subtipo": "armadura pesadas",
+      "peso": 20.0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 150,
+      "tags": [
+        "armadura",
+        "armadura pesadas",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Versão aprimorada da yoroi, com fino acabamento — feita sob medida para seu usuário, é um magnífico trabalho de arte.",
+      "properties": "Bônus na CA +7, Destreza máxima +2, penalidade de armadura –4",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-algemas",
+      "nome": "Algemas",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 1.0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26). Instrumento Musical: o instrumento mais tradicional de Tamu-ra é o koto, espécie de harpa de madeira com 13 cordas. Outros exemplos são o tambor taiko, o banjo shamisen, o alaúde biwa, a flauta shakuhachi, e o horagai — tipo de trombeta feita com uma grande concha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-bebida",
+      "nome": "Bebida",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "consumivel",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Na fria Tamu-ra, as bebidas mais comuns são o bancha (chá verde) e saquê (vinho de arroz), ambos servidos quentes. Animais Bariki: cavalo mecânico fabricado com as mesmas técnicas usadas na construção dos mashin. Muito cobiçado entre aventureiros por não precisar de descanso, bem como sua imunidade a doenças e efeitos da corrupção aberrante. São descritos no Capítulo 7: Bestiário. Disponibilidade Para representar a escassez de bens nesta Tamu-ra ainda em reconstrução, o mestre pode usar esta regra opcional.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-algibeira",
+      "nome": "Algibeira",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Bolsa presa ao cinto. Útil para guardar itens pequenos, especialmente moedas. Bálsamo Restaurador: frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa, e cura 2d4 pontos de vida. Kit de Artesão: existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-estadia-por-noite",
+      "nome": "Estadia (por noite)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este é o preço por noite para um quarto individual. Tamuranianos não usam camas: seus quartos são forrados com um revestimento de madeira ou palha de arroz chamado tatame, onde dorme-se sobre o colchão futon. Como travesseiro, usam um pequeno saco de sementes. O quarto também inclui um armário ou baú para guardar pertences. Existem quartos mais luxuosos ou modestos, por preços maiores ou menores.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-balsamo-restaurador",
+      "nome": "Bálsamo restaurador",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 25,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa, e cura 2d4 pontos de vida. Kit de Artesão: existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes. Bomba de Fumaça: um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-refeicao",
+      "nome": "Refeição",
+      "categoria": "consumivel",
+      "subtipo": "alimentacao",
+      "peso": 1.0,
+      "preco": {
+        "valor": 3,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "consumivel",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "A refeição tamuraniana mais típica é uma tigela de gohan (arroz) e uma porção de carne (frango, porco ou frutos do mar). Outros pratos populares são o ramen, macarrão com caldo de carne ou peixe; e o karee -raisu, arroz com molho condimentado de karee (curry). Uma refeição é acompanhada por um copo de bebida.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-bomba-de-fumaca",
+      "nome": "Bomba de fumaça",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura. Para arremessar a bomba no chão até 4,5m, faça um ataque à distância contra CA 5. Se acertar, causa o efeito do jutsu bomba de fumaça (sem aprimoramentos). Usar este invento ninja é uma violação de honra severa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-corda-15m",
+      "nome": "Corda (15m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 5.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este é o preço para 15 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente ou se desfazer com um tranco) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23). Kit de Disfarces: estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –5 em testes de Enganação para fazer um disfarce.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-corda-de-seda-15m",
+      "nome": "Corda de seda (15m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Similar à corda de cânhamo, mas muito mais leve e resistente. Arrebentar uma corda de seda exige um teste de Força (CD 25), e ela oferece +2 em testes de Destreza para dar nós. Kit de Medicamentos: pequena caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este kit sofre penalidade de –5 em testes de Cura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-espelho",
+      "nome": "Espelho",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.25,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Este espelho de metal polido serve para observar cantos, fazer sinais de luz, colocar disfarces...",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-furoshiki",
+      "nome": "Furoshiki",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Peça quadrada de pano (tipicamente algodão ou seda), dobrada de formas específicas para formar uma mochila, bolsa, sacola ou saco. Quando não usado para carga, torna-se um lenço de cabeça ou pescoço. Podem ser rústicos, improvisados com qualquer pedaço de tecido, ou ricamente decorados. Têm uma série de outras utilizações, desde embrulho para presente, até 152 Lanterna: as belas lanternas tamuranianas têm estruturas de madeira com laterais de papel e uma alça, contendo a chama em seu interior. Quase sempre trazem ideogramas ou gravuras. A luz da lanterna atinge 9m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-futon",
+      "nome": "Futon",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Tipo de acolchoado flexível para dormir. Pode ser dobrado e guardado durante o dia, para poupar espaço. Viajantes usam uma versão mais fina, facilmente transportável. Equipamento Geral Algemas: este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26). Instrumento Musical: o instrumento mais tradicional de Tamu-ra é o koto, espécie de harpa de madeira com 13 cordas. Outros exemplos são o tambor taiko, o banjo shamisen, o alaúde biwa, a flauta shakuhachi, e o horagai — tipo de trombeta feita com uma grande concha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-bariki",
+      "nome": "Bariki",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Cavalo mecânico fabricado com as mesmas técnicas usadas na construção dos mashin. Muito cobiçado entre aventureiros por não precisar de descanso, bem como sua imunidade a doenças e efeitos da corrupção aberrante. São descritos no Capítulo 7: Bestiário. Disponibilidade Para representar a escassez de bens nesta Tamu-ra ainda em reconstrução, o mestre pode usar esta regra opcional. Cão de Guarda: normalmente da raça akita, este cachorro grande e leal pode ser usado como companheiro de batalha, ou como montaria para uma criatura Pequena. Sempre que um jogador quiser comprar um item, deve rolar 1d6.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-instrumento-musical",
+      "nome": "Instrumento musical",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 1.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "O instrumento mais tradicional de Tamu-ra é o koto, espécie de harpa de madeira com 13 cordas. Outros exemplos são o tambor taiko, o banjo shamisen, o alaúde biwa, a flauta shakuhachi, e o horagai — tipo de trombeta feita com uma grande concha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-cao-leao",
+      "nome": "Cão-leão",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 1000,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Ao longo da história de Tamu-ra, estas poderosas bestas foram amplamente usadas para montaria, carga e guerra. Lembram uma exótica mistura de mastim, leão e dragão — mas, ao contrário do que sua aparência leva a crer, podem ser inteligentes e dóceis. São descritos no Capítulo 7: Bestiário. A capital Shinkyo não é afetada por esta regra.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-kit-de-artesao",
+      "nome": "Kit de artesão",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 4.0,
+      "preco": {
+        "valor": 30,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes. Bomba de Fumaça: um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura. Para arremessar a bomba no chão até 4,5m, faça um ataque à distância contra CA 5. Se acertar, causa o efeito do jutsu bomba de fumaça (sem aprimoramentos). Usar este invento ninja é uma violação de honra severa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-cao-de-guarda",
+      "nome": "Cão de guarda",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Normalmente da raça akita, este cachorro grande e leal pode ser usado como companheiro de batalha, ou como montaria para uma criatura Pequena. Sempre que um jogador quiser comprar um item, deve rolar 1d6. Num resultado de 1 a 5, aumente o preço do item em 10% x o número rolado (de 10% a 50% de aumento). Num resultado de 6, o item simplesmente não está disponível. Cão-Leão: ao longo da história de Tamu-ra, estas poderosas bestas foram amplamente usadas para montaria, carga e guerra. Lembram uma exótica mistura de mastim, leão e dragão — mas, ao contrário do que sua aparência leva a crer, podem ser inteligentes e dóceis.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-kit-de-aventureiro",
+      "nome": "Kit de aventureiro",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 15.5,
+      "preco": {
+        "valor": 19,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Se não quiser comprar itens individualmente, você pode adquirir um kit de aventureiro contendo o básico necessário para caçar monstros e explorar masmorras: uma mochila, um futon, uma corda de seda, uma pederneira, quatro tochas, uma tokkuri, ração de viagem para uma semana e um booken-fuku.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-cavalo",
+      "nome": "Cavalo",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 75,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "É a montaria mais comum em Tamu-ra. Cavalos sem treinamento em combate se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante uma batalha. Cavalos de guerra dispensam esse teste. Pipa Ninja: também conhecida como momonga (“esquilo voador”), este engenho oferece ao usuário capacidade limitada de voo. Você pode gastar uma ação de movimento para fazer um teste de Acrobacia (CD 20). Em caso de sucesso, pode voar até 9m. Em caso de falha, não se desloca e flutua de volta ao chão. Em caso de falha por 5 ou mais, sofre dano conforme a queda. Manobrar a pipa exige pelo menos uma mão livre.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-kit-de-disfarces",
+      "nome": "Kit de disfarces",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 4.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –5 em testes de Enganação para fazer um disfarce. Kit de Ladrão: usado para abrir portas e desarmar armadilhas, este kit é composto de gazuas, arames e outras pequenas ferramentas guardadas em um estojo de couro. Um personagem sem este kit sofre penalidade de –5 em testes de Ladinagem para abrir fechaduras e sabotar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-cavalo-de-guerra",
+      "nome": "Cavalo de guerra",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 400,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Montaria de guerra treinada para combate.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-kit-de-ladrao",
+      "nome": "Kit de ladrão",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Usado para abrir portas e desarmar armadilhas, este kit é composto de gazuas, arames e outras pequenas ferramentas guardadas em um estojo de couro. Um personagem sem este kit sofre penalidade de –5 em testes de Ladinagem para abrir fechaduras e sabotar.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-animal-kabuto",
+      "nome": "Kabuto",
+      "categoria": "animal",
+      "subtipo": "animal",
+      "peso": 0,
+      "preco": {
+        "valor": 1500,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "animal",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Besouro gigante usado como besta de montaria, carga ou guerra. Veja o Capítulo 7: Bestiário.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-kit-de-medicamentos",
+      "nome": "Kit de medicamentos",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Pequena caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este kit sofre penalidade de –5 em testes de Cura.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-estabulo-por-dia",
+      "nome": "Estábulo (por dia)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Inclui alimentação, além do estábulo em si.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-lanterna",
+      "nome": "Lanterna",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 1.0,
+      "preco": {
+        "valor": 7,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "As belas lanternas tamuranianas têm estruturas de madeira com laterais de papel e uma alça, contendo a chama em seu interior. Quase sempre trazem ideogramas ou gravuras. A luz da lanterna atinge 9m. Uma carga de combustível (tipicamente gordura animal) dura 6 horas e custa 1 ¥p. ~ ^ capitulo tres Mochila: a típica mochila tamuraniana é feita com uma grande cesta de palha ou bambu, com tiras para os ombros, levada às costas. Uma mochila comporta até 25 kg. Veja também furoshiki.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-sela",
+      "nome": "Sela",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 20,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma peça de couro e pelego, posicionada sobre o lombo da montaria para o cavaleiro sentar. Inclui arreios, freios e alforjes (sacos de couro para levar mantimentos de viagem). Armadura de Animal: qualquer tipo de armadura também existe em versões para animais. Custam o dobro para um animal Médio, e o quádruplo para um animal Grande. Montarias com armadura conseguem carregar seu cavaleiro, mas nenhum peso extra — por isso, samurais normalmente trazem uma segunda montaria, que leva equipamento e mantimentos.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-mochila",
+      "nome": "Mochila",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 1.0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "A típica mochila tamuraniana é feita com uma grande cesta de palha ou bambu, com tiras para os ombros, levada às costas. Uma mochila comporta até 25 kg. Veja também furoshiki.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-papel-folha",
+      "nome": "Papel (folha)",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Diferente dos pergaminhos de pele de animal usados no Reinado, tamuranianos são famosos por seu excelente papel feito de arroz — que utilizam não apenas para escrita, mas em numerosas formas de artesanato, e até mesmo como portas e paredes internas. Pé de Cabra: barra de ferro para forçar portas e baús fechados. Abrir uma porta ou baú usando um pé de cabra oferece +4 no teste de Força. Um pé de cabra também pode ser usado em combate como uma clava.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-pe-de-cabra",
+      "nome": "Pé de cabra",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 2.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Barra de ferro para forçar portas e baús fechados. Abrir uma porta ou baú usando um pé de cabra oferece +4 no teste de Força. Um pé de cabra também pode ser usado em combate como uma clava.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-carroca",
+      "nome": "Carroça",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 30,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veículo de quatro rodas, aberto, normalmente usado para transportar cargas. Puxada por dois bois. Inclui os arreios necessários para controlar os animais. Jutsus: este é o preço para executar um jutsu em uma situação comum. Ou seja, você mesmo vai até o conjurador, e executar o jutsu não oferece nenhum risco para ele. Se você pedir ao conjurador para acompanhá-lo em uma aventura, por exemplo, a resposta padrão é kekkou desu (“não, obrigado”).",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-pederneira",
+      "nome": "Pederneira",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma fogueira, vela, tocha ou lanterna com uma pederneira é uma ação de rodada completa. Pedra de Tinta: pequeno bloco de tinta preta solidificada para escrita, solúvel em água no momento do uso. Normalmente é feita com tinta de lula.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-jangada",
+      "nome": "Jangada",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Barco típico de pescadores, com uma vela e remos. Tem deslocamento 4,5m.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-pedra-de-tinta",
+      "nome": "Pedra de tinta",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Pequeno bloco de tinta preta solidificada para escrita, solúvel em água no momento do uso. Normalmente é feita com tinta de lula.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-jitensha",
+      "nome": "Jitensha",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Originalmente chamado “bicicleta”, este invento goblin nunca teve grande aceitação no Reinado, 156 ~ ^ capitulo tres Materiais Especiais Aço-Rubi: este metal tem a aparência de vidro avermelhado, mas é duro como aço verdadeiro. Armas forjadas com ele ignoram redução de dano. Bambu Suchiiru: encontrado apenas em florestas habitadas por youkai, este bambu é muito mais resistente e durável que a variedade normal, mas mantendo sua extrema leveza. Armas de madeira e escudos leves podem ser feitos com bambu suchiiru. Forjadas pelos anões do Reinado de Arton, armas de aço-rubi são valiosíssimas no combate às aberrações da Ferida Profunda.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-pincel",
+      "nome": "Pincel",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Em vez de penas, tamuranianos escrevem com pincéis, próprios para sua caligrafia. Ração de Viagem: feita de alimentos conservados, como carne defumada, frutas secas e onigiri (bolinhos de arroz), esta ração é própria para longas viagens, e uma porção alimenta uma pessoa por um dia. Dura até uma semana se mantida seca; caso fique molhada, se estraga em 24 horas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-junco",
+      "nome": "Junco",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 11000,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Navio rápido e estável, com deslocamento 9m, graças às suas velas divididas horizontalmente por ripas de pau. É a embarcação padrão de Tamu-ra para longas viagens marítimas, incluindo rotas para o Reinado. Exige pelo menos cinco tripulantes e transporta até 30 pessoas. O peso máximo que você pode carregar é igual a dez vezes sua Força, em quilos (se tiver Força 18, pode carregar até 180kg). Você ainda sofre penalidade de carga normal. Se tentar carregar peso além do máximo, você não consegue se deslocar e fica exausto.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-racao-de-viagem-por-dia",
+      "nome": "Ração de viagem (por dia)",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Feita de alimentos conservados, como carne defumada, frutas secas e onigiri (bolinhos de arroz), esta ração é própria para longas viagens, e uma porção alimenta uma pessoa por um dia. Dura até uma semana se mantida seca; caso fique molhada, se estraga em 24 horas.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-palanquim",
+      "nome": "Palanquim",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "É o equivalente tamuraniano a uma carruagem. Uma cabine fechada, com estofamento confortável e cortinas, montada sobre duas longas hastes horizontais que se estendem à frente e atrás, onde quatro ou mais carregadores transportam a estrutura sobre os ombros. Mesmo no passado, apenas os mais ricos e poderosos usavam este luxuoso meio de transporte; nos dias de hoje, é quase impossível ver um destes. Sabe-se que o próprio Imperador o usa, e em raras ocasiões.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-tocha",
+      "nome": "Tocha",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Depois de acesa, queima por uma hora, iluminando até 6m. Usada como arma corpo-a-corpo, uma tocha causa 1d4 pontos de dano de esmagamento + 1 por fogo. Uma tocha é uma arma simples.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-pipa-ninja",
+      "nome": "Pipa ninja",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Também conhecida como momonga (“esquilo voador”), este engenho oferece ao usuário capacidade limitada de voo. Você pode gastar uma ação de movimento para fazer um teste de Acrobacia (CD 20). Em caso de sucesso, pode voar até 9m. Em caso de falha, não se desloca e flutua de volta ao chão. Em caso de falha por 5 ou mais, sofre dano conforme a queda. Manobrar a pipa exige pelo menos uma mão livre. Enquanto usa a pipa ninja você fica com uma mão ocupada. Por ser um invento ninja, usar a pipa é uma violação de honra severa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-tokkuri",
+      "nome": "Tokkuri",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 2.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Garrafa de madeira ou cerâmica para transportar bebida (geralmente água, chá ou saquê). Traz um estreitamento no corpo, onde se amarra uma corda ou lenço para facilitar o transporte. Existem em vários tamanhos, mas a garrafa mais comum comporta 1 litro. Vara de Madeira: uma haste de madeira com 3m de comprimento, geralmente usada para atingir pontos distantes. Pode ter muitas utilidades — mas é frágil demais para servir como arma.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-veiculo-riquixa",
+      "nome": "Riquixá",
+      "categoria": "veiculo",
+      "subtipo": "veiculo",
+      "peso": 0,
+      "preco": {
+        "valor": 15,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "veiculo",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Carroça de duas rodas para um ou dois passageiros, puxada por uma pessoa a pé — ou adaptada a uma jitensha. Muito comuns no passado com meio de transporte para a elite, mas raros hoje em dia. Apenas em Shinkyo e outras grandes cidades é possível contratar condutores de riquixá. Tem deslocamento 12m. Serviços Veículos Mensageiro: inclui mensagens entregues a pé, por cavaleiros ou navios.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-vara-de-madeira-3m",
+      "nome": "Vara de madeira (3m)",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 4.0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Uma haste de madeira com 3m de comprimento, geralmente usada para atingir pontos distantes. Pode ter muitas utilidades — mas é frágil demais para servir como arma.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-item-geral-vela",
+      "nome": "Vela",
+      "categoria": "item geral",
+      "subtipo": "equipamento",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "item geral",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Usadas como fonte de iluminação por cidadãos mais humildes, velas são feitas de gordura animal e incluem um candelabro simples feito de cerâmica. A luz de uma vela atinge 3m e ela dura 1 hora. Peças Obra-primas Personagens com o talento Criar Obra -Prima podem construir itens de qualidade superior. No entanto, o custo para adquirir estas peças também é mais elevado. Armas: uma arma obra-prima é forjada apenas com as melhores ligas e temperada diversas vezes, para adquirir o equilíbrio perfeito. Graças a isso, fornece um bônus de +1 nas jogadas de ataque.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-vestuario-booken-fuku",
+      "nome": "Booken-fuku",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 2.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "vestuario",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Traje de explorador, adequado para quem nunca sabe o que esperar. Inclui uma camisa larga, um quimono ou casaco happi de algodão fechado com uma faixa amarrada à cintura, calças ou saia na altura do joelho, sandálias de palha ou madeira, e um grande chapéu de palha. São as roupas preferidas por aventureiros, oferecendo variantes para todas as classes. Tamu-ra tem hospedarias chamadas ryokan e tavernas chamadas izakaya, onde aventureiros descansam ou fazem preparativos para suas próximas missões. Ryokan são pensões onde se pode alugar quartos para dormir, fazer refeições e, às vezes, repousar em banheiras de água quente.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-vestuario-daizenshi-fuku",
+      "nome": "Dai’zenshi-fuku",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 2.0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "vestuario",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Indumentária da nobreza, inclui um quimono de seda elaborado, com mangas muito longas, uma larga faixa obi para a cintura, e um tipo de colete ou jaqueta sem mangas que enfatiza os ombros, trazendo símbolos de família. Nem sempre inclui joias.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-mensageiro-por-km",
+      "nome": "Mensageiro (por km)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "¥"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Inclui mensagens entregues a pé, por cavaleiros ou navios.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-vestuario-quimono",
+      "nome": "Quimono",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 2.0,
+      "preco": {
+        "valor": 10,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "vestuario",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "O traje mais tradicional de Tamu-ra é, essencialmente, um casaco ou roupão amarrado à cintura com uma faixa obi — mas existe em inúmeras variantes. Alguns são modestos e práticos, usados por servos, monges e artistas marciais, enquanto outros podem ser ricamente decorados. Em geral são considerados trajes formais, reservados para ocasiões especiais como festivais e cerimônias, mas cidadãos bem-sucedidos os utilizam na vida diária. Inclui sandálias de madeira ou palha.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-vestuario-shimin-fuku",
+      "nome": "Shimin-fuku",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "vestuario",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Roupas típicas de aldeão, incluem uma camisa larga e calças soltas, na altura do joelho, para homens; ou um quimono simples para mulheres. Também inclui sandálias e chapéu de palha. Shinobi Shozoku: traje preto exclusivo dos ninjas, só pode ser adquirido por personagens desta classe (sem custo). Inclui um capuz que deixa apenas os olhos expostos. É mais apertado nos antebraços e pernas para melhor furtividade. Também inclui as peculiares botas jika-tabi, com uma divisão para os dedos. Oferece +2 em Furtividade, Intimidação e em testes de Diplomacia com ninjas do mesmo clã. Usar este traje é uma violação de honra severa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-vestuario-shinobi-shozoku",
+      "nome": "Shinobi shozoku",
+      "categoria": "vestuario",
+      "subtipo": "vestuario",
+      "peso": 1.0,
+      "preco": {
+        "valor": 0,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "vestuario",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Traje preto exclusivo dos ninjas, só pode ser adquirido por personagens desta classe (sem custo). Inclui um capuz que deixa apenas os olhos expostos. É mais apertado nos antebraços e pernas para melhor furtividade. Também inclui as peculiares botas jika-tabi, com uma divisão para os dedos. Oferece +2 em Furtividade, Intimidação e em testes de Diplomacia com ninjas do mesmo clã. Usar este traje é uma violação de honra severa.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-arsenico",
+      "nome": "Arsênico",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ingestão, CD 15, efeito: 1d6 Con.",
+      "properties": "Veneno de ingestão, CD 15, efeito: 1d6 Con",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-chan-su-veneno-de-sapo",
+      "nome": "Chan-su (veneno de sapo)",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ferimento, CD 15, efeito: 1d6 Con.",
+      "properties": "Veneno de ferimento, CD 15, efeito: 1d6 Con",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-sonifero",
+      "nome": "Sonífero",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 100,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ferimento, CD 15, efeito: Inconsciente pela cena.",
+      "properties": "Veneno de ferimento, CD 15, efeito: Inconsciente pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-cha-da-flor-de-shikimi",
+      "nome": "Chá da flor de shikimi",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ingestão, CD 18, efeito: 2d6 Des (1d6 Des).",
+      "properties": "Veneno de ingestão, CD 18, efeito: 2d6 Des (1d6 Des)",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-essencia-de-yurei",
+      "nome": "Essência de yurei",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ingestão, CD 18, efeito: 2d6 For (1d6 For).",
+      "properties": "Veneno de ingestão, CD 18, efeito: 2d6 For (1d6 For)",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-po-de-cogumelo-kakishimeji",
+      "nome": "Pó de cogumelo kakishimeji",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ingestão, CD 18, efeito: 2d6 Des (1d6 Des).",
+      "properties": "Veneno de ingestão, CD 18, efeito: 2d6 Des (1d6 Des)",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-veneno-de-naja",
+      "nome": "Veneno de naja",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 600,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ferimento, CD 18, efeito: 1d4 Con, 1d10 Con na cena seguinte.",
+      "properties": "Veneno de ferimento, CD 18, efeito: 1d4 Con, 1d10 Con na cena seguinte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-espinho-do-polvo-azul",
+      "nome": "Espinho do polvo azul",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 900,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de contato, CD 18, efeito: 2d6 For (1d6 For).",
+      "properties": "Veneno de contato, CD 18, efeito: 2d6 For (1d6 For)",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-nevoa-da-insanidade",
+      "nome": "Névoa da insanidade",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 1200,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de inalação, CD 18, efeito: Confuso pela cena.",
+      "properties": "Veneno de inalação, CD 18, efeito: Confuso pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-peconha-cegante",
+      "nome": "Peçonha cegante",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 1800,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de ferimento, CD 22, efeito: Cego pela cena.",
+      "properties": "Veneno de ferimento, CD 22, efeito: Cego pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-extrato-de-lotus-negra",
+      "nome": "Extrato de lótus negra",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 2700,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de contato, CD 22, efeito: 3d6 Con (1d6 Con), repete na cena seguinte.",
+      "properties": "Veneno de contato, CD 22, efeito: 3d6 Con (1d6 Con), repete na cena seguinte",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-seiva-de-araragi",
+      "nome": "Seiva de araragi",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 2700,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de contato, CD 22, efeito: Lento pela cena.",
+      "properties": "Veneno de contato, CD 22, efeito: Lento pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-fugu",
+      "nome": "Fugu",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 3600,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de contato, CD 25, efeito: Paralisado (lento) pela cena.",
+      "properties": "Veneno de contato, CD 25, efeito: Paralisado (lento) pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-consumivel-gas-da-sonolencia",
+      "nome": "Gás da sonolência",
+      "categoria": "consumivel",
+      "subtipo": "veneno",
+      "peso": 0,
+      "preco": {
+        "valor": 3600,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 248,
+      "tags": [
+        "consumivel",
+        "veneno",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Veneno de inalação, CD 25, efeito: Inconsciente pela cena.",
+      "properties": "Veneno de inalação, CD 25, efeito: Inconsciente pela cena",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": true,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-conducao-terrestre-por-km",
+      "nome": "Condução terrestre (por km)",
+      "categoria": "servico",
+      "subtipo": "conducao",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "¥"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Preço de transporte no Império de Jade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-conducao-maritima-por-km",
+      "nome": "Condução marítima (por km)",
+      "categoria": "servico",
+      "subtipo": "conducao",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "¥p"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Preço de transporte no Império de Jade.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-jutsu-basico-servico",
+      "nome": "Jutsu básico (serviço)",
+      "categoria": "servico",
+      "subtipo": "jutsu",
+      "peso": 0,
+      "preco": {
+        "valor": 50,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Preço para contratar alguém que execute um jutsu deste nível.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-jutsu-mediano-servico",
+      "nome": "Jutsu mediano (serviço)",
+      "categoria": "servico",
+      "subtipo": "jutsu",
+      "peso": 0,
+      "preco": {
+        "valor": 300,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Preço para contratar alguém que execute um jutsu deste nível.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    },
+    {
+      "id": "tclassico-jade-servico-jutsu-avancado-servico",
+      "nome": "Jutsu avançado (serviço)",
+      "categoria": "servico",
+      "subtipo": "jutsu",
+      "peso": 0,
+      "preco": {
+        "valor": 900,
+        "moeda": "¥o"
+      },
+      "sistema": "tormenta-classico",
+      "fonte": "Tormenta RPG - Império de Jade",
+      "pagina": 154,
+      "tags": [
+        "servico",
+        "imperio de jade",
+        "tormenta classico"
+      ],
+      "descricao": "Preço para contratar alguém que execute um jutsu deste nível.",
+      "properties": "",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-18T23:45:16.642Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
+    }
+  ]
+}

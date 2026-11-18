@@ -1077,7 +1077,8 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   const EM_TIBARES = { "T$": 1, "PC": 0.1, "PP": 1, "PE": 5, "PO": 10, "PL": 100 };
   const ORDEM = ["T$", "PC", "PP", "PE", "PO", "PL"];
   // Tibares do Tormenta: TC = 1/10 T$, TP = Tibar de Prata = T$, TO = 10 T$.
-  const TIBARES_EXTRAS = { "TC": 0.1, "TP": 1, "TO": 10 };
+  // Yan do Império de Jade: 1x1 com o Tibar (¥o = TO, ¥p = TP, ¥ = TC).
+  const TIBARES_EXTRAS = { "TC": 0.1, "TP": 1, "TO": 10, "¥O": 10, "¥P": 1, "¥": 0.1 };
   const CHAVE = "laMagie.compendioMoeda";
   const fmt = n => new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 6 }).format(n);
   let moeda = "";
