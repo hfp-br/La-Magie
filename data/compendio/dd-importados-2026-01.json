@@ -3809,7 +3809,7 @@
       "subtipo": "",
       "peso": 10,
       "preco": {
-        "valor": 30,
+        "valor": 50,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4023,9 +4023,9 @@
       "nome": "Kit de disfarce",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 1.5,
       "preco": {
-        "valor": 0,
+        "valor": 25,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4035,20 +4035,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Cosméticos, tintura de cabelo e pequenos adereços para mudar sua aparência, além de algumas roupas. Com proficiência, você adiciona seu bônus de proficiência a testes para criar um disfarce visual.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-kit-de-falsificacao",
       "nome": "Kit de falsificação",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 2.5,
       "preco": {
-        "valor": 0,
+        "valor": 15,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4058,20 +4058,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Papéis, pergaminhos, canetas, tintas, selos e lacres para criar falsificações convincentes de documentos. Com proficiência, você adiciona seu bônus de proficiência a testes para falsificar um documento.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ladrao",
       "nome": "Ferramentas de ladrão",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 0.5,
       "preco": {
-        "valor": 0,
+        "valor": 25,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4081,20 +4081,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Inclui uma pequena lima, gazuas, um pequeno espelho com cabo de metal, tesouras de lâmina estreita e um par de alicates. Com proficiência, você adiciona seu bônus de proficiência a testes para desarmar armadilhas ou abrir fechaduras.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-carpinteiro",
       "nome": "Ferramentas de carpinteiro",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 3,
       "preco": {
-        "valor": 0,
+        "valor": 8,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4104,20 +4104,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ferreiro",
       "nome": "Ferramentas de ferreiro",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 4,
       "preco": {
-        "valor": 0,
+        "valor": 20,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4127,20 +4127,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-alquimista",
       "nome": "Ferramentas de alquimista",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 4,
       "preco": {
-        "valor": 0,
+        "valor": 50,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4150,20 +4150,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-cozinheiro",
       "nome": "Ferramentas de cozinheiro",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 4,
       "preco": {
-        "valor": 0,
+        "valor": 1,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4173,20 +4173,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-caligrafia",
       "nome": "Suprimentos de caligrafia",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 2.5,
       "preco": {
-        "valor": 0,
+        "valor": 10,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4196,20 +4196,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-cervejeiro",
       "nome": "Suprimentos de cervejeiro",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 4.5,
       "preco": {
-        "valor": 0,
+        "valor": 20,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4219,20 +4219,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-alaude",
       "nome": "Instrumento musical — Alaúde",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 1,
       "preco": {
-        "valor": 0,
+        "valor": 35,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4242,20 +4242,20 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-flauta",
       "nome": "Instrumento musical — Flauta",
       "categoria": "ferramenta",
       "subtipo": "",
-      "peso": 0,
+      "peso": 0.5,
       "preco": {
-        "valor": 0,
+        "valor": 2,
         "moeda": "PO"
       },
       "sistema": "D&D 5e 2014",
@@ -4265,11 +4265,11 @@
         "dnd",
         "equipamento"
       ],
-      "descricao": "Conjunto de ferramentas utilizado com a proficiência correspondente; preço e peso a conferir na tabela da fonte.",
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": true
+      "revisarDados": false
     },
     {
       "id": "dd-tasha-tatuagem-do-iluminador",

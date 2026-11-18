@@ -1,0 +1,1205 @@
+{
+  "versao": 2,
+  "itens": [
+    {
+      "id": "dd-2014-escudo-escudo",
+      "nome": "Escudo",
+      "categoria": "escudo",
+      "subtipo": "escudo",
+      "peso": 3,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 145,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "escudo"
+      ],
+      "descricao": "Escudo de madeira ou metal carregado em uma mão. Empunhá-lo aumenta sua Classe de Armadura em 2. Você só pode se beneficiar de um escudo por vez.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014",
+      "armor": {
+        "caTexto": "+2",
+        "forcaMinima": "–",
+        "furtividade": "–"
+      }
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-cartografo",
+      "nome": "Ferramentas de cartógrafo",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 3,
+      "preco": {
+        "valor": 15,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-costureiro",
+      "nome": "Ferramentas de costureiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-coureiro",
+      "nome": "Ferramentas de coureiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-entalhador",
+      "nome": "Ferramentas de entalhador",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-funileiro",
+      "nome": "Ferramentas de funileiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 5,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-joalheiro",
+      "nome": "Ferramentas de joalheiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-oleiro",
+      "nome": "Ferramentas de oleiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-pedreiro",
+      "nome": "Ferramentas de pedreiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 4,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-pintor",
+      "nome": "Ferramentas de pintor",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-sapateiro",
+      "nome": "Ferramentas de sapateiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-vidreiro",
+      "nome": "Ferramentas de vidreiro",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 2.5,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-ferramentas-de-navegacao",
+      "nome": "Ferramentas de navegação",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Usadas para pilotar embarcações. Com proficiência, você adiciona seu bônus de proficiência a testes para traçar o curso de um navio ou seguir mapas de navegação.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-kit-de-herbalismo",
+      "nome": "Kit de herbalismo",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1.5,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Inclui recipientes para guardar ervas, tesouras e luvas, almofariz e pilão, bolsas e frascos. Com proficiência, você adiciona seu bônus de proficiência a testes para identificar ou aplicar ervas; é necessário para criar antídotos e poções de cura.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-kit-de-venenos",
+      "nome": "Kit de venenos",
+      "categoria": "ferramenta",
+      "subtipo": "ferramenta",
+      "peso": 1,
+      "preco": {
+        "valor": 50,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta"
+      ],
+      "descricao": "Frascos de vidro, almofariz e pilão, produtos químicos e uma haste de vidro. Com proficiência, você adiciona seu bônus de proficiência a testes para preparar ou usar venenos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-flauta-de-pa",
+      "nome": "Instrumento musical — Flauta de pã",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 12,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-gaita-de-foles",
+      "nome": "Instrumento musical — Gaita de foles",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 3,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-lira",
+      "nome": "Instrumento musical — Lira",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-oboe",
+      "nome": "Instrumento musical — Oboé",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 0.5,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-tambor",
+      "nome": "Instrumento musical — Tambor",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1.5,
+      "preco": {
+        "valor": 6,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-trombeta",
+      "nome": "Instrumento musical — Trombeta",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 1,
+      "preco": {
+        "valor": 3,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-violino",
+      "nome": "Instrumento musical — Violino",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 3,
+      "preco": {
+        "valor": 30,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-instrumento-musical-xilofone",
+      "nome": "Instrumento musical — Xilofone",
+      "categoria": "ferramenta",
+      "subtipo": "instrumento musical",
+      "peso": 5,
+      "preco": {
+        "valor": 25,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "instrumento musical"
+      ],
+      "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-conjunto-de-jogo-baralho-de-cartas",
+      "nome": "Conjunto de jogo — Baralho de cartas",
+      "categoria": "ferramenta",
+      "subtipo": "conjunto de jogo",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "conjunto de jogo"
+      ],
+      "descricao": "Conjunto de jogo. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para jogá-lo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-conjunto-de-jogo-conjunto-de-dados",
+      "nome": "Conjunto de jogo — Conjunto de dados",
+      "categoria": "ferramenta",
+      "subtipo": "conjunto de jogo",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "conjunto de jogo"
+      ],
+      "descricao": "Conjunto de jogo. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para jogá-lo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-conjunto-de-jogo-jogo-dos-tres-dragoes",
+      "nome": "Conjunto de jogo — Jogo dos três dragões",
+      "categoria": "ferramenta",
+      "subtipo": "conjunto de jogo",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "conjunto de jogo"
+      ],
+      "descricao": "Conjunto de jogo. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para jogá-lo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-ferramenta-conjunto-de-jogo-xadrez-do-dragao",
+      "nome": "Conjunto de jogo — Xadrez do dragão",
+      "categoria": "ferramenta",
+      "subtipo": "conjunto de jogo",
+      "peso": 0.25,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 154,
+      "tags": [
+        "dnd",
+        "equipamento",
+        "ferramenta",
+        "conjunto de jogo"
+      ],
+      "descricao": "Conjunto de jogo. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para jogá-lo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-esqualida-diaria",
+      "nome": "Refeição esquálida (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão esquálida. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-pobre-diaria",
+      "nome": "Refeição pobre (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão pobre. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-modesta-diaria",
+      "nome": "Refeição modesta (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 3,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão modesta. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-confortavel-diaria",
+      "nome": "Refeição confortável (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão confortável. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-rica-diaria",
+      "nome": "Refeição rica (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão rica. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-consumivel-refeicao-aristocratica-diaria",
+      "nome": "Refeição aristocrática (diária)",
+      "categoria": "consumivel",
+      "subtipo": "comida e bebida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "comida e bebida"
+      ],
+      "descricao": "Refeições de um dia inteiro no padrão aristocrática. Já incluídas nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-esqualida-diaria",
+      "nome": "Acomodação em estalagem — esquálida (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 7,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão esquálida. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-pobre-diaria",
+      "nome": "Acomodação em estalagem — pobre (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão pobre. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-modesta-diaria",
+      "nome": "Acomodação em estalagem — modesta (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 5,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão modesta. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-confortavel-diaria",
+      "nome": "Acomodação em estalagem — confortável (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 8,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão confortável. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-rica-diaria",
+      "nome": "Acomodação em estalagem — rica (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão rica. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-acomodacao-em-estalagem-aristocratica-diaria",
+      "nome": "Acomodação em estalagem — aristocrática (diária)",
+      "categoria": "servico",
+      "subtipo": "hospedagem",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 158,
+      "tags": [
+        "dnd",
+        "servico",
+        "hospedagem"
+      ],
+      "descricao": "Uma noite de hospedagem em estalagem de padrão aristocrática. Já incluída nas despesas de estilo de vida.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-esqualido-por-dia",
+      "nome": "Estilo de vida esquálido (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Você vive em condições precárias: um quarto alugado em uma pensão infestada de ratos, ou um barraco nos piores pontos da cidade. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-pobre-por-dia",
+      "nome": "Estilo de vida pobre (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Moradia simples e sem conforto, em uma parte pobre da cidade; refeições escassas e roupas gastas. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-modesto-por-dia",
+      "nome": "Estilo de vida modesto (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Mantém você fora das favelas e garante a manutenção de seu equipamento; um quarto em pensão, estalagem ou templo, limpo embora simples. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-confortavel-por-dia",
+      "nome": "Estilo de vida confortável (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Você pode pagar por roupas melhores e manter seu equipamento facilmente; uma casa pequena ou um quarto privado em boa estalagem. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-rico-por-dia",
+      "nome": "Estilo de vida rico (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 4,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Uma vida de luxo, com boas acomodações e alimentação de qualidade, e alguns serviçais. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-estilo-de-vida-aristocratico-por-dia",
+      "nome": "Estilo de vida aristocrático (por dia)",
+      "categoria": "servico",
+      "subtipo": "estilo de vida",
+      "peso": 0,
+      "preco": {
+        "valor": 10,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 157,
+      "tags": [
+        "dnd",
+        "servico",
+        "estilo de vida"
+      ],
+      "descricao": "Viver no topo da sociedade, com as melhores acomodações, comida e serviços; o valor indicado é o mínimo. Despesa por dia: cobre acomodação, comida e a manutenção do equipamento.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-condutor-dentro-da-cidade",
+      "nome": "Condutor — dentro da cidade",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Corrida dentro da cidade.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-condutor-entre-cidades-por-km",
+      "nome": "Condutor — entre cidades (por km)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Transporte entre cidades, cobrado por quilômetro.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-mensageiro-por-km",
+      "nome": "Mensageiro (por km)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Entrega de mensagens, cobrada por quilômetro.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-passagem-de-navio-por-km",
+      "nome": "Passagem de navio (por km)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 6,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Passagem a bordo de um navio, cobrada por quilômetro.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-pedagio",
+      "nome": "Pedágio",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 1,
+        "moeda": "PC"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Taxa de estrada ou portão.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-servical-destreinado-por-dia",
+      "nome": "Serviçal destreinado (por dia)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PP"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Trabalho braçal que não exige habilidade especial: operários, porteiros, empregados domésticos.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    },
+    {
+      "id": "dd-2014-servico-servical-treinado-por-dia",
+      "nome": "Serviçal treinado (por dia)",
+      "categoria": "servico",
+      "subtipo": "servico",
+      "peso": 0,
+      "preco": {
+        "valor": 2,
+        "moeda": "PO"
+      },
+      "sistema": "D&D 5e 2014",
+      "fonte": "Livro do Jogador (2014)",
+      "pagina": 159,
+      "tags": [
+        "dnd",
+        "servico"
+      ],
+      "descricao": "Alguém contratado para um serviço que envolve uma proficiência: mercenário, artesão, escrivão etc. O valor é o pagamento mínimo.",
+      "efeitos": [],
+      "schemaVersion": 5,
+      "origemEdicao": "D&D 5e 2014"
+    }
+  ]
+}
