@@ -1611,10 +1611,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "As histórias de heróis Escudo torre 10 30 estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo Sagna 5 10 do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram vista, a brigantina só tem vantagens — feita de uma pensadas para uso na vida real... Mas alguém, em vestimenta de couro com pequenas placas metálicas algum momento, achou que isso seria boa ideia.",
+      "descricao": "As histórias de heróis estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram pensadas para uso na vida real... Mas alguém, em algum momento, achou que isso seria boa ideia. Uma armadura sensual é feita de pedaços (minúsculos) de cota de malha, (pouquíssimas) escamas ou tiras (extremamente finas) de metal. A armadura sensual não oferece muita proteção, mas permite usar o poder Atraente.",
       "properties": "Defesa +1; Penalidade 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.318Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "armadura-sensual-ac-1-na-defesa",
@@ -1659,10 +1659,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta armadura é um são versões de ponta mais pesada e afiada das flechas traje de tecido leve sobre o qual são costuradas várias ou virotes normais. Você sofre –2 em testes de ataque camadas de folhas especialmente preparadas com com estas flechas, mas ignora 5 pontos da RD dos alvos. óleos naturais.",
+      "descricao": "Esta armadura é um traje de tecido leve sobre o qual são costuradas várias camadas de folhas especialmente preparadas com óleos naturais. É uma armadura leve que fornece pouca defesa, mas permite que o usuário se mantenha conectado com as forças da natureza. Se for treinado em Sobrevivência, você recebe +2 PM com esta armadura (somente após 1 dia de uso), cumulativo com outros efeitos de itens.",
       "properties": "Defesa +2; Penalidade 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.319Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "armadura-de-folhas-ac-2-na-defesa",
@@ -1707,10 +1707,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta armadura, digamos, “peculiar” foi originalmente investida. Esse efeito só funciona uma vez por cena desenvolvida por engenhoqueiros goblins para guardar com cada oponente. todos os equipamentos, peças, partes semidestruídas Armadura de Justa.",
+      "descricao": "Esta armadura, digamos, “peculiar” foi originalmente desenvolvida por engenhoqueiros goblins para guardar todos os equipamentos, peças, partes semidestruídas e tralhas em geral que são necessários para seu ofício. Uma armadura de engenhoqueiro goblin recobre o corpo inteiro e é feita de pedaços desencontrados de couro, rebites e até cota de malha. Mas essa base logo fica enterrada sob camadas sucessivas de objetos, pois a armadura possui incontáveis ganchos, bolsos, tiras, prendedores e outros lugares para guardar ou pendurar itens.",
       "properties": "Defesa +3; Penalidade -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.319Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "armadura-de-engenhoqueiro-goblin-ac-3-na-defesa",
@@ -1755,10 +1755,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "O cúmulo da ostentação, Além de seus bônus na Defesa, o escudo de vime esta armadura se assemelha a uma brunea, com um fornece camuflagem leve. Além disso, em seu turno, diferencial — em vez de discos metálicos, a malha é se estiver usando o escudo, você pode escolher um formada por tibares entrelaçados! Você recebe +2 em aliado adjacente.",
+      "descricao": "O cúmulo da ostentação, esta armadura se assemelha a uma brunea, com um diferencial — em vez de discos metálicos, a malha é formada por tibares entrelaçados! Você recebe +2 em Diplomacia (cumulativo com melhorias da armadura). O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação.",
       "properties": "Defesa +4; Penalidade -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.319Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "cota-de-moedas-ac-4-na-defesa",
@@ -1899,10 +1899,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta armadura Armadura de Hussardo Alado. Alguns extremamente pesada e desajeitada faz o usuário dos reinos mais avançados (e menos tradicionalistas) parecer mais uma estátua do que um cavaleiro... de Arton começaram a equipar seus cavaleiros No entanto, é a preferida de alguns infelizes que já com estas armaduras vistosas e impressionantes.",
+      "descricao": "Esta armadura extremamente pesada e desajeitada faz o usuário parecer mais uma estátua do que um cavaleiro... No entanto, é a preferida de alguns infelizes que já sofreram nas mãos de arcanistas. Uma armadura de chumbo é mais pesada e incômoda do que uma armadura completa, sem oferecer a mesma proteção. No entanto, fornece redução de dano 2/mundano e resistência a magia +2, cumulativo com outros efeitos de itens.",
       "properties": "Defesa +7; Penalidade -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.320Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "armadura-de-chumbo-ac-7-na-defesa",
@@ -2043,10 +2043,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta armadura completa de itens) e, contra armas de perfuração, seu bônus na foi originalmente projetada por facções tradicionalistas Defesa aumenta em +2. Contudo, devido a seu peso da Guilda dos Armeiros de Doherimm, apenas em e estrutura, sua penalidade de armadura aumenta em tamanho anão. Recentemente, anões rebeldes e 2 se você não estiver montado.",
+      "descricao": "Esta armadura completa foi originalmente projetada por facções tradicionalistas da Guilda dos Armeiros de Doherimm, apenas em tamanho anão. Recentemente, anões rebeldes e interessados em lucro começaram a fabricar versões Armadura de folhas Armadura de hussardo alado utilizáveis pelas demais raças artonianas. Além de sua defesa elevada, uma armadura de pedra fornece redução de dano 2 (cumulativo com outros efeitos de itens). Contudo, toda essa proteção tem um custo: seu deslocamento é reduzido pela metade por essa armadura pesada, em vez de em 3m.",
       "properties": "Defesa +12; Penalidade -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.321Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "armadura-de-pedra-ac-12-na-defesa",
@@ -2167,10 +2167,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta couraça Reanimador. O item possui um brilho pulsante defensora gélida de gelo eterno é coberta por névoa gelaque emana calor reconfortante. Você pode lançar Curar da.",
+      "descricao": "Esta couraça defensora gélida de gelo eterno é coberta por névoa gelada. Quando você usa a habilidade ativada do encanto gélido, recebe 20 PV (em vez de 10). Além disso, pode lançar Área Escorregadia (CD Sab) como uma ação de movimento — o efeito assume a forma de uma fina camada de gelo escorregadio. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.370Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2204,10 +2204,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta cota de quantidade do dano sofrido. malha ajustada guardiã azul-esverdeada é feita com Resiliente. Você recebe resistência a atordoa- escamas de monstros marinhos.",
+      "descricao": "Esta cota de malha ajustada guardiã azul-esverdeada é feita com escamas de monstros marinhos. Você recebe deslocamento de natação 12m e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.370Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

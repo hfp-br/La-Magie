@@ -6461,10 +6461,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta besta pequena e discreta um veneno nesta arma segue as regras de venenos é bastante popular entre assassinos de várias partes (Tormenta20, p. 161), mas o veneno permanece até do Reinado e além. Ela é uma arma surpreendente e você acertar um ataque (não acaba ao fim da cena) e recarregá-la é uma ação de movimento.",
+      "descricao": "Esta besta pequena e discreta é bastante popular entre assassinos de várias partes do Reinado e além. Ela é uma arma surpreendente e recarregá-la é uma ação de movimento.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.307Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6515,10 +6515,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Muito usada por espadachins usados nesses jogos vêm se tornando populares como como arma secundária, esta adaga possui uma guarda armas elegantes, ainda que simples. Um bastão lúdico elaborada que a torna mais apropriada para bloqueios. causa dano não letal.",
+      "descricao": "Muito usada por espadachins como arma secundária, esta adaga possui uma guarda elaborada que a torna mais apropriada para bloqueios. Quando usa uma habilidade que permite fazer um teste de ataque para evitar ou reduzir dano (como o poder Aparar), você recebe +2 nesse teste.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.307Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6947,10 +6947,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Este facão possui gume serrilhado única peça de metal, este martelo é muito apreciado por e várias rebarbas dispostas ao longo de sua lâmina. anões como arma secundária. Pode ser arremessado.",
+      "descricao": "Este facão possui gume serrilhado e várias rebarbas dispostas ao longo de sua lâmina. Sempre que acerta um ataque com um resultado que ultrapassa a Defesa do alvo por 5 ou mais, você deixa a vítima vulnerável por 1 rodada e sangrando. A aparência agressiva da serrilheira, mesmo para uma arma, impõe –2 em Diplomacia e Enganação, cumulativo com outros efeitos de itens. Rapieiras Marrões Boleadeiras Kimbatas Arcos de guerra Malhos Clava-grão Espadim Montante cinético Canhão portátil Arsenal dos Heróis 221 Sifão Cáustico. A origem deste estranho engenho é controversa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.310Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7109,10 +7109,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta espada pesada tra do mesmo tipo. Dizem que o apelido se originou não foi projetada para combate, mas para decapitar entre os rebeldes do Império de Tauron, que usam condenados à morte — presumivelmente parados. Sua esta arma para apunhalar seus senhores e deixá-los lâmina é muito afiada, mas é difícil usá-la em batalha: estrebuchando com a língua para fora… você sofre –5 em testes de ataque com esta arma, a Clava-Grão.",
+      "descricao": "Esta espada pesada não foi projetada para combate, mas para decapitar condenados à morte — presumivelmente parados. Sua lâmina é muito afiada, mas é difícil usá-la em batalha: você sofre –5 em testes de ataque com esta arma, a menos que gaste uma ação de movimento para prepará-la (isso elimina essa penalidade em seu próximo ataque feito nesse turno). Contudo, um golpe certeiro pode significar uma execução, mesmo em combate…",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.311Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7703,10 +7703,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "À primeira vista, esta espada nas rolagens de dano, cumulativo com outros efeitos parece um sabre, talvez com lâmina um pouco mais de itens). Por sua afinidade natural, druidas podem recurvada que o normal. Contudo, o grande truque da usar a clava-grão como uma arma simples.",
+      "descricao": "À primeira vista, esta espada parece um sabre, talvez com lâmina um pouco mais recurvada que o normal. Contudo, o grande truque da espada-gadanho está em seu fio: ela é afiada na parte de dentro, não de fora, pegando muitos inimigos de surpresa. Ela é uma arma ágil e surpreendente. Devido ao seu gume invertido, exige treinamento especial para ser empunhada, por isso é uma arma exótica.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.314Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8027,10 +8027,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta espada tem minúsestacas no chão. Não é tão eficiente quanto os martelos culas esferas de adamante untadas com óleo no interior projetados para guerra, mas seu peso excessivo pode de sua lâmina. O movimento das esferas faz com que desequilibrar os oponentes.",
+      "descricao": "Esta espada tem minúsculas esferas de adamante untadas com óleo no interior de sua lâmina. O movimento das esferas faz com que a espada tenha seu peso e impacto aumentados várias vezes, mas a torna imprevisível para um combatente destreinado. Você pode usar um montante cinético como uma arma marcial, mas, nesse caso, se rolar um resultado 1 ou 2 em um teste de ataque com esta arma, erra e atinge a si mesmo, sofrendo o dano do ataque.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.316Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8297,10 +8297,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta besta possui uma Arco de Guerra. Este arco robusto possui caixa acoplada com espaço para armazenar até 10 braços grossos e resistentes, capazes de disparos virotes e um sistema de recarga automática. Por seu poderosos.",
+      "descricao": "Esta besta possui uma caixa acoplada com espaço para armazenar até 10 virotes e um sistema de recarga automática. Por seu funcionamento complexo, a besta de repetição é uma arma exótica. Porém, se você for proficiente com esta arma, pode recarregar cada virote como uma ação livre (carregar toda a caixa demora 1 minuto) e, sempre que fizer um ataque com ela, pode gastar 5 virotes para disparar uma saraivada. Se fizer isso, pode atacar até três alvos adjacentes (faça um único teste de ataque e compare com a Defesa de cada alvo) ou causar um dado de dano extra em único alvo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.317Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8405,10 +8405,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Uma versão menor dos Novas Habilidades de Armas canhões utilizados em embarcações, esta arma possui Ocultável. O tamanho e/ou formato uma grossa alça de couro que permite carregá-la ao da arma tornam mais fácil escondê-la. Ela lado do corpo.",
+      "descricao": "Uma versão menor dos canhões utilizados em embarcações, esta arma possui uma grossa alça de couro que permite carregá-la ao lado do corpo. Um canhão portátil é uma arma desbalanceada. Além disso, se sua Força for menor que 4, sempre que faz um ataque com esta arma você é arrastado 3m para trás. O canhão usa bolas de ferro como munição; recarregá-lo é uma ação completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.318Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

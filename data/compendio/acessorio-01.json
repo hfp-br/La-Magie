@@ -2837,10 +2837,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Uma armas que estejam empunhando e ficam pasmas por ampulheta dourada com areia prateada que parece 1 rodada (apenas uma vez por cena). Além disso, você flutuar em ciclos irregulares. Quando invertida, per- pode lançar Guardião Divino.",
+      "descricao": "Uma ampulheta dourada com areia prateada que parece flutuar em ciclos irregulares. Quando invertida, permite que você manipule levemente o fluxo do tempo ao redor, desacelerando ou acelerando pequenos eventos. Uma vez por dia, você pode realizar uma tarefa que normalmente consome de 1 minuto a 1 hora como uma ação completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.375Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2874,10 +2874,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este amuleto de Sonho. Se já puder lançar essa magia, uma vez por mês cristal translúcido é preso a uma corrente de prata e pode entregar um item para a pessoa ou roubar um brilha quando exposto à luz. Você recebe resistência a item de posse dela.",
+      "descricao": "Este amuleto de cristal translúcido é preso a uma corrente de prata e brilha quando exposto à luz. Você recebe resistência a ilusões +5 e pode lançar Visão Mística. Caso já conheça essa magia, pode lançá-la como uma ação livre.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.375Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2948,10 +2948,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este anel de ouro relento e sem um acampamento, oferece condição de contém uma gema que reflete a luz de maneira incodescanso confortável. Além disso, enquanto está no mum. Enquanto estiver vestindo este anel, você aparenta ser mais belo — não apenas conforme os padrões saco de dormir, você é considerado sob efeito da magia estéticos de seu povo ou raça, mas também de acordo Suporte Ambiental.",
+      "descricao": "Este anel de ouro contém uma gema que reflete a luz de maneira incomum. Enquanto estiver vestindo este anel, você aparenta ser mais belo — não apenas conforme os padrões estéticos de seu povo ou raça, mas também de acordo com as preferências de cada observador. Você recebe +5 em testes de perícias baseadas em Carisma, exceto Intimidação, e pode lançar Enfeitiçar. Se já puder lançar essa magia, seu custo diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.377Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3133,10 +3133,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este bastão longo e eventos. Uma vez por dia, você pode realizar uma esquelético possui uma gema cintilante na ponta e tarefa que normalmente consome de 1 minuto a 1 permite que você entre nos sonhos de uma pessoa hora como uma ação completa. adormecida.",
+      "descricao": "Este bastão longo e esquelético possui uma gema cintilante na ponta e permite que você entre nos sonhos de uma pessoa adormecida. Em termos de jogo, você pode lançar Sonho. Se já puder lançar essa magia, uma vez por mês pode entregar um item para a pessoa ou roubar um item de posse dela. No primeiro caso, quando a pessoa acordar, estará com o item na vida real. No segundo, você precisa fazer um teste de Vontade oposto contra a pessoa. Se você vencer, quando sair do sonho estará com o item dela.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3244,10 +3244,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Estas animais planares sagrados de Tanna-Toh. Você recebe braçadeiras de ferro negro são incrivelmente pesadas, a habilidade Engenhosidade (Tormenta20, p. 68); caso mas fornecem um aumento massivo na força física do já possua essa habilidade, o bônus fornecido por ela portador.",
+      "descricao": "Estas braçadeiras de ferro negro são incrivelmente pesadas, mas fornecem um aumento massivo na força física do portador. Você recebe +4 em Força (somente após um dia de uso). Além disso, uma vez por cena, pode gastar 5 PM para aumentar esse bônus para +8 por 1 rodada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3281,10 +3281,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este bracelete abrir portas para lugares distantes. Inserida na fechade ouro adornado com um coração fornece +10 PV dura de uma porta comum, permite que você lance (somente após um dia de uso). Além disso, quando Teletransporte ou Viagem Planar, sem necessidade de você é reduzido a 0 PV ou menos, pode gastar 2 PM componente material, desde que também exista uma para curar 2d8+2 PV por luz.",
+      "descricao": "Este bracelete de ouro adornado com um coração fornece +10 PV (somente após um dia de uso). Além disso, quando você é reduzido a 0 PV ou menos, pode gastar 2 PM para curar 2d8+2 PV por luz.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3318,10 +3318,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Estes Cinto da Desmaterialização. Este cinto dois braceletes de prata são gravados com símbolos feito de couro e metal possui um fecho especial que antigos de união e lealdade. Quando colocados (cada permite ao usuário desmaterializar seu corpo por um um numa pessoa diferente), estabelecem uma ligação curto período.",
+      "descricao": "Estes dois braceletes de prata são gravados com símbolos antigos de união e lealdade. Quando colocados (cada um numa pessoa diferente), estabelecem uma ligação poderosa entre seus usuários. Em alcance médio, ambos podem se comunicar por telepatia — podendo ver, ouvir e sentir tudo que o outro vê, ouve e sente. Também podem sempre sentir em que direção e distância o outro está. Por fim, quando um usuário recebe cura mágica ou outro efeito mágico benéfico, o outro também é afetado se estiver em alcance curto. O preço do item é pelo par!",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3540,10 +3540,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta pequena chave de 5 PM para aumentar esse bônus para +8 por 1 rodada. metal parece comum à primeira vista, mas é capaz de Bracelete do Coração Vivaz. Este bracelete abrir portas para lugares distantes.",
+      "descricao": "Esta pequena chave de metal parece comum à primeira vista, mas é capaz de abrir portas para lugares distantes. Inserida na fechadura de uma porta comum, permite que você lance Teletransporte ou Viagem Planar, sem necessidade de componente material, desde que também exista uma porta de qualquer tipo no local de chegada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.381Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3577,10 +3577,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este cinto dois braceletes de prata são gravados com símbolos feito de couro e metal possui um fecho especial que antigos de união e lealdade. Quando colocados (cada permite ao usuário desmaterializar seu corpo por um um numa pessoa diferente), estabelecem uma ligação curto período. Você pode lançar Forma Etérea, mas poderosa entre seus usuários.",
+      "descricao": "Este cinto feito de couro e metal possui um fecho especial que permite ao usuário desmaterializar seu corpo por um curto período. Você pode lançar Forma Etérea, mas apenas em você mesmo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3799,10 +3799,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este colar de âmbar lançar livremente qualquer versão truque de qualquer proporciona ao usuário um aumento considerável em magia de 1º círculo que ofereça esse aprimoramento, sua determinação. Você recebe +5 em Vontade e +2 mesmo que não a conheça. em todos os testes estendidos.",
+      "descricao": "Este colar de âmbar proporciona ao usuário um aumento considerável em sua determinação. Você recebe +5 em Vontade e +2 em todos os testes estendidos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3836,10 +3836,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este item cruel é fabricado podem mais ser afetados — talvez explicando algumas por abissais e usado por escravagistas. Cada colar tem prisões ou banimentos sem motivo aparente... conexão planar com uma ou mais coleiras (tipicamente Cristal da Voz Silenciosa.",
+      "descricao": "Este item cruel é fabricado por abissais e usado por escravagistas. Cada colar tem conexão planar com uma ou mais coleiras (tipicamente 1d8) destinadas a prisioneiros escravizados. Uma vez por rodada, o usuário do colar do tirano pode causar 2d8+2 pontos de dano de eletricidade a um escravo encoleirado. Tentativas mundanas de remover a coleira causam o mesmo dano — apenas efeitos como Dissipar Magia permitem destrancá-las. Além disso, qualquer dano ou efeito nocivo causado ao usuário do colar também afeta todos os escravos encoleirados.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3910,10 +3910,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este cristal azul claro é Elixir da Mente Dividida. Este elixir de muito frio ao toque, parecendo emitir uma aura gélida. cor verde esmeralda permite ao usuário dividir sua Se estiver empunhando o cristal, você pode lançar Raio consciência em duas partes.",
+      "descricao": "Este cristal azul claro é muito frio ao toque, parecendo emitir uma aura gélida. Se estiver empunhando o cristal, você pode lançar Raio Polar (CD Int ou Car; se já puder lançar essa magia, seus dados de dano aumentam em um passo). Deixado em um aposento fechado e pequeno (equivalente a no máximo uma área de 9m de raio), faz com que seu interior se torne muito frio (abaixo de –10ºC).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.385Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3947,10 +3947,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta corda feita de em qualquer tarefa: sofre uma penalidade de –5 em fibras mágicas possui um feitiço de aprisionamento. testes de perícia (exceto testes feitos como reação) e Quando é usada para amarrar alguém, a CD do teste é considerado em condição ruim para lançar magias de Acrobacia para escapar aumenta em +20. Além (Tormenta20, p.",
+      "descricao": "Esta corda feita de fibras mágicas possui um feitiço de aprisionamento. Quando é usada para amarrar alguém, a CD do teste de Acrobacia para escapar aumenta em +20. Além disso, uma vítima amarrada tem sua força de vontade drenada, e fica alquebrada e esmorecida.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.385Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4021,10 +4021,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta coroa para lançar Vidência, aumentando a CD dessa magia de prata escura é adornada com pedras de obsidiana. em +5 e estendendo seu efeito de Visão da Verdade ao Usada por alguns monarcas, permite exercer uma alvo observado. aura de autoridade inquestionável.",
+      "descricao": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não 266 Capítulo 3 podem mais ser afetados — talvez explicando algumas prisões ou banimentos sem motivo aparente...",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.386Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4169,10 +4169,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este elixir de muito frio ao toque, parecendo emitir uma aura gélida. cor verde esmeralda permite ao usuário dividir sua Se estiver empunhando o cristal, você pode lançar Raio consciência em duas partes. Quando ingerido, permite Polar (CD Int ou Car; se já puder lançar essa magia, executar duas ações de movimento e duas ações padrão seus dados de dano aumentam em um passo).",
+      "descricao": "Este elixir de cor verde esmeralda permite ao usuário dividir sua consciência em duas partes. Quando ingerido, permite executar duas ações de movimento e duas ações padrão por rodada (esse efeito não se acumula com outros efeitos mágicos que concedem ações adicionais) até o fim da cena. Contudo, enquanto sua mente está dividida, você perde a capacidade de se focar plenamente em qualquer tarefa: sofre uma penalidade de –5 em testes de perícia (exceto testes feitos como reação) e é considerado em condição ruim para lançar magias (Tormenta20, p. 170).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4206,10 +4206,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este grande espelho é Coroa da Floresta Sussurrante. Esta tiara emoldurado em ferro e adornado com figuras de cefeita de galhos e folhas sempre verdes tem pequenas lestiais combatendo abissais. A imagem de qualquer flores que se abrem ao toque.",
+      "descricao": "Este grande espelho é emoldurado em ferro e adornado com figuras de celestiais combatendo abissais. A imagem de qualquer criatura ou objeto refletida no espelho revela sua forma verdadeira, como a magia Visão da Verdade — sendo assim um item muitas vezes encontrado em locais de alta segurança. O espelho também pode ser utilizado por um conjurador como a superfície reflexiva para lançar Vidência, aumentando a CD dessa magia em +5 e estendendo seu efeito de Visão da Verdade ao alvo observado.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4317,10 +4317,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este item é uma gaiola rústica amplifica os sentidos do caçador, facilitando de prata pequena e robusta, com um pequeno cristal o rastreio de sua presa. Você recebe +5 em testes de pulsante em seu interior. Quando uma criatura usa Investigação para procurar e em testes de Sobrevivência uma habilidade mágica em um raio de 9m da gaiola, para rastrear.",
+      "descricao": "Este item é uma gaiola de prata pequena e robusta, com um pequeno cristal pulsante em seu interior. Quando uma criatura usa uma habilidade mágica em um raio de 9m da gaiola, o cristal suga 1 PM por círculo da magia lançada, ou 2 PM no caso de outras habilidades mágicas, dessa criatura. Os efeitos de várias gaiolas no mesmo aposento são cumulativos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4354,10 +4354,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta gema preciosa foi Monóculo da Franqueza. Esta lente emolabençoada por uma ou mais divindades malignas do durada em prata revela intenções e pensamentos Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch ocultos. Observando alguém em alcance curto através e outras que canalizam energia negativa.",
+      "descricao": "Esta gema preciosa foi abençoada por uma ou mais divindades malignas do Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch e outras que canalizam energia negativa. O custo de suas habilidades mágicas que causam dano de trevas diminui em –2 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4428,10 +4428,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta gema preciosa e de médio para longo). foi abençoada por uma ou mais divindades benignas do Panteão, tipicamente Azgher, Khalmyr, Lena e Óculos da Revelação. Quando invoca o outras que canalizam energia positiva.",
+      "descricao": "Esta gema preciosa foi abençoada por uma ou mais divindades benignas do Panteão, tipicamente Azgher, Khalmyr, Lena e outras que canalizam energia positiva. Toda a área em alcance curto da gema é considerada sob efeito da magia Consagrar. Se for devoto de uma dessas divindades, você pode também pagar PM para ativar seus aprimoramentos por uma cena.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4502,10 +4502,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta lâmpacom bônus de outros itens). Se você rolar um número da de cristal contém uma chama dourada que nunca negativo, o mestre recebe esse número em d6. Até o apaga.",
+      "descricao": "Esta lâmpada de cristal contém uma chama dourada que nunca apaga. Quando sua cobertura é removida, ela projeta ilusões perfeitamente detalhadas de qualquer coisa que o usuário deseje — você pode lançar a magia Criar Ilusão, mas apenas para efeitos visuais (CD Int; se já puder lançar essa magia, recebe 2 PM para gastar em aprimoramentos dela). Contudo, a perfeição absoluta das imagens aumenta a CD para resistir à magia em +5.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.390Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4576,10 +4576,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta máscara metálica Gaiola dos Arcanos. Este item é uma gaiola rústica amplifica os sentidos do caçador, facilitando de prata pequena e robusta, com um pequeno cristal o rastreio de sua presa. Você recebe +5 em testes de pulsante em seu interior.",
+      "descricao": "Esta máscara metálica rústica amplifica os sentidos do caçador, facilitando o rastreio de sua presa. Você recebe +5 em testes de Investigação para procurar e em testes de Sobrevivência para rastrear. Você também recebe a habilidade Marca da Presa do caçador. Se já a possui, o custo para usá-la diminui em –1 PM (essa redução não conta para suas habilidades baseadas no total de PM gastos em Marca da Presa).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4613,10 +4613,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta lente emolabençoada por uma ou mais divindades malignas do durada em prata revela intenções e pensamentos Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch ocultos. Observando alguém em alcance curto através e outras que canalizam energia negativa. O custo de do monóculo, o usuário recebe uma leitura superficial suas habilidades mágicas que causam dano de trevas de sua mente, discernindo mentiras ou intenções diminui em –2 PM.",
+      "descricao": "Esta lente emoldurada em prata revela intenções e pensamentos ocultos. Observando alguém em alcance curto através do monóculo, o usuário recebe uma leitura superficial de sua mente, discernindo mentiras ou intenções escusas. Você recebe +10 em testes de Intuição para perceber mentiras.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4687,10 +4687,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Quando invoca o outras que canalizam energia positiva. Toda a área poder destas lentes, você pode lançar a magia Lendas em alcance curto da gema é considerada sob efeito da e Histórias. magia Consagrar.",
+      "descricao": "Quando invoca o poder destas lentes, você pode lançar a magia Lendas e Histórias.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.392Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4761,10 +4761,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Um pergaminho preto cena (em vez de sustentada). Contudo, o item tem que parece conter constelações em sua superfície. apenas uma utilização; quando o efeito termina, a Desenrolado, projeta um mapa celeste mágico que pérola adquire tom acinzentado, perdendo seu poder.",
+      "descricao": "Um pergaminho preto que parece conter constelações em sua superfície. Desenrolado, projeta um mapa celeste mágico que revela localizações ocultas, caminhos seguros ou perigos iminentes. Fornece +5 em testes de Sobrevivência para orientar-se e rastrear, e em testes de Percepção para evitar ser surpreendido por inimigos nos ermos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.392Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4983,10 +4983,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este saco buracos em armadilhas ou evita perigos complexos, de algodão cru parece conter uma brisa constante. mesmo que você ache as palavras “porta” ou “parede” Quando aberto, libera um vento silencioso que pode em algum lugar da descrição. Não abre buracos em ser usado para purificar ambientes, suavizar quedas ou nada exceto portas e paredes.",
+      "descricao": "Este saco de algodão cru parece conter uma brisa constante. Quando aberto, libera um vento silencioso que pode ser usado para purificar ambientes, suavizar quedas ou aliviar calor extremo. Você pode lançar Criar Elementos (apenas ar), Queda Suave e Suporte Ambiental (apenas contra calor). Se já puder lançar qualquer dessas magias, seu custo diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.394Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5020,10 +5020,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Estas sandálias leves por cena, você pode gastar uma ação completa para permitem andar sobre qualquer superfície, incluindo desenhar um monstro em um pergaminho ou outra água e neve. Você ignora terrenos difíceis, pode camisuperfície que aceite tinta. Faça um teste de Ofício nhar sobre líquidos (como o aprimoramento da magia (escriba) com CD 10.",
+      "descricao": "Estas sandálias leves permitem andar sobre qualquer superfície, incluindo água e neve. Você ignora terrenos difíceis, pode caminhar sobre líquidos (como o aprimoramento da magia Libertação) e recebe +5 em testes de Acrobacia para atrevessar terreno escorregadio e em testes Atletismo para escalar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.395Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5057,10 +5057,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Destinado no Ofício apropriado (mas talvez o monstro invocado a guerreiros que desenvolveram seu próprio Golpe seja um pouco… esquisito). Pessoal, este manual permite aprimorar ainda mais sua técnica. Estudar o tomo exige uma ação entre Pergaminho da Verdade Cósmica.",
+      "descricao": "Destinado a guerreiros que desenvolveram seu próprio Golpe Pessoal, este manual permite aprimorar ainda mais sua técnica. Estudar o tomo exige uma ação entre aventuras. Uma vez que você tenha feito isso, seu Golpe Pessoal recebe novos efeitos num total de até 2 PM, que não contam no limite para construí-lo e que não aumentam seu custo em PM. Quando sobe de nível e reconstrói seu golpe, você pode alterá-los. Se você possuir mais de um Golpe Pessoal, esse efeito se aplica apenas a um deles.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.395Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

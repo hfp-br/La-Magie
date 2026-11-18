@@ -832,10 +832,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este instrumento desenvolvido pelos Enquanto está voando, você fica vulnerável e em sábios sar-allan fornece a seu usuário a capacidade condição ruim para lançar magias (você ignora essas de fazer operações matemáticas complexas em pouco penalidades se for treinado em Pilotagem). tempo. Muito útil para determinar custos e margens de lucro!",
+      "descricao": "Este instrumento desenvolvido pelos sábios sar-allan fornece a seu usuário a capacidade de fazer operações matemáticas complexas em pouco tempo. Muito útil para determinar custos e margens de lucro! Para usar um ábaco você precisa ser treinado em Conhecimento. Se você fizer um teste de Ofício para sustento, recebe TO, em vez de T$. Além disso, se possuir Poder Monetário, o limite de TO que você pode gastar por dia aumenta em +2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -902,10 +902,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um conjunto de xícaras Bússola. Este avançadíssimo instrumento delicadas, pires e um bule. Qualquer um que se depare de navegação funciona por princípios simples, mas com um aparelho de chá fica automaticamente mais depende de materiais raros.",
+      "descricao": "Um conjunto de xícaras delicadas, pires e um bule. Qualquer um que se depare com um aparelho de chá fica automaticamente mais predisposto a conversar. Uma vez por cena, você recebe +1d4 em um teste de Diplomacia ou Enganação feito com alguém que esteja tomando chá com você.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.323Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -972,10 +972,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma armação Cinto de Utilidades. Um cinturão de couro para mochila é uma estrutura de metal amarrada cheio de bolsos e fivelas, com espaço para os vários aos ombros, tórax e cintura do usuário. A mochila equipamentos esquisitos de um inventor.",
+      "descricao": "Uma armação para mochila é uma estrutura de metal amarrada aos ombros, tórax e cintura do usuário. A mochila de aventureiro então é encaixada nessa estrutura, garantindo que o peso seja mais bem distribuído, diminuindo a fadiga. Com uma armação, uma mochila de aventureiro passa a aumentar sua capacidade de carga em 6 espaços (em vez de 2). Entretanto, a ação necessária para sacar seus itens aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1007,10 +1007,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Criada por uma serelepe outros bônus de itens e com outras condecorações, tribo de kobolds, este implemento deixou inúmeros igual a 3x o patamar em que a condecoração foi conengenhoqueiros goblins se perguntando: “Por que não quistada (por exemplo, 6 PV para uma condecoração pensei nisso antes? ”. Consiste em uma mochila vesti- obtida em patamar veterano).",
+      "descricao": "Criada por uma serelepe tribo de kobolds, este implemento deixou inúmeros engenhoqueiros goblins se perguntando: “Por que não pensei nisso antes?”. Consiste em uma mochila vestida às costas, da qual se projetam duas asas retráteis. Pedais, manivelas e roldanas permitem o “bater” das asas, sustentando um voo um tanto irregular, mas controlável. Para voar com as asas do texugo, é necessário gastar uma ação de movimento para estender as asas (quando não estão em uso, elas ficam dobradas dentro da “mochila”).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1042,10 +1042,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Coberta de fios de ouro, equivale a uma hora. Usada por nobres para manter gemas e outros ornamentos, esta bainha permite controle de seus compromissos e por alquimistas para que você use armas como parte de um traje da corte medir o tempo de certas reações. Quando escolhe 10 (Tormenta20, p.",
+      "descricao": "Coberta de fios de ouro, gemas e outros ornamentos, esta bainha permite que você use armas como parte de um traje da corte (Tormenta20, p. 159). Com isso você pode participar de bailes, festas e encontros da nobreza devidamente armado, sem chamar atenção.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.325Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1217,10 +1217,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este pergaminho Leque. Permite que damas e cavalheiros se com esquemas detalhados do corpo das principais abanem ou escondam a boca, para fofocar em paz. raças humanoides à primeira vista parece feito para Muitos usuários se abanam como uma verdadeira auxiliar curandeiros...",
+      "descricao": "Este pergaminho com esquemas detalhados do corpo das principais raças humanoides à primeira vista parece feito para auxiliar curandeiros... No entanto, basta um olhar mais atento para perceber que ele mostra as regiões mais vulneráveis desses corpos, além de explicar as melhores maneiras de atacá-las. Quando usa Ataque Furtivo, você recebe +1 na margem de ameaça.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1357,10 +1357,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este item não saca essa arma como uma ação livre e ela recebe a pode ser comprado nem fabricado, apenas conquis- qualidade surpreendente para esse ataque. tado por meio de interpretação — deve ser dado Mochila Discreta. Como uma mochila espontaneamente para que tenha efeito em regras.",
+      "descricao": "Este item não pode ser comprado nem fabricado, apenas conquistado por meio de interpretação — deve ser dado espontaneamente para que tenha efeito em regras. O favor da pessoa amada é uma mecha de cabelo, lenço perfumado, bilhete de amor, flor seca ou outro item pessoal (mas sem valor monetário) que alguém muito querido dá a um herói. Em geral, é mantido preso sob a armadura ou roupa, em contato com o corpo. Fornece +2 PM, cumulativo com bônus de outros itens. Se você e sua pessoa amada tiverem uma desavença ou decepcionarem um ao outro de alguma forma, este item para de funcionar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1392,10 +1392,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta lanterna sofisticada cheta é imediatamente identificado como uma figura funciona como um lampião, mas possui uma cobertura de autoridade — talvez um inspetor de alguma guilda, e pequenos espelhos que concentram a luz em um ou um enviado de um nobre. Você pode fazer testes de cone de 24m. Nobreza para etiqueta mesmo sem ser treinado.",
+      "descricao": "Esta lanterna sofisticada funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m. 230 Capítulo 3 Leque. Permite que damas e cavalheiros se abanem ou escondam a boca, para fofocar em paz. Muitos usuários se abanam como uma verdadeira mania, principalmente após ouvir algo ultrajante. Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1427,10 +1427,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Permite que damas e cavalheiros se com esquemas detalhados do corpo das principais abanem ou escondam a boca, para fofocar em paz. raças humanoides à primeira vista parece feito para Muitos usuários se abanam como uma verdadeira auxiliar curandeiros... No entanto, basta um olhar mania, principalmente após ouvir algo ultrajante.",
+      "descricao": "Permite que damas e cavalheiros se abanem ou escondam a boca, para fofocar em paz. Muitos usuários se abanam como uma verdadeira mania, principalmente após ouvir algo ultrajante. Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1672,10 +1672,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um estojo de madeira ou metal contendo Instrumentos Musicais cera, papéis e um anel ou carimbo com o símbolo Clarim Deheoni. Feito de um fino metal, este pessoal do usuário. Reduz em –1 PM o custo das clarim produz um som marcial, que muitos associam habilidades Autoridade Feudal e Favor e de outras a um chamado às armas.",
+      "descricao": "Um estojo de madeira ou metal contendo cera, papéis e um anel ou carimbo com o símbolo pessoal do usuário. Reduz em –1 PM o custo das habilidades Autoridade Feudal e Favor e de outras habilidades em que, a critério do mestre, seu símbolo pessoal tenha algum peso. Ferramentas Gerais Apito de Caça. Este pequeno apito fornece +1 em Adestramento e permite usar manejar animal com um parceiro não inteligente (Int –4 ou –5) como ação livre uma vez por rodada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.330Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1812,10 +1812,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um pedaço de tecido, geralmente pessoas odeia! Apenas um músico muito habilidoso retangular e com enfeites, com uma representação consegue transformar o lamento da gaita de foles em do brasão ou símbolo de uma família, senhor algo agradável. Ao usar Inspiração, faça um teste de feudal ou deus.",
+      "descricao": "Um pedaço de tecido, geralmente retangular e com enfeites, com uma representação do brasão ou símbolo de uma família, senhor feudal ou deus. Montado em uma estrutura de madeira reforçada com metal, precisa ser empunhado com uma mão. Se você estiver empunhando um estandarte, seus capangas recebem +1 na Defesa e em rolagens de dano.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.332Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1847,10 +1847,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Igual ao estandarte, mento suave, que produz um som pacífico e acalenmas feito para ser usado nas costas ou preso à sela tador. Bardos que usam liras costumam ser belos de uma montaria. Deixa as mãos livres.",
+      "descricao": "Igual ao estandarte, mas feito para ser usado nas costas ou preso à sela de uma montaria. Deixa as mãos livres. Contudo, se estiver preso às costas, impõe uma penalidade de armadura de –2 e, se estiver preso à montaria, conta como um item vestido dela (veja p. 238).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.333Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1917,10 +1917,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Feito de um fino metal, este pessoal do usuário. Reduz em –1 PM o custo das clarim produz um som marcial, que muitos associam habilidades Autoridade Feudal e Favor e de outras a um chamado às armas. Criaturas a sua escolha sob habilidades em que, a critério do mestre, seu símbolo efeito de sua Inspiração recebem um bônus adicional pessoal tenha algum peso.",
+      "descricao": "Feito de um fino metal, este clarim produz um som marcial, que muitos associam a um chamado às armas. Criaturas a sua escolha sob efeito de sua Inspiração recebem um bônus adicional de +1 em testes de resistência.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.333Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1952,10 +1952,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um instrumento peFerramentas culiar, com som misterioso, que gera uma atmosfera mística. Criaturas a sua escolha sob efeito de sua Gerais Inspiração recebem +2 na CD da primeira habilidade Apito de Caça. Este pequeno apito fornece mágica que usarem.",
+      "descricao": "Um instrumento peculiar, com som misterioso, que gera uma atmosfera mística. Criaturas a sua escolha sob efeito de sua Inspiração recebem +2 na CD da primeira habilidade mágica que usarem.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2022,10 +2022,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma flauta de Halak-Tûr, madeira com um espelho na ponta, dotada de meca- que produz um som característico, capaz de hipnotizar nismos que permitem controlar o ângulo do reflexo a certos animais. Concede +5 no teste de Atuação para partir da outra extremidade. Muito usado por médicos usar uma Música de bardo, mas apenas contra criaturas de campo que só podem contar consigo mesmos para reptilianas como cobras, nagahs, medusas, trogs e suturar seus ferimentos.",
+      "descricao": "Uma flauta de Halak-Tûr, que produz um som característico, capaz de hipnotizar certos animais. Concede +5 no teste de Atuação para usar uma Música de bardo, mas apenas contra criaturas reptilianas como cobras, nagahs, medusas, trogs e outras a critério do mestre.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2162,10 +2162,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um instrumento de um molde para cada escola de magias. Usar um mol- ritmos populares, que convida todos a se juntar ao seu de pré-fabricado diminui o tempo de fabricação de som. Você pode gastar uma ação de movimento, em uma engenhoca que simule uma magia da respectiva vez de uma ação padrão, para manter a concentração escola para três dias.",
+      "descricao": "Um instrumento de ritmos populares, que convida todos a se juntar ao seu som. Você pode gastar uma ação de movimento, em vez de uma ação padrão, para manter a concentração em uma Música de bardo que exija concentração. Arsenal dos Heróis 231 Tamborete Marcial. Menor que um tambor, este instrumento é tocado com um par de baquetas pequenas. Produz um som rápido e cadenciado. Criaturas a sua escolha sob efeito de sua Inspiração recebem +3m em deslocamento.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.335Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2197,10 +2197,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Menor que um tambor, Chapéu Emplumado. Popular entre capitães este instrumento é tocado com um par de baquetas piratas e duelistas fanfarrões, este enorme chapéu pequenas. Produz um som rápido e cadenciado.",
+      "descricao": "Menor que um tambor, este instrumento é tocado com um par de baquetas pequenas. Produz um som rápido e cadenciado. Criaturas a sua escolha sob efeito de sua Inspiração recebem +3m em deslocamento.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.336Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2302,10 +2302,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um avental grosso, feito de e gasta apenas metade do dinheiro (arredondado couro tratado alquimicamente. Um artesão protegido para cima) neles. dessa forma não precisa se preocupar com faíscas e Luva de Falcoaria.",
+      "descricao": "Um avental grosso, feito de couro tratado alquimicamente. Um artesão protegido dessa forma não precisa se preocupar com faíscas e pequenas gotas de metal derretido respingando sobre seu peito. Evitando ferimentos sérios, pode se arriscar mais ao trabalhar. Se estiver usando um avental de forja, você pode perder 1d6 PV para receber +1 em um teste de Ofício (cumulativo com outros itens).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.337Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2337,10 +2337,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta roupa de dormir pode não como os ímãs funcionam — mas muitos sabem que ser muito elegante, mas com certeza é confortável! eles podem atrair certos metais. Esta luva tem peFeita de tecido macio (de preferência listrado), aberta quenos ímãs nas pontas dos dedos, sendo útil para o bastante para ser fresca no calor, aconchegante o surrupiar objetos ferrosos sem chamar a atenção.",
+      "descricao": "Esta roupa de dormir pode não ser muito elegante, mas com certeza é confortável! Feita de tecido macio (de preferência listrado), aberta o bastante para ser fresca no calor, aconchegante o suficiente para aquecer no frio, proporciona uma boa noite de sono a qualquer um. Inclui gorro com pompom (um acessório indispensável). Dormir com um camisolão e nenhum outro item vestido transforma condições de descanso confortáveis em luxuosas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.337Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2582,10 +2582,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta luva recobre o antepequenas gotas de metal derretido respingando sobre braço do usuário, permitindo que uma ave de rapina seu peito. Evitando ferimentos sérios, pode se arriscar pouse sobre ele sem machucá-lo com suas garras. mais ao trabalhar.",
+      "descricao": "Esta luva recobre o antebraço do usuário, permitindo que uma ave de rapina pouse sobre ele sem machucá-lo com suas garras. Concede +2 em testes de Adestramento com pássaros e criaturas semelhantes (a critério do mestre).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.339Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2617,10 +2617,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Poucos em Arton sabem Camisolão. Esta roupa de dormir pode não como os ímãs funcionam — mas muitos sabem que ser muito elegante, mas com certeza é confortável! eles podem atrair certos metais.",
+      "descricao": "Poucos em Arton sabem como os ímãs funcionam — mas muitos sabem que eles podem atrair certos metais. Esta luva tem pequenos ímãs nas pontas dos dedos, sendo útil para surrupiar objetos ferrosos sem chamar a atenção. A vítima de um teste de Ladinagem para punga sofre uma penalidade de –5 no teste de Percepção para notar que foi vítima disso.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.339Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2757,10 +2757,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma chapa metálica uma aparência de descontração, autoconfiança e que recobre o rosto, com um visor protegido por uma requinte. Você recebe +5 em testes de Diplomacia lente grossa e escurecida. A máscara garante maior dentro de uma de suas estruturas (como sua base, segurança para os olhos e o rosto de um artesão, negócio ou domínio) — é preciso estar em casa para permitindo que ele chegue bem perto do item no que este item tenha efeito.",
+      "descricao": "Uma chapa metálica que recobre o rosto, com um visor protegido por uma lente grossa e escurecida. A máscara garante maior segurança para os olhos e o rosto de um artesão, permitindo que ele chegue bem perto do item no qual está trabalhando e examine os mínimos detalhes. Quando faz um teste de Ofício, você pode fazer um teste de Percepção para ajudar a si mesmo e aplicar o bônus a esse teste.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2827,10 +2827,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta proteção para Sapatos Confortáveis. Calçados apropriados os olhos é indispensável para baloeiros e aeronautas para uso em jornadas longas, preservando os pés do em geral. Fornece +1 em Pilotagem (cumulativo com usuário.",
+      "descricao": "Esta proteção para os olhos é indispensável para baloeiros e aeronautas em geral. Fornece +1 em Pilotagem (cumulativo com outros bônus de itens). Certas pessoas que não são aeronautas gostam de usar estes óculos apenas por estilo... o que pode provocar a fúria de alguns! Segundo a decisão do mestre, personagens que valorizem muito a profissão de aeronauta ou que estejam fartos de ver estes óculos como um mero acessório estético têm sua atitude piorada em uma categoria em relação a usuários que não sejam aeronautas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2967,10 +2967,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este traje de veludo é um teste de Diplomacia ou Enganação. refinado e casual ao mesmo tempo, dando ao usuário Máscara de Soldador. Uma chapa metálica uma aparência de descontração, autoconfiança e que recobre o rosto, com um visor protegido por uma requinte.",
+      "descricao": "Este traje de veludo é refinado e casual ao mesmo tempo, dando ao usuário uma aparência de descontração, autoconfiança e requinte. Você recebe +5 em testes de Diplomacia dentro de uma de suas estruturas (como sua base, negócio ou domínio) — é preciso estar em casa para que este item tenha efeito. Contudo, o roupão exige um ar relaxado: você não recebe seu benefício se estiver vestindo um item que forneça algum bônus em perícias baseadas em Força, Destreza ou Constituição, ou uma armadura.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.342Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3037,10 +3037,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Calçados apropriados os olhos é indispensável para baloeiros e aeronautas para uso em jornadas longas, preservando os pés do em geral. Fornece +1 em Pilotagem (cumulativo com usuário. Se estiver vestindo sapatos confortáveis, você outros bônus de itens).",
+      "descricao": "Calçados apropriados para uso em jornadas longas, preservando os pés do usuário. Se estiver vestindo sapatos confortáveis, você ignora o primeiro teste de Fortitude para marcha forçada (Tormenta20, p. 270). A critério do mestre, esse benefício pode se aplicar em outros testes de Fortitude para situações semelhantes.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3072,10 +3072,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Para alguns, a eleestes óculos como um mero acessório estético têm gância vem antes do conforto, e a prova são estes sua atitude piorada em uma categoria em relação a verdadeiros instrumentos de tortura em nome da usuários que não sejam aeronautas. moda. Com estes sapatos, seu deslocamento é reduziPalmar.",
+      "descricao": "Para alguns, a elegância vem antes do conforto, e a prova são estes verdadeiros instrumentos de tortura em nome da moda. Com estes sapatos, seu deslocamento é reduzido em –1,5m e você falha automaticamente em testes de Fortitude para marcha forçada. Em compensação, uma vez por cena você pode escolher uma criatura e caminhar na frente dela (uma ação completa). Se fizer isso, você pode usar o poder Atraente pelo restante da cena contra essa criatura (se já tiver esse poder, em vez disso o bônus que ele fornece contra essa criatura aumenta para +5).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3212,10 +3212,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este frasco de tigres-de-Hyninn, esta presa concede uma parte da vidro é ligado a tubos de metal e estranhos mecacapacidade ilusória dessas criaturas. Você recebe 25% nismos em forma de antena. Comporta três doses de de chance de ignorar ataques e efeitos (incluindo de essência de mana (ou outros preparados alquímicos área) por 1 rodada.",
+      "descricao": "Este frasco de vidro é ligado a tubos de metal e estranhos mecanismos em forma de antena. Comporta três doses de essência de mana (ou outros preparados alquímicos que forneçam PM). Quando ativa a engenhoca, você pode gastar um preparado alquímico que forneça PM e usar os PM fornecidos para pagar seu custo de aprimoramentos e para sustentá-la (caso se aplique).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.352Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3247,10 +3247,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este aparato envolsangrando e a CD para remover essa condição aumenta em ve dezenas de engrenagens e pistões que funcionam +5 (fica sangrando). sob a instrução de cartões perfurados, agindo por si Fumaça Onírica. Este gás de cores variadas só segundo um padrão programado.",
+      "descricao": "Este aparato envolve dezenas de engrenagens e pistões que funcionam sob a instrução de cartões perfurados, agindo por si só segundo um padrão programado. Acoplado a uma engenhoca que simula uma magia com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Você só pode ter uma engenhoca sustentada adicional dessa forma por vez. Pré-requisito: conversor-alimentador.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.352Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3352,10 +3352,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um mecanisativação) de cada uma das engenhocas às quais estiver mo de aparência agressiva, com engrenagens baruacoplado. Acoplar ou remover um aparato exige 1 lhentas que giram de forma independente. Aumenta hora de trabalho.",
+      "descricao": "Um mecanismo de aparência agressiva, com engrenagens barulhentas que giram de forma independente. Aumenta o dano provocado pela engenhoca em +1 dado. Funciona apenas em engenhocas que causam dano.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.353Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3492,10 +3492,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este Pratos Especiais aparato é na verdade uma modificação total da Baga Celeste Cozida. Encontradas originalengenhoca: uma série de molas, hastes e fios que mente nas encostas invertidas de Vectora, estas bagas se permite que a engenhoca seja “desmontada” e unida espalharam por toda Arton. Preparadas adequadamente, a um item de vestuário.",
+      "descricao": "Este aparato é na verdade uma modificação total da engenhoca: uma série de molas, hastes e fios que permite que a engenhoca seja “desmontada” e unida a um item de vestuário. A engenhoca não ocupa nenhum espaço e, enquanto o item estiver vestido, conta como se também estivesse vestida (sem contar no limite de itens vestidos). Contudo, ela modifica drasticamente o item de vestuário. Qualquer um que o veja pode notar que há uma engenhoca mesclada ao item. Você só pode ter uma engenhoca vestida desta forma por vez.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.355Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

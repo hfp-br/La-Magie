@@ -2667,10 +2667,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Como ácido, mas o alvo Pó de Cinza. Este pó mineral serve como sofre 4d8 pontos de dano de ácido e fica vulnerável lubrificante para mecanismos. Gastar uma dose de pó até o fim da cena (Reflexos CD Des reduz à metade de cinza fornece +5 em um teste de Ladinagem para e evita a condição).",
+      "descricao": "Como ácido, mas o alvo sofre 4d8 pontos de dano de ácido e fica vulnerável até o fim da cena (Reflexos CD Des reduz à metade e evita a condição).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.345Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2702,10 +2702,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Mais barato e menos eficiente fornecido por outros itens). que cura verdadeira, um analgésico apenas mascara Pó do Aparecimento. Um item favorito de os sintomas dos ferimentos, permitindo que um aventureiros que se deparam com muitos inimigos personagem continue lutando por pura força de invisíveis.",
+      "descricao": "Mais barato e menos eficiente que cura verdadeira, um analgésico apenas mascara os sintomas dos ferimentos, permitindo que um personagem continue lutando por pura força de vontade. Usar um analgésico é uma ação padrão. Ao usá-lo, role 2d4. Esse é o máximo de pontos de mana que você poderá gastar com essa dose do analgésico. Até o fim da cena, ou até atingir esse máximo de PM, sempre que sofrer dano você pode gastar 1 PM para reduzir esse dano em 5.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.345Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2772,10 +2772,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um frasco de vidro Catalisadores contendo um líquido congelante. Para usar o extrato, Cristal Reflexivo. Um fragmento de um você gasta uma ação padrão e escolhe uma criatura material refletor como espelho, que duplica as proem alcance curto.",
+      "descricao": "Um frasco de vidro contendo um líquido congelante. Para usar o extrato, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita a condição). 234 Capítulo 3 Extrato de Oxxdon. Este frasco de vidro contém um extrato da substância secretada pelo oxxdon, capaz de arruinar objetos metálicos. Para usá-lo, você deve gastar uma ação padrão e arremessá-lo em um quadrado de 1,5m em alcance curto.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.346Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2877,10 +2877,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este pó mineral serve como sofre 4d8 pontos de dano de ácido e fica vulnerável lubrificante para mecanismos. Gastar uma dose de pó até o fim da cena (Reflexos CD Des reduz à metade de cinza fornece +5 em um teste de Ladinagem para e evita a condição). abrir fechaduras ou sabotar (cumulativo com o bônus Analgésico.",
+      "descricao": "Este pó mineral serve como lubrificante para mecanismos. Gastar uma dose de pó de cinza fornece +5 em um teste de Ladinagem para abrir fechaduras ou sabotar (cumulativo com o bônus fornecido por outros itens).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.347Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2912,10 +2912,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um item favorito de os sintomas dos ferimentos, permitindo que um aventureiros que se deparam com muitos inimigos personagem continue lutando por pura força de invisíveis. Um frasco contendo um pó de alguma cor vontade. Usar um analgésico é uma ação padrão.",
+      "descricao": "Um item favorito de aventureiros que se deparam com muitos inimigos invisíveis. Um frasco contendo um pó de alguma cor berrante bastante grudento. Para usá-lo, você gasta uma ação padrão e escolhe um ponto em alcance curto. Criaturas invisíveis a até 3m desse ponto deixam de estar invisíveis e passam a ter apenas camuflagem leve. Remover o pó do aparecimento demora 1 minuto.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.348Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2982,10 +2982,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um fragmento de um você gasta uma ação padrão e escolhe uma criatura material refletor como espelho, que duplica as proem alcance curto. Essa criatura sofre 2d12 pontos de priedades divinatórias de certas magias. Quando lança dano de frio e fica lenta por 1 rodada (Reflexos CD uma magia de adivinhação, você recebe +1 na Defesa Des reduz à metade e evita a condição).",
+      "descricao": "Um fragmento de um material refletor como espelho, que duplica as propriedades divinatórias de certas magias. Quando lança uma magia de adivinhação, você recebe +1 na Defesa pela duração da magia.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.348Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3017,10 +3017,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma pasta fabricada a captar a luz mundana do ambiente, mas também a partir de ectoplasma encontrado em locais de aparições energia positiva presente nela. Toda cura de luz fornecida fantasmagóricas. A magia ignora 5 pontos da RD de pela engenhoca aumenta em +1 por dado.",
+      "descricao": "Uma pasta fabricada a partir de ectoplasma encontrado em locais de aparições fantasmagóricas. A magia ignora 5 pontos da RD de todas as criaturas afetadas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.349Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3087,10 +3087,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Extraída dos temíveis Conversor-Alimentador. Este frasco de tigres-de-Hyninn, esta presa concede uma parte da vidro é ligado a tubos de metal e estranhos mecacapacidade ilusória dessas criaturas. Você recebe 25% nismos em forma de antena.",
+      "descricao": "Extraída dos temíveis tigres-de-Hyninn, esta presa concede uma parte da capacidade ilusória dessas criaturas. Você recebe 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada. Venenos Bolor Hemorrágico. Esta pasta marrom reduz a capacidade de cicatrização. Contato, vítima fica sangrando e a CD para remover essa condição aumenta em +5 (fica sangrando).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3122,10 +3122,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta pasta marrom aprimoramentos e para sustentá-la (caso se aplique). reduz a capacidade de cicatrização. Contato, vítima fica Engenho de Automação.",
+      "descricao": "Esta pasta marrom reduz a capacidade de cicatrização. Contato, vítima fica sangrando e a CD para remover essa condição aumenta em +5 (fica sangrando).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3157,10 +3157,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este gás de cores variadas só segundo um padrão programado. Acoplado a uma afeta a mente, fazendo a vítima experimentar ilusões engenhoca que simula uma magia com duração susencantadoras. Inalação, vítima fica fascinada por 3 rodadas, tentada, permite que ela não conte no limite de magias apenas uma vez por cena (ofuscada por 1 rodada).",
+      "descricao": "Este gás de cores variadas afeta a mente, fazendo a vítima experimentar ilusões encantadoras. Inalação, vítima fica fascinada por 3 rodadas, apenas uma vez por cena (ofuscada por 1 rodada). Este veneno é resistido com Vontade.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.350Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3227,10 +3227,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Preparada a partir da seiva mesmas regras e custos para aplicar melhorias em de plantas impregnadas de energia negativa, esta itens convencionais. De forma geral, se uma melhoria substância causa ferimentos que não cicatrizam afeta uma característica da magia simulada pela ennaturalmente. Ferimento, perde 2d6 PV por rodada durante genhoca, ela pode ser aplicada (uma engenhoca que 3 rodadas (perde 2d6 PV).",
+      "descricao": "Preparada a partir da seiva de plantas impregnadas de energia negativa, esta substância causa ferimentos que não cicatrizam naturalmente. Ferimento, perde 2d6 PV por rodada durante 3 rodadas (perde 2d6 PV). Pontos de vida perdidos por seiva necrótica só podem ser recuperados com efeitos mágicos de luz. Aparatos Aparatos são itens utilizados por inventores para modificar o funcionamento de suas engenhocas. Um aparato é acoplado a uma engenhoca e, enquanto estiver acoplado, não ocupa espaços. Cada engenhoca pode ter até dois aparatos diferentes.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.351Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3262,10 +3262,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Encontradas originalengenhoca: uma série de molas, hastes e fios que mente nas encostas invertidas de Vectora, estas bagas se permite que a engenhoca seja “desmontada” e unida espalharam por toda Arton. Preparadas adequadamente, a um item de vestuário. A engenhoca não ocupa fornecem qualidades místicas de flutuação.",
+      "descricao": "Encontradas originalmente nas encostas invertidas de Vectora, estas bagas se espalharam por toda Arton. Preparadas adequadamente, fornecem qualidades místicas de flutuação. Todo dano de queda que você sofre é reduzido em −1d6.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3332,10 +3332,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "A origem da receita original deste prato se perdeu, mas sua essência Sequenciador de Ativação. Este meca- se manteve inalterada. Consiste em um manjar nismo complexo, cheio de partes móveis, alavancas com ingredientes cultivados em terras próximas e engrenagens, é acoplado simultaneamente a três de cemitérios, que protege o corpo contra energias engenhocas.",
+      "descricao": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer. Bebidas Baba de Troll. Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3367,10 +3367,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma bebida sem álcool, à base para ativar o sequenciador. Você faz os testes de Ofício de leite, castanhas, nozes e mel. Fornece +1d4 em um (engenhoqueiro) normalmente para cada engenhoca.",
+      "descricao": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.357Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3472,10 +3472,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Destilado de Mortenstenn, antigo rei- Eu Bebo Sim no de Lamnor, feito com um cereal que só cresce no Fabricar uma bebida exige um teste continente sul. A receita se perdeu após as invasões de Ofício (cozinheiro) com CD 20 e duyshidakk e poucos barris chegaram ao Reinado, o que segue as regras normais de fabricação explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1.",
+      "descricao": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.358Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3542,10 +3542,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma variação do grogue negro, com calma! Benefícios de bebida com especiarias picantes que fazem a bebida adquirir duram 1 dia e se acumulam com outros uma coloração avermelhada — e quem a bebe, certa benefícios de alimentação (incluindo de inclinação para a violência. Você pode usar Audácia bebidas diferentes).",
+      "descricao": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3577,10 +3577,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Fabricada nas montanhas deve fazer um teste de Fortitude (CD geladas, esta bebida aquece e incita. Fornece +2 em indicada no item; cada dose adicional rolagens de dano corpo a corpo. CD 20.",
+      "descricao": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3612,10 +3612,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "De aparência enevoada, esta Se falhar, fica embriagado (–2 em testes bebida tem gosto adocicado, difícil de descrever. Dizem baseados em Destreza e Carisma). que é feito na Pondsmânia e trazido para o resto do Se já estava embriagado, fica bebum Reinado com muita dificuldade.",
+      "descricao": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.359Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3647,10 +3647,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta bebida doce deixa por bebidas também anulam seus qualquer um mais falante, fornecendo +2 em testes de benefícios, pois eles andam lado a lado. perícias originalmente baseadas em Carisma. CD 15.",
+      "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -3682,10 +3682,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Batizado em homenagem ao de dano ou bônus em perícias sociais ao antigo Rei-Imperador Thormy — dizem que era o fa- beber por estar levemente embriagado! vorito do monarca. Fornece 3 PM temporários.",
+      "descricao": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,

@@ -53,10 +53,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta réplica de flauta de metal (como golens) ficam fatigadas, mesmo que é esculpida em um único pedaço de cristal. Quando sejam imunes a essa condição. Em ambos os casos, lança uma magia que conjura capangas, você conjura um teste de Fortitude (CD Des) para cada item ou um capanga adicional do mesmo tipo.",
+      "descricao": "Esta réplica de flauta é esculpida em um único pedaço de cristal. Quando lança uma magia que conjura capangas, você conjura um capanga adicional do mesmo tipo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.344Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -232,10 +232,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este relógio de bolso Autoritário. O vestuário tem ornamentos com corpo de prata possui símbolos arcanos no lugar volumosos no peitoral e nas ombreiras, tornando sua de números em seu mostrador, e permite manipular o figura mais imponente. Fornece +2 em Intimidação tempo necessário para lançar magias arcanas.",
+      "descricao": "Este relógio de bolso com corpo de prata possui símbolos arcanos no lugar de números em seu mostrador, e permite manipular o tempo necessário para lançar magias arcanas. Quando lança uma magia arcana com execução de movimento, padrão ou completa, você pode gastar +4 PM para lançá-la como uma ação livre. Se você possuir o poder Magia Acelerada, em vez disso o custo para usá-lo diminui em –2 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

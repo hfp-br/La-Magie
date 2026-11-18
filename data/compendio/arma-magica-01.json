@@ -96,10 +96,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Um arco longo formidável em alcance curto. que muda de cor conforme o sol se põe. Quando ataca Espada do Guardião.",
+      "descricao": "Um arco longo formidável que muda de cor conforme o sol se põe. Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o alvo fica ofuscado por 1d4 rodadas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.365Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -281,10 +281,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Uma espada longa defensocom esta arma, você pode gastar 1 PM. Se fizer isso e ra formidável com um cabo robusto e inscrições rúnicas acertar o ataque, o alvo fica ofuscado por 1d4 rodadas. protetoras.",
+      "descricao": "Uma espada longa defensora formidável com um cabo robusto e inscrições rúnicas protetoras. Uma vez por rodada, você pode gastar 3 PM para criar uma barreira que fornece RD 10 a você e todos os aliados em um raio de 6m por 1 rodada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.366Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -318,10 +318,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta espada bastarda magnífica a RD do alvo. emite uma luz dourada que aquece o entorno. Você Besta Estelar.",
+      "descricao": "Esta espada bastarda magnífica emite uma luz dourada que aquece o entorno. Você pode gastar 3 PM para fazer a espada emitir um clarão que cega todos os inimigos em alcance curto por 1 rodada (Ref CD For ou Des evita). Arsenal dos Heróis 257 Florete do Vendaval. Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe +5 na Defesa contra ataques à distância.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.367Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -503,10 +503,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este machado de guerra Densa. A armadura gera uma aura de peso e maciço flamejante formidável tem textura vítrea, com mag- lentidão. Isso reduz o deslocamento de inimigos em ma rodopiando em seu interior.",
+      "descricao": "Este machado de guerra maciço flamejante formidável tem textura vítrea, com magma rodopiando em seu interior. Você pode gastar uma ação de movimento e 3 PM para causar uma detonação vulcânica em um quadrado de 3m em alcance médio. Criaturas nessa área sofrem 3d10 pontos de dano de fogo (Ref CD For ou Des reduz à metade). Densa. A armadura gera uma aura de peso e lentidão. Isso reduz o deslocamento de inimigos em alcance curto em –3m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

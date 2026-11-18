@@ -528,10 +528,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este escudo grande e retangular Colete Fora da Lei. Diz-se que este colete é feito de madeira e reforçado com aço e couro. É preso metálico único foi desenvolvido por uma quadrilha ao antebraço como um escudo pesado mas, devido de Smokestone — um bando com muita criatividade a seu tamanho, não pode ser usado para atacar, ou e pouco caráter.",
+      "descricao": "Este escudo grande e retangular é feito de madeira e reforçado com aço e couro. É preso ao antebraço como um escudo pesado mas, devido a seu tamanho, não pode ser usado para atacar, ou por um personagem montado. Você pode gastar uma ação de movimento para tirar o escudo e fixá-lo chão, transformando-o em uma barreira que pode fornecer cobertura leve (conforme o normal para cobertura; veja Tormenta20, p. 239). Recolocar o escudo, desafixando-o do chão, também é uma ação de movimento.",
       "properties": "Defesa +2; Penalidade -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [
         {
           "id": "escudo-torre-ac-2-na-defesa",

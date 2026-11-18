@@ -189,10 +189,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este pequeno navio tem um único (veja Ladinagem em Tormenta20, p. 120). Se uma dessas mastro, de vela quadrangular, e alguns remos para partes for desabilitada, o piloto sofre uma penalidade suplementar a força da vela.",
+      "descricao": "Este pequeno navio tem um único mastro, de vela quadrangular, e alguns remos para suplementar a força da vela. Pode navegar em rios e mar aberto. Além do piloto, requer 10 tripulantes para auxiliar na operação da vela. Uma barcaça tem tamanho Enorme, deslocamento de natação 6m, Defesa 10 (+ Des do piloto), 120 PV, RD 5 e pode carregar até 15 criaturas Médias ou 300 espaços.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -223,10 +223,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Algumas nações amazonas, por criaturas, a descrição indica quantas delas são além de montar em cavalos diretamente, equipam necessárias. Se a quantidade de criaturas presentes for suas guerreiras com este veículo. Uma biga de guerra menor que o indicado, o piloto sofre –2 em testes de é como uma pequena carroça de duas rodas blindada, Pilotagem.",
+      "descricao": "Algumas nações amazonas, além de montar em cavalos diretamente, equipam suas guerreiras com este veículo. Uma biga de guerra é como uma pequena carroça de duas rodas blindada, mas ainda assim leve e ágil, puxada por dois cavalos rápidos. O piloto fica de pé, com uma mão nas rédeas e a outra livre para empunhar armas. Se estiver conduzindo uma biga, você pode fazer investidas como se estivesse montado. Além disso, os tripulantes não sofrem penalidades em testes de ataque por atacar com armas de arremesso em uma biga em movimento.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "updatedAt": "2026-11-18T23:58:45.373Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
