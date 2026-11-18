@@ -31,7 +31,8 @@
     "data/compendio/dd-2014-embarcacoes-01.json",
     "data/compendio/dd-2014-comida-01.json",
     "data/compendio/servico-01.json",
-    "data/compendio/dd-2014-ferramentas-servicos-01.json"
+    "data/compendio/dd-2014-ferramentas-servicos-01.json",
+    "data/compendio/dd-2024-focos-servicos-01.json"
   ],
   "updatedAt": "2026-10-24T04:06:40.287Z"
 }
