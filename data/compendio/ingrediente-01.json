@@ -1148,6 +1148,300 @@
         "ingrediente",
         "comida"
       ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-carne-monstruosa",
+      "nome": "Carne monstruosa",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "A carne de qualquer monstro. O prato fornece +5 PV temporários para cada poder da distinção Mestre Cozinheiro que você possui. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-ervas-aromaticas",
+      "nome": "Ervas aromáticas",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "Ervas conhecidas por seu efeito calmante, que ajudam no foco. O prato fornece +1d4 em um teste de Misticismo, Ofício, Percepção ou Vontade realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-especiarias-picantes",
+      "nome": "Especiarias picantes",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "Tão ardidas que fazem bárbaros chorar; encontradas em planícies e terrenos urbanos. O prato fornece +1d4 em um teste de Acrobacia, Atletismo, Iniciativa ou Reflexos realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-nucleo-de-temperatura",
+      "nome": "Núcleo de temperatura",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "Minerais encontrados em terrenos de temperaturas extremas, que emitem frio ou calor capazes de amplificar as propriedades dos alimentos. Os bônus numéricos e em dados do prato aumentam em +1. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-raizes-curativas",
+      "nome": "Raízes curativas",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "Ervas encontradas em pântanos e subterrâneos. O prato fornece +1d4 em um teste de resistência. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-ingrediente-monstruoso-sal-azul",
+      "nome": "Sal azul",
+      "categoria": "ingrediente",
+      "subtipo": "ingrediente monstruoso",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 188,
+      "descricao": "Ingrediente misterioso encontrado em montanhas e terreno aquático, que armazena energias místicas. O prato fornece +1 PM temporário, +1 PM para cada outro poder da distinção que você possui. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+      "properties": "Espaços: 0.5; sem preço (coletado); exige o poder Tudo que Há de Bom",
+      "tags": [
+        "ingrediente",
+        "ingrediente monstruoso",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "ingrediente",
+        "comida"
+      ]
+    },
+    {
+      "peso": 0,
+      "sistema": "tormenta20",
+      "fonte": "Heróis de Arton",
+      "schemaVersion": 5,
+      "updatedAt": "2026-11-19T04:13:35.946Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": [],
+      "id": "t20-herois-item-geral-tomo-divino-de-deauvorimm",
+      "nome": "Tomo Divino de Deauvorimm",
+      "categoria": "item geral",
+      "subtipo": "livro",
+      "preco": {
+        "valor": 0,
+        "moeda": "T$"
+      },
+      "pagina": 187,
+      "descricao": "Livro de receitas do anão Deauvorimm, caçador e chef, responsável pelos primeiros experimentos com a culinária fantástica. É referência para todos os mestres cozinheiros, considerado místico, quase sagrado: nenhum mestre cozinheiro se separa de sua cópia nem a empresta. Ter uma cópia é exigência para entrar na distinção Mestre Cozinheiro; o candidato precisa consegui-la por outros meios (leilão clandestino, fundo de masmorra, roubando de um mestre cozinheiro desavisado...).",
+      "properties": "Sem preço de tabela (não é vendido normalmente); requisito de admissão do Mestre Cozinheiro",
+      "tags": [
+        "item geral",
+        "livro",
+        "mestre cozinheiro",
+        "culinaria avancada",
+        "tormenta20",
+        "herois de arton",
+        "comida"
+      ],
+      "categorias": [
+        "item geral",
+        "comida"
+      ]
     }
   ]
 }
