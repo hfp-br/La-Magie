@@ -921,10 +921,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "A carne de açougue mais comum no Reinado — ao contrário de outros animais, o porco é criado primariamente para o abate. 306 Capítulo 4 Pratos Especiais Assado de Carnes. Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+      "descricao": "A carne de açougue mais comum no Reinado — ao contrário de outros animais, o porco é criado primariamente para o abate. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
       "properties": "Espaços: 0.5",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

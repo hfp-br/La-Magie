@@ -2737,10 +2737,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este preparado, desenvolvido neste frasco se transforma em uma gosma corrosiva pelo famoso alquimista Jozhen Gury, gera uma onda instantaneamente em contato com o ar. Para usá-lo, de choque e um estouro muito alto (o tal “estalinho”) você gasta uma ação padrão e escolhe uma criatura quando detonado. Para usá-lo, você precisa empu- em alcance curto.",
+      "descricao": "Este preparado, desenvolvido pelo famoso alquimista Jozhen Gury, gera uma onda de choque e um estouro muito alto (o tal “estalinho”) quando detonado. Para usá-lo, você precisa empunhá-lo e gastar uma ação padrão para arremessá-lo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 4d6 pontos de dano de impacto e ficam surdas (Fortitude CD Des reduz à metade e evita a condição).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.346Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -2772,10 +2772,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um frasco de vidro contendo um líquido congelante. Para usar o extrato, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita a condição). 234 Capítulo 3 Extrato de Oxxdon. Este frasco de vidro contém um extrato da substância secretada pelo oxxdon, capaz de arruinar objetos metálicos. Para usá-lo, você deve gastar uma ação padrão e arremessá-lo em um quadrado de 1,5m em alcance curto.",
+      "descricao": "Um frasco de vidro contendo um líquido congelante. Para usar o extrato, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita a condição).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:58:45.373Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -6118,10 +6118,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e 308 Capítulo 4 disposto. Você recebe +1d4 de bônus em testes de perícias baseadas em Força, Destreza ou Constituição. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+      "descricao": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e.",
       "properties": "Benefício: +1d4 em testes de perícias físicas. Ingredientes: Avelã de Norba, farinha, ovo de monstro (T$ 91). Cozinhar: Ofício (cozinheiro) CD 30, faz comida para o grupo.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:27:41.481Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,

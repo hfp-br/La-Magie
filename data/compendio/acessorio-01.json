@@ -2763,10 +2763,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Possivelmente con- apaga. A chama mágica — na verdade um pequeno cebida por algum arcanista cansado de ser furtado elemental — atua como um parceiro vigilante e permite por punguistas, esta bolsa transforma sua abertura que você lance Controlar Fogo (se já puder lançar essa em uma bocarra de dentes atrozes, travando mandí- magia, seu custo diminui em –1 PM). bulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão.",
+      "descricao": "Possivelmente concebida por algum arcanista cansado de ser furtado por punguistas, esta bolsa transforma sua abertura em uma bocarra de dentes atrozes, travando mandíbulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão. Quando uma criatura faz um teste de Ladinagem para punga contra você, sofre 6d6 pontos de dano de corte e fica agarrada pela algibeira. Para se soltar, a criatura precisa gastar uma ação padrão e passar em um teste de Acrobacia (CD do item) — você pode liberar a criatura proferindo uma palavra de comando (uma ação livre).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2800,10 +2800,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta bolsa de couro permite lançar uma magia divina de até 4º círculo a parece normal à primeira vista, mas tem uma cone- sua escolha, sem custo em PM. Contudo, para cada xão planar com o Reino de Nimb. Você pode gastar utilização, você deve realizar uma penitência ou busca uma ação completa para enfiar sua mão na algibeira determinada pelo mestre.",
+      "descricao": "Esta bolsa de couro parece normal à primeira vista, mas tem uma conexão planar com o Reino de Nimb. Você pode gastar uma ação completa para enfiar sua mão na algibeira e procurar por um item mundano não superior que ocupe até 1 espaço. Role 1d20. Se rolar 6 ou mais, você encontra o item. Ele dura até se afastar a mais de 9m de você ou até você procurar outro item. Se rolar 5 ou menos, você sai de mãos vazias e a algibeira perde seus poderes por 1 dia. Se rolar 1 natural, a algibeira cria dentes, lhe dá uma mordida (causando 4d6 pontos de dano de corte) e desaparece em uma nuvem de purpurina!",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.374Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2985,10 +2985,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Um anel de ouro com uma pequena chama mágica viva que nunca se Algibeira Mordedora. Possivelmente con- apaga. A chama mágica — na verdade um pequeno cebida por algum arcanista cansado de ser furtado elemental — atua como um parceiro vigilante e permite por punguistas, esta bolsa transforma sua abertura que você lance Controlar Fogo (se já puder lançar essa em uma bocarra de dentes atrozes, travando mandí- magia, seu custo diminui em –1 PM).",
+      "descricao": "Um anel de ouro com uma pequena chama mágica viva que nunca se apaga. A chama mágica — na verdade um pequeno elemental — atua como um parceiro vigilante e permite que você lance Controlar Fogo (se já puder lançar essa magia, seu custo diminui em –1 PM).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.377Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3096,10 +3096,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este bastão de de 9m de você ou até você procurar outro item. Se madeira de carvalho é gravado com símbolos antigos e rolar 5 ou menos, você sai de mãos vazias e a algibei- irregulares que irradiam uma energia suave. Você pode ra perde seus poderes por 1 dia.",
+      "descricao": "Este bastão de madeira de carvalho é gravado com símbolos antigos e irregulares que irradiam uma energia suave. Você pode gastar uma ação padrão e 3 PM para gerar um pulso de energia tranquilizante em um raio de 9m. Outras criaturas nessa área devem fazer um teste de Vontade (CD Sab); aquelas que falharem largam quaisquer armas que estejam empunhando e ficam pasmas por 1 rodada (apenas uma vez por cena). Além disso, você pode lançar Guardião Divino. Se já puder lançar essa magia, seu custo diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3355,10 +3355,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta caixa de ma- gico reduz o peso do usuário, tornando-o mais ágil deira pequena e simples não aparenta nada especial, e permitindo saltos mais altos e movimentos mais sem adereços ou ornamentos. No entanto, quando é suaves. Você recebe +5 em Acrobacia e está sempre aberta, liberta ecos do passado: seus muitos comparti- sob o efeito básico de Queda Suave.",
+      "descricao": "Esta caixa de madeira pequena e simples não aparenta nada especial, sem adereços ou ornamentos. No entanto, quando é aberta, liberta ecos do passado: seus muitos compartimentos contêm partes de memórias antigas, diálogos e fatos históricos. Você pode gastar 3 PM para receber um bônus de +10 em um teste de perícia baseada em Inteligência que, a critério do mestre, se relacione a um evento passado.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.380Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3614,10 +3614,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este cinto de couro ver, ouvir e sentir tudo que o outro vê, ouve e sen- ajustável permite ao usuário acelerar seus movimentos te. Também podem sempre sentir em que direção e com arcos e bestas. Você recebe a habilidade Ataque distância o outro está.",
+      "descricao": "Este cinto de couro ajustável permite ao usuário acelerar seus movimentos com arcos e bestas. Você recebe a habilidade Ataque Extra (Tormenta20, p. 66), mas só pode usá-la com armas de disparo. Se já a possui, em vez disso o custo para usá-la com armas de disparo diminui em –1 PM.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3651,10 +3651,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este cinto máCaixa dos Ecos Perdidos. Esta caixa de ma- gico reduz o peso do usuário, tornando-o mais ágil deira pequena e simples não aparenta nada especial, e permitindo saltos mais altos e movimentos mais sem adereços ou ornamentos. No entanto, quando é suaves.",
+      "descricao": "Este cinto mágico reduz o peso do usuário, tornando-o mais ágil e permitindo saltos mais altos e movimentos mais suaves. Você recebe +5 em Acrobacia e está sempre sob o efeito básico de Queda Suave.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.382Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3762,10 +3762,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este colar ou das trevas. Sempre que você estiver sob camufla- rústico, feito com ossos e presas de monstros variados, gem leve por escuridão ou neblina, essa camuflagem invoca a fúria primeva de Megalokk. Você adquire a se torna total.",
+      "descricao": "Este colar rústico, feito com ossos e presas de monstros variados, invoca a fúria primeva de Megalokk. Você adquire a habilidade Fúria do bárbaro; caso já possua essa habilidade, seus bônus em testes de ataque e rolagens de dano aumentam em +1.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.383Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3984,10 +3984,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta tiara emoldurado em ferro e adornado com figuras de cefeita de galhos e folhas sempre verdes tem pequenas lestiais combatendo abissais. A imagem de qualquer flores que se abrem ao toque. Ao vesti-la, você é con- criatura ou objeto refletida no espelho revela sua forma siderado sob efeito da magia Voz Divina e pode lançar verdadeira, como a magia Visão da Verdade — sendo Acalmar Animal e Controlar Plantas (CD Sab; se já puder assim um item muitas vezes encontrado em locais lançar uma dessas magias, pode lançá-la como uma de alta segurança.",
+      "descricao": "Esta tiara feita de galhos e folhas sempre verdes tem pequenas flores que se abrem ao toque. Ao vesti-la, você é considerado sob efeito da magia Voz Divina e pode lançar Acalmar Animal e Controlar Plantas (CD Sab; se já puder lançar uma dessas magias, pode lançá-la como uma ação de movimento).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.386Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4021,10 +4021,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não 266 Capítulo 3 podem mais ser afetados — talvez explicando algumas prisões ou banimentos sem motivo aparente...",
+      "descricao": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:58:45.373Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4539,10 +4539,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta máscara de marfim anões, é amplamente utilizada pelos maiores chefs de ornada com linhas em vermelho vivo é muitas vezes Doherimm. É um instrumento de Ofício (cozinhei- vista em representações recentes de Hyninn. Usando-a, ro) que fornece +5 nessa perícia.",
+      "descricao": "Esta máscara de marfim ornada com linhas em vermelho vivo é muitas vezes vista em representações recentes de Hyninn. Usando-a, você parece estar em vários lugares, e em nenhum. Você pode lançar Imagem Espelhada (se já puder lançar essa magia, pode lançá-la como uma ação de movimento e seu custo diminui em –1 PM).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.390Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4835,10 +4835,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta pena, que brilha em (apenas ar), Queda Suave e Suporte Ambiental (apenas tom roxo escuro, pertencia a um malafex — tipo de contra calor). Se já puder lançar qualquer dessas macorvo mágico sagrado de Nimb. Conta como instru- gias, seu custo diminui em –1 PM.",
+      "descricao": "Esta pena, que brilha em tom roxo escuro, pertencia a um malafex — tipo de corvo mágico sagrado de Nimb. Conta como instrumentos de Ofício (escriba) aprimorado. Uma vez por cena, você pode gastar uma ação completa para desenhar um monstro em um pergaminho ou outra superfície que aceite tinta. Faça um teste de Ofício (escriba) com CD 10. Se passar, você lança o efeito básico de Conjurar Monstro sem gastar PM. Para cada 5 pontos pelos quais o resultado do teste exceder a CD, você recebe +1 PM para gastar em aprimoramentos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

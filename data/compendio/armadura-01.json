@@ -1128,10 +1128,10 @@
         "tormenta rpg - modulo basico",
         "protecao"
       ],
-      "descricao": "É a armadura mo, Furtividade e Ladinagem. Penalidades de armaduras e escudos tradicional do samurai, embora também exista em versões nativas se acumulam. do Reinado. Efeitos: +2 na CA enquanto estiver usando. CA +2; Bônus máximo de Destreza: +6; Penalidade de armadura: 0",
+      "descricao": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar mais rígido, enquanto as demais partes são feitas de couro flexível.",
       "properties": "CA +2; Bônus máximo de Destreza: +6; Penalidade de armadura: 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-corselete-de-couro-ca",

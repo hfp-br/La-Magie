@@ -429,10 +429,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este machado de ba- deslocamento de escalada 12m com duração sustentada. talha preciso formidável tem aparência rústica, coberto Anulador. Uma vez por rodada, quando é alvo por musgos e vinhas.",
+      "descricao": "Este machado de batalha preciso formidável tem aparência rústica, coberto por musgos e vinhas. Sempre que você faz um acerto crítico com ele, recupera 1d12+1 PV. Encantos para Armaduras & Escudos Abissal. O item possui gravuras de demônios e tentáculos. Você recebe redução de ácido e fogo 10 e, uma vez por rodada, pode gastar 1 PM para causar 2d6 pontos de dano de ácido ou fogo a uma criatura adjacente. Ancorada. Esta armadura permite que você se fixe em superfícies.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -540,10 +540,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este martelo de guerra cra- à distância aumenta em +5. Além disso, uma vez por vejado de gemas formidável de adamante é adornado com cena, quando sofre dano de um ataque à distância, cristais brilhantes e gravuras de montanhas. Você pode você pode gastar 3 PM para ignorar esse dano.",
+      "descricao": "Este martelo de guerra cravejado de gemas formidável de adamante é adornado com cristais brilhantes e gravuras de montanhas. Você pode gastar uma ação de movimento e 3 PM para invocar uma rachadura no solo, que percorre uma linha de 18m. Criaturas nessa área são tragadas pela rachadura (Ref CD For ou Des evita). Uma criatura tragada fica caída e vulnerável até sair da rachadura, o que requer uma ação completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.369Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -614,10 +614,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Uma adaga for- duração sustentada que estende essa proteção para midável curva feita de um material escuro e úmido, todos os aliados em alcance curto. com cheiro de sal. Quando ataca com este punhal, Estígio.",
+      "descricao": "Uma adaga formidável curva feita de um material escuro e úmido, com cheiro de sal. Quando ataca com este punhal, você pode gastar 2 PM para causar +3d6 pontos de dano de ácido. 258 Armaduras & Escudos Mágicos Capítulo 3 Astuto. Você recebe +5 em Intuição e Percepção. Uma vez por rodada, pode gastar 3 PM para detectar automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto. Égide. O bônus na Defesa do item contra ataques à distância aumenta em +5.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.369Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

@@ -125,7 +125,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por nezumi, bakemono e outras criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero. Besta Pesada: versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão. Usar esta besta também exige as duas mãos. 144 Bo: um cajado apreciado por viajantes e camponeses por sua praticidade e preço — assim como uma clava, seu custo é zero. O bordão é uma arma dupla.",
+      "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por nezumi, bakemono e outras criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero.",
       "properties": "Dano 1d6, crítico x2, tipo esmagamento",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -160,7 +160,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Um bastão metálico com um peso cheio de protuberâncias na extremidade. A versão tamuraniana desta arma é mais alongada, com fileiras de rebites ou cravos. Tridente Picareta Tonfa Lajatang Neko-te Tacape Tetsubo Bo Kra'Tann Yari Naginata 146 ~ ^ capitulo tres Kakko'Dai Leque Kusari-gama Nunchaku Mangual Corrente Sansetsukon Chicote Machadinha: ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada. Machado de Batalha: diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Pouco usado em Tamu-ra, exceto pelos nezumi.",
+      "descricao": "Um bastão metálico com um peso cheio de protuberâncias na extremidade. A versão tamuraniana desta arma é mais alongada, com fileiras de rebites ou cravos. Tridente Picareta Tonfa Lajatang Neko-te Tacape Tetsubo Bo Kra'Tann Yari Naginata 146 ~ ^ capitulo tres Kakko'Dai Leque Kusari-gama Nunchaku Mangual Corrente Sansetsukon Chicote Machadinha: ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada.",
       "properties": "Dano 1d8, crítico x2, tipo esmagamento",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -508,7 +508,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Este escudo de madeira ou bambu é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma. Escudo Pesado: este grande escudo de aço é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+      "descricao": "Este escudo de madeira ou bambu é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma.",
       "properties": "Dano 1d4, crítico x2, tipo esmagamento",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -578,7 +578,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Ou jutte, é semelhante à sai; um bastão curto de metal com uma pequena haste, próprio para aparar espadas. Concede +4 em para desarmar ou separar. Em Tamu-ra, é também um símbolo para o cargo de magistrado; exceto para estes oficiais do Império, usar o jitte é uma violação de honra severa. Kakko’Dai: irônico que os pequenos e ágeis nezumi tenham criado uma arma tão imensa e desajeitada.",
+      "descricao": "Ou jutte, é semelhante à sai; um bastão curto de metal com uma pequena haste, próprio para aparar espadas. Concede +4 em para desarmar ou separar. Em Tamu-ra, é também um símbolo para o cargo de magistrado; exceto para estes oficiais do Império, usar o jitte é uma violação de honra severa.",
       "properties": "Dano 1d4, crítico x2, tipo esmagamento",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -613,7 +613,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada. Machado de Batalha: diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Pouco usado em Tamu-ra, exceto pelos nezumi.",
+      "descricao": "Ferramenta útil para cortar madeira, e também inimigos. Uma machadinha pode ser arremessada.",
       "properties": "Dano 1d6, crítico x3, distância 3m, tipo corte",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -893,7 +893,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Espada com a lâmina curva, leve e muito afiada. O talento Acuidade com Arma se aplica à cimitarra. Besta Leve: um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos.",
+      "descricao": "Espada com a lâmina curva, leve e muito afiada. O talento Acuidade com Arma se aplica à cimitarra.",
       "properties": "Dano 1d6, crítico 18, tipo corte",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -1348,7 +1348,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "O gunsen ou tessen é um leque reforçado para uso como arma. Existe em três versões: normal (de madeira), cortante (com lâminas na borda) e perfurante (com espinhos na borda). Todos podem ser fechados/ abertos como uma ação livre e transformados em um pequeno bastão (1d4 esmagamento). Se você abrir o leque e, na mesma rodada, usá-lo para atacar, o oponente fica desprevenido contra esse ataque (mas este truque só funciona uma vez por combate). Por ser pequeno e discreto, fornece +4 em testes de Ladinagem para escondê-lo. Kra’Tann: esta clava espinhosa pode ter aspectos variados, mas é sempre feita com o crânio de algum bakemono, oni ou kaijin.",
+      "descricao": "O gunsen ou tessen é um leque reforçado para uso como arma. Existe em três versões: normal (de madeira), cortante (com lâminas na borda) e perfurante (com espinhos na borda). Todos podem ser fechados/ abertos como uma ação livre e transformados em um pequeno bastão (1d4 esmagamento). Se você abrir o leque e, na mesma rodada, usá-lo para atacar, o oponente fica desprevenido contra esse ataque (mas este truque só funciona uma vez por combate). Por ser pequeno e discreto, fornece +4 em testes de Ladinagem para escondê-lo.",
       "properties": "Dano 1d6, crítico 19, tipo corte",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -1908,7 +1908,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Armadura padrão para soldados e guardas do Império, também preferida pelos bushi por sua leveza e custo reduzido. É composta por uma placa peitoral e várias tiras metálicas justapostas, além de um elmo cônico que lembra um chapéu de palha. Armadura de Couro: o peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar rígido, enquanto as demais partes são feitas de couro flexível. Embora utilizem couro em cintas e outros acessórios, muitos tamuranianos acham repulsivo vestir a pele de um animal morto: usar qualquer armadura de couro é uma violação de honra leve.",
+      "descricao": "Armadura padrão para soldados e guardas do Império, também preferida pelos bushi por sua leveza e custo reduzido. É composta por uma placa peitoral e várias tiras metálicas justapostas, além de um elmo cônico que lembra um chapéu de palha.",
       "properties": "Bônus na CA +3, Destreza máxima +5, penalidade de armadura –1",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -1978,7 +1978,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Tipo de armadura yoroi parcial, mais leve, preferida por aqueles que buscam mais liberdade de movimentos. Quase sempre usada sem elmo, por quem deseja ser reconhecido por seus adversários. Carapaça Kappa: sempre buscando proteger a retaguarda, os nezumi extraem a rígida concha dorsal destes bakemono-tartaruga para uso próprio. Ao usar esta carapaça você não pode ser flanqueado. Além disso, se jogando no chão e ficando caído, um usuário Pequeno ou Médio recebe cobertura (CA+4). Pode ser usada sozinha ou sobreposta a uma armadura leve ou média, acumulando todos os bônus e penalidades, e considerando o pior bônus máximo de Destreza.",
+      "descricao": "Tipo de armadura yoroi parcial, mais leve, preferida por aqueles que buscam mais liberdade de movimentos. Quase sempre usada sem elmo, por quem deseja ser reconhecido por seus adversários.",
       "properties": "Bônus na CA +4, Destreza máxima +4, penalidade de armadura –3",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2048,7 +2048,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Esta armadura é feita com o raro e duríssimo bambu suchiiru, encontrado em florestas dos youkai. Tem o aspecto geral de uma yoroi, mas mais leve e igualmente resistente. Oferece RD 1 ao usuário. Escudo Leve: este escudo de madeira ou bambu é amarrado no antebraço, deixando a mão livre. O usuário pode carregar um objeto na mão do escudo, mas não manusear uma arma. Escudo Pesado: este grande escudo de aço é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+      "descricao": "Esta armadura é feita com o raro e duríssimo bambu suchiiru, encontrado em florestas dos youkai. Tem o aspecto geral de uma yoroi, mas mais leve e igualmente resistente. Oferece RD 1 ao usuário.",
       "properties": "Bônus na CA +6, Destreza máxima +4, penalidade de armadura –2",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2187,7 +2187,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26). Instrumento Musical: o instrumento mais tradicional de Tamu-ra é o koto, espécie de harpa de madeira com 13 cordas. Outros exemplos são o tambor taiko, o banjo shamisen, o alaúde biwa, a flauta shakuhachi, e o horagai — tipo de trombeta feita com uma grande concha.",
+      "descricao": "Este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26).",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2255,7 +2255,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Bolsa presa ao cinto. Útil para guardar itens pequenos, especialmente moedas. Bálsamo Restaurador: frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa, e cura 2d4 pontos de vida. Kit de Artesão: existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes.",
+      "descricao": "Bolsa presa ao cinto. Útil para guardar itens pequenos, especialmente moedas.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2323,7 +2323,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa, e cura 2d4 pontos de vida. Kit de Artesão: existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes. Bomba de Fumaça: um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura.",
+      "descricao": "Frasco de cerâmica com uma pasta verde e fedorenta, feita de ervas medicinais. Esfregar essa pasta em um ferimento é uma ação completa, e cura 2d4 pontos de vida.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2425,7 +2425,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Este é o preço para 15 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente ou se desfazer com um tranco) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23). Kit de Disfarces: estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –5 em testes de Enganação para fazer um disfarce.",
+      "descricao": "Este é o preço para 15 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente ou se desfazer com um tranco) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23).",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2459,7 +2459,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Similar à corda de cânhamo, mas muito mais leve e resistente. Arrebentar uma corda de seda exige um teste de Força (CD 25), e ela oferece +2 em testes de Destreza para dar nós. Kit de Medicamentos: pequena caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este kit sofre penalidade de –5 em testes de Cura.",
+      "descricao": "Similar à corda de cânhamo, mas muito mais leve e resistente. Arrebentar uma corda de seda exige um teste de Força (CD 25), e ela oferece +2 em testes de Destreza para dar nós.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2561,7 +2561,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Tipo de acolchoado flexível para dormir. Pode ser dobrado e guardado durante o dia, para poupar espaço. Viajantes usam uma versão mais fina, facilmente transportável. Equipamento Geral Algemas: este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26). Instrumento Musical: o instrumento mais tradicional de Tamu-ra é o koto, espécie de harpa de madeira com 13 cordas. Outros exemplos são o tambor taiko, o banjo shamisen, o alaúde biwa, a flauta shakuhachi, e o horagai — tipo de trombeta feita com uma grande concha.",
+      "descricao": "Tipo de acolchoado flexível para dormir. Pode ser dobrado e guardado durante o dia, para poupar espaço. Viajantes usam uma versão mais fina, facilmente transportável. Equipamento Geral Algemas: este par de algemas é capaz de aprisionar uma criatura Média. Uma criatura presa pode escapar com um teste de Acrobacia (CD 30) ou Força (CD 26).",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2595,7 +2595,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Cavalo mecânico fabricado com as mesmas técnicas usadas na construção dos mashin. Muito cobiçado entre aventureiros por não precisar de descanso, bem como sua imunidade a doenças e efeitos da corrupção aberrante. São descritos no Capítulo 7: Bestiário. Disponibilidade Para representar a escassez de bens nesta Tamu-ra ainda em reconstrução, o mestre pode usar esta regra opcional. Cão de Guarda: normalmente da raça akita, este cachorro grande e leal pode ser usado como companheiro de batalha, ou como montaria para uma criatura Pequena. Sempre que um jogador quiser comprar um item, deve rolar 1d6.",
+      "descricao": "Cavalo mecânico fabricado com as mesmas técnicas usadas na construção dos mashin. Muito cobiçado entre aventureiros por não precisar de descanso, bem como sua imunidade a doenças e efeitos da corrupção aberrante. São descritos no Capítulo 7: Bestiário. Disponibilidade Para representar a escassez de bens nesta Tamu-ra ainda em reconstrução, o mestre pode usar esta regra opcional.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2697,7 +2697,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes. Bomba de Fumaça: um frasco de vidro que se quebra quando arremessado contra uma superfície rígida, liberando uma grande quantidade de fumaça escura. Para arremessar a bomba no chão até 4,5m, faça um ataque à distância contra CA 5. Se acertar, causa o efeito do jutsu bomba de fumaça (sem aprimoramentos). Usar este invento ninja é uma violação de honra severa.",
+      "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2731,7 +2731,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Normalmente da raça akita, este cachorro grande e leal pode ser usado como companheiro de batalha, ou como montaria para uma criatura Pequena. Sempre que um jogador quiser comprar um item, deve rolar 1d6. Num resultado de 1 a 5, aumente o preço do item em 10% x o número rolado (de 10% a 50% de aumento). Num resultado de 6, o item simplesmente não está disponível. Cão-Leão: ao longo da história de Tamu-ra, estas poderosas bestas foram amplamente usadas para montaria, carga e guerra. Lembram uma exótica mistura de mastim, leão e dragão — mas, ao contrário do que sua aparência leva a crer, podem ser inteligentes e dóceis.",
+      "descricao": "Normalmente da raça akita, este cachorro grande e leal pode ser usado como companheiro de batalha, ou como montaria para uma criatura Pequena. Sempre que um jogador quiser comprar um item, deve rolar 1d6. Num resultado de 1 a 5, aumente o preço do item em 10% x o número rolado (de 10% a 50% de aumento). Num resultado de 6, o item simplesmente não está disponível.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2799,7 +2799,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "É a montaria mais comum em Tamu-ra. Cavalos sem treinamento em combate se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante uma batalha. Cavalos de guerra dispensam esse teste. Pipa Ninja: também conhecida como momonga (“esquilo voador”), este engenho oferece ao usuário capacidade limitada de voo. Você pode gastar uma ação de movimento para fazer um teste de Acrobacia (CD 20). Em caso de sucesso, pode voar até 9m. Em caso de falha, não se desloca e flutua de volta ao chão. Em caso de falha por 5 ou mais, sofre dano conforme a queda. Manobrar a pipa exige pelo menos uma mão livre.",
+      "descricao": "É a montaria mais comum em Tamu-ra. Cavalos sem treinamento em combate se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante uma batalha. Cavalos de guerra dispensam esse teste.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -2833,7 +2833,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –5 em testes de Enganação para fazer um disfarce. Kit de Ladrão: usado para abrir portas e desarmar armadilhas, este kit é composto de gazuas, arames e outras pequenas ferramentas guardadas em um estojo de couro. Um personagem sem este kit sofre penalidade de –5 em testes de Ladinagem para abrir fechaduras e sabotar.",
+      "descricao": "Estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –5 em testes de Enganação para fazer um disfarce.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -3139,7 +3139,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Diferente dos pergaminhos de pele de animal usados no Reinado, tamuranianos são famosos por seu excelente papel feito de arroz — que utilizam não apenas para escrita, mas em numerosas formas de artesanato, e até mesmo como portas e paredes internas. Pé de Cabra: barra de ferro para forçar portas e baús fechados. Abrir uma porta ou baú usando um pé de cabra oferece +4 no teste de Força. Um pé de cabra também pode ser usado em combate como uma clava.",
+      "descricao": "Diferente dos pergaminhos de pele de animal usados no Reinado, tamuranianos são famosos por seu excelente papel feito de arroz — que utilizam não apenas para escrita, mas em numerosas formas de artesanato, e até mesmo como portas e paredes internas.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -3241,7 +3241,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma fogueira, vela, tocha ou lanterna com uma pederneira é uma ação de rodada completa. Pedra de Tinta: pequeno bloco de tinta preta solidificada para escrita, solúvel em água no momento do uso. Normalmente é feita com tinta de lula.",
+      "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma fogueira, vela, tocha ou lanterna com uma pederneira é uma ação de rodada completa.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -3377,7 +3377,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Em vez de penas, tamuranianos escrevem com pincéis, próprios para sua caligrafia. Ração de Viagem: feita de alimentos conservados, como carne defumada, frutas secas e onigiri (bolinhos de arroz), esta ração é própria para longas viagens, e uma porção alimenta uma pessoa por um dia. Dura até uma semana se mantida seca; caso fique molhada, se estraga em 24 horas.",
+      "descricao": "Em vez de penas, tamuranianos escrevem com pincéis, próprios para sua caligrafia.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -3581,7 +3581,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Garrafa de madeira ou cerâmica para transportar bebida (geralmente água, chá ou saquê). Traz um estreitamento no corpo, onde se amarra uma corda ou lenço para facilitar o transporte. Existem em vários tamanhos, mas a garrafa mais comum comporta 1 litro. Vara de Madeira: uma haste de madeira com 3m de comprimento, geralmente usada para atingir pontos distantes. Pode ter muitas utilidades — mas é frágil demais para servir como arma.",
+      "descricao": "Garrafa de madeira ou cerâmica para transportar bebida (geralmente água, chá ou saquê). Traz um estreitamento no corpo, onde se amarra uma corda ou lenço para facilitar o transporte. Existem em vários tamanhos, mas a garrafa mais comum comporta 1 litro.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",
@@ -3853,7 +3853,7 @@
         "imperio de jade",
         "tormenta classico"
       ],
-      "descricao": "Roupas típicas de aldeão, incluem uma camisa larga e calças soltas, na altura do joelho, para homens; ou um quimono simples para mulheres. Também inclui sandálias e chapéu de palha. Shinobi Shozoku: traje preto exclusivo dos ninjas, só pode ser adquirido por personagens desta classe (sem custo). Inclui um capuz que deixa apenas os olhos expostos. É mais apertado nos antebraços e pernas para melhor furtividade. Também inclui as peculiares botas jika-tabi, com uma divisão para os dedos. Oferece +2 em Furtividade, Intimidação e em testes de Diplomacia com ninjas do mesmo clã. Usar este traje é uma violação de honra severa.",
+      "descricao": "Roupas típicas de aldeão, incluem uma camisa larga e calças soltas, na altura do joelho, para homens; ou um quimono simples para mulheres. Também inclui sandálias e chapéu de palha.",
       "properties": "",
       "schemaVersion": 5,
       "updatedAt": "2026-11-18T23:45:16.642Z",

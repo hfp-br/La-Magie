@@ -1182,10 +1182,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um minúsculo frasco disfarçado Pedais, manivelas e roldanas permitem o “bater” das como um dente, dentro de sua boca. Permite que você asas, sustentando um voo um tanto irregular, mas con- carregue um preparado alquímico consumível ou trolável. Para voar com as asas do texugo, é necessário uma poção sem ocupar espaços.",
+      "descricao": "Um minúsculo frasco disfarçado como um dente, dentro de sua boca. Permite que você carregue um preparado alquímico consumível ou uma poção sem ocupar espaços. Além disso, permite ingerir esse item como uma ação de movimento. É preciso quebrar o dente falso para ingerir seu conteúdo: uma vez que você faça isso, o dente falso é perdido. Você só pode ter um dente falso instalado em sua boca por vez (a menos que, de alguma forma, possua mais de uma boca…).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.326Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1392,10 +1392,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta lanterna sofisticada funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m. 230 Capítulo 3 Leque. Permite que damas e cavalheiros se abanem ou escondam a boca, para fofocar em paz. Muitos usuários se abanam como uma verdadeira mania, principalmente após ouvir algo ultrajante. Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste.",
+      "descricao": "Esta lanterna sofisticada funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:58:45.373Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1777,10 +1777,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma haste de metal ou Flauta Sar-Allan. Uma flauta de Halak-Tûr, madeira com um espelho na ponta, dotada de meca- que produz um som característico, capaz de hipnotizar nismos que permitem controlar o ângulo do reflexo a certos animais. Concede +5 no teste de Atuação para partir da outra extremidade.",
+      "descricao": "Uma haste de metal ou madeira com um espelho na ponta, dotada de mecanismos que permitem controlar o ângulo do reflexo a partir da outra extremidade. Muito usado por médicos de campo que só podem contar consigo mesmos para suturar seus ferimentos. Se estiver usando um espelho cirúrgico, você não sofre a penalidade de –5 em testes de Cura em si mesmo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.331Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2267,10 +2267,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um instrumento difícil de 50%, mas impõe –5 em Iniciativa e Percepção. Se você ser dominado, usado pelos bardos mais habilidosos. tiver proficiência com armaduras pesadas, reduz essa Ver um mestre violinista em ação é um grande incen- penalidade para –2.",
+      "descricao": "Um instrumento difícil de ser dominado, usado pelos bardos mais habilidosos. Ver um mestre violinista em ação é um grande incentivo ao virtuosismo em qualquer área. cada criatura a sua escolha sob efeito dessa Inspiração recebe um bônus adicional de +1d4 em seu próximo teste de perícia (exceto testes de ataque). Vestuário Avental de Forja. Um avental grosso, feito de couro tratado alquimicamente. Um artesão protegido dessa forma não precisa se preocupar com faíscas e pequenas gotas de metal derretido respingando sobre seu peito. Evitando ferimentos sérios, pode se arriscar mais ao trabalhar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.336Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2862,10 +2862,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este equipamento é usado nas mãos, do em –1,5m e você falha automaticamente em testes parecendo leques ou pequenas pranchas que as re- de Fortitude para marcha forçada. Em compensação, cobrem. Um personagem usando palmares não pode uma vez por cena você pode escolher uma criatura e empunhar nada em nenhuma das mãos.",
+      "descricao": "Este equipamento é usado nas mãos, parecendo leques ou pequenas pranchas que as recobrem. Um personagem usando palmares não pode empunhar nada em nenhuma das mãos. Contudo, quando passa em um teste de Atletismo para natação, avança seu deslocamento inteiro (em vez de metade).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2897,10 +2897,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Muitos aristocratas desejam pentea- em vez disso o bônus que ele fornece contra essa dos extravagantes sem todo o trabalho necessário criatura aumenta para +5). para moldar seus cabelos. Ou simplesmente estão Veste Acolchoada.",
+      "descricao": "Muitos aristocratas desejam penteados extravagantes sem todo o trabalho necessário para moldar seus cabelos. Ou simplesmente estão com piolhos, raspam a cabeça e desejam continuar bonitos. De qualquer forma, uma peruca permite que um personagem com Carisma menor que 0 seja considerado como se tivesse Carisma 0 para fins de perícias originalmente baseadas nesse atributo (ex- Sapatos de Salto Alto. Para alguns, a elegância vem antes do conforto, e a prova são estes verdadeiros instrumentos de tortura em nome da moda.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.341Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3107,10 +3107,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este traje completo com piolhos, raspam a cabeça e desejam continuar (casaco, calças, capuz) é feito de tecido resistente bonitos. De qualquer forma, uma peruca permite estofado com lã ou algodão. Usado sob uma armaduque um personagem com Carisma menor que 0 seja ra, aumenta sua penalidade de armadura em –2, mas considerado como se tivesse Carisma 0 para fins de reduz o multiplicador de crítico de qualquer ataque perícias originalmente baseadas nesse atributo (ex- sofrido em –1 (mínimo x2).",
+      "descricao": "Este traje completo (casaco, calças, capuz) é feito de tecido resistente estofado com lã ou algodão. Usado sob uma armadura, aumenta sua penalidade de armadura em –2, mas reduz o multiplicador de crítico de qualquer ataque sofrido em –1 (mínimo x2). Arsenal dos Heróis 233 Esotéricos Compasso Místico. Este compasso ostenta marcações geométricas combinadas com símbolos arcanos. Quando lança uma magia com efeito em área, você pode excluir um alvo da área afetada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.343Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3422,10 +3422,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este sistema de contrapesos, de mau funcionamento. Uma vez por cena, a engeamortecedores e roldanas é instalado ao redor da en- nhoca não enguiça com uma falha no teste de ativação genhoca, deixando-a sempre estável. Você não aplica (ela não ativa seu efeito, mas a CD para o próximo sua penalidade de armadura por armadura nos testes teste não aumenta e ela continua funcionando sem de ativação da engenhoca (mas aplica penalidades de precisar ser consertada).",
+      "descricao": "Este sistema de contrapesos, amortecedores e roldanas é instalado ao redor da engenhoca, deixando-a sempre estável. Você não aplica sua penalidade de armadura por armadura nos testes de ativação da engenhoca (mas aplica penalidades de armadura de outras fontes).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.354Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3527,10 +3527,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este meca- se manteve inalterada. Consiste em um manjar nismo complexo, cheio de partes móveis, alavancas com ingredientes cultivados em terras próximas e engrenagens, é acoplado simultaneamente a três de cemitérios, que protege o corpo contra energias engenhocas. Uma vez por cena, você pode gastar uma sombrias.",
+      "descricao": "Este mecanismo complexo, cheio de partes móveis, alavancas e engrenagens, é acoplado simultaneamente a três engenhocas. Uma vez por cena, você pode gastar uma ação completa para ativar o sequenciador. No início de cada um dos seus próximos turnos, uma das engenhocas acopladas ao sequenciador é ativada como uma ação livre, em uma ordem definida ao acoplá-las ao aparato. Não é possível diminuir a ação necessária para ativar o sequenciador. Você faz os testes de Ofício (engenhoqueiro) normalmente para cada engenhoca.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.355Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3702,10 +3702,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Como a armadura de montaria leve, mas aumenta o bônus em Arqueiros. Um grupamento de arqueiros, +2 ou em dois passos. Contudo, diminui o desloca- soldados irregulares ou caçadores em busca de algum mento da montaria em –3m.",
+      "descricao": "Como a armadura de montaria leve, mas aumenta o bônus em +2 ou em dois passos. Contudo, diminui o deslocamento da montaria em –3m. Montarias voadoras não podem usar armaduras pesadas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.360Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3807,10 +3807,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Estes apoios para os pés fazem par- para contratar e comandar um bando de aldeões. Turba te do equipamento básico de um ginete. Parecem de camponeses iniciante (veja Capangas).",
+      "descricao": "Estes apoios para os pés fazem parte do equipamento básico de um ginete. Parecem simples, mas representam uma enorme inovação na tecnologia artoniana, possibilitando várias táticas de cavalaria que não eram viáveis anteriormente. Deve ser vestido pela montaria. Quando você faz uma investida montada, causa +1d8 pontos de dano. Aprendiz de Mago. Um estudioso das artes arcanas, o aprendiz pode ajudá-lo com as suas magias (embora ainda não consiga lançar feitiços por si só). Magivocador iniciante. Arauto. Um servo treinado para anunciá-lo de forma solene.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.362Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

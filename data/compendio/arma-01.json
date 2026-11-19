@@ -4538,10 +4538,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Espada Longa: arma típica de guerreiros humanos, mas tamClava: um pedaço de madeira empunhado como arma, geral- bém extremamente comum entre elfos. Esta espada de dois gumes mente usado por bárbaros ou criaturas brutais — ou como arma tem lâmina reta medindo entre 80cm e 1m. improvisada, como um galho de árvore ou pedaço de mobília.",
+      "descricao": "Uma espada com a lâmina curva, leve e muito afiada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:20.480Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4868,10 +4868,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Com um comando, o kailash pode disten- Trata-se de uma espada grande +5 inteligente, capaz de se comuCapítulo 10: O Mestre der dois espigões e ser usado como picareta. Nesta forma será uma nicar telepaticamente com seu usuário. Entretanto, só se dirige a picareta anti-humanóides +3.",
+      "descricao": "Usada por mineradores, esta ferramenta quebra pedras com facilidade.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:20.481Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6569,10 +6569,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Esta arma covarde só po- arremesso, você pode fazer um teste de ataque com deria ter sido inventada no Reino da Intriga. Consiste o bastão lúdico. Se o resultado desse teste for maior em uma adaga com ponta fina e lâmina oca, que pode que o do oponente, você evita o ataque.",
+      "descricao": "Esta arma covarde só poderia ter sido inventada no Reino da Intriga. Consiste em uma adaga com ponta fina e lâmina oca, que pode armazenar uma dose de veneno de contato. Aplicar um veneno nesta arma segue as regras de venenos (Tormenta20, p. 161), mas o veneno permanece até você acertar um ataque (não acaba ao fim da cena) e a a CD para resistir a ele aumenta em +2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.307Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8351,10 +8351,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta pequena arma de fogo, do ta- surpreender qualquer oponente. A kimbata é uma manho de uma mão espalmada, pode ser facilmente arma ocultável e surpreendente, mas é muito pequena escondida em uma manga ou nas dobras de uma veste. para ser usada efetivamente sem treinamento adequaUma garrucha é uma arma ocultável e surpreendente; do, por isso é uma arma exótica.",
+      "descricao": "Esta pequena arma de fogo, do tamanho de uma mão espalmada, pode ser facilmente escondida em uma manga ou nas dobras de uma veste. Uma garrucha é uma arma ocultável e surpreendente; recarregá-la é uma ação padrão.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.318Z",
+      "updatedAt": "2026-11-19T00:00:02.719Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
