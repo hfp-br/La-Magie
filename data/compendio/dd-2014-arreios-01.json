@@ -17,10 +17,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-biga",
@@ -38,10 +44,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-arreio-carroca",
@@ -59,10 +71,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-arreio-carruagem",
@@ -80,10 +98,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-arreio-estabulo",
@@ -101,10 +125,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-freio-e-redea",
@@ -122,10 +152,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-racao-para-montaria-1-dia",
@@ -143,10 +179,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-sela-compacta",
@@ -164,10 +206,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-sela-exotica",
@@ -185,10 +233,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-sela-militar",
@@ -206,10 +260,16 @@
       "descricao": "Ajuda o cavaleiro a manter-se montado em circunstâncias difíceis.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-sela-de-viagem",
@@ -227,10 +287,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-arreio-treno",
@@ -248,10 +314,16 @@
       "descricao": "Item de montaria, arreio, veículo ou serviço listado no capítulo de equipamento.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-arreio-armadura-de-montaria",
@@ -269,10 +341,16 @@
       "descricao": "O custo é quatro vezes o da armadura equivalente e o peso é o dobro.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     }
   ]
 }

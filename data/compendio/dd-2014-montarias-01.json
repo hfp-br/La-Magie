@@ -17,10 +17,15 @@
       "descricao": "Deslocamento 12 m; capacidade de carga 210 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-camelo",
@@ -38,10 +43,15 @@
       "descricao": "Deslocamento 15 m; capacidade de carga 240 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-cavalo-de-guerra",
@@ -59,10 +69,15 @@
       "descricao": "Deslocamento 18 m; capacidade de carga 270 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-cavalo-de-montaria",
@@ -80,10 +95,15 @@
       "descricao": "Deslocamento 18 m; capacidade de carga 220 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-cavalo-pesado",
@@ -101,10 +121,15 @@
       "descricao": "Deslocamento 12 m; capacidade de carga 270 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-elefante",
@@ -122,10 +147,15 @@
       "descricao": "Deslocamento 12 m; capacidade de carga 660 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-mastim",
@@ -143,10 +173,15 @@
       "descricao": "Deslocamento 12 m; capacidade de carga 100 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2014-montaria-ponei",
@@ -164,10 +199,15 @@
       "descricao": "Deslocamento 12 m; capacidade de carga 115 kg. O peso próprio do animal não é informado na tabela.",
       "tags": [
         "dnd",
-        "2014",
-        "montaria"
+        "dnd 2014",
+        "montaria",
+        "livro do jogador 2014",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     }
   ]
 }

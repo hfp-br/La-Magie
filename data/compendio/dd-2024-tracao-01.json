@@ -17,10 +17,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-tracao-1",
@@ -38,10 +44,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-tracao-2",
@@ -59,10 +71,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-tracao-3",
@@ -80,10 +98,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-tracao-4",
@@ -101,10 +125,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-tracao-5",
@@ -122,10 +152,16 @@
       "descricao": "Necessária para montar criaturas aquáticas ou voadoras.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-tracao-6",
@@ -143,10 +179,16 @@
       "descricao": "Concede vantagem em testes de atributo para permanecer montado.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-tracao-7",
@@ -164,10 +206,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "equipamento",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-tracao-8",
@@ -185,10 +233,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-tracao-9",
@@ -206,10 +260,16 @@
       "descricao": "Equipamento, veículo ou serviço para montarias.",
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "veiculo",
+        "montaria e tracao"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     }
   ]
 }

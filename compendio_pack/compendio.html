@@ -133,7 +133,8 @@ html {scroll-behavior:smooth}
   <div class="drawer-body">
     <div class="editor-grid">
       <div class="field wide"><label>Nome</label><input id="itemName"></div>
-      <div class="field"><label>Categoria</label><input id="itemCategory" placeholder="Arma, Armadura..."></div>
+      <div class="field"><label>Categoria principal</label><input id="itemCategory" placeholder="Arma, Armadura..."></div>
+      <div class="field"><label>Outras categorias</label><input id="itemCategories" placeholder="comida, consumivel... (separadas por vírgula)"></div>
       <div class="field"><label>Subtipo</label><input id="itemSubtype"></div>
       <div class="field"><label>Peso (kg)</label><input id="itemWeight" type="number" step="0.01" min="0"></div>
       <div class="field"><label>Preço</label><input id="itemPrice" type="number" step="0.01" min="0"></div>
@@ -467,7 +468,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     list.innerHTML="";
     arr.forEach(item=>{
       const row=document.createElement("button");row.type="button";row.className=`comp-item-row ${item.id===selectedCompendiumId?"active":""}`;
-      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${item.categoria?`<span>${escV5(item.categoria)}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}${(item.sistema||item.system)?`<span class="comp-item-system">• ${escV5(item.sistema||item.system)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
+      row.innerHTML=`<div><span class="comp-item-row-name">${escV5(item.nome||"Item sem nome")}</span><div class="comp-item-row-meta">${(item.categoria||item.categorias)?`<span>${escV5((Array.isArray(item.categorias)&&item.categorias.length?item.categorias:[item.categoria]).filter(Boolean).join(" • "))}</span>`:""}${item.subtipo?`<span>• ${escV5(item.subtipo)}</span>`:""}${(item.sistema||item.system)?`<span class="comp-item-system">• ${escV5(item.sistema||item.system)}</span>`:""}</div></div><span class="comp-item-row-weight">${Number(item.peso||0).toFixed(2)} kg</span>`;
       row.addEventListener("click",()=>{selectedCompendiumId=item.id;renderListV5();if(window.matchMedia("(max-width:620px)").matches){requestAnimationFrame(()=>document.getElementById("compV5Preview")?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion:reduce)").matches?"auto":"smooth",block:"start"}))}});list.appendChild(row);
     });
     renderPreviewV5(arr.find(i=>i.id===selectedCompendiumId)||arr[0]);
@@ -475,9 +476,9 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   function renderPreviewV5(item){
     const host=document.getElementById("compV5Preview");if(!host)return;
     if(!item){host.innerHTML=`<div class="comp-preview-empty"><strong>Nenhum item selecionado.</strong></div>`;return}
-    const tags=[item.categoria,item.subtipo,...(Array.isArray(item.tags)?item.tags:[])].filter(Boolean).slice(0,8);
+    const tags=[...new Set([(Array.isArray(item.categorias)&&item.categorias.length?item.categorias:[item.categoria]),item.subtipo,...(Array.isArray(item.tags)?item.tags:[])].flat().filter(Boolean))].slice(0,10);
     const w=normalizeWeaponV5(item),consumable=item.consumable||item.consumivel||{},defenses=item.defenses||item.defesas||{},resources=Array.isArray(item.resources)?item.resources:(Array.isArray(item.recursos)?item.recursos:[]),effects=Array.isArray(item.effects)?item.effects:(Array.isArray(item.efeitos)?item.efeitos:[]);
-    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([item.categoria,item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5DuplicateBtn">Duplicar</button><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Sistema / coleção</span><strong>${escV5(item.sistema||item.system||"—")}</strong></div><div class="comp-preview-stat"><span>Fonte / livro</span><strong>${escV5(item.fonte||"—")}${item.pagina?` · p. ${item.pagina}`:""}</strong></div></div>`;
+    let body=`<article class="comp-preview"><header class="comp-preview-head"><div class="comp-preview-title"><h2>${escV5(item.nome||"Item sem nome")}</h2><div class="comp-preview-subtitle">${escV5([...(Array.isArray(item.categorias)&&item.categorias.length?item.categorias:[item.categoria]),item.subtipo].filter(Boolean).join(" • ")||"Item")}</div></div><div class="comp-preview-actions"><button class="btn comp-admin-only" id="compV5DuplicateBtn">Duplicar</button><button class="btn comp-admin-only" id="compV5EditBtn">Editar</button></div></header><div class="comp-preview-body"><div class="comp-preview-badges">${tags.map((t,i)=>`<span class="comp-preview-badge ${i===0?"primary":""}">${escV5(t)}</span>`).join("")}</div><div class="comp-preview-stats"><div class="comp-preview-stat"><span>Peso</span><strong>${Number(item.peso||0).toFixed(2)} kg</strong></div><div class="comp-preview-stat"><span>Preço</span><strong>${escV5(priceV5(item))}</strong></div><div class="comp-preview-stat"><span>Sistema / coleção</span><strong>${escV5(item.sistema||item.system||"—")}</strong></div><div class="comp-preview-stat"><span>Fonte / livro</span><strong>${escV5(item.fonte||"—")}${item.pagina?` · p. ${item.pagina}`:""}</strong></div></div>`;
     if(w&&w.enabled){const threat=w.threat<20?`${w.threat}–20`:"20";body+=`<section class="comp-preview-section"><h3>Ataque</h3><div class="comp-preview-weapon"><div class="comp-preview-weapon-main">${escV5(w.skill)} + ${escV5(statNameV5(w.stat))} · ${escV5(w.die)} ${escV5(w.type)} · ${threat}/×${w.crit}</div><div class="comp-preview-weapon-meta">${w.hitBonus?`<span class="comp-preview-weapon-chip">Acerto ${w.hitBonus>=0?"+":""}${w.hitBonus}</span>`:""}${w.damageBonus?`<span class="comp-preview-weapon-chip">Dano ${escV5(w.damageBonus)}</span>`:""}${w.range?`<span class="comp-preview-weapon-chip">Alcance ${escV5(w.range)}</span>`:""}${w.hands?`<span class="comp-preview-weapon-chip">${escV5(w.hands)} mão(s)</span>`:""}${w.ammo?`<span class="comp-preview-weapon-chip">Munição ${escV5(w.ammo)}</span>`:""}${w.reload?`<span class="comp-preview-weapon-chip">Recarga ${escV5(w.reload)}</span>`:""}${w.properties?`<span class="comp-preview-weapon-chip">${escV5(w.properties)}</span>`:""}</div></div></section>`}
     if(consumable?.enabled){body+=`<section class="comp-preview-section"><h3>Uso</h3><div class="comp-preview-grid"><div class="comp-preview-line"><span>Consumível</span><strong>Sim</strong></div><div class="comp-preview-line"><span>Gasta por uso</span><strong>${Number(consumable.amountPerUse||1)}</strong></div><div class="comp-preview-line"><span>Botão</span><strong>${escV5(consumable.label||"Usar")}</strong></div></div></section>`}
     if(defenses?.resistances||defenses?.resistencias||defenses?.immunities||defenses?.imunidades){body+=`<section class="comp-preview-section"><h3>Defesas</h3><div class="comp-preview-grid">${defenses.resistances||defenses.resistencias?`<div class="comp-preview-defense"><strong>Resistências:</strong> ${escV5(defenses.resistances||defenses.resistencias)}</div>`:""}${defenses.immunities||defenses.imunidades?`<div class="comp-preview-defense"><strong>Imunidades:</strong> ${escV5(defenses.immunities||defenses.imunidades)}</div>`:""}</div></section>`}
@@ -762,7 +763,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
 
     const categorias = [...new Set(
       (items || [])
-        .map(i => canon(i?.categoria))
+        .flatMap(i => (Array.isArray(i?.categorias) && i.categorias.length ? i.categorias : [i?.categoria]).map(canon))
         .filter(Boolean)
     )].sort((a,b)=>a.localeCompare(b,"pt-BR"));
 
@@ -793,7 +794,8 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
       const categoria = canon(raw?.categoria);
       const sistema = canon(raw?.sistema || raw?.system);
 
-      if(c && categoria !== c) return false;
+      const todasCategorias = Array.isArray(raw?.categorias) && raw.categorias.length ? raw.categorias.map(canon) : [categoria];
+      if(c && !todasCategorias.includes(c)) return false;
       if(s && sistema !== s) return false;
 
       // busca pode ficar vazia: nesse caso categoria/sistema funcionam sozinhos
@@ -1233,5 +1235,48 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     setInterval(() => { const n = lista().length; if (n !== ultimo) { ultimo = n; instalar(); montarLivros(); } }, 800);
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
+})();
+</script>
+
+<script id="multi-categorias-js">
+/* Várias categorias por item + edição sem perder campos que o formulário não mostra
+   (categorias, raridade, armor, origemEdicao, properties...). */
+(() => {
+  const canon = v => String(v ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/\s+/g, " ").trim();
+  function instalar() {
+    if (typeof window.collect !== "function" || window.collect.__multi) return;
+    const collectAnterior = window.collect;
+    const novo = function (...args) {
+      const doForm = collectAnterior.apply(this, args);
+      const original = (typeof items !== "undefined" && Array.isArray(items) && typeof editingId !== "undefined" && editingId)
+        ? (items.find(x => x.id === editingId) || {}) : {};
+      const principal = canon(doForm.categoria);
+      const outras = String(document.getElementById("itemCategories")?.value || "").split(",").map(canon).filter(Boolean);
+      return { ...structuredClone(original), ...doForm, categoria: principal, categorias: [...new Set([principal, ...outras].filter(Boolean))] };
+    };
+    novo.__multi = true;
+    window.collect = novo;
+    try { collect = novo; } catch {}
+  }
+  function instalarDrawer() {
+    if (typeof window.openDrawer !== "function" || window.openDrawer.__multi) return;
+    const abrirAnterior = window.openDrawer;
+    const abrir = function (i, viewOnly = false) {
+      const r = abrirAnterior.call(this, i, viewOnly);
+      const campo = document.getElementById("itemCategories");
+      if (campo) {
+        const principal = canon(i?.categoria);
+        campo.value = (Array.isArray(i?.categorias) ? i.categorias : []).map(canon).filter(c => c && c !== principal).join(", ");
+        campo.disabled = !!viewOnly;
+      }
+      return r;
+    };
+    abrir.__multi = true;
+    window.openDrawer = abrir;
+    try { openDrawer = abrir; } catch {}
+  }
+  function iniciar() { instalar(); instalarDrawer(); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
+  setTimeout(iniciar, 1500);
 })();
 </script>

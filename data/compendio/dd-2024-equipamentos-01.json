@@ -6,8 +6,10 @@
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-adaga",
@@ -38,15 +40,20 @@
         "maestria": "Ágil",
         "allowedToggles": []
       },
-      "maestria": "Ágil"
+      "maestria": "Ágil",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-azagaia",
@@ -77,15 +84,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-cajado",
@@ -116,15 +128,20 @@
         "maestria": "Derrubar",
         "allowedToggles": []
       },
-      "maestria": "Derrubar"
+      "maestria": "Derrubar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-clava",
@@ -155,15 +172,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-clava-grande",
@@ -194,15 +216,20 @@
         "maestria": "Empurrar",
         "allowedToggles": []
       },
-      "maestria": "Empurrar"
+      "maestria": "Empurrar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-foice",
@@ -233,15 +260,20 @@
         "maestria": "Ágil",
         "allowedToggles": []
       },
-      "maestria": "Ágil"
+      "maestria": "Ágil",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-lanca",
@@ -272,15 +304,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-maca",
@@ -311,15 +348,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-machadinha",
@@ -350,15 +392,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-martelo-leve",
@@ -389,15 +436,20 @@
         "maestria": "Ágil",
         "allowedToggles": []
       },
-      "maestria": "Ágil"
+      "maestria": "Ágil",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-arco-curto",
@@ -428,15 +480,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-besta-leve",
@@ -467,15 +524,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-dardo",
@@ -506,15 +568,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "simples"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-funda",
@@ -545,15 +612,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-alabarda",
@@ -584,15 +656,20 @@
         "maestria": "Trespassar",
         "allowedToggles": []
       },
-      "maestria": "Trespassar"
+      "maestria": "Trespassar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-chicote",
@@ -623,15 +700,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-cimitarra",
@@ -662,15 +744,20 @@
         "maestria": "Ágil",
         "allowedToggles": []
       },
-      "maestria": "Ágil"
+      "maestria": "Ágil",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-espada-curta",
@@ -701,15 +788,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-espada-grande",
@@ -740,15 +832,20 @@
         "maestria": "Garantido",
         "allowedToggles": []
       },
-      "maestria": "Garantido"
+      "maestria": "Garantido",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-espada-longa",
@@ -779,15 +876,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-glaive",
@@ -818,15 +920,20 @@
         "maestria": "Garantido",
         "allowedToggles": []
       },
-      "maestria": "Garantido"
+      "maestria": "Garantido",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-lanca-de-montaria",
@@ -857,15 +964,20 @@
         "maestria": "Derrubar",
         "allowedToggles": []
       },
-      "maestria": "Derrubar"
+      "maestria": "Derrubar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-lanca-longa",
@@ -896,15 +1008,20 @@
         "maestria": "Empurrar",
         "allowedToggles": []
       },
-      "maestria": "Empurrar"
+      "maestria": "Empurrar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-maca-estrela",
@@ -935,15 +1052,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-machado-de-batalha",
@@ -974,15 +1096,20 @@
         "maestria": "Derrubar",
         "allowedToggles": []
       },
-      "maestria": "Derrubar"
+      "maestria": "Derrubar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-machado-grande",
@@ -1013,15 +1140,20 @@
         "maestria": "Trespassar",
         "allowedToggles": []
       },
-      "maestria": "Trespassar"
+      "maestria": "Trespassar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-malho",
@@ -1052,15 +1184,20 @@
         "maestria": "Derrubar",
         "allowedToggles": []
       },
-      "maestria": "Derrubar"
+      "maestria": "Derrubar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-mangual",
@@ -1091,15 +1228,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-martelo-de-guerra",
@@ -1130,15 +1272,20 @@
         "maestria": "Empurrar",
         "allowedToggles": []
       },
-      "maestria": "Empurrar"
+      "maestria": "Empurrar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-picareta-de-guerra",
@@ -1169,15 +1316,20 @@
         "maestria": "Drenar",
         "allowedToggles": []
       },
-      "maestria": "Drenar"
+      "maestria": "Drenar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-rapieira",
@@ -1208,15 +1360,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-tridente",
@@ -1247,15 +1404,20 @@
         "maestria": "Derrubar",
         "allowedToggles": []
       },
-      "maestria": "Derrubar"
+      "maestria": "Derrubar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-arco-longo",
@@ -1286,15 +1448,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-besta-de-mao",
@@ -1325,15 +1492,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-besta-pesada",
@@ -1364,15 +1536,20 @@
         "maestria": "Empurrar",
         "allowedToggles": []
       },
-      "maestria": "Empurrar"
+      "maestria": "Empurrar",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-mosquete",
@@ -1403,15 +1580,20 @@
         "maestria": "Lentidão",
         "allowedToggles": []
       },
-      "maestria": "Lentidão"
+      "maestria": "Lentidão",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-pistola",
@@ -1442,15 +1624,20 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "arma"
+        "dnd 2024",
+        "arma",
+        "livro do jogador 2024",
+        "marcial"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-arma-zarabatana",
@@ -1481,15 +1668,21 @@
         "maestria": "Afligir",
         "allowedToggles": []
       },
-      "maestria": "Afligir"
+      "maestria": "Afligir",
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "leve"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-acolchoada",
@@ -1506,15 +1699,21 @@
       "armor": {
         "caTexto": "11 + DES",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "leve"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-couro",
@@ -1531,15 +1730,21 @@
       "armor": {
         "caTexto": "11 + DES",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "leve"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-couro-batido",
@@ -1556,15 +1761,21 @@
       "armor": {
         "caTexto": "12 + DES",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "media"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-gibao-de-peles",
@@ -1581,15 +1792,21 @@
       "armor": {
         "caTexto": "12 + DES (máx. 2)",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "media"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-cota-de-malha-parcial",
@@ -1606,15 +1823,21 @@
       "armor": {
         "caTexto": "13 + DES (máx. 2)",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "media"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-loriga-de-escamas",
@@ -1631,15 +1854,21 @@
       "armor": {
         "caTexto": "14 + DES (máx. 2)",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "media"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-couraca-peitoral",
@@ -1656,15 +1885,21 @@
       "armor": {
         "caTexto": "14 + DES (máx. 2)",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "media"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-placas-parcial",
@@ -1681,15 +1916,21 @@
       "armor": {
         "caTexto": "15 + DES (máx. 2)",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "pesada"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-cota-de-aneis",
@@ -1706,15 +1947,21 @@
       "armor": {
         "caTexto": "14",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "pesada"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-cota-de-malha",
@@ -1731,15 +1978,21 @@
       "armor": {
         "caTexto": "16",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "pesada"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-armadura-de-tala",
@@ -1756,15 +2009,21 @@
       "armor": {
         "caTexto": "17",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "armadura",
+        "pesada"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-armadura-placas",
@@ -1781,15 +2040,20 @@
       "armor": {
         "caTexto": "18",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "sistema": "D&D 5e 2024",
       "fonte": "Livro do Jogador (2024)",
       "tags": [
         "dnd",
-        "2024",
-        "proteção"
+        "dnd 2024",
+        "protecao",
+        "livro do jogador 2024",
+        "escudo"
       ],
       "schemaVersion": 5,
       "id": "dd-2024-escudo-escudo",
@@ -1806,7 +2070,10 @@
       "armor": {
         "caTexto": "+2 CA",
         "furtividade": "—"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     }
   ]
 }

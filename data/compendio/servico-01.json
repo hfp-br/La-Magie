@@ -33,7 +33,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-bigode-encerado",
@@ -67,7 +70,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-instrucao-marcial",
@@ -101,7 +107,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-maquiagem-profissional",
@@ -135,7 +144,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-opera",
@@ -169,7 +181,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-sarau-informativo",
@@ -203,7 +218,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-mercenario-parceiro-iniciante-por-cena",
@@ -239,7 +257,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-mercenario-parceiro-veterano-por-cena",
@@ -275,7 +296,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-mercenario-capangas-iniciantes-por-cena",
@@ -311,7 +335,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-herois-servico-mercenario-capangas-veteranos-por-cena",
@@ -347,7 +374,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-estadia-comum-por-noite",
@@ -382,7 +412,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-estadia-confortavel-por-noite",
@@ -417,7 +450,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-estadia-luxuosa-por-noite",
@@ -452,7 +488,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-conducao-terrestre-por-km",
@@ -487,7 +526,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-conducao-maritima-por-km",
@@ -522,7 +564,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-conducao-aerea-por-km",
@@ -557,7 +602,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-curandeiro",
@@ -592,7 +640,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-mensageiro-por-km",
@@ -627,7 +678,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-magia-de-1-circulo-lancamento",
@@ -662,7 +716,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-magia-de-2-circulo-lancamento",
@@ -697,7 +754,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-magia-de-3-circulo-lancamento",
@@ -732,7 +792,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "t20-jda-servico-estabulo-por-dia",
@@ -767,7 +830,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     }
   ]
 }

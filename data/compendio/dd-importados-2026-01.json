@@ -16,7 +16,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 perfurante. Propriedades: Acuidade, leve, arremesso (distância 6/18).",
       "efeitos": [],
@@ -39,7 +43,10 @@
         "reload": "",
         "properties": "Acuidade, leve, arremesso (distância 6/18)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-azagaia",
@@ -56,7 +63,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 9/36).",
       "efeitos": [],
@@ -79,7 +90,10 @@
         "reload": "",
         "properties": "Arremesso (distância 9/36)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-bordao",
@@ -96,7 +110,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: Versátil (1d8).",
       "efeitos": [],
@@ -119,7 +137,10 @@
         "reload": "",
         "properties": "Versátil (1d8)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-clava-grande",
@@ -136,7 +157,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d8 concussão. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
@@ -159,7 +184,10 @@
         "reload": "",
         "properties": "Pesada, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-foice-curta",
@@ -176,7 +204,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 cortante. Propriedades: Leve.",
       "efeitos": [],
@@ -199,7 +231,10 @@
         "reload": "",
         "properties": "Leve",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-lanca",
@@ -216,7 +251,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 6/18), versátil (1d8).",
       "efeitos": [],
@@ -239,7 +278,10 @@
         "reload": "",
         "properties": "Arremesso (distância 6/18), versátil (1d8)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-maca",
@@ -256,7 +298,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: –.",
       "efeitos": [],
@@ -279,7 +325,10 @@
         "reload": "",
         "properties": "–",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-machadinha",
@@ -296,7 +345,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 cortante. Propriedades: Leve, arremesso (distância 6/18).",
       "efeitos": [],
@@ -319,7 +372,10 @@
         "reload": "",
         "properties": "Leve, arremesso (distância 6/18)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-martelo-leve",
@@ -336,7 +392,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve, arremesso (distância 6/18).",
       "efeitos": [],
@@ -359,7 +419,10 @@
         "reload": "",
         "properties": "Leve, arremesso (distância 6/18)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-porrete",
@@ -376,7 +439,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve.",
       "efeitos": [],
@@ -399,7 +466,10 @@
         "reload": "",
         "properties": "Leve",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-arco-curto",
@@ -416,7 +486,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 24/96), duas mãos.",
       "efeitos": [],
@@ -439,7 +513,10 @@
         "reload": "",
         "properties": "Munição (distância 24/96), duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-beste-leve",
@@ -456,7 +533,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 24/96), recarga, duas mãos.",
       "efeitos": [],
@@ -479,7 +560,10 @@
         "reload": "",
         "properties": "Munição (distância 24/96), recarga, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-dardo",
@@ -496,7 +580,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d4 perfurante. Propriedades: Acuidade, arremesso (distância 6/18).",
       "efeitos": [],
@@ -519,7 +607,10 @@
         "reload": "",
         "properties": "Acuidade, arremesso (distância 6/18)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-funda",
@@ -536,7 +627,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d4 concussão. Propriedades: Munição (distância 9/36).",
       "efeitos": [],
@@ -559,7 +654,10 @@
         "reload": "",
         "properties": "Munição (distância 9/36)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-alabarda",
@@ -576,7 +674,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
@@ -599,7 +701,10 @@
         "reload": "",
         "properties": "Pesada, alcance, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-cimitarra",
@@ -616,7 +721,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 cortante. Propriedades: Acuidade, leve.",
       "efeitos": [],
@@ -639,7 +748,10 @@
         "reload": "",
         "properties": "Acuidade, leve",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-chicote",
@@ -656,7 +768,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d4 cortante. Propriedades: Acuidade, alcance.",
       "efeitos": [],
@@ -679,7 +795,10 @@
         "reload": "",
         "properties": "Acuidade, alcance",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-espada-curta",
@@ -696,7 +815,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Acuidade, leve.",
       "efeitos": [],
@@ -719,7 +842,10 @@
         "reload": "",
         "properties": "Acuidade, leve",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-espada-grande",
@@ -736,7 +862,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 cortante. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
@@ -759,7 +889,10 @@
         "reload": "",
         "properties": "Pesada, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-espada-longa",
@@ -776,7 +909,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
       "efeitos": [],
@@ -799,7 +936,10 @@
         "reload": "",
         "properties": "Versátil (1d10)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-glaive",
@@ -816,7 +956,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
@@ -839,7 +983,10 @@
         "reload": "",
         "properties": "Pesada, alcance, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-lanca-de-montaria",
@@ -856,7 +1003,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 perfurante. Propriedades: Alcance, especial.",
       "efeitos": [],
@@ -879,7 +1030,10 @@
         "reload": "",
         "properties": "Alcance, especial",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-lanca-longa",
@@ -896,7 +1050,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 perfurante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
@@ -919,7 +1077,10 @@
         "reload": "",
         "properties": "Pesada, alcance, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-maca-estrela",
@@ -936,7 +1097,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
       "efeitos": [],
@@ -959,7 +1124,10 @@
         "reload": "",
         "properties": "–",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-machado-grande",
@@ -976,7 +1144,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 cortante. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
@@ -999,7 +1171,10 @@
         "reload": "",
         "properties": "Pesada, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-machado-de-batalha",
@@ -1016,7 +1191,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
       "efeitos": [],
@@ -1039,7 +1218,10 @@
         "reload": "",
         "properties": "Versátil (1d10)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-malho",
@@ -1056,7 +1238,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 concussão. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
@@ -1079,7 +1265,10 @@
         "reload": "",
         "properties": "Pesada, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-mangual",
@@ -1096,7 +1285,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: –.",
       "efeitos": [],
@@ -1119,7 +1312,10 @@
         "reload": "",
         "properties": "–",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-martelo-de-guerra",
@@ -1136,7 +1332,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: Versátil (1d10).",
       "efeitos": [],
@@ -1159,7 +1359,10 @@
         "reload": "",
         "properties": "Versátil (1d10)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-picareta-de-guerra",
@@ -1176,7 +1379,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
       "efeitos": [],
@@ -1199,7 +1406,10 @@
         "reload": "",
         "properties": "–",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-rapieira",
@@ -1216,7 +1426,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: Acuidade.",
       "efeitos": [],
@@ -1239,7 +1453,10 @@
         "reload": "",
         "properties": "Acuidade",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-tridente",
@@ -1256,7 +1473,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (6/18), versátil (1d8).",
       "efeitos": [],
@@ -1279,7 +1500,10 @@
         "reload": "",
         "properties": "Arremesso (6/18), versátil (1d8)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-arco-longo",
@@ -1296,7 +1520,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 45/180), pesada, duas mãos.",
       "efeitos": [],
@@ -1319,7 +1547,10 @@
         "reload": "",
         "properties": "Munição (distância 45/180), pesada, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-besta-de-mao",
@@ -1336,7 +1567,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 9/36), leve, recarga.",
       "efeitos": [],
@@ -1359,7 +1594,10 @@
         "reload": "",
         "properties": "Munição (distância 9/36), leve, recarga",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-besta-pesada",
@@ -1376,7 +1614,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d10 perfurante. Propriedades: Munição (distância 30/120), pesada, recarga, duas mãos.",
       "efeitos": [],
@@ -1399,7 +1641,10 @@
         "reload": "",
         "properties": "Munição (distância 30/120), pesada, recarga, duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-rede",
@@ -1416,7 +1661,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: –. Propriedades: Especial, arremesso (distância 1,5/4,5).",
       "efeitos": [],
@@ -1439,7 +1688,10 @@
         "reload": "",
         "properties": "Especial, arremesso (distância 1,5/4,5)",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-arma-zarabatana",
@@ -1456,7 +1708,11 @@
       "pagina": 151,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "arma",
+        "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1 perfurante. Propriedades: Munição (distância 7,5/30), recarga.",
       "efeitos": [],
@@ -1479,7 +1735,10 @@
         "reload": "",
         "properties": "Munição (distância 7,5/30), recarga",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "dd-2014-equipamento-abaco",
@@ -1496,12 +1755,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-acido-vidro",
@@ -1518,7 +1782,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Ataque improvisado com o frasco: 2d6 de dano ácido em caso de acerto.",
       "efeitos": [],
@@ -1528,7 +1795,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-agua-benta-frasco",
@@ -1545,7 +1816,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Pode causar 2d6 de dano radiante a corruptores e mortos-vivos ao acertar.",
       "efeitos": [],
@@ -1555,7 +1829,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-algemas",
@@ -1572,12 +1850,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Prendem criatura Pequena ou Média; libertar-se ou quebrá-las exige testes de atributo.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-algibeira",
@@ -1594,12 +1877,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-aljava",
@@ -1616,12 +1904,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-ampulheta",
@@ -1638,12 +1931,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-antidoto-vidro",
@@ -1660,7 +1958,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Concede vantagem em salvaguardas contra veneno durante 1 hora; não afeta constructos nem mortos-vivos.",
       "efeitos": [],
@@ -1670,7 +1971,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-apito-de-advertencia",
@@ -1687,12 +1992,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-ariete-portatil",
@@ -1709,12 +2019,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Ajuda a arrombar portas: +4 em teste de Força e pode receber ajuda.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-armadilha-de-caca",
@@ -1731,12 +2046,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-arpeu",
@@ -1753,12 +2073,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-balanca-de-mercador",
@@ -1775,12 +2100,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-balde",
@@ -1797,12 +2127,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-barril",
@@ -1819,12 +2154,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-bau",
@@ -1841,12 +2181,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-bolsa-de-componentes",
@@ -1863,12 +2208,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-caixa-de-fogo",
@@ -1885,12 +2235,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-caneca",
@@ -1907,12 +2262,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-caneta-tinteiro",
@@ -1929,12 +2289,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-cantil",
@@ -1951,12 +2316,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-cesto",
@@ -1973,12 +2343,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-cobertor-de-inverno",
@@ -1995,12 +2370,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-corda-de-canhamo-15-metros",
@@ -2017,12 +2397,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Corda utilitária para escalada, amarração e transporte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-corda-de-seda-15-metros",
@@ -2039,12 +2424,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-corrente-3-metros",
@@ -2061,12 +2451,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-equipamento-de-pescaria",
@@ -2083,12 +2478,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-escada-3-metros",
@@ -2105,12 +2505,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-esferas-sacola-com-1-000",
@@ -2127,12 +2532,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-espelho-de-aco",
@@ -2149,12 +2559,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-estrepes-bolsa-com-20",
@@ -2171,12 +2586,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-fechadura",
@@ -2193,12 +2613,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-bastao",
@@ -2215,12 +2640,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-cajado",
@@ -2237,12 +2667,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-cristal",
@@ -2259,12 +2694,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-orbe",
@@ -2281,12 +2721,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-varinha",
@@ -2303,12 +2748,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-cajado-de-madeira",
@@ -2325,12 +2775,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-ramo-de-visco",
@@ -2347,12 +2802,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-totem",
@@ -2369,12 +2829,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-varinha-de-teixo",
@@ -2391,12 +2856,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-fogo-alquimico-frasco",
@@ -2413,7 +2883,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Substância incendiária arremessável que continua queimando até ser apagada.",
       "efeitos": [],
@@ -2423,7 +2896,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-frasco",
@@ -2440,12 +2917,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-garrafa-de-vidro",
@@ -2462,12 +2944,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-giz-1-peca",
@@ -2484,12 +2971,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-grimorio",
@@ -2506,12 +2998,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-jarra",
@@ -2528,12 +3025,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-kit-de-escalada",
@@ -2550,12 +3052,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-kit-de-primeiros-socorros",
@@ -2572,12 +3079,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Material médico usado para estabilizar criaturas feridas.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-lampada",
@@ -2594,12 +3106,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-lanterna-coberta",
@@ -2616,12 +3133,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-lanterna-furta-fogo",
@@ -2638,12 +3160,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-lente-de-aumento",
@@ -2660,12 +3187,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-livro",
@@ -2682,12 +3214,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-luneta",
@@ -2704,12 +3241,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-manto",
@@ -2726,12 +3268,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-marreta",
@@ -2748,12 +3295,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-martelo",
@@ -2770,12 +3322,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-mochila",
@@ -2792,12 +3349,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-municao-balas-de-funda-20",
@@ -2814,12 +3376,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-municao-flechas-20",
@@ -2836,12 +3403,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-municao-virotes-20",
@@ -2858,12 +3430,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-municao-zarabatana-50",
@@ -2880,12 +3457,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-oleo-frasco",
@@ -2902,12 +3484,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pa",
@@ -2924,12 +3511,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-panela-de-ferro",
@@ -2946,12 +3538,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-papel-uma-folha",
@@ -2968,12 +3565,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-parafina",
@@ -2990,12 +3592,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pe-de-cabra",
@@ -3012,12 +3619,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pedra-de-amolar",
@@ -3034,12 +3646,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-perfume-frasco",
@@ -3056,12 +3673,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pergaminho-uma-folha",
@@ -3078,12 +3700,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-picareta-de-minerador",
@@ -3100,12 +3727,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-piton",
@@ -3122,12 +3754,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pocao-de-cura",
@@ -3144,7 +3781,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Restaura 2d4 + 2 pontos de vida ao ser bebida.",
       "efeitos": [],
@@ -3154,7 +3794,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-porta-mapas-ou-pergaminhos",
@@ -3171,12 +3815,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-porta-virotes",
@@ -3193,12 +3842,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-pregos-de-ferro-10",
@@ -3215,12 +3869,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-racoes-de-viagem-1-dia",
@@ -3237,7 +3896,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Alimento não perecível para sustento durante um dia de viagem.",
       "efeitos": [],
@@ -3247,7 +3909,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-equipamento-robes",
@@ -3264,12 +3930,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-roldana-e-polia",
@@ -3286,12 +3957,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-roupas-comuns",
@@ -3308,12 +3984,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-roupas-de-viajante",
@@ -3330,12 +4011,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-roupas-de-entretenimento",
@@ -3352,12 +4038,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-roupas-finas",
@@ -3374,12 +4065,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-sabao",
@@ -3396,12 +4092,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-saco",
@@ -3418,12 +4119,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-saco-de-dormir",
@@ -3440,12 +4146,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-amuleto",
@@ -3462,12 +4173,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-emblema",
@@ -3484,12 +4200,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-relicario",
@@ -3506,12 +4227,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-sinete",
@@ -3528,12 +4254,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-sino",
@@ -3550,12 +4281,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-tenda-para-duas-pessoas",
@@ -3572,12 +4308,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-tocha",
@@ -3594,12 +4335,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Fornece iluminação e pode ser usada como fonte de fogo.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-tinta-frasco-de-30ml",
@@ -3616,12 +4362,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-vara-3-metros",
@@ -3638,12 +4389,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-vela",
@@ -3660,12 +4416,17 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2014"
+      "origemEdicao": "D&D 5e 2014",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2014-equipamento-veneno-basico-frasco",
@@ -3682,7 +4443,10 @@
       "pagina": 152,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "consumivel"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
@@ -3692,7 +4456,11 @@
         "enabled": true,
         "amountPerUse": 1,
         "label": "Usar"
-      }
+      },
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "dd-2014-armadura-acolchoada",
@@ -3709,7 +4477,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3719,7 +4490,10 @@
         "caTexto": "11 + modificador de Des",
         "forcaMinima": "–",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-couro",
@@ -3736,7 +4510,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: –.",
       "efeitos": [],
@@ -3746,7 +4523,10 @@
         "caTexto": "11 + modificador de Des",
         "forcaMinima": "–",
         "furtividade": "–"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-couro-batido",
@@ -3763,7 +4543,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura leve. CA: 12 + modificador de Des. Força mínima: –. Furtividade: –.",
       "efeitos": [],
@@ -3773,7 +4556,10 @@
         "caTexto": "12 + modificador de Des",
         "forcaMinima": "–",
         "furtividade": "–"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-gibao-de-peles",
@@ -3790,7 +4576,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura média. CA: 12 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
       "efeitos": [],
@@ -3800,7 +4589,10 @@
         "caTexto": "12 + modificador de Des (máx. +2)",
         "forcaMinima": "–",
         "furtividade": "–"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-camisao-de-malha",
@@ -3817,7 +4609,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura média. CA: 13 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
       "efeitos": [],
@@ -3827,7 +4622,10 @@
         "caTexto": "13 + modificador de Des (máx. +2)",
         "forcaMinima": "–",
         "furtividade": "–"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-brunea",
@@ -3844,7 +4642,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3854,7 +4655,10 @@
         "caTexto": "14 + modificador de Des (máx. +2)",
         "forcaMinima": "–",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-peitoral",
@@ -3871,7 +4675,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
       "efeitos": [],
@@ -3881,7 +4688,10 @@
         "caTexto": "14 + modificador de Des (máx. +2)",
         "forcaMinima": "–",
         "furtividade": "–"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-meia-armadura",
@@ -3898,7 +4708,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura média. CA: 15 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3908,7 +4721,10 @@
         "caTexto": "15 + modificador de Des (máx. +2)",
         "forcaMinima": "–",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-cota-de-aneis",
@@ -3925,7 +4741,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura pesada. CA: 14. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3935,7 +4754,10 @@
         "caTexto": "14",
         "forcaMinima": "–",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-cota-de-malha",
@@ -3952,7 +4774,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura pesada. CA: 16. Força mínima: For 13. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3962,7 +4787,10 @@
         "caTexto": "16",
         "forcaMinima": "For 13",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-cota-de-talas",
@@ -3979,7 +4807,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura pesada. CA: 17. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -3989,7 +4820,10 @@
         "caTexto": "17",
         "forcaMinima": "For 15",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-armadura-placas",
@@ -4006,7 +4840,10 @@
       "pagina": 147,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "armadura"
       ],
       "descricao": "Proteção armadura pesada. CA: 18. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
@@ -4016,7 +4853,10 @@
         "caTexto": "18",
         "forcaMinima": "For 15",
         "furtividade": "Desvantagem"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-kit-de-disfarce",
@@ -4033,13 +4873,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Cosméticos, tintura de cabelo e pequenos adereços para mudar sua aparência, além de algumas roupas. Com proficiência, você adiciona seu bônus de proficiência a testes para criar um disfarce visual.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-kit-de-falsificacao",
@@ -4056,13 +4902,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Papéis, pergaminhos, canetas, tintas, selos e lacres para criar falsificações convincentes de documentos. Com proficiência, você adiciona seu bônus de proficiência a testes para falsificar um documento.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ladrao",
@@ -4079,13 +4931,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Inclui uma pequena lima, gazuas, um pequeno espelho com cabo de metal, tesouras de lâmina estreita e um par de alicates. Com proficiência, você adiciona seu bônus de proficiência a testes para desarmar armadilhas ou abrir fechaduras.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-carpinteiro",
@@ -4102,13 +4960,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ferreiro",
@@ -4125,13 +4989,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-alquimista",
@@ -4148,13 +5018,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-cozinheiro",
@@ -4171,13 +5047,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-caligrafia",
@@ -4194,13 +5076,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-cervejeiro",
@@ -4217,13 +5105,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-alaude",
@@ -4240,13 +5134,19 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-flauta",
@@ -4263,18 +5163,24 @@
       "pagina": 156,
       "tags": [
         "dnd",
-        "equipamento"
+        "equipamento",
+        "dnd 2014",
+        "livro do jogador 2014",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "revisarDados": false
+      "revisarDados": false,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-do-iluminador",
       "nome": "Tatuagem do Iluminador",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4286,18 +5192,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Permite escrever usando a ponta do dedo como caneta inesgotável e ocultar uma página de texto por 24 horas para todos exceto duas criaturas designadas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum"
+      "raridade": "comum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-mascarada",
       "nome": "Tatuagem Mascarada",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4309,18 +5221,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem mutável, cuja aparência pode ser alterada; permite conjurar Disfarçar-se uma vez por amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum"
+      "raridade": "comum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-membro-protetico",
       "nome": "Membro Protético",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4332,18 +5250,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Prótese mágica que substitui um membro perdido e funciona como parte natural do corpo enquanto estiver conectada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum"
+      "raridade": "comum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-de-feitico",
       "nome": "Tatuagem de Feitiço",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4355,18 +5279,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem de uso único que contém uma magia de até 5º círculo; após conjurar o efeito, desaparece.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "comum"
+      "raridade": "comum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-ferramenta-multifuncional",
       "nome": "Ferramenta Multifuncional",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4378,18 +5308,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Ferramenta mágica de artífice que assume a forma de qualquer ferramenta de artesão, concede bônus às magias e permite aprender temporariamente um truque.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-amuleto-do-devoto",
       "nome": "Amuleto do Devoto",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4401,18 +5337,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Símbolo sagrado que oferece bônus às jogadas de ataque mágico e CDs de magias de clérigo ou paladino; também permite utilizar Canalizar Divindade sem gastar um uso, uma vez por amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-grimorio-arcano",
       "nome": "Grimório Arcano",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4424,18 +5366,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Grimório que serve de foco arcano e oferece bônus a ataques e CDs de magias de mago; permite recuperar uma utilização de Recuperação Arcana.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-barreira",
       "nome": "Tatuagem Barreira",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4447,18 +5395,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem protetora cuja raridade determina a Classe de Armadura que concede enquanto o portador não utiliza armadura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-frasco-de-sangue",
       "nome": "Frasco de Sangue",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4470,18 +5424,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Foco arcano para feiticeiros que melhora ataques e CDs de magias; permite recuperar pontos de feitiçaria após gastar Dados de Vida.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-garra-mistica",
       "nome": "Tatuagem da Garra Mística",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4493,18 +5453,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem que transforma ataques desarmados em mágicos e melhora sua eficácia; pode projetar golpes à distância por tempo limitado.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-de-feywild",
       "nome": "Fragmento de Feywild",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4516,18 +5482,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Fragmento feérico usado como foco de feiticeiro; ativar Metamagia provoca um efeito mágico aleatório relacionado à Agrestia das Fadas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-emblema-do-guardiao",
       "nome": "Emblema do Guardião",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4539,18 +5511,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Insígnia protetora usada por paladino ou clérigo que permite anular um acerto crítico recebido, dentro dos limites de uso do item.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-foice-da-lua",
       "nome": "Foice da Lua",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4562,18 +5540,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Foice mágica para druida ou patrulheiro; acrescenta bônus a ataques, dano e magias, funcionando também como foco de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-manto-da-natureza",
       "nome": "Manto da Natureza",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4585,18 +5569,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Manto para druida ou patrulheiro que serve como foco mágico e pode ocultar o portador com maior facilidade em ambientes naturais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tambor-fabricante-de-ritmo",
       "nome": "Tambor Fabricante de Ritmo",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4608,18 +5598,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tambor mágico que aprimora jogadas de ataque mágico e CDs das magias de bardo e permite recuperar um uso de Inspiração de Bardo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "incomum"
+      "raridade": "incomum",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-compendio-alquimico",
       "nome": "Compêndio Alquímico",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4631,18 +5627,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Livro de magias de mago especializado em transmutação, com cargas que alteram magias preparadas e transformam materiais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-astral",
       "nome": "Fragmento Astral",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4654,18 +5656,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Cristal planar de feiticeiro que concede mobilidade especial ao usar Metamagia, permitindo deslocamento instantâneo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-arquivo-de-astromancia",
       "nome": "Arquivo de Astromancia",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4677,18 +5685,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Livro de magias associado à adivinhação; suas cargas permitem trocar magias preparadas e influenciar resultados por meio de presságios.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-atlas-de-infinitos-horizontes",
       "nome": "Atlas de Infinitos Horizontes",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4700,18 +5714,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Grimório de conjuração planar que permite substituir magias preparadas e efetuar deslocamentos mágicos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-sino-filial",
       "nome": "Sino Filial",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4723,18 +5743,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Foco clerical de natureza protetora com efeitos ligados à recuperação e restauração de aliados.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-devoto-do-censer",
       "nome": "Devoto do Censer",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4746,18 +5772,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Incensário mágico usado como mangual e foco de clérigo ou paladino; pode causar dano radiante adicional e produzir incenso restaurador.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-manuscrito-duplicado",
       "nome": "Manuscrito Duplicado",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4769,18 +5801,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Livro de magia ligado à ilusão; suas cargas permitem trocar magias preparadas e criar efeitos enganosos adicionais.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-elemental",
       "nome": "Fragmento de Essência Elemental",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4792,18 +5830,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Cristal de feiticeiro sintonizado com um elemento; Metamagia ativa um efeito de ar, terra, fogo ou água.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-do-plano-distante",
       "nome": "Fragmento do Plano Distante",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4815,18 +5859,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Fragmento extraplanar de feiticeiro; quando usado com Metamagia, desencadeia um efeito perturbador sobre um alvo.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-manual-do-tecelao-do-coracao",
       "nome": "Manual do Tecelão do Coração",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4838,18 +5888,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Livro de magia ligado à escola de encantamento; contém magias e propriedades que afetam emoções e criaturas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-livro-da-alma-e-carne",
       "nome": "Livro da Alma e Carne",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4861,18 +5917,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Grimório de necromancia que contém magias relacionadas a mortos-vivos e oferece poderes ligados à manipulação da vida e da morte.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-lira-da-construcao",
       "nome": "Lira da Construção",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4884,18 +5946,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Instrumento mágico que protege estruturas e pode criar ou reparar construções e objetos por meio de magia.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-externa",
       "nome": "Fragmento de Essência Externa",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4907,18 +5975,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Cristal que contém essência de Plano Exterior; quando um feiticeiro aplica Metamagia, ativa um efeito conforme a natureza planar do fragmento.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-codex-do-invocador-de-planos",
       "nome": "Códex do Invocador de Planos",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4930,18 +6004,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Grimório que contém feitiços de conjuração e fornece cargas para magia de invocação e vínculos extraplanares.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-versos-protetores",
       "nome": "Versos Protetores",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4953,18 +6033,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Grimório de abjuração capaz de trancar sua própria capa magicamente e usar cargas para proteção contra efeitos mágicos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-da-marca-de-shadowfell",
       "nome": "Tatuagem da Marca de Shadowfell",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4976,18 +6062,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem sombria que concede visão no escuro e facilita furtividade; permite reduzir dano recebido com uma reação limitada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-fragmento-de-shadowfell",
       "nome": "Fragmento de Shadowfell",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -4999,18 +6091,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Cristal das sombras para feiticeiro que, ao empregar Metamagia, pode enfraquecer um alvo com energia sombria.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "raro"
+      "raridade": "raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-da-absorcao",
       "nome": "Tatuagem da Absorção",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5022,18 +6120,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem que proporciona resistência a um tipo específico de dano e permite absorver parte de uma fonte desse dano.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro"
+      "raridade": "muito raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-caldeirao-do-renascimento",
       "nome": "Caldeirão do Renascimento",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5045,18 +6149,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Caldeirão mágico que prepara poções e alimentos, cria substâncias e pode realizar um ritual de retorno à vida.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro"
+      "raridade": "muito raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-cronica-cristalina",
       "nome": "Crônica Cristalina",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5068,18 +6178,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Cristal usado como grimório de mago que pode armazenar magias e ampliar capacidades de conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro"
+      "raridade": "muito raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-da-etapa-fantasma",
       "nome": "Tatuagem da Etapa Fantasma",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5091,18 +6207,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem que permite tornar-se parcialmente incorpóreo e atravessar criaturas ou objetos durante uma duração limitada.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "muito raro"
+      "raridade": "muito raro",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-de-furia-de-sangue",
       "nome": "Tatuagem de Fúria de Sangue",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5114,18 +6236,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Tatuagem lendária com cargas: causa dano necrótico extra e cura o portador em golpes de arma; permite reagir com ataque a quem o feriu.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "lendário"
+      "raridade": "lendário",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-almofariz-e-pilao-de-baba-yaga",
       "nome": "Almofariz e Pilão de Baba Yaga",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5137,18 +6265,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Artefato de alquimia e viagem planar: produz materiais, tritura conteúdos por magia, transforma o pilão em bordão mágico +3 e transporta ocupantes.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tarokka-das-almas-de-luba",
       "nome": "Tarokka das Almas de Luba",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5160,18 +6294,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Baralho artefato que armazena espíritos malignos e pode alterar a sorte de criaturas, com riscos associados às cartas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-poderoso-servo-de-leuk-o",
       "nome": "Poderoso Servo de Leuk-o",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5183,18 +6323,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Construto artefato Enorme operado por criaturas sintonizadas, com grande resistência, movimentos próprios e armamentos poderosos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-dentes-de-dahlver-nar",
       "nome": "Dentes de Dahlver-Nar",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5206,18 +6352,24 @@
       "pagina": 119,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Conjunto de dentes artefato que podem ser implantados para obter efeitos individuais ou semeados para invocar criaturas relacionadas a antigas histórias.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tatuagem-de-aperto-em-espiral",
       "nome": "Tatuagem de Aperto em Espiral",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "mágico",
       "peso": 0,
       "preco": {
@@ -5232,14 +6384,19 @@
       "tags": [
         "dnd",
         "tasha",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "item magico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-tratado-fulminante",
       "nome": "Tratado Fulminante",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "mágico",
       "peso": 0,
       "preco": {
@@ -5254,14 +6411,19 @@
       "tags": [
         "dnd",
         "tasha",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "item magico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-tasha-concertina-de-reveler",
       "nome": "Sanfona de Folião",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "mágico",
       "peso": 0,
       "preco": {
@@ -5276,14 +6438,19 @@
       "tags": [
         "dnd",
         "tasha",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "item magico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-2014-tasha-cajado-de-rao",
       "nome": "Cajado de Rao",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5295,18 +6462,24 @@
       "pagina": 121,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "Ferramenta criada pelo deus Rao para proteger seus fiéis contra os males dos Planos Inferiores; foi danificada por Iggwilv, que a infectou com uma maldição. Propriedades aleatórias (Guia do Mestre): 2 benéficas menores, 1 benéfica principal e 1 prejudicial menor. Tem 6 cargas: enquanto o segura, você pode usar uma ação e gastar cargas para lançar aura de vida, aura de pureza, banimento, farol de esperança e outras magias (CD 18). Veja o livro para as regras completas, inclusive a maldição.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-2014-tasha-demonmico-de-iggwilv",
       "nome": "Demonômico de Iggwilv",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "",
       "peso": 0,
       "preco": {
@@ -5318,13 +6491,19 @@
       "pagina": 123,
       "tags": [
         "dnd",
-        "mágico"
+        "magico",
+        "dnd 2014",
+        "tasha",
+        "item magico"
       ],
       "descricao": "O tratado de demonologia mais completo e blasfemo do multiverso, documentando as camadas e os habitantes do Abismo. Um pedaço do próprio Abismo, enjaulado em suas linhas, mantém o livro sempre atualizado, não importa quantas páginas sejam arrancadas. Possui propriedades aleatórias de artefato e poderes ligados a demônios e magias; veja o livro para as regras completas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
-      "raridade": "artefato"
+      "raridade": "artefato",
+      "categorias": [
+        "item magico"
+      ]
     }
   ]
 }

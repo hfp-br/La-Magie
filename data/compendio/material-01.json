@@ -17,8 +17,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Armas feitas deste metal ignoram redução de dano, inclusive reduções normalmente impossíveis de superar.",
@@ -35,7 +35,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta-rpg-adamante",
@@ -53,8 +56,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Armas causam dano como se fossem uma categoria de tamanho maior; armaduras e escudos pesados podem fornecer redução de dano.",
@@ -71,7 +74,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta-rpg-gelo-eterno",
@@ -89,8 +95,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Material das Montanhas Uivantes. Armas causam dano adicional por frio; armaduras e escudos concedem resistência a frio.",
@@ -107,7 +113,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta-rpg-madeira-tollon",
@@ -125,8 +134,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Madeira negra tão resistente quanto metal. Armas contam como mágicas para superar redução de dano; escudos leves podem conceder RD.",
@@ -143,7 +152,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta-rpg-materia-vermelha",
@@ -161,8 +173,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Material lefeu. Armas ferem criaturas naturais com dano adicional, mas também machucam o usuário; armaduras distorcem ataques recebidos.",
@@ -179,7 +191,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta-rpg-mitral",
@@ -197,8 +212,8 @@
       "tags": [
         "material",
         "material especial",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "equipamento"
       ],
       "descricao": "Metal raro e muito leve. Armas ampliam a margem de ameaça e armaduras são mais leves e flexíveis.",
@@ -215,7 +230,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta20-presa-de-onix-de-constritora-arenosa",
@@ -251,7 +269,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "tormenta20-gema-negra-de-constritora-arenosa",
@@ -287,7 +308,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "t20-dbfree-chifre-de-monstro",
@@ -309,7 +333,7 @@
         "material adicional da dragao brasil"
       ],
       "descricao": "Apenas espadas; aumenta o multiplicador de crítico em 1.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -322,7 +346,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "t20-dbfree-fio-de-aco",
@@ -344,7 +371,7 @@
         "material adicional da dragao brasil"
       ],
       "descricao": "Material especial para armas leves. Uma arma de fio-de-aço fornece +2 em manobras e em Atletismo para escalar, e é fabricada e consertada com Ofício (artesão), não armeiro.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -357,7 +384,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "t20-dbfree-goradio",
@@ -379,7 +409,7 @@
         "material adicional da dragao brasil"
       ],
       "descricao": "Arma leve comestível, equivalente a uma porção de gorad quente; vulnerável a fogo.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -392,7 +422,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "t20-dbfree-hajalbar",
@@ -414,7 +447,7 @@
         "material adicional da dragao brasil"
       ],
       "descricao": "Espadas de corte; conta como mágica e causa +2 de essência.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -427,7 +460,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     },
     {
       "id": "t20-dbfree-lanajuste",
@@ -449,7 +485,7 @@
         "material adicional da dragao brasil"
       ],
       "descricao": "Material especial extremamente afiado que só pode ser usado em cimitarras. Quando a arma obtém um acerto crítico, a criatura atingida fica sangrando.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -462,7 +498,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "material"
+      ]
     }
   ]
 }

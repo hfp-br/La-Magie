@@ -17,7 +17,9 @@
       "tags": [
         "armadura",
         "leve",
-        "fortitude"
+        "fortitude",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Túnica almofadada feita em linho ou lã. É a armadura mais leve e protege todo o corpo. Fornece +2 em testes de Fortitude. Efeitos: Bônus de Defesa +1 Armadura leve; +2 em testes de Fortitude.",
       "schemaVersion": 5,
@@ -46,7 +48,10 @@
         "defenseBonus": 1,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-armadura-de-couro",
@@ -64,7 +69,9 @@
       "tags": [
         "armadura",
         "leve",
-        "couro"
+        "couro",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Armadura cujo peitoral é feito de couro curtido e endurecido, com partes restantes em couro flexível. Efeitos: Bônus de Defesa +2 Armadura leve.",
       "schemaVersion": 5,
@@ -93,7 +100,10 @@
         "defenseBonus": 2,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-couro-batido",
@@ -112,7 +122,9 @@
         "armadura",
         "leve",
         "couro",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Versão mais pesada da armadura de couro, reforçada com rebites de metal. Efeitos: Bônus de Defesa +3 Armadura leve; penalidade de armadura –1.",
       "schemaVersion": 5,
@@ -141,7 +153,10 @@
         "defenseBonus": 3,
         "armorPenalty": -1,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-gibao-de-peles",
@@ -160,7 +175,9 @@
         "armadura",
         "leve",
         "peles",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Armadura formada por várias camadas de peles e couro de animais, comum entre bárbaros e povos selvagens. Efeitos: Bônus de Defesa +4 Armadura leve; penalidade de armadura –3.",
       "schemaVersion": 5,
@@ -189,7 +206,10 @@
         "defenseBonus": 4,
         "armorPenalty": -3,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-couraca",
@@ -208,7 +228,9 @@
         "armadura",
         "leve",
         "metal",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "A mais robusta das armaduras leves, formada por uma placa metálica sobre o peito e as costas, presa sobre um casaco de couro. Efeitos: Bônus de Defesa +5 Armadura leve; penalidade de armadura –4.",
       "schemaVersion": 5,
@@ -237,7 +259,10 @@
         "defenseBonus": 5,
         "armorPenalty": -4,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-brunea",
@@ -256,7 +281,9 @@
         "armadura",
         "pesada",
         "metal",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Colete de couro coberto por pequenas placas metálicas sobrepostas. É uma armadura pesada comum entre soldados de infantaria e guardas. Efeitos: Bônus de Defesa +5 Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
@@ -285,7 +312,10 @@
         "defenseBonus": 5,
         "armorPenalty": -2,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-cota-de-malha",
@@ -305,7 +335,9 @@
         "pesada",
         "malha",
         "metal",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Longa veste feita de anéis metálicos interligados, formando uma malha flexível e resistente que vai até os joelhos. Efeitos: Bônus de Defesa +6 Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
@@ -334,7 +366,10 @@
         "defenseBonus": 6,
         "armorPenalty": -2,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-loriga-segmentada",
@@ -353,7 +388,9 @@
         "armadura",
         "pesada",
         "metal",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Armadura composta por tiras horizontais de metal, muito utilizada por legionários do Império de Tauron. Efeitos: Bônus de Defesa +7 Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
@@ -382,7 +419,10 @@
         "defenseBonus": 7,
         "armorPenalty": -3,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-meia-armadura",
@@ -401,7 +441,9 @@
         "armadura",
         "pesada",
         "metal",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Uma cota de malha reforçada com placas de metal. Efeitos: Bônus de Defesa +8 Armadura pesada; penalidade de armadura –4; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
@@ -430,7 +472,10 @@
         "defenseBonus": 8,
         "armorPenalty": -4,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-armadura-completa",
@@ -450,7 +495,9 @@
         "pesada",
         "metal",
         "placas",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "A mais forte e pesada das armaduras, formada por placas de metal ajustadas para cobrir todo o corpo. Precisa ser feita sob medida; adaptar uma armadura completa a outro usuário custa T$ 200.",
       "schemaVersion": 5,
@@ -479,7 +526,10 @@
         "defenseBonus": 10,
         "armorPenalty": -5,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-cota-elfica",
@@ -504,7 +554,9 @@
         "armadura especifica",
         "elfica",
         "mitral",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Cota de malha defensora de mitral, feita de anéis finíssimos e leves. Permite aplicar Destreza na Defesa como se fosse uma armadura leve. Efeitos: Bônus de Defesa +8 Permite aplicar o bônus de Destreza na Defesa como se fosse uma armadura leve. Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.; Defensora (+2 Defesa); Mitral: penalidade de armadura –2; permite aplicar até 2 pontos de DES por ser armadura pesada; Pode aplicar DES na Defesa como armadura leve",
       "schemaVersion": 5,
@@ -539,7 +591,10 @@
         "defenseBonus": 8,
         "armorPenalty": 0,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-couro-de-monstro",
@@ -562,7 +617,9 @@
         "magico",
         "armadura especifica",
         "monstro",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Gibão de peles defensor feito do couro de grandes monstros das Montanhas Sanguinárias. Efeitos: Bônus de Defesa +6 Ao usar Ataque Poderoso ou fazer uma investida, recebe +2d6 nas rolagens de dano. Armadura leve; penalidade de armadura –3.",
       "schemaVersion": 5,
@@ -597,7 +654,10 @@
         "defenseBonus": 6,
         "armorPenalty": -3,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-loriga-do-centuriao",
@@ -621,7 +681,9 @@
         "armadura especifica",
         "tauron",
         "defensora",
-        "lideranca"
+        "lideranca",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Loriga segmentada defensora dourada e vermelha, marcada com o símbolo de Tauron. Efeitos: Bônus de Defesa +9 Enquanto estiver liderando uma ou mais criaturas (Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo. Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
       "schemaVersion": 5,
@@ -656,7 +718,10 @@
         "defenseBonus": 9,
         "armorPenalty": -3,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-manto-da-noite",
@@ -681,7 +746,9 @@
         "furtividade",
         "sombrio",
         "defensora",
-        "ajustada"
+        "ajustada",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Couro batido ajustado, defensor e sombrio, negro e com partes metálicas foscas. Efeitos: Bônus de Defesa +5 Você não sofre penalidade em Furtividade por se mover em deslocamento normal; a penalidade por atacar diminui para –10. Também possui os benefícios do encanto Sombrio. Armadura leve; penalidade de armadura –1.; Ajustada: reduz a penalidade de armadura em 1; Defensora: +2 Defesa; Sombrio: +5 Furtividade e ignora penalidade de armadura para Furtividade",
       "schemaVersion": 5,
@@ -716,7 +783,10 @@
         "defenseBonus": 5,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-couraca-do-comando",
@@ -741,7 +811,9 @@
         "comando",
         "carisma",
         "defensora",
-        "sob medida"
+        "sob medida",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Couraça banhada a ouro, sob medida e defensora, que irradia uma aura de autoridade. Efeitos: Bônus de Defesa +7 +2 em Carisma Se usar o poder Comandar, o bônus fornecido por ele aumenta para +2.",
       "schemaVersion": 5,
@@ -784,7 +856,10 @@
         "defenseBonus": 7,
         "armorPenalty": -2,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-baluarte-anao",
@@ -810,7 +885,9 @@
         "anao",
         "adamante",
         "defensora",
-        "reforcada"
+        "reforcada",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Armadura completa reforçada, defensora e feita de adamante, criada para oferecer proteção excepcional. Efeitos: Bônus de Defesa +13 Se você não se deslocar em seu turno, a RD fornecida pela armadura aumenta para 10 até o próximo turno. Resistências: RD 5.",
       "schemaVersion": 5,
@@ -845,7 +922,10 @@
         "defenseBonus": 13,
         "armorPenalty": -6,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-carapaca-demoniaca",
@@ -871,7 +951,9 @@
         "demonio",
         "macabra",
         "guardia",
-        "reforcada"
+        "reforcada",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Armadura completa macabra, reforçada e guardiã, forjada para fazer seu usuário parecer um demônio. Efeitos: Bônus de Defesa +15 Se for devoto de uma divindade do Mal, seus ataques corpo a corpo causam +1d8 de trevas. Armadura pesada; penalidade de armadura –5; não aplica DES na Defesa; deslocamento –3 m; adaptação para novo usuário custa T$ 200.; Macabra: +2 Intimidação e –2 Diplomacia; Reforçada: +1 Defesa e +1 penalidade; Guardiã: +4 Defesa",
       "schemaVersion": 5,
@@ -906,7 +988,10 @@
         "defenseBonus": 15,
         "armorPenalty": -6,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-armadura-da-luz",
@@ -933,7 +1018,9 @@
         "luz",
         "guardia",
         "zelosa",
-        "reforcada"
+        "reforcada",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Armadura completa banhada a ouro, reforçada, guardiã e zelosa, marcada com o símbolo de Khalmyr. Efeitos: Bônus de Defesa +15 Se possuir código de conduta ou for devoto de uma divindade do Bem, recebe RD igual ao modificador de Carisma. Uma vez por rodada, quando aliado adjacente for alvo de ataque, pode gastar 1 PM para se tornar o alvo.",
       "schemaVersion": 5,
@@ -974,7 +1061,10 @@
         "defenseBonus": 15,
         "armorPenalty": -6,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-escudo-leve",
@@ -992,8 +1082,8 @@
       "tags": [
         "armadura",
         "escudo",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Escudo de madeira preso ao antebraço que deixa a mão disponível para carregar um objeto, mas não para manejar uma arma. Pode ser usado para atacar; nesse caso, perde seu bônus de CA até o próximo turno.",
@@ -1018,7 +1108,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-escudo-pesado",
@@ -1036,8 +1129,8 @@
       "tags": [
         "armadura",
         "escudo",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Escudo de aço preso ao antebraço e segurado firmemente, ocupando a mão correspondente. Pode ser usado para atacar, mas perde seu bônus de CA até o próximo turno.",
@@ -1062,7 +1155,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-armadura-acolchoada",
@@ -1080,8 +1176,8 @@
       "tags": [
         "armadura",
         "leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura formada por várias camadas sobrepostas de tecido. É a opção mais leve e também a que oferece menos proteção.",
@@ -1106,7 +1202,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-corselete-de-couro",
@@ -1124,8 +1223,8 @@
       "tags": [
         "armadura",
         "leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar mais rígido, enquanto as demais partes são feitas de couro flexível.",
@@ -1150,7 +1249,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-couro-batido",
@@ -1168,8 +1270,8 @@
       "tags": [
         "armadura",
         "leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura de couro rígido e reforçado com rebites de metal, mais pesada que um corselete comum.",
@@ -1194,7 +1296,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-camisa-de-cota-de-malha",
@@ -1212,8 +1317,8 @@
       "tags": [
         "armadura",
         "leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Versão leve da cota de malha, feita de anéis metálicos entrelaçados e destinada a proteger principalmente o torso.",
@@ -1238,7 +1343,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-gibao-de-peles",
@@ -1256,8 +1364,8 @@
       "tags": [
         "armadura",
         "media",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura rústica confeccionada com várias camadas de peles e couro animal, especialmente comum entre bárbaros e povos selvagens.",
@@ -1282,7 +1390,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-brunea",
@@ -1300,8 +1411,8 @@
       "tags": [
         "armadura",
         "media",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Colete de couro revestido com placas metálicas sobrepostas, lembrando as escamas de um peixe.",
@@ -1326,7 +1437,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-cota-de-malha",
@@ -1344,8 +1458,8 @@
       "tags": [
         "armadura",
         "media",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Veste comprida de anéis de metal interligados que formam uma proteção flexível, estendendo-se até os joelhos.",
@@ -1370,7 +1484,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-couraca",
@@ -1388,8 +1505,8 @@
       "tags": [
         "armadura",
         "media",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Peitoral de aço que protege o peito e as costas. Muito utilizado por nobres e oficiais militares.",
@@ -1414,7 +1531,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-cota-de-talas",
@@ -1432,8 +1552,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura de talas metálicas costuradas sobre couro, tradicional entre samurais, mas também encontrada no Reinado.",
@@ -1458,7 +1578,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-loriga-segmentada",
@@ -1476,8 +1599,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura pesada composta de faixas horizontais de metal, tradicional entre os legionários do Império de Tauron.",
@@ -1502,7 +1625,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-meia-armadura",
@@ -1520,8 +1646,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Armadura que combina uma cota de malha com placas metálicas posicionadas sobre as partes vitais.",
@@ -1546,7 +1672,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tormenta-rpg-armadura-completa",
@@ -1564,8 +1693,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "protecao"
       ],
       "descricao": "Uma espada bastarda é muito grande Bordão: um cajado apreciado por viajantes e camponeses, por para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial sua praticidade e preço — assim como uma clava, seu custo é zero. de duas mãos.",
@@ -1590,7 +1719,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-sensual",
@@ -1638,7 +1770,10 @@
         "defenseBonus": 1,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-folhas",
@@ -1686,7 +1821,10 @@
         "defenseBonus": 2,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-engenhoqueiro-goblin",
@@ -1734,7 +1872,10 @@
         "defenseBonus": 3,
         "armorPenalty": -2,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-cota-de-moedas",
@@ -1782,7 +1923,10 @@
         "defenseBonus": 4,
         "armorPenalty": -3,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-colete-fora-da-lei",
@@ -1830,7 +1974,10 @@
         "defenseBonus": 5,
         "armorPenalty": -5,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-brigantina",
@@ -1878,7 +2025,10 @@
         "defenseBonus": 6,
         "armorPenalty": 0,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-chumbo",
@@ -1926,7 +2076,10 @@
         "defenseBonus": 7,
         "armorPenalty": -5,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-justa",
@@ -1974,7 +2127,10 @@
         "defenseBonus": 9,
         "armorPenalty": -5,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-hussardo-alado",
@@ -2022,7 +2178,10 @@
         "defenseBonus": 10,
         "armorPenalty": -6,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-pedra",
@@ -2070,7 +2229,10 @@
         "defenseBonus": 12,
         "armorPenalty": -5,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-das-sombras-profundas",
@@ -2107,7 +2269,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-do-dragao-anciao",
@@ -2144,7 +2309,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-armadura-do-inverno-perene",
@@ -2181,7 +2349,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-cota-da-serpente-marinha",
@@ -2218,7 +2389,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-herois-couraca-do-guardiao-celeste",
@@ -2255,7 +2429,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-dbfree-armadura-do-devorador",
@@ -2274,12 +2451,12 @@
         "armadura",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Bioarmadura de matéria vermelha que se prende ao hospedeiro e pode formar uma armadura completa.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -2292,7 +2469,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-dbfree-armadura-furiosa",
@@ -2311,12 +2491,12 @@
         "armadura",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Armadura completa reforçada guardiã que alimenta o usuário com adrenalina sobrenatural, com grande risco após o combate.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -2329,7 +2509,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-dbfree-armadura-de-couro-selako",
@@ -2348,12 +2531,12 @@
         "armadura",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Armadura de couro espinhosa defensora, especialmente eficiente para natação.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -2366,7 +2549,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-dbfree-sobretudo-de-pele-de-slime",
@@ -2385,12 +2571,12 @@
         "armadura",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Gibão de pele ajustado que acompanha transformações como Forma Selvagem.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -2403,7 +2589,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-armadura-acolchoada",
@@ -2421,7 +2610,8 @@
       "tags": [
         "armadura",
         "leve",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Túnica acolchoada de linho ou lã. É a armadura mais leve e, além da proteção básica, fornece +2 em Fortitude. Efeitos: +1 na Defesa. Espaços: 2; Defesa +1; penalidade de armadura 0",
       "schemaVersion": 5,
@@ -2450,7 +2640,10 @@
         "defenseBonus": 1,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-armadura-de-couro",
@@ -2468,7 +2661,8 @@
       "tags": [
         "armadura",
         "leve",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Peitoral de couro curtido em óleo fervente, com partes flexíveis para preservar a mobilidade. Efeitos: +2 na Defesa. Espaços: 2; Defesa +2; penalidade de armadura 0",
       "schemaVersion": 5,
@@ -2497,7 +2691,10 @@
         "defenseBonus": 2,
         "armorPenalty": 0,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-couro-batido",
@@ -2515,7 +2712,8 @@
       "tags": [
         "armadura",
         "leve",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Versão mais pesada da armadura de couro, reforçada com rebites de metal. Efeitos: +3 na Defesa. Espaços: 2; Defesa +3; penalidade de armadura -1",
       "schemaVersion": 5,
@@ -2544,7 +2742,10 @@
         "defenseBonus": 3,
         "armorPenalty": -1,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-gibao-de-peles",
@@ -2562,7 +2763,8 @@
       "tags": [
         "armadura",
         "leve",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Armadura feita de várias camadas de peles e couro, tradicional entre bárbaros e povos selvagens. Efeitos: +4 na Defesa. Espaços: 2; Defesa +4; penalidade de armadura -3",
       "schemaVersion": 5,
@@ -2591,7 +2793,10 @@
         "defenseBonus": 4,
         "armorPenalty": -3,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-couraca",
@@ -2609,7 +2814,8 @@
       "tags": [
         "armadura",
         "leve",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "A mais robusta das armaduras leves, formada por placas metálicas no peito e nas costas sobre um casaco de couro. Efeitos: +5 na Defesa. Espaços: 2; Defesa +5; penalidade de armadura -4",
       "schemaVersion": 5,
@@ -2638,7 +2844,10 @@
         "defenseBonus": 5,
         "armorPenalty": -4,
         "type": "leve"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-brunea",
@@ -2656,7 +2865,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Colete de couro coberto por pequenas placas metálicas sobrepostas, comum entre soldados e guardas por ser barato de produzir. Efeitos: +5 na Defesa. Espaços: 5; Defesa +5; penalidade de armadura -2",
       "schemaVersion": 5,
@@ -2685,7 +2895,10 @@
         "defenseBonus": 5,
         "armorPenalty": -2,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-cota-de-malha",
@@ -2703,7 +2916,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Longa veste de anéis metálicos interligados, formando uma malha flexível e resistente até os joelhos. Efeitos: +6 na Defesa. Espaços: 5; Defesa +6; penalidade de armadura -2",
       "schemaVersion": 5,
@@ -2732,7 +2946,10 @@
         "defenseBonus": 6,
         "armorPenalty": -2,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-loriga-segmentada",
@@ -2750,7 +2967,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Armadura pesada composta por tiras horizontais de metal, muito usada pelos legionários do antigo Império de Tauron. Efeitos: +7 na Defesa. Espaços: 5; Defesa +7; penalidade de armadura -3",
       "schemaVersion": 5,
@@ -2779,7 +2997,10 @@
         "defenseBonus": 7,
         "armorPenalty": -3,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-meia-armadura",
@@ -2797,7 +3018,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cota de malha reforçada com placas metálicas para aumentar a proteção. Efeitos: +8 na Defesa. Espaços: 5; Defesa +8; penalidade de armadura -4",
       "schemaVersion": 5,
@@ -2826,7 +3048,10 @@
         "defenseBonus": 8,
         "armorPenalty": -4,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "t20-jda-armadura-completa",
@@ -2844,7 +3069,8 @@
       "tags": [
         "armadura",
         "pesada",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "A armadura mais forte e pesada, feita de placas metálicas encaixadas sobre uma túnica acolchoada. É feita sob medida; adaptar para outro usuário custa T$ 200. Efeitos: +10 na Defesa. Espaços: 5; Defesa +10; penalidade de armadura -5",
       "schemaVersion": 5,
@@ -2873,7 +3099,10 @@
         "defenseBonus": 10,
         "armorPenalty": -5,
         "type": "pesada"
-      }
+      },
+      "categorias": [
+        "armadura"
+      ]
     }
   ]
 }

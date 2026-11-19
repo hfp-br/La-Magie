@@ -16,12 +16,17 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Arremessável até 6 m: falha na salvaguarda de Destreza causa 2d6 de dano ácido.",
       "schemaVersion": 5,
-      "revisarDescricao": false
+      "revisarDescricao": false,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-agua-benta",
@@ -38,12 +43,17 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Arremessável até 6 m: ínferos e mortos-vivos sofrem 2d8 de dano radiante se falharem na salvaguarda de Destreza.",
       "schemaVersion": 5,
-      "revisarDescricao": false
+      "revisarDescricao": false,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-algibeira",
@@ -60,11 +70,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequena bolsa de tecido ou couro usada na cintura para guardar moedas e objetos miúdos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-aljava",
@@ -81,11 +96,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Estojo próprio para carregar e retirar flechas com rapidez.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-antitoxina",
@@ -102,11 +122,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Líquido medicinal que auxilia o organismo a resistir a venenos durante um período limitado.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-apito-sinalizador",
@@ -123,11 +148,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Apito portátil cujo som agudo é usado para chamar atenção, transmitir sinais ou pedir socorro.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-ariete-portavel",
@@ -144,11 +174,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pesada viga reforçada, geralmente usada por mais de uma pessoa para arrombar portas e portões.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-armadilha-de-caca",
@@ -165,11 +200,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Armadilha metálica de pressão que imobiliza e fere animais ou criaturas que a acionarem.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-arpeu",
@@ -186,11 +226,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Gancho de ferro que pode ser preso à ponta de uma corda para escalar ou prender objetos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-balde",
@@ -207,11 +252,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Recipiente com alça para transportar água, areia e outros materiais em pequenas quantidades.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-baliza",
@@ -228,11 +278,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Haste ou bastão utilizado para delimitar áreas, marcar posições e sinalizar caminhos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-barril",
@@ -249,11 +304,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Grande recipiente de madeira para armazenamento e transporte de líquidos ou mantimentos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-bau",
@@ -270,11 +330,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Caixa rígida de armazenamento, adequada a equipamentos, roupas e tesouros.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-bolsa-de-componentes",
@@ -291,11 +356,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Bolsa que contém materiais consumíveis de conjuração sem preço específico, usados em magias que exigem componentes.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-cadeado",
@@ -312,11 +382,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Fechadura portátil para correntes, caixas ou portas; pode ser aberta com chave ou ferramentas apropriadas.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-caixa-para-fogo",
@@ -333,11 +408,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Caixa com pederneira, aço e material inflamável para acender fogueiras e tochas.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-caneta-tinteiro",
@@ -354,11 +434,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Instrumento de escrita usado com tinta em papel, pergaminhos e documentos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-cantil-cheio",
@@ -375,11 +460,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Recipiente portátil com água para beber durante viagens.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-cesta",
@@ -396,11 +486,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Recipiente trançado com alças para carregar alimentos, ferramentas e objetos leves.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-cobertor",
@@ -417,11 +512,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Manta de tecido utilizada para aquecer o corpo em descanso e proteger contra o frio moderado.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-corda",
@@ -438,11 +538,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Corda resistente para escalada, amarração, içamento e travessias; requer ancoragem adequada.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-cordao",
@@ -459,11 +564,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Fio ou cordão para amarrar pequenos objetos, prender bolsas e improvisar laços.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-corrente",
@@ -480,11 +590,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Elos metálicos resistentes usados para prender, puxar ou limitar movimentos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-escada",
@@ -501,11 +616,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Escada portátil de madeira para alcançar locais elevados ou transpor pequenos obstáculos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-esferas-de-metal",
@@ -522,11 +642,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequenas esferas que podem ser espalhadas pelo chão para tornar a passagem escorregadia e dificultar movimentação.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-espelho",
@@ -543,11 +668,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequeno espelho portátil usado para observar reflexos, examinar ângulos e fazer sinais luminosos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-estacas-de-ferro",
@@ -564,11 +694,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Estacas resistentes para fixar cordas, barracas e outros equipamentos ao solo.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-estojo-mapa-ou-pergaminho",
@@ -585,11 +720,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Tubo protetor para transportar mapas, cartas e pergaminhos enrolados sem danificá-los.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-estojo-virote-de-besta",
@@ -606,11 +746,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Estojo ou aljava apropriada para armazenar e transportar virotes de besta.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-estrepes",
@@ -627,11 +772,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Peças metálicas pontiagudas que podem ser espalhadas no chão para atrapalhar passagem e ferir pés desprotegidos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-fogo-alquimico",
@@ -648,11 +798,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Mistura inflamável em frasco; quando quebrado, o líquido se incendeia e pode queimar o alvo atingido.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-frasco",
@@ -669,11 +824,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequeno recipiente de vidro ou cerâmica usado para guardar substâncias, poções ou reagentes.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-garrafa-de-vidro-1-litro",
@@ -690,11 +850,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Garrafa reutilizável com capacidade aproximada de um litro para líquidos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-grilhoes",
@@ -711,11 +876,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Algemas metálicas para prender pulsos ou tornozelos; podem ser abertas por chave ou arrombamento.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-jarro-4-litros",
@@ -732,11 +902,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Recipiente grande, próprio para armazenar ou servir até quatro litros de líquido.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-artista",
@@ -753,11 +928,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pacote de suprimentos e utensílios para trabalhos artísticos e apresentações em viagem.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-assaltante",
@@ -774,11 +954,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Conjunto de apetrechos para exploração furtiva, como corda, ferramentas e materiais de infiltração.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-aventureiro",
@@ -795,11 +980,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pacote de suprimentos básicos de exploração e viagem, incluindo recipientes, iluminação e outros itens úteis.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-curandeiro",
@@ -816,12 +1006,17 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Dez usos; estabiliza uma criatura inconsciente com 0 PV sem teste de Medicina.",
       "schemaVersion": 5,
-      "revisarDescricao": false
+      "revisarDescricao": false,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-diplomata",
@@ -838,11 +1033,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Equipamento de apresentação e viagem de um emissário, com roupas e materiais para correspondência.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-erudito",
@@ -859,11 +1059,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Conjunto de material de escrita, livros e acessórios para pesquisa e registro de informações.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-escalada",
@@ -880,11 +1085,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Conjunto de equipamentos de segurança e fixação usado para subir paredões e superfícies íngremes.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-explorador-de-masmorras",
@@ -901,11 +1111,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pacote de suprimentos para cavernas e ruínas, incluindo itens de iluminação, transporte e exploração.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-kit-de-sacerdote",
@@ -922,11 +1137,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Conjunto de suprimentos de viagem para práticas religiosas, vestes e utensílios de devoção.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-lampada",
@@ -943,11 +1163,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Luminária que queima óleo para fornecer luz durante uma viagem ou permanência em acampamento.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-lanterna-coberta",
@@ -964,11 +1189,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Lanterna a óleo com tampa, permitindo reduzir ou bloquear temporariamente a luz emitida.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-lanterna-foca-facho",
@@ -985,11 +1215,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Lanterna cujo refletor direciona a luz em um cone, útil para iluminar áreas à distância.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-livro",
@@ -1006,11 +1241,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Volume encadernado com páginas para consulta, estudo ou registro de informações.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-luneta",
@@ -1027,11 +1267,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Instrumento óptico portátil que aproxima visualmente objetos e locais muito distantes.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-lupa",
@@ -1048,11 +1293,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Lente convexa utilizada para examinar detalhes pequenos, inscrições e materiais delicados.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-mapa",
@@ -1069,11 +1319,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Representação de estradas, relevos ou locais conhecidos, útil para planejar rotas.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-mochila",
@@ -1090,11 +1345,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Bolsa de costas para transportar provisões, ferramentas e equipamentos pessoais.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-oleo",
@@ -1111,11 +1371,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequeno frasco com óleo combustível, empregado em lâmpadas e outros usos práticos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pa",
@@ -1132,11 +1397,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Ferramenta manual para cavar terra, abrir buracos e transportar areia ou cascalho.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-papel",
@@ -1153,11 +1423,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Folha própria para escrita e desenho, usada com tinta ou outro instrumento.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pe-de-cabra",
@@ -1174,11 +1449,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Barra de ferro usada como alavanca para deslocar objetos, abrir tampas ou forçar portas.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-perfume",
@@ -1195,11 +1475,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Frasco de fragrância usado na higiene e apresentação pessoal.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pergaminho",
@@ -1216,16 +1501,21 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Folha de material preparado para escrever cartas, anotações e registros duradouros.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-1-circulo",
       "nome": "Pergaminho Mágico (1º Círculo)",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "equipamento de aventura",
       "peso": 0,
       "preco": {
@@ -1237,16 +1527,22 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "item magico",
+        "equipamento de aventura"
       ],
       "descricao": "Pergaminho consumível com uma magia de 1º círculo inscrita; permite conjurá-la conforme as regras de pergaminhos mágicos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-truque",
       "nome": "Pergaminho Mágico (Truque)",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "equipamento de aventura",
       "peso": 0,
       "preco": {
@@ -1258,16 +1554,22 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "item magico",
+        "equipamento de aventura"
       ],
       "descricao": "Pergaminho consumível que contém um truque mágico e desaparece após sua conjuração.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pocao-de-cura",
       "nome": "Poção de Cura",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "equipamento de aventura",
       "peso": 0.25,
       "preco": {
@@ -1279,12 +1581,18 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "item magico",
+        "equipamento de aventura"
       ],
       "descricao": "Como ação bônus, permite recuperar 2d4 + 2 pontos de vida.",
       "schemaVersion": 5,
-      "revisarDescricao": false
+      "revisarDescricao": false,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pote",
@@ -1301,11 +1609,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Vasilha pequena de cerâmica ou outro material, própria para guardar e servir alimentos ou materiais.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-pote-ferro",
@@ -1322,11 +1635,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Panela ou pote resistente de ferro para cozinhar sobre fogo e preparar alimentos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-racoes",
@@ -1343,11 +1661,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Porção de alimentos não perecíveis preparada para sustentar um viajante por um dia.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-rede",
@@ -1364,11 +1687,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Malha de cordas usada para pescar, capturar ou restringir temporariamente uma criatura.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-roldana-e-polias",
@@ -1385,11 +1713,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Conjunto mecânico de polias e cordas que auxilia a levantar ou movimentar cargas pesadas.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-roupas-fantasia",
@@ -1406,11 +1739,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Traje elaborado para espetáculos, festas, encenações ou disfarces visuais.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-roupas-finas",
@@ -1427,11 +1765,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Vestuário de boa qualidade, adequado a situações formais ou cerimônias.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-roupas-viagem",
@@ -1448,11 +1791,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Roupas resistentes e práticas para jornadas e deslocamentos frequentes.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-saca",
@@ -1469,11 +1817,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Saco simples de tecido para guardar ou transportar provisões e outros objetos.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-saco-de-dormir",
@@ -1490,11 +1843,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Rolo acolchoado que oferece uma superfície isolante para repousar ao ar livre.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-sino",
@@ -1511,11 +1869,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pequeno instrumento metálico que produz som claro quando agitado.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-tenda",
@@ -1532,11 +1895,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Abrigo portátil de lona destinado a proteger pessoas de vento, chuva moderada e exposição.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-tinta",
@@ -1553,11 +1921,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Pigmento líquido usado para escrever ou desenhar com caneta apropriada.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-tocha",
@@ -1574,11 +1947,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Haste combustível acesa para iluminar locais escuros; exige cuidado com fogo.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-vela",
@@ -1595,11 +1973,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Fonte simples de luz por combustão de cera ou material semelhante.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-tunica",
@@ -1616,11 +1999,16 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Peça de vestuário comprida usada como roupa cotidiana ou por cima de outras peças.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-veneno-basico",
@@ -1637,16 +2025,21 @@
       "pagina": 222,
       "tags": [
         "dnd",
-        "2024",
-        "equipamento"
+        "dnd 2024",
+        "equipamento",
+        "livro do jogador 2024",
+        "equipamento de aventura"
       ],
       "descricao": "Veneno preparado para aplicação em arma ou munição; causa dano venenoso conforme suas regras de uso.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-municao-agulhas-50",
       "nome": "Agulhas (50)",
-      "categoria": "munição",
+      "categoria": "municao",
       "subtipo": "munição",
       "peso": 0.5,
       "preco": {
@@ -1658,16 +2051,20 @@
       "pagina": 227,
       "tags": [
         "dnd",
-        "2024",
-        "munição"
+        "dnd 2024",
+        "municao",
+        "livro do jogador 2024"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "dd-2024-municao-balas-de-arma-de-fogo-10",
       "nome": "Balas de arma de fogo (10)",
-      "categoria": "munição",
+      "categoria": "municao",
       "subtipo": "munição",
       "peso": 1,
       "preco": {
@@ -1679,16 +2076,20 @@
       "pagina": 227,
       "tags": [
         "dnd",
-        "2024",
-        "munição"
+        "dnd 2024",
+        "municao",
+        "livro do jogador 2024"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "dd-2024-municao-balas-de-funda-20",
       "nome": "Balas de funda (20)",
-      "categoria": "munição",
+      "categoria": "municao",
       "subtipo": "munição",
       "peso": 0.75,
       "preco": {
@@ -1700,16 +2101,20 @@
       "pagina": 227,
       "tags": [
         "dnd",
-        "2024",
-        "munição"
+        "dnd 2024",
+        "municao",
+        "livro do jogador 2024"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "dd-2024-municao-flechas-20",
       "nome": "Flechas (20)",
-      "categoria": "munição",
+      "categoria": "municao",
       "subtipo": "munição",
       "peso": 0.5,
       "preco": {
@@ -1721,16 +2126,20 @@
       "pagina": 227,
       "tags": [
         "dnd",
-        "2024",
-        "munição"
+        "dnd 2024",
+        "municao",
+        "livro do jogador 2024"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "dd-2024-municao-virotes-20",
       "nome": "Virotes (20)",
-      "categoria": "munição",
+      "categoria": "municao",
       "subtipo": "munição",
       "peso": 0.75,
       "preco": {
@@ -1742,11 +2151,15 @@
       "pagina": 227,
       "tags": [
         "dnd",
-        "2024",
-        "munição"
+        "dnd 2024",
+        "municao",
+        "livro do jogador 2024"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "municao"
+      ]
     }
   ]
 }

@@ -35,7 +35,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tclassico-racas-acoite-finntroll",
@@ -71,7 +74,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tclassico-racas-autogiro",
@@ -91,7 +97,8 @@
         "aeronave",
         "goblin",
         "manual das racas",
-        "tormenta classico"
+        "tormenta classico",
+        "aeronave goblin"
       ],
       "descricao": "Engenho voador que levanta voo com o zumbido de um inseto monstruoso. Mede 4,5m de diâmetro e transporta apenas um piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 15; voa a 50km/h (deslocamento 15m em combate) e o piloto fica sob cobertura.",
       "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 8, 30 PV.",
@@ -107,7 +114,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "tclassico-racas-demoiselle",
@@ -127,7 +137,8 @@
         "aeronave",
         "goblin",
         "manual das racas",
-        "tormenta classico"
+        "tormenta classico",
+        "aeronave goblin"
       ],
       "descricao": "Engenho com grandes asas de morcego que, à distância, lembra um dragão. Envergadura de 4,5m; transporta um único piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 12; voa a 60km/h (deslocamento 18m em combate) e o piloto fica sob cobertura.",
       "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 2, 80 PV.",
@@ -143,7 +154,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "tclassico-racas-dirigivel",
@@ -163,7 +177,8 @@
         "aeronave",
         "goblin",
         "manual das racas",
-        "tormenta classico"
+        "tormenta classico",
+        "aeronave goblin"
       ],
       "descricao": "Versão maior e mais manobrável do balão goblin, em forma de charuto gigantesco, com sistemas de propulsão próprios (–10 na CD de Ofício (baloeiro) para pilotá-lo). A gôndola dá cobertura aos passageiros, mas não aos pilotos. Transporta até seis passageiros Médios e dois pilotos Pequenos.",
       "properties": "Tamanho Descomunal, CA 2 (+ Des do piloto), RD 5, 120 PV.",
@@ -179,7 +194,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     }
   ]
 }

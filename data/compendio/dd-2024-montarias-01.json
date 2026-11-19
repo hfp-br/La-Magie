@@ -18,10 +18,15 @@
       "capacidadeCarga": 225,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-1",
@@ -40,10 +45,15 @@
       "capacidadeCarga": 270,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-2",
@@ -62,10 +72,15 @@
       "capacidadeCarga": 270,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-3",
@@ -84,10 +99,15 @@
       "capacidadeCarga": 240,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-4",
@@ -106,10 +126,15 @@
       "capacidadeCarga": 660,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-5",
@@ -128,10 +153,15 @@
       "capacidadeCarga": 93,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-6",
@@ -150,10 +180,15 @@
       "capacidadeCarga": 210,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "dd-2024-montaria-7",
@@ -172,10 +207,15 @@
       "capacidadeCarga": 112,
       "tags": [
         "dnd",
-        "2024",
-        "montaria"
+        "dnd 2024",
+        "montaria",
+        "livro do jogador 2024",
+        "animal"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "animal"
+      ]
     }
   ]
 }

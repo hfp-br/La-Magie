@@ -17,9 +17,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta flecha +1 é pintada de branco, incluindo suas penas. Ela causa dano não-letal e força a criatura atingida a ser bem-sucedida em um teste de Vontade (CD 11) ou adormecer durante 1 hora.",
       "properties": "",
@@ -35,7 +36,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-virote-gritante",
@@ -53,9 +58,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Ao ser disparado, este virote +2 grita, forçando todos os inimigos a até 6m de seu trajeto a fazer um teste de Vontade (CD 14). Aqueles que falharem ficam abalados por 1 minuto.",
       "properties": "",
@@ -71,7 +77,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-azagaia-dos-relampagos",
@@ -89,9 +99,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta azagaia se torna um relâmpago (como a magia, 6d6 de dano de eletricidade, Ref CD 14 reduz à metade) quando arremessada. Ela é consumida no ataque.",
       "properties": "",
@@ -107,7 +118,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-flecha-assassina",
@@ -125,9 +140,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta flecha é ligada a um tipo de criatura, como uma arma anti-criatura. Se atingir uma criatura do tipo certo, a vítima deve ser bem-sucedida em um teste de Fortitude (CD 20) ou será destruída.",
       "properties": "",
@@ -143,7 +159,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-estilhacadora",
@@ -161,9 +181,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Este grande e desajeitado martelo de guerra é pouco eficaz em combate normal. Com cabo longo e uma imensa cabeça de metal, a marreta estilhaçadora conta com uma superfície de impacto larga, incapaz de causar muito dano real. Sua verdadeira função é despedaçar armaduras e carapaças de monstros — especialmente demônios da Tormenta; com um sucesso decisivo, em vez de causar dano multiplicado, a marreta reduz em 2 o bônus de armadura natural da criatura atingida, ou o bônus de armadura da armadura que a criatura estiver usando. Dano causado a carapaças pode ser restaurado com uma magia cura completa.",
       "properties": "",
@@ -179,7 +200,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-adaga-venenosa",
@@ -197,9 +222,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta adaga +1 tem lâmina negra e serrilhada. Como uma ação livre, seu usuário pode infligir um efeito de envenenamento (como a magia, Fort CD 14 anula) na criatura atingida. Este poder pode ser usado uma vez por dia.",
       "properties": "",
@@ -215,7 +241,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-tridente-de-comandar-peixes",
@@ -233,9 +263,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "O usuário deste tridente +1 pode se comunicar com animais aquáticos (baleias, peixes, lulas...), como a magia falar com animais, e nunca será atacado por eles. Além disso, uma vez por dia, pode lançar enfeitiçar monstro em massa (Vontade CD 22 anula), apenas contra animais aquáticos.",
       "properties": "",
@@ -251,7 +282,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-lingua-flamejante",
@@ -269,9 +304,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Uma espada longa da explosão flamejante +1, a língua flamejante pode disparar um raio de chamas uma vez por dia. O raio exige um ataque de toque à distância, tem alcance de 30m e causa 4d6 de dano de fogo.",
       "properties": "",
@@ -287,7 +323,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-espada-da-sutileza",
@@ -305,9 +345,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada curta +1 tem lâmina delgada e fosca, e fornece +4 nas jogadas de ataque e dano quando utilizada para um ataque furtivo.",
       "properties": "",
@@ -323,7 +364,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-espada-dos-planos",
@@ -341,9 +386,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada longa +1 se torna +4 se usada em qualquer plano que não o Plano Material, ou contra criaturas nativas de qualquer plano que não o Plano Material.",
       "properties": "",
@@ -359,7 +405,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-ladra-das-nove-vidas",
@@ -377,9 +427,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada longa +2 tem o terrível poder de sugar vidas. Quando seu usuário faz um acerto crítico, pode ativar o poder da espada. Se fizer isso, a criatura atingida deve ser bem-sucedida em um teste de Fortitude (CD 20) ou morrerá. A espada pode usar seu poder nove vezes (quer ele seja bemsucedido ou não), quando então se torna apenas uma espada longa +2. 246.",
       "properties": "",
@@ -395,7 +446,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-arco-do-juramento",
@@ -413,9 +468,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Uma vez por dia, o usuário deste arco longo +2 de madeira branca pode jurar em voz alta que irá matar seu alvo. Se fizer isso, contra o alvo jurado o arco se torna +5, suas flechas causam +2d6 de dano e seu multiplicador de crítico se torna x4. Contra todas as outras criaturas, o arco se torna uma arma mundana obra-prima. Além disso, seu usuário sofre –1 nos ataques se usar qualquer outra arma. Esses modificadores duram até o alvo jurado morrer ou sete dias se passarem, o que vier primeiro. O E a Academia Arcana? Não ensina a fabricar itens mágicos? Não. Pode consultar a antiga revista Tormenta 3 ou o acessório Academia Arcana.",
       "properties": "",
@@ -431,7 +487,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-maca-do-terror",
@@ -449,9 +509,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta maça +2 é feita com um osso e um crânio. Como uma ação livre, seu usuário adquire uma aparência assustadora, que deixa todas as criaturas vivas a até 9m apavoradas por 1 minuto (Vontade CD 16 anula). Este poder pode ser usado três vezes por dia. armadura +6, e custa +36.000 TO. Nenhum item pode ter bônus equivalente maior que +10.",
       "properties": "",
@@ -467,7 +528,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-sorvedouro-de-vidas",
@@ -485,9 +550,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Uma criatura atingida por este machado grande +1 sofre dois níveis negativos. Um dia após sofrer os níveis negativos, a criatura deve ser bem-sucedida em um teste de Fortitude (CD 16) para cada nível negativo, ou perderá um nível permanentemente. Cada vez que o sorvedouro de vidas causa dano, seu usuário também sofre um nível negativo. Por este motivo, esta arma é normalmente usada por construtos e mortos-vivos, que não sofrem sua desvantagem.",
       "properties": "",
@@ -503,7 +569,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-sabre-da-perfuracao",
@@ -521,9 +591,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Três vezes por dia, este sabre do sangramento +2 pode ser usado para fazer um ataque de toque que causa 1d6 pontos de dano de Constituição. Este poder não afeta criaturas imunes a acertos críticos. Armaduras e Escudos.",
       "properties": "",
@@ -539,7 +610,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-lamina-do-sol",
@@ -557,9 +632,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada bastarda +2 tem a lâmina dourada e brilhante. Contra criaturas Malignas, seu bônus se torna +4, e contra mortos-vivos ela causa dano dobrado. O portador de uma lâmina do sol pode brandi-la acima da cabeça (uma ação padrão) para que ela irradie luz brilhante como o sol a até 18m, durante 1 minuto.",
       "properties": "",
@@ -575,7 +651,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-estigma-do-gelo",
@@ -593,9 +673,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada grande congelante +3 fornece resistência a fogo 10. Além disso, como uma ação padrão, seu usuário pode dissipar qualquer magia de fogo, como se lançasse dissipar magia maior (bônus de conjurador +14).",
       "properties": "",
@@ -611,7 +692,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-martelo-de-arremesso-anao",
@@ -629,9 +714,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Normalmente um martelo de guerra +2, nas mãos de um anão sua distância aumenta para 9m, seu bônus aumenta em +1 (para um total +3) e ela adquire o poder retorno. Além disso, causa +1d8 de dano, ou +2d8 de dano se usada contra criaturas Grandes ou maiores. O preço na tabela é somado ao preço de um item obra-prima do mesmo tipo. Então, uma couraça +2 custa 200 TO (preço normal da armadura) + 300 TO (por ser obra-prima) + 4.000 TO (pelo bônus mágico), para um total de 4.500 TO.",
       "properties": "",
@@ -647,7 +733,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-vingadora-sagrada",
@@ -665,9 +755,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada longa +2 revela todo o seu poder apenas quando empunhada por um paladino. Nessa situação, se torna uma espada longa sagrada +5, que fornece +4 em testes de resistência contra magia ao usuário e seus aliados a até 3m. Além disso, permite que o usuário lance dissipar magia maior (nível de conjurador igual ao nível de paladino) como uma ação padrão, sem limite de usos diários. Armaduras e escudos com bônus +1 têm aura tênue, com bônus entre +2 e +4 (incluindo bônus de poderes especiais) têm aura moderada, e com +5 ou maior têm aura poderosa.",
       "properties": "",
@@ -683,7 +774,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-arma-magica-lamina-da-sorte",
@@ -701,9 +796,10 @@
       "tags": [
         "arma magica",
         "arma especifica",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "arma"
       ],
       "descricao": "Esta espada curta +2 é cravejada de pequenas jóias. Ela fornece +2 aos testes de resistência de seu usuário e, uma vez por dia, permite que ele role novamente qualquer jogada ou teste que tenha recém realizado. O usuário deve ficar com a segunda rolagem, mesmo sendo pior que a primeira. Por fim, a lâmina da sorte possui três desejos que seu portador pode usar. Quando os desejos terminam, a arma mantém seus outros poderes.",
       "properties": "",
@@ -719,7 +815,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-cota-de-malha-elfica",
@@ -737,7 +837,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -755,7 +855,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-couraca-dos-anoes",
@@ -773,7 +876,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -791,7 +894,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-couro-de-rinoceronte",
@@ -809,7 +915,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -827,7 +933,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-loriga-segmentada-da-sorte",
@@ -845,7 +954,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -863,7 +972,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-armadura-celestial",
@@ -881,7 +993,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -899,7 +1011,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-armadura-das-profundezas",
@@ -917,7 +1032,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -935,7 +1050,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-couraca-do-comando",
@@ -953,7 +1071,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -971,7 +1089,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-armadura-da-velocidade",
@@ -989,7 +1110,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1007,7 +1128,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-armadura-armadura-demoniaca",
@@ -1025,7 +1149,7 @@
       "tags": [
         "armadura",
         "armadura especifica",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1043,7 +1167,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "armadura"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-do-conjurador",
@@ -1061,7 +1188,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1079,7 +1206,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-brilhante",
@@ -1097,7 +1227,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1115,7 +1245,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-espinhoso",
@@ -1133,7 +1266,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1151,7 +1284,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-do-leao",
@@ -1169,7 +1305,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1187,7 +1323,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-alado",
@@ -1205,7 +1344,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1223,7 +1362,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-absorvente",
@@ -1241,7 +1383,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1259,7 +1401,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-escudo-escudo-do-sol",
@@ -1277,7 +1422,7 @@
       "tags": [
         "escudo",
         "escudo especifico",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1295,7 +1440,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-area-escorregadia",
@@ -1313,7 +1461,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1331,7 +1479,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-alarme",
@@ -1349,7 +1500,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1367,7 +1518,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-cerrar-portas",
@@ -1385,7 +1539,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1403,7 +1557,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-ataque-certeiro",
@@ -1421,7 +1578,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1439,7 +1596,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-arma-magica",
@@ -1457,7 +1617,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1475,7 +1635,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-armadura-arcana",
@@ -1493,7 +1656,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1511,7 +1674,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-aumentar-pessoa",
@@ -1529,7 +1695,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1547,7 +1713,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-curar-ferimentos-leves",
@@ -1565,7 +1734,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1583,7 +1752,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-escudo-da-fe",
@@ -1601,7 +1773,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1619,7 +1791,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-invisibilidade-contra-animais",
@@ -1637,7 +1812,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1655,7 +1830,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-invisibilidade-contra-mortos-vivos",
@@ -1673,7 +1851,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1691,7 +1869,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-passos-sem-pegadas",
@@ -1709,7 +1890,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1727,7 +1908,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-pedra-encantada",
@@ -1745,7 +1929,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1763,7 +1947,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-presa-magica",
@@ -1781,7 +1968,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1799,7 +1986,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-protecao-contra-o-mal-bem-caos-ordem",
@@ -1817,7 +2007,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1835,7 +2025,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-reduzir-pessoa",
@@ -1853,7 +2046,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1871,7 +2064,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-remover-medo",
@@ -1889,7 +2085,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1907,7 +2103,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-salto",
@@ -1925,7 +2124,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1943,7 +2142,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-santuario",
@@ -1961,7 +2163,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -1979,7 +2181,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-suportar-elementos",
@@ -1997,7 +2202,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2015,7 +2220,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-agilidade-do-gato",
@@ -2033,7 +2241,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2051,7 +2259,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-ajuda",
@@ -2069,7 +2280,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2087,7 +2298,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-astucia-da-raposa",
@@ -2105,7 +2319,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2123,7 +2337,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-confundir-deteccao",
@@ -2141,7 +2358,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2159,7 +2376,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-curar-ferimentos-moderados",
@@ -2177,7 +2397,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2195,7 +2415,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-dissimular-tendencia",
@@ -2213,7 +2436,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2231,7 +2454,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-escuridao",
@@ -2249,7 +2475,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2267,7 +2493,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-esplendor-da-aguia",
@@ -2285,7 +2514,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2303,7 +2532,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-forca-do-touro",
@@ -2321,7 +2553,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2339,7 +2571,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-invisibilidade",
@@ -2357,7 +2592,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2375,7 +2610,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-levitacao",
@@ -2393,7 +2631,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2411,7 +2649,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-nublar",
@@ -2429,7 +2670,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2447,7 +2688,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-pele-de-arvore",
@@ -2465,7 +2709,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2483,7 +2727,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-remover-paralisia",
@@ -2501,7 +2748,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2519,7 +2766,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-resistencia-a-energia",
@@ -2537,7 +2787,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2555,7 +2805,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-restauracao-menor",
@@ -2573,7 +2826,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2591,7 +2844,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pocao-retardar-envenenamento",
@@ -2609,7 +2865,7 @@
       "tags": [
         "consumivel",
         "pocao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2627,7 +2883,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-arcana-de-1-nivel",
@@ -2645,7 +2904,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2663,7 +2922,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-divina-de-1-nivel",
@@ -2681,7 +2943,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2699,7 +2961,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-arcana-de-2-nivel",
@@ -2717,7 +2982,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2735,7 +3000,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-divina-de-2-nivel",
@@ -2753,7 +3021,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2771,7 +3039,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-arcana-de-3-nivel",
@@ -2789,7 +3060,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2807,7 +3078,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pergaminho-magia-divina-de-3-nivel",
@@ -2825,7 +3099,7 @@
       "tags": [
         "consumivel",
         "pergaminho",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -2843,7 +3117,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-detectar-magia",
@@ -2860,9 +3137,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia detectar magia (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -2878,7 +3156,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-luz",
@@ -2895,9 +3176,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia luz (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -2913,7 +3195,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-aumentar-pessoa",
@@ -2930,9 +3215,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia aumentar pessoa (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -2948,7 +3234,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-curar-ferimentos-leves",
@@ -2965,9 +3254,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia curar ferimentos leves (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -2983,7 +3273,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-detectar-portas-secretas",
@@ -3000,9 +3293,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia detectar portas secretas (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3018,7 +3312,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-enfeiticar-animal",
@@ -3035,9 +3332,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia enfeitiçar animal (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3053,7 +3351,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-enfeiticar-pessoa",
@@ -3070,9 +3371,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia enfeitiçar pessoa (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3088,7 +3390,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-invocar-monstro-i",
@@ -3105,9 +3410,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia invocar monstro i (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3123,7 +3429,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-leque-cromatico",
@@ -3140,9 +3449,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia leque cromático (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3158,7 +3468,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-maos-flamejantes",
@@ -3175,9 +3488,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia mãos flamejantes (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3193,7 +3507,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-misseis-magicos",
@@ -3210,9 +3527,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia mísseis mágicos (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3228,7 +3546,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-toque-chocante",
@@ -3245,9 +3566,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia toque chocante (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3263,7 +3585,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-agilidade-do-gato",
@@ -3280,9 +3605,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia agilidade do gato (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3298,7 +3624,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-arrombar",
@@ -3315,9 +3644,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia arrombar (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3333,7 +3663,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-astucia-da-raposa",
@@ -3350,9 +3683,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia astúcia da raposa (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3368,7 +3702,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-curar-ferimentos-moderados",
@@ -3385,9 +3722,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia curar ferimentos moderados (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3403,7 +3741,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-despedacar",
@@ -3420,9 +3761,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia despedaçar (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3438,7 +3780,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-escuridao",
@@ -3455,9 +3800,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia escuridão (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3473,7 +3819,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-esplendor-da-aguia",
@@ -3490,9 +3839,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia esplendor da águia (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3508,7 +3858,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-flecha-acida",
@@ -3525,9 +3878,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia flecha ácida (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3543,7 +3897,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-forca-do-touro",
@@ -3560,9 +3917,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia força do touro (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3578,7 +3936,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-imobilizar-pessoa",
@@ -3595,9 +3956,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia imobilizar pessoa (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3613,7 +3975,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-invisibilidade",
@@ -3630,9 +3995,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia invisibilidade (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3648,7 +4014,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-invocar-monstro-ii",
@@ -3665,9 +4034,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia invocar monstro ii (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3683,7 +4053,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-levitacao",
@@ -3700,9 +4073,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia levitação (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3718,7 +4092,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-luz-do-dia",
@@ -3735,9 +4112,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia luz do dia (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3753,7 +4131,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-reflexos",
@@ -3770,9 +4151,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia reflexos (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3788,7 +4170,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-retardar-envenenamento",
@@ -3805,9 +4190,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia retardar envenenamento (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3823,7 +4209,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-varinha-sabedoria-da-coruja",
@@ -3840,9 +4229,10 @@
       "pagina": 254,
       "tags": [
         "varinha",
-        "item magico",
+        "magico",
         "modulo basico",
-        "tormenta classico"
+        "tormenta classico",
+        "esoterico"
       ],
       "descricao": "Varinha que lança a magia sabedoria da coruja (veja as regras de varinhas no livro, como cargas e ativação).",
       "properties": "",
@@ -3858,7 +4248,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-enfeiticar",
@@ -3876,7 +4269,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -3894,7 +4287,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-fogo",
@@ -3912,7 +4308,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -3930,7 +4326,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-enxame",
@@ -3948,7 +4347,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -3966,7 +4365,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-cura",
@@ -3984,7 +4386,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4002,7 +4404,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-iluminacao",
@@ -4020,7 +4425,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4038,7 +4443,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-frio",
@@ -4056,7 +4464,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4074,7 +4482,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-abjuracao",
@@ -4092,7 +4503,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4110,7 +4521,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-agressor",
@@ -4128,7 +4542,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4146,7 +4560,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-encantamento",
@@ -4164,7 +4581,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4182,7 +4599,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-ilusao",
@@ -4200,7 +4620,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4218,7 +4638,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-necromancia",
@@ -4236,7 +4659,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4254,7 +4677,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-transmutacao",
@@ -4272,7 +4698,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4290,7 +4716,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-adivinhacao",
@@ -4308,7 +4737,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4326,7 +4755,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-florestas",
@@ -4344,7 +4776,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4362,7 +4794,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-vida",
@@ -4380,7 +4815,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4398,7 +4833,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-passagem",
@@ -4416,7 +4854,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4434,7 +4872,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-esoterico-cajado-poder",
@@ -4452,7 +4893,7 @@
       "tags": [
         "esoterico",
         "cajado",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4470,7 +4911,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-elixir-do-amor",
@@ -4488,7 +4932,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4506,7 +4949,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-po-de-apagar-rastros",
@@ -4524,7 +4970,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4542,7 +4987,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-elixir-da-verdade",
@@ -4560,7 +5008,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4578,7 +5025,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-1",
@@ -4596,7 +5046,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4614,7 +5063,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-da-resistencia-1",
@@ -4632,7 +5084,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4650,7 +5101,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-elixir-de-cuspir-fogo",
@@ -4668,7 +5122,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4686,7 +5139,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-po-da-ilusao",
@@ -4704,7 +5160,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4722,7 +5177,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-chapeu-do-disfarce",
@@ -4740,7 +5198,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4758,7 +5215,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-flauta-do-som",
@@ -4776,7 +5236,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4794,7 +5253,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-protecao-1",
@@ -4812,7 +5274,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4830,7 +5291,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-queda-suave",
@@ -4848,7 +5312,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4866,7 +5329,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-gema-elemental",
@@ -4884,7 +5350,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4902,7 +5367,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-do-sustento",
@@ -4920,7 +5388,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4938,7 +5405,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-mochila-de-carga",
@@ -4956,7 +5426,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -4974,7 +5443,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-elfico",
@@ -4992,7 +5464,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5010,7 +5481,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-aumentar",
@@ -5028,7 +5502,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5046,7 +5520,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-estender",
@@ -5064,7 +5541,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5082,7 +5559,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-silencioso",
@@ -5100,7 +5580,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5118,7 +5598,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-carrilhao-da-abertura",
@@ -5136,7 +5619,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5154,7 +5636,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-corda-da-escalada",
@@ -5172,7 +5657,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5190,7 +5674,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-ferraduras-da-velocidade",
@@ -5208,7 +5695,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5226,7 +5712,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-po-do-desaparecimento",
@@ -5244,7 +5733,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5262,7 +5750,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-amuleto-da-saude-2",
@@ -5280,7 +5771,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5298,7 +5788,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-balsamo-de-pedra",
@@ -5316,7 +5809,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5334,7 +5826,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-da-resistencia-2",
@@ -5352,7 +5847,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5370,7 +5864,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-do-carisma-2",
@@ -5388,7 +5885,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5406,7 +5902,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-luvas-da-destreza-2",
@@ -5424,7 +5923,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5442,7 +5940,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-tiara-do-intelecto-2",
@@ -5460,7 +5961,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5478,7 +5978,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-periapto-da-sabedoria-2",
@@ -5496,7 +5999,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5514,7 +6016,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-cinto-de-forca-2",
@@ -5532,7 +6037,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5550,7 +6054,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-2",
@@ -5568,7 +6075,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5586,7 +6092,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-incenso-da-meditacao",
@@ -5604,7 +6113,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5622,7 +6130,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-imovel",
@@ -5640,7 +6151,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5658,7 +6168,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-do-arqueiro",
@@ -5676,7 +6189,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5694,7 +6206,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-potencializar",
@@ -5712,7 +6227,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5730,7 +6245,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-3",
@@ -5748,7 +6266,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5766,7 +6283,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-da-resistencia-3",
@@ -5784,7 +6304,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5802,7 +6321,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-aumentar-aprimorado",
@@ -5820,7 +6342,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5838,7 +6360,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-estender-aprimorado",
@@ -5856,7 +6381,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5874,7 +6399,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-silencioso-aprimorado",
@@ -5892,7 +6420,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5910,7 +6438,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-botas-da-velocidade",
@@ -5928,7 +6459,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5946,7 +6476,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-cinto-do-monge",
@@ -5964,7 +6497,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -5982,7 +6514,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-gema-da-luminosidade",
@@ -6000,7 +6535,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6018,7 +6552,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-maximizar",
@@ -6036,7 +6573,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6054,7 +6591,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-amuleto-da-saude-4",
@@ -6072,7 +6612,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6090,7 +6629,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-da-resistencia-4",
@@ -6108,7 +6650,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6126,7 +6667,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-do-carisma-4",
@@ -6144,7 +6688,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6162,7 +6705,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-luvas-da-destreza-4",
@@ -6180,7 +6726,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6198,7 +6743,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-tiara-do-intelecto-4",
@@ -6216,7 +6764,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6234,7 +6781,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-periapto-da-sabedoria-4",
@@ -6252,7 +6802,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6270,7 +6819,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-cinto-de-forca-4",
@@ -6288,7 +6840,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6306,7 +6857,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-4",
@@ -6324,7 +6878,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6342,7 +6895,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-botas-aladas",
@@ -6360,7 +6916,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6378,7 +6933,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bainha-das-laminas-afiadas",
@@ -6396,7 +6954,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6414,7 +6971,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-vassoura-voadora",
@@ -6432,7 +6992,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6450,7 +7009,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-protecao-3",
@@ -6468,7 +7030,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6486,7 +7047,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-invisibilidade",
@@ -6504,7 +7068,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6522,7 +7085,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-do-arcano",
@@ -6540,7 +7106,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6558,7 +7123,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-brincos-de-marah",
@@ -6576,7 +7144,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6594,7 +7161,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-amuleto-dos-punhos-poderosos-2",
@@ -6612,7 +7182,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6630,7 +7199,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-aumentar-maior",
@@ -6648,7 +7220,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6666,7 +7238,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-estender-maior",
@@ -6684,7 +7259,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6702,7 +7277,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-silencioso-maior",
@@ -6720,7 +7298,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6738,7 +7316,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-5",
@@ -6756,7 +7337,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6774,7 +7354,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-da-resistencia-5",
@@ -6792,7 +7375,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6810,7 +7392,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-lanterna-da-revelacao",
@@ -6828,7 +7413,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6846,7 +7430,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-medalhao-de-lena",
@@ -6864,7 +7451,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6882,7 +7468,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-protecao-4",
@@ -6900,7 +7489,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6918,7 +7506,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-potencializar-aprimorado",
@@ -6936,7 +7527,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6954,7 +7545,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-acelerar",
@@ -6972,7 +7566,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -6990,7 +7584,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-amuleto-da-saude-6",
@@ -7008,7 +7605,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7026,7 +7622,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manto-do-carisma-6",
@@ -7044,7 +7643,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7062,7 +7660,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-luvas-da-destreza-6",
@@ -7080,7 +7681,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7098,7 +7698,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-tiara-do-intelecto-6",
@@ -7116,7 +7719,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7134,7 +7736,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-periapto-da-sabedoria-6",
@@ -7152,7 +7757,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7170,7 +7774,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-cinto-de-forca-6",
@@ -7188,7 +7795,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7206,7 +7812,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-6",
@@ -7224,7 +7833,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7242,7 +7850,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-movimentacao-livre",
@@ -7260,7 +7871,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7278,7 +7888,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bola-de-cristal",
@@ -7296,7 +7909,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7314,7 +7926,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-orbe-das-tempestades",
@@ -7332,7 +7947,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7350,7 +7964,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bracadeiras-da-armadura-7",
@@ -7368,7 +7985,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7386,7 +8002,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-anel-de-protecao-5",
@@ -7404,7 +8023,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7422,7 +8040,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-amuleto-dos-punhos-poderosos-3",
@@ -7440,7 +8061,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7458,7 +8078,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-maximizar-aprimorado",
@@ -7476,7 +8099,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7494,7 +8117,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-manual-da-saude-corporal-2",
@@ -7512,7 +8138,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7530,7 +8155,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-tomo-da-compreensao-2",
@@ -7548,7 +8176,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7566,7 +8193,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-tomo-dos-grandes-pensamentos-2",
@@ -7584,7 +8214,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7602,7 +8231,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-caveira-negra",
@@ -7620,7 +8252,6 @@
       "tags": [
         "acessorio",
         "magico",
-        "item magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7638,7 +8269,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-basico-acessorio-bastao-metamagico-potencializar-maior",
@@ -7656,7 +8290,7 @@
       "tags": [
         "esoterico",
         "bastao",
-        "item magico",
+        "magico",
         "modulo basico",
         "tormenta classico"
       ],
@@ -7674,7 +8308,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-basico-municao-flechas-20",
@@ -7708,7 +8345,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "tclassico-basico-municao-virotes-10",
@@ -7742,7 +8382,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "tclassico-basico-municao-balas-10",
@@ -7776,7 +8419,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "tclassico-basico-servico-estadia-por-noite",
@@ -7810,7 +8456,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-bile-de-dragao",
@@ -7845,7 +8494,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-extrato-de-lotus-negra",
@@ -7880,7 +8532,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-pomada-bege",
@@ -7915,7 +8570,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-raiz-paralisante",
@@ -7950,7 +8608,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-erva-azul",
@@ -7985,7 +8646,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-essencia-de-sombra",
@@ -8020,7 +8684,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-veneno-de-cascavel",
@@ -8055,7 +8722,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-arsenico",
@@ -8090,7 +8760,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-oleo-ocre",
@@ -8125,7 +8798,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-po-de-lich",
@@ -8160,7 +8836,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-sonifero",
@@ -8195,7 +8874,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-gas-da-sonolencia",
@@ -8230,7 +8912,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-basico-consumivel-nevoa-da-insanidade",
@@ -8265,7 +8950,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     }
   ]
 }

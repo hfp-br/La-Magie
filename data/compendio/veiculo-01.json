@@ -17,7 +17,9 @@
       "tags": [
         "veiculo",
         "aereo",
-        "goblin"
+        "goblin",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Veículo aéreo goblin de tamanho Enorme, com deslocamento 12m, Defesa 8 + mod. Des do baloeiro e 80 PV. Pilotagem diária varia conforme o clima. Efeito: Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo.",
       "schemaVersion": 5,
@@ -33,7 +35,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo."
+      "properties": "Enorme; deslocamento 12m; Defesa 8 + mod. Des do baloeiro; 80 PV; Pilotagem CD 15/20/25 conforme clima; regras especiais de queda e reparo.",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-carroca",
@@ -51,7 +56,9 @@
       "tags": [
         "veiculo",
         "terrestre",
-        "carga"
+        "carga",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Veículo aberto de duas ou quatro rodas para transportar cargas pesadas, puxado por dois cavalos ou um trobo. Inclui arreios.",
       "schemaVersion": 5,
@@ -67,7 +74,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-carruagem",
@@ -85,7 +95,9 @@
       "tags": [
         "veiculo",
         "terrestre",
-        "passageiros"
+        "passageiros",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Veículo fechado de quatro rodas, com capacidade para até quatro passageiros na cabine e dois condutores, puxado por dois cavalos ou um trobo.",
       "schemaVersion": 5,
@@ -101,7 +113,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-canoa",
@@ -119,7 +134,9 @@
       "tags": [
         "veiculo",
         "aquatico",
-        "embarcacao"
+        "embarcacao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Embarcação simples feita a partir de um único tronco de árvore.",
       "schemaVersion": 5,
@@ -135,7 +152,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-veleiro",
@@ -153,7 +173,9 @@
       "tags": [
         "veiculo",
         "aquatico",
-        "navio"
+        "navio",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Navio de viagem com três mastros, bastante utilizado por mercadores.",
       "schemaVersion": 5,
@@ -169,7 +191,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-herois-barcaca",
@@ -203,7 +228,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-herois-biga-de-guerra",
@@ -237,7 +265,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-herois-dirigivel-goblin",
@@ -271,7 +302,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-herois-jangada",
@@ -305,7 +339,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-herois-veleiro-herois-de-arton",
@@ -339,7 +376,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-jda-balao-goblin",
@@ -356,7 +396,8 @@
       "pagina": 156,
       "tags": [
         "veiculo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Veículo aéreo goblin de bolsas de couro e gondola. Voa a 12m, comporta até 8 criaturas Médias ou 160 espaços e perde altitude gradualmente quando muito danificado.",
       "schemaVersion": 5,
@@ -372,7 +413,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-jda-carroca",
@@ -389,7 +433,8 @@
       "pagina": 156,
       "tags": [
         "veiculo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Veículo aberto de duas ou quatro rodas para cargas pesadas, puxado por dois cavalos ou um trobo. Leva até 4 criaturas Médias ou 80 espaços.",
       "schemaVersion": 5,
@@ -405,7 +450,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-jda-carruagem",
@@ -422,7 +470,8 @@
       "pagina": 156,
       "tags": [
         "veiculo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Veículo fechado de quatro rodas para até quatro passageiros, além dos condutores. Usa as estatísticas de uma carroça e fornece cobertura leve aos passageiros.",
       "schemaVersion": 5,
@@ -438,7 +487,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-jda-canoa",
@@ -455,7 +507,8 @@
       "pagina": 156,
       "tags": [
         "veiculo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Embarcação simples escavada em um único tronco. Usa as estatísticas de uma carroça, mas possui deslocamento de natação.",
       "schemaVersion": 5,
@@ -471,7 +524,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "t20-jda-veleiro",
@@ -488,7 +544,8 @@
       "pagina": 156,
       "tags": [
         "veiculo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Navio de três mastros típico de viagens longas e muito usado por mercadores.",
       "schemaVersion": 5,
@@ -504,7 +561,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "veiculo"
+      ]
     }
   ]
 }

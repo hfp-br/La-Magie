@@ -18,14 +18,15 @@
         "arma",
         "marcial",
         "corpo a corpo - leve",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
         "penalidade de armadura",
         "magico",
         "escudo especifico",
         "conjurador",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Escudo leve defensor com uma tira de couro interna capaz de armazenar uma magia como se fosse um pergaminho. Efeitos: Bônus de Defesa +3 Um conjurador pode lançar uma magia na tira interna; ela fica armazenada e pode ser lida como pergaminho. Depois de usada, outra magia pode ser inscrita. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
       "schemaVersion": 5,
@@ -79,7 +80,10 @@
         "defenseBonus": 3,
         "armorPenalty": -1,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-escudo-espinhoso",
@@ -98,14 +102,15 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
         "penalidade de armadura",
         "magico",
         "escudo especifico",
         "espinhos",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Escudo pesado defensor coberto de espinhos, capaz de disparar um deles magicamente. Efeitos: Bônus de Defesa +4 Ação de movimento e 2 PM: dispara um espinho em alvo em alcance curto; acerta automaticamente e causa 1d10+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.; Defensora: +2 Defesa; Espinhoso: dano de ataque com escudo aumenta um passo",
       "schemaVersion": 5,
@@ -159,7 +164,10 @@
         "defenseBonus": 4,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-escudo-do-leao",
@@ -178,14 +186,15 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
         "penalidade de armadura",
         "magico",
         "escudo especifico",
         "leao",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Escudo pesado defensor forjado como uma cabeça de leão rugindo. Efeitos: Bônus de Defesa +4 Uma vez por rodada, pode gastar 2 PM para a cabeça morder criatura adjacente; acerta automaticamente e causa 2d6+2 de perfuração. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
       "schemaVersion": 5,
@@ -239,7 +248,10 @@
         "defenseBonus": 4,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-escudo-do-eclipse",
@@ -258,7 +270,6 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
         "penalidade de armadura",
@@ -266,7 +277,9 @@
         "escudo especifico",
         "trevas",
         "escuridao",
-        "defensora"
+        "defensora",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Escudo pesado defensor completamente negro, que parece absorver a luz. Efeitos: Bônus de Defesa +4 Fornece resistência a trevas 10. Um ataque com o escudo causa +1d8 de trevas.",
       "schemaVersion": 5,
@@ -332,7 +345,10 @@
         "defenseBonus": 4,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-escudo-de-azgher",
@@ -351,7 +367,6 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
         "penalidade de armadura",
@@ -360,7 +375,9 @@
         "azgher",
         "sol",
         "fogo",
-        "guardia"
+        "guardia",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Escudo pesado guardião forjado na forma de um sol estilizado, dedicado a Azgher. Efeitos: Bônus de Defesa +6 Ação padrão e 10 PM: emite luz em cone de alcance curto, gera os efeitos de Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 em mortos-vivos e criaturas vulneráveis à luz solar). Gaste 1 PM no início de cada turno para manter. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
       "schemaVersion": 5,
@@ -414,7 +431,10 @@
         "defenseBonus": 6,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-broquel",
@@ -461,7 +481,10 @@
         "defenseBonus": 0,
         "armorPenalty": -1,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-de-vime",
@@ -508,7 +531,10 @@
         "defenseBonus": 2,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-torre",
@@ -555,7 +581,10 @@
         "defenseBonus": 2,
         "armorPenalty": -4,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-sagna",
@@ -602,7 +631,10 @@
         "defenseBonus": 2,
         "armorPenalty": -3,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-da-luz-estelar",
@@ -639,7 +671,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-da-ira-vulcanica",
@@ -676,7 +711,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-da-natureza-viva",
@@ -713,7 +751,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-do-grifo",
@@ -750,7 +791,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-herois-escudo-do-trovao",
@@ -787,7 +831,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-jda-escudo-leve",
@@ -804,7 +851,8 @@
       "pagina": 153,
       "tags": [
         "escudo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Escudo normalmente de madeira, amarrado ao antebraço. Deixa a mão livre para carregar objetos, mas não para manusear uma arma. Efeitos: +1 na Defesa. Espaços: 1; Defesa +1; penalidade de armadura -1",
       "schemaVersion": 5,
@@ -833,7 +881,10 @@
         "defenseBonus": 1,
         "armorPenalty": -1,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     },
     {
       "id": "t20-jda-escudo-pesado",
@@ -850,7 +901,8 @@
       "pagina": 153,
       "tags": [
         "escudo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Escudo normalmente de aço, preso ao antebraço e empunhado com firmeza, ocupando a mão que o utiliza. Efeitos: +2 na Defesa. Espaços: 2; Defesa +2; penalidade de armadura -2",
       "schemaVersion": 5,
@@ -879,7 +931,10 @@
         "defenseBonus": 2,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "escudo"
+      ]
     }
   ]
 }

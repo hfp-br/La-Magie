@@ -16,11 +16,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Força. Uso: Selar ou abrir porta/recipiente (CD 20).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-cartografo",
@@ -37,11 +41,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Sabedoria. Uso: Criar mapa de pequena área (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-coureiro",
@@ -58,11 +66,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Moldar aparência de item de couro (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-entalhador",
@@ -79,11 +91,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Entalhar padrão em madeira (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-ferreiro",
@@ -100,11 +116,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Força. Uso: Forçar abertura de porta ou recipiente (CD 20).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-funileiro",
@@ -121,11 +141,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Montar pequeno item de sucata que se desfaz em 1 minuto (CD 20).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-joalheiro",
@@ -142,11 +166,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Avaliar gema (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-oleiro",
@@ -163,11 +191,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Examinar histórico recente de objeto de cerâmica (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-pedreiro",
@@ -184,11 +216,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Força. Uso: Cinzelar símbolo ou buraco em pedra (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-sapateiro",
@@ -205,11 +241,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Modificar calçado para ajudar na próxima Acrobacia (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-tecelao",
@@ -226,11 +266,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Reparar roupa ou costurar ornamento (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-vidreiro",
@@ -247,11 +291,15 @@
       "pagina": 220,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Examinar manipulação recente de vidro (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-alquimista",
@@ -268,11 +316,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Identificar substância ou iniciar fogo (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-caligrafo",
@@ -289,11 +341,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Escrever texto resistente à falsificação (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-cervejeiro",
@@ -310,11 +366,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Detectar bebida envenenada (CD 15) ou identificar álcool (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-pintor",
@@ -331,11 +391,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Sabedoria. Uso: Pintar algo reconhecível visto anteriormente (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-utensilios-de-cozinheiro",
@@ -352,11 +416,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Sabedoria. Uso: Melhorar sabor da comida (CD 10) ou detectar comida estragada/envenenada (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-ladrao",
@@ -373,11 +441,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Abrir fechadura ou desarmar armadilha (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-navegador",
@@ -394,11 +466,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Sabedoria. Uso: Traçar rota (CD 10) ou localizar-se pelas estrelas (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-kit-de-disfarce",
@@ -415,11 +491,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Carisma. Uso: Aplicar maquiagem (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-kit-de-falsificacao",
@@ -436,11 +516,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Destreza. Uso: Imitar escrita (CD 15) ou duplicar selo (CD 20).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-kit-de-herbalismo",
@@ -457,11 +541,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Identificar planta (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-ferramenta-kit-de-veneno",
@@ -478,11 +566,15 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "ferramenta"
+        "dnd 2024",
+        "ferramenta",
+        "livro do jogador 2024"
       ],
       "descricao": "Atributo: Inteligência. Uso: Detectar objeto envenenado (CD 10).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-alaude",
@@ -499,11 +591,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-flauta",
@@ -520,11 +617,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-flauta-de-pan",
@@ -541,11 +643,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-gaita-de-foles",
@@ -562,11 +669,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-lira",
@@ -583,11 +695,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-oboe",
@@ -604,11 +721,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-tambor",
@@ -625,11 +747,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-trombeta",
@@ -646,11 +773,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-violino",
@@ -667,11 +799,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     },
     {
       "id": "dd-2024-instrumento-xilofone",
@@ -688,11 +825,16 @@
       "pagina": 221,
       "tags": [
         "dnd",
-        "2024",
-        "música"
+        "dnd 2024",
+        "instrumento musical",
+        "livro do jogador 2024",
+        "ferramenta"
       ],
       "descricao": "Instrumento musical: Carisma. Tocar canção conhecida (CD 10) ou improvisar (CD 15).",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "ferramenta"
+      ]
     }
   ]
 }

@@ -17,7 +17,9 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "restricao"
+        "restricao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Par de algemas para criaturas Médias. Escapar exige uma ação completa e Acrobacia CD 30 ou Força CD 26.",
       "schemaVersion": 5,
@@ -33,7 +35,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-algibeira",
@@ -52,7 +57,9 @@
         "item geral",
         "recipiente",
         "bolsa",
-        "moedas"
+        "moedas",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
       "schemaVersion": 5,
@@ -68,7 +75,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-barraca",
@@ -86,7 +96,9 @@
       "tags": [
         "item geral",
         "acampamento",
-        "sobrevivencia"
+        "sobrevivencia",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Barraca de lona para aventureiros. Conta como saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar. Efeito: +2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas.",
       "schemaVersion": 5,
@@ -102,7 +114,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "+2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas."
+      "properties": "+2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-corda-10m",
@@ -120,7 +135,9 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "corda"
+        "corda",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Rolo com 10 metros de corda de cânhamo. Dar um nó firme exige Destreza CD 10; nó especial, CD 12; arrebentar a corda exige Força CD 23.",
       "schemaVersion": 5,
@@ -136,7 +153,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-espelho-de-metal",
@@ -154,7 +174,9 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "espelho"
+        "espelho",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espelho de metal polido, útil para observar cantos, fazer sinais de luz, auxiliar disfarces e outras aplicações criativas.",
       "schemaVersion": 5,
@@ -170,7 +192,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-instrumento-musical",
@@ -188,8 +213,10 @@
       "tags": [
         "item geral",
         "instrumento",
-        "musica",
-        "bardo"
+        "instrumento musical",
+        "bardo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Instrumento típico, como alaúde, flauta ou lira, muito utilizado por bardos.",
       "schemaVersion": 5,
@@ -205,7 +232,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-kit-de-oficio",
@@ -223,7 +253,9 @@
       "tags": [
         "item geral",
         "kit",
-        "oficio"
+        "oficio",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Conjunto de ferramentas apropriadas para um tipo de Ofício. Sem o kit necessário, o personagem sofre –5 nos testes daquele Ofício. Efeito: Sem o kit adequado: –5 nos testes do Ofício correspondente.",
       "schemaVersion": 5,
@@ -239,7 +271,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Sem o kit adequado: –5 nos testes do Ofício correspondente."
+      "properties": "Sem o kit adequado: –5 nos testes do Ofício correspondente.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-kit-de-disfarces",
@@ -258,7 +293,9 @@
         "item geral",
         "kit",
         "disfarce",
-        "enganacao"
+        "enganacao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Estojo com cosméticos, tintas e acessórios para criar disfarces. Sem este kit, o personagem sofre –5 em Enganação para fazer um disfarce. Efeito: Sem o kit: –5 em Enganação para fazer disfarces.",
       "schemaVersion": 5,
@@ -274,7 +311,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Sem o kit: –5 em Enganação para fazer disfarces."
+      "properties": "Sem o kit: –5 em Enganação para fazer disfarces.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-kit-de-ladrao",
@@ -293,7 +333,9 @@
         "item geral",
         "kit",
         "ladinagem",
-        "gazua"
+        "gazua",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Gazuas, arames e pequenas ferramentas para abrir fechaduras e sabotar mecanismos. Sem o kit, o personagem sofre –5 em Ladinagem para abrir fechaduras e sabotar. Efeito: Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar.",
       "schemaVersion": 5,
@@ -309,7 +351,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar."
+      "properties": "Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-kit-de-medicamentos",
@@ -328,7 +373,9 @@
         "item geral",
         "kit",
         "cura",
-        "medicina"
+        "medicina",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Caixa com ervas, unguentos, bandagens e materiais médicos. Sem este kit, o personagem sofre –5 em testes de Cura. Efeito: Sem o kit: –5 em testes de Cura.",
       "schemaVersion": 5,
@@ -344,7 +391,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Sem o kit: –5 em testes de Cura."
+      "properties": "Sem o kit: –5 em testes de Cura.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-lampiao",
@@ -363,7 +413,9 @@
         "item geral",
         "iluminacao",
         "luz",
-        "oleo"
+        "oleo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Lampião alimentado por óleo. Ilumina até 9m; uma carga dura 6 horas e custa T$ 0,1. Efeito: Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1.",
       "schemaVersion": 5,
@@ -379,7 +431,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1."
+      "properties": "Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-mochila",
@@ -398,7 +453,9 @@
         "item geral",
         "recipiente",
         "bolsa",
-        "viagem"
+        "viagem",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Bolsa reforçada de couro com bolsos e tiras para carregar equipamentos nas costas.",
       "schemaVersion": 5,
@@ -414,7 +471,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-odre",
@@ -433,7 +493,10 @@
         "item geral",
         "recipiente",
         "agua",
-        "bebida"
+        "bebida",
+        "tormenta20",
+        "livro basico",
+        "comida"
       ],
       "descricao": "Bolsa de couro para líquidos. O modelo mais comum comporta 1 litro.",
       "schemaVersion": 5,
@@ -449,7 +512,11 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral",
+        "comida"
+      ]
     },
     {
       "id": "t20-pe-de-cabra",
@@ -468,7 +535,9 @@
         "item geral",
         "ferramenta",
         "forca",
-        "arma improvisada"
+        "arma improvisada",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Barra de ferro para forçar portas e baús. Fornece +5 em testes de Força para abrir portas ou baús. Pode ser usada como uma clava. Efeito: +5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava.",
       "schemaVersion": 5,
@@ -484,7 +553,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "+5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava."
+      "properties": "+5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-pederneira",
@@ -502,7 +574,9 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "fogo"
+        "fogo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna é uma ação completa.",
       "schemaVersion": 5,
@@ -518,7 +592,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-pena",
@@ -535,7 +612,9 @@
       "pagina": 152,
       "tags": [
         "item geral",
-        "escrita"
+        "escrita",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Pena de ave preparada para servir como instrumento de escrita, normalmente usada junto de tinta.",
       "schemaVersion": 5,
@@ -551,7 +630,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-pergaminho-folha",
@@ -569,7 +651,9 @@
       "tags": [
         "item geral",
         "escrita",
-        "pergaminho"
+        "pergaminho",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Folha de pele preparada e tratada para escrita, usada para registrar textos, mapas, fórmulas e mensagens.",
       "schemaVersion": 5,
@@ -585,7 +669,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-saco-de-dormir",
@@ -603,7 +690,9 @@
       "tags": [
         "item geral",
         "acampamento",
-        "descanso"
+        "descanso",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Colchão e coberta fina enroláveis para pernoites. Dormir ao relento sem saco de dormir diminui a recuperação de PV e PM.",
       "schemaVersion": 5,
@@ -619,7 +708,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-saco-de-lona",
@@ -638,7 +730,9 @@
         "item geral",
         "recipiente",
         "bolsa",
-        "carga"
+        "carga",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Saco resistente fechado por corda, com capacidade para até 20 kg. Efeito: Capacidade: até 20 kg.",
       "schemaVersion": 5,
@@ -654,7 +748,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Capacidade: até 20 kg."
+      "properties": "Capacidade: até 20 kg.",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-tinta-frasco",
@@ -672,7 +769,9 @@
       "tags": [
         "item geral",
         "escrita",
-        "tinta"
+        "tinta",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Frasco de 30 ml de tinta preta. Outras cores custam o dobro.",
       "schemaVersion": 5,
@@ -688,7 +787,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-tocha",
@@ -708,7 +810,9 @@
         "iluminacao",
         "luz",
         "fogo",
-        "arma improvisada"
+        "arma improvisada",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Bastão combustível que queima por uma hora e ilumina até 6m. Pode ser usado como arma simples leve. Efeitos: Queima por 1 hora; ilumina 6m; pode ser usada como arma simples leve (1d4 + 1 fogo, crítico x2). Simples, leve; +1 de fogo",
       "schemaVersion": 5,
@@ -742,7 +846,10 @@
         "reload": "",
         "properties": "Simples, leve; +1 de fogo",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-vara-de-madeira-3m",
@@ -760,7 +867,9 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "haste"
+        "haste",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. É frágil demais para servir como arma.",
       "schemaVersion": 5,
@@ -776,7 +885,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-sela",
@@ -795,7 +907,9 @@
         "item geral",
         "montaria",
         "sela",
-        "arreios"
+        "arreios",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Conjunto de sela, arreios, freios e alforjes para equipar uma montaria.",
       "schemaVersion": 5,
@@ -811,7 +925,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-abaco",
@@ -846,7 +963,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-ampulheta",
@@ -881,7 +1001,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-aparelho-de-cha",
@@ -916,7 +1039,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-astrolabio",
@@ -951,7 +1077,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-armacao-para-mochila",
@@ -986,7 +1115,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-asas-do-texugo",
@@ -1021,7 +1153,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-bainha-adornada",
@@ -1056,7 +1191,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-bussola",
@@ -1091,7 +1229,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-cinto-de-utilidades",
@@ -1126,7 +1267,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-condecoracao-militar",
@@ -1161,7 +1305,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-dente-falso",
@@ -1196,7 +1343,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-diagrama-anatomico",
@@ -1231,7 +1381,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-espelho-refletor",
@@ -1266,7 +1419,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estetoscopio",
@@ -1301,7 +1457,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estrepes-bolsa-para-3m",
@@ -1336,7 +1495,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-favor-da-pessoa-amada",
@@ -1371,7 +1533,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-lampiao-de-foco",
@@ -1406,7 +1571,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-leque",
@@ -1441,7 +1609,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-livro-de-metodos-anti-nimb",
@@ -1476,7 +1647,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-lupa",
@@ -1511,7 +1685,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mapa",
@@ -1546,7 +1723,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mecanismo-de-mola",
@@ -1581,7 +1761,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mochila-discreta",
@@ -1616,7 +1799,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-prancheta",
@@ -1651,7 +1837,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-sinete",
@@ -1686,7 +1875,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-apito-de-caca",
@@ -1721,7 +1913,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-baralho-marcado",
@@ -1756,7 +1951,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-espelho-cirurgico",
@@ -1791,7 +1989,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estandarte",
@@ -1826,7 +2027,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estandarte-portatil",
@@ -1861,7 +2065,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-molde-pre-fabricado",
@@ -1896,7 +2103,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-clarim-deheoni",
@@ -1931,7 +2141,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-citara-heptatonica",
@@ -1966,7 +2179,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-cornamusa-de-doherimm",
@@ -2001,7 +2217,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-flauta-sar-allan",
@@ -2036,7 +2255,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-gaita-de-foles",
@@ -2071,7 +2293,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-lira-de-casco-de-tartaruga",
@@ -2106,7 +2331,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-marionetes",
@@ -2141,7 +2369,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-pandeiro-das-estradas",
@@ -2176,7 +2407,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-tamborete-marcial",
@@ -2211,7 +2445,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-trombeta-tapistana",
@@ -2246,7 +2483,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-violino-soprano",
@@ -2281,7 +2521,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-avental-de-forja",
@@ -2316,7 +2559,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-camisolao",
@@ -2351,7 +2597,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-capa-com-dragonas",
@@ -2386,7 +2635,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-casaca-de-apetrechos",
@@ -2421,7 +2673,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-chapeu-emplumado",
@@ -2456,7 +2711,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-elmo-leve",
@@ -2491,7 +2749,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-elmo-pesado",
@@ -2526,7 +2787,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-jaqueta-de-couro",
@@ -2561,7 +2825,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-luva-de-falcoaria",
@@ -2596,7 +2863,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-luva-magnetica",
@@ -2631,7 +2901,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mascara-bucal",
@@ -2666,7 +2939,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mascara-completa",
@@ -2701,7 +2977,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mascara-de-baile",
@@ -2736,7 +3015,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-mascara-de-soldador",
@@ -2771,7 +3053,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-monoculo",
@@ -2806,7 +3091,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-oculos-de-aeronauta",
@@ -2841,7 +3129,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-palmar",
@@ -2876,7 +3167,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-peruca",
@@ -2911,7 +3205,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-rondel",
@@ -2946,7 +3243,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-roupao-elegante",
@@ -2981,7 +3281,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-rufo",
@@ -3016,7 +3319,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-sapatos-confortaveis",
@@ -3051,7 +3357,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-sapatos-de-salto-alto",
@@ -3086,7 +3395,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-veste-acolchoada",
@@ -3121,7 +3433,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-captador-de-luz",
@@ -3156,7 +3471,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-comutador",
@@ -3191,7 +3509,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-conversor-alimentador",
@@ -3226,7 +3547,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-engenho-de-automacao",
@@ -3261,7 +3585,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-espera-para-melhorias",
@@ -3296,7 +3623,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estabilizador",
@@ -3331,7 +3661,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estimulador-de-sobrecarga",
@@ -3366,7 +3699,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-gatilho-de-corda",
@@ -3401,7 +3737,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-giroscopio",
@@ -3436,7 +3775,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-ligacao-de-convergencia",
@@ -3471,7 +3813,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-remontagem-de-portabilidade",
@@ -3506,7 +3851,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-sequenciador-de-ativacao",
@@ -3541,7 +3889,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-sistema-de-refrigeracao",
@@ -3576,7 +3927,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-supressor-de-seguranca",
@@ -3611,7 +3965,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-transformador-mistico",
@@ -3646,7 +4003,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-montaria-leve",
@@ -3681,7 +4041,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-montaria-pesada",
@@ -3716,7 +4079,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-arreios-namalkahnianos",
@@ -3751,7 +4117,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-caparazao",
@@ -3786,7 +4155,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-estribos",
@@ -3821,7 +4193,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-herois-ornamento",
@@ -3856,7 +4231,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-dbfree-lancador-alquimico",
@@ -3875,12 +4253,11 @@
         "item geral",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Dispositivo de duas mãos que aumenta para médio o alcance de um item alquímico ou poção carregado.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -3893,7 +4270,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-agua-benta",
@@ -3911,7 +4291,9 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20",
+        "consumivel"
       ],
       "descricao": "Água sagrada criada com Abençoar Alimentos. Com uma ação padrão, pode atingir um morto-vivo, demônio ou diabo em alcance curto e causar 2d10 de dano de luz, com Reflexos para reduzir à metade.",
       "schemaVersion": 5,
@@ -3927,7 +4309,11 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 0.5"
+      "properties": "Espaços: 0.5",
+      "categorias": [
+        "item geral",
+        "consumivel"
+      ]
     },
     {
       "id": "t20-jda-algemas",
@@ -3945,7 +4331,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Par de algemas para criaturas Médias. Pode prender os dois pulsos ou um pulso a um objeto; escapar exige Acrobacia CD 30, Força CD 25 ou as chaves. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -3961,7 +4348,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-arpeu",
@@ -3979,7 +4369,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Gancho de aço preso a uma corda para fixação em muros, janelas e parapeitos. Prendê-lo exige Pontaria CD 15 e usá-lo para subir fornece +5 em Atletismo. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -3995,7 +4386,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-bandoleira-de-pocoes",
@@ -4013,7 +4407,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cinto com bolsos para pequenos frascos. Enquanto estiver vestindo, permite sacar itens alquímicos e poções como uma ação livre. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4029,7 +4424,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-barraca",
@@ -4047,7 +4445,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Barraca de lona que funciona como saco de dormir para duas pessoas e fornece +2 em Sobrevivência para acampar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4063,7 +4462,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-corda",
@@ -4081,7 +4483,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Rolo de 10m de corda de cânhamo. Ajuda em escaladas e descidas, podendo fornecer +5 em Atletismo em situações apropriadas; também pode ser usada para amarrar criaturas e objetos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4097,7 +4500,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-espelho",
@@ -4115,7 +4521,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Pequeno espelho útil para observar cantos, refletir sinais de luz ou simplesmente se arrumar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4131,7 +4538,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-lampiao",
@@ -4149,7 +4559,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Lampião a óleo com portinholas. Acendê-lo é uma ação padrão; ilumina um raio de 15m e uma carga de óleo dura uma cena. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4165,7 +4576,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-mochila",
@@ -4183,7 +4597,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Bolsa de lona com tiras para ser carregada nas costas. Por si só não conta como item vestido.",
       "schemaVersion": 5,
@@ -4199,7 +4614,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-mochila-de-aventureiro",
@@ -4217,7 +4635,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Mochila de couro reforçado cheia de bolsos e presilhas. Quando vestida, aumenta sua capacidade de carga em 2 espaços e não ocupa espaço de carga.",
       "schemaVersion": 5,
@@ -4233,7 +4652,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-oleo",
@@ -4251,7 +4673,9 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20",
+        "consumivel"
       ],
       "descricao": "Frasco de óleo inflamável para lampiões. Pode ser arremessado em alcance curto; se o alvo sofrer dano de fogo antes do fim do seu próximo turno, sofre +1d6 de fogo e fica em chamas.",
       "schemaVersion": 5,
@@ -4267,7 +4691,11 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 0.5"
+      "properties": "Espaços: 0.5",
+      "categorias": [
+        "item geral",
+        "consumivel"
+      ]
     },
     {
       "id": "t20-jda-organizador-de-pergaminhos",
@@ -4285,7 +4713,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Estojo rígido de madeira ou couro para pergaminhos. Enquanto estiver vestido, permite sacar pergaminhos como ação livre. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4301,7 +4730,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-pe-de-cabra",
@@ -4319,7 +4751,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Barra de ferro que fornece +5 em testes de Força para abrir portas, janelas e baús. Também pode ser usada como uma clava. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4335,7 +4768,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-saco-de-dormir",
@@ -4353,7 +4789,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Colchão fino e enrolável com coberta, necessário para descansar adequadamente ao relento. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4369,7 +4806,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-simbolo-sagrado",
@@ -4387,7 +4827,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Medalhão de madeira ou metal com o símbolo de uma divindade. Se estiver vestido ou empunhado e representar um deus do qual você é devoto, fornece +1 em testes de resistência. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4403,7 +4844,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-tocha",
@@ -4421,7 +4865,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Bastão com material inflamável na ponta. Acender exige ação padrão; ilumina um raio de 9m por uma cena e pode ser usada como arma simples leve, causando 1d4 de impacto +1 de fogo. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4437,7 +4882,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-vara-de-madeira-3m",
@@ -4455,7 +4903,8 @@
       "tags": [
         "item geral",
         "equipamento de aventura",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Haste de madeira de 3m, útil para alcançar locais distantes. É frágil demais para servir como arma. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4471,7 +4920,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-alaude-elfico",
@@ -4489,7 +4941,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Alaúde de madeira refinada e manufatura delicada. Enquanto empunhado, permite usar Inspiração como ação de movimento e conta como instrumento musical. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4505,7 +4958,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-colecao-de-livros",
@@ -4523,7 +4979,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Pequena coleção de tomos sobre um assunto específico. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião, escolhido na compra ou fabricação. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4539,7 +4996,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-equipamento-de-viagem",
@@ -4557,7 +5017,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Saco com pederneira, utensílios de cozinha, anzol, linha e pequena pá. Sem este equipamento, você sofre –5 em Sobrevivência para montar acampamento. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4573,7 +5034,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-estojo-de-disfarces",
@@ -4591,7 +5055,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Conjunto de cosméticos, tintas e próteses simples. Sem ele, você sofre –5 em Enganação para criar disfarces. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4607,7 +5072,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-flauta-mistica",
@@ -4625,7 +5093,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Instrumento com runas e pequenas gemas. Um bardo que a empunhe aumenta em +1 a CD para resistir às suas magias; também conta como instrumento musical. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4641,7 +5110,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-gazua",
@@ -4659,7 +5131,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Barra fina de ferro com ponta curva. Sem uma gazua, você sofre –5 em Ladinagem para abrir fechaduras. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4675,7 +5148,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-instrumentos-de-oficio",
@@ -4693,7 +5169,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Conjunto de ferramentas específicas para uma perícia de Ofício. Sem os instrumentos adequados, você sofre –5 nos testes desse Ofício. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4709,7 +5186,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-instrumento-musical",
@@ -4727,7 +5207,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Instrumento típico como bandolim, flauta ou lira. Bardos precisam empunhá-lo com duas mãos para seus benefícios e Músicas de Bardo; também pode funcionar como esotérico para bardos.",
       "schemaVersion": 5,
@@ -4743,7 +5224,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-luneta",
@@ -4761,7 +5245,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cilindro metálico com lentes que fornece +5 em Percepção para observar coisas em alcance longo ou além. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4777,7 +5262,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-maleta-de-medicamentos",
@@ -4795,7 +5283,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Caixa com ervas, unguentos, bandagens e outros suprimentos médicos. Sem ela, você sofre –5 em Cura. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4811,7 +5300,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-sela",
@@ -4829,7 +5321,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Peça de couro e pelego com arreios para controlar uma montaria. Montar sem sela impõe –5 em Cavalgar; quando usada no animal, não ocupa espaço do personagem. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4845,7 +5338,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-tambor-das-profundezas",
@@ -4863,7 +5359,8 @@
       "tags": [
         "item geral",
         "ferramenta",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Tambor anão de som grave. Enquanto empunhado, dobra o alcance de Inspiração e de qualquer Música de Bardo; conta como instrumento musical. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4879,7 +5376,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-andrajos-de-aldeao",
@@ -4897,7 +5397,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Roupas simples de camponês. Fornecem +2 em Investigação para interrogar e aumentam a CD de Aparência Inofensiva em +2, mas podem impor –2 em perícias de Carisma contra pessoas preocupadas com classe social.",
       "schemaVersion": 5,
@@ -4913,7 +5414,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-bandana",
@@ -4931,7 +5435,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Lenço típico de bandidos e piratas. Fornece +1 em Intimidação. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4947,7 +5452,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-botas-reforcadas",
@@ -4965,7 +5473,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Botas grossas de cano alto que protegem contra terreno ruim. Aumentam seu deslocamento em +1,5m quando ele for reduzido por terreno difícil. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -4981,7 +5490,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-camisa-bufante",
@@ -4999,7 +5511,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Blusa colorida com mangas e gola volumosas. Fornece +1 em Atuação. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5015,7 +5528,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-capa-esvoacante",
@@ -5033,7 +5549,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Capa de seda de movimentos amplos e chamativos. Fornece +1 em Enganação. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5049,7 +5566,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-capa-pesada",
@@ -5067,7 +5587,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Capa grossa de couro que protege e aquece. Fornece +1 em Fortitude. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5083,7 +5604,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-casaco-longo",
@@ -5101,7 +5625,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Casaco quente de peles ou couro forrado e impermeabilizado. Fornece +5 em Fortitude contra frio, mas impõe penalidade de armadura –2. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5117,7 +5642,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-chapeu-arcano",
@@ -5135,7 +5663,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Chapéu pontudo adornado com símbolos místicos. Fornece +1 PM, mas apenas para personagens com Caminho do Arcanista. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5151,7 +5680,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-enfeite-de-elmo",
@@ -5169,7 +5701,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Adorno vistoso para elmo, como plumas, asas ou totem animal. Fornece resistência a medo +2. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5185,7 +5718,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-farrapos-de-ermitao",
@@ -5203,7 +5739,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Trapos adornados com plantas e raízes. Fornecem +2 em Adestramento, mas impõem –2 em Diplomacia e em Investigação para interrogar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5219,7 +5756,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-gorro-de-ervas",
@@ -5237,7 +5777,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Chapéu preenchido com ervas preparadas para concentração. Fornece +1 em Vontade. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5253,7 +5794,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-luva-de-pelica",
@@ -5271,7 +5815,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Luvas finas que preservam o tato e evitam que os dedos escorreguem. Fornecem +1 em Ladinagem. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5287,7 +5832,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-manopla",
@@ -5305,7 +5853,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Luva metálica que torna o dano de ataques desarmados letal. Conta como arma para receber melhorias e encantos usados nesses ataques. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5321,7 +5870,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-manto-camuflado",
@@ -5339,7 +5891,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Manto feito para um terreno específico. No terreno correto, fornece +2 em Furtividade. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5355,7 +5908,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-manto-eclesiastico",
@@ -5373,7 +5929,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Manto típico de igrejas e templos. Fornece +1 em Religião. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5389,7 +5946,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-robe-mistico",
@@ -5407,7 +5967,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Manto longo com temas arcanos. Fornece +1 em Misticismo. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5423,7 +5984,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-sapatos-de-camurca",
@@ -5441,7 +6005,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Calçados leves e resistentes que melhoram o equilíbrio. Fornecem +1 em Acrobacia. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5457,7 +6022,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-tabardo",
@@ -5475,7 +6043,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Colete de tecido normalmente estampado com heráldica de reino, igreja, casa nobre ou ordem. Fornece +1 em Diplomacia. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5491,7 +6060,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-traje-da-corte",
@@ -5509,7 +6081,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Roupas de luxo feitas sob medida, com joias e acessórios. Em ambientes formais, personagens sem esse traje podem sofrer –5 em perícias baseadas em Carisma. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5525,7 +6098,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-traje-de-viajante",
@@ -5543,7 +6119,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Conjunto de botas, calças ou saia, cinto, camisa de linho e capa com capuz; é a roupa padrão de aventureiros.",
       "schemaVersion": 5,
@@ -5559,7 +6136,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-jda-veste-de-seda",
@@ -5577,7 +6157,8 @@
       "tags": [
         "item geral",
         "vestuario",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Roupa leve e elegante que permite movimentos livres. Fornece +1 em Reflexos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -5593,7 +6174,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-citola-da-paz",
@@ -5629,7 +6213,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     }
   ]
 }

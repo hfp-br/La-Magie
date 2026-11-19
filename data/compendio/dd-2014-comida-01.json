@@ -22,11 +22,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-carne-pedaco",
@@ -49,11 +55,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-cerveja-galao",
@@ -76,11 +88,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-cerveja-caneca",
@@ -103,11 +121,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-pao-pedaco",
@@ -130,11 +154,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-queijo-pedaco",
@@ -157,11 +187,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-vinho-comum-jarra",
@@ -184,11 +220,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2014-alimento-vinho-fino-garrafa",
@@ -211,11 +253,17 @@
       },
       "tags": [
         "dnd",
-        "2014",
+        "dnd 2014",
         "comida",
-        "bebida"
+        "bebida",
+        "livro do jogador 2014",
+        "consumivel"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     }
   ]
 }

@@ -19,7 +19,10 @@
         "arma",
         "unico",
         "espada longa",
-        "rhond"
+        "rhond",
+        "tormenta20",
+        "livro basico",
+        "arma magica"
       ],
       "descricao": "Artefato divino cultuado como uma entidade por si só. É uma espada longa de aparência simples, mas considerada uma das armas mais poderosas de Arton. Efeitos: É indestrutível e ignora resistência a dano. Seus acertos críticos afetam mesmo criaturas normalmente imunes a acertos críticos. Quando usa a ação atacar, pode gastar 2 PM para realizar um ataque adicional com ela; se possuir Ataque Extra, o custo diminui em –1 PM.",
       "schemaVersion": 5,
@@ -79,7 +82,12 @@
         "properties": "Atroz; precisa; pungente; ameaçadora; magnífica; veloz; ignora resistência a dano; críticos afetam criaturas imunes a crítico",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-joia-da-alma",
@@ -98,7 +106,9 @@
         "artefato",
         "gema",
         "unico",
-        "memoria"
+        "memoria",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Gema indestrutível de vinte faces ligada aos primórdios da Criação. Recupera memórias perdidas, mas seu uso prolongado ameaça a sanidade de mortais. Efeitos: +6 em Inteligência enquanto estiver portando a Joia. Para magos, o custo básico de magias arcanas diminui para 0 PM; custos de aprimoramentos ainda são pagos. Enquanto a segura, recupera instantaneamente todas as memórias de sua vida; ao soltá-la, as memórias voltam ao esquecimento.",
       "schemaVersion": 5,
@@ -141,7 +151,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Indestrutível; empunhar exige Vontade CD 25 e novos testes diários com CD cumulativamente maior."
+      "properties": "Indestrutível; empunhar exige Vontade CD 25 e novos testes diários com CD cumulativamente maior.",
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-baralho-do-caos",
@@ -161,7 +174,9 @@
         "baralho",
         "unico",
         "caos",
-        "jogatina"
+        "jogatina",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Baralho aparentemente comum capaz de alterar drasticamente o destino de quem aposta tudo e compra suas cartas. Efeitos: +10 em Jogatina durante uso normal; a critério do mestre pode virar –10 se o usuário abusar da sorte. Ao declarar “Eu aposto tudo”, saque de 1 a 4 cartas e role os efeitos da tabela do Baralho do Caos. Um personagem treinado em Jogatina pode tentar CD 30 para rejeitar uma carta e sacar outra, uma vez. Após esse uso, o artefato desaparece e reaparece em outro lugar.",
       "schemaVersion": 5,
@@ -192,7 +207,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Fornece +10 em Jogatina enquanto usado normalmente; abuso da sorte pode transformar o bônus em –10 a critério do mestre."
+      "properties": "Fornece +10 em Jogatina enquanto usado normalmente; abuso da sorte pode transformar o bônus em –10 a critério do mestre.",
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-olho-de-sszzaas",
@@ -212,7 +230,9 @@
         "cajado",
         "unico",
         "sszzaas",
-        "magia"
+        "magia",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Cajado de madeira fossilizada que sustenta uma gema esverdeada contendo parte da consciência de Sszzaas. Efeitos: Permite lançar qualquer magia que o portador conheça ou tenha ouvido falar, arcana ou divina, sem pagar o custo básico em PM. Aprimoramentos ainda custam PM. Cada magia exige Misticismo CD 20 + custo em PM da magia incluindo aprimoramentos. Falha pode provocar efeito imprevisível, sob controle do mestre. Reconhecer e aprender a usar exige Conhecimento CD 30.",
       "schemaVersion": 5,
@@ -241,7 +261,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Reconhecer e aprender a usar exige Conhecimento CD 30."
+      "properties": "Reconhecer e aprender a usar exige Conhecimento CD 30.",
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-rubi-da-virtude",
@@ -261,7 +284,9 @@
         "gema",
         "unico",
         "rubi",
-        "divino"
+        "divino",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Uma das vinte gemas divinas conhecidas como Rubis da Virtude. Cada rubi carrega parte da essência dos antigos deuses do Panteão. Efeitos: Cada Rubi incrustado fornece um nível de experiência em uma classe que o portador já possua. Cada Rubi fornece RD 2 e +1 em testes de resistência; os benefícios são cumulativos inclusive entre Rubis. Magias de adivinhação contra o portador exigem Misticismo CD 25 + quantidade de Rubis ou falham.",
       "schemaVersion": 5,
@@ -296,7 +321,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Cada rubi é indetectável por meios mágicos e só pode ser destruído por um deus do Panteão. Para ativar seus benefícios deve ser incrustado no corpo com Cura CD 25; o efeito surge após um dia."
+      "properties": "Cada rubi é indetectável por meios mágicos e só pode ser destruído por um deus do Panteão. Para ativar seus benefícios deve ser incrustado no corpo com Cura CD 25; o efeito surge após um dia.",
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-gladio-da-alvorada",
@@ -316,7 +344,9 @@
         "arma",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Gládio de metal claro ligado ao Deus do Sol, capaz de banir mortos-vivos e forças profanas. Efeitos: Uma vez por cena, ação padrão e 3 PM: gera o efeito de Expulsar Mortos-Vivos como se você fosse um clérigo do seu nível. Preciso; piedoso; sagrado; artefato.",
       "schemaVersion": 5,
@@ -357,7 +387,12 @@
         "reload": "",
         "properties": "Preciso; piedoso; sagrado; artefato.",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-lamina-dos-ossos",
@@ -380,7 +415,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Espada curta feita com fragmentos humanos e associada aos espíritos daqueles mortos por ela. Efeitos: +2 em Defesa enquanto o item estiver ativo. Ação completa e 3 PM: invoca 2d4+2 espíritos em espaços desocupados em alcance curto. Cada espírito causa 1d6+1 de corte a uma criatura adjacente e desaparece no fim do turno; danos ao mesmo alvo se acumulam em um único dano. Precisa; defensora; formidável; artefato.",
       "schemaVersion": 5,
@@ -429,7 +466,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Precisa; defensora; formidável; artefato."
+      "properties": "Precisa; defensora; formidável; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-rapieira-do-destino",
@@ -452,7 +494,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Florete ligado ao destino e à justiça, capaz de deslocar seu portador pelo espaço. Efeitos: Enquanto empunha a arma, pode lançar Salto Dimensional apenas em si mesmo. Se já conhece a magia, o custo diminui em –1 PM. Certeiro; equilibrado; veloz; artefato. agil; Certeiro; equilibrado; veloz; artefato.",
       "schemaVersion": 5,
@@ -494,7 +538,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Certeiro; equilibrado; veloz; artefato."
+      "properties": "Certeiro; equilibrado; veloz; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-delirio-escarlate",
@@ -516,7 +565,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Espada longa viva e sanguinária que absorve parte do dano causado para assumir uma forma maior. Efeitos: Ao causar dano em animal, humanoide ou monstro, pode escolher reduzir o dano causado e armazenar essa quantidade. Ao acumular pelo menos 16 + For de dano numa cena, deixa de absorver e, até o fim da cena, passa a ser considerada uma montante cruel, drenante e magnífica. Cruel; drenante; formidável; artefato.",
       "schemaVersion": 5,
@@ -558,7 +609,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Cruel; drenante; formidável; artefato."
+      "properties": "Cruel; drenante; formidável; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-perdicao-das-brumas",
@@ -580,7 +636,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Montante que grava os sonhos de criaturas inteligentes mortas por ela e pode transformá-los em aliados espectrais. Efeitos: Quando mata criatura com Int –2 ou maior, grava um sonho. Ação padrão e 1 PM: sacrifica um sonho para criar parceiro espectral atirador, combatente, fortão ou guardião. Até 5º nível: iniciante por 1 rodada; 6º–11º: veterano por 3 rodadas; 12º+: mestre por uma cena. Atroz; formidável; adamante; artefato.",
       "schemaVersion": 5,
@@ -622,7 +680,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Atroz; formidável; adamante; artefato."
+      "properties": "Atroz; formidável; adamante; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-lingua-do-trovao",
@@ -643,11 +706,12 @@
         "corpo a corpo - uma mao",
         "adaptavel",
         "agil",
-        "pode ser usada como marcial de duas maos",
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Katana de mitral ligada ao trovão e a uma antiga linhagem do Império. Efeitos: Pode gastar 2 PM para realizar um ataque extra. Se já tiver Ataque Extra, o custo dessa habilidade diminui em –1 PM. Pungente; elétrica; veloz; mitral; artefato. adaptavel; agil; pode ser usada como marcial de duas maos; Pungente; elétrica; veloz; mitral; artefato.",
       "schemaVersion": 5,
@@ -689,7 +753,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Pungente; elétrica; veloz; mitral; artefato."
+      "properties": "Pungente; elétrica; veloz; mitral; artefato.; pode ser usada como marcial de duas maos",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-vinganca-rubra",
@@ -711,7 +780,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Espada orgânica de matéria vermelha, cruel e faminta por sangue. Efeitos: Precisa ser alimentada com sangue de animal, humanoide ou monstro sempre que for desembainhada ou em até 1d6 dias. Caso contrário, For é reduzida em –1 até matar uma criatura desses tipos. Ao atacar, pode gastar 1 PM para causar +2d6 de dano. Criaturas que presenciarem a crueldade ficam abaladas por 1 rodada; Vontade CD Car evita. Cruel; macabra; excruciante; matéria vermelha; artefato.",
       "schemaVersion": 5,
@@ -759,7 +830,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Cruel; macabra; excruciante; matéria vermelha; artefato."
+      "properties": "Cruel; macabra; excruciante; matéria vermelha; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-alfange-dos-milagres",
@@ -781,7 +857,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Alfange azul e dourado associado às preces daqueles que precisam de proteção. Efeitos: +2 em Defesa enquanto o item estiver ativo. Quando faz um ataque, pode gastar 5 PM para criar por 1 rodada uma barreira que fornece RD 10 a você e aliados em raio de 6m. Ao surgir, inimigos em raio de 9m ficam cegos por 1 rodada; Reflexos CD For evita e torna imune a este efeito por 1 dia. Defensor; formidável; artefato.",
       "schemaVersion": 5,
@@ -830,7 +908,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Defensor; formidável; artefato."
+      "properties": "Defensor; formidável; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-equilibrio",
@@ -850,11 +933,12 @@
         "exotica",
         "corpo a corpo - uma mao",
         "adaptavel",
-        "pode ser usada como marcial de duas maos",
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Espada bastarda forjada por sir Duncan como símbolo de paz e equilíbrio. Efeitos: +2 em Defesa enquanto o item estiver ativo. Se empunhada com duas mãos por um paladino com For 5 ou mais, concede os benefícios de uma Vingadora Sagrada: +5 em ataque e dano, Golpe Divino custa –1 PM e você e aliados em alcance curto recebem resistência a magia +5. Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais.",
       "schemaVersion": 5,
@@ -903,7 +987,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais."
+      "properties": "Equilibrada; precisa; defensora; artefato; requer paladino com For 5 ou mais.; pode ser usada como marcial de duas maos",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-brilhante-feerica",
@@ -926,7 +1015,9 @@
         "artefato",
         "magico",
         "sir duncan",
-        "dragao brasil 222"
+        "dragao brasil 222",
+        "tormenta20",
+        "arma magica"
       ],
       "descricao": "Espada curta feérica de mitral que revela uma forma maior de pura energia mágica. Efeitos: Se possuir um código de conduta, ação de movimento e 2 PM: até o fim da cena, transforma-se em uma montante atroz, energética, formidável e de mitral. Atroz; formidável; mitral; artefato. leve; Atroz; formidável; mitral; artefato.",
       "schemaVersion": 5,
@@ -968,7 +1059,12 @@
         "allowedToggles": [],
         "damageStat": "str"
       },
-      "properties": "Atroz; formidável; mitral; artefato."
+      "properties": "Atroz; formidável; mitral; artefato.",
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-o-desbravador",
@@ -986,10 +1082,11 @@
       "tags": [
         "artefato",
         "arma",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
-        "unico"
+        "unico",
+        "arma magica"
       ],
       "descricao": "Mangual lendário de Valkaria, presenteado aos Libertadores. Artefato divino ligado à ambição e à aventura.",
       "properties": "",
@@ -1005,7 +1102,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-holy-avenger",
@@ -1023,10 +1125,11 @@
       "tags": [
         "artefato",
         "arma",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
-        "unico"
+        "unico",
+        "arma magica"
       ],
       "descricao": "Espada bastarda divina de poder extremo, capaz de destruir criaturas com um golpe de poder absoluto. Efeito: Espada bastarda +10; artefato divino.",
       "properties": "Espada bastarda +10; artefato divino.",
@@ -1042,7 +1145,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-kailash",
@@ -1060,10 +1168,11 @@
       "tags": [
         "artefato",
         "arma",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
-        "unico"
+        "unico",
+        "arma magica"
       ],
       "descricao": "Arma halfling mutável que pode assumir formas de maça, picareta ou lança, além de capturar e arrastar inimigos. Efeito: Arma mágica +3; explosão flamejante; retorno.",
       "properties": "Arma mágica +3; explosão flamejante; retorno.",
@@ -1079,7 +1188,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-o-olho-de-sszzaas",
@@ -1097,8 +1211,8 @@
       "tags": [
         "artefato",
         "cajado",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
         "unico"
       ],
@@ -1116,7 +1230,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "tormenta-rpg-rhumnam-a-espada-da-justica",
@@ -1134,10 +1251,11 @@
       "tags": [
         "artefato",
         "arma",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
-        "unico"
+        "unico",
+        "arma magica"
       ],
       "descricao": "Espada pessoal de Khalmyr. Nas mãos de alguém digno, é devastadora contra criaturas malignas e mortos-vivos. Efeito: Espada grande inteligente +5.",
       "properties": "Espada grande inteligente +5.",
@@ -1153,7 +1271,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-rubi-da-virtude",
@@ -1171,8 +1294,8 @@
       "tags": [
         "artefato",
         "gema",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
         "unico"
       ],
@@ -1190,7 +1313,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "tormenta-rpg-shorder",
@@ -1208,8 +1334,8 @@
       "tags": [
         "artefato",
         "armadura",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
         "unico"
       ],
@@ -1227,7 +1353,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "tormenta-rpg-slash-calliber",
@@ -1245,10 +1374,11 @@
       "tags": [
         "artefato",
         "arma",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "magico",
-        "unico"
+        "unico",
+        "arma magica"
       ],
       "descricao": "Espada inteligente que deseja combate e tenta provocar conflitos ao redor do portador. Efeito: Espada longa anárquica da velocidade +3.",
       "properties": "Espada longa anárquica da velocidade +3.",
@@ -1264,7 +1394,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-armadura-de-cranio-negro",
@@ -1301,7 +1436,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-herois-escudo-impervio",
@@ -1338,7 +1476,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-herois-kailash",
@@ -1359,7 +1500,8 @@
         "tormenta20",
         "herois de arton",
         "unico",
-        "magico"
+        "magico",
+        "arma magica"
       ],
       "descricao": "Arma mutável e lendária de Sandro Galtran, com capacidades de captura, arrasto e mudança de forma.",
       "properties": "",
@@ -1375,7 +1517,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-lorde-enxame",
@@ -1396,7 +1543,8 @@
         "tormenta20",
         "herois de arton",
         "unico",
-        "magico"
+        "magico",
+        "arma magica"
       ],
       "descricao": "Espada longa inteligente com os encantos certeira, cruel, anticriatura (humanoides), magnífica e venenosa. Permite lançar Legião apenas sobre criaturas de natureza insetoide, a critério do mestre. Artefato de nível 20, Ego 39, com 31 PM, fala, percepção às cegas em alcance médio e as magias Compreensão, Enxame de Pestes e Visão Mística (CD 25).",
       "properties": "",
@@ -1412,7 +1560,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-monoculo-da-verdade",
@@ -1449,7 +1602,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     },
     {
       "id": "t20-herois-slash-calliber",
@@ -1470,7 +1626,8 @@
         "tormenta20",
         "herois de arton",
         "unico",
-        "magico"
+        "magico",
+        "arma magica"
       ],
       "descricao": "Espada longa inteligente, falante e provocadora, com os encantos certeira, cruel, elétrica e formidável. Permite ao portador lançar Relâmpago; se já conhecer essa magia, seu custo diminui em 1 PM. Artefato de nível 20, Ego 31, com 25 PM, visão no escuro e magias Compreensão e Relâmpago (CD 25).",
       "properties": "",
@@ -1486,7 +1643,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-vinganca-de-khinlanas",
@@ -1507,7 +1669,8 @@
         "tormenta20",
         "herois de arton",
         "unico",
-        "magico"
+        "magico",
+        "arma magica"
       ],
       "descricao": "Arco longo lendário com os encantos atroz, preciso, pungente e magnífico. Concede +1 cumulativo em testes de ataque e dano se o portador for elfo e/ou devoto de Glórienn (+2 caso reúna ambas as condições). O portador também soma seu Carisma às rolagens de dano.",
       "properties": "",
@@ -1523,7 +1686,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-wakizashi-da-morte",
@@ -1544,7 +1712,8 @@
         "tormenta20",
         "herois de arton",
         "unico",
-        "magico"
+        "magico",
+        "arma magica"
       ],
       "descricao": "Espada curta formidável. Criaturas inteligentes que veem o próprio reflexo na lâmina recebem a visão de sua morte e, inicialmente, +2 na Defesa e nos testes de resistência. Quando o momento profetizado se aproxima, esses bônus se tornam penalidades de –10 e qualquer ataque que as acerte é um crítico automático. Mortes previstas fora de combate seguem efeitos próprios, decididos conforme a profecia.",
       "properties": "",
@@ -1560,7 +1729,12 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato",
+        "arma magica",
+        "arma"
+      ]
     }
   ]
 }

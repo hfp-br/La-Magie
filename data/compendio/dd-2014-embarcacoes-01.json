@@ -17,10 +17,16 @@
       "descricao": "Velocidade: 1.5 km/h. ",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-embarcacao-barco-a-remo",
@@ -38,10 +44,16 @@
       "descricao": "Velocidade: 2 km/h. Peso próprio: 45 kg.",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-embarcacao-dracar",
@@ -59,10 +71,16 @@
       "descricao": "Velocidade: 5 km/h. ",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-embarcacao-galera",
@@ -80,10 +98,16 @@
       "descricao": "Velocidade: 6.5 km/h. ",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-embarcacao-navio-de-guerra",
@@ -101,10 +125,16 @@
       "descricao": "Velocidade: 4 km/h. ",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2014-embarcacao-veleiro",
@@ -122,10 +152,16 @@
       "descricao": "Velocidade: 3 km/h. ",
       "tags": [
         "dnd",
-        "2014",
-        "embarcação"
+        "dnd 2014",
+        "embarcacao",
+        "livro do jogador 2014",
+        "veiculo",
+        "aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     }
   ]
 }

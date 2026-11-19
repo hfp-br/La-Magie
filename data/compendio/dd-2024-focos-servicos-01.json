@@ -18,12 +18,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco arcano"
+        "foco arcano",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Arcano: adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-arcano-cetro",
@@ -42,12 +47,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco arcano"
+        "foco arcano",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Arcano: adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-arcano-cristal",
@@ -66,12 +76,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco arcano"
+        "foco arcano",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Arcano: adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-arcano-orbe",
@@ -90,12 +105,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco arcano"
+        "foco arcano",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Arcano: adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-arcano-varinha",
@@ -114,12 +134,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco arcano"
+        "foco arcano",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Arcano: adornado ou esculpido para canalizar magia arcana. Um Bruxo, Feiticeiro ou Mago pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-druidico-cajado-de-madeira-tambem-um-bastao",
@@ -138,12 +163,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco druidico"
+        "foco druidico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Druídico: esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-druidico-ramo-de-visco",
@@ -162,12 +192,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco druidico"
+        "foco druidico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Druídico: esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-foco-druidico-varinha-de-teixo",
@@ -186,12 +221,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "foco druidico"
+        "foco druidico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Foco Druídico: esculpido, amarrado com fita ou pintado para canalizar magia primitiva. Um Druida ou Guardião pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-simbolo-sagrado-amuleto-usado-ou-segurado",
@@ -210,12 +250,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "simbolo sagrado"
+        "simbolo sagrado",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Símbolo Sagrado: representa uma divindade ou panteão. Um Clérigo ou Paladino pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-simbolo-sagrado-emblema-exibido-em-tecido-ou-em-um-escudo",
@@ -234,12 +279,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "simbolo sagrado"
+        "simbolo sagrado",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Símbolo Sagrado: representa uma divindade ou panteão. Um Clérigo ou Paladino pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-equipamento-simbolo-sagrado-relicario-segurado",
@@ -258,12 +308,17 @@
         "dnd",
         "equipamento",
         "foco de conjuracao",
-        "simbolo sagrado"
+        "simbolo sagrado",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Símbolo Sagrado: representa uma divindade ou panteão. Um Clérigo ou Paladino pode usá-lo como Foco de Conjuração.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-desvalido-por-dia",
@@ -281,12 +336,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão desvalido. Já incluído nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-pobre-por-dia",
@@ -304,12 +364,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão pobre. Já incluído nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-modesto-por-dia",
@@ -327,12 +392,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão modesto. Já incluído nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-confortavel-por-dia",
@@ -350,12 +420,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão confortável. Já incluído nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-abastado-por-dia",
@@ -373,12 +448,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão abastado. Já incluído nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-alojamento-aristocratico-por-dia",
@@ -396,12 +476,17 @@
       "tags": [
         "dnd",
         "servico",
-        "hospedagem"
+        "hospedagem",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma noite de alojamento no padrão aristocrático. Já incluído nas despesas de estilo de vida. (O PDF traz 4 PP, provável erro de digitação: o padrão abastado custa 2 PO.)",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-desvalido",
@@ -418,12 +503,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão desvalido. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-pobre",
@@ -440,12 +532,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão pobre. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-modesto",
@@ -462,12 +561,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão modesto. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-confortavel",
@@ -484,12 +590,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão confortável. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-abastado",
@@ -506,12 +619,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão abastado. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-refeicao-aristocratico",
@@ -528,12 +648,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Uma refeição no padrão aristocrático. Já incluída nas despesas de estilo de vida.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-cerveja-caneca",
@@ -550,12 +677,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Comida ou bebida avulsa (tabela Comida, Bebida e Hospedagem).",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-pao-fatia",
@@ -572,12 +706,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Comida ou bebida avulsa (tabela Comida, Bebida e Hospedagem).",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-queijo-fatia",
@@ -594,12 +735,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Comida ou bebida avulsa (tabela Comida, Bebida e Hospedagem).",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-vinho-comum-garrafa",
@@ -616,12 +764,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Comida ou bebida avulsa (tabela Comida, Bebida e Hospedagem).",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-consumivel-vinho-bom-garrafa",
@@ -638,12 +793,19 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "comida e bebida"
+        "comida",
+        "dnd 2024",
+        "livro do jogador 2024",
+        "consumivel"
       ],
       "descricao": "Comida ou bebida avulsa (tabela Comida, Bebida e Hospedagem).",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "consumivel",
+        "comida"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-desvalido-por-dia",
@@ -661,12 +823,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Você vive em condições precárias, sem segurança nem conforto. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-pobre-por-dia",
@@ -684,12 +851,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Moradia simples e sem conforto; o básico para sobreviver. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-modesto-por-dia",
@@ -707,12 +879,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Fora das favelas; um quarto simples, limpo, e equipamento mantido. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-confortavel-por-dia",
@@ -730,12 +907,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Roupas melhores, um quarto privado e equipamento bem cuidado. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-abastado-por-dia",
@@ -753,12 +935,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Uma vida de luxo, com boas acomodações, comida de qualidade e alguns serviçais. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-estilo-de-vida-aristocratico-por-dia",
@@ -776,12 +963,17 @@
       "tags": [
         "dnd",
         "servico",
-        "estilo de vida"
+        "estilo de vida",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "O topo da sociedade, com as melhores acomodações, comida e serviços. Despesa diária que cobre alojamento, comida e manutenção do equipamento. Os estilos de vida não têm consequências inerentes, mas o Mestre pode considerá-las.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conducao-de-carroca-dentro-de-uma-cidade-por-km",
@@ -798,12 +990,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Viagem conduzida, acrescida de eventuais pedágios.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conducao-de-carroca-entre-aldeias-cidades-por-km",
@@ -820,12 +1017,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Viagem conduzida, acrescida de eventuais pedágios.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-passagem-de-navio-por-km",
@@ -842,12 +1044,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Passagem a bordo de um navio.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-pedagio-de-estrada-ou-portao",
@@ -864,12 +1071,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Taxa de estrada ou portão.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-mensageiro-por-km",
@@ -886,12 +1098,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Entrega de mensagens.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-trabalhador-nao-qualificado-por-dia",
@@ -908,12 +1125,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Trabalho que não exige proficiências específicas: carregadores, operários.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-trabalhador-qualificado-por-dia",
@@ -930,12 +1152,17 @@
       "pagina": 231,
       "tags": [
         "dnd",
-        "servico"
+        "servico",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Alguém contratado para um serviço que envolve uma proficiência: mercenário, artesão etc. O pagamento é o mínimo.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-truque",
@@ -953,12 +1180,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Vila, aldeia ou cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-1-circulo",
@@ -976,12 +1208,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Vila, aldeia ou cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-2-circulo",
@@ -999,12 +1236,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Vila, aldeia ou cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-3-circulo",
@@ -1022,12 +1264,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Apenas aldeia ou cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-45-circulos",
@@ -1045,12 +1292,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Apenas aldeia ou cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-68-circulos",
@@ -1068,12 +1320,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Apenas cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     },
     {
       "id": "dd-2024-servico-conjuracao-de-magia-9-circulo",
@@ -1091,12 +1348,17 @@
       "tags": [
         "dnd",
         "servico",
-        "conjuracao"
+        "conjuracao",
+        "dnd 2024",
+        "livro do jogador 2024"
       ],
       "descricao": "Pagar a um conjurador para lançar uma magia deste nível. Disponibilidade: Apenas cidade. Componentes materiais caros são cobrados à parte.",
       "efeitos": [],
       "schemaVersion": 5,
-      "origemEdicao": "D&D 5e 2024"
+      "origemEdicao": "D&D 5e 2024",
+      "categorias": [
+        "servico"
+      ]
     }
   ]
 }

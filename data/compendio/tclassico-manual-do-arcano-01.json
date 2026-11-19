@@ -34,7 +34,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "tclassico-arcano-item-geral-frasco-obra-prima",
@@ -69,7 +72,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "tclassico-arcano-item-geral-kit-de-herbalista",
@@ -104,7 +110,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "tclassico-arcano-item-geral-kit-de-mineracao",
@@ -139,7 +148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-comum",
@@ -174,7 +186,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-de-aco-rubi",
@@ -209,7 +224,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-de-adamante",
@@ -244,7 +262,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-costela-de-lich",
@@ -279,7 +300,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-dedo-de-ente",
@@ -314,7 +338,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-espinho-de-manticora",
@@ -349,7 +376,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-de-gelo-eterno",
@@ -384,7 +414,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-de-madeira-tollon",
@@ -419,7 +452,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-varinha-de-mitral",
@@ -454,7 +490,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-acido-concentrado",
@@ -489,7 +528,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-agua-congelante",
@@ -524,7 +566,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-anabolizante",
@@ -559,7 +604,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-antitoxina",
@@ -594,7 +642,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-bolsa-de-cola",
@@ -629,7 +680,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-bomba-fetida",
@@ -664,7 +718,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-bomba-de-fumaca",
@@ -699,7 +756,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-cola",
@@ -734,7 +794,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-formol",
@@ -769,7 +832,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-giz-arcano",
@@ -804,7 +870,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-elixir-de-vida-menor",
@@ -839,7 +908,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-elixir-de-vida-maior",
@@ -874,7 +946,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-elixir-de-vida-puro",
@@ -909,7 +984,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-essencia-de-mana-menor",
@@ -944,7 +1022,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-essencia-de-mana-maior",
@@ -979,7 +1060,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-essencia-de-mana-pura",
@@ -1014,7 +1098,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-estalinho-gury",
@@ -1049,7 +1136,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-extrato-de-gelo-eterno",
@@ -1084,7 +1174,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-fogo-fumegante",
@@ -1119,7 +1212,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-granada-de-nimb",
@@ -1154,7 +1250,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-granada-sonica",
@@ -1189,7 +1288,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-incenso",
@@ -1224,7 +1326,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-licor-de-feiticeiro",
@@ -1259,7 +1364,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-oleo-detector-de-veneno",
@@ -1294,7 +1402,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-oleo-de-lampiao-obra-prima",
@@ -1329,7 +1440,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-oleo-da-pureza",
@@ -1364,7 +1478,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-po-cegante-vanndaime",
@@ -1399,7 +1516,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-sedativo",
@@ -1434,7 +1554,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-suco-de-mago",
@@ -1469,7 +1592,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-tinta-invisivel",
@@ -1504,7 +1630,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-avental",
@@ -1520,7 +1649,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1539,7 +1667,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-botas-de-couro",
@@ -1555,7 +1686,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1574,7 +1704,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-capa",
@@ -1590,7 +1723,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1609,7 +1741,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-capa-elegante",
@@ -1625,7 +1760,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1644,7 +1778,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-fez",
@@ -1660,7 +1797,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1679,7 +1815,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-chapeu-conico",
@@ -1695,7 +1834,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1714,7 +1852,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-chapeu-pontudo",
@@ -1730,7 +1871,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1749,7 +1889,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-tiara",
@@ -1765,7 +1908,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1784,7 +1926,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-touca",
@@ -1800,7 +1945,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1819,7 +1963,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-turbante",
@@ -1835,7 +1982,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1854,7 +2000,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-cinto-bandoleira-de-pocoes",
@@ -1870,7 +2019,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1889,7 +2037,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-luvas-de-trabalho",
@@ -1905,7 +2056,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1924,7 +2074,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-oculos",
@@ -1940,7 +2093,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1959,7 +2111,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-organizador-de-pergaminhos",
@@ -1975,7 +2130,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -1994,7 +2148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-robe-manto",
@@ -2010,7 +2167,6 @@
       "fonte": "Tormenta RPG - Manual do Arcano",
       "pagina": 60,
       "tags": [
-        "vestuario",
         "vestuario",
         "manual do arcano",
         "tormenta classico"
@@ -2029,7 +2185,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-amuleto-do-conhecimento-arcano",
@@ -2046,7 +2205,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2064,7 +2223,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-anel-da-contramagica",
@@ -2081,7 +2243,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2099,7 +2261,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-anel-da-graca-das-aguas",
@@ -2116,7 +2281,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2134,7 +2299,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-item-geral-barraca-segura-de-aleph",
@@ -2151,7 +2319,7 @@
       "pagina": 62,
       "tags": [
         "item geral",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2169,7 +2337,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "item geral"
+      ]
     },
     {
       "id": "tclassico-arcano-esoterico-bastao-do-favor-de-wynna",
@@ -2186,9 +2357,10 @@
       "pagina": 60,
       "tags": [
         "esoterico",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "bastao"
       ],
       "descricao": "Bastão de metal com faixas de cores exóticas, um rubi e uma ametista nas pontas; prêmio do Teste do Fogo e prova de formatura na Academia Arcana. Funciona como um bastão metamágico, mas o talento é sorteado ao nascer do sol (1d10: Aumentar, Estender, Silenciosa, Potencializar ou Maximizar Magia).",
       "properties": "",
@@ -2204,7 +2376,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-da-defesa",
@@ -2221,9 +2396,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão +2 de aço com empunhaduras de cobre, marca dos arcanos lutadores. Concede CA +2 ao usuário.",
       "properties": "",
@@ -2239,7 +2416,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-da-evocacao",
@@ -2256,9 +2437,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão +3 de ferro escuro. Enquanto um conjurador arcano o empunha, todas as suas magias que causam dano têm +1 dado de dano do mesmo tipo.",
       "properties": "",
@@ -2274,7 +2457,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-da-invocacao",
@@ -2291,9 +2478,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão +1 de vidro, entalhado com inúmeras criaturas. Criaturas invocadas pelo conjurador que o empunha recebem redução de dano igual ao nível da magia que as invocou (por exemplo, RD 4 com invocar monstro IV).",
       "properties": "",
@@ -2309,7 +2498,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-das-maldicoes",
@@ -2326,9 +2519,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão +1 de madeira Tollon retorcida, de aparência sinistra e adornos rústicos. Fornece +5 nos testes para as maldições de um bruxo.",
       "properties": "",
@@ -2344,7 +2539,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-do-geomante",
@@ -2361,9 +2560,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão de aparência abrutalhada, ligado aos geomantes. Concede +1 em ataques, dano, CA e testes de resistência ao servo elemental de um geomante, e o usuário recebe redução de dano 2.",
       "properties": "",
@@ -2379,7 +2580,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-arma-magica-bordao-do-tempo",
@@ -2396,9 +2601,11 @@
       "pagina": 60,
       "tags": [
         "arma magica",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "arma",
+        "bordao"
       ],
       "descricao": "Bordão +4 de madeira, de aparência simples, mas com grande poder. Uma vez por dia, com uma ação completa, concede o poder do tempo: 1d6 aliados a até 9m podem usar uma ação padrão no turno do usuário, além de suas ações normais na rodada.",
       "properties": "",
@@ -2414,7 +2621,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-chave-de-wynna",
@@ -2431,7 +2642,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2449,7 +2660,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-colar-das-bolas-de-fogo",
@@ -2466,7 +2680,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2484,7 +2698,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-criatura-em-miniatura",
@@ -2501,7 +2718,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2519,7 +2736,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-consumivel-elixir-da-juventude",
@@ -2536,9 +2756,10 @@
       "pagina": 60,
       "tags": [
         "consumivel",
-        "item magico",
+        "magico",
         "manual do arcano",
-        "tormenta classico"
+        "tormenta classico",
+        "pocao"
       ],
       "descricao": "Elixir raro e cobiçado: ao ingeri-lo, a idade do usuário cai 1d6+4 anos, possivelmente recuperando penalidades por idade (só em Força, Destreza e Constituição). A partir da segunda dose, há 1% de chance cumulativa de reverter à idade original, o que pode matar quem já passou da longevidade da raça. Preço de mercado; pode subir conforme a disponibilidade.",
       "properties": "",
@@ -2554,7 +2775,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "consumivel"
+      ]
     },
     {
       "id": "tclassico-arcano-acessorio-monoculo-da-aguia",
@@ -2571,7 +2795,7 @@
       "pagina": 60,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2589,7 +2813,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tclassico-arcano-vestuario-robe-das-estrelas",
@@ -2606,7 +2833,7 @@
       "pagina": 60,
       "tags": [
         "vestuario",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2624,7 +2851,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "vestuario"
+      ]
     },
     {
       "id": "tclassico-arcano-artefato-chapeu-da-conjuracao-imprevisivel",
@@ -2641,7 +2871,7 @@
       "pagina": 60,
       "tags": [
         "artefato",
-        "item magico",
+        "magico",
         "manual do arcano",
         "tormenta classico"
       ],
@@ -2659,7 +2889,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "artefato"
+      ]
     }
   ]
 }

@@ -17,10 +17,15 @@
       "descricao": "Deslocamento 13 km/h; tripulação 10; passageiros 20; carga 1 t; CA 13; PV 300; limiar de dano —.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-1",
@@ -38,10 +43,15 @@
       "descricao": "Deslocamento 2,4 km/h; tripulação 1; passageiros 3; carga não indicada t; CA 11; PV 50; limiar de dano —.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-2",
@@ -59,10 +69,15 @@
       "descricao": "Deslocamento 1,6 km/h; tripulação 1; passageiros 6; carga 0.5 t; CA 15; PV 100; limiar de dano 10.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-3",
@@ -80,10 +95,15 @@
       "descricao": "Deslocamento 4,8 km/h; tripulação 40; passageiros 150; carga 10 t; CA 15; PV 300; limiar de dano 15.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-4",
@@ -101,10 +121,15 @@
       "descricao": "Deslocamento 6,5 km/h; tripulação 80; passageiros não indicado; carga 150 t; CA 15; PV 500; limiar de dano 20.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-5",
@@ -122,10 +147,15 @@
       "descricao": "Deslocamento 4 km/h; tripulação 60; passageiros 60; carga 200 t; CA 15; PV 500; limiar de dano 20.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     },
     {
       "id": "dd-2024-embarcacao-6",
@@ -143,10 +173,15 @@
       "descricao": "Deslocamento 3,2 km/h; tripulação 20; passageiros 20; carga 100 t; CA 15; PV 300; limiar de dano 15.",
       "tags": [
         "dnd",
-        "2024",
-        "veículo"
+        "dnd 2024",
+        "veiculo",
+        "livro do jogador 2024",
+        "aereo ou aquatico"
       ],
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "veiculo"
+      ]
     }
   ]
 }

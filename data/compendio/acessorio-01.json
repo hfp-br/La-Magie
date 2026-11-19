@@ -17,7 +17,9 @@
       "tags": [
         "acessorio",
         "magico",
-        "anel"
+        "anel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que elimina necessidades básicas após um período de adaptação. Efeito: Após uma semana de uso, você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar.",
       "schemaVersion": 5,
@@ -40,7 +42,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-bainha-magica",
@@ -57,7 +62,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Bainha de couro e prata que muda de tamanho para acomodar qualquer arma corpo a corpo. Efeito: Permite lançar Arma Mágica em qualquer arma guardada nela sem pagar o custo em PM.",
       "schemaVersion": 5,
@@ -80,7 +87,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-corda-da-escalada",
@@ -97,7 +107,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Corda mágica de 15m, fina e extremamente resistente. Efeito: Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar.",
       "schemaVersion": 5,
@@ -120,7 +132,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-ferraduras-da-velocidade",
@@ -137,7 +152,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Ferraduras mágicas para uma montaria. Efeito: +3m no deslocamento da montaria.",
       "schemaVersion": 5,
@@ -161,7 +178,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-garrafa-da-fumaca-eterna",
@@ -178,7 +198,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Ânfora metálica que libera fumaça mágica enquanto permanece aberta. Efeito: Ao abrir, gera o efeito de Névoa. A fumaça persiste até a garrafa ser tampada e então se dissipa conforme as condições de vento.",
       "schemaVersion": 5,
@@ -201,7 +223,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-gema-da-luminosidade",
@@ -218,7 +243,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Prisma cristalino capaz de emitir luz ou um clarão cegante. Efeito: Com um comando, emite luz como uma tocha ou um raio em alcance curto; Fortitude evita ficar cego por 1d4 rodadas.",
       "schemaVersion": 5,
@@ -241,7 +268,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manto-elfico",
@@ -258,7 +288,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Manto cinza aparentemente comum que auxilia a ocultação. Efeito: +5 em Furtividade enquanto estiver com o capuz cobrindo o rosto.",
       "schemaVersion": 5,
@@ -283,7 +315,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-mochila-de-carga",
@@ -300,7 +335,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Mochila ligada a um espaço interdimensional. Efeito: Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos.",
       "schemaVersion": 5,
@@ -323,7 +360,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-brincos-da-sagacidade",
@@ -340,7 +380,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Par de brincos de safira que aguça o raciocínio. Efeito: +2 em Inteligência.",
       "schemaVersion": 5,
@@ -365,7 +407,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-luvas-da-delicadeza",
@@ -382,7 +427,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Luvas finas para manipulação precisa. Efeito: +2 em Destreza.",
       "schemaVersion": 5,
@@ -407,7 +454,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manoplas-da-forca-do-ogro",
@@ -424,7 +474,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Luvas grossas reforçadas com rebites de ferro. Efeito: +2 em Força.",
       "schemaVersion": 5,
@@ -449,7 +501,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manto-da-resistencia",
@@ -466,7 +521,9 @@
       "pagina": 344,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Manto grosso e pesado que protege o usuário. Efeito: +2 em testes de resistência.",
       "schemaVersion": 5,
@@ -489,7 +546,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manto-do-fascinio",
@@ -506,7 +566,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Manto de veludo com bordados de ouro. Efeito: +2 em Carisma.",
       "schemaVersion": 5,
@@ -531,7 +593,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-pingente-da-sensatez",
@@ -548,7 +613,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Pequena pérola em uma corrente leve. Efeito: +2 em Sabedoria.",
       "schemaVersion": 5,
@@ -573,7 +640,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-torque-do-vigor",
@@ -590,7 +660,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Colar ou bracelete decorado com a figura de um animal poderoso. Efeito: +2 em Constituição.",
       "schemaVersion": 5,
@@ -615,7 +687,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-chapeu-do-disfarce",
@@ -632,7 +707,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Chapéu mágico capaz de alterar sua própria aparência como parte de um disfarce. Efeito: Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos.",
       "schemaVersion": 5,
@@ -655,7 +732,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-flauta-fantasma",
@@ -672,7 +752,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Instrumento mágico usado para criar sons ilusórios. Efeito: Se for treinado em Atuação, pode lançar Esculpir Sons sem pagar o custo em PM.",
       "schemaVersion": 5,
@@ -695,7 +777,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-lanterna-da-revelacao",
@@ -712,7 +797,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Lanterna que funciona como um lampião e revela o que está oculto. Efeito: Sua luz revela criaturas e objetos invisíveis em alcance curto.",
       "schemaVersion": 5,
@@ -735,7 +822,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-da-protecao",
@@ -752,7 +842,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que desvia ataques contra seu usuário. Efeito: +2 em Defesa.",
       "schemaVersion": 5,
@@ -776,7 +868,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-do-escudo-mental",
@@ -793,7 +888,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que protege a mente contra observação sobrenatural. Efeito: Imunidade a magias de adivinhação.",
       "schemaVersion": 5,
@@ -816,7 +913,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-pingente-da-saude",
@@ -834,7 +934,9 @@
       "tags": [
         "acessorio",
         "magico",
-        "pingente"
+        "pingente",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Joia verde em cordão de prata que protege a saúde após um período de uso. Efeitos: Após uma semana de uso, concede imunidade a doenças e venenos. Imunidades: doenças; venenos.",
       "schemaVersion": 5,
@@ -857,7 +959,10 @@
         "immunities": "doenças; venenos"
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-de-telecinesia",
@@ -874,7 +979,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que permite manipular objetos à distância. Efeito: Pode lançar Telecinesia. Se já conhece a magia, o custo diminui em –1 PM.",
       "schemaVersion": 5,
@@ -897,7 +1004,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-bola-de-cristal",
@@ -914,7 +1024,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Esfera de cristal de 15cm usada para observar pessoas e lugares distantes. Efeito: Olhar através dela é uma ação completa e gera a magia Vidência.",
       "schemaVersion": 5,
@@ -937,7 +1049,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-caveira-maldita",
@@ -954,7 +1069,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Pedra em formato de crânio que cria uma área profana. Efeito: Gera permanentemente Profanar com o crânio como origem; mortos-vivos e devotos de deuses do Mal na área recebem +2 em testes e Defesa.",
       "schemaVersion": 5,
@@ -977,7 +1094,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-botas-aladas",
@@ -994,7 +1114,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Botas das quais podem brotar asas mágicas. Efeito: Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter.",
       "schemaVersion": 5,
@@ -1017,7 +1139,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-braceletes-de-bronze",
@@ -1034,7 +1159,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Braceletes que projetam um campo de força invisível. Efeito: +4 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
       "schemaVersion": 5,
@@ -1058,7 +1185,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-da-energia",
@@ -1075,7 +1205,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que aumenta a reserva de mana após um dia de uso. Efeito: Após um dia de uso, recebe +5 PM.",
       "schemaVersion": 5,
@@ -1098,7 +1230,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-da-vitalidade",
@@ -1115,7 +1250,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que fortalece o usuário após um dia de uso. Efeito: +10 PV.",
       "schemaVersion": 5,
@@ -1139,7 +1276,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-de-invisibilidade",
@@ -1156,7 +1296,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel de prata que torna seu usuário invisível. Efeito: Ao colocar, fica sob Invisibilidade. O efeito termina se atacar ou lançar magia ofensiva; retirar e recolocar é ação padrão e restaura o efeito.",
       "schemaVersion": 5,
@@ -1179,7 +1321,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-bracadeiras-do-arqueiro",
@@ -1196,7 +1341,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Protetores de punho mágicos para combatentes à distância. Efeito: +2 em rolagens de dano com armas de ataque à distância.",
       "schemaVersion": 5,
@@ -1219,7 +1366,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-brincos-de-marah",
@@ -1236,7 +1386,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Brincos brancos abençoados pela Deusa da Paz. Efeito: A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas.",
       "schemaVersion": 5,
@@ -1259,7 +1411,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-faixas-do-pugilista",
@@ -1276,7 +1431,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Faixas de pano surrado para punhos, braços ou testa. Efeito: +2 em testes de ataque e rolagens de dano com ataques desarmados.",
       "schemaVersion": 5,
@@ -1299,7 +1456,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manto-da-aranha",
@@ -1316,7 +1476,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Manto de seda negra com fios de prata. Efeitos: Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas. Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM.",
       "schemaVersion": 5,
@@ -1345,7 +1507,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-vassoura-voadora",
@@ -1362,7 +1527,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Vassoura mágica capaz de voar carregando até duas pessoas. Efeito: Como um tapete voador, mas carrega até duas pessoas ou 200 kg.",
       "schemaVersion": 5,
@@ -1385,7 +1552,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-simbolo-abencoado",
@@ -1402,7 +1572,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Colar de metal com o símbolo de um deus do Panteão, resistente ao uso em viagens. Se você for devoto dessa divindade, o custo de suas magias divinas diminui em 1 PM. Apenas inventores devotos do deus representado podem fabricar este item.",
       "schemaVersion": 5,
@@ -1425,7 +1597,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-amuleto-da-robustez",
@@ -1442,7 +1617,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Disco dourado preso a uma corrente de ouro. Efeito: +5 em Constituição.",
       "schemaVersion": 5,
@@ -1467,7 +1644,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-botas-velozes",
@@ -1484,7 +1664,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Botas mágicas que aumentam a velocidade. Efeitos: +3m no deslocamento. Pode lançar Velocidade apenas sobre você mesmo.",
       "schemaVersion": 5,
@@ -1514,7 +1696,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-cinto-da-forca-do-gigante",
@@ -1531,7 +1716,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Cinto largo de couro com rebites de ferro. Efeito: +5 em Força.",
       "schemaVersion": 5,
@@ -1556,7 +1743,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-coroa-majestosa",
@@ -1573,7 +1763,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Coroa de ouro com dezenas de pedras preciosas. Efeito: +5 em Carisma.",
       "schemaVersion": 5,
@@ -1598,7 +1790,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-estola-da-serenidade",
@@ -1615,7 +1810,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Faixa de pano com inscrições mágicas usada sobre a nuca. Efeito: +5 em Sabedoria.",
       "schemaVersion": 5,
@@ -1640,7 +1837,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manto-do-morcego",
@@ -1657,7 +1857,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Manto escuro que concede furtividade e permite transformação em morcego. Efeitos: +5 em Furtividade. À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem.",
       "schemaVersion": 5,
@@ -1688,7 +1890,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-pulseiras-da-celeridade",
@@ -1705,7 +1910,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Pulseira de platina que aguça os movimentos. Efeito: +5 em Destreza.",
       "schemaVersion": 5,
@@ -1730,7 +1937,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-tiara-da-sapiencia",
@@ -1747,7 +1957,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Tiara delicada com gema apoiada sobre a testa. Efeito: +5 em Inteligência; não concede perícias treinadas extras.",
       "schemaVersion": 5,
@@ -1772,7 +1984,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-elmo-do-teletransporte",
@@ -1789,7 +2004,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Elmo mágico voltado a deslocamento instantâneo. Efeito: Pode lançar Salto Dimensional e Teletransporte, apenas em você mesmo. Se já conhece essas magias, o custo diminui em –1 PM.",
       "schemaVersion": 5,
@@ -1812,7 +2029,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-gema-da-telepatia",
@@ -1829,7 +2049,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Gema que amplifica comunicação e influência mental. Efeito: Pode lançar Compreensão e Enfeitiçar sem pagar seu custo em PM.",
       "schemaVersion": 5,
@@ -1852,7 +2074,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-gema-elemental",
@@ -1869,7 +2094,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Gema ligada às forças elementais. Efeito: Pode lançar Conjurar Elemental sem pagar seu custo em PM.",
       "schemaVersion": 5,
@@ -1892,7 +2119,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manual-da-saude-corporal",
@@ -1909,7 +2139,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de resistência física. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Constituição em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -1932,7 +2164,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manual-do-bom-exercicio",
@@ -1949,7 +2184,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de exercícios físicos. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -1972,7 +2209,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-manual-dos-movimentos-precisos",
@@ -1989,7 +2229,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de coordenação e equilíbrio. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Destreza em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -2012,7 +2254,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-medalhao-de-lena",
@@ -2029,7 +2274,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Joia de energia positiva que protege o usuário da queda. Efeito: Quando é reduzido a 0 ou menos PV, cura 100 PV antes que caia. Ativa uma vez por dia.",
       "schemaVersion": 5,
@@ -2052,7 +2299,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-tomo-da-compreensao",
@@ -2069,7 +2319,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de percepção e autocontrole. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Sabedoria em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -2092,7 +2344,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-tomo-da-lideranca-e-influencia",
@@ -2109,7 +2364,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de persuasão e liderança. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Carisma em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -2132,7 +2389,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-tomo-dos-grandes-pensamentos",
@@ -2149,7 +2409,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Livro mágico de raciocínio e memória. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Inteligência em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
       "schemaVersion": 5,
@@ -2172,7 +2434,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-refletor",
@@ -2189,7 +2454,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Aro de platina capaz de devolver magias ao conjurador. Efeito: Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD.",
       "schemaVersion": 5,
@@ -2212,7 +2479,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-cinto-do-campeao",
@@ -2229,7 +2499,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Cinturão de ouro dos antigos campeões gladiatoriais. Efeitos: +2 em Força. Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3.",
       "schemaVersion": 5,
@@ -2260,7 +2532,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-colar-guardiao",
@@ -2277,7 +2552,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Diamante lapidado em corrente de platina que deflete ataques. Efeito: +5 em Defesa.",
       "schemaVersion": 5,
@@ -2301,7 +2578,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-estatueta-animista",
@@ -2318,7 +2598,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Pequena estatueta animal que ganha vida mediante comando. Efeito: Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião.",
       "schemaVersion": 5,
@@ -2341,7 +2623,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-da-liberdade",
@@ -2358,7 +2643,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Relíquia da Igreja de Valkaria forjada em ouro. Efeito: Você fica permanentemente sob efeito de Libertação.",
       "schemaVersion": 5,
@@ -2381,7 +2668,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-tapete-voador",
@@ -2398,7 +2688,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Tapete mágico de 3m x 3m capaz de transportar um grupo pelo ar. Efeito: Com um comando, recebe voo 12m. Carrega até seis criaturas Médias ou 600 kg e pode ser comandado em alcance longo.",
       "schemaVersion": 5,
@@ -2421,7 +2713,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-braceletes-de-ouro",
@@ -2438,7 +2733,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Versão superior dos braceletes de bronze. Efeito: +8 em Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
       "schemaVersion": 5,
@@ -2462,7 +2759,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-espelho-da-oposicao",
@@ -2479,7 +2779,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Grande espelho mágico que cria um duplicado hostil de quem observa o próprio reflexo. Efeito: Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado.",
       "schemaVersion": 5,
@@ -2502,7 +2804,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-robe-do-arquimago",
@@ -2519,7 +2824,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Traje pesado que protege conjuradores arcanos usando a própria energia mágica. Efeito: Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo.",
       "schemaVersion": 5,
@@ -2542,7 +2849,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-orbe-das-tempestades",
@@ -2559,7 +2869,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Esfera de vidro com fumaça e raios aprisionados em seu interior. Efeitos: Pode lançar Controlar o Clima e Fúria do Panteão; se já conhece a magia, o custo diminui em –1 PM. Você e aliados adjacentes ficam sob efeito de Suporte Ambiental.",
       "schemaVersion": 5,
@@ -2588,7 +2900,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-anel-da-regeneracao",
@@ -2605,7 +2920,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Anel que acelera continuamente a recuperação do usuário. Efeito: Após um dia de uso, recebe Cura Acelerada 5.",
       "schemaVersion": 5,
@@ -2628,7 +2945,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-espelho-do-aprisionamento",
@@ -2645,7 +2965,9 @@
       "pagina": 345,
       "tags": [
         "acessorio",
-        "magico"
+        "magico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Grande espelho de cristal que aprisiona criaturas em um espaço extradimensional. Efeito: Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos.",
       "schemaVersion": 5,
@@ -2668,7 +2990,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tormenta20-chave-de-wynna",
@@ -2685,7 +3010,7 @@
       "pagina": 161,
       "tags": [
         "acessorio",
-        "item magico",
+        "magico",
         "tormenta20",
         "atlas de arton",
         "equipamento"
@@ -2704,7 +3029,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "tormenta20-tatuagem-mistica",
@@ -2740,7 +3068,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-algibeira-mordedora",
@@ -2777,7 +3108,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-algibeira-provedora",
@@ -2814,7 +3148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-ampulheta-da-harmonia-temporal",
@@ -2851,7 +3188,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-amuleto-da-visao-eterea",
@@ -2888,7 +3228,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-amuleto-do-amparo",
@@ -2925,7 +3268,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-anel-da-beleza-ilusoria",
@@ -2962,7 +3308,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-anel-da-chama-dancante",
@@ -2999,7 +3348,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-anel-da-protecao-mental",
@@ -3036,7 +3388,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-anel-do-pacto-oneroso",
@@ -3073,7 +3428,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-bastao-da-grande-harmonia",
@@ -3110,7 +3468,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-bastao-do-sonhador",
@@ -3147,7 +3508,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-berco-das-fadas",
@@ -3184,7 +3548,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-botas-do-andarilho-das-sombras",
@@ -3221,7 +3588,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-bracadeiras-da-forca-do-colosso",
@@ -3258,7 +3628,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-bracelete-do-coracao-vivaz",
@@ -3295,7 +3668,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-braceletes-da-amizade-intensa",
@@ -3332,7 +3708,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-caixa-dos-ecos-perdidos",
@@ -3369,7 +3748,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-calice-das-mares",
@@ -3406,7 +3788,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-capa-nebulosa",
@@ -3443,7 +3828,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-chapeu-dos-truques-infinitos",
@@ -3480,7 +3868,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-chapeu-pensador",
@@ -3517,7 +3908,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-chave-dos-planos",
@@ -3554,7 +3948,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cinto-da-desmaterializacao",
@@ -3591,7 +3988,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cinto-da-flecha-veloz",
@@ -3628,7 +4028,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cinto-da-leveza-graciosa",
@@ -3665,7 +4068,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cinto-dos-caminhos-cruzados",
@@ -3702,7 +4108,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cinturao-do-trobo",
@@ -3739,7 +4148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-colar-da-furia-monstruosa",
@@ -3776,7 +4188,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-colar-da-perseveranca",
@@ -3813,7 +4228,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-colar-do-tirano",
@@ -3850,7 +4268,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-colar-das-bolas-de-fogo",
@@ -3887,7 +4308,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-coracao-do-inverno",
@@ -3924,7 +4348,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-corda-da-resignacao",
@@ -3961,7 +4388,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-coroa-da-floresta-sussurrante",
@@ -3998,7 +4428,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-coroa-da-majestade-distorcida",
@@ -4035,7 +4468,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cristal-da-voz-silenciosa",
@@ -4072,7 +4508,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-cristal-do-tempo-celere",
@@ -4109,7 +4548,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-elixir-da-eternidade",
@@ -4146,7 +4588,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-elixir-da-mente-dividida",
@@ -4183,7 +4628,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-espelho-da-verdade",
@@ -4220,7 +4668,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-espelho-do-outro-lado",
@@ -4257,7 +4708,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-frigideira-do-chef-anao",
@@ -4294,7 +4748,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-gaiola-dos-arcanos",
@@ -4331,7 +4788,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-gema-da-profanacao",
@@ -4368,7 +4828,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-gema-da-purificacao",
@@ -4405,7 +4868,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-gema-da-santificacao",
@@ -4442,7 +4908,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-instrumentos-da-celeridade",
@@ -4479,7 +4948,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-lampada-da-ilusao-impecavel",
@@ -4516,7 +4988,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-mascara-da-raposa",
@@ -4553,7 +5028,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-mascara-do-predador",
@@ -4590,7 +5068,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-monoculo-da-franqueza",
@@ -4627,7 +5108,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-ocarina-da-melodia-distante",
@@ -4664,7 +5148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-oculos-da-revelacao",
@@ -4701,7 +5188,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-olhos-do-corvo",
@@ -4738,7 +5228,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-papiro-das-estrelas",
@@ -4775,7 +5268,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-pedra-da-passagem",
@@ -4812,7 +5308,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-pena-da-criacao",
@@ -4849,7 +5348,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-pergaminho-da-verdade-cosmica",
@@ -4886,7 +5388,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-perola-da-nulificacao",
@@ -4923,7 +5428,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-pingente-da-dor-partilhada",
@@ -4960,7 +5468,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-saco-dos-ventos-silenciosos",
@@ -4997,7 +5508,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-sandalias-de-valkaria",
@@ -5034,7 +5548,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-tomo-da-tecnica-definitiva",
@@ -5071,7 +5588,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-herois-tomo-dos-companheiros",
@@ -5108,7 +5628,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dbfree-baralho-etereo",
@@ -5127,12 +5650,12 @@
         "acessorio",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Baralho fantasmagórico que funciona como kit de Jogatina aprimorado e permite lançar Augúrio.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -5145,7 +5668,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dbfree-manto-magico",
@@ -5164,12 +5690,12 @@
         "acessorio",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Manto mágico menor cuja principal função é proteger o usuário, fornecendo bônus mágico de +4 na Defesa.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -5182,7 +5708,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dbfree-virtude-inquebravel",
@@ -5201,12 +5730,12 @@
         "acessorio",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Faixa de seda que concede resistência a dano, ampliada para usuários com código de conduta.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -5219,7 +5748,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-chave-mestra",
@@ -5255,7 +5787,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-mascara-do-sol-dourado",
@@ -5291,7 +5826,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-pingente-rubro",
@@ -5327,7 +5865,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-ancora-naufragista",
@@ -5363,7 +5904,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-bussola-das-lagrimas",
@@ -5399,7 +5943,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-corso-sombrio",
@@ -5435,7 +5982,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     },
     {
       "id": "t20-distincoes-sol-vigilante",
@@ -5471,7 +6021,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "acessorio"
+      ]
     }
   ]
 }

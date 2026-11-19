@@ -19,7 +19,9 @@
         "montaria/aliado",
         "cao",
         "montaria",
-        "aliado"
+        "aliado",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Cachorro valente e leal. Pode servir como montaria para criaturas Pequenas ou Minúsculas, ou como aliado conforme as regras de Parceiro.",
       "schemaVersion": 5,
@@ -35,7 +37,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-cavalo",
@@ -53,7 +58,9 @@
       "tags": [
         "animal",
         "montaria",
-        "cavalo"
+        "cavalo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Montaria comum no Reinado. Sem treinamento de guerra, se assusta facilmente em combate e exige Cavalgar CD 20 por rodada para permanecer montado.",
       "schemaVersion": 5,
@@ -69,7 +76,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-cavalo-de-guerra",
@@ -88,7 +98,9 @@
         "animal",
         "montaria",
         "cavalo",
-        "guerra"
+        "guerra",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Cavalo treinado para combate. Diferente de um cavalo comum, não exige o teste de Cavalgar para permanecer montado em combate.",
       "schemaVersion": 5,
@@ -104,7 +116,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-ponei",
@@ -122,7 +137,9 @@
       "tags": [
         "animal",
         "montaria",
-        "ponei"
+        "ponei",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Montaria comum entre raças Pequenas. Sem treinamento de guerra, exige Cavalgar CD 20 por rodada para permanecer montado em combate.",
       "schemaVersion": 5,
@@ -138,7 +155,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-ponei-de-guerra",
@@ -157,7 +177,9 @@
         "animal",
         "montaria",
         "ponei",
-        "guerra"
+        "guerra",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Pônei treinado para combate. Dispensa o teste de Cavalgar exigido por pôneis comuns durante um combate.",
       "schemaVersion": 5,
@@ -173,7 +195,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-trobo",
@@ -193,7 +218,9 @@
         "carga/tracao",
         "trobo",
         "carga",
-        "tracao"
+        "tracao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Grande ave semelhante a um avestruz com chifres e cascos de búfalo. Muito dócil, é usada como animal de carga e tração.",
       "schemaVersion": 5,
@@ -209,7 +236,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-alforje",
@@ -226,7 +256,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Sacos de couro presos à sela. Permitem que uma montaria carregue até 10 espaços de itens para você.",
       "schemaVersion": 5,
@@ -242,7 +273,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-cao-de-caca",
@@ -259,7 +293,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cão valente e leal. Pode funcionar como parceiro perseguidor para personagens treinados em Adestramento ou como montaria para criaturas Pequenas ou Minúsculas.",
       "schemaVersion": 5,
@@ -275,7 +310,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-cavalo",
@@ -292,7 +330,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Montaria comum do Reinado. Pode funcionar como parceiro montaria; cavalos sem treinamento exigem Cavalgar CD 20 por rodada durante combate.",
       "schemaVersion": 5,
@@ -308,7 +347,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-cavalo-de-guerra",
@@ -325,7 +367,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cavalo treinado para combate. Funciona como montaria e não exige o teste de Cavalgar necessário para cavalos comuns em combate.",
       "schemaVersion": 5,
@@ -341,7 +384,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-ponei",
@@ -358,7 +404,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Montaria comum entre raças Pequenas. Pode funcionar como parceiro montaria; sem treinamento, exige Cavalgar CD 20 por rodada em combate.",
       "schemaVersion": 5,
@@ -374,7 +421,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-ponei-de-guerra",
@@ -391,7 +441,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Pônei treinado para combate. Funciona como montaria e dispensa o teste de Cavalgar exigido por pôneis comuns em combate.",
       "schemaVersion": 5,
@@ -407,7 +458,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     },
     {
       "id": "t20-jda-trobo",
@@ -424,7 +478,8 @@
       "pagina": 156,
       "tags": [
         "animal",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Grande ave sem asas, semelhante a um avestruz com chifres, couro e cascos. É dócil, usada para carga, tração e também como montaria.",
       "schemaVersion": 5,
@@ -440,7 +495,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "animal"
+      ]
     }
   ]
 }

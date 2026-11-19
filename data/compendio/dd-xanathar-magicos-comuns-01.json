@@ -4,7 +4,7 @@
     {
       "id": "dd-xanathar-amuleto-do-fragmento-negro",
       "nome": "Amuleto do Fragmento Negro",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -17,18 +17,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Foco arcano para bruxos, com tentativa limitada de conjurar um truque desconhecido.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-amuleto-relogio",
       "nome": "Amuleto Relógio",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -41,18 +46,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Permite substituir uma rolagem de ataque por um resultado 10, uma vez até o próximo amanhecer.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-armadura-ardente",
       "nome": "Armadura Ardente",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -65,18 +75,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Armadura que emite pequenos fios de fumaça inofensivos enquanto está equipada.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-armadura-brilhante",
       "nome": "Armadura Brilhante",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -89,18 +104,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Armadura que permanece limpa mesmo após o uso.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-armadura-da-libertacao",
       "nome": "Armadura da Libertação",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -113,18 +133,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Armadura que pode ser retirada rapidamente com uma ação.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-bengala-do-veterano",
       "nome": "Bengala do Veterano",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -137,18 +162,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Bengala encantada que pode se transformar em uma espada longa comum.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-bolsa-conveniente-de-especiarias-de-heward",
       "nome": "Bolsa Conveniente de Especiarias de Heward",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -161,18 +191,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Bolsa com cargas que fornece pequenas porções de temperos não mágicos.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-boneca-falante",
       "nome": "Boneca Falante",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -185,18 +220,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Boneca que reproduz frases configuradas quando certas condições ocorrem.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-botas-de-pegadas-falsas",
       "nome": "Botas de Pegadas Falsas",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -209,18 +249,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Botas que alteram a aparência das pegadas deixadas por quem as usa.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-cachimbo-dos-monstros-de-fumaca",
       "nome": "Cachimbo dos Monstros de Fumaça",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -233,18 +278,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Forma pequenas silhuetas de criaturas com a fumaça.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-cadeado-da-enganacao",
       "nome": "Cadeado da Enganação",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -257,18 +307,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Fechadura encantada que dificulta tentativas de arrombamento.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-cajado-canoro",
       "nome": "Cajado Canoro",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -281,18 +336,23 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Cajado que usa cargas para reproduzir cantos e chamados de pássaros.",
       "raridade": "comum",
       "revisarDados": true,
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-cajado-da-ornamentacao",
       "nome": "Cajado da Ornamentação",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -305,17 +365,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Mantém até três pequenos objetos de até 0,5 kg flutuando acima de sua ponta; eles podem girar lentamente.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-cajado-das-flores",
       "nome": "Cajado das Flores",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -328,17 +393,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "10 cargas: gaste 1 com uma ação para produzir uma flor não mágica; recupera 1d6 + 4 cargas ao amanhecer.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-caneca-da-sobriedade",
       "nome": "Caneca da Sobriedade",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -351,17 +421,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Permite beber bebidas alcoólicas não mágicas sem ficar embriagado; não neutraliza venenos ou líquidos perigosos.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-capa-da-ondulacao",
       "nome": "Capa da Ondulação",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -374,17 +449,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Enquanto veste a capa, uma ação bônus faz o tecido ondular dramaticamente.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-capa-de-muitas-modas",
       "nome": "Capa de Muitas Modas",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -397,17 +477,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação bônus modifica visualmente a cor, o estilo e a qualidade da capa, sem reproduzir efeitos de outras capas mágicas.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-chapeu-da-feiticaria",
       "nome": "Chapéu da Feitiçaria",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -420,17 +505,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Foco arcano para magos; uma vez por descanso longo, permite tentar conjurar um truque desconhecido da lista de mago com teste de Arcanismo CD 10.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-chapeu-dos-vermes",
       "nome": "Chapéu dos Vermes",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -443,17 +533,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "3 cargas: cada uma invoca um morcego, sapo ou rato normal por até 1 hora; recarrega ao amanhecer.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-chave-misteriosa",
       "nome": "Chave Misteriosa",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -466,17 +561,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Tem 5% de chance de abrir qualquer fechadura em que seja usada; desaparece ao conseguir abri-la.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-chifre-do-alarme-silencioso",
       "nome": "Chifre do Alarme Silencioso",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -489,17 +589,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "4 cargas: somente a criatura designada, a até 180 m e capaz de ouvir, escuta o toque; recupera 1d4 cargas ao amanhecer.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-corda-do-reparo",
       "nome": "Corda do Reparo",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -512,17 +617,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Corda de 15 m que pode ser cortada e reunida magicamente por comando se todos os pedaços estiverem encostados.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-dado-do-charlatao",
       "nome": "Dado do Charlatão",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -535,17 +645,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Requer sintonização; o portador escolhe o resultado de qualquer lançamento deste dado de seis faces.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-elmo-do-horror",
       "nome": "Elmo do Horror",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -558,17 +673,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Elmo de aparência aterradora que faz os olhos do usuário emitirem brilho vermelho; sem bônus de combate.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-escudo-da-expressao",
       "nome": "Escudo da Expressão",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -581,17 +701,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Escudo com rosto esculpido cuja expressão pode ser alterada pelo usuário com uma ação bônus.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-esfera-da-direcao",
       "nome": "Esfera da Direção",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -604,17 +729,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação revela a direção do norte, desde que o portador esteja no Plano Material.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-esfera-do-tempo",
       "nome": "Esfera do Tempo",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -627,17 +757,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação indica se é manhã, tarde ou noite no Plano Material.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-espada-lunar",
       "nome": "Espada Lunar",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -650,17 +785,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Quando desembainhada na escuridão, emite luz plena por 4,5 m e penumbra por outros 4,5 m.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-flecha-inquebravel",
       "nome": "Flecha Inquebrável",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -673,17 +813,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Flecha mágica que resiste a quebrar-se, salvo quando submetida a campo antimagia.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-gota-de-nutricao",
       "nome": "Gota de Nutrição",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -696,17 +841,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Pequena pastilha comestível que supre as necessidades alimentares de um dia.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-gota-de-refrescancia",
       "nome": "Gota de Refrescância",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -719,17 +869,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Dissolve-se em líquido e transforma até meio litro em água potável e fresca; não purifica venenos nem líquidos mágicos.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-grimorio-duradouro",
       "nome": "Grimório Duradouro",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -742,17 +897,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Grimório cujas páginas e escritos resistem a água, fogo e deterioração natural.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-instrumento-da-escrita",
       "nome": "Instrumento da Escrita",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -765,17 +925,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "3 cargas: ao tocar, inscreve uma mensagem mágica de até seis palavras em superfície visível a até 9 m; desaparece em 24 h.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-instrumento-de-ilusoes",
       "nome": "Instrumento de Ilusões",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -788,17 +953,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Enquanto é tocado, produz pequenas ilusões visuais inofensivas num raio de 1,5 m; para bardos, 4,5 m.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-mastro-da-diminuicao",
       "nome": "Mastro da Diminuição",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -811,17 +981,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Mastro de 3 m que se retrai até 30 cm por palavra de comando e pode voltar ao comprimento original.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-mastro-da-pescaria",
       "nome": "Mastro da Pescaria",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -834,17 +1009,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Mastro de 3 m que vira vara de pescar equipada e retorna à forma original por comando.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-municao-colossal",
       "nome": "Munição Colossal",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -857,17 +1037,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Projétil mágico que obriga a criatura atingida a superar uma salvaguarda de Força CD 10 ou cair no chão.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-perfume-do-encantamento",
       "nome": "Perfume do Encantamento",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -880,17 +1065,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma aplicação dura 1 hora e concede vantagem em testes de Carisma direcionados a humanoides de ND 1 ou menor.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-roupas-do-remendo",
       "nome": "Roupas do Remendo",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -903,17 +1093,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Traje que se repara automaticamente do desgaste cotidiano; não recria partes completamente destruídas.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-rubi-do-mago-da-guerra",
       "nome": "Rubi do Mago da Guerra",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -926,17 +1121,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Exige sintonização por conjurador; fixa-se numa arma para permitir usá-la como foco arcano.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-trombeta-da-audicao",
       "nome": "Trombeta da Audição",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -949,17 +1149,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Ao encostar no ouvido, permite ouvir normalmente mesmo sob efeitos que deixariam a criatura surda.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-varinha-carrancuda",
       "nome": "Varinha Carrancuda",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -972,17 +1177,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação muda o desenho de um rosto na ponta da varinha para uma expressão carrancuda.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-varinha-da-pirotecnia",
       "nome": "Varinha da Pirotecnia",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -995,17 +1205,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "7 cargas: gaste uma com ação para produzir fogos de artifício e luzes coloridas inofensivas; recarga diária.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-varinha-da-regencia",
       "nome": "Varinha da Regência",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -1018,17 +1233,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação cria música orquestral audível a uma curta distância; a melodia acompanha os gestos do portador.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-varinha-sorridente",
       "nome": "Varinha Sorridente",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -1041,17 +1261,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Uma ação muda o rosto da varinha de carrancudo para sorridente.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-vaso-do-despertar",
       "nome": "Vaso do Despertar",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -1064,17 +1289,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Após plantar e manter um arbusto comum por trinta dias, a planta pode despertar e tornar-se uma criatura amigável.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-vela-das-profundezas",
       "nome": "Vela das Profundezas",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -1087,17 +1317,22 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Vela mágica cuja chama continua acesa mesmo submersa; emite iluminação como uma vela normal.",
       "raridade": "comum",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     },
     {
       "id": "dd-xanathar-olho-de-ersatz",
       "nome": "Olho de Ersatz",
-      "categoria": "item mágico",
+      "categoria": "item magico",
       "subtipo": "comum",
       "peso": 0,
       "preco": {
@@ -1111,11 +1346,16 @@
       "tags": [
         "dnd",
         "xanathar",
-        "mágico",
-        "comum"
+        "magico",
+        "comum",
+        "dnd 2014",
+        "item magico"
       ],
       "descricao": "Olho artificial mágico que substitui um olho perdido e restaura a visão normal enquanto estiver encaixado; requer sintonização.",
-      "schemaVersion": 5
+      "schemaVersion": 5,
+      "categorias": [
+        "item magico"
+      ]
     }
   ]
 }

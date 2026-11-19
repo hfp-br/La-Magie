@@ -20,7 +20,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta lâmina fina, que parece apresenta fendas que emitem calor e luz alaranjada. estar sempre envolta em névoa suave, é uma adaga É uma clava maciça flamejante formidável; quando acerformidável. Se acertar um ataque com esta arma, você ta um ataque com ela, você pode gastar 2 PM para pode gastar 2 PM para se tornar invisível por 1 rodada.",
       "properties": "",
@@ -36,7 +37,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-arco-das-sombras",
@@ -57,7 +62,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Feito de madeira negra e Espada da Tempestade. Esta espada longa fosca, que dizem provir do Reino de Tenebra, este arco precisa formidável trovejante possui uma lâmina azulacurto sombrio parece absorver a luz ao redor. Quando da, gravada com runas que brilham raivosas durante ataca com esta arma, você pode gastar 2 PM.",
       "properties": "",
@@ -73,7 +79,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-arco-do-crepusculo",
@@ -94,7 +104,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Um arco longo formidável que muda de cor conforme o sol se põe. Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o alvo fica ofuscado por 1d4 rodadas.",
       "properties": "",
@@ -110,7 +121,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-azagaia-fantasma",
@@ -131,7 +146,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta azagaia caçadora é feita PM para criar uma barreira que fornece RD 10 a você de um material transparente como cristal. Quando a e todos os aliados em um raio de 6m por 1 rodada. arremessa, você pode gastar 1 PM para que ela ignore Espada Solar.",
       "properties": "",
@@ -147,7 +163,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-besta-estelar",
@@ -168,7 +188,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Incrustada com gemas que pode gastar 3 PM para fazer a espada emitir um clarão brilham como estrelas, esta é uma besta leve cravejada de que cega todos os inimigos em alcance curto por 1 gemas formidável. Você pode gastar 3 PM para disparar rodada (Ref CD For ou Des evita). Arsenal dos Heróis 257 <PARSED TEXT FOR PAGE: 260 / 330> Florete do Vendaval.",
       "properties": "",
@@ -184,7 +205,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-clava-de-lava",
@@ -205,7 +230,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta clava de madeira escura Adaga da Bruma. Esta lâmina fina, que parece apresenta fendas que emitem calor e luz alaranjada. estar sempre envolta em névoa suave, é uma adaga É uma clava maciça flamejante formidável; quando acerformidável.",
       "properties": "",
@@ -221,7 +247,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-da-tempestade",
@@ -242,7 +272,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta espada longa fosca, que dizem provir do Reino de Tenebra, este arco precisa formidável trovejante possui uma lâmina azulacurto sombrio parece absorver a luz ao redor. Quando da, gravada com runas que brilham raivosas durante ataca com esta arma, você pode gastar 2 PM. Se fizer tempestades.",
       "properties": "",
@@ -258,7 +289,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-do-guardiao",
@@ -279,7 +314,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Uma espada longa defensora formidável com um cabo robusto e inscrições rúnicas protetoras. Uma vez por rodada, você pode gastar 3 PM para criar uma barreira que fornece RD 10 a você e todos os aliados em um raio de 6m por 1 rodada.",
       "properties": "",
@@ -295,7 +331,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-solar",
@@ -316,7 +356,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta espada bastarda magnífica emite uma luz dourada que aquece o entorno. Você pode gastar 3 PM para fazer a espada emitir um clarão que cega todos os inimigos em alcance curto por 1 rodada (Ref CD For ou Des evita). Arsenal dos Heróis 257 Florete do Vendaval. Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe +5 na Defesa contra ataques à distância.",
       "properties": "",
@@ -332,7 +373,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-florete-do-vendaval",
@@ -353,7 +398,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você Armaduras & pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe Escudos Mágicos +5 na Defesa contra ataques à distância.",
       "properties": "",
@@ -369,7 +415,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-lanca-da-fenix",
@@ -390,7 +440,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Esta lança flamejante magnífica Encantos para tem a ponta forjada no formato de uma chama. Sempre Armaduras & Escudos que reduz um inimigo a 0 PV, você recupera 10 PV. Abissal.",
       "properties": "",
@@ -406,7 +457,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-machado-da-natureza",
@@ -427,7 +482,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Este machado de batalha preciso formidável tem aparência rústica, coberto por musgos e vinhas. Sempre que você faz um acerto crítico com ele, recupera 1d12+1 PV. Encantos para Armaduras & Escudos Abissal. O item possui gravuras de demônios e tentáculos. Você recebe redução de ácido e fogo 10 e, uma vez por rodada, pode gastar 1 PM para causar 2d6 pontos de dano de ácido ou fogo a uma criatura adjacente. Ancorada. Esta armadura permite que você se fixe em superfícies.",
       "properties": "",
@@ -443,7 +499,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-machado-do-abismo",
@@ -464,7 +524,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Este machado de lâmina Arbóreo. Você recebe resistência a magia divina dupla é feito de metal negro e emite um leve brilho +5. Além disso, pode lançar a magia Controlar Plantas púrpura.",
       "properties": "",
@@ -480,7 +541,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-machado-do-vulcao",
@@ -501,7 +566,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Este machado de guerra maciço flamejante formidável tem textura vítrea, com magma rodopiando em seu interior. Você pode gastar uma ação de movimento e 3 PM para causar uma detonação vulcânica em um quadrado de 3m em alcance médio. Criaturas nessa área sofrem 3d10 pontos de dano de fogo (Ref CD For ou Des reduz à metade). Densa. A armadura gera uma aura de peso e lentidão. Isso reduz o deslocamento de inimigos em alcance curto em –3m.",
       "properties": "",
@@ -517,7 +583,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-martelo-da-terra",
@@ -538,7 +608,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Este martelo de guerra cravejado de gemas formidável de adamante é adornado com cristais brilhantes e gravuras de montanhas. Você pode gastar uma ação de movimento e 3 PM para invocar uma rachadura no solo, que percorre uma linha de 18m. Criaturas nessa área são tragadas pela rachadura (Ref CD For ou Des evita). Uma criatura tragada fica caída e vulnerável até sair da rachadura, o que requer uma ação completa.",
       "properties": "",
@@ -554,7 +625,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-martelo-do-tita",
@@ -575,7 +650,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Este martelo de guerra formi- Esmérico. O item é decorado com esmeraldas dável, feito de rochas negras e pesadas, tem aparência encantadas. Você recebe redução de ácido 10 e resisrobusta.",
       "properties": "",
@@ -591,7 +667,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-punhal-das-profundezas",
@@ -612,7 +692,8 @@
         "tormenta20",
         "herois de arton",
         "magico",
-        "especifico"
+        "especifico",
+        "arma"
       ],
       "descricao": "Uma adaga formidável curva feita de um material escuro e úmido, com cheiro de sal. Quando ataca com este punhal, você pode gastar 2 PM para causar +3d6 pontos de dano de ácido. 258 Armaduras & Escudos Mágicos Capítulo 3 Astuto. Você recebe +5 em Intuição e Percepção. Uma vez por rodada, pode gastar 3 PM para detectar automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto. Égide. O bônus na Defesa do item contra ataques à distância aumenta em +5.",
       "properties": "",
@@ -628,7 +709,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-espada-da-heranca-heroica",
@@ -647,12 +732,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada longa ligada ao último desejo de um cavaleiro ou paladino morto.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -665,7 +751,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-florete-floral",
@@ -684,12 +774,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Florete certeiro formidável ligado a névoa, flores e deslocamento mágico.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -702,7 +793,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-guarda-esqueletica",
@@ -721,12 +816,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada curta defensora capaz de se transformar em um esqueleto guarda-costas.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -739,7 +835,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-gwurthun",
@@ -758,12 +858,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada longa conjuradora que absorve energia de efeitos mágicos resistidos.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -776,7 +877,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-pequena-cobra",
@@ -795,12 +900,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada curta formidável venenosa capaz de se transformar em cobra parceira.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -813,7 +919,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-mata-dragoes",
@@ -832,12 +942,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada bastarda colossal de adamante, feita para ignorar resistências e enfrentar criaturas enormes.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -850,7 +961,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-pilar-primordial",
@@ -869,12 +984,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Montante formidável que alterna propriedades elementais e pode invocar elementais.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -887,7 +1003,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-talho-de-azgher",
@@ -906,12 +1026,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Cimitarra formidável que emite luz e pode gerar luz solar intensa.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -924,7 +1045,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-valete-de-nimb",
@@ -943,12 +1068,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada longa caótica cujo dano muda aleatoriamente a cada acerto.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -961,7 +1087,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-mosquete-taratect",
@@ -980,12 +1110,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Mosquete certeiro com design aracnídeo, capaz de lançar Teia.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -998,7 +1129,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-rebeliao",
@@ -1017,12 +1152,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Arma híbrida aumentada, maciça, magnífica, lancinante e de adamante, capaz de assumir várias formas.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -1035,7 +1171,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-kiri",
@@ -1054,12 +1194,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Katana ameaçadora formidável que cria névoa densa sem afetar seu portador.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -1072,7 +1213,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-yasidi",
@@ -1091,12 +1236,13 @@
         "arma magica",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil",
+        "arma"
       ],
       "descricao": "Espada longa corrosiva energética formidável que projeta uma lâmina de ácido.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -1109,7 +1255,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-arco-dos-arautos",
@@ -1129,7 +1279,8 @@
         "arma especifica",
         "novo item",
         "dragao brasil 228",
-        "tormenta20"
+        "tormenta20",
+        "arma"
       ],
       "descricao": "Arma favorita dos Arautos do Destruidor, este arco longo cruel preciso caçador pode ser encontrado por qualquer aventureiro que vasculhe os equipamentos de um membro desta organização. Você recebe a habilidade Marca da Presa do caçador, mas só pode usá-la com esta arma. Se já possui essa habilidade, em vez disso, o custo para usá-la com esta arma diminui em –1 PM.",
       "properties": "Arma específica média.",
@@ -1145,7 +1296,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-arma-silente",
@@ -1165,7 +1320,8 @@
         "arma especifica",
         "novo item",
         "dragao brasil 228",
-        "tormenta20"
+        "tormenta20",
+        "arma"
       ],
       "descricao": "Uma arma silente é o espólio obtido por aqueles que derrotam um membro da Lança Silente. Este item é uma arma (escolha entre alabarda, azagaia, lança, lança de falange, lança montada, machado de haste ou pique) certeira equilibrada formidável de adamante que fornece +5 em testes de Conhecimento, Guerra e Nobreza cujo objetivo seja perpetuar a guerra.",
       "properties": "Arma específica menor.",
@@ -1181,7 +1337,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "arma magica",
+        "arma"
+      ]
     }
   ]
 }

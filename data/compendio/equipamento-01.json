@@ -17,8 +17,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Par de algemas para aprisionar uma criatura Média. Uma criatura presa pode escapar com Acrobacia CD 30 ou Força CD 26.",
       "properties": "",
@@ -34,7 +34,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-algibeira",
@@ -52,8 +55,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
       "properties": "",
@@ -69,7 +72,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-corda-15m",
@@ -87,8 +93,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Rolo de 15m de corda de cânhamo. Nós comuns exigem Destreza CD 10, nós especiais CD 12 e arrebentá-la exige Força CD 23.",
       "properties": "",
@@ -104,7 +110,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-espelho-de-metal",
@@ -122,8 +131,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Espelho de metal polido útil para observar cantos, refletir sinais de luz e ajudar na preparação de disfarces.",
       "properties": "",
@@ -139,7 +148,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-kit-de-artesao",
@@ -157,8 +169,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Conjunto de ferramentas específico para uma perícia de Ofício, como carpintaria ou joalheria. Sem as ferramentas adequadas, o personagem sofre –4 nos testes do Ofício.",
       "properties": "",
@@ -174,7 +186,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-kit-de-aventureiro",
@@ -192,8 +207,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Conjunto com o básico para exploração: mochila, saco de dormir, corda, pederneira, duas tochas, odre, uma semana de ração e traje de explorador.",
       "properties": "",
@@ -209,7 +224,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-kit-de-disfarces",
@@ -227,8 +245,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Estojo com cosméticos, tinta para cabelo e próteses simples. Sem o kit, o personagem sofre –4 em Enganação para criar disfarces.",
       "properties": "",
@@ -244,7 +262,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-kit-de-ladrao",
@@ -262,8 +283,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Estojo com gazuas, arames e pequenas ferramentas para abrir fechaduras e operar mecanismos. Sem o kit, sofre –4 em Ladinagem para essas tarefas.",
       "properties": "",
@@ -279,7 +300,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-kit-de-medicamentos",
@@ -297,8 +321,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Pequena caixa com ervas, unguentos, bandagens e suprimentos médicos. Sem o kit, o personagem sofre –4 em testes de Cura.",
       "properties": "",
@@ -314,7 +338,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-instrumento-musical",
@@ -332,8 +359,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Instrumento típico, como flauta ou bandolim, muito utilizado por bardos.",
       "properties": "",
@@ -349,7 +376,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-lampiao",
@@ -367,8 +397,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Cilindro com alça e portinholas que abriga uma chama alimentada por óleo. Ilumina até 9m; uma carga de óleo dura 6 horas.",
       "properties": "",
@@ -384,7 +414,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-mochila",
@@ -402,8 +435,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Bolsa reforçada de couro com bolsos e tiras para ser carregada nas costas e prender equipamentos.",
       "properties": "",
@@ -419,7 +452,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-odre",
@@ -437,8 +473,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Bolsa de couro para guardar líquidos, geralmente água ou vinho. O modelo mais comum comporta 1 litro.",
       "properties": "",
@@ -454,7 +490,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-pe-de-cabra",
@@ -472,8 +511,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Barra de ferro para forçar portas e baús. Fornece +4 em testes de Força para abri-los e pode ser usada como uma clava.",
       "properties": "",
@@ -489,7 +528,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-pederneira",
@@ -507,8 +549,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna com ela exige uma ação de rodada completa.",
       "properties": "",
@@ -524,7 +566,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-pena",
@@ -542,8 +587,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Pena de ave preparada para escrita, usada com tinta em documentos, mapas e anotações.",
       "properties": "",
@@ -559,7 +604,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-pergaminho-folha",
@@ -577,8 +625,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Pedaço de pele de cabra ou ovelha preparado para escrita.",
       "properties": "",
@@ -594,7 +642,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-saco-de-dormir",
@@ -612,8 +663,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Colchão e coberta fina que podem ser enrolados e amarrados, úteis para descansar durante viagens e explorações.",
       "properties": "",
@@ -629,7 +680,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-saco-de-lona",
@@ -647,8 +701,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Saco de tecido resistente fechado por uma corda, com capacidade para até 20 kg.",
       "properties": "",
@@ -664,7 +718,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-tinta-frasco",
@@ -682,8 +739,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Frasco de 30 ml de tinta fresca preta; outras cores custam o dobro.",
       "properties": "",
@@ -699,7 +756,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-tocha",
@@ -717,8 +777,9 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico",
+        "consumivel"
       ],
       "descricao": "Bastão com material combustível na ponta. Queima por uma hora e ilumina até 6m; em combate, funciona como arma simples e acrescenta 1 ponto de dano de fogo.",
       "properties": "",
@@ -734,7 +795,11 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento",
+        "consumivel"
+      ]
     },
     {
       "id": "tormenta-rpg-vara-de-madeira-3m",
@@ -752,8 +817,8 @@
       "tags": [
         "equipamento",
         "equipamento geral",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. Tem várias utilidades, mas é frágil demais para servir como arma.",
       "properties": "",
@@ -769,7 +834,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-traje-da-corte",
@@ -787,8 +855,8 @@
       "tags": [
         "equipamento",
         "vestimenta",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Roupas luxuosas feitas sob medida para nobreza e realeza, incluindo algumas joias.",
       "properties": "",
@@ -804,7 +872,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-traje-de-explorador",
@@ -822,8 +893,8 @@
       "tags": [
         "equipamento",
         "vestimenta",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Roupa resistente para aventureiros, com botas, peças de couro, cinto, camisa de linho e capa com capuz.",
       "properties": "",
@@ -839,7 +910,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     },
     {
       "id": "tormenta-rpg-traje-de-plebeu",
@@ -857,8 +931,8 @@
       "tags": [
         "equipamento",
         "vestimenta",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico"
+        "tormenta classico",
+        "modulo basico"
       ],
       "descricao": "Roupas simples de aldeão, como camisa larga e calças soltas ou saia e vestido; normalmente não incluem calçados.",
       "properties": "",
@@ -874,7 +948,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "equipamento"
+      ]
     }
   ]
 }

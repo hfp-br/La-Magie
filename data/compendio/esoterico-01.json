@@ -33,7 +33,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-flauta-convocadora",
@@ -67,7 +70,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-mandala-onirica",
@@ -101,7 +107,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-varinha-armamentista",
@@ -135,7 +144,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-cajado-das-mares",
@@ -172,7 +184,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-calice-sagrado",
@@ -209,7 +224,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-relogio-do-arcanista",
@@ -246,7 +264,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-herois-varinha-milenar",
@@ -283,7 +304,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-dbfree-cajado-da-destruicao",
@@ -302,12 +326,12 @@
         "esoterico",
         "item especifico",
         "tormenta20",
-        "material adicional da dragao brasil",
         "magico",
-        "especifico"
+        "especifico",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Cajado magnífico voltado a usuários de raio arcano. Aumenta em +2 a CD para resistir ao raio e acrescenta um dado de dano; ao disparar um raio, o usuário pode gastar 3 PM para lançar um segundo contra outro alvo.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -320,7 +344,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-dbfree-varinha-elfica",
@@ -339,12 +366,11 @@
         "esoterico",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Varinha arcana feita de madeira de Tollon e com a melhoria energética, criada para potencializar o dano de magias.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -357,7 +383,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-bolsa-de-po",
@@ -374,7 +403,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Bolsa de pó multicolorido feito de pétalas da Pondsmânia. Ao lançar encantamentos ou ilusões, fornece +2 PM para gastar apenas em aprimoramentos da magia. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -390,7 +420,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-cajado-arcano",
@@ -407,7 +440,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cajado entalhado com runas. Aumenta em +1 o limite de PM e a CD de magias arcanas; precisa ser empunhado com as duas mãos e também pode ser usado como bordão. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -423,7 +457,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 2"
+      "properties": "Espaços: 2",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-cetro-elemental",
@@ -440,7 +477,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Cetro com gema associada a ácido, eletricidade, fogo ou frio. Magias que causem o tipo correspondente aumentam o dano em um dado do mesmo tipo. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -456,7 +494,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-costela-de-lich",
@@ -473,7 +514,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Varinha feita de osso de morto-vivo. Suas magias causam +1d6 de trevas, mas enquanto estiver empunhada você não recupera PV por cura mágica. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -489,7 +531,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-dedo-de-ente",
@@ -506,7 +551,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Varinha feita de madeira de uma árvore senciente. Sempre que gastar PM para lançar magia, role 1d4; com 4, recupera 1 PM. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -522,7 +568,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-luva-de-ferro",
@@ -539,7 +588,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Conjunto de dedais metálicos ligados por correntes. Magias arcanas pessoais que dão bônus na Defesa ou resistências aumentam esse bônus em +1. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -555,7 +605,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-medalhao-de-prata",
@@ -572,7 +625,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Medalhão gravado com runa pessoal do conjurador. Reduz em –1 PM o custo de magias de alcance pessoal. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -588,7 +642,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-orbe-cristalina",
@@ -605,7 +662,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Esfera cristalina que concentra poder mágico. Aumenta em +1 o limite de PM que você pode gastar em magias arcanas. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -621,7 +679,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-tomo-hermetico",
@@ -638,7 +699,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Livro dedicado a uma escola de magia. Aumenta em +2 a CD para resistir às suas magias arcanas dessa escola. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -654,7 +716,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-jda-varinha-arcana",
@@ -671,7 +736,8 @@
       "pagina": 156,
       "tags": [
         "esoterico",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Varinha de madeira entalhada com runas. Aumenta em +1 a CD para resistir às suas magias arcanas. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -687,7 +753,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-alma-de-dragao",
@@ -703,7 +772,6 @@
       "fonte": "Dragão Brasil 228",
       "pagina": 20,
       "tags": [
-        "esoterico",
         "esoterico",
         "novo item",
         "dragao brasil 228",
@@ -723,7 +791,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     },
     {
       "id": "t20-dragao-brasil-228-rosario-da-vida",
@@ -739,7 +810,6 @@
       "fonte": "Dragão Brasil 228",
       "pagina": 27,
       "tags": [
-        "esoterico",
         "esoterico",
         "novo item",
         "dragao brasil 228",
@@ -759,7 +829,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "esoterico"
+      ]
     }
   ]
 }

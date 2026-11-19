@@ -18,7 +18,9 @@
         "municao",
         "flechas",
         "arco",
-        "20 unidades"
+        "20 unidades",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Conjunto com 20 flechas, usado como munição para arcos.",
       "schemaVersion": 5,
@@ -34,7 +36,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-virotes-20",
@@ -53,7 +58,9 @@
         "municao",
         "virotes",
         "besta",
-        "20 unidades"
+        "20 unidades",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Caixa com 20 virotes, pequenas setas usadas como munição para bestas.",
       "schemaVersion": 5,
@@ -69,7 +76,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-balas-20",
@@ -88,7 +98,9 @@
         "municao",
         "balas de funda",
         "funda",
-        "20 unidades"
+        "20 unidades",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Saco com 20 balas de funda, pequenas pedras ou projéteis arredondados usados como munição para a funda.",
       "schemaVersion": 5,
@@ -104,7 +116,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-municao-20",
@@ -124,7 +139,9 @@
         "arma de fogo",
         "mosquete",
         "pistola",
-        "20 unidades"
+        "20 unidades",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Conjunto com 20 unidades de munição para armas de fogo.",
       "schemaVersion": 5,
@@ -140,7 +157,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": ""
+      "properties": "",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-virotes-20-herois-de-arton",
@@ -175,7 +195,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-flechas-20-herois-de-arton",
@@ -210,7 +233,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-balas-20-herois-de-arton",
@@ -245,7 +271,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-bola-de-ferro-1",
@@ -280,7 +309,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-jda-balas-20",
@@ -298,7 +330,8 @@
       "tags": [
         "municao",
         "arma de fogo",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Bolsa com 20 pequenas esferas de chumbo e pólvora, usada em pistolas e mosquetes. Recarregar uma arma de fogo com balas exige uma ação padrão. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -314,7 +347,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-jda-flechas-20",
@@ -332,7 +368,8 @@
       "tags": [
         "municao",
         "flechas",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Aljava com 20 flechas de madeira, ponta metálica e penas para estabilizar o voo. Recarregar um arco com uma flecha é uma ação livre. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -348,7 +385,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-jda-pedras-20",
@@ -366,7 +406,8 @@
       "tags": [
         "municao",
         "funda",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Saco de couro com 20 pedras polidas usadas como munição de funda. Recarregar uma funda com uma pedra é uma ação de movimento. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -382,7 +423,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-jda-virotes-20",
@@ -400,7 +444,8 @@
       "tags": [
         "municao",
         "virotes",
-        "jogo do ano"
+        "jogo do ano",
+        "tormenta20"
       ],
       "descricao": "Aljava com 20 pequenas setas de madeira para bestas. Recarregar uma besta leve é ação de movimento; uma besta pesada exige ação padrão. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -416,7 +461,10 @@
         "immunities": ""
       },
       "resources": [],
-      "properties": "Espaços: 1"
+      "properties": "Espaços: 1",
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-flechas-assobiadoras-20",
@@ -452,7 +500,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-flechas-de-caca-20",
@@ -488,7 +539,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-flechas-pesadas-20",
@@ -524,7 +578,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     },
     {
       "id": "t20-herois-virotes-pesados-20",
@@ -560,7 +617,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "municao"
+      ]
     }
   ]
 }

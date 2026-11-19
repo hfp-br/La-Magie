@@ -18,12 +18,11 @@
         "ferramenta",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Ferramenta reconfigurável que funciona como espada curta e como kit de Ofício definido na fabricação.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -36,7 +35,10 @@
         "resistances": "",
         "immunities": ""
       },
-      "resources": []
+      "resources": [],
+      "categorias": [
+        "ferramenta"
+      ]
     }
   ]
 }

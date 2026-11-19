@@ -20,8 +20,8 @@
         "corpo a corpo - leve",
         "leve",
         "arremesso",
-        "+2 em Ladinagem para ocultar",
-        "pode usar DES no teste de ataque"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Faca curta e discreta, comum entre aventureiros e criminosos. Pode ser arremessada e permite usar Destreza no teste de ataque. Efeito: leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
       "schemaVersion": 5,
@@ -55,7 +55,11 @@
         "properties": "leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 em Ladinagem para ocultar; pode usar DES no teste de ataque"
     },
     {
       "id": "t20-espada-curta",
@@ -74,7 +78,9 @@
         "arma",
         "simples",
         "corpo a corpo - leve",
-        "leve"
+        "leve",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada compacta de uso muito comum, adequada como arma principal leve ou secundária.",
       "schemaVersion": 5,
@@ -108,7 +114,10 @@
         "properties": "leve",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-foice",
@@ -127,7 +136,9 @@
         "arma",
         "simples",
         "corpo a corpo - leve",
-        "leve"
+        "leve",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Ferramenta agrícola de lâmina curva, também usada como arma; é tradicional entre druidas. Efeito: leve",
       "schemaVersion": 5,
@@ -161,7 +172,10 @@
         "properties": "leve",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-manopla",
@@ -180,8 +194,8 @@
         "arma",
         "simples",
         "corpo a corpo - leve",
-        "ataque desarmado letal",
-        "não pode ser desarmada"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Luva metálica que torna ataques desarmados letais. Modificações e encantos da manopla se aplicam aos ataques desarmados. Efeito: ataque desarmado letal; não pode ser desarmada",
       "schemaVersion": 5,
@@ -215,7 +229,11 @@
         "properties": "ataque desarmado letal; não pode ser desarmada",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "ataque desarmado letal; não pode ser desarmada"
     },
     {
       "id": "t20-clava",
@@ -233,7 +251,9 @@
       "tags": [
         "arma",
         "simples",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Pedaço robusto de madeira usado como arma; é simples de obter e normalmente não tem custo.",
       "schemaVersion": 5,
@@ -267,7 +287,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-lanca",
@@ -286,7 +309,9 @@
         "arma",
         "simples",
         "corpo a corpo - uma mao",
-        "arremesso"
+        "arremesso",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Haste com ponta afiada, muito comum por ser fácil de fabricar. Também pode ser arremessada. Efeito: arremesso",
       "schemaVersion": 5,
@@ -320,7 +345,10 @@
         "properties": "arremesso",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-maca",
@@ -338,7 +366,9 @@
       "tags": [
         "arma",
         "simples",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arma de impacto com cabeça pesada, associada a combatentes que preferem esmagar em vez de cortar.",
       "schemaVersion": 5,
@@ -372,7 +402,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-bordao",
@@ -391,7 +424,9 @@
         "arma",
         "simples",
         "corpo a corpo - duas maos",
-        "dupla"
+        "dupla",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Cajado simples e acessível. É uma arma dupla, permitindo uso com técnicas de duas armas.",
       "schemaVersion": 5,
@@ -425,7 +460,10 @@
         "properties": "dupla",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-pique",
@@ -444,7 +482,9 @@
         "arma",
         "simples",
         "corpo a corpo - duas maos",
-        "alongada"
+        "alongada",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Lança extremamente longa. É uma arma alongada, aumentando o alcance corpo a corpo, mas dificultando ataques adjacentes.",
       "schemaVersion": 5,
@@ -478,7 +518,10 @@
         "properties": "alongada",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-tacape",
@@ -496,7 +539,9 @@
       "tags": [
         "arma",
         "simples",
-        "corpo a corpo - duas maos"
+        "corpo a corpo - duas maos",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Versão maior e mais pesada de uma clava, às vezes reforçada com pregos.",
       "schemaVersion": 5,
@@ -530,7 +575,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-arco-curto",
@@ -550,7 +598,8 @@
         "simples",
         "ataque a distancia",
         "disparo",
-        "pode ser usado montado"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arco comum usado para caça e guerra. Exige as duas mãos, mas pode ser usado enquanto o personagem está montado. Efeito: disparo; pode ser usado montado",
       "schemaVersion": 5,
@@ -584,7 +633,11 @@
         "properties": "disparo; pode ser usado montado",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "pode ser usado montado"
     },
     {
       "id": "t20-besta-leve",
@@ -603,7 +656,9 @@
         "arma",
         "simples",
         "ataque a distancia",
-        "disparo"
+        "disparo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Besta de madeira acionada por gatilho. Exige as duas mãos e precisa de uma ação de movimento para recarregar. Efeito: disparo",
       "schemaVersion": 5,
@@ -637,7 +692,10 @@
         "properties": "disparo",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-azagaia",
@@ -657,7 +715,8 @@
         "simples",
         "ataque a distancia",
         "arremesso",
-        "corpo a corpo com -5 no ataque"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Lança leve feita para arremesso. Pode ser usada em combate corpo a corpo, mas com penalidade no teste de ataque. Efeito: arremesso; corpo a corpo com -5 no ataque",
       "schemaVersion": 5,
@@ -691,7 +750,11 @@
         "properties": "arremesso; corpo a corpo com -5 no ataque",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "corpo a corpo com -5 no ataque"
     },
     {
       "id": "t20-funda",
@@ -711,8 +774,8 @@
         "simples",
         "ataque a distancia",
         "disparo",
-        "aplica FOR ao dano",
-        "pedras reduzem o dano em um passo"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Tira de couro para lançar projéteis. Pode usar pedras improvisadas com dano menor e, diferente de outras armas de disparo, soma Força ao dano. Efeito: disparo; aplica FOR ao dano; pedras reduzem o dano em um passo",
       "schemaVersion": 5,
@@ -746,7 +809,11 @@
         "properties": "disparo; aplica FOR ao dano; pedras reduzem o dano em um passo",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "aplica FOR ao dano; pedras reduzem o dano em um passo"
     },
     {
       "id": "t20-escudo-leve",
@@ -765,10 +832,11 @@
         "arma",
         "marcial",
         "corpo a corpo - leve",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Escudo leve normalmente feito de madeira e amarrado ao antebraço, deixando a mão livre para carregar objetos, mas não para manusear uma arma. Efeitos: Bônus de Defesa +1 perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma. perde o bonus de Defesa ate o proximo turno ao atacar",
       "schemaVersion": 5,
@@ -816,7 +884,10 @@
         "defenseBonus": 1,
         "armorPenalty": -1,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-machadinha",
@@ -836,7 +907,9 @@
         "marcial",
         "corpo a corpo - leve",
         "leve",
-        "arremesso"
+        "arremesso",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Pequeno machado útil tanto como ferramenta quanto como arma. Pode ser arremessado. Efeito: leve; arremesso",
       "schemaVersion": 5,
@@ -870,7 +943,10 @@
         "properties": "leve; arremesso",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-cimitarra",
@@ -889,7 +965,9 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "agil"
+        "agil",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada de lâmina curva e muito afiada. É uma arma ágil.",
       "schemaVersion": 5,
@@ -923,7 +1001,10 @@
         "properties": "agil",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-escudo-pesado",
@@ -942,10 +1023,11 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "perde o bonus de Defesa ate o proximo turno ao atacar",
         "escudo",
         "defesa",
-        "penalidade de armadura"
+        "penalidade de armadura",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Escudo pesado normalmente feito de aço, preso ao antebraço e empunhado com firmeza, impedindo o uso daquela mão. Efeitos: Bônus de Defesa +2 perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão. perde o bonus de Defesa ate o proximo turno ao atacar",
       "schemaVersion": 5,
@@ -993,7 +1075,10 @@
         "defenseBonus": 2,
         "armorPenalty": -2,
         "type": "escudo"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-espada-longa",
@@ -1011,7 +1096,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada clássica de soldados e guerreiros, com lâmina reta de dois gumes.",
       "schemaVersion": 5,
@@ -1045,7 +1132,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-florete",
@@ -1064,7 +1154,9 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "agil"
+        "agil",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada de lâmina fina e precisa, feita para estocadas rápidas e controle fino da ponta. É uma arma ágil.",
       "schemaVersion": 5,
@@ -1098,7 +1190,10 @@
         "properties": "agil",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-machado-de-batalha",
@@ -1116,7 +1211,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Machado adaptado especificamente para combate, capaz de produzir ferimentos profundos.",
       "schemaVersion": 5,
@@ -1150,7 +1247,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-mangual",
@@ -1170,7 +1270,8 @@
         "marcial",
         "corpo a corpo - uma mao",
         "versatil",
-        "+2 para desarmar"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arma com esfera metálica presa a uma corrente. Sua construção facilita prender e desarmar a arma do adversário. Efeito: versatil; +2 para desarmar",
       "schemaVersion": 5,
@@ -1204,7 +1305,11 @@
         "properties": "versatil; +2 para desarmar",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 para desarmar"
     },
     {
       "id": "t20-martelo-de-guerra",
@@ -1222,7 +1327,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Ferramenta convertida em arma de combate, muito popular entre guerreiros anões.",
       "schemaVersion": 5,
@@ -1256,7 +1363,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-picareta",
@@ -1274,7 +1384,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - uma mao"
+        "corpo a corpo - uma mao",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Ferramenta de mineração cuja ponta também é extremamente perigosa em combate.",
       "schemaVersion": 5,
@@ -1308,7 +1420,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-tridente",
@@ -1328,7 +1443,8 @@
         "marcial",
         "corpo a corpo - uma mao",
         "versatil",
-        "+2 para derrubar"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Lança de três pontas usada por povos marinhos e gladiadores. É especialmente útil para derrubar oponentes. Efeito: versatil; +2 para derrubar",
       "schemaVersion": 5,
@@ -1362,7 +1478,11 @@
         "properties": "versatil; +2 para derrubar",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 para derrubar"
     },
     {
       "id": "t20-alabarda",
@@ -1381,7 +1501,9 @@
         "arma",
         "marcial",
         "corpo a corpo - duas maos",
-        "alongada"
+        "alongada",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arma de haste longa com lâmina de machado na ponta. É uma arma alongada.",
       "schemaVersion": 5,
@@ -1415,7 +1537,10 @@
         "properties": "alongada",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-alfange",
@@ -1433,7 +1558,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - duas maos"
+        "corpo a corpo - duas maos",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Grande espada curva derivada da cimitarra, comum entre guerreiros do Deserto da Perdição.",
       "schemaVersion": 5,
@@ -1467,7 +1594,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-gadanho",
@@ -1485,7 +1615,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - duas maos"
+        "corpo a corpo - duas maos",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Versão grande da foice agrícola, usada com as duas mãos.",
       "schemaVersion": 5,
@@ -1519,7 +1651,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-lanca-montada",
@@ -1539,8 +1674,8 @@
         "marcial",
         "corpo a corpo - duas maos",
         "alongada",
-        "montado pode usar com 1 mao",
-        "investida montada +2d8 dano"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Lança longa de cavalaria. Pode ser usada com uma mão quando montado e causa dano extra em investidas montadas. Efeito: alongada; montado pode usar com 1 mao; investida montada +2d8 dano",
       "schemaVersion": 5,
@@ -1574,7 +1709,11 @@
         "properties": "alongada; montado pode usar com 1 mao; investida montada +2d8 dano",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "montado pode usar com 1 mao; investida montada +2d8 dano"
     },
     {
       "id": "t20-machado-de-guerra",
@@ -1592,7 +1731,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - duas maos"
+        "corpo a corpo - duas maos",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Machado enorme de lâmina dupla, feito para golpes muito pesados.",
       "schemaVersion": 5,
@@ -1626,7 +1767,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-montante",
@@ -1644,7 +1788,9 @@
       "tags": [
         "arma",
         "marcial",
-        "corpo a corpo - duas maos"
+        "corpo a corpo - duas maos",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada enorme de cerca de um metro e meio, pesada e poderosa.",
       "schemaVersion": 5,
@@ -1678,7 +1824,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-arco-longo",
@@ -1698,8 +1847,8 @@
         "marcial",
         "ataque a distancia",
         "disparo",
-        "aplica FOR ao dano",
-        "nao pode ser usado montado"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arco de guerra reforçado e de grande porte. Exige as duas mãos, soma Força ao dano e não pode ser usado montado. Efeito: disparo; aplica FOR ao dano; nao pode ser usado montado",
       "schemaVersion": 5,
@@ -1733,7 +1882,11 @@
         "properties": "disparo; aplica FOR ao dano; nao pode ser usado montado",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "aplica FOR ao dano; nao pode ser usado montado"
     },
     {
       "id": "t20-besta-pesada",
@@ -1752,7 +1905,9 @@
         "arma",
         "marcial",
         "ataque a distancia",
-        "disparo"
+        "disparo",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Versão maior e mais potente da besta leve. Exige as duas mãos e uma ação padrão para recarregar. Efeito: disparo",
       "schemaVersion": 5,
@@ -1786,7 +1941,10 @@
         "properties": "disparo",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-chicote",
@@ -1807,8 +1965,8 @@
         "corpo a corpo - uma mao",
         "agil",
         "versatil",
-        "+2 para derrubar e desarmar",
-        "alcance 4,5 m"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Chicote de combate capaz de atingir alvos a distância curta de corpo a corpo e auxiliar manobras de derrubar ou desarmar. Efeito: agil; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
       "schemaVersion": 5,
@@ -1842,7 +2000,11 @@
         "properties": "agil; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 para derrubar e desarmar; alcance 4,5 m"
     },
     {
       "id": "t20-espada-bastarda",
@@ -1862,7 +2024,8 @@
         "exotica",
         "corpo a corpo - uma mao",
         "adaptavel",
-        "pode ser usada como marcial de duas maos"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada maior que a longa. Com treinamento exótico funciona em uma mão; também pode ser usada com duas mãos como arma marcial. Efeito: adaptavel; pode ser usada como marcial de duas maos",
       "schemaVersion": 5,
@@ -1896,7 +2059,11 @@
         "properties": "adaptavel; pode ser usada como marcial de duas maos",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "pode ser usada como marcial de duas maos"
     },
     {
       "id": "t20-katana",
@@ -1917,7 +2084,8 @@
         "corpo a corpo - uma mao",
         "adaptavel",
         "agil",
-        "pode ser usada como marcial de duas maos"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada tradicional de lâmina curva e um gume. É adaptável e ágil; também pode ser empunhada com duas mãos como arma marcial. Efeito: adaptavel; agil; pode ser usada como marcial de duas maos",
       "schemaVersion": 5,
@@ -1951,7 +2119,11 @@
         "properties": "adaptavel; agil; pode ser usada como marcial de duas maos",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "pode ser usada como marcial de duas maos"
     },
     {
       "id": "t20-machado-anao",
@@ -1970,7 +2142,8 @@
         "arma",
         "exotica",
         "corpo a corpo - uma mao",
-        "pode ser usado como marcial de duas maos"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Machado tradicional anão de grande porte. Exige treino especial para uma mão, mas pode ser usado com duas mãos como arma marcial. Efeito: pode ser usado como marcial de duas maos",
       "schemaVersion": 5,
@@ -2004,7 +2177,11 @@
         "properties": "pode ser usado como marcial de duas maos",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "pode ser usado como marcial de duas maos"
     },
     {
       "id": "t20-corrente-de-espinhos",
@@ -2026,8 +2203,8 @@
         "agil",
         "dupla",
         "versatil",
-        "+2 para derrubar e desarmar",
-        "alcance 4,5 m"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Corrente armada capaz de alcançar inimigos mais distantes e prender membros ou armas. É ágil, dupla e versátil. Efeito: agil; dupla; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
       "schemaVersion": 5,
@@ -2061,7 +2238,11 @@
         "properties": "agil; dupla; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 para derrubar e desarmar; alcance 4,5 m"
     },
     {
       "id": "t20-machado-taurico",
@@ -2080,7 +2261,8 @@
         "arma",
         "exotica",
         "corpo a corpo - duas maos",
-        "-2 em testes de ataque"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Machado ancestral dos minotauros, enorme e extremamente pesado. Seu formato desbalanceado impõe penalidade nos ataques. Efeito: -2 em testes de ataque",
       "schemaVersion": 5,
@@ -2114,7 +2296,11 @@
         "properties": "-2 em testes de ataque",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "-2 em testes de ataque"
     },
     {
       "id": "t20-rede",
@@ -2133,9 +2319,9 @@
         "arma",
         "exotica",
         "ataque a distancia",
-        "nao causa dano",
         "enreda",
-        "corda em alcance curto"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Rede com dentes e corda de controle. Ao acertar, não causa dano: deixa a vítima enredada e pode limitar seu movimento. Efeito: nao causa dano; enreda; corda em alcance curto",
       "schemaVersion": 5,
@@ -2169,7 +2355,11 @@
         "properties": "nao causa dano; enreda; corda em alcance curto",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "nao causa dano; corda em alcance curto"
     },
     {
       "id": "t20-mosquete",
@@ -2189,7 +2379,8 @@
         "arma de fogo",
         "ataque a distancia",
         "disparo",
-        "arma de fogo"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arma de fogo de grande potência. Exige as duas mãos e uma ação padrão para recarregar. Efeito: disparo; arma de fogo",
       "schemaVersion": 5,
@@ -2223,7 +2414,10 @@
         "properties": "disparo; arma de fogo",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-pistola",
@@ -2243,7 +2437,8 @@
         "arma de fogo",
         "ataque a distancia",
         "disparo",
-        "conta como arma leve para Estilo de Duas Armas"
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Arma de fogo compacta. Conta como arma leve para técnicas de duas armas e exige uma ação padrão para recarregar. Efeito: disparo; conta como arma leve para Estilo de Duas Armas",
       "schemaVersion": 5,
@@ -2277,7 +2472,11 @@
         "properties": "disparo; conta como arma leve para Estilo de Duas Armas",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "conta como arma leve para Estilo de Duas Armas"
     },
     {
       "id": "t20-azagaia-dos-relampagos",
@@ -2297,10 +2496,11 @@
         "simples",
         "ataque a distancia",
         "arremesso",
-        "corpo a corpo com -5 no ataque",
         "magico",
         "arma especifica",
-        "eletricidade"
+        "eletricidade",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Azagaia mágica que, quando arremessada, transforma-se em um relâmpago e volta à forma normal ao final do alcance. Efeitos: Ao arremessar, transforma-se em Relâmpago: 6d6 de eletricidade em uma linha de alcance médio. Ao fim do alcance volta a ser azagaia e cai no chão. arremesso; corpo a corpo com -5 no ataque",
       "schemaVersion": 5,
@@ -2341,7 +2541,11 @@
         "properties": "arremesso; corpo a corpo com -5 no ataque",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "corpo a corpo com -5 no ataque"
     },
     {
       "id": "t20-espada-baronial",
@@ -2363,7 +2567,9 @@
         "magico",
         "arma especifica",
         "khalmyr",
-        "nobreza"
+        "nobreza",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Espada longa de guarda reta concedida a vassalos dignos. Seu poder cresce com honra, devoção a Khalmyr e treinamento em Nobreza. Efeito: Fornece +1 em ataque e dano. Esse bônus aumenta em +1 para cada condição cumprida: possuir código de conduta, ser devoto de Khalmyr e ser treinado em Nobreza; máximo +4.",
       "schemaVersion": 5,
@@ -2404,7 +2610,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-lamina-da-luz",
@@ -2424,11 +2633,12 @@
         "exotica",
         "corpo a corpo - uma mao",
         "adaptavel",
-        "pode ser usada como marcial de duas maos",
         "magico",
         "arma especifica",
         "luz",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Espada bastarda formidável de lâmina prateada e reluzente, concedida a cavaleiros da Luz. Efeitos: Ação de movimento e 2 PM: irradia luz brilhante em alcance médio até o fim da cena; inimigos dentro da luz ficam ofuscados. adaptavel; pode ser usada como marcial de duas maos",
       "schemaVersion": 5,
@@ -2469,7 +2679,11 @@
         "properties": "adaptavel; pode ser usada como marcial de duas maos",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "pode ser usada como marcial de duas maos"
     },
     {
       "id": "t20-lanca-animalesca",
@@ -2493,7 +2707,9 @@
         "arma especifica",
         "natureza",
         "forma selvagem",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Lança formidável coberta de espinhos e folhas vivas, ligada à transformação animal. Efeitos: Ao usar Forma Selvagem, aplique o bônus +2 de ataque e dano desta lança às suas armas naturais. arremesso",
       "schemaVersion": 5,
@@ -2534,7 +2750,10 @@
         "properties": "arremesso",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-maca-do-terror",
@@ -2556,7 +2775,9 @@
         "magico",
         "arma especifica",
         "medo",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Maça formidável feita com osso e crânio, impregnada de magia aterradora. Efeito: Permite lançar Amedrontar. Se já conhece a magia, seu custo diminui em –1 PM.",
       "schemaVersion": 5,
@@ -2597,7 +2818,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-florete-fugaz",
@@ -2620,7 +2844,9 @@
         "magico",
         "arma especifica",
         "formidavel",
-        "critico"
+        "critico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Florete formidável com cabo e guarda trabalhados em prata e pedrarias, capaz de acelerar uma sequência perfeita de golpes. Efeitos: Ao usar a ação atacar, pode gastar 1 PM. Se acertar um crítico nesse turno, pode fazer um ataque adicional contra a mesma criatura. agil",
       "schemaVersion": 5,
@@ -2661,7 +2887,10 @@
         "properties": "agil",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-cajado-da-destruicao",
@@ -2684,7 +2913,9 @@
         "magico",
         "arma especifica",
         "magia",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Bordão formidável escuro e reforçado, procurado por conjuradores de batalha. Efeitos: Magias de dano lançadas por você causam +1 ponto de dano por dado. dupla",
       "schemaVersion": 5,
@@ -2725,7 +2956,10 @@
         "properties": "dupla",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-cajado-da-vida",
@@ -2749,7 +2983,9 @@
         "arma especifica",
         "cura",
         "magia",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Bordão formidável branco com runas prateadas, valorizado por curandeiros. Efeitos: Magias de cura lançadas por você curam +2 PV por dado. dupla",
       "schemaVersion": 5,
@@ -2790,7 +3026,10 @@
         "properties": "dupla",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-machado-silvestre",
@@ -2813,7 +3052,9 @@
         "arma especifica",
         "natureza",
         "ermo",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Machado de batalha formidável gravado com plantas e animais selvagens. Efeito: Em ambiente ermo e ao ar livre, causa +1d8 de dano e concede o poder Trespassar. Se já possuir Trespassar, pode usá-lo sem gastar PM.",
       "schemaVersion": 5,
@@ -2854,7 +3095,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-martelo-de-doherimm",
@@ -2877,7 +3121,9 @@
         "arma especifica",
         "anao",
         "doherimm",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Martelo de guerra formidável de pedra e aço, cujo poder aumenta nas mãos de um anão. Efeito: Quando empunhado por um anão, adquire arremesso e causa +1d8 de dano, ou +2d8 contra criaturas Grandes ou maiores.",
       "schemaVersion": 5,
@@ -2918,7 +3164,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-arco-do-poder",
@@ -2938,12 +3187,12 @@
         "marcial",
         "ataque a distancia",
         "disparo",
-        "aplica FOR ao dano",
-        "nao pode ser usado montado",
         "magico",
         "arma especifica",
         "energia",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Arco longo formidável sem corda física, capaz de criar flechas de energia diferentes conforme a intenção do usuário. Efeitos: Flecha normal: 3d8 de essência. Flecha piedosa: 4d8 não letal. Flecha explosiva: 3d6 fogo no alvo e adjacentes (Reflexos CD 20 reduz pela metade para adjacentes). Flecha-rede: sem dano, deixa agarrado; Força CD 20 para escapar. disparo; aplica FOR ao dano; nao pode ser usado montado",
       "schemaVersion": 5,
@@ -2984,7 +3233,11 @@
         "properties": "disparo; aplica FOR ao dano; nao pode ser usado montado",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "aplica FOR ao dano; nao pode ser usado montado"
     },
     {
       "id": "t20-lingua-do-deserto",
@@ -3008,7 +3261,9 @@
         "arma especifica",
         "fogo",
         "deserto",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Cimitarra formidável originária do Deserto da Perdição, capaz de envolver sua lâmina em chamas. Efeitos: Ação de movimento e 2 PM: transforma a lâmina em chamas até o fim da cena; dano aumenta um passo e passa a fogo. Ação de movimento e 2 PM enquanto em chamas: inimigos em alcance curto ficam desprevenidos por 1 rodada. agil",
       "schemaVersion": 5,
@@ -3055,7 +3310,10 @@
         "properties": "agil",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-besta-explosiva",
@@ -3079,7 +3337,9 @@
         "arma especifica",
         "fogo",
         "explosao",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Besta pesada formidável de madeira escurecida, capaz de transformar virotes em explosões de fogo. Efeitos: Ao disparar, pode gastar 3 PM para transformar o virote em Bola de Fogo. Contra criatura: ataque normal + 6d6 fogo no alvo e 6d6 fogo em criaturas a até 6m (Reflexos reduz metade); se errar, não explode. Contra ponto no chão: funciona como Bola de Fogo, sem teste de ataque. disparo",
       "schemaVersion": 5,
@@ -3120,7 +3380,10 @@
         "properties": "disparo",
         "allowedToggles": [],
         "damageStat": "none"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-punhal-sszzaazita",
@@ -3141,14 +3404,14 @@
         "corpo a corpo - leve",
         "leve",
         "arremesso",
-        "+2 em Ladinagem para ocultar",
-        "pode usar DES no teste de ataque",
         "magico",
         "arma especifica",
         "sszzaas",
         "veneno",
         "assassina",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Adaga negra e ondulada, formidável, assassina e venenosa, capaz de assumir a forma de um objeto inofensivo. Efeitos: Ação padrão e 2 PM: transforma-se em objeto inofensivo de tamanho similar; nenhuma magia detecta a transformação. Voltar à forma de arma é ação livre. Ao atacar, pode gastar 2 PM; se acertar, a vítima fica envenenada e sofre 1d12 de dano por rodada durante 1d6 rodadas. Possui o encanto Assassina, aumentando o Ataque Furtivo do usuário.",
       "schemaVersion": 5,
@@ -3201,7 +3464,11 @@
         "properties": "leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ],
+      "properties": "+2 em Ladinagem para ocultar; pode usar DES no teste de ataque"
     },
     {
       "id": "t20-espada-sortuda",
@@ -3224,7 +3491,9 @@
         "magico",
         "arma especifica",
         "sorte",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Espada curta formidável cravejada de brilhantes que favorece seu portador com sorte sobrenatural. Efeitos: Fornece +2 em testes de resistência. Pode gastar 3 PM para rolar novamente um teste recém-realizado, uma vez por teste. Se possuir Sortudo, o custo diminui em –1 PM. leve",
       "schemaVersion": 5,
@@ -3271,7 +3540,10 @@
         "properties": "leve",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-avalanche",
@@ -3295,7 +3567,9 @@
         "frio",
         "gelo eterno",
         "congelante",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Machado de guerra formidável de gelo eterno e encantado com frio, capaz de invocar uma tempestade de gelo. Efeitos: Fornece resistência a fogo 10. Ação padrão e 6 PM: cria tempestade de gelo em alcance curto ao redor. Criaturas recebem camuflagem e sofrem 3d6 impacto + 3d6 frio por rodada; você ignora esses efeitos. Gaste 1 PM no início de cada turno para manter.",
       "schemaVersion": 5,
@@ -3342,7 +3616,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-cajado-do-poder",
@@ -3365,7 +3642,9 @@
         "magico",
         "arma especifica",
         "arcano",
-        "magnifico"
+        "magnifico",
+        "tormenta20",
+        "jogo do ano"
       ],
       "descricao": "Bordão magnífico de cabo liso com joia cintilante, feito para ampliar o poder de conjuradores arcanos. Efeitos: O custo de suas magias arcanas diminui em –1 PM e a CD para resistir a elas aumenta em +2. dupla",
       "schemaVersion": 5,
@@ -3406,7 +3685,10 @@
         "properties": "dupla",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-vingadora-sagrada",
@@ -3429,7 +3711,9 @@
         "arma especifica",
         "paladino",
         "sagrada",
-        "formidavel"
+        "formidavel",
+        "tormenta20",
+        "livro basico"
       ],
       "descricao": "Espada longa formidável que revela seu verdadeiro poder quando empunhada por um paladino. Efeito: Nas mãos de um paladino: fornece +5 em ataque e dano, +5 em testes de resistência contra magia ao paladino e aliados em alcance curto, e reduz o custo de Golpe Divino em –1 PM.",
       "schemaVersion": 5,
@@ -3470,7 +3754,10 @@
         "properties": "",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-adaga",
@@ -3488,8 +3775,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -3525,7 +3812,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-curta",
@@ -3543,8 +3833,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3580,7 +3870,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-manopla",
@@ -3598,8 +3891,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3635,7 +3928,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-clava",
@@ -3653,8 +3949,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3690,7 +3986,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-lanca",
@@ -3708,8 +4007,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -3745,7 +4044,10 @@
         "reload": "",
         "properties": "arremesso",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-maca",
@@ -3763,8 +4065,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3800,7 +4102,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-bordao",
@@ -3818,8 +4123,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3855,7 +4160,10 @@
         "reload": "",
         "properties": "arma dupla",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-pique",
@@ -3873,8 +4181,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3910,7 +4218,10 @@
         "reload": "",
         "properties": "haste",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-tacape",
@@ -3928,8 +4239,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "corpo a corpo"
       ],
@@ -3965,7 +4276,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-acido",
@@ -3983,10 +4297,11 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
-        "distancia"
+        "distancia",
+        "consumivel"
       ],
       "descricao": "Se errar, ele sofre metade desse dano. Diferente do arco curto, é próprio para campos de batalha e outras áreas abertas — seu longo alcance permite atingir o inimigo a grandes Adaga: esta faca aﬁada é muito usada por ladrões e assassinos, distâncias. Exige as duas mãos.",
       "properties": "frasco alquímico",
@@ -4020,7 +4335,11 @@
         "reload": "",
         "properties": "frasco alquímico",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma",
+        "consumivel"
+      ]
     },
     {
       "id": "tormenta-rpg-agua-benta",
@@ -4038,10 +4357,11 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
-        "distancia"
+        "distancia",
+        "consumivel"
       ],
       "descricao": "Frasco de água consagrada por clérigos, nociva a mortos-vivos e espíritos malignos, mas inofensiva às demais criaturas. É arremessado em um ataque à distância resistido por Reflexos: causa 2d6 de dano se acertar ou metade se errar.",
       "properties": "frasco sagrado",
@@ -4075,7 +4395,11 @@
         "reload": "",
         "properties": "frasco sagrado",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma",
+        "consumivel"
+      ]
     },
     {
       "id": "tormenta-rpg-arco-curto",
@@ -4093,8 +4417,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -4130,7 +4454,10 @@
         "reload": "",
         "properties": "duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-azagaia",
@@ -4148,8 +4475,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -4185,7 +4512,10 @@
         "reload": "",
         "properties": "arremesso",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-besta-leve",
@@ -4203,8 +4533,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -4240,7 +4570,10 @@
         "reload": "",
         "properties": "duas mãos; recarga",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-fogo-alquimico",
@@ -4258,10 +4591,11 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
-        "distancia"
+        "distancia",
+        "consumivel"
       ],
       "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: frasco alquímico.",
       "properties": "frasco alquímico",
@@ -4295,7 +4629,11 @@
         "reload": "",
         "properties": "frasco alquímico",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma",
+        "consumivel"
+      ]
     },
     {
       "id": "tormenta-rpg-funda",
@@ -4313,8 +4651,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
         "distancia"
       ],
@@ -4350,7 +4688,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-granada",
@@ -4368,10 +4709,11 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "simples",
-        "distancia"
+        "distancia",
+        "consumivel"
       ],
       "descricao": "Ataque a distancia do Tormenta RPG. Causa 4d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: explosivo.",
       "properties": "explosivo",
@@ -4405,7 +4747,11 @@
         "reload": "",
         "properties": "explosivo",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma",
+        "consumivel"
+      ]
     },
     {
       "id": "tormenta-rpg-machadinha",
@@ -4423,8 +4769,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "distancia"
       ],
@@ -4460,7 +4806,10 @@
         "reload": "",
         "properties": "arremesso",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-martelo",
@@ -4478,8 +4827,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "distancia"
       ],
@@ -4515,7 +4864,10 @@
         "reload": "",
         "properties": "arremesso",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-cimitarra",
@@ -4533,8 +4885,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4570,7 +4922,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-longa",
@@ -4588,8 +4943,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4625,7 +4980,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-florete",
@@ -4643,8 +5001,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4680,7 +5038,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-machado-de-batalha",
@@ -4698,8 +5059,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4735,7 +5096,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-mangual",
@@ -4753,8 +5117,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4790,7 +5154,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-martelo-de-guerra",
@@ -4808,8 +5175,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4845,7 +5212,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-picareta",
@@ -4863,8 +5233,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4900,7 +5270,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-tridente",
@@ -4918,8 +5291,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -4955,7 +5328,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-alabarda",
@@ -4973,8 +5349,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5010,7 +5386,10 @@
         "reload": "",
         "properties": "haste",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-alfange",
@@ -5028,8 +5407,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5065,7 +5444,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-grande",
@@ -5083,8 +5465,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5120,7 +5502,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-foice",
@@ -5138,8 +5523,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5175,7 +5560,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-lanca-montada",
@@ -5193,8 +5581,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5230,7 +5618,10 @@
         "reload": "",
         "properties": "montada",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-machado-grande",
@@ -5248,8 +5639,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "corpo a corpo"
       ],
@@ -5285,7 +5676,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-arco-composto",
@@ -5303,8 +5697,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "distancia"
       ],
@@ -5340,7 +5734,10 @@
         "reload": "",
         "properties": "duas mãos; aplica Força no dano",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-arco-longo",
@@ -5358,8 +5755,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "distancia"
       ],
@@ -5395,7 +5792,10 @@
         "reload": "",
         "properties": "duas mãos",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-besta-pesada",
@@ -5413,8 +5813,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "marcial",
         "distancia"
       ],
@@ -5450,7 +5850,10 @@
         "reload": "",
         "properties": "duas mãos; recarga",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-nunchaku",
@@ -5468,8 +5871,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5505,7 +5908,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-sai",
@@ -5523,8 +5929,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5560,7 +5966,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-wakizashi",
@@ -5578,8 +5987,8 @@
       "tags": [
         "arma",
         "corpo a corpo - leve",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5615,7 +6024,10 @@
         "reload": "",
         "properties": "obra-prima",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-chicote",
@@ -5633,8 +6045,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5670,7 +6082,10 @@
         "reload": "",
         "properties": "alcance",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-bastarda",
@@ -5688,8 +6103,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5725,7 +6140,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-katana",
@@ -5743,8 +6161,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5780,7 +6198,10 @@
         "reload": "",
         "properties": "obra-prima",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-machado-anao",
@@ -5798,8 +6219,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5835,7 +6256,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-sabre-serrilhado",
@@ -5853,8 +6277,8 @@
       "tags": [
         "arma",
         "corpo a corpo - uma mao",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5890,7 +6314,10 @@
         "reload": "",
         "properties": "crítico especial",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-corrente-com-cravos",
@@ -5908,8 +6335,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -5945,7 +6372,10 @@
         "reload": "",
         "properties": "alcance",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-de-duas-laminas",
@@ -5963,8 +6393,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -6000,7 +6430,10 @@
         "reload": "",
         "properties": "arma dupla",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-espada-taurica",
@@ -6018,8 +6451,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -6055,7 +6488,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-marreta-estilhacadora",
@@ -6073,8 +6509,8 @@
       "tags": [
         "arma",
         "corpo a corpo - duas maos",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "corpo a corpo"
       ],
@@ -6110,7 +6546,10 @@
         "reload": "",
         "properties": "crítico especial",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-mosquete",
@@ -6128,8 +6567,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "distancia"
       ],
@@ -6165,7 +6604,10 @@
         "reload": "",
         "properties": "arma de fogo",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-pistola",
@@ -6183,8 +6625,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "distancia"
       ],
@@ -6220,7 +6662,10 @@
         "reload": "",
         "properties": "arma de fogo",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-rede",
@@ -6238,8 +6683,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "distancia"
       ],
@@ -6275,7 +6720,10 @@
         "reload": "",
         "properties": "arma de manobra",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-shuriken",
@@ -6293,8 +6741,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "distancia"
       ],
@@ -6330,7 +6778,10 @@
         "reload": "",
         "properties": "arremesso",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "tormenta-rpg-tai-tai",
@@ -6348,8 +6799,8 @@
       "tags": [
         "arma",
         "ataque a distancia",
-        "tormenta-rpg",
-        "tormenta rpg - modulo basico",
+        "tormenta classico",
+        "modulo basico",
         "exotica",
         "distancia"
       ],
@@ -6385,7 +6836,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-bastao-ludico",
@@ -6439,7 +6893,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-besta-de-mao",
@@ -6493,7 +6950,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-adaga-oposta",
@@ -6547,7 +7007,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-agulha-de-ahlen",
@@ -6601,7 +7064,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-cinquedea",
@@ -6655,7 +7121,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-dirk",
@@ -6709,7 +7178,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-martelo-leve",
@@ -6763,7 +7235,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-larga",
@@ -6817,7 +7292,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espadim",
@@ -6871,7 +7349,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-maca-estrela",
@@ -6925,7 +7406,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-serrilheira",
@@ -6979,7 +7463,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-bico-de-corvo",
@@ -7033,7 +7520,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-desmontador",
@@ -7087,7 +7577,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-de-execucao",
@@ -7141,7 +7634,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-lanca-de-justa",
@@ -7195,7 +7691,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-malho",
@@ -7249,7 +7748,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-martelo-longo",
@@ -7303,7 +7805,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-tan-korak",
@@ -7357,7 +7862,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-tai-tai",
@@ -7411,7 +7919,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-arco-montado",
@@ -7465,7 +7976,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-besta-dupla",
@@ -7519,7 +8033,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-kimbata",
@@ -7573,7 +8090,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-clava-grao",
@@ -7627,7 +8147,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-canora",
@@ -7681,7 +8204,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-espada-gadanho",
@@ -7735,7 +8261,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-khopesh",
@@ -7789,7 +8318,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-lanca-de-falange",
@@ -7843,7 +8375,10 @@
         "reload": "",
         "properties": "alongada; arremesso (Curto); pode usar duas mãos como arma marcial",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-machado-de-haste",
@@ -7897,7 +8432,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-rapieira",
@@ -7951,7 +8489,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-marrao",
@@ -8005,7 +8546,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-montante-cinetico",
@@ -8059,7 +8603,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-boleadeira",
@@ -8113,7 +8660,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-chakram",
@@ -8167,7 +8717,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-arco-de-guerra",
@@ -8221,7 +8774,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-balestra",
@@ -8275,7 +8831,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-besta-de-repeticao",
@@ -8329,7 +8888,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-garrucha",
@@ -8383,7 +8945,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-canhao-portatil",
@@ -8437,7 +9002,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-herois-sifao-caustico",
@@ -8491,7 +9059,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-lamina-de-espinhos",
@@ -8510,12 +9081,11 @@
         "arma",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Arma vegetal equivalente a espada longa que concede grande bônus de dano, mas exige cuidados diários.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -8547,7 +9117,10 @@
         "properties": "Base equivalente à espada longa; bônus vegetal requer regra especial do item",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-katana-assassina",
@@ -8566,12 +9139,11 @@
         "arma",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Katana feita de adamante e com a melhoria atroz, combinando a resistência do material com golpes especialmente destrutivos.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
@@ -8603,7 +9175,10 @@
         "properties": "Base da katana; adamante e melhoria atroz requerem aplicação dos efeitos",
         "allowedToggles": [],
         "damageStat": "str"
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-dbfree-bacamarte",
@@ -8622,12 +9197,11 @@
         "arma",
         "equipamento adicional",
         "tormenta20",
-        "material adicional da dragao brasil",
-        "dragao brasil",
-        "adicional"
+        "adicional",
+        "material adicional da dragao brasil"
       ],
       "descricao": "Arma de fogo que dispara um cone de impacto e consome duas munições.",
-      "properties": "",
+      "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
       "updatedAt": "2026-10-23T04:23:37.324Z",
       "efeitos": [],
@@ -8654,7 +9228,10 @@
         "hands": "2",
         "properties": "Arma de área que consome duas munições; ataque convencional desativado",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-adaga",
@@ -8673,7 +9250,8 @@
         "arma",
         "simples - leve",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Lâmina curta e fácil de ocultar, útil tanto em combate corpo a corpo quanto para arremesso em alcance curto. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8707,7 +9285,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-espada-curta",
@@ -8726,7 +9307,8 @@
         "arma",
         "simples - leve",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada de lâmina curta, leve e precisa, comum entre combatentes que valorizam agilidade. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8760,7 +9342,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-foice",
@@ -8779,7 +9364,8 @@
         "arma",
         "simples - leve",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Ferramenta agrícola adaptada para combate, com lâmina curva capaz de golpes de corte perigosos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8813,7 +9399,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-clava",
@@ -8832,7 +9421,8 @@
         "arma",
         "simples - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Pedaço robusto de madeira usado como arma simples. É fácil de conseguir e por isso não tem preço. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8866,7 +9456,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-lanca",
@@ -8885,7 +9478,8 @@
         "arma",
         "simples - uma mao",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Haste longa com ponta perfurante. Pode ser usada em combate corpo a corpo ou arremessada em alcance curto. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8919,7 +9513,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-maca",
@@ -8938,7 +9535,8 @@
         "arma",
         "simples - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Bastão com uma cabeça pesada e protuberante, tradicional entre clérigos; seus golpes esmagam em vez de cortar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -8972,7 +9570,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-bordao",
@@ -8991,7 +9592,8 @@
         "arma",
         "simples - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Cajado resistente muito usado por viajantes e camponeses. É uma arma dupla e não tem preço. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9025,7 +9627,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-pique",
@@ -9044,7 +9649,8 @@
         "arma",
         "simples - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Lança extremamente longa. É uma arma alongada, feita para atingir oponentes a maior distância no corpo a corpo. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9078,7 +9684,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-tacape",
@@ -9097,7 +9706,8 @@
         "arma",
         "simples - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Versão grande e pesada de uma clava, às vezes reforçada com pregos, comum entre bárbaros e humanoides bestiais. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9131,7 +9741,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-azagaia",
@@ -9150,7 +9763,8 @@
         "arma",
         "simples - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Lança leve feita para arremesso, adequada a ataques de média distância. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9184,7 +9798,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-besta-leve",
@@ -9203,7 +9820,8 @@
         "arma",
         "simples - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Besta compacta de disparo, mais simples de manejar que a versão pesada. Usa virotes e é recarregada com ação de movimento. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9237,7 +9855,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-funda",
@@ -9256,7 +9877,8 @@
         "arma",
         "simples - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Tira de couro usada para lançar pedras. Simples e barata, usa pedras como munição e alcança distância média. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9290,7 +9912,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-arco-curto",
@@ -9309,7 +9934,8 @@
         "arma",
         "simples - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Arco compacto de duas mãos, adequado a combate à distância e mais fácil de manejar que um arco longo. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9343,7 +9969,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-machadinha",
@@ -9362,7 +9991,8 @@
         "arma",
         "marcial - leve",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Pequeno machado útil para cortar madeira ou inimigos. Também pode ser arremessado. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9396,7 +10026,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-cimitarra",
@@ -9415,7 +10048,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada de lâmina curva e muito afiada. É uma arma ágil. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9449,7 +10083,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-espada-longa",
@@ -9468,7 +10105,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada de uso versátil e tradicional, equilibrando alcance, dano e precisão em combate corpo a corpo. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9502,7 +10140,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-florete",
@@ -9521,7 +10162,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Lâmina fina e precisa, feita para estocadas rápidas e ataques com alta margem de ameaça. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9555,7 +10197,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-machado-de-batalha",
@@ -9574,7 +10219,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Machado adaptado especificamente para combate, feito para causar ferimentos graves em vez de cortar madeira. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9608,7 +10254,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-mangual",
@@ -9627,7 +10276,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Haste ligada por corrente a uma esfera de aço. Pode se enroscar na arma inimiga e fornece +2 em testes para desarmar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9661,7 +10311,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-martelo-de-guerra",
@@ -9680,7 +10333,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Ferramenta adaptada para combate e arma tradicional entre anões, feita para golpes de impacto devastadores. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9714,7 +10368,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-picareta",
@@ -9733,7 +10390,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Ferramenta de mineração adaptada para combate, capaz de concentrar força em uma ponta perfurante. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9767,7 +10425,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-tridente",
@@ -9786,7 +10447,8 @@
         "arma",
         "marcial - uma mao",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Lança de três pontas comum entre povos marinhos e gladiadores. Fornece +2 para derrubar e também pode ser arremessada. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -9820,7 +10482,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-alabarda",
@@ -9839,7 +10504,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Arma de haste de duas mãos com lâmina e ponta, capaz de causar dano de corte ou perfuração. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9873,7 +10539,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-alfange",
@@ -9892,7 +10561,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Grande lâmina curva de duas mãos, construída para golpes amplos e perigosos. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9926,7 +10596,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-gadanho",
@@ -9945,7 +10618,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Versão militarizada de uma grande lâmina curva, voltada para golpes de corte com crítico muito alto. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -9979,7 +10653,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-lanca-montada",
@@ -9998,7 +10675,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Lança projetada para cavalaria. Pode ser empunhada com uma mão quando montado e, em investida montada, causa +2d8 de dano. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10032,7 +10710,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-machado-de-guerra",
@@ -10051,7 +10732,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Machado enorme de lâmina dupla, extremamente perigoso e voltado exclusivamente ao combate. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10085,7 +10767,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-marreta",
@@ -10104,7 +10789,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Haste robusta com uma pesada cabeça de metal ou pedra, feita para golpes de impacto brutais. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10138,7 +10824,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-montante",
@@ -10157,7 +10846,8 @@
         "arma",
         "marcial - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada enorme e pesada com cerca de 1,5m de comprimento, poderosa e empunhada com as duas mãos. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10191,7 +10881,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-arco-longo",
@@ -10210,7 +10903,8 @@
         "arma",
         "marcial - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Arco reforçado aproximadamente da altura de uma pessoa, feito para disparos potentes de média distância. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10244,7 +10938,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-besta-pesada",
@@ -10263,7 +10960,8 @@
         "arma",
         "marcial - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Besta grande e potente de duas mãos. Usa virotes e exige uma ação padrão para recarregar. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10297,7 +10995,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-chicote",
@@ -10316,7 +11017,8 @@
         "arma",
         "exotica - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Arma flexível que alcança inimigos a até 4,5m. É ágil e fornece +2 em testes para derrubar ou desarmar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10350,7 +11052,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-espada-bastarda",
@@ -10369,7 +11074,8 @@
         "arma",
         "exotica - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada maior e mais pesada que uma espada longa. É adaptável e pode ser usada como arma marcial de duas mãos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10403,7 +11109,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-katana",
@@ -10422,7 +11131,8 @@
         "arma",
         "exotica - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Espada tamuraniana de lâmina curva. É adaptável e pode ser usada com as duas mãos para aumentar seu dano. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10456,7 +11166,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-machado-anao",
@@ -10475,7 +11188,8 @@
         "arma",
         "exotica - uma mao",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Grande machado tradicional dos anões. Exige treinamento para uma mão, mas pode ser usado como arma marcial de duas mãos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10509,7 +11223,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-corrente-de-espinhos",
@@ -10528,7 +11245,8 @@
         "arma",
         "exotica - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Corrente armada que alcança inimigos a até 4,5m. É ágil, dupla e fornece +2 em testes para derrubar ou desarmar. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10562,7 +11280,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-machado-taurico",
@@ -10581,7 +11302,8 @@
         "arma",
         "exotica - duas maos",
         "jogo do ano",
-        "corpo a corpo"
+        "corpo a corpo",
+        "tormenta20"
       ],
       "descricao": "Arma ancestral dos minotauros, com haste longa e lâmina extremamente grossa. É desbalanceada e exige treinamento especial. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10615,7 +11337,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-rede",
@@ -10634,7 +11359,8 @@
         "arma",
         "exotica - distancia",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Rede com pequenos dentes e corda de controle. Não causa dano; em vez disso, deixa o alvo enredado e restringe seus movimentos. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10668,7 +11394,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-pistola",
@@ -10687,7 +11416,8 @@
         "arma",
         "arma de fogo - leve",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "A arma de fogo mais comum. É leve, poderosa em alcance curto e exige uma ação padrão para recarregar. Efeito: Espaços: 1",
       "schemaVersion": 5,
@@ -10721,7 +11451,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     },
     {
       "id": "t20-jda-mosquete",
@@ -10740,7 +11473,8 @@
         "arma",
         "arma de fogo - duas maos",
         "jogo do ano",
-        "distancia"
+        "distancia",
+        "tormenta20"
       ],
       "descricao": "Arma de fogo difícil de usar, mas de grande poder destrutivo. É empunhada com duas mãos e recarregada com ação padrão. Efeito: Espaços: 2",
       "schemaVersion": 5,
@@ -10774,7 +11508,10 @@
         "reload": "",
         "properties": "",
         "allowedToggles": []
-      }
+      },
+      "categorias": [
+        "arma"
+      ]
     }
   ]
 }
