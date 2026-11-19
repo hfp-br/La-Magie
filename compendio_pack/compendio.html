@@ -485,6 +485,7 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
     if(resources.length){body+=`<section class="comp-preview-section"><h3>Recursos</h3><div class="comp-preview-grid">${resources.map(r=>`<div class="comp-preview-resource"><strong>${escV5(r.name||r.nome||"Recurso")}</strong><div style="margin-top:3px">${Number(r.current??r.atual??0)}${r.max!==undefined&&r.max!==null&&r.max!==""?` / ${r.max}`:""}</div></div>`).join("")}</div></section>`}
     if(effects.length){body+=`<section class="comp-preview-section"><h3>Efeitos</h3><div class="comp-preview-grid">${effects.map(e=>`<div class="comp-preview-effect">${escV5(effectTextV5(e))}</div>`).join("")}</div></section>`}
     if(item.descricao){body+=`<section class="comp-preview-section"><h3>Descrição</h3><div class="comp-preview-text">${escV5(item.descricao)}</div></section>`}
+    if(typeof item.properties==="string"&&item.properties.trim()){body+=`<section class="comp-preview-section"><h3>Propriedades</h3><div class="comp-preview-text">${escV5(item.properties)}</div></section>`}
     body+=`<div class="comp-preview-origin">${item.id?`ID: ${escV5(item.id)}`:""}</div></div></article>`;
     host.innerHTML=body;
     if(window.matchMedia("(max-width:620px)").matches){const back=document.createElement("button");back.type="button";back.className="btn mobile-back-to-list";back.textContent="← Voltar à lista de itens";back.addEventListener("click",()=>document.querySelector(".compendium-list-panel")?.scrollIntoView({behavior:"smooth",block:"start"}));host.prepend(back)}
