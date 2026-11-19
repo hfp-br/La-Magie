@@ -3967,6 +3967,7 @@ body.editing
   <div class="tabs">
     <button class="tab-button active" data-tab="normal">Ficha</button>
     <button class="tab-button" data-tab="combat">Combate</button>
+    <button class="tab-button" data-tab="acoes">Ações</button>
   </div>
 
 
@@ -4955,6 +4956,179 @@ body.editing
 
   </section>
 
+
+
+  <!-- ========================================================= -->
+  <!-- AÇÕES (referência do Tormenta20 Jogo do Ano; só leitura)   -->
+  <!-- ========================================================= -->
+
+  <section id="acoes" class="tab-panel">
+    <style>
+      #acoes .ac-topo{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin-bottom:18px}
+      #acoes .ac-turno{flex:1 1 320px;background:var(--panel-strong);border:1px solid var(--line);border-radius:14px;padding:14px 18px;box-shadow:var(--shadow)}
+      #acoes .ac-turno h2{margin:0 0 8px;font-size:1.25rem;color:var(--sand-5)}
+      #acoes .ac-turno ol{margin:0;padding-left:20px;line-height:1.6}
+      #acoes .ac-turno small{display:block;margin-top:6px;color:var(--muted)}
+      #acoes .ac-abas{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 16px}
+      #acoes .ac-aba{border:1px solid var(--line);background:var(--sand-1);color:var(--sand-5);border-radius:999px;padding:7px 14px;font:inherit;font-weight:bold;cursor:pointer;transition:transform .15s ease,background .15s ease,box-shadow .15s ease}
+      #acoes .ac-aba:hover{transform:translateY(-2px);background:var(--sand-0)}
+      #acoes .ac-aba.ativa{background:var(--sand-4);color:var(--sand-0);box-shadow:0 4px 12px rgba(50,32,14,.25)}
+      #acoes .ac-aba .ac-n{display:inline-block;min-width:1.4em;margin-left:6px;padding:0 6px;border-radius:999px;background:rgba(255,255,255,.35);font-size:.8em}
+      #acoes .ac-intro{margin:0 0 14px;color:var(--muted);font-style:italic}
+      #acoes .ac-lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;align-items:start}
+      #acoes details.ac-card{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:12px;padding:0;overflow:hidden;transition:box-shadow .2s ease,transform .2s ease;animation:acEntra .35s ease backwards}
+      #acoes details.ac-card:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+      #acoes details.ac-card[open]{background:var(--panel-strong)}
+      #acoes details.ac-card summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;flex-direction:column;gap:5px}
+      #acoes details.ac-card summary::-webkit-details-marker{display:none}
+      #acoes .ac-nome{font-weight:bold;font-size:1.05rem;color:var(--sand-5);display:flex;justify-content:space-between;gap:8px}
+      #acoes .ac-nome::after{content:"▾";color:var(--sand-3);transition:transform .2s ease}
+      #acoes details[open] .ac-nome::after{transform:rotate(180deg)}
+      #acoes .ac-resumo{font-size:.92rem;color:var(--ink)}
+      #acoes .ac-selos{display:flex;flex-wrap:wrap;gap:4px}
+      #acoes .ac-selo{font-size:.72rem;padding:2px 8px;border-radius:999px;background:var(--sand-1);color:var(--sand-5);border:1px solid var(--line)}
+      #acoes .ac-selo.pericia{background:#dfe6d2;color:var(--green)}
+      #acoes .ac-selo.cd{background:#f0d9c9;color:var(--red)}
+      #acoes .ac-texto{padding:0 14px 12px;font-size:.92rem;line-height:1.5;border-top:1px dashed var(--line);margin-top:2px;padding-top:10px}
+      #acoes .ac-fonte{display:block;margin-top:6px;font-size:.75rem;color:var(--muted)}
+      #acoes .ac-cor-padrao{border-left-color:#aa7735}
+      #acoes .ac-cor-movimento{border-left-color:#546547}
+      #acoes .ac-cor-completa{border-left-color:#8f493d}
+      #acoes .ac-cor-livre{border-left-color:#6b7f95}
+      #acoes .ac-cor-reacao{border-left-color:#7a5a8c}
+      #acoes .ac-cor-manobra{border-left-color:#3d2b1d}
+      #acoes .ac-cor-geral{border-left-color:#a9824d}
+      @keyframes acEntra{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+      @media (prefers-reduced-motion:reduce){#acoes details.ac-card{animation:none}}
+      @media (max-width:620px){#acoes .ac-lista{grid-template-columns:1fr}}
+    </style>
+
+    <div class="ac-topo">
+      <div class="ac-turno">
+        <h2>Seu turno</h2>
+        <ol>
+          <li>Uma <b>ação padrão</b> e uma <b>ação de movimento</b>, em qualquer ordem;</li>
+          <li><b>ou</b> duas ações de movimento (troca a padrão por movimento; o contrário não vale);</li>
+          <li><b>ou</b> uma <b>ação completa</b>.</li>
+        </ol>
+        <small>Além disso: quantas <b>ações livres</b> o mestre permitir (só no seu turno) e quantas <b>reações</b> quiser (mesmo fora do turno, mesmo atordoado). Tormenta20 não tem "ação bônus"; o mais próximo são as ações livres. — Jogo do Ano, p. 233.</small>
+      </div>
+    </div>
+
+    <div class="ac-abas" id="acAbas" role="tablist"></div>
+    <p class="ac-intro" id="acIntro"></p>
+    <div class="ac-lista" id="acLista"></div>
+
+    <script>
+    (() => {
+      const P = "perícia", F = "Jogo do Ano";
+      const TIPOS = [
+        ["padrao", "Padrão", "Normalmente a coisa mais importante do seu turno: atacar, lançar magia, usar uma habilidade."],
+        ["movimento", "Movimento", "Muda algo de posição: você ou um item."],
+        ["completa", "Completa", "Gasta a ação padrão e a de movimento juntas."],
+        ["livre", "Livre", "Quase sem tempo ou esforço. Só no seu turno; o mestre pode limitar ações complexas."],
+        ["reacao", "Reação", "Resposta automática a algo; pode acontecer fora do seu turno e mesmo sem poder agir."],
+        ["manobra", "Manobras", "Substituem um ataque corpo a corpo (dentro de Agredir). Teste de manobra = teste de ataque corpo a corpo oposto; o alvo sempre usa Luta. Empate: vence o maior bônus. Não dá para fazer manobra à distância."],
+        ["geral", "Regras úteis", "Situações que aparecem em quase todo combate."]
+      ];
+      // [tipo, nome, resumo, texto completo, selos[], fonte]
+      const A = [
+        ["padrao","Agredir","Um ataque corpo a corpo ou à distância.","Corpo a corpo: qualquer inimigo no seu alcance natural (1,5m para Pequenos e Médios). Pode trocar o ataque por uma manobra. À distância: qualquer inimigo visível dentro do alcance da arma, ou até o dobro do alcance com –5. Atirar em quem está em combate corpo a corpo dá –5 no ataque (Mirar anula).",["Luta / Pontaria"],F+", p. 233"],
+        ["padrao","Atropelar","Avançar pelo espaço de uma criatura durante o movimento.","Exceção à regra: é uma ação padrão feita no meio do movimento. A criatura pode dar passagem (sem teste). Se resistir, faça um teste de manobra oposto: se vencer, ela fica caída e você continua; se perder, ela fica de pé e seu avanço para. Vira ação livre durante uma investida.",["manobra"],F+", p. 233–235"],
+        ["padrao","Fintar","Deixar um inimigo desprevenido contra seu próximo ataque.","Teste de Enganação oposto ao Reflexos de uma criatura em alcance curto. Se passar, ela fica desprevenida contra seu próximo ataque, até o fim do seu próximo turno.",["Enganação"],F+", p. 235"],
+        ["padrao","Lançar uma magia","A maioria das magias usa ação padrão.","Magias com execução de movimento, completa, livre ou reação seguem o tipo indicado na magia.",[],F+", p. 235"],
+        ["padrao","Preparar","Guardar uma ação para disparar depois, como reação.","Escolha uma ação (padrão, de movimento ou livre) e a condição para usá-la (\"disparo na primeira criatura que passar pela porta\"). Até o seu próximo turno, você a faz como reação quando a condição acontecer. Se não usar, perde. Pelo resto do combate, sua Iniciativa fica logo acima de quem disparou a ação preparada.",[],F+", p. 235"],
+        ["padrao","Usar habilidade ou item mágico","Poções e várias habilidades usam ação padrão.","Confira o tipo de ação na descrição da habilidade ou do item.",[],F+", p. 235"],
+        ["padrao","Primeiros socorros","Estabilizar um aliado adjacente que esteja sangrando.","Teste de Cura contra CD 15.",["Cura","CD 15"],F+", Cura"],
+        ["padrao","Assustar","Deixar um inimigo abalado (efeito de medo).","Intimidação oposta à Vontade de uma criatura em alcance curto. Se passar, ela fica abalada pelo resto da cena. Se passar por 10 ou mais, fica apavorada por 1 rodada e depois abalada pelo resto da cena.",["Intimidação"],F+", Intimidação"],
+        ["padrao","Plano de ação","Dar +5 na Iniciativa de um aliado.","Guerra contra CD 20, com um aliado em alcance médio. Se passar, ele recebe +5 na Iniciativa. Se isso deixar a Iniciativa dele maior que a sua e ele ainda não tiver agido na rodada, ele age logo depois do seu turno.",["Guerra","CD 20"],F+", Guerra"],
+        ["padrao","Ocultar","Esconder um objeto em você mesmo.","Ladinagem oposta à Percepção de quem puder ver. Objetos pequenos ou discretos dão +5; grandes ou desajeitados dão –5. Quem revistar você recebe +10.",["Ladinagem"],F+", Ladinagem"],
+        ["padrao","Punga","Pegar (ou plantar) um objeto de alguém.","Ladinagem contra CD 20. A vítima faz Percepção contra o resultado do seu teste para notar a tentativa, mesmo que você tenha conseguido.",["Ladinagem","CD 20"],F+", Ladinagem"],
+        ["padrao","Arremessar um item para acertar algo","Largar ou jogar um item com intenção de acertar.","Largar um item é livre; jogar para alguém pegar é de movimento; jogar para acertar algo é ação padrão.",[],F+", p. 236"],
+
+        ["movimento","Movimentar-se","Andar até o seu deslocamento (normalmente 9m).","Nadar, escalar e cavalgar também usam esta ação. Duas ações de movimento = andar duas vezes.",[],F+", p. 235"],
+        ["movimento","Levantar-se","Sair do chão, de uma cama ou de uma cadeira.","Com Acrobacia (treinado) dá para levantar como ação livre: veja \"Levantar-se rapidamente\".",[],F+", p. 235"],
+        ["movimento","Manipular item","Pegar algo na mochila, abrir ou fechar uma porta, jogar uma corda.","Também vale para jogar um item para alguém pegar.",[],F+", p. 235"],
+        ["movimento","Mirar","Anular o –5 por atirar em quem está em corpo a corpo.","Escolha um alvo que você veja, no alcance da arma. Neste turno, seus testes de Pontaria contra ele não sofrem o –5 por ele estar engajado em combate corpo a corpo.",[],F+", p. 235"],
+        ["movimento","Sacar ou guardar item","Pegar ou guardar uma arma ou item.","",[],F+", p. 235"],
+        ["movimento","Montar ou desmontar","Subir ou descer da montaria.","Com Cavalgar contra CD 20 (Montar rapidamente), vira ação livre; falhar por 5 ou mais derruba você.",[],F+", Cavalgar"],
+        ["movimento","Escalar","Subir superfícies; avança metade do deslocamento.","Atletismo. CD 10 com apoios (cordame), 15 árvore, 20 muro com reentrâncias, 25 muro liso. Falhar: não avança. Falhar por 5 ou mais: cai. Com –5 avança o deslocamento todo. Escalando, você fica desprevenido e, se sofrer dano, testa de novo para não cair.",["Atletismo"],F+", Atletismo"],
+        ["movimento","Natação","Avançar na água; metade do deslocamento.","Se começar o turno na água, gaste uma ação de movimento e faça Atletismo: CD 10 calma, 15 agitada, 20+ tempestuosa. Falhar: boia sem avançar. Falhar por 5 ou mais: afunda. Pode gastar uma segunda ação de movimento para outro teste.",["Atletismo"],F+", Atletismo"],
+        ["movimento","Equilíbrio","Andar em superfície precária; metade do deslocamento.","Acrobacia a cada ação de movimento. CD 10 piso escorregadio, 15 superfície estreita (topo de muro), 20 muito estreita (corda). Falhar: não avança. Falhar por 5 ou mais: cai.",["Acrobacia"],F+", Acrobacia"],
+        ["movimento","Passar por inimigo","Atravessar o espaço de um inimigo como parte do movimento.","Acrobacia oposta à Acrobacia, Iniciativa ou Luta do oponente (a melhor). Se passar, atravessa; se falhar, não atravessa e sua ação de movimento acaba. O espaço conta como terreno difícil.",["Acrobacia"],F+", Acrobacia"],
+        ["movimento","Manejar animal","Fazer um animal cumprir uma tarefa para a qual foi treinado.","Adestramento contra CD 15 (\"atacar\", \"sentar\", \"vigiar\"...). Também permite usar Adestramento como Pilotagem em veículos puxados por animais.",["Adestramento","CD 15"],F+", Adestramento"],
+        ["movimento","Analisar terreno","Achar cobertura, camuflagem ou terreno elevado.","Guerra contra CD 20. Se passar, descobre uma vantagem do campo de batalha, se houver.",["Guerra","CD 20"],F+", Guerra"],
+        ["movimento","Avançar com o empurrado","Acompanhar a criatura depois de Empurrar.","Depois de uma manobra Empurrar, gaste uma ação de movimento para avançar junto (até o seu deslocamento).",["manobra"],F+", p. 234"],
+
+        ["completa","Investida","Correr até o dobro do deslocamento e atacar.","Avance até o dobro do deslocamento (mínimo 3m) em linha reta e faça um ataque corpo a corpo no fim. +2 no ataque, mas –2 na Defesa até o seu próximo turno. Não funciona em terreno difícil. Durante a investida, pode Atropelar como ação livre (mas não atropelar e atacar o mesmo alvo).",["Luta"],F+", p. 235"],
+        ["completa","Golpe de misericórdia","Crítico automático em inimigo adjacente indefeso.","Além do dano, a vítima pode morrer na hora: 25% (1 em 1d4) para personagens e NPCs importantes, 75% (1–3 em 1d4) para NPCs secundários.",[],F+", p. 235"],
+        ["completa","Corrida","Correr bem mais que o deslocamento.","Atletismo: você avança um número de quadrados de 1,5m igual ao resultado. +2 ou –2 para cada 1,5m de deslocamento acima ou abaixo de 9m. Só em linha reta e fora de terreno difícil. Dá para correr 1 + Constituição rodadas; depois, Fortitude por rodada (CD 15 +1 por teste anterior) ou fica fatigado.",["Atletismo"],F+", Atletismo"],
+        ["completa","Lançar magia longa","Magias com execução maior que uma ação completa.","Você gasta uma ação completa por rodada até terminar.",[],F+", p. 235"],
+        ["completa","Galopar","Correr com a montaria.","Cavalgar: avança um número de quadrados de 1,5m igual ao resultado, com +2/–2 por 1,5m de deslocamento acima/abaixo de 9m.",["Cavalgar"],F+", Cavalgar"],
+        ["completa","Escapar","Soltar-se de amarras.","Acrobacia. Cordas: CD igual ao teste de Destreza de quem amarrou +10. Redes: CD 20. Algemas: CD 30.",["Acrobacia"],F+", Acrobacia"],
+        ["completa","Abrir fechadura","Destrancar uma fechadura.","Ladinagem com gazua (sem ela, –5). CD 20 simples (porta de loja), 25 média (prisão, baú), 30 superior (cofre).",["Ladinagem"],F+", Ladinagem"],
+        ["completa","Detectar magia","Sentir auras mágicas em alcance curto.","Misticismo contra CD 15. Descobre presença e intensidade das auras, não a posição exata.",["Misticismo","CD 15"],F+", Misticismo"],
+        ["completa","Tratamento","Ajudar alguém contra doença ou veneno contínuo.","Cura (treinado) contra a CD da doença ou veneno. Se passar, o paciente recebe +5 no próximo teste de Fortitude contra o efeito. Exige maleta de medicamentos (sem ela, –5).",["Cura"],F+", Cura"],
+        ["completa","Acalmar animal","Acalmar um animal nervoso ou agressivo.","Adestramento contra CD 25.",["Adestramento","CD 25"],F+", Adestramento"],
+        ["completa","Identificar (Ofício)","Descobrir propriedades e preço de um item do seu Ofício.","Ofício contra CD 20.",["Ofício","CD 20"],F+", Ofício"],
+        ["completa","Mudar atitude às pressas","Diplomacia em combate (para evitar uma briga).","Normalmente leva 1 minuto; em ação completa, sofre –10 no teste.",["Diplomacia"],F+", Diplomacia"],
+        ["completa","Identificar item mágico às pressas","Normalmente leva 1 hora.","Misticismo contra CD 20 (menor), 25 (médio) ou 30 (maior), com –10 por fazer em ação completa.",["Misticismo"],F+", Misticismo"],
+
+        ["livre","Atrasar","Agir mais tarde na ordem de Iniciativa.","Equivale a reduzir sua Iniciativa pelo resto do combate. Limite: –10 menos seu bônus de Iniciativa; ao chegar nele, aja ou perca o turno. Se vários atrasam, quem tem maior bônus de Iniciativa escolhe.",[],F+", p. 235–236"],
+        ["livre","Falar","Uma frase curta (cerca de 20 palavras).","Magias e habilidades que usam a voz não são livres. Dar uma ordem curta é livre; explicar um plano inteiro, não.",[],F+", p. 236"],
+        ["livre","Jogar-se no chão","Ficar caído de propósito.","Recebe os benefícios e penalidades de estar caído, normalmente sem sofrer dano.",[],F+", p. 236"],
+        ["livre","Largar um item","Deixar cair o que está segurando.","Jogar para alguém pegar é de movimento; jogar para acertar algo é padrão.",[],F+", p. 236"],
+        ["livre","Esconder-se","Sumir de vista no fim do turno.","Furtividade, só no final do seu turno e num lugar onde dê para se esconder. Se tiver se movido no turno, –5 (ou mova-se à metade do deslocamento sem penalidade). Se tiver atacado ou feito algo chamativo, –20.",["Furtividade"],F+", Furtividade"],
+        ["livre","Levantar-se rapidamente","Ficar de pé sem gastar o movimento.","Acrobacia (treinado) contra CD 20, com uma ação de movimento disponível. Passou: levanta como ação livre. Falhou: gasta a ação de movimento e continua caído.",["Acrobacia","CD 20"],F+", Acrobacia"],
+        ["livre","Montar rapidamente","Montar ou desmontar sem gastar o movimento.","Cavalgar contra CD 20. Falhar por 5 ou mais derruba você. Sem sela, –5.",["Cavalgar","CD 20"],F+", Cavalgar"],
+        ["livre","Soltar quem está agarrado","Largar uma criatura que você agarrou.","",["manobra"],F+", p. 234"],
+        ["livre","Atropelar na investida","Atropelar durante uma investida.","Não pode atropelar e atacar o mesmo alvo.",["manobra"],F+", p. 235"],
+
+        ["reacao","Ação preparada","Disparar a ação que você preparou.","Veja Preparar (ação padrão).",[],F+", p. 235"],
+        ["reacao","Amortecer queda","Reduzir o dano de uma queda.","Acrobacia (treinado) contra CD 15. Reduz 1d6 do dano, +1d6 a cada 5 pontos acima da CD. Se zerar o dano, cai de pé.",["Acrobacia","CD 15"],F+", Acrobacia"],
+        ["reacao","Identificar magia","Reconhecer uma magia que alguém está lançando.","Misticismo contra CD 15 + custo em PM da magia.",["Misticismo"],F+", Misticismo"],
+        ["reacao","Testes de resistência e Percepção","Fortitude, Reflexos, Vontade, perceber algo.","São reações: acontecem mesmo fora do seu turno ou atordoado. Reflexos também é usado para resistir a Fintar.",[],F+", p. 233"],
+
+        ["manobra","Agarrar","Segurar a criatura: ela fica desprevenida e imóvel.","A agarrada sofre –2 nos ataques e só ataca com armas leves; solta-se com ação padrão vencendo outro teste de manobra. Só com ataque desarmado ou arma natural (fica com essa mão ocupada). Você anda à metade do deslocamento arrastando-a e pode soltá-la como ação livre. Pode trocar um ataque por um teste de agarrar: se vencer, causa dano de impacto de ataque desarmado (esmagando ou sufocando). Ataques à distância contra quem está agarrando ou agarrado têm 50% de chance de acertar o alvo errado.",["Luta oposto"],F+", p. 234"],
+        ["manobra","Derrubar","Deixar o alvo caído.","Normalmente sem dano. Vencendo por 5 ou mais, também o empurra 1 quadrado na direção que quiser; se cair de um parapeito ou precipício, ele pode fazer Reflexos CD 20 para se agarrar na beirada.",["Luta oposto"],F+", p. 234"],
+        ["manobra","Desarmar","Derrubar um item que a criatura segura.","O item cai no espaço dela (salvo se ela estiver voando, numa ponte etc.). Vencendo por 5 ou mais, o item também é empurrado 1 quadrado na direção que quiser.",["Luta oposto"],F+", p. 234"],
+        ["manobra","Empurrar","Empurrar a criatura 1,5m.","+1,5m a cada 5 pontos de diferença entre os testes. Gaste uma ação de movimento para avançar junto (até seu deslocamento).",["Luta oposto"],F+", p. 234"],
+        ["manobra","Quebrar","Atacar um item que a criatura segura.","Veja \"Quebrando Objetos\" no capítulo de combate.",["Luta oposto"],F+", p. 234"],
+        ["manobra","Atropelar","Passar pelo espaço de uma criatura derrubando-a.","Ação padrão durante o movimento, ou livre durante uma investida. Se ela resistir e você vencer, fica caída.",["Luta oposto"],F+", p. 233–235"],
+
+        ["geral","Atirando em corpo a corpo","–5 em ataques à distância contra quem está em corpo a corpo.","Uma criatura está em combate corpo a corpo se estiver no alcance natural de qualquer inimigo (inclusive você). A ação Mirar anula a penalidade.",[],F+", p. 233"],
+        ["geral","Alcance além do normal","Até o dobro do alcance da arma com –5.","Vale para armas de ataque à distância.",[],F+", p. 233"],
+        ["geral","Ajudar","Dar bônus no teste de um aliado.","Cada ajudante testa contra CD 10 (mesma perícia ou outra que faça sentido). Passou: +1 para o líder, +1 a cada 10 acima da CD (+2 com 20, +3 com 30). O mestre limita quantos podem ajudar e quando a ajuda faz sentido.",["CD 10"],F+", cap. 5"]
+      ];
+      const abas = document.getElementById("acAbas"), lista = document.getElementById("acLista"), intro = document.getElementById("acIntro");
+      const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+      let atual = "padrao";
+      try { atual = localStorage.getItem("acoes_t20_aba") || "padrao"; } catch {}
+      if (!TIPOS.some(t => t[0] === atual)) atual = "padrao";
+      function desenhar() {
+        abas.innerHTML = TIPOS.map(([id, nome]) =>
+          `<button type="button" role="tab" class="ac-aba${id === atual ? " ativa" : ""}" data-aba="${id}">${nome}<span class="ac-n">${A.filter(a => a[0] === id).length}</span></button>`).join("");
+        intro.textContent = TIPOS.find(t => t[0] === atual)[2];
+        lista.innerHTML = A.filter(a => a[0] === atual).map(([tipo, nome, resumo, texto, selos, fonte], i) => `
+          <details class="ac-card ac-cor-${tipo}" style="animation-delay:${Math.min(i, 12) * 30}ms">
+            <summary>
+              <span class="ac-nome">${esc(nome)}</span>
+              <span class="ac-resumo">${esc(resumo)}</span>
+              ${selos.length ? `<span class="ac-selos">${selos.map(s => `<span class="ac-selo ${/^CD /.test(s) ? "cd" : (s === "manobra" ? "" : "pericia")}">${esc(s)}</span>`).join("")}</span>` : ""}
+            </summary>
+            ${texto ? `<div class="ac-texto">${esc(texto)}<span class="ac-fonte">${esc(fonte)}</span></div>` : `<div class="ac-texto"><span class="ac-fonte">${esc(fonte)}</span></div>`}
+          </details>`).join("");
+      }
+      abas.addEventListener("click", e => {
+        const b = e.target.closest("[data-aba]"); if (!b) return;
+        atual = b.dataset.aba;
+        try { localStorage.setItem("acoes_t20_aba", atual); } catch {}
+        desenhar();
+      });
+      desenhar();
+    })();
+    </script>
+  </section>
 
 
   <!-- ========================================================= -->

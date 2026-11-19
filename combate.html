@@ -143,6 +143,7 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
 .opcao{display:grid;grid-template-columns:38px minmax(0,1fr) auto;gap:9px;align-items:center;padding:7px 9px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.4)}
 .opcao .retrato{width:38px;height:38px;border-radius:9px;font-size:14px}
 .opcao.ja{opacity:.5}
+.opcao.ja.repete{opacity:1}
 .opcao-conf{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);flex-wrap:wrap;justify-content:flex-end}
 .opcao-conf input[type=number]{width:52px;padding:3px 6px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.7)}
 .campo{display:grid;gap:4px;margin-bottom:10px;font-size:13px}
@@ -733,9 +734,9 @@ function desenharOpcoes() {
     const conf = tipo === "jogador" ? "" : `
       <label><input type="checkbox" data-multi ${multiplo ? "checked" : ""}> cópias</label>
       <label>qtd <input type="number" min="1" max="20" value="1" data-qtd></label>`;
-    return `<div class="opcao${jaEsta ? " ja" : ""}" data-add-id="${esc(it.id)}">
+    return `<div class="opcao${jaEsta ? " ja" : ""}${jaEsta && tipo !== "jogador" ? " repete" : ""}" data-add-id="${esc(it.id)}">
       ${retrato ? `<img class="retrato" src="${esc(retrato)}" alt="" loading="lazy">` : `<div class="retrato">${esc(iniciais(nome))}</div>`}
-      <div><div class="nome" style="font-size:14px">${esc(nome)}</div><div class="dica">${jaEsta ? "já está no combate" : (tipo === "jogador" ? "Jogador" : tipo === "npc" ? "NPC" : "Monstro")}</div></div>
+      <div><div class="nome" style="font-size:14px">${esc(nome)}</div><div class="dica">${jaEsta ? (tipo === "jogador" ? "já está no combate" : "já está no combate · adicionar de novo cria cópia com PV próprio") : (tipo === "jogador" ? "Jogador" : tipo === "npc" ? "NPC" : "Monstro")}</div></div>
       <div class="opcao-conf">${conf}<label><input type="checkbox" data-oculto> oculto</label><button class="btn small primary" type="button" data-confirmar>Adicionar</button></div>
     </div>`;
   }).join("");
@@ -766,14 +767,19 @@ async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = 
   const retrato = tipo === "jogador" ? (it.retrato_url || "") : (it.retrato || it.dados?.ficha?.retrato_url || "");
   const proxOrdem = participantes.reduce((m, p) => Math.max(m, p.ordem ?? 0), 0) + 1;
 
-  if (tipo === "jogador" || !multi) {
-    if (participantes.some(p => p.tipo === tipo && p.origem_id === String(it.id) && !p.instancia)) { aviso(`${nomeBase} já está no combate.`); return; }
+  const jaLigado = participantes.some(p => p.tipo === tipo && p.origem_id === String(it.id) && !p.instancia);
+  if (tipo === "jogador" && jaLigado) { aviso(`${nomeBase} já está no combate.`); return; }
+  // NPC/monstro: a 1ª entrada sem "cópias" fica ligada à ficha; o resto (ou se já estiver ligado) vira cópia
+  const nLigado = tipo === "jogador" ? 1 : (!multi && !jaLigado ? 1 : 0);
+  const nCopias = tipo === "jogador" ? 0 : Math.max(0, qtd - nLigado);
+  if (nLigado) {
     const { data, error } = await sbP.from("batalha_participantes").insert({
       batalha_id: batalha.id, tipo, origem_id: String(it.id), instancia: false, nome: nomeBase, retrato, ordem: proxOrdem, oculto
     }).select().single();
     if (error) { console.error(error); aviso("Não foi possível adicionar."); return; }
     participantes.push(data);
-  } else {
+  }
+  if (nCopias) {
     // cópias: só existem neste combate, com PV próprio
     const ficha = it.dados?.ficha || {};
     if (tipo === "npc") {
@@ -784,9 +790,9 @@ async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = 
       : (num(npcResumos.get(it.id)?.pv_max) ?? num(ficha.vida_max) ?? num(it.dados?.vida_maxima) ?? num(ficha.vida_atual) ?? 1);
     const mana = tipo === "npc" ? acharMana(ficha.conteudo_dinamico?.recursos) : null;
     const existentes = participantes.filter(p => p.origem_id === String(it.id) && p.instancia).length;
-    const linhas = Array.from({ length: qtd }, (_, k) => ({
+    const linhas = Array.from({ length: nCopias }, (_, k) => ({
       batalha_id: batalha.id, tipo, origem_id: String(it.id), instancia: true, nome: `${nomeBase} ${existentes + k + 1}`,
-      retrato, ordem: proxOrdem + k, oculto
+      retrato, ordem: proxOrdem + nLigado + k, oculto
     }));
     const { data, error } = await sbP.from("batalha_participantes").insert(linhas).select();
     if (error) { console.error(error); aviso("Não foi possível adicionar."); return; }
@@ -800,7 +806,7 @@ async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = 
   if (tipo === "monstro") monstros.set(it.id, it);
   await carregarFontes();
   render();
-  aviso(`${nomeBase}${multi && tipo !== "jogador" ? ` ×${qtd}` : ""} entrou no combate.`);
+  aviso(`${nomeBase}${nLigado + nCopias > 1 ? ` ×${nLigado + nCopias}` : ""} entrou no combate${nCopias ? (nLigado ? " (1 ligado à ficha + cópias)" : " como cópia") : ""}.`);
 }
 
 // Vindo do botão "Adicionar ao combate" da ficha de NPC/monstro
