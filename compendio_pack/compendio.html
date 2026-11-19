@@ -107,6 +107,18 @@ html {scroll-behavior:smooth}
       <div class="field"><label>Categoria</label><select id="category"><option value="">Todas</option></select></div>
       <div class="field"><label>Sistema</label><select id="source"><option value="">Todos os sistemas</option></select></div>
       <div class="field"><label>Livro</label><select id="livroFiltro"><option value="">Todos os livros</option></select></div>
+      <div class="field"><label>Ordenar por</label><select id="ordenarPor">
+        <option value="">Padrão</option>
+        <option value="nome">Nome (A–Z)</option>
+        <option value="nome-desc">Nome (Z–A)</option>
+        <option value="preco">Preço (menor → maior)</option>
+        <option value="preco-desc">Preço (maior → menor)</option>
+        <option value="sistema">Sistema</option>
+        <option value="livro">Livro</option>
+        <option value="categoria">Categoria</option>
+        <option value="peso">Peso (leve → pesado)</option>
+        <option value="peso-desc">Peso (pesado → leve)</option>
+      </select></div>
       <button id="exportCatalogBtn" class="btn" type="button">⬇ Exportar</button>
       <button id="newBtn" class="btn primary admin-only">+ Novo item</button>
     </div>
@@ -1279,5 +1291,64 @@ body{padding:18px!important}.app{width:min(1320px,100%)!important}.content{paddi
   function iniciar() { instalar(); instalarDrawer(); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
   setTimeout(iniciar, 1500);
+})();
+</script>
+
+<script id="ordenar-js">
+/* "Ordenar por": só muda a ordem da lista na tela; não altera os itens. */
+(() => {
+  const CHAVE = "laMagie.compendioOrdem";
+  // mesma conversão do "Preços em" (tabela do Câmbio), em tibares
+  const TAXA = { "T$": 1, "PC": 0.1, "PP": 1, "PE": 5, "PO": 10, "PL": 100, "TC": 0.1, "TP": 1, "TO": 10, "¥O": 10, "¥P": 1, "¥": 0.1 };
+  const sel = () => document.getElementById("ordenarPor");
+  const txt = (a, b) => String(a || "").localeCompare(String(b || ""), "pt-BR", { sensitivity: "base", numeric: true });
+  const tibares = i => {
+    const v = Number(String(i?.preco?.valor ?? "").replace(",", "."));
+    const t = TAXA[String(i?.preco?.moeda || "").trim().toUpperCase()];
+    return Number.isFinite(v) && v > 0 && t ? v * t : null; // sem preço vai para o fim
+  };
+  const peso = i => { const v = Number(String(i?.peso ?? "").replace(",", ".")); return Number.isFinite(v) && v > 0 ? v : null; };
+  const numerico = (fn, desc) => (a, b) => {
+    const x = fn(a), y = fn(b);
+    if (x === null && y === null) return txt(a.nome, b.nome);
+    if (x === null) return 1; if (y === null) return -1;
+    return (desc ? y - x : x - y) || txt(a.nome, b.nome);
+  };
+  const CRITERIOS = {
+    "nome": (a, b) => txt(a.nome, b.nome),
+    "nome-desc": (a, b) => txt(b.nome, a.nome),
+    "preco": numerico(tibares, false),
+    "preco-desc": numerico(tibares, true),
+    "sistema": (a, b) => txt(a.sistema, b.sistema) || txt(a.fonte, b.fonte) || txt(a.nome, b.nome),
+    "livro": (a, b) => txt(a.fonte, b.fonte) || txt(a.nome, b.nome),
+    "categoria": (a, b) => txt(a.categoria, b.categoria) || txt(a.nome, b.nome),
+    "peso": numerico(peso, false),
+    "peso-desc": numerico(peso, true)
+  };
+  function instalar() {
+    if (typeof window.filtered !== "function" || window.filtered.__ordem) return;
+    const original = window.filtered;
+    const ordenado = function (...args) {
+      const base = original.apply(this, args);
+      const cmp = CRITERIOS[sel()?.value || ""];
+      return cmp && Array.isArray(base) ? [...base].sort(cmp) : base;
+    };
+    ordenado.__ordem = true;
+    window.filtered = ordenado;
+  }
+  function iniciar() {
+    const s = sel();
+    try { const v = localStorage.getItem(CHAVE); if (s && v && CRITERIOS[v]) s.value = v; } catch {}
+    instalar();
+    s?.addEventListener("change", () => {
+      try { localStorage.setItem(CHAVE, s.value); } catch {}
+      instalar();
+      if (typeof render === "function") render();
+    });
+    // outros scripts reembrulham filtered depois de carregar: reinstala por cima
+    setInterval(instalar, 800);
+    setTimeout(() => { if (typeof render === "function") render(); }, 1600);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", iniciar, { once: true }); else iniciar();
 })();
 </script>
