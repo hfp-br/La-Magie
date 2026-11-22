@@ -426,6 +426,7 @@ textarea.f{min-height:105px}
 .calendar-cell.today .calendar-daynum{background:var(--acc);color:var(--panel);border-radius:50%;width:27px;height:27px;display:grid;place-items:center;margin:-3px 0 0 -3px}
 .calendar-cell.empty{cursor:default;opacity:.35;background:color-mix(in srgb,var(--line) 7%,transparent)}
 .calendar-daynum{font-weight:700;font-size:15px;line-height:23px}
+.calendar-dayhead{display:flex;align-items:flex-start;justify-content:space-between;gap:4px}
 .calendar-event-pill{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font-size:11px;border-radius:5px;background:color-mix(in srgb,var(--acc) 11%,var(--panel));border-left:3px solid var(--acc);padding:3px 5px}
 .calendar-more{font-size:10px;color:var(--mut);font-weight:700}
 .calendar-day-count{font-size:10px;color:var(--acc);margin-top:auto}
@@ -526,6 +527,7 @@ body > header{animation:encFadeDown .45s var(--enc-ease) backwards}
 </dialog>
 <input id="timelineImportFile" type="file" accept="application/json,.json" hidden>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="lua.js"></script>
 <script>
 const $=s=>document.querySelector(s),sc=$('#sc'),tr=$('#tr'),ly=$('#ly'),gh=$('#gh'),tip=$('#tip'),dlg=$('#dlg'),root=document.documentElement;
 const MES=[['Caravana','Primavera'],['Pomo','Primavera'],['Keenvia','Primavera'],['Sirravia','Verão'],['Vigília','Verão'],['Prussvia','Verão'],['Ceifa','Outono'],['Contenda','Outono'],['Clausura','Outono'],['Pharstyth','Inverno'],['Véu','Inverno'],['Pyra','Inverno']];
@@ -1860,7 +1862,10 @@ function drawCalendar(){
     if(t===hoje())cell.classList.add('today');
     if(events.length){cell.classList.add('has-events');cell.dataset.eventCount=String(events.length)}
     cell.setAttribute('aria-label',`${calendarDateLabel(t)} — ${events.length} evento(s)`);
-    const num=document.createElement('span');num.className='calendar-daynum';num.textContent=d;cell.append(num);
+    const dayhead=document.createElement('span');dayhead.className='calendar-dayhead';
+    const num=document.createElement('span');num.className='calendar-daynum';num.textContent=d;dayhead.append(num);
+    if(window.LuaMalkharya)dayhead.append(LuaMalkharya.dia(t));
+    cell.append(dayhead);
     events.slice(0,2).forEach(e=>{const label=document.createElement('span');label.className='calendar-event-pill';label.textContent=e.name;label.title=e.name;cell.append(label)});
     if(events.length>2){const more=document.createElement('span');more.className='calendar-more';more.textContent=`+${events.length-2} evento(s)`;cell.append(more)}
     if(events.length){const foot=document.createElement('span');foot.className='calendar-day-count';foot.textContent=`${events.length} evento(s)`;cell.append(foot)}
@@ -1869,7 +1874,8 @@ function drawCalendar(){
   shell.append(cells);
   const agenda=document.createElement('section');agenda.className='calendar-agenda';
   const ahead=document.createElement('div');ahead.className='calendar-agenda-head';
-  const heading2=document.createElement('div');const hh=document.createElement('h3');hh.textContent=`Dia ${parts(selected).d} · ${MES[parts(selected).m][0]}`;const note=document.createElement('p');note.textContent=calendarDateLabel(selected);heading2.append(hh,note);ahead.append(heading2);
+  const heading2=document.createElement('div');const hh=document.createElement('h3');hh.textContent=`Dia ${parts(selected).d} · ${MES[parts(selected).m][0]}`;const note=document.createElement('p');note.textContent=calendarDateLabel(selected);heading2.append(hh,note);
+  if(window.LuaMalkharya){const lua=document.createElement('p');lua.append(LuaMalkharya.legenda(selected));heading2.append(lua)}ahead.append(heading2);
   if(canEdit){ahead.append(button('+ Novo evento','Criar evento neste dia',()=>openDlg({t:selected})))}
   agenda.append(ahead);
   const dayEvents=filteredEvents().filter(e=>e.t===selected&&(!q||match(e,q)));

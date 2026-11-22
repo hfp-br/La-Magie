@@ -418,7 +418,7 @@ textarea.f{min-height:105px}
 .cal-day:hover{border-color:var(--acc);background:color-mix(in srgb,var(--acc) 8%,var(--panel))}
 .cal-day.selected{outline:2px solid var(--acc);outline-offset:-2px}
 .cal-day.today{background:color-mix(in srgb,var(--acc) 13%,var(--panel))}
-.cal-date{display:flex;align-items:center;justify-content:space-between;font-size:.88em;font-weight:700}.cal-today-text{font-size:.64em;color:var(--acc);font-style:italic}
+.cal-date{display:flex;align-items:center;justify-content:space-between;gap:4px;font-size:.88em;font-weight:700}.cal-today-text{font-size:.64em;color:var(--acc);font-style:italic}
 .cal-events{display:flex;flex-direction:column;gap:3px;min-width:0}.cal-event{font-size:.68em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:color-mix(in srgb,var(--acc) 13%,var(--panel));padding:3px 5px;border-radius:5px;border-left:2px solid var(--acc)}
 .cal-more{font-size:.67em;color:var(--mut)}.cal-empty-cell{min-height:105px;opacity:.25}
 .cal-agenda{padding:15px}.cal-agenda-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--line);padding-bottom:10px;margin-bottom:12px}
@@ -490,6 +490,7 @@ body > header{animation:encFadeDown .45s var(--enc-ease) backwards}
 </dialog>
 <input id="timelineImportFile" type="file" accept="application/json,.json" hidden>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="lua.js"></script>
 <script>
 const $=s=>document.querySelector(s),sc=$('#sc'),tr=$('#tr'),ly=$('#ly'),gh=$('#gh'),tip=$('#tip'),dlg=$('#dlg'),root=document.documentElement;
 const MES=[['Caravana','Primavera'],['Pomo','Primavera'],['Keenvia','Primavera'],['Sirravia','Verão'],['Vigília','Verão'],['Prussvia','Verão'],['Ceifa','Outono'],['Contenda','Outono'],['Clausura','Outono'],['Pharstyth','Inverno'],['Véu','Inverno'],['Pyra','Inverno']];
@@ -1920,6 +1921,7 @@ function drawCalendar(){
     const date=document.createElement('div');date.className='cal-date';
     const num=document.createElement('span');num.textContent=String(d);date.append(num);
     if(t===hoje()){const now=document.createElement('span');now.className='cal-today-text';now.textContent='hoje';date.append(now)}
+    if(window.LuaMalkharya){date.append(LuaMalkharya.dia(t))}
     b.append(date);
     const names=document.createElement('div');names.className='cal-events';
     events.slice(0,2).forEach(e=>{const chip=document.createElement('div');chip.className='cal-event';chip.textContent=e.name;names.append(chip)});
@@ -1932,6 +1934,7 @@ function drawCalendar(){
   const selectedEvents=visible.filter(e=>e.t===selected);
   const head=document.createElement('div');head.className='cal-agenda-header';
   const title=document.createElement('strong');title.textContent=fd(selected)+' · '+SEM[wk(selected)][0];head.append(title);
+  if(window.LuaMalkharya)title.append(' ',LuaMalkharya.legenda(selected));
   if(canEdit){const add=document.createElement('button');add.className='b pri';add.type='button';add.textContent='+ Evento neste dia';add.onclick=()=>openDlg({t:selected});head.append(add)}
   agenda.append(head);
   const list=document.createElement('div');list.className='cal-agenda-list';
