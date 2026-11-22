@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="encanto.css">
+<script src="acoes-ficha.js"></script>
 <style>
 /* ==========================================================
    IMAGENS OPCIONAIS
@@ -4875,6 +4876,12 @@ body.editing
       </div>
     </div>
 
+    <section class="acf-secao" aria-labelledby="acfTitulo">
+      <div class="acf-cab"><h2 id="acfTitulo">Ações da ficha</h2><small>achadas nas habilidades, magias e itens</small></div>
+      <div id="acFicha"></div>
+    </section>
+
+    <div class="acf-cab"><h2>Regras gerais</h2><small>Tormenta20 Jogo do Ano</small></div>
     <div class="ac-abas" id="acAbas" role="tablist"></div>
     <p class="ac-intro" id="acIntro"></p>
     <div class="ac-lista" id="acLista"></div>
@@ -7424,6 +7431,7 @@ function renderizarTogglesCombate() {
 }
 
 function renderizarAcoesCombate() {
+    window.AcoesFicha?.renderAba();
 
     const container =
         document.getElementById(
@@ -7533,6 +7541,13 @@ function renderizarAcoesCombate() {
             header
         );
 
+
+        if (window.AcoesFicha) {
+            const nota = document.createElement("div");
+            nota.className = "acf-nota";
+            nota.textContent = "As ações achadas nas habilidades, magias e itens entram sozinhas. Aqui ficam só as extras.";
+            container.appendChild(nota);
+        }
 
         conteudo
             .acoesCombate
@@ -7671,94 +7686,60 @@ function renderizarAcoesCombate() {
 
 
     const grupos =
-        {};
-
-
-    conteudo.acoesCombate
-        .forEach(acao => {
-
-            const tipo =
-                acao.type ||
-                "Outros";
-
-
-            if (!grupos[tipo]) {
-
-                grupos[tipo] =
-                    [];
-
-            }
-
-
-            grupos[tipo].push(
-                acao
+        window.AcoesFicha
+            ? window.AcoesFicha.gruposCombate(conteudo)
+            : Object.entries(
+                (conteudo.acoesCombate || []).reduce(
+                    (acc, acao) => {
+                        const tipo = acao.type || "Outros";
+                        (acc[tipo] ||= []).push(acao.name || "Ação");
+                        return acc;
+                    },
+                    {}
+                )
             );
 
-        });
-
-
-    Object.entries(
-        grupos
-    ).forEach(
-        ([tipo, acoes]) => {
-
+    grupos.forEach(
+        ([tipo, nomes]) => {
             const block =
                 document.createElement(
                     "div"
                 );
-
             block.className =
                 "resource-block";
-
-
             const title =
                 document.createElement(
                     "div"
                 );
-
             title.className =
                 "resource-title";
-
             title.textContent =
                 tipo;
-
-
             block.appendChild(
                 title
             );
-
-
-            acoes.forEach(
-                acao => {
-
+            nomes.forEach(
+                nome => {
                     const tag =
                         document.createElement(
                             "span"
                         );
-
                     tag.className =
                         "action-tag";
-
                     tag.textContent =
-                        acao.name ||
-                        "Ação";
-
-
+                        nome;
                     block.appendChild(
                         tag
                     );
-
                 }
             );
-
-
             container.appendChild(
                 block
             );
-
         }
     );
 }
+window.AcoesFicha?.init(() => conteudo);
 
 
 function renderizarLembretesCombate() {
@@ -12092,6 +12073,23 @@ function renderizarMagias() {
                 element.querySelector(
                     ".spell-edit-quick-text"
                 );
+
+            if (window.AcoesFicha) {
+                element
+                    .querySelector(
+                        ".spell-editor-options"
+                    )
+                    ?.prepend(
+                        window.AcoesFicha.seletor(
+                            spell,
+                            "magia",
+                            () => {
+                                agendarSalvamentoConteudo();
+                                renderizarAcoesCombate();
+                            }
+                        )
+                    );
+            }
 
             const excluir =
                 element.querySelector(
@@ -17186,6 +17184,23 @@ function renderizarCaracteristicas(tipo) {
                     feature.open
                 );
 
+            if (window.AcoesFicha) {
+                editor
+                    .querySelector(
+                        ".feature-editor-bottom"
+                    )
+                    ?.prepend(
+                        window.AcoesFicha.seletor(
+                            feature,
+                            "caracteristica",
+                            () => {
+                                agendarSalvamentoConteudo();
+                                renderizarAcoesCombate();
+                            }
+                        )
+                    );
+            }
+
             const atualizarControlesImagem =
     () => {
 
@@ -19561,6 +19576,7 @@ configurarTooltipsFicha();
       <div class="inventory-detail-field"><label for="inventoryDetailSource">Fonte</label><input id="inventoryDetailSource" type="text"></div>
       <div class="inventory-detail-field"><label for="inventoryDetailTags">Tags</label><input id="inventoryDetailTags" type="text" placeholder="marcial, corte, especial..."></div>
       <div class="inventory-detail-field wide"><label for="inventoryDetailDescription">Descrição</label><textarea id="inventoryDetailDescription"></textarea></div>
+      <div class="inventory-detail-field wide"><span class="inventory-detail-label">Aba Ações</span><div id="inventoryDetailAcaoSlot"></div></div>
     </div>
 
     <div id="inventoryDetailOrigin" class="inventory-detail-source" hidden></div>
@@ -21603,5 +21619,34 @@ body.editing .inventory-compact-row{display:none!important}
   });
   setInterval(agendar, 15000); // a mana pode mudar sem mexer no PV
   agendar();
+})();
+</script>
+<script id="acoes-ficha-inventario">
+/* Tipo de ação do item: preenche ao abrir os detalhes e grava junto ao salvar. */
+(() => {
+  if (!window.AcoesFicha) return;
+  const modal = document.getElementById("inventoryDetailModal");
+  const slot = document.getElementById("inventoryDetailAcaoSlot");
+  if (!modal || !slot) return;
+  let rascunho = null;
+  const itemAtual = () => (conteudo.inventario || []).find(entry => entry.id === inventoryDetailItemId);
+  const preencher = () => {
+    const item = itemAtual();
+    slot.replaceChildren();
+    if (!item) { rascunho = null; return; }
+    rascunho = { id: item.id, descricao: item.descricao, acao: item.acao };
+    slot.append(window.AcoesFicha.seletor(rascunho, "item"));
+  };
+  new MutationObserver(() => {
+    if (modal.classList.contains("show")) preencher();
+  }).observe(modal, { attributes: true, attributeFilter: ["class"] });
+  // captura: roda antes do salvar original, que grava a ficha
+  document.addEventListener("click", e => {
+    if (!e.target.closest?.("#inventoryDetailSave")) return;
+    const item = itemAtual();
+    if (!item || !rascunho || rascunho.id !== item.id) return;
+    if (rascunho.acao) item.acao = rascunho.acao; else delete item.acao;
+    setTimeout(() => window.AcoesFicha.renderAba(), 0);
+  }, true);
 })();
 </script>
