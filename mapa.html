@@ -418,8 +418,9 @@ async function lerTiles(m){
     if(!res.ok)return null;
     const meta=await res.json();
     if(!Array.isArray(meta.niveis)||!meta.niveis.length||!meta.tamanho)return null;
-    // tiles de outra imagem (ou de tamanho diferente) não servem
-    if(Number(meta.largura)!==Number(m.largura)||Number(meta.altura)!==Number(m.altura))return null;
+    // tiles de outra imagem não servem; tolera diferença mínima (ex.: WebP limita a 16383 px de lado)
+    const perto=(a,b)=>Math.abs(Number(a)-Number(b))<=Math.max(2,Number(b)*.005);
+    if(!perto(meta.largura,m.largura)||!perto(meta.altura,m.altura))return null;
     return{...meta,pasta};
   }catch(e){console.warn("tiles",e);return null}
 }
