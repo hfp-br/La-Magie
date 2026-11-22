@@ -1,0 +1,44 @@
+# Gera o mosaico de tiles (1024 px, WebP) das imagens do Mapa quando uma imagem muda.
+# O mapa.html usa os tiles quando existe <pasta>/tiles/<nome>/tiles.json e,
+# enquanto eles não existem, mostra a imagem inteira como antes.
+name: Mapa - tiles
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/mapa/img/**"]
+  workflow_dispatch:
+
+concurrency:
+  group: mapa-tiles
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  tiles:
+    runs-on: ubuntu-latest
+    env:
+      PASTA_IMG: data/mapa/img
+      PASTA_TILES: data/mapa/tiles
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet "pillow==11.0.0"
+      - name: Gerar tiles
+        run: python3 .github/scripts/mapa_tiles.py "$PASTA_IMG" "$PASTA_TILES"
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A "$PASTA_TILES"
+          if git diff --cached --quiet; then echo "Sem mudanças"; exit 0; fi
+          git commit -q -m "[Mapa] Tiles"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
