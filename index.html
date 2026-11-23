@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="encanto.css">
 <script src="acoes-ficha.js"></script>
+<script src="acoes-turno.js"></script>
 <style>
 /* ==========================================================
    IMAGENS OPCIONAIS
@@ -4972,6 +4973,19 @@ body.editing
       let atual = "padrao";
       try { atual = localStorage.getItem("acoes_t20_aba") || "padrao"; } catch {}
       if (!TIPOS.some(t => t[0] === atual)) atual = "padrao";
+      // manobras substituem o ataque do Agredir (ação padrão); "regras úteis" não são ações
+      const envioTipo = tipo => {
+        const t = tipo === "manobra" ? "padrao" : tipo;
+        return window.AcoesTurno?.pode?.(t) ? t : null;
+      };
+      document.addEventListener("acoes-turno", () => desenhar());
+      lista.addEventListener("click", e => {
+        const b = e.target.closest("[data-regra-enviar]"); if (!b) return;
+        e.preventDefault(); e.stopPropagation();
+        const [tipo, nome, resumo, texto, , fonte] = A[Number(b.dataset.regraEnviar)] || [];
+        const t = envioTipo(tipo); if (!t) return;
+        window.AcoesTurno.enviar({ tipo: t, nome, descricao: [resumo, texto].filter(Boolean).join("\n\n"), fonte: "Regra · " + fonte });
+      });
       function desenhar() {
         abas.innerHTML = TIPOS.map(([id, nome]) =>
           `<button type="button" role="tab" class="ac-aba${id === atual ? " ativa" : ""}" data-aba="${id}">${nome}<span class="ac-n">${A.filter(a => a[0] === id).length}</span></button>`).join("");
@@ -4979,7 +4993,7 @@ body.editing
         lista.innerHTML = A.filter(a => a[0] === atual).map(([tipo, nome, resumo, texto, selos, fonte], i) => `
           <details class="ac-card ac-cor-${tipo}" style="animation-delay:${Math.min(i, 12) * 30}ms">
             <summary>
-              <span class="ac-nome">${esc(nome)}</span>
+              <span class="ac-nome">${esc(nome)}${envioTipo(tipo) ? `<button type="button" class="acf-enviar${envioTipo(tipo) === "reacao" ? " reacao" : ""}" data-regra-enviar="${A.indexOf(A.filter(a => a[0] === atual)[i])}" title="Enviar esta ação ao Mestre">Enviar</button>` : ""}</span>
               <span class="ac-resumo">${esc(resumo)}</span>
               ${selos.length ? `<span class="ac-selos">${selos.map(s => `<span class="ac-selo ${/^CD /.test(s) ? "cd" : (s === "manobra" ? "" : "pericia")}">${esc(s)}</span>`).join("")}</span>` : ""}
             </summary>
@@ -21649,4 +21663,12 @@ body.editing .inventory-compact-row{display:none!important}
     setTimeout(() => window.AcoesFicha.renderAba(), 0);
   }, true);
 })();
+</script>
+<script id="acoes-turno-ficha">
+/* Tracker de ações: liga a ficha ao combate ativo (só o dono da ficha envia). */
+window.AcoesTurno?.ligarFicha({
+  sb,
+  fichaId: () => (typeof FICHA_ID !== "undefined" ? FICHA_ID : null),
+  dono: () => (typeof isOwner !== "undefined" ? Boolean(isOwner) : false)
+});
 </script>

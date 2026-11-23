@@ -89,7 +89,7 @@
     return{tipos:tiposAuto(obj,fonte),manual:false};
   }
 
-  function detectar(conteudo){
+  function detectar(conteudo,{ataques=false}={}){
     const out=[];
     if(!conteudo)return out;
     const push=(obj,fonte,fonteNome,nome,texto,resumoFixo)=>{
@@ -108,6 +108,12 @@
       if(!m||typeof m!=='object')return;
       const info=[m.level!=null&&m.level!==''?`${m.level}º nível`:'',m.castingTime,m.range].filter(Boolean).join(' · ');
       push(m,'magia','Magia',m.name,m.description,m.quickText||info);
+    });
+    // ataques da aba Combate: Agredir é ação padrão (só na aba Ações, para poder enviar)
+    if(ataques)(Array.isArray(conteudo.ataques)?conteudo.ataques:[]).forEach(at=>{
+      if(!at||typeof at!=='object')return;
+      const info=[at.subtitle,at.die?`dano ${at.die}`:'',at.weaponRange?`alcance ${at.weaponRange}`:''].filter(Boolean).join(' · ');
+      out.push({tipo:'padrao',nome:String(at.name||'').trim()||'Ataque',fonte:'Ataque',manual:false,resumo:info,texto:info});
     });
     (Array.isArray(conteudo.inventario)?conteudo.inventario:[]).forEach(i=>{
       if(!i||typeof i!=='object')return;
@@ -137,25 +143,28 @@
   }
 
   /* ---------- aba Ações: "Ações da ficha" ---------- */
-  let getConteudo=()=>null;
+  let getConteudo=()=>null,ultimaLista=[];
   const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
   function renderAba(){
     const host=document.getElementById('acFicha');
     if(!host)return;
-    const lista=detectar(getConteudo());
+    const lista=detectar(getConteudo(),{ataques:true});
+    ultimaLista=lista;
+    const T=window.AcoesTurno;
     if(!lista.length){
       host.innerHTML='<p class="acf-vazio">Nenhuma ação encontrada nas habilidades, magias e itens desta ficha. No modo edição, escolha o tipo de ação na própria habilidade para ela aparecer aqui.</p>';
       return;
     }
     host.innerHTML=TIPOS.map(([k,curto,longo])=>{
-      const doTipo=lista.filter(a=>a.tipo===k);
+      const doTipo=lista.map((a,idx)=>({...a,idx})).filter(a=>a.tipo===k);
+      const podeEnviar=Boolean(T?.pode?.(k));
       if(!doTipo.length)return'';
       return `<div class="acf-grupo"><h3 class="acf-titulo ac-cor-${k}">${esc(longo)}<span class="ac-n">${doTipo.length}</span></h3>
         <div class="ac-lista">${doTipo.map((a,i)=>`
           <details class="ac-card ac-cor-${k}" style="animation-delay:${Math.min(i,12)*30}ms">
             <summary>
-              <span class="ac-nome">${esc(a.nome)}</span>
+              <span class="ac-nome">${esc(a.nome)}${podeEnviar?`<button type="button" class="acf-enviar${k==='reacao'?' reacao':''}" data-acf-enviar="${a.idx}" title="Enviar esta ação ao Mestre">Enviar</button>`:''}</span>
               ${a.resumo?`<span class="ac-resumo">${esc(a.resumo)}</span>`:''}
               <span class="ac-selos"><span class="ac-selo">${esc(a.fonte)}</span>${a.manual?'<span class="ac-selo">marcada à mão</span>':''}</span>
             </summary>
@@ -186,7 +195,13 @@
     getConteudo=getter;
     document.addEventListener('click',e=>{
       if(e.target.closest?.('[data-tab="acoes"]'))renderAba();
-    });
+      const env=e.target.closest?.('[data-acf-enviar]');
+      if(env){
+        e.preventDefault();e.stopPropagation();
+        const a=ultimaLista[Number(env.dataset.acfEnviar)];
+        if(a)window.AcoesTurno?.enviar({tipo:a.tipo,nome:a.nome,descricao:a.texto||a.resumo,fonte:a.fonte});
+      }
+    },true);
     renderAba();
   }
 

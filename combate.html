@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gerenciador de Combate — La Magie</title>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="acoes-turno.js"></script>
 <style>
 :root{
   --bg1:#dcc28d;--bg2:#b8955f;--paper:#f6edd7;--paper2:#efe2c4;--ink:#322619;--muted:#7d684d;
@@ -87,6 +88,13 @@ button,input,select,textarea{font:inherit;color:inherit}
 .sub{display:flex;flex-wrap:wrap;gap:5px;margin-top:3px;font-size:11px;color:var(--muted)}
 .tag{padding:1px 7px;border-radius:99px;background:rgba(104,75,43,.09);border:1px solid rgba(104,75,43,.14)}
 .tag.cond{background:rgba(143,73,61,.1);border-color:rgba(143,73,61,.25);color:var(--red)}
+.tracker{margin-top:7px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.tracker select{font:inherit;font-size:.72rem;border-radius:999px;padding:1px 6px;border:1px solid rgba(170,119,53,.5);background:#fffaf0;max-width:120px}
+.acao-log{margin:0 0 6px;padding:0;list-style:none;display:grid;gap:4px}
+.acao-log li{display:flex;gap:6px;align-items:flex-start;font-size:.85rem}
+.acao-log li.recusada .acao-txt{text-decoration:line-through;opacity:.6}
+.acao-log .acao-txt{flex:1;min-width:0;overflow-wrap:anywhere}
+.acao-log small{display:block;color:#7a6650;white-space:pre-wrap}
 .barras{display:grid;gap:4px;margin-top:7px;max-width:340px}
 .barra{position:relative;height:11px;border-radius:99px;background:rgba(104,75,43,.14);overflow:hidden;box-shadow:inset 0 1px 2px rgba(60,35,10,.15)}
 .barra span{position:absolute;inset:0 auto 0 0;border-radius:inherit;transition:width .6s var(--ease),background .4s}
@@ -323,6 +331,8 @@ let usuario = null, mestre = false, temBancoNpc = false;
 let batalha = null, participantes = [], privado = new Map(), condicoesJogador = new Map();
 const fichas = new Map(), resumos = new Map(), npcResumos = new Map(), npcs = new Map(), monstros = new Map(), fichaCondMestre = new Map();
 let codice = [];
+let acoesRodada = [];               // batalha_acoes da rodada atual (RLS: jogador vê só as dele)
+const minhasFichas = new Set();     // fichas do jogador logado (para mostrar o tracker dele)
 const abertos = new Set();
 let jaRenderizados = new Set();
 let pedidoAdicionar = params.get("adicionar"); // ex.: "npc:<id>" vindo da ficha
@@ -417,10 +427,24 @@ async function carregarTudo() {
       const { data: es } = await sbP.from("batalha_estado_privado").select("*").in("participante_id", participantes.map(p => p.id));
       (es || []).forEach(e => privado.set(e.participante_id, e));
     }
-    await Promise.all([carregarCondicoes(), mestre ? carregarFontes() : null]);
+    await Promise.all([carregarCondicoes(), mestre ? carregarFontes() : null, carregarAcoes()]);
   }
   render();
 }
+
+async function carregarAcoes() {
+  acoesRodada = [];
+  if (!batalha) return;
+  const [{ data, error }, minhas] = await Promise.all([
+    sbP.from("batalha_acoes").select("*").eq("batalha_id", batalha.id).eq("rodada", batalha.rodada).order("criado_em"),
+    mestre || minhasFichas.size ? Promise.resolve(null) : sbP.from("fichas").select("id").eq("owner_id", usuario.id)
+  ]);
+  if (error) { console.warn("Tracker de ações:", error.message); return; }
+  acoesRodada = data || [];
+  (minhas?.data || []).forEach(f => minhasFichas.add(f.id));
+}
+
+const acoesDe = pid => acoesRodada.filter(a => a.participante_id === pid);
 
 async function carregarCondicoes() {
   condicoesJogador = new Map();
@@ -538,6 +562,15 @@ function cardHtml(p, i) {
     ? `<div class="add-cond"><select data-sel-cond="${p.id}"><option value="">Adicionar condição do Códice…</option>${codice.map(c => `<option value="${c.id}">${esc(c.nome)}</option>`).join("")}</select><button class="btn small" type="button" data-add-cond="${p.id}">Adicionar</button></div>`
     : (mestre ? `<div class="dica" style="margin-top:6px">Condições de jogador vêm da ficha dele.</div>` : "");
 
+  const veTracker = window.AcoesTurno && (mestre || (p.tipo === "jogador" && minhasFichas.has(p.origem_id)));
+  const minhas = veTracker ? acoesDe(p.id) : [];
+  const tracker = veTracker
+    ? `<div class="tracker">${AcoesTurno.bolinhasHtml(AcoesTurno.estado(minhas), { clicavel: mestre, pid: p.id })}${mestre ? `<select data-at-extra="${p.id}" title="Dar uma ação a mais nesta rodada (ex.: Emboscar)"><option value="">+1 ação…</option>${AcoesTurno.SLOTS.map(([k, r]) => `<option value="${k}">+1 ${r}</option>`).join("")}</select>` : ""}</div>`
+    : "";
+  const logAcoes = veTracker && minhas.length
+    ? `<h4>Ações nesta rodada</h4><ul class="acao-log">${minhas.map(a => `<li class="${a.status === "recusada" ? "recusada" : ""}"><div class="acao-txt"><strong>${esc(a.nome)}</strong> · ${esc(AcoesTurno.ROTULO[a.tipo] || a.tipo)}${a.status === "recusada" ? " · recusada" : a.status === "vista" ? " · vista" : a.origem === "mestre" ? " · marcada pelo mestre" : ""}${a.descricao ? `<small>${esc(a.descricao)}</small>` : ""}</div>${mestre ? `<button class="remover" type="button" data-at-remover="${a.id}" title="${a.origem === "mestre" ? "Apagar marcação" : "Recusar / desfazer"}">✕</button>` : ""}</li>`).join("")}</ul>`
+    : "";
+
   const menu = mestre ? `<div class="menu-admin">
       <button class="icone-btn" type="button" data-rolar="${p.id}" title="Rolar 1d20">🎲</button>
       <button class="icone-btn${p.oculto ? " ativo" : ""}" type="button" data-ocultar="${p.id}" title="${p.oculto ? "Oculto dos jogadores — clique para revelar" : "Ocultar dos jogadores"}">${p.oculto ? "🙈" : "👁"}</button>
@@ -551,13 +584,14 @@ function cardHtml(p, i) {
       <div class="nome">${esc(p.nome)}</div>
       <div class="sub"><span class="tag">${tipoTxt}</span>${p.oculto ? `<span class="tag">oculto</span>` : ""}${tagsCond}</div>
       ${barras}
+      ${tracker}
     </div>
     <div class="lateral">
       <div class="ini"><small>Iniciativa</small>${iniciativa}</div>
       <button class="icone-btn" type="button" data-expandir="${p.id}" title="Condições" aria-expanded="${abertos.has(p.id)}">✦${conds.length ? `<span class="n">${conds.length}</span>` : ""}</button>
       ${menu}
     </div>
-    <div class="painel"><div><div class="painel-inner"><h4>Condições</h4>${listaCond}${addCond}</div></div></div>
+    <div class="painel"><div><div class="painel-inner">${logAcoes}<h4>Condições</h4>${listaCond}${addCond}</div></div></div>
   </li>`;
 }
 
@@ -629,6 +663,8 @@ $("lista").addEventListener("click", async e => {
     return;
   }
   if (!mestre) return;
+  if (d.atSlot) { marcarEspaco(d.atPid, d.atSlot, d.atUsado === "1"); return; }
+  if (d.atRemover) { removerAcao(d.atRemover); return; }
   if (d.rolar) {
     const p = participantes.find(x => x.id === d.rolar);
     const valor = rolar(p);
@@ -663,6 +699,11 @@ $("lista").addEventListener("click", async e => {
 });
 
 $("lista").addEventListener("change", async e => {
+  if (e.target.dataset.atExtra && mestre) {
+    const slot = e.target.value; e.target.value = "";
+    if (slot) inserirAcao(e.target.dataset.atExtra, { tipo: "extra", slots: [slot], nome: "+1 " + AcoesTurno.SLOTS.find(s => s[0] === slot)[1] });
+    return;
+  }
   const id = e.target.dataset.ini;
   if (!id || !mestre) return;
   const valor = e.target.value === "" ? null : Math.trunc(Number(e.target.value));
@@ -672,6 +713,62 @@ $("lista").addEventListener("change", async e => {
 $("lista").addEventListener("keydown", e => {
   if (e.key === "Enter" && e.target.dataset.ajuste) aplicarAjuste(e.target.dataset.ajuste);
 });
+
+/* ---------- tracker de ações (Mestre) ---------- */
+async function inserirAcao(pid, campos) {
+  const { data, error } = await sbP.from("batalha_acoes").insert({
+    batalha_id: batalha.id, participante_id: pid, rodada: batalha.rodada, origem: "mestre", status: "vista", descricao: "", fonte: "", ...campos
+  }).select().single();
+  if (error) { console.error(error); aviso("Não foi possível marcar a ação."); return; }
+  acoesRodada.push(data); render();
+}
+
+// clique numa bolinha: livre → marca como usada; usada → desfaz a última que gastou esse espaço
+async function marcarEspaco(pid, slot, usado) {
+  if (!usado) { inserirAcao(pid, { tipo: slot, slots: [slot], nome: "Marcada pelo mestre" }); return; }
+  const alvo = acoesDe(pid).filter(a => a.status !== "recusada" && a.tipo !== "extra" && (a.slots || []).includes(slot)).pop();
+  if (alvo) removerAcao(alvo.id);
+}
+
+async function removerAcao(id) {
+  const a = acoesRodada.find(x => x.id === id);
+  if (!a) return;
+  if (a.origem === "mestre") {
+    const { error } = await sbP.from("batalha_acoes").delete().eq("id", id);
+    if (error) { console.error(error); aviso("Não foi possível apagar."); return; }
+    acoesRodada = acoesRodada.filter(x => x.id !== id);
+  } else {
+    if (a.status === "recusada") {
+      if (!confirm(`Voltar a aceitar “${a.nome}”?`)) return;
+      if (!(await statusAcao(id, "vista"))) return;
+    } else {
+      if (!confirm(`Recusar “${a.nome}”?\n\nO espaço volta a ficar livre e o jogador vê que foi recusada.`)) return;
+      if (!(await statusAcao(id, "recusada"))) return;
+    }
+  }
+  render();
+}
+
+async function statusAcao(id, status) {
+  const { error } = await sbP.from("batalha_acoes").update({ status }).eq("id", id);
+  if (error) { console.error(error); aviso("Não foi possível atualizar a ação."); return false; }
+  const a = acoesRodada.find(x => x.id === id); if (a) a.status = status;
+  return true;
+}
+
+// popup no Mestre quando chega uma ação de ficha
+function avisoAcaoRecebida(a) {
+  if (!mestre || !window.AcoesTurno || a.origem !== "ficha" || a.batalha_id !== batalha?.id) return;
+  const p = participantes.find(x => x.id === a.participante_id);
+  const desc = String(a.descricao || "");
+  AcoesTurno.toast(
+    `<b>${esc(p?.nome || "Jogador")}: ${esc(a.nome)}</b>${esc(AcoesTurno.ROTULO[a.tipo] || a.tipo)}${a.fonte ? " · " + esc(a.fonte) : ""}${desc ? `<div style="margin-top:6px;white-space:pre-wrap;max-height:180px;overflow:auto;font-size:.86rem">${esc(desc.length > 900 ? desc.slice(0, 900) + "…" : desc)}</div>` : ""}`,
+    { ms: 0, botoes: [
+      { texto: "Recusar", acao: async () => { if (await statusAcao(a.id, "recusada")) render(); } },
+      { texto: "Ok", pri: true, acao: async () => { if (await statusAcao(a.id, "vista")) render(); } }
+    ] }
+  );
+}
 
 // Dano/cura só em cópias (estado privado deste combate); a ficha original não muda.
 async function aplicarAjuste(id) {
@@ -914,7 +1011,11 @@ function ligarTempoReal() {
   if (!usuario) return;
   const c1 = sbP.channel("combate-" + usuario.id)
     .on("postgres_changes", { event: "*", schema: "public", table: "batalhas" }, recarregar)
-    .on("postgres_changes", { event: "*", schema: "public", table: "batalha_participantes" }, recarregar);
+    .on("postgres_changes", { event: "*", schema: "public", table: "batalha_participantes" }, recarregar)
+    .on("postgres_changes", { event: "*", schema: "public", table: "batalha_acoes" }, ev => {
+      if (ev.eventType === "INSERT" && ev.new) avisoAcaoRecebida(ev.new);
+      recarregar();
+    });
   if (mestre) {
     c1.on("postgres_changes", { event: "*", schema: "public", table: "batalha_estado_privado" }, recarregar)
       .on("postgres_changes", { event: "*", schema: "public", table: "ficha_resumo_combate" }, recarregar)
