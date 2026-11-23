@@ -18,7 +18,7 @@
   ];
   const TIPO=Object.fromEntries(TIPOS.map(t=>[t[0],t]));
   const FONTES=[
-    ['classe','Classe'],['talentos','Talento'],['raca','Raça'],['origem','Origem'],['antecedente','Antecedente']
+    ['classe','Classe'],['talentos','Talento'],['raca','Raça'],['origem','Origem'],['antecedente','Antecedente'],['obsidiana','Obsidiana']
   ];
 
   const norm=s=>String(s??'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();

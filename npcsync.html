@@ -4809,6 +4809,29 @@ body.editing
 
 <div class="section">
 
+  <div class="section-title">Obsidiana</div>
+
+  <div class="feature-editor-header">
+    <button
+      id="addObsidianFeature"
+      class="add-button edit-only"
+      type="button"
+      title="Adicionar habilidade de obsidiana"
+    >
+      +
+    </button>
+  </div>
+
+<div
+  id="obsidianFeatureList"
+  class="dynamic-feature-list"
+></div>
+
+</div>
+
+
+<div class="section">
+
   <div class="section-title">
     Recursos
   </div>
@@ -5414,6 +5437,7 @@ let conteudo = {
     ataques: [],
     magias: [],
     talentos: [],
+    obsidiana: [],
     classe: [],
     antecedente: [],
     origem: [],
@@ -5587,6 +5611,7 @@ function criarConteudoPadraoNpc() {
         ataques: [],
         magias: [],
         talentos: [],
+        obsidiana: [],
         classe: [],
         antecedente: [],
         origem: [],
@@ -6861,6 +6886,10 @@ function normalizarConteudo(dados) {
             Array.isArray(dados?.talentos)
                 ? dados.talentos
                 : [],
+        obsidiana:
+            Array.isArray(dados?.obsidiana)
+                ? dados.obsidiana
+                : [],
 
         classe:
             Array.isArray(dados?.classe)
@@ -7596,6 +7625,7 @@ function contarReferenciasToggle(
     "raca",
     "classe",
     "talentos",
+    "obsidiana",
     "magias"
 ].forEach(tipo => {
 
@@ -16114,6 +16144,14 @@ const FEATURE_CONFIG = {
 
         defaultName:
             "Novo talento"
+    },
+    obsidiana: {
+        containerId:
+            "obsidianFeatureList",
+        buttonId:
+            "addObsidianFeature",
+        defaultName:
+            "Nova habilidade de obsidiana"
     }
 
 };
@@ -16131,6 +16169,7 @@ function coletarEfeitosCaracteristicas(
     "raca",
     "classe",
     "talentos",
+    "obsidiana",
     "magias"
 ].forEach(tipo => {
 
