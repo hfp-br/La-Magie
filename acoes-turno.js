@@ -14,11 +14,12 @@
 
   /* ---------- regras (compartilhadas) ---------- */
   function estado(linhas){
-    const total={padrao:1,movimento:1,bonus:1,reacao:1},usados={padrao:0,movimento:0,bonus:0,reacao:0};
+    // reação é infinita (Tormenta20): só conta quantas foram usadas
+    const total={padrao:1,movimento:1,bonus:1,reacao:Infinity},usados={padrao:0,movimento:0,bonus:0,reacao:0};
     (linhas||[]).forEach(r=>{
       if(!r||r.status==='recusada')return;
       const s=Array.isArray(r.slots)?r.slots:[];
-      if(r.tipo==='extra')s.forEach(k=>{if(k in total)total[k]++});
+      if(r.tipo==='extra')s.forEach(k=>{if(k in total&&k!=='reacao')total[k]++});
       else s.forEach(k=>{if(k in usados)usados[k]++});
     });
     return{total,usados,resta:k=>total[k]-usados[k]};
@@ -38,7 +39,7 @@
         return{slots:['padrao','movimento'],aviso:falta.length?`A ação completa gasta a padrão e a de movimento, e você já usou ${falta.join(' e ')} nesta rodada.`:''};
       }
       case'bonus':return{slots:['bonus'],aviso:resta('bonus')>0?'':'Você já usou sua ação bônus nesta rodada.'};
-      case'reacao':return{slots:['reacao'],aviso:resta('reacao')>0?'':'Você já usou sua reação nesta rodada.'};
+      case'reacao':return{slots:['reacao'],aviso:''};
       default:return{slots:[],aviso:''};
     }
   }
@@ -46,6 +47,10 @@
   // bolinhas: cheias = disponíveis, cinzas = usadas, vermelhas = além do normal
   function bolinhasHtml(est,{clicavel=false,pid=''}={}){
     return `<div class="at-slots">${SLOTS.map(([k,rot])=>{
+      if(k==='reacao'){
+        const u=est.usados.reacao;
+        return `<span class="at-slot" title="Reações são ilimitadas"><span class="at-rot">Reação</span><span class="at-inf">∞</span>${u?`<span class="at-cont">${u} usada${u>1?'s':''}</span>`:''}</span>`;
+      }
       const n=Math.max(est.total[k],est.usados[k]);
       let dots='';
       for(let i=0;i<n;i++){
@@ -70,6 +75,8 @@
 .at-dot{width:13px;height:13px;border-radius:50%;display:inline-block;padding:0;border:1.5px solid #8a6a2e;background:radial-gradient(circle at 35% 30%,#ffe9a8,#d1a043 60%,#9b7020);box-shadow:0 0 4px rgba(209,160,67,.55);transition:transform .15s,filter .2s}
 button.at-dot{cursor:pointer}button.at-dot:hover{transform:scale(1.25)}
 .at-dot.extra{border-style:dashed}
+.at-inf{font-size:1.05rem;line-height:1;color:#8a6a2e}
+.at-cont{font-size:.72rem;font-weight:normal;color:var(--muted,#7a6650)}
 .at-dot.usado{background:#b9b1a4;border-color:#8f877b;box-shadow:none;filter:grayscale(1)}
 .at-dot.alem{background:#b5523f;border-color:#7d2f22;filter:none}
 .at-toasts{position:fixed;right:14px;bottom:14px;z-index:99999;display:flex;flex-direction:column;gap:8px;max-width:min(380px,92vw)}

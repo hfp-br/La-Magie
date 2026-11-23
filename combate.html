@@ -565,7 +565,7 @@ function cardHtml(p, i) {
   const veTracker = window.AcoesTurno && (mestre || (p.tipo === "jogador" && minhasFichas.has(p.origem_id)));
   const minhas = veTracker ? acoesDe(p.id) : [];
   const tracker = veTracker
-    ? `<div class="tracker">${AcoesTurno.bolinhasHtml(AcoesTurno.estado(minhas), { clicavel: mestre, pid: p.id })}${mestre ? `<select data-at-extra="${p.id}" title="Dar uma ação a mais nesta rodada (ex.: Emboscar)"><option value="">+1 ação…</option>${AcoesTurno.SLOTS.map(([k, r]) => `<option value="${k}">+1 ${r}</option>`).join("")}</select>` : ""}</div>`
+    ? `<div class="tracker">${AcoesTurno.bolinhasHtml(AcoesTurno.estado(minhas), { clicavel: mestre, pid: p.id })}${mestre ? `<select data-at-extra="${p.id}" title="Dar uma ação a mais nesta rodada (ex.: Emboscar)"><option value="">+1 ação…</option>${AcoesTurno.SLOTS.filter(([k]) => k !== "reacao").map(([k, r]) => `<option value="${k}">+1 ${r}</option>`).join("")}</select>` : ""}</div>`
     : "";
   const logAcoes = veTracker && minhas.length
     ? `<h4>Ações nesta rodada</h4><ul class="acao-log">${minhas.map(a => `<li class="${a.status === "recusada" ? "recusada" : ""}"><div class="acao-txt"><strong>${esc(a.nome)}</strong> · ${esc(AcoesTurno.ROTULO[a.tipo] || a.tipo)}${a.status === "recusada" ? " · recusada" : a.status === "vista" ? " · vista" : a.origem === "mestre" ? " · marcada pelo mestre" : ""}${a.descricao ? `<small>${esc(a.descricao)}</small>` : ""}</div>${mestre ? `<button class="remover" type="button" data-at-remover="${a.id}" title="${a.origem === "mestre" ? "Apagar marcação" : "Recusar / desfazer"}">✕</button>` : ""}</li>`).join("")}</ul>`
