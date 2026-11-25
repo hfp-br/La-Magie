@@ -6279,6 +6279,13 @@ function configurarEventosRetrato() {
 function normalizarConteudo(dados) {
 
     return {
+        /* dados da Cozinha do Deserto (cozinha.html); a ficha só preserva */
+        cozinha:
+            dados?.cozinha &&
+            typeof dados.cozinha === "object"
+                ? dados.cozinha
+                : undefined,
+
         inventario:
             Array.isArray(dados?.inventario)
                 ? dados.inventario
@@ -21736,9 +21743,15 @@ window.AcoesTurno?.ligarFicha({
 </style>
 <script>
 /* Botão da Cozinha do Deserto: só aparece na ficha do Rek'No. */
+/* Aparece só na ficha do Rek'No e só quando ele tiver a obsidiana da cozinha
+   (uma habilidade de Obsidiana com "cozinha" ou "culinária" no nome). */
 window.atualizarLinkCozinha = function(){
   const a = document.getElementById("reknoCozinhaLink");
-  if (a) a.hidden = !(typeof FICHA_ID !== "undefined" && FICHA_ID === "rekno");
+  if (!a) return;
+  const obs = (typeof conteudo !== "undefined" && Array.isArray(conteudo?.obsidiana)) ? conteudo.obsidiana : [];
+  const temSkill = obs.some(o => /cozinha|culin/i.test(String(o?.name || "") + " " + String(o?.subtitle || "")));
+  a.hidden = !(typeof FICHA_ID !== "undefined" && FICHA_ID === "rekno" && temSkill);
 };
 atualizarLinkCozinha();
+setInterval(atualizarLinkCozinha, 1500);
 </script>

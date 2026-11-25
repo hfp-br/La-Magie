@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cozinha do Deserto — Rek'No</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -214,6 +215,11 @@ mark{background:rgba(69,196,176,.25);color:#c9fff5;border-radius:4px;padding:0 3
   padding:10px 18px;border-radius:999px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:transform .3s, opacity .3s;z-index:20;opacity:0;visibility:hidden}
 .toast.on{transform:translate(-50%,0);opacity:1;visibility:visible}
 
+.ligacao{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:6px 12px;border-radius:999px;
+  background:rgba(46,26,14,.55);font-size:14px;color:var(--areia)}
+.ligacao i{width:9px;height:9px;border-radius:50%;background:var(--falta)}
+.ligacao.on i{background:#7fe08a;box-shadow:0 0 8px #7fe08a}
+.ligacao a{color:#ffd77e}
 dialog{border:0;border-radius:var(--raio-g);background:var(--obsidiana-2);color:var(--areia);padding:20px;max-width:520px;width:92vw}
 dialog::backdrop{background:rgba(30,15,6,.72)}
 dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
@@ -239,7 +245,8 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
   <div class="titulo">
     <h1>Cozinha<br>do Deserto</h1>
     <p>O inventário culinário do Rek'No. Guarde o que achar pelo caminho, veja o que dá para cozinhar e, se quiser, deixe o deserto escolher o prato.</p>
-    <p class="nota">Versão de teste: os dados ficam salvos só neste navegador, sem ligação com a ficha. A bolsa começa com ingredientes de teste.</p>
+    <p class="nota" id="notaModo">Conectando à ficha do Rek'No…</p>
+    <div class="ligacao" id="ligacao"><i></i><span id="ligacaoTexto">Verificando login…</span></div>
     <div class="contagem" aria-live="polite">
       <div><b id="nIng">0</b>ingredientes na bolsa</div>
       <div><b id="nProntas">0</b>receitas prontas</div>
@@ -276,15 +283,15 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
   <!-- inventário -->
   <section class="painel" aria-labelledby="tInv">
     <h2 id="tInv">Bolsa de ingredientes</h2>
-    <p class="sub">Ingredientes que o Rek'No está carregando.</p>
+    <p class="sub" id="subBolsa">Ingredientes que o Rek'No está carregando.</p>
     <form class="add-ing" id="formIng">
       <input id="novoIng" list="listaIng" placeholder="Carne, fruta, sal azul…" aria-label="Nome do ingrediente" autocomplete="off">
       <datalist id="listaIng"></datalist>
       <button class="btn primario" type="submit">Guardar</button>
     </form>
     <div class="acoes" style="margin-top:10px">
-      <button class="btn" type="button" id="encherTeste">Encher com ingredientes de teste</button>
-      <button class="btn perigo" type="button" id="esvaziar">Esvaziar</button>
+      <button class="btn so-teste" type="button" id="encherTeste">Encher com ingredientes de teste</button>
+      <button class="btn perigo so-teste" type="button" id="esvaziar">Esvaziar</button>
     </div>
     <div class="grupo-titulo">Comuns</div>
     <ul class="lista-ing" id="invComum"></ul>
@@ -376,7 +383,123 @@ function carregar(){
   try{ return Object.assign(padrao(), JSON.parse(salvo)); }
   catch{ return padrao(); }
 }
-function salvar(){ localStorage.setItem(CHAVE, JSON.stringify(estado)); }
+/* ---------- ligação com a ficha ---------- */
+const SB = window.supabase ? window.supabase.createClient("https://drkcfrhjgkztdtneuofr.supabase.co","sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY") : null;
+const FICHA = "rekno";
+let MODO = "teste";          // "teste" (navegador) ou "ficha"
+let podeEditar = false;
+let pendentes = [];          // pratos para pôr/tirar do inventário da ficha
+let salvando = null, ultimoSalvar = 0, timerSalvar = null;
+const CAMPOS_COZINHA = ["desconhecidas","ingredientesCustom","temperos","temperoUsado","diario"];
+
+const ehItemIngrediente = it => {
+  const tags=(it.tags||[]).map(canon);
+  return canon(it.categoria)==="ingrediente" || tags.includes("ingrediente") || !!infoIng(it.nome);
+};
+function invDaFicha(lista){
+  const inv={};
+  (lista||[]).forEach(it=>{ if(!it||!it.nome||!ehItemIngrediente(it)) return;
+    const k=canon(it.nome), q=Number(it.quantidade??1)||0; if(q<=0) return;
+    inv[k]={nome:(infoIng(it.nome)||{}).nome||it.nome, qtd:(inv[k]?.qtd||0)+q}; });
+  return inv;
+}
+function aplicarFicha(cd){
+  estado.inventario = invDaFicha(cd.inventario);
+  const c = cd.cozinha||{};
+  const base = padrao();
+  CAMPOS_COZINHA.forEach(k=>{ estado[k] = c[k]!==undefined ? c[k] : base[k]; });
+}
+function novoItemIngrediente(nome,qtd){
+  const info=infoIng(nome)||{};
+  return { id:"ing-"+canon(nome).replace(/ /g,"-")+"-"+Date.now().toString(36), nome:info.nome||nome, peso:0, estado:"normal",
+    categoria:"ingrediente", subtipo: info.tipo==="monstruoso"?"ingrediente monstruoso":"ingrediente culinario",
+    tags:["ingrediente", info.tipo==="monstruoso"?"ingrediente monstruoso":"ingrediente culinario","comida"],
+    fonte:info.fonte||"", sistema:"tormenta20", preco:{valor:info.preco||0,moeda:"T$"},
+    descricao:info.descricao||"Ingrediente guardado pela Cozinha do Deserto.", effects:[], resources:[],
+    defenses:{immunities:"",resistances:""}, consumable:{label:"Usar",enabled:false,amountPerUse:1},
+    quantidade:qtd, schemaVersion:4 };
+}
+function itemPrato(p){
+  const r=DADOS.receitas.find(x=>x.nome===p.receita)||{};
+  return { id:"prato-"+Date.now().toString(36)+Math.random().toString(36).slice(2,5), nome:p.nome, peso:0, estado:"normal",
+    categoria:"consumivel", subtipo:r.tipo==="bebida"?"bebida":"alimentacao", tags:["consumivel","comida","prato especial","cozinha do deserto"],
+    fonte:r.fonte||"", sistema:"tormenta20", preco:{valor:r.preco||0,moeda:"T$"},
+    descricao:p.descricao, effects:[], resources:[], defenses:{immunities:"",resistances:""},
+    consumable:{label:"Comer",enabled:true,amountPerUse:1}, quantidade:1, schemaVersion:4, cozinhaDoDeserto:true };
+}
+async function lerFicha(){
+  const {data,error}=await SB.from("fichas").select("conteudo_dinamico,owner_id").eq("id",FICHA).maybeSingle();
+  if(error||!data) throw error||new Error("ficha não encontrada");
+  return data;
+}
+async function gravarFicha(){
+  // relê a ficha e aplica só o que a cozinha controla, para não atropelar edições feitas na ficha
+  const atual=await lerFicha(); const cd=atual.conteudo_dinamico||{};
+  let inv=Array.isArray(cd.inventario)?cd.inventario.slice():[];
+  const vistos=new Set();
+  inv=inv.filter(it=>{
+    if(!it||!it.nome||!ehItemIngrediente(it)) return true;
+    const k=canon(it.nome);
+    if(vistos.has(k)) return false;           // junta pilhas repetidas numa só
+    vistos.add(k);
+    const q=estado.inventario[k]?.qtd||0;
+    if(q<=0) return false;
+    it.quantidade=q; return true;
+  });
+  Object.entries(estado.inventario).forEach(([k,v])=>{ if(!vistos.has(k)&&v.qtd>0) inv.push(novoItemIngrediente(v.nome,v.qtd)); });
+  for(const op of pendentes){
+    if(op.tipo==="por"){
+      const ja=inv.find(it=>it.cozinhaDoDeserto&&it.nome===op.prato.nome);
+      if(ja) ja.quantidade=(Number(ja.quantidade)||0)+1; else inv.push(itemPrato(op.prato));
+    } else {
+      const i=inv.findIndex(it=>it.cozinhaDoDeserto&&it.nome===op.prato.nome);
+      if(i>=0){ inv[i].quantidade=(Number(inv[i].quantidade)||1)-1; if(inv[i].quantidade<=0) inv.splice(i,1); }
+    }
+  }
+  const cozinha={}; CAMPOS_COZINHA.forEach(k=>cozinha[k]=estado[k]);
+  const novo={...cd, inventario:inv, cozinha};
+  ultimoSalvar=Date.now();
+  const {error}=await SB.from("fichas").update({conteudo_dinamico:novo, updated_at:new Date().toISOString()}).eq("id",FICHA);
+  if(error) throw error;
+  pendentes=[];
+}
+function salvar(){
+  if(MODO!=="ficha"){ localStorage.setItem(CHAVE, JSON.stringify(estado)); return; }
+  if(!podeEditar) return;
+  clearTimeout(timerSalvar);
+  timerSalvar=setTimeout(async()=>{
+    if(salvando){ await salvando.catch(()=>{}); }
+    salvando=gravarFicha().then(()=>marcarLigacao(true,"Ligado à ficha do Rek'No")).catch(e=>{ console.error(e); toast("Não foi possível salvar na ficha. Tente de novo."); marcarLigacao(false,"Erro ao salvar na ficha"); });
+    await salvando; salvando=null; timerSalvar=null;
+  },500);
+}
+function marcarLigacao(on,txt){ $("ligacao").classList.toggle("on",on); $("ligacaoTexto").innerHTML=txt; }
+async function conectarFicha(){
+  if(!SB){ return modoTeste("Sem conexão com o banco. Usando o modo teste."); }
+  const {data:{session}}=await SB.auth.getSession();
+  if(!session) return modoTeste('Você não está logado. <a href="index.html">Entre pela ficha</a> e volte aqui para ligar a cozinha.');
+  let dados;
+  try{ dados=await lerFicha(); }catch(e){ return modoTeste("Esta conta não tem acesso à ficha do Rek'No. Usando o modo teste."); }
+  MODO="ficha"; podeEditar = dados.owner_id===session.user.id;
+  aplicarFicha(dados.conteudo_dinamico||{});
+  document.querySelectorAll(".so-teste").forEach(b=>b.hidden=true);
+  $("notaModo").textContent = podeEditar
+    ? "A bolsa é o inventário da ficha: ingredientes guardados aqui aparecem lá, e os pratos feitos entram no inventário."
+    : "Você está vendo a cozinha do Rek'No sem poder editar (só o dono da ficha salva).";
+  $("subBolsa").textContent="Ingredientes do inventário da ficha do Rek'No.";
+  marcarLigacao(true, podeEditar?"Ligado à ficha do Rek'No":"Vendo a ficha do Rek'No (só leitura)");
+  SB.channel("cozinha-rekno").on("postgres_changes",{event:"UPDATE",schema:"public",table:"fichas",filter:`id=eq.${FICHA}`},payload=>{
+    if(Date.now()-ultimoSalvar<2500||salvando||timerSalvar) return;   // eco do nosso próprio salvamento
+    aplicarFicha(payload.new.conteudo_dinamico||{}); tudo();
+  }).subscribe();
+  tudo();
+}
+function modoTeste(msg){
+  MODO="teste";
+  $("notaModo").textContent="Modo teste: a bolsa fica salva só neste navegador e começa com ingredientes de exemplo.";
+  marcarLigacao(false,msg);
+  tudo();
+}
 function toast(msg){ const t=$("toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(toast.t); toast.t=setTimeout(()=>t.classList.remove("on"),2600); }
 
 /* ---------- dados ---------- */
@@ -423,6 +546,7 @@ function renderInventario(){
   $("nIng").textContent = itens.reduce((s,i)=>s+i.qtd,0);
 }
 function mudarQtd(nome,d){
+  if(MODO==="ficha"&&!podeEditar){ toast("Só o dono da ficha pode mexer na bolsa."); return; }
   const k=canon(nome); const atual=estado.inventario[k]||{nome:(infoIng(nome)||{}).nome||nome,qtd:0};
   atual.qtd=Math.max(0,atual.qtd+d);
   if(atual.qtd===0) delete estado.inventario[k]; else estado.inventario[k]=atual;
@@ -605,16 +729,25 @@ function renderPrato(){
     </div>`;
 }
 function cozinhar(){
+  if(MODO==="ficha"&&!podeEditar){ toast("Só o dono da ficha pode cozinhar."); return; }
   const r=selecionada; if(!r||!pronta(r)) return;
   const gasto=[...ingredientesDe(r).map(i=>({nome:i.nome,qtd:i.qtd})), ...prato.monstros.filter(Boolean).map(m=>({nome:m,qtd:1}))];
   for(const g of gasto){ if(qtd(g.nome)<g.qtd){ toast(`Falta ${g.nome} na bolsa.`); return; } }
   gasto.forEach(g=>mudarQtdSilencioso(g.nome,-g.qtd));
   if(prato.tempero){ estado.temperoUsado=prato.tempero; }
   const extras=[toqueAtivo&&"Toque do Acaso",prato.monstros.filter(Boolean).join(", "),prato.deserto&&"O Deserto Provê",prato.tesouro&&"Tesouros do Deserto",prato.tempero&&`tempero de ${prato.tempero}`].filter(Boolean);
-  estado.diario.unshift({quando:new Date().toISOString(),prato:r.nome,extras,gasto});
+  const nomePrato = extras.length ? `${r.nome} (${extras.join(", ")})` : r.nome;
+  const efTxt = toqueAtivo ? aprimorar(r.efeito).html.replace(/<[^>]+>/g,"") : r.efeito;
+  const pessoa = estado.temperos.find(t=>t.nome===prato.tempero);
+  const desc = [efTxt, ...prato.monstros.filter(Boolean).map(m=>`${m}: ${(infoIng(m)||{}).descricao||""}`),
+    prato.deserto?"O Deserto Provê: recuperação de PM conforme a habilidade.":"", prato.tesouro?"Tesouros do Deserto: 1d4+1 PM.":"",
+    pessoa?`Para ${pessoa.nome}: ${pessoa.bonus}.`:"", `Preparado pela Cozinha do Deserto. Receita: ${r.nome} (${r.fonte}).`].filter(Boolean).join(" ");
+  const pratoFeito={nome:nomePrato, receita:r.nome, descricao:desc};
+  if(MODO==="ficha") pendentes.push({tipo:"por",prato:pratoFeito});
+  estado.diario.unshift({quando:new Date().toISOString(),prato:r.nome,extras,gasto,feito:pratoFeito});
   estado.diario=estado.diario.slice(0,20);
   salvar();
-  toast(`${r.nome} pronto.`);
+  toast(MODO==="ficha"?`${r.nome} pronto e guardado no inventário da ficha.`:`${r.nome} pronto.`);
   toqueAtivo=false; prato.monstros=[]; prato.deserto=false; prato.tesouro=false; prato.tempero="";
   tudo();
 }
@@ -626,6 +759,7 @@ function desfazer(){
   const ult=estado.diario.shift(); if(!ult) return;
   ult.gasto.forEach(g=>{ const k=canon(g.nome); estado.inventario[k]=estado.inventario[k]||{nome:g.nome,qtd:0}; estado.inventario[k].qtd+=g.qtd; });
   if(ult.extras.some(e=>e.startsWith("tempero de"))) estado.temperoUsado=null;
+  if(MODO==="ficha" && ult.feito) pendentes.push({tipo:"tirar",prato:ult.feito});
   salvar(); toast(`${ult.prato} desfeito. Ingredientes devolvidos.`); tudo();
 }
 
@@ -716,6 +850,7 @@ fetch("data/cozinha/receitas.json?v="+Date.now()).then(r=>r.json()).then(d=>{
   DADOS=d;
   $("listaIng").innerHTML=d.ingredientes.map(i=>`<option value="${esc(i.nome)}">`).join("");
   tudo();
+  conectarFicha();
 }).catch(()=>{ $("receitas").innerHTML=`<p class="aviso">Não foi possível carregar data/cozinha/receitas.json. Abra a página pelo site ou por um servidor local (python server.py).</p>`; });
 </script>
 </body>
