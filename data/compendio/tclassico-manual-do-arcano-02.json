@@ -1,0 +1,85 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "tclassico-arcano-acessorio-manto-dos-dao",
+   "nome": "Manto dos Dao",
+   "categoria": "acessorio",
+   "subtipo": "magico",
+   "peso": 0,
+   "preco": {
+    "valor": 4500,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - Manual do Arcano",
+   "pagina": 62,
+   "tags": [
+    "acessorio",
+    "magico",
+    "manto",
+    "academia arcana",
+    "wynna",
+    "manual do arcano",
+    "tormenta classico"
+   ],
+   "descricao": "Belo manto de tecido azul escuro (para alunos) ou vermelho escuro (para alunas), com símbolos da Academia Arcana e de Wynna bordados na gola e nas bainhas. É oferecido como premiação aos alunos aprovados no Teste da Terra. Fornece +2 em todos os testes de resistência e +2 adicional em testes de Vontade para lançar magias em condições precárias (em movimento, ao sofrer dano etc.). Presente dos dao (gênios da terra), funciona dentro do território da Academia — ao contrário do amuleto do conhecimento arcano e do anel da graça das águas —, então o bônus vale para os testes de frustração dos alunos. Aura tênue; Criar Itens Maravilhosos, resistência.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ]
+  },
+  {
+   "id": "tclassico-arcano-acessorio-manto-da-difusao",
+   "nome": "Manto da Difusão",
+   "categoria": "acessorio",
+   "subtipo": "magico",
+   "peso": 0,
+   "preco": {
+    "valor": 24000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - Manual do Arcano",
+   "pagina": 63,
+   "tags": [
+    "acessorio",
+    "magico",
+    "manto",
+    "manual do arcano",
+    "tormenta classico"
+   ],
+   "descricao": "Manto rosado com forro púrpura que cria imagens estáticas semitransparentes do usuário quando ele se movimenta. O usuário fica permanentemente sob o efeito da magia nublar (20% de falha em todos os ataques contra ele) e pode ativar ou desativar o efeito a qualquer momento, como uma ação livre. Aura tênue; Criar Itens Maravilhosos, nublar.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ]
+  }
+ ]
+}

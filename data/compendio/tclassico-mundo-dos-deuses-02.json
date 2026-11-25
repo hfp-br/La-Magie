@@ -1,0 +1,841 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "tclassico-mundo-acessorio-pedra-infectada",
+   "nome": "Pedra Infectada",
+   "categoria": "acessorio",
+   "subtipo": "magico",
+   "peso": 0,
+   "preco": {
+    "valor": 5000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 142,
+   "tags": [
+    "acessorio",
+    "magico",
+    "amaldicoado",
+    "culto do novo dia",
+    "pedra-que-tudo-ve",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Pedaço leve de pedra-pomes com pequenos vermes esbranquiçados e translúcidos passeando por seus buracos. Pode ser usado como pingente ou levado no bolso. O portador permite que a Pedra-que-tudo-vê enxergue através de seus olhos e ouça com seus ouvidos, e pode usar a magia clarividência/clariaudiência uma vez por dia. Carregar a pedra causa 1d2 pontos de dano de Constituição por dia. Normalmente não pode ser comprada, apenas oferecida por um membro do Culto do Novo Dia; em mercados ilegais custa 5.000 TO ou mais.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-artefato-zimuak-a-espada-colosso",
+   "nome": "Zimuak, a Espada-Colosso",
+   "categoria": "artefato",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 142,
+   "tags": [
+    "artefato",
+    "arma",
+    "unico",
+    "inteligente",
+    "espada grande",
+    "lefeu",
+    "tormenta",
+    "igasehra",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Espada-lefeu empunhada por Zenon das Cinco Lâminas, líder dos Espadas de Igasehra; um dos Doze Colossos que assombram o mundo de Nivenciuén, capaz de derrubar prédios e montanhas com um golpe. É uma espada grande de matéria vermelha afiada do sangramento +5; apesar do tamanho comum, causa dano de arma Colossal (8d6). Artefato inteligente Caótico e Maligno (Int 11, Sab 16, Car 12, ego 20), RD 20, 600 PV, testes de resistência +26, percepção às cegas 18m, comunica-se por empatia e corrompe o usuário aos poucos. Sempre que o usuário tentar algo contrário aos desígnios de Zimuak, faz um teste de Vontade (CD 20); se falhar, não consegue agir assim e não pode tentar de novo por um dia. A cada sete falhas acumuladas, perde 2 pontos de Carisma, ganha um talento da Tormenta e sua tendência muda um passo em direção a Caótica e Maligna (aceitar Igasehra como senhor). Com o Guia da Trilogia, cada sete falhas equivalem a um estágio de corrupção da Tormenta. Aura avassaladora.",
+   "properties": "Dano 8d6 (Colossal); crítico conforme espada grande",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-canoa",
+   "nome": "Canoa",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Construída a partir de um único tronco de árvore, talvez a embarcação mais simples de todas. Use estas estatísticas também para botes. Embarcação Grande; tripulação mínima 1, total 4; desl. 3m; CA 14 (–1 tamanho, +5 natural); PV 70; RD 5; armamento: nenhum.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-barcaca",
+   "nome": "Barcaça",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 3000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Pequeno navio de um único mastro com vela quadrangular e alguns remos. Navega em rios e mar aberto; comum em mundos pacíficos como Serena, Terápolis e Ramknal. Embarcação Enorme; tripulação mínima 1, total 10; desl. 6m; CA 13 (–2 tamanho, +5 natural); PV 120; RD 5; armamento: nenhum.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-veleiro",
+   "nome": "Veleiro",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 10000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Três mastros de velas quadrangulares; o típico navio de viagem, popular entre mercadores. Embarcação Descomunal; tripulação mínima 5, total 30; desl. 9m; CA 11 (–4 tamanho, +5 natural); PV 220; RD 5; armamento: nenhum.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-gale",
+   "nome": "Galé",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 16000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Comprida e estreita, com um mastro, mas impelida basicamente por remos. Típico navio de guerra, usado por marinhas e piratas. Embarcação Descomunal; tripulação mínima 5, total 40; desl. 9m; CA 11; PV 260; RD 5; armamento: 4 balistas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-caravela",
+   "nome": "Caravela",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 11000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Três mastros com grandes velas triangulares, melhores para ventos desconhecidos; favorita para desbravar mares inexplorados. Embarcação Descomunal; tripulação mínima 5, total 30; desl. 9m; CA 11; 220 PV; armamento: nenhum. O piloto não sofre a penalidade em Ofício (marinheiro) por condições ruins.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-trirreme",
+   "nome": "Trirreme",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 16000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Um mastro e três linhas de remos de cada lado; muito usado pela marinha do Império Táurico e em batalhas navais em Kundali e Pelágia. Os remadores costumam ser escravos acorrentados. Embarcação Descomunal; tripulação mínima 5, total 40; desl. 10,5m; CA 11; PV 260; RD 5; armamento: aríete.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-dracar",
+   "nome": "Drácar",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 15000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Parece uma galé, mas tem cabeça de dragão ou outro monstro na proa e a popa imitando a cauda; usado por salteadores para assustar vítimas. Embarcação Descomunal; tripulação mínima 5, total 40; desl. 9m; CA 11; PV 260; RD 5; armamento: nenhum. Todos os inimigos a até 36m sofrem –1 de moral na CA e nos testes de resistência (efeito de medo).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-nau",
+   "nome": "Nau",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 30000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Embarcação grande, com três mastros e castelos de proa e de popa. Embarcação Colossal; tripulação mínima 15, total 100; desl. 12m; CA 7 (–8 tamanho, +5 natural); PV 400; RD 5; armamento: nenhum.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-veiculo-galeao",
+   "nome": "Galeão",
+   "categoria": "veiculo",
+   "subtipo": "embarcacao",
+   "peso": 0,
+   "preco": {
+    "valor": 63500,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "veiculo",
+    "embarcacao",
+    "navio",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "O maior navio a singrar os mares de Arton e dos mundos dos deuses: seis conveses, quatro mastros e castelos de popa e proa. Embarcação Colossal; tripulação mínima 15, total 150; desl. 13,5m; CA 7; PV 560; armamento: 8 canhões; 10 botes salva-vidas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-cordames-de-boa-qualidade",
+   "nome": "Cordames de boa qualidade",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 1500,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: o piloto recebe +2 em testes de Ofício (marinheiro).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-leme-confiavel",
+   "nome": "Leme confiável",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: o piloto não sofre a penalidade de –4 em Ofício (marinheiro) por condições ruins.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-casco-bem-desenhado",
+   "nome": "Casco bem desenhado",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: aumenta o deslocamento em +1,5m (1.000 TO) ou +3m (3.000 TO).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-robustez",
+   "nome": "Robustez (navio)",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: +10 PV por compra, até o dobro dos PV iniciais. Cada 10 PV adicionais aumentam a tripulação total em 3; cada 20 PV adicionais dão +1 espaço para armas. Preço por cada 10 PV.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-materiais-alternativos",
+   "nome": "Materiais alternativos (casco)",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: casco de madeira reforçada (RD 6, preço básico ×1,5), cerâmica magicamente tratada (RD 8, ×3) ou madeira-ferro (RD 10, ×5). Só a madeira reforçada existe em Arton; as outras apenas nos mundos dos deuses. Preço = preço básico do navio × multiplicador.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-ariete-ou-esporao",
+   "nome": "Aríete ou esporão na proa",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Modificação de navio: o navio sofre apenas metade do dano quando faz um ataque de carga.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-acrostolio",
+   "nome": "Acrostólio",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 5000,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Adorno esculpido na proa (cabeça de dragão, sereia, anjo...). Assustador: inimigos a até 36m sofrem –1 na CA e nos testes de resistência. Motivador: +1 em ataque e dano da tripulação no próprio navio ou abordando. Protetor: +1 na CA e nos testes de resistência da tripulação. Só um por navio.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-bote-salva-vidas",
+   "nome": "Bote salva-vidas",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Bote acoplado à embarcação principal, carrega até 4 pessoas. Só em embarcações Enormes ou maiores. Preço por bote.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-capsula-de-escape-de-madeira-ferro",
+   "nome": "Cápsula de escape de madeira-ferro",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 250,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Funciona como bote salva-vidas nos rigores do vazio entre os mundos. Preço por cápsula.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  },
+  {
+   "id": "tclassico-mundo-equipamento-herbanario-ou-estufa",
+   "nome": "Herbanário ou estufa",
+   "categoria": "equipamento",
+   "subtipo": "modificacao de navio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "TO"
+   },
+   "sistema": "tormenta-classico",
+   "fonte": "Tormenta RPG - O Mundo dos Deuses",
+   "pagina": 146,
+   "tags": [
+    "equipamento",
+    "modificacao de navio",
+    "navio",
+    "embarcacao",
+    "mundo dos deuses",
+    "tormenta classico"
+   ],
+   "descricao": "Necessário em naves-vivas para renovar o ar. Sem ele, o ar deve ser renovado magicamente ou em uma atmosfera a cada 2 dias (tripulação mínima) ou 12 horas (máxima). Com a estufa danificada, há ar para 2d6 horas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "equipamento"
+   ]
+  }
+ ]
+}

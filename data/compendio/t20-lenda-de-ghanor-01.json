@@ -1,0 +1,5975 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "t20-lenda-de-ghanor-queijo-da-torre",
+   "nome": "Queijo da Torre",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta peça gigante é feita com leite de ovelha, e tem um forte odor devido a seu processo de fermentação com fungos azuis. Possui o equivalente a 10 porções, sendo cada porção o necessário para uma pessoa se fartar de queijo mágico… E recuperar 1d4 PM. Benefício: 10 porções, recupera 1d4 PM por porção.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-aguardente-de-arroz-ana",
+   "nome": "Aguardente de Arroz Anã",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Fabricado na ilha de Santa Sicária, este destilado fortalece o corpo e o espírito, fornecendo redução de dano 2.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-hidromel-artusiano",
+   "nome": "Hidromel Artusiano",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 8,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Fabricada no norte gelado, esta bebida aquece e incita. Fornece +2 em testes de ataque corpo a corpo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-sidra-de-zibrene",
+   "nome": "Sidra de Zibrene",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 17,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícia originalmente baseadas em Carisma.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-vinho-da-floresta-alta",
+   "nome": "Vinho da Floresta Alta",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas magias.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-antidoto",
+   "nome": "Antídoto",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 15,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um pequeno frasco contendo um preparado capaz de combater a maioria dos venenos e toxinas. Beber o antídoto é uma ação padrão e anula qualquer condição envenenado afetando o alvo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-turlin",
+   "nome": "Turlin",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 25,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este pó fino, feito a partir da combinação de ervas e outros ingredientes naturais, é consumido por elfos para equilibrar seus sentimentos e emoções. Você pode inalar uma dose de turlin para ignorar as penalidades pela habilidade Sentimentos Conflitantes por uma cena.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-extrato-de-noz",
+   "nome": "Extrato de noz",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando aplicado a uma magia que afeta uma área, aumenta a área em +3m.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-gengibre-amargo",
+   "nome": "Gengibre amargo",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Tratada com ácidos específicos, esta raiz potencializa o efeito de magias, aumentando qualquer bônus concedido em +1.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pernas-de-sapo",
+   "nome": "Pernas de sapo",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando aplicadas a uma magia com alcance curto ou médio, estas pernas de sapo ressecadas aumentam o alcance da magia para médio ou longo, respectivamente.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pluma-de-algodao",
+   "nome": "Pluma de algodão",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando aplicado a uma magia com alcance maior que pessoal e que afete um ou mais alvos, este catalisador aumenta o número de alvos da magia em +1.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-arictina",
+   "nome": "Arictina",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este veneno feito a partir de monstros como aranhas gigantes deixa sua vítima enfraquecida — e a faz uma presa mais fácil para ser abatida. Contato, vítima fica fraca e vulnerável.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-beijo-do-ocaso",
+   "nome": "Beijo do ocaso",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Veneno raríssimo, preparado a partir de peçonha de serpe, sangue de demônio e plantas tóxicas encontradas apenas nos pântanos mais ermos. Contato, vítima perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-fogo-liquido",
+   "nome": "Fogo líquido",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 600,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este líquido avermelhado está sempre quente ao toque. Em contato com o organismo, deixa a vítima suando, ofegante e cansada. Muitos duelos já foram vencidos por cavaleiros “honrados” enfrentando adversários enfraquecidos por fogo líquido... Contato, vítima fica exausta (fatigada).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-valeriana",
+   "nome": "Valeriana",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta planta tem propriedades calmantes e, na dosagem certa, se torna um sonífero eficaz. Ingestão, vítima fica inconsciente.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-vapor-purpura",
+   "nome": "Vapor púrpura",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este gás roxo faz a vítima rir descontroladamente e agir de forma caótica. Inalação, vítima fica confusa (confusa por 1 rodada).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-balsamo-potente",
+   "nome": "Bálsamo potente",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 120,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Como bálsamo restaurador, mas o alvo recupera 4d8 pontos de vida.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-fluido-congelante",
+   "nome": "Fluido congelante",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "O líquido leitoso contido nesse frasco congela instantaneamente em contato com o ar. Para usar o fluido, você gasta uma ação padrão e escolhe uma criatura em alcance curto.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-frasco-do-inferno",
+   "nome": "Frasco do inferno",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 300,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este temido preparado alquímico é proibido em diversos reinos, pois faz o próprio ar pegar fogo. Para usar o frasco do inferno, você gasta uma ação padrão e escolhe um cubo de 3m em alcance curto. Todas as criaturas na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos CD Des reduz à metade e evita a condição). As chamas são mais fortes: causam 2d6 pontos de dano por rodada e exigem que a vítima gaste uma ação completa e passe em um teste de Reflexos (CD 20) ou mergulhe em água para apagá-las.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-licor-de-ervas",
+   "nome": "Licor de ervas",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um líquido com perfume forte e propriedades curativas. Beber o elixir é uma ação padrão e remove uma condição entre cego, debilitado, enjoado, exausto, fatigado, fraco, paralisado, petrificado e surdo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-incenso-mistico",
+   "nome": "Incenso místico",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Como um incenso normal, mas feito de substâncias raras. Queimá-lo e meditar por uma hora fornece 5 pontos de mana temporários.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-soro-rochoso",
+   "nome": "Soro rochoso",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este líquido denso e cinzento aumenta a rigidez da pele do usuário. Fornece redução de dano 5 e diminui o deslocamento em –1,5m por uma cena.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-soro-rubro",
+   "nome": "Soro rubro",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 90,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este líquido cor de sangue aumenta a agressividade e capacidade de combate do usuário. Fornece +2 em testes de ataque e de resistência e –2 em perícias baseadas em Inteligência e Carisma por uma cena.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-substrato-de-mana",
+   "nome": "Substrato de mana",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "alquimia mistica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Como essência de mana, mas recupera 2d4 pontos de mana.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-falcao",
+   "nome": "Falcão",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta ave é o animal favorito de muitos nobres, fazendo com que falcoeiros habilidosos sejam valorizados em qualquer corte. Vigiliante.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-mula",
+   "nome": "Mula",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este híbrido robusto é muito usado como animal de carga.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-bolsa-de-lona",
+   "nome": "Bolsa de lona",
+   "categoria": "item geral",
+   "subtipo": "equipamento de aventura",
+   "peso": 0,
+   "preco": {
+    "valor": 2,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "equipamento de aventura",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um saco de tecido resistente, com tiras para ser carregada nas costas. Você precisa de uma bolsa para carregar itens (a própria bolsa não gasta um espaço e não conta como um item para seu limite de itens vestidos).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-carrilhao-consagrado",
+   "nome": "Carrilhão consagrado",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 100,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um sinete de som peculiar, usado em liturgias sagradas. A CD para resistir a suas magias divinas aumenta em +1.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-espinho-de-monstro",
+   "nome": "Espinho de monstro",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 250,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma varinha feita a partir do corpo de certos monstros. Suas magias causam +1d6 pontos de dano do mesmo tipo. Porém, sempre que lança uma magia, você perde 1 PV.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-estola-sacerdotal",
+   "nome": "Estola sacerdotal",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 600,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma faixa adornada com símbolos divinos usada ao redor do pescoço. Quando lança uma magia divina que fornece um bônus numérico em um atributo, perícia ou Defesa, esse bônus aumenta em +1.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pena-montecranio",
+   "nome": "Pena Montecrânio",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Varinha com uma pena de ouro encaixada no cabo. Sua CD para resistir a magias arcanas aumenta em +1. A pena pode ser removida e usada para escrever em qualquer superfície, inclusive água. Dando o comando mágico “Iozêpi!” o que foi escrito com a pena some. Repetir o comando uma segunda vez faz com que a escrita apareça novamente.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-ostensorio-santificado",
+   "nome": "Ostensório santificado",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 450,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma obra de arte dedicada ao deus, muitas vezes contendo uma relíquia. Escolha uma magia que você possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções), mas somente se for lançada em devotos do seu deus.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-balanca-de-mercador",
+   "nome": "Balança de mercador",
+   "categoria": "item geral",
+   "subtipo": "ferramenta",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "ferramenta",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este instrumento de precisão é formado por um suporte que sustenta dois pratos e um conjunto de pesos diversos. Usada por mercadores para avaliar objetos e medir quantidades, fornece +2 em testes de Diplomacia para barganhar.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-ferramentas-de-ladrao",
+   "nome": "Ferramentas de ladrão",
+   "categoria": "item geral",
+   "subtipo": "ferramenta",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "ferramenta",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma pequena caixa contendo gazuas, arames e outros utensílios pequenos. Um personagem sem este kit sofre penalidade de -5 em testes de Ladinagem para abrir fechaduras e sabotar.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-lira-graciosa",
+   "nome": "Lira graciosa",
+   "categoria": "item geral",
+   "subtipo": "instrumento musical",
+   "peso": 0,
+   "preco": {
+    "valor": 90,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "instrumento musical",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este instrumento gera notas doces e poéticas. Enquanto empunha este item, você recebe +2 em testes de Atuação quando usa as habilidades Música de Bardo: Balada Fascinante e Manipular. Conta como um instrumento musical.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pandeiro-das-planicies",
+   "nome": "Pandeiro das planícies",
+   "categoria": "item geral",
+   "subtipo": "instrumento musical",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "instrumento musical",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "A música deste instrumento empolga os ouvintes. Se usar a habilidade Música: Melodia Encorajadora enquanto empunha este item, ela fornece +1 ponto de vida temporário por dado. Conta como um instrumento musical.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-botas-de-camurca",
+   "nome": "Botas de camurça",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 15,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-chapeu-de-mago",
+   "nome": "Chapéu de mago",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Com pinturas e bordados de símbolos arcanos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 PM, mas apenas se você possuir pelo menos 1 nível de mago.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-colar-de-cristal",
+   "nome": "Colar de cristal",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta pedra é capaz de sintonizar seu usuário com as energias do mundo natural. Ele fornece +1 ponto de mana, mas seu efeito só se ativa após um dia de uso.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-manto-pesado",
+   "nome": "Manto Pesado",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um manto de lã pesado, capaz de proteger contra o frio extremo. Fornece +2 em testes de Fortitude contra efeitos de frio, mas impõe penalidade de armadura de –2.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-velocino-aureo",
+   "nome": "Velocino Áureo",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Dizem que esta pele de ovelha dourada foi usada por um dos fundadores do castelo para recolher todo os grãos do ouro de aluvião que corria em um rio. Ele pode ser usado como uma Capa Pesada. Além dos bônus normais, o velocino é praticamente invulnerável a ataques mundanos, fornecendo +5 em Defesa.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-bote",
+   "nome": "Bote",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "A embarcação mais simples de todas. Um barco com remos. Veículo Grande, tripulação mínima/máxima 1/4, deslocamento flutuar 3m, Defesa 10, PV 50, RD 5, armamento: nenhum; Custo 50 PP.",
+   "properties": "Tamanho grande",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-bucentauro",
+   "nome": "Bucentauro",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 100000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um palácio flutuante que traz o nome de uma criatura temível. Seu casco é folheado a ouro e o interior do convés é forrado por veludo vermelho. O navio tem capacidade para 42 remos (puxados por 4 remadores cada) e um salão para receber uma centena de pessoas. Apenas chefes de estado e os mais ricos mercadores já tiveram acesso a esta embarcação lendária. Veículo Colossal, tripulação mínima/máxima 30/300, deslocamento flutuante 18m, Defesa 20, PV 200, RD 10, armamento: 4 balistas; Custo 100.000 PP. O capitão recebe +2 em Diplomacia e Nobreza.",
+   "properties": "Tamanho colossal",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-dracar",
+   "nome": "Drácar",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 15000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este navio comprido e estreito, com um mastro e remos, é originário dos fiordes de Artus e da costa do Mar do Norte. Apresenta uma cabeça de dragão ou outro monstro na proa, e um alongamento na popa imitando a cauda da criatura. É usado por salteadores e tem essa aparência para assustar suas vítimas. Veículo Enorme, tripulação mínima/máxima 5/30, deslocamento flutuar 9m, Defesa 15, PV 250, RD 5, armamento: nenhum; Custo 15.000 PP. Todos os inimigos que verem o drácar ficam abalados. Este é um efeito de medo.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-knarr",
+   "nome": "Knarr",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 10000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "O “irmão mais novo” do drácar, menor e usado para comércio. Veículo Grande, tripulação mínima/máxima 5/15, deslocamento flutuar 9m, Defesa 10, PV 150, RD 5, armamento: nenhum; Custo 10.000 PP",
+   "properties": "Tamanho grande",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-gale-ghanoriana",
+   "nome": "Galé Ghanoriana",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 35000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Embarcação comprida e estreita com um mastro, mas capaz de ser impelida por remos. Típico navio de guerra, usado pela marinha dos reinos. Veículo Enorme, tripulação mínima/máxima 5/50, deslocamento flutuar 9m, Defesa 20, PV 300, RD 10, armamento: 4 Balistas; Custo 35.000 PP.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-monomastro-mercante",
+   "nome": "Monomastro Mercante",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 3000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta barcaça da Confederação dos Mercadores é uma visão muito comum nas principais rotas comerciais. Tem um único mastro e vela quadrangular, contando com alguns remos para suplementar a força da vela. Pode navegar em rios e mar aberto. Veículo Enorme, tripulação mínima/máxima 1/10, deslocamento flutuar 6m, Defesa 15, PV 120, RD 5, armamento: nenhum; Custo 3.000 PP.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-osseiro",
+   "nome": "Osseiro",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 50000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Navio rápido e estável feito de ossos de dragões. Conta com velas segmentadas. É raríssimo e quase exclusivamente usado por nacionalistas kottarianos. Apenas mortífices conhecem os segredos de sua construção. Veículo Enorme, tripulação mínima/máxima 4/20, deslocamento flutuar 18m, Defesa 20, PV 200, RD 5, armamento: aríete; Custo 50.000 PP. O capitão recebe um bônus de +2 em testes de Ofício (marinheiro).",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-trirreme-tempestuoso",
+   "nome": "Trirreme Tempestuoso",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 5000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Com um mastro e três linhas de remos em cada lado, é bastante comum no Mar Tempestuoso. Dizem também que trirreremes já foram avistados no Lago das Espadas, em trechos navegáveis do Rio Sereno e mesmo na Costa do Comércio. Os remadores normalmente são prisioneiros cumprindo pena ou aventureiros capturados. Veículo Enorme, tripulação mínima/máxima 5/40, deslocamento flutuar 9m, Defesa 15, PV 250, RD 5, armamento: aríete; Custo 5.000 PP.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-calice-de-ymfrit",
+   "nome": "Cálice de Ymfrit",
+   "categoria": "acessorio",
+   "subtipo": "mágico média",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico media",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Qualquer líquido colocado neste cálice é purificado, deixando de conter substâncias nocivas, tóxicas ou venenosas. Um personagem que beba do cálice cura 2d10 pontos de vida e recebe +5 no próximo teste de resistência contra uma doença. Esse efeito funciona apenas para o primeiro personagem que beber dele a cada dia. Além disso, beber dele pode deter o avanço de enfermidades e prolongar a vida de alguém em idade avançada. Por fim, um domínio que possui o Cálice de Ymfrit torna-se imune ao evento aleatório peste.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-falange-de-santa-imuen",
+   "nome": "Falange de Santa Imuen",
+   "categoria": "acessorio",
+   "subtipo": "mágico média",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico media",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta relíquia é um pedaço da falange de Santa Imuen, que tinha o dom da invisibilidade. O ossinho é protegido por um vidro, que deve ser pendurado em um cordão no pescoço ou deixado, de alguma outra forma, em contato direto com o corpo do usuário. A magia contida neste item sagrado protege o usuário contra todas as formas de adivinhação. A pessoa não pode ser detectada ou localizada através de nenhum meio mágico.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-espada-da-forca-sombria",
+   "nome": "Espada da Força Sombria",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta espada longa certeira está espetada numa imensa peça de queijo da torre… Quando alguém a empunha e grita palavras místicas incompreensíveis (ou, se você preferir, “Pelas forças sombrias de Montecrânio. Eu tenho o podeeeeeeeer!”), é atingido por um relâmpago roxo vindo do nada e se transforma em uma versão maior e mais poderosa de si mesmo, recebendo +5 em testes de ataques, rolagens de dano e testes de perícias baseadas em Força até o fim da cena. Esta habilidade pode ser usada uma única vez por aventura.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-mortifice",
+   "nome": "Mortífice",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um item com uma melhoria de mortífice tem seu preço aumentado em +9.000, cumulativo com o aumento de preço pelo número de melhorias; assim, um item com duas melhorias, sendo uma delas de mortífice, custa +12.000. O efeito das melhorias de mortífice depende do tipo de criatura da qual o item foi feito (determinado no momento da fabricação). Para determinar aleatoriamente o tipo de criatura, role 1d4: 1) animal; 2) monstro; 3) morto-vivo; 4) uma raça de humanoides. Ceifadora (Melhoria de Arma). Feita dos dentes, garras e ossos da criatura. O benefício depende do tipo de criatura utilizado na fabricação. * Animal. A margem de ameaça e o multiplicador de crítico da arma aumentam em 1 ponto. * Humanoide. Uma criatura viva atingida fica sangrando. A condição de sangramento causada pela arma é cumulativa — uma criatura atingida duas vezes perde 2d6 PV por sangramento por rodada. * Monstro. A arma causa +1d8 pontos de dano. * Morto-vivo. Quando faz um acerto crítico em uma criatura viva, role 1d10. A criatura perde PV iguais à rolagem e você ganha PV temporários iguais ao resultado da rolagem. Mortalha (Melhoria de Armadura). Feita do esqueleto e da pele da criatura. O benefício depende do tipo de criatura utilizado na fabricação. * Animal. Redução de eletricidade, frio e perfuração 10. * Humanoide. Redução de dano 5. * Monstro. Redução de ácido, corte e fogo 10. * Morto-vivo. Resistência a magia +5. Necromágico (Melhoria de Esotérico). Feito a partir dos olhos, orelhas, língua e órgãos internos da criatura. Magias lançadas com esse esotérico recebem um benefício determinado pelo tipo de criatura utilizada na fabricação. * Animal. A magia causa +1 ponto de dano por dado de dano. * Humanoide. O custo da magia diminui em –1 PM. * Monstro. Quando lança uma magia, pode gastar +2 PM para aumentar a CD dela em +2. * Morto-vivo. Quando lança uma magia, pode gastar +2 PM para que ela ignore reduções de dano, resistências e imunidades do alvo.",
+   "properties": "Preço adicional: Arma + 9000 / Armadura Leve + 9000 / Armadura Pesada + 9000 / Escudo - / Esotéricos + 9000 / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-gancho",
+   "nome": "Gancho",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 3,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este gancho curvo de metal com uma empunhadura perpendicular é usado para puxar fardos de feno nos campos, içar cargas em embarcações e, se necessário, causar ferimentos fatais",
+   "properties": "Dano 1d4, crítico x4, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Gancho",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d4",
+    "type": "P",
+    "threat": 20,
+    "crit": 4,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-lenda-de-ghanor-khanjar",
+   "nome": "Khanjar",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 12,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este punhal longo e curvo possui um fio preciso, capaz de cortes profundos. É usado em Kottar como ferramenta para abrir cadáveres.",
+   "properties": "Dano 1d4, crítico 18, alcance -, C; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Khanjar",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d4",
+    "type": "C",
+    "threat": 18,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-lenda-de-ghanor-maca-de-guerra",
+   "nome": "Maça de Guerra",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma versão mais perigosa da maça comum, com grandes placas de metal na ponta. O peso da maça de guerra torna seu golpe poderoso, mas a torna uma arma desbalanceada. Uma maça de guerra é muito pesada para ser usada sem treinamento especial, por isso é uma arma exótica.",
+   "properties": "Dano 1d12, crítico x3, alcance -, I; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Maça de Guerra",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d12",
+    "type": "I",
+    "threat": 20,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-lenda-de-ghanor-marreta-de-guerra",
+   "nome": "Marreta de Guerra",
+   "categoria": "arma",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Formada por uma haste de madeira resistente com uma cabeça de metal ou pedra, esta arma sacrifica precisão em troca de golpes potentes.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-martelo-de-batalha",
+   "nome": "Martelo de Batalha",
+   "categoria": "arma",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Outra ferramenta adaptada para combate, esta é a arma favorita de quase todos os anões que não usam machados.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-punhal",
+   "nome": "Punhal",
+   "categoria": "arma",
+   "subtipo": "simples",
+   "peso": 0,
+   "preco": {
+    "valor": 6,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "simples",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta lâmina fina é usada por cortesãos, aristocratas e outros indivíduos que supostamente não deveriam portar armas. Um punhal é uma arma discreta e ligeira. Uma vez por cena, se você possuir o poder Saque Rápido, sacar um punhal e usá-lo para atacar no mesmo turno, o oponente fica desprevenido contra esse ataque.",
+   "properties": "Dano 1d4, crítico 19, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Punhal",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d4",
+    "type": "P",
+    "threat": 19,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-lenda-de-ghanor-sabre-elfico",
+   "nome": "Sabre Élfico",
+   "categoria": "arma",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta lâmina curva e alongada foi desenvolvida para se valer da agilidade natural dos elfos. É uma arma adaptável e ágil. É muito grande para ser empunhado com uma só mão sem treinamento especial; por isso, é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cota-de-aneis",
+   "nome": "Cota de Anéis",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 250,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura consiste de uma série de aneis metálicos costurados em uma base de couro. Reduz seu deslocamento em –1,5m.",
+   "properties": "Defesa +5; penalidade -2; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true,
+   "armor": {
+    "defenseBonus": 5,
+    "armorPenalty": -2,
+    "type": "leve"
+   }
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cota-de-talas",
+   "nome": "Cota de Talas",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Longas tiras de aço — as talas — rebitadas e costuradas em um forro de tecido",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-adaga-da-cooperacao",
+   "nome": "Adaga da Cooperação",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta adaga tem uma lâmina simples e o cabo enfaixado com panos brancos. Quando você flanqueia com esta arma, seu bônus de flanquear aumenta para +4 e você recebe +4 nas rolagens de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-aljava-venenosa",
+   "nome": "Aljava Venenosa",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Ao disparar uma flecha sacada dessa aljava, você pode gastar 1 PM para envenená-la com peçonha concentrada.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-alaude-mistico",
+   "nome": "Alaúde Místico",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando usa este alaúde élfico azulado, você soma o círculo máximo de magias que pode conjurar nos testes de Atuação e na CD de suas habilidades de bardo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-amuleto-da-segunda-chance",
+   "nome": "Amuleto da Segunda Chance",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este amuleto prateado tem a forma de um disco com a imagem de um raio gravada. Você recebe +2 em testes de resistência. Se você sofrer dano suficiente para morrer, é ressuscitado com 1 PV. Caso tenha morrido por dano recorrente (como por estar imerso em lava ou soterrado por pedras), a magia do amuleto o transporta para o ponto seguro mais próximo. Após ressuscitá-lo, o item perde sua magia.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-anel-de-controlar-agua",
+   "nome": "Anel de Controlar Água",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este anel prateado concede ao usuário a capacidade de lançar as magias Controlar Água e Conjurar Monstro. Porém, a criatura convocada deve ser um construto feito a partir de uma fonte de água. Se já conhecer essas magias, em vez disso, diminua o custo delas em -1 PM. Existem anéis de controlar outros elementos, mas são mais raros.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-armadura-do-bandoleiro",
+   "nome": "Armadura do Bandoleiro",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este couro batido reforçado foi usado por um bandido que nunca foi derrotado em suas emboscadas, tendo sido morto por seus próprios comparsas por querer ficar com mais do que sua parte dos ganhos. A armadura fornece +2 na Defesa. Além disso, quando você faz uma investida, não sofre penalidade na Defesa e causa um dado de dano extra do mesmo tipo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-armadura-de-insultos",
+   "nome": "Armadura de Insultos",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta meia armadura cravejada de gemas fornece +2 na Defesa e parece formar um sorriso sarcástico com seus adornos. Quando usa o poder Palavras Afiadas, você causa +2d6 de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-anel-de-muitos",
+   "nome": "Anel de Muitos",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este anel prateado possui três pequenas gemas incolores. Você pode gastar uma ação de movimento e 3 PM para criar duas cópias ilusórias suas em quaisquer espaços desocupados em alcance curto. Quando faz isso, e no início de cada um de seus turnos, você pode trocar de lugar com uma das cópias. As cópias são idênticas a você e repetem os seus movimentos, mas não são capazes de afetar outras criaturas e objetos. Caso você se mova, cada cópia percorre a mesma distância em uma direção a sua escolha, mas não pode se afastar mais do que 9m de você. Cada cópia possui Defesa e resistências iguais a sua e dura até o fim da cena ou até sofrer 1 ponto de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-armadura-do-matador-de-magos",
+   "nome": "Armadura do Matador de Magos",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta meia-armadura reforçada é feita de metal escuro e fornece resistência a magia +5.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-arco-de-essencia",
+   "nome": "Arco de Essência",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este arco longo élfico sem corda tem runas mágicas entalhadas em toda sua extensão. O arco fornece +4 em testes de ataque e rolagens de dano, e dispensa munição. Basta imaginar uma corda e puxá-la para que uma flecha de essência surja. Ataques feitos com esse arco ignoram cobertura (mas não cobertura total) e camuflagem (mas não camuflagem total).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-barco-de-brinquedo",
+   "nome": "Barco de Brinquedo",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este barco de madeira em miniatura se transforma em uma canoa se colocado na água e soprado como uma ação padrão. Se não houver ninguém dentro dele, basta outro sopro para que ele volte a ser um barco de brinquedo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-arco-vingativo",
+   "nome": "Arco Vingativo",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este arco longo de madeira branca não apresenta nenhum sinal de desgaste. Quando sua corda é puxada, ele sussurra “quem é o alvo de sua vingança?”. Caso você responda em voz alta com o nome próprio de uma criatura, flechas disparadas pelo arco vingativo contra essa criatura recebem +5 em testes de ataque e rolagens de dano e têm seu dano aumentado em dois passos. Contra outros alvos, o arco impõem –5 em testes de ataque. Esses modificadores duram até você matar a criatura ou até o fim do dia (o que vier primeiro).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-braceletes-da-vibora",
+   "nome": "Braceletes da Víbora",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Estes braceletes dourados são ornamentados com serpentes que se enroscam por toda sua superfície. Você recebe +2 em Iniciativa e +4 em rolagens de dano contra alvos desprevenidos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-berrante-da-coragem",
+   "nome": "Berrante da Coragem",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esse berrante é feito do chifre de um animal feroz e decorado com gravuras de guerreiros. Você pode gastar uma ação padrão para soprar o berrante e fornecer +2 em testes de Luta para você e seus aliados em alcance médio. Caso tenha a habilidade Inspiração, o alcance dela aumenta para médio.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-armadura-do-heroi",
+   "nome": "Armadura do Herói",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura completa é feita de placas douradas e fornece +4 na Defesa. Uma vez por rodada, quando um aliado adjacente é alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-besta-perseguidora",
+   "nome": "Besta Perseguidora",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta besta leve fornece +4 em testes de ataque e rolagens de dano. Além disso, virotes disparados por ela perseguem o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-batina-do-arcebispo",
+   "nome": "Batina do Arcebispo",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este traje eclesiástico concede milagres de proteção. Se você for um conjurador divino, recebe um bônus na Defesa igual a 5+ o círculo máximo de magia que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Por exemplo, um clérigo de 9° nível (capaz de lançar magias de 3o círculo) recebe +8 na Defesa e +4 em testes de resistência.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-caldeirao-da-fartura",
+   "nome": "Caldeirão da Fartura",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este caldeirão de ferro possui entalhes representando diversos alimentos. Uma vez por dia, ele gera um banquete para até cinco pessoas. Ocupa 5 espaços.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-bracelete-protetor",
+   "nome": "Bracelete Protetor",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este bracelete abençoado por um santo esquecido fornece +4 na Defesa e, quando fizer um teste de resistência, você pode gastar 2 PM para rolar dois dados e ficar com o melhor.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-chicote-do-feitor",
+   "nome": "Chicote do Feitor",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este chicote é completamente preto — dizem que do sangue coagulado de suas inúmeras vítimas. Ele fornece +2 em testes de ataque e rolagens de dano e, em vez de causar 1d3 de dano como um chicote normal, causa 2d8 de dano de trevas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-caneca-da-partilha",
+   "nome": "Caneca da Partilha",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta caneca de madeira permite duplicar bebidas — incluindo preparados e poções. Se você encher a caneca até a metade e gastar 2 PM, ela termina de se encher sozinha.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cabana-viva",
+   "nome": "Cabana Viva",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Ver livro de origem.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cetro-ardente",
+   "nome": "Cetro Ardente",
+   "categoria": "esoterico",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando você empunha este cetro elemental de fogo energético, qualquer criatura que falhe em um teste de resistência contra uma de suas magias que cause dano de fogo fica em chamas. As chamas causam 2d6 pontos de dano por rodada, em vez do normal.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cajado-do-portal",
+   "nome": "Cajado do Portal",
+   "categoria": "esoterico",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Um bordão feito de madeira e rebites de aço entalhado com runas que representam constelações. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Além disso, você pode lançar a magia Teletransporte. Se já conhecer a magia, em vez disso, o custo para lançá-la diminui em -1 PM.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cota-de-malha-elfica",
+   "nome": "Cota de Malha Élfica",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta cota de malha é leve e maleável como seda. Ela conta como uma armadura leve, fornece +2 na Defesa e não possui penalidade de armadura.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cimitarra-defensora",
+   "nome": "Cimitarra Defensora",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "A lâmina desta cimitarra guia sutilmente a mão de seu usuário para que ele consiga aparar os ataques de seus inimigos. Ela fornece +2 na Defesa e em testes de ataque e rolagens de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cota-vigilante",
+   "nome": "Cota Vigilante",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta cota de talas tem um olho pintado no peitoral. Ela fornece +2 na Defesa, Iniciativa e Percepção.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cimitarra-silvestre",
+   "nome": "Cimitarra Silvestre",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta lâmina curva com cabo de madeira é coberta por gravuras que representam plantas e animais selvagens. Ela fornece +2 em testes de ataque e rolagens de dano. Além disso, causa +1d6 pontos de dano se você estiver ao ar livre ou +2d6 pontos de dano se estiver ao ar livre e debaixo da copa de árvores.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-couro-de-tubarao",
+   "nome": "Couro de Tubarão",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura de couro espinhosa fornece +2 na Defesa, +2 em rolagens de dano corpo a corpo e +5 em testes de Atletismo para nadar.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-cinto-do-gigante",
+   "nome": "Cinto do Gigante",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este cinto largo é feito de couro com rebites de ferro. Você recebe +2 em Força (após um dia de uso).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-colhedora-de-pecados",
+   "nome": "Colhedora de Pecados",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este gadanho possui lâmina preta e fosca, como se tivesse sido submetida a um fogo intenso. Ela fornece +4 em testes de ataque e rolagens de dano. Quando você ataca uma criatura sob efeito de uma condição mental ou de medo, este bônus aumenta para +6 e, se você acertar o ataque, ganha 1 PM temporário cumulativo (até um máximo por cena igual ao seu nível).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-escudo-esmagador",
+   "nome": "Escudo Esmagador",
+   "categoria": "escudo",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "escudo",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este escudo pesado reforçado é especialmente denso. Ataques feitos com ele recebem +2 em testes de ataque e rolagens de dano e têm seu dano aumentado em dois passos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "escudo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-corta-almas",
+   "nome": "Corta Almas",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta espada longa pungente atroz fornece +4 em testes de ataque e rolagens de dano, em um bônus total de +6 em ataques e dano. A Corta Almas é famosa por sua lâmina que rubra e reluzente — e por ser uma arma orgulhosa e sanguinária. Ela desaparece misteriosamente da bainha de seu portador se for sacada e então embainhada sem derramar sangue (em termos de regras, causar pelo menos 10 pontos de dano) ou caso seu portador fique muito tempo sem usá-la para tirar uma vida inteligente (em termos de regras, se ficar uma sessão de jogo sem matar pelo menos uma criatura com Int –3 ou maior).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-escudo-invisivel",
+   "nome": "Escudo Invisível",
+   "categoria": "escudo",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "escudo",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este anel de ouro é decorado com uma gema no formato de um escudo. Quando vestido, emite um campo de força invisível que funciona como um escudo pesado, mas deixa a mão livre para empunhar outros itens e não tem penalidade de armadura.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "escudo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-espada-vampirica",
+   "nome": "Espada Vampírica",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este montante emite um brilho púrpura e fornece +2 em testes de ataque e rolagens de dano. Quando faz um acerto crítico em uma criatura viva, a criatura fica fraca e você ganha 2d10 pontos de vida temporários.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-escudo-de-aquila",
+   "nome": "Escudo de Áquila",
+   "categoria": "escudo",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "escudo",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este escudo pesado dourado carrega o símbolo de uma ave de rapina no centro. Ele fornece +4 na Defesa e em testes de resistência. Além disso, uma vez por rodada, como reação, você pode fornecer os mesmos bônus para todos os aliados adjacentes até o início de seu próximo turno.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "escudo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-estandarte-vitorioso",
+   "nome": "Estandarte Vitorioso",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este estandarte branco assume as cores do seu portador após um dia. Você pode empunhá-lo ou gastar uma ação de movimento para fixá-lo no chão. Qualquer aliado em alcance médio recebe +2 em testes de Luta. Se você for treinado em Guerra e Nobreza, os aliados recebem também +2 em rolagens de dano. Se você perder um combate, o estandarte vitorioso desaparece misteriosamente.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-estrela-polar",
+   "nome": "Estrela Polar",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta maça-estrela é coberta por uma camada de gelo e névoa. Ela fornece +2 em testes de ataque e rolagens de dano e causa +1d8 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-escudo-dos-reflexos",
+   "nome": "Escudo dos Reflexos",
+   "categoria": "escudo",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "escudo",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este escudo leve possui uma superfície metálica reflexiva. Ele fornece +4 na Defesa e em testes de resistência. Se você for alvo de um efeito que tenha apenas você como alvo e permita um teste de resistência, pode gastar 3 PM. Se fizer isso e passar no teste, você devolve o efeito para seu atacante, como se ele fosse o alvo original. Entretanto, se você rolar um 1 natural em seu teste de resistência, o escudo dos reflexos racha e não pode mais ser usado até passar uma noite submerso em um espelho d’água.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "escudo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-lamina-sagrada",
+   "nome": "Lâmina Sagrada",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Essa espada longa tem a lâmina sempre reluzente. Fornece +4 em testes de ataque e rolagens de dano. Além disso, causa +2d8 de dano contra demônios e mortos-vivos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-espada-do-arrojado",
+   "nome": "Espada do Arrojado",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta espada larga tem um cabo metálico prateado, entalhado com a imagem de guerreiros em investida. Ele fornece +4 em testes de ataque, rolagens de dano e Iniciativa. Além disso, se você for o primeiro a agir na cena, você recebe PV temporários igual ao resultado do seu teste de iniciativa. Esses PV temporários duram até o final da cena.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-florete-trapaceiro",
+   "nome": "Florete Trapaceiro",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "O som dos golpes deste florete pungente se parece com uma risada. Você recebe +5 em testes de Enganação para fintar e causa +1d6 pontos de dano contra inimigos desprevenidos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-lanca-celeste",
+   "nome": "Lança Celeste",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta lança montada prateada possui traços azuis em sua extensão e fitas azuis em seu cabo. Você recebe +2 em testes de ataque e rolagens de dano e, quando faz uma investida montada, recebe deslocamento de voo e causa +1d8 de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-espada-vorpal",
+   "nome": "Espada Vorpal",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta montante sombria fornece +4 em testes de ataque e rolagens de dano e +1 na margem de ameaça. Além disso, se fizer um acerto crítico com a espada vorpal, além de multiplicar os dados de dano, multiplica também quaisquer bônus numéricos. Se isso reduzir os PV da vítima a para ou menos, ela é decapitada e morre automaticamente (esse último efeito não afeta criaturas que não possuam cabeça).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-folha-seca",
+   "nome": "Folha Seca",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta folha seca do outono ocupa apenas meio espaço. Você pode gastar uma ação padrão para transformá-la em uma armadura leve feita de madeira e vinhas (Defesa +6, penalidade de armadura 0, ocupa 2 espaços). Você pode gastar outra ação para que ela volte a ser apenas uma folha.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-machado-manticora",
+   "nome": "Machado Mantícora",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este machado de batalha é repleto de espinhos no dorso de sua lâmina. Ele fornece +2 em testes de ataque e rolagens de dano e, quando faz um acerto crítico, dispara três espinhos. Cada espinho atinge uma criatura a sua escolha em alcance médio, causando 1d8 pontos de dano de perfuração.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-gemeas-de-aco",
+   "nome": "Gêmeas de Aço",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este par de espadas curtas é completamente idêntico, não sendo possível distinguir uma lâmina da outra. Quando empunhadas juntas, fornecem +4 em testes de ataque e rolagens de dano, além de +4 na Defesa. Por fim, quando você atinge o mesmo alvo com ambas no mesmo turno, ele sofre +2d10 pontos de dano.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-lampada-dos-desejos",
+   "nome": "Lâmpada dos Desejos",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta lâmpada dourada, do tamanho de um lampião, guarda um espírito poderoso capaz de realizar três desejos. O portador deste artefato pode lançar a magia Desejo até esgotar os três usos. Atendidos os desejos, o espírito se liberta e, na maioria dos casos, entra em uma jornada de vingança contra quem o aprisionou.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-lamina-disciplinada",
+   "nome": "Lâmina Disciplinada",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Essa espada larga se mantém em perfeito estado, como se tivesse sido afiada e oleada há poucos minutos. Fornece +2 em testes de ataque e rolagens de dano. Além disso, caso você possua a habilidade Golpe Disciplinado, recebe +1d6 no dano quando a usa.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-martelo-fiel",
+   "nome": "Martelo Fiel",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este martelo de batalha maciço é de fabricação anã e costuma ser encontrado no subterrâneo. Ele fornece +4 em testes de ataque e rolagens de dano e pode ser arremessado em alcance curto. Após o ataque, o martelo fiel volta voando para você (pegá-lo é uma reação). Caso ele esteja em alcance curto, você pode gastar uma ação de movimento para estender a mão e fazer com que o martelo fiel voe até você.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-luneta-da-inversao",
+   "nome": "Luneta da Inversão",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta luneta dourada funciona ao contrário, aproximando as pessoas das imagens. Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para observar um ponto qualquer em alcance longo. Se fizer isso, você é teletransportado para o ponto escolhido instantaneamente.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-mascara-abissal",
+   "nome": "Máscara Abissal",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Dizem que esta máscara decorada com gemas negras, dentes e chifres foi costurada a partir do couro da face de um demônio. Enquanto estiver vestindo a máscara, você recebe +5 em Intimidação e uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres. Se você já possui uma arma natural de chifre, o dano dela aumenta em dois passos. Entretanto, enquanto usa a máscara abissal, você é considerado um demônio para efeitos que afetem demônios (como o poder Canalizar Energia).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-luvas-do-definhamento",
+   "nome": "Luvas do Definhamento",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Quando vestido, este par de luvas de seda negra muda o contorno de suas mãos, fazendo com que elas pareçam ser apenas ossos sob o tecido. A CD para resistir às suas magias de necromancia aumenta em +5. Além disso, você pode lançar Infligir Ferimentos (CD Sab). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-penas-de-aguia",
+   "nome": "Penas de Águia",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este couro batido é ornamentado com penas de pássaro e fornece +4 na Defesa. Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-manto-das-estrelas",
+   "nome": "Manto das Estrelas",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este manto negro fornece +2 em testes de resistência e amanhece cada dia com 2d4 estrelas bordadas. Quando faz um ataque com uma arma de arremesso, você pode fazer uma das estrelas se dissolver em energia prateada que envolve a arma e fornece +3d8 pontos de dano de trevas neste ataque. O manto recupera todas as estrelas gastas após passar oito horas sob o céu noturno.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-luvas-da-libertacao",
+   "nome": "Luvas da Libertação",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Estas luvas grossas de couro, próprias para trabalho braçal, são extremamente confortáveis. Quando você aperta a mão de uma criatura, ela tem direito a um novo teste de resistência contra efeitos mentais que a estejam afligindo. Em combate, você precisa de uma manobra agarrar para apertar a mão de uma criatura não voluntária.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-placa-reluzente",
+   "nome": "Placa Reluzente",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura completa ajustada é polida, brilhante e fornece +4 na Defesa. Uma vez por rodada, você pode gastar 2 PM para emitir um clarão de luz. Todos os inimigos em alcance curto devem passar num teste de Reflexos (CD Car) ou ficarão cegos por uma rodada (apenas uma vez por cena).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-marreta-da-tempestade",
+   "nome": "Marreta da Tempestade",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta marreta de guerra emite faíscas e é coberta de arcos voltaicos. A marreta da tempestade fornece +4 em testes de ataque e rolagens de dano e causa +1d8 pontos de dano de eletricidade. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, um raio atinge outra criatura em alcance curto, causando 3d8 pontos de dano de eletricidade. Quando você faz um acerto crítico, o martelo da tempestade emite um trovão ribombante e a vítima fica atordoada por uma rodada (Fort CD For evita; apenas uma vez por cena).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-manoplas-do-ogro",
+   "nome": "Manoplas do Ogro",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (após um dia de uso).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-montanha-irma",
+   "nome": "Montanha-Irmã",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura completa é feita de pedra e fornece +4 na Defesa. Além disso, se você estiver pisando em pedra ou rocha (por exemplo, num castelo ou caverna, mas não numa casa de madeira ou estrada), ela fornece redução de dano 10.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-raio",
+   "nome": "Raio",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta espada curta possui uma lâmina entalhada com diversos raios e fornece +2 em testes de ataque e rolagens de dano. Se estiver empunhando também a espada mágica Trovão, esse bônus aumenta para +4 e seus ataques com Raio causam +2d6 pontos de dano de eletricidade. Além disso, você pode gastar uma ação padrão e 5 PM para bater uma espada na outra, gerando uma onda de choque em um raio de 6 metros a partir de você. Outras criaturas na área sofrem 8d8 pontos de dano de eletricidade e ficam caídas (Fortitude CD For ou Des, à sua escolha, reduz o dano à metade e evita a condição).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-nevasca",
+   "nome": "Nevasca",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este machado de guerra tem a lâmina feita de gelo inquebrável. Fornece +4 em testes de ataque e rolagens de dano e causa +2d6 pontos de dano de frio. Você pode gastar uma ação padrão e 3 PM para batê-lo contra o chão e gerar uma camada de gelo sobre o solo, em um raio de 12m a partir de você. Veja a página 221 para as regras de andar sobre o gelo — mas, enquanto empunhar Nevasca, você mesmo não sofre os efeitos do gelo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-rapieira-do-desespero",
+   "nome": "Rapieira do Desespero",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Conforme você se fere, a lâmina prateada desta rapieira se torna mais vermelha. Se você estiver com pelo menos 1 ponto de dano, ela fornece +2 em testes de ataque e rolagens de dano. Se estiver com metade ou menos de seus pontos de vida, a margem de ameaça e o multiplicador de crítico aumentam em +2. Por fim, se você estiver com exatamente 1 PV, seus ataques causam dano dobrado.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-o-martelo-de-ruff-ghanor",
+   "nome": "O Martelo de Ruff Ghanor",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este martelo de batalha feito de Arcanium está deformado pelos dons de seu antigo mestre, mas ainda contém muito poder. O martelo fornece +6 em testes de ataque e rolagens de dano, causa +1d8 pontos de dano de essência e pode ser arremessado em alcance médio. Após o ataque, o martelo volta voando para você (pegá-lo é uma reação). Caso ele esteja em alcance, você pode gastar uma ação de movimento para estender a mão e fazer com que o martelo voe até você. Além disso, se usado contra um dragão, o dano de essência muda para +3d12.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-roupa-de-bobo",
+   "nome": "Roupa de Bobo",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta armadura de couro feita em cores vivas e contrastantes parece um traje típico usado por bobos da corte e permite que você some seu Carisma na Defesa. Além disso, fornece +5 em Acrobacia.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pa-dos-tesouros",
+   "nome": "Pá dos Tesouros",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta pá tem as mesmas estatísticas de um bordão, mas é pintada com runas douradas. Você pode gastar 1 PM para saber a direção da maior concentração de tesouro no raio de 1 km. Além disso, ela fornece +4 em testes para cavar, desde que o motivo da escavação seja encontrar tesouros.*",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-segunda-pele",
+   "nome": "Segunda Pele",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este couro batido tem uma aparência e textura parecidas com pele humana. Ele fornece +4 na Defesa e aumenta a CD de todos os seus efeitos de medo em +2. Além disso, você pode gastar uma ação de movimento e 2 PM para gerar uma onda de pavor. Inimigos em alcance curto ficam abalados até o fim da cena (Vontade CD Car anula).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pele-de-lorag",
+   "nome": "Pele de Lorag",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este gibão de peles é feito da pelagem dos temidos lorags e fornece +4 na Defesa. Você pode uivar para o céu como uma ação de movimento para desenvolver visão na penumbra e presas até o fim do dia, ganhando uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Além disso, uma vez por rodada, quando um inimigo adjacente fica caído, você pode gastar 1 PM para fazer um ataque corpo a corpo extra.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-muralha-portatil",
+   "nome": "Muralha Portátil",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este escudo torre é feito de pedra, mas não é mais pesado que um escudo normal. Ele fornece +2 na Defesa. Além disso, você pode gastar uma ação padrão para transformá-lo em uma parede de pedra com 3m de largura, 3m de altura e 1,5m de espessura ou transformar a parede de volta em escudo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-siroco",
+   "nome": "Siroco",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta cimitarra pode ser encontrada perdida em desertos, às vezes nas mãos de cadáveres ressequidos. Porém, mesmo as décadas ou séculos sob o castigo das areias escaldantes não tiraram seu fio ou brilho, e ela fornece +2 em testes de ataque e rolagens de dano. Quando desembainhada, ela ilumina um raio de 12m e causa +2d6 pontos de dano de fogo. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, em vez do ataque normal você dispara um raio de fogo contra um alvo em alcance médio. O alvo sofre 8d6 pontos de dano e fica em chamas. Um teste de Reflexos (CD For ou Des, à sua escolha) reduz o dano à metade e evita a condição.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pele-de-lobo",
+   "nome": "Pele de Lobo",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este gibão de peles ajustado tem uma cabeça de lobo como capuz e fornece +2 na Defesa. Você pode uivar para o céu como uma ação de movimento para desenvolver presas e ganhar uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-sorte-ensacada",
+   "nome": "Sorte Ensacada",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este saco de couro pode ser usado para transformar qualquer objeto mundano em ouro. Se você colocar um objeto dentro do saco, atar suas cordas e pronunciar a palavra “aubrum”, o objeto será transformado em moedas de ouro, conforme seu volume: 0,5 espaço, 1d10 PO; 1 espaço, 2d10 PO; e 2 espaços, 5d10 PO. Sempre que usar a sorte ensacada, jogue 1d%. Se o resultado for igual ou menor que o total cumulativo de PO já criados na aventura, o item perde sua magia e se transforma em um saco normal.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-sabre-silvestre",
+   "nome": "Sabre Silvestre",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este sabre élfico tem uma lâmina reluzente. Ele fornece +2 na Defesa e em testes de ataque e rolagens de dano. Você também recebe o poder Ataque Extra, mas só pode usá-lo com essa arma. Caso já possua esse poder, o custo para usá-lo diminui em –1 PM.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tabardo-abencoado",
+   "nome": "Tabardo Abençoado",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este tabardo de linho branco possui a efígie de um leão bordada. Você recebe +2 na Defesa e, no início de cada combate, recebe uma quantidade de PM temporários igual ao seu Carisma (duram até o fim da cena).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tiara-da-destruicao",
+   "nome": "Tiara da Destruição",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta tiara dourada é ornamentada com uma variedade de pedras preciosas. Você pode gastar uma ação padrão para disparar um feixe de energia contra um alvo em alcance médio. O feixe causa 6d10 pontos de dano de eletricidade, fogo ou frio, à sua escolha, e empurra o alvo 3m para trás (Reflexos CD Int diminui o dano à metade e evita o empurrão).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-pintura-de-guerra-elfica",
+   "nome": "Pintura de Guerra Élfica",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este frasco rústico contém tinta esverdeada. Você pode gastar uma ação completa para aplicar a tinta em você ou em uma criatura adjacente. Até o final da cena, o alvo recebe +2 na Defesa e, se você for um elfo, deslocamento +1,5m. Sempre que usar o frasco, role 1d20. Em um resultado 1, a tinta acaba.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-traje-do-sono-tranquilo",
+   "nome": "Traje do Sono Tranquilo",
+   "categoria": "acessorio",
+   "subtipo": "mágico médio",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "O governante de um reino antigo temia tanto ser assassinado à noite que pediu a seus artesãos uma armadura que o protegesse durante o sono. Eles fizeram um trabalho único, criando uma armadura confortável como tecido e resistente como aço. Infelizmente, o governante morreu envenenado em um almoço antes de poder usá-la. O traje do sono tranquilo é uma armadura acolchoada que fornece +8 na Defesa.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tiara-da-telepatia",
+   "nome": "Tiara da Telepatia",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta tiara de prata é enfeitada por um único rubi brilhante. Enquanto a usa, você pode lançar Compreensão e Enfeitiçar (CD Car) sem pagar seu custo em PM.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-sela-encantada",
+   "nome": "Sela Encantada",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta sela firme parece nova em folha. Se estiver montado com ela, você recebe +2 em testes de resistência e +5 em testes de Cavalgar.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tridente-acido",
+   "nome": "Tridente Ácido",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "magico medio",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Este tridente goteja líquido corrosivo. O tridente ácido fornece +2 em testes de ataque e rolagens de dano e causa +2d4 pontos de dano de ácido. Além disso, uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima sofre 4d4 pontos de dano de ácido na próxima rodada.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-varinha-eterna",
+   "nome": "Varinha Eterna",
+   "categoria": "esoterico",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta varinha arcana poderosa fornece +20 PM (após um dia de uso).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tomo-dos-antigos",
+   "nome": "Tomo dos Antigos",
+   "categoria": "acessorio",
+   "subtipo": "mágico ?",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Uma vez por dia, você pode gastar uma ação completa para consultar este livro pesado, de páginas amareladas e encadernação caindo aos pedaços. Se fizer isso, recebe +5 em Conhecimento e Misticismo até o fim da cena e, se for um conjurador arcano, recebe 1d6 PM temporários.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-trovao",
+   "nome": "Trovão",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta espada curta possui uma lâmina entalhada com belas ondulações que simbolizam ventos e fornece +2 em testes de ataque e rolagens de dano. Se estiver empunhando também a espada mágica Raio, esse bônus aumenta para +4 e seus ataques com Trovão causam +2d6 pontos de dano de impacto.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-lenda-de-ghanor-tunica-do-diplomata",
+   "nome": "Túnica do Diplomata",
+   "categoria": "acessorio",
+   "subtipo": "mágico ?",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "A Lenda de Ghanor",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "tormenta20",
+    "lenda de ghanor"
+   ],
+   "descricao": "Esta túnica branca e de bom aspecto pode ficar completamente limpa com uma ação completa e o gasto de 1 PM. Ela fornece +5 em testes de Diplomacia.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  }
+ ]
+}

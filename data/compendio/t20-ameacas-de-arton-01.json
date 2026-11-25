@@ -1,0 +1,3525 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "t20-ameacas-de-arton-banquete-de-canceronte",
+   "nome": "Banquete de canceronte",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 36,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um canceronte adulto é suficiente para produzir um pequeno banquete. Você recebe 1d4+1 dados de auxílio. Sempre que realizar um teste de perícia, você pode gastar 1d4 e adicionar o resultado como bônus no teste. Se o banquete é preparado por um personagem com o poder Mestre Cuca, os dados de auxílio se tornam d6. Este prato requer carne fresca de canceronte, sendo assim raramente encontrado longe de grandes cidades costeiras.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-coc-au-triz",
+   "nome": "Coc-au-triz",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 54,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Ovos de cocatriz são ingredientes mágicos poderosos, e esta guloseima reflete esse poder; é um ninho de fios de ovos assados e gratinados. Ao consumir, escolha uma habilidade com custo em PMs. Seu custo diminui em –1 PM. Benefício: Custo habilidade diminui em –1 PM.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-cozido-de-serpe",
+   "nome": "Cozido de serpe",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 12,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural. Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer três sucessos antes de três falhas. Se preparado com sucesso, fornece +1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fort CD 20 reduz para uma rodada).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-fruto-da-espada-mae",
+   "nome": "Fruto da Espada-Mãe",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Benefício: cura 4d8+4 pontos de vida e remove todas as condições negativas, doenças e venenos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-gorlogg-ensopado",
+   "nome": "Gorlogg ensopado",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 6,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Criado nas cozinhas de Yuvalin por Rizzelena, chefe élfica de grande talento, este é um ensopado altamente nutritivo. Em sua próxima noite de sono, você aumenta a sua recuperação de PV e PM em +1 por nível. Benefício: Aumenta recuperação de PV e PM em +1 por nível.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-omelete-monstruosa",
+   "nome": "Omelete monstruosa",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 3,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Dizem que esse prato foi inventado por aventureiros presos em uma caverna cheia de ovos de kobold. Desde então, tornou-se popular entre aqueles de baixa seletividade alimentar, ou muita coragem. É feita com ovos de kobold, mas variações mais refinadas usam ovos de corcel de Kally e outras feras dracônicas menores. Você recebe +2 em rolagens de dano e –2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens. Se feita com ovos de dragão, muda para +5 e –5. E garante que você será caçado por uma mamãe dragão furiosa...",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-sashimi-de-kraken",
+   "nome": "Sashimi de kraken",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta iguaria exótica foi criada pelos maiores chefs de Tamu-ra. Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar. Benefício: +2 em Diplomacia, +5 PM temporários.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-algravia",
+   "nome": "Algravia",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 3,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Bebida alcoólica adocicada feita da seiva de feras-cactus. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o final do dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-balsamo-de-drogadora",
+   "nome": "Bálsamo de drogadora",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-bomba-de-fumaca",
+   "nome": "Bomba de fumaça",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 15,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Saco de estopa com pavio, contendo uma pólvora especial que produz mais fumaça que fogo. Segue as mesmas regras da bomba mas, em vez de causar dano, emite uma nuvem de fumaça espessa com 6m de raio, que obscurece toda a visão. Criaturas a até 1,5m têm camuflagem, e criaturas a partir de 3m têm camuflagem total.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-cosmetico-feerico",
+   "nome": "Cosmético Feérico",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "A \"carruagem-chefe\" do Empório, esta maquiagem faz aflorar a beleza natural de qualquer um. Aplicá-la é uma ação completa e fornece +1 em Carisma por 1 dia (esse aumento não fornece PM extras).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-desengripante-osseo",
+   "nome": "Desengripante Ósseo",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este unguento para osteon faz seus ossos deslizarem como nunca! Fornece +1 em Destreza, mas se você rolar 1 natural em qualquer teste, escorrega e cai no chão, por não estar acostumado com a fluidez de seu esqueleto. Usar o desengripante é uma ação completa e seus efeitos duram 1 dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-desescamidificador",
+   "nome": "Desescamidificador",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um creme para medusas, trogs, kallyanach e outros seres escamosos (a critério do mestre). Fornece +2 em Diplomacia, +5 em Enganação para se disfarçar de outra raça e –2 em Defesa. Usar o desescamidificador é uma ação completa e seus efeitos duram 1 dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-elixir-quimerico",
+   "nome": "Elixir quimérico",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 120,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Beber este elixir é uma ação padrão; até o fim da cena, você ganha uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possui uma mordida, seu dano aumenta em um passo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-eter-elemental",
+   "nome": "Éter elemental",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Extraído de elementais, este líquido viscoso tem cor e textura relacionados ao elemento de origem. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 10 munições; aplicá-lo é uma ação padrão e faz a arma (ou munições) causar +1d4 pontos de dano do mesmo tipo elemental até o fim da cena. Múltiplas doses não são cumulativas.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-figado-de-lagarto-trovao",
+   "nome": "Fígado de Lagarto-trovão",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um símbolo de coragem e poder, o fígado do lagarto-trovão conserva uma fração da força da criatura. Obter isso exige que o fígado seja abençoado por um druida ou clérigo de Allihanna ou Megalokk em um ritual de 1 hora que consome T$ 3.000 em materiais. Após isso, se ingerido pelo personagem que derrotou o lagarto, o fígado fornece +1 em Força. Um personagem só pode aumentar sua Força desta forma uma vez.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-isca-putrefata",
+   "nome": "Isca putrefata",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Frasco de restos mortais diluídos em uma solução macabra. Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Ref CD Des evita) e dura 1d6 rodadas. Durante este tempo, cada morto-vivo não inteligente a até 9m é atraído (Von CD Des evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança fica fascinado ou, se estiver presa em uma criatura, a ataca.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-lagrima-petrea",
+   "nome": "Lágrima pétrea",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este líquido cristalino tem o poder de devolver criaturas à sua forma original. Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todas as condições de metamorfose (Ref CD Des evita).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-lubrificante-de-ouvido",
+   "nome": "Lubrificante de Ouvido",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Com uma gota disto no ouvido, você escutará como nunca! Usar o lubrificante é uma ação completa e fornece +2 em Iniciativa e Percepção e vulnerabilidade a impacto (por conta de sua sensibilidade auricular) por 1 dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-oleo-de-baleia",
+   "nome": "Óleo de baleia",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este antigo preparado é um destilado de gordura de baleia. Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-oleo-de-besouro",
+   "nome": "Óleo de besouro",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "O líquido do terrível besouro do óleo pode ser usado em lampiões (dobro da duração e área de iluminação) e explosivos. Para usar um frasco você precisa empunhá-lo, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-lo em alcance curto. Criaturas a até 3m do ponto atingido sofrem 4d6 pontos de dano de fogo e ficam em chamas (Ref CD Des reduz o dano à metade e evita a condição em chamas).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-panaceia-para-todos-os-males",
+   "nome": "Panaceia para Todos os Males",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um jarro com líquido adocicado. Uma pessoa que beba a panaceia (ação padrão) deve fazer um teste de Intuição (CD 20). Se falhar, cura-se de condições prejudiciais que a estejam afetando, como o efeito da magia Purificação aprimorada para todas as condições listadas. Se passar, percebe que os únicos ingredientes especiais do líquido eram açúcar e corante não recebendo nenhum benefício.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-perfume-purpurea",
+   "nome": "Perfume purpúrea",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este vidrinho possui um líquido cheiroso que pode ser aplicado em qualquer criatura adjacente com uma ação padrão. Fornece +2 em perícias baseadas em Carisma e –5 em Furtividade até o fim da cena. Contra criaturas com Faro, Sentidos Aguçados ou habilidades similares (a critério do mestre), os modificadores mudam para +5 e –10.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-po-azul",
+   "nome": "Pó azul",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 250,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente. Inalar o pó é uma ação completa e recupera 2d4 PM.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-pocao-da-coragem",
+   "nome": "Poção da Coragem",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "O rótulo diz: “Esta poderosa poção deve ser ingerida após se ouvir um discurso encorajador”. Se você beber a poção até uma rodada após outra pessoa ter feito um discurso (ação completa e teste de Atuação ou Diplomacia, CD 20), o efeito placebo fornece +1 em testes de perícia e +5 em testes de resistência contra medo até o fim da cena. Se você a beber em qualquer outra situação, nada acontece — afinal, a “poderosa poção” é apenas água.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-primer-defesa-blindada",
+   "nome": "Primer Defesa Blindada",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 90,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este frasco decorado com um escudo contém um preparado que aumenta a dureza da pele. Aplicá-lo é uma ação completa e fornece RD 5 e penalidade de armadura –2 por 1 dia. Entretanto, sempre que você sofrer dano, a RD fornecida pelo preparado diminui em –1.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-semente-rubra",
+   "nome": "Semente Rubra",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 3600,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Encontrada apenas em áreas de Tormenta, esta baga de odor ocre é na verdade um alimento mágico. Consumir uma semente carmesim cura 10d8+10 PV e remove as condições enjoado, envenenado, exausto, fatigado e fraco. No entanto, também causa um choque temporário no organismo, deixando o personagem debilitado até o fim de seu próximo turno. Estas sementes raramente são encontradas à venda.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-corrosivo-mineral",
+   "nome": "Corrosivo mineral",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Pasta mineral cáustica produzida com ingredientes naturais. Aumenta os dados de dano de magias de ácido em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-gelo-extremo",
+   "nome": "Gelo extremo",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Cristais minerais que eliminam todo o calor ao redor. Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-pedaco-de-lingua",
+   "nome": "Pedaço de língua",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Glândulas que podem ser usadas como catalisador que fornece +1 na CD dos testes de Fortitude para resistir a suas magias.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-raio-cristalizado",
+   "nome": "Raio cristalizado",
+   "categoria": "consumivel",
+   "subtipo": "catalisador alquimico",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "catalisador alquimico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Eletricidade gerada por elementais e outros seres mágicos pode ser solidificada na forma de pequenos cristais. Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-delirio-verde",
+   "nome": "Delírio Verde",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Derivado do achbuld, o Delírio Verde é um veneno caro, raro e perigoso, com efeitos curiosos e devastadores. Em um primeiro momento, a vítima fica eufórica e fascinada por qualquer pessoa com quem esteja convivendo. Depois, sua mente fica turva e ela obedece a qualquer comando simples dado por essa pessoa. Por último, a vítima se sente doente e pode morrer se o antídoto não for administrado em no máximo um dia depois da dose inicial do veneno. A ironia? O antídoto é o próprio delírio verde!",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-esporos-de-cogumelo",
+   "nome": "Esporos de cogumelo",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 75,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Extraído de certos cogumelos e criaturas aparentadas, causa breve mas perigosa paralisia. Inalação, vítima fica paralisada (lenta) por uma rodada.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-peconha-ancia",
+   "nome": "Peçonha anciã",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 2700,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes. Contato, perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos (perde 3d12 PV).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-peconha-irritante",
+   "nome": "Peçonha irritante",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este veneno leve, produzido por diversas criaturas, tem efeito brando mas que não pode ser resistido. Contato, perde 1d6 PV.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-veneno-batraquio",
+   "nome": "Veneno batráquio",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Produzida a partir da saliva de sapos gigantes, essa gosma machuca e paralisa. Contato, perde 1d12 PV e fica paralisado por uma rodada (perde 1d6 PV).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-bulette",
+   "nome": "Bulette",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm — em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-capivara",
+   "nome": "Capivara",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Simpática, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-corcel-do-deserto",
+   "nome": "Corcel do deserto",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 150,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição. Pode ser usado como um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-dromedario",
+   "nome": "Dromedário",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 75,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Disponível em regiões áridas ou montanhosas, pode ser um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-elefante",
+   "nome": "Elefante",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 1500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração. Pode ser usado como um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-hiena",
+   "nome": "Hiena",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 220,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos. Uma hiena pode ser usada como um parceiro especial por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-leao",
+   "nome": "Leão",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 800,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-rinoceronte",
+   "nome": "Rinoceronte",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 600,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-urso-pardo",
+   "nome": "Urso pardo",
+   "categoria": "animal",
+   "subtipo": "animal",
+   "peso": 0,
+   "preco": {
+    "valor": 300,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "animal",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este robusto predador pode ser encontrado em várias regiões de Arton. Ainda que incomum, pode ser empregado como um parceiro montaria.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "animal"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-corda-de-teia",
+   "nome": "Corda de teia",
+   "categoria": "item geral",
+   "subtipo": "equipamento de aventura",
+   "peso": 0,
+   "preco": {
+    "valor": 100,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "equipamento de aventura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Feita com teia de aranha gigante, é mais resistente que uma corda normal. Fornece +5 em testes de Destreza para atar nós e testes de Atletismo para escalar. Arrebentar a corda exige 5 pontos de dano de corte ou um teste de Força (CD 28).",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-dente-de-wisphago",
+   "nome": "Dente de wisphago",
+   "categoria": "item geral",
+   "subtipo": "equipamento de aventura",
+   "peso": 0,
+   "preco": {
+    "valor": 100,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "equipamento de aventura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um dente de wisphago pode ser vestido como um amuleto. Quando faz um teste de resistência contra uma magia arcana, você pode gastar o amuleto para rolar novamente esse teste. Uma vez ativado, o amuleto se desfaz. Um dente de wisphago não pode ser fabricado.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-gema-de-forca",
+   "nome": "Gema de Força",
+   "categoria": "item geral",
+   "subtipo": "equipamento de aventura",
+   "peso": 0,
+   "preco": {
+    "valor": 100,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "equipamento de aventura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Parte dos complexos de certos engenhos da Supremacia, esta gema tem 1d4 cargas. Empunhando a gema, você pode gastar uma ação padrão e uma carga para produzir um domo semelhante ao efeito básico da magia Campo de Força. Alternativamente, quando lança essa magia, você pode usar uma carga para reduzir seu custo em –2 PM. Encontrada nos destroços de corcéis e carruagens de comando, essa gema não pode ser fabricada.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-ankh-solar",
+   "nome": "Ankh solar",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 450,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este item raro é encontrado em corpos embalsamados no Deserto da Perdição. Pode ser empunhado como arma leve simples de corpo a corpo (dano 1d6, crítico 19, corte). Suas magias que tenham testes de resistência recebem o seguinte aprimoramento:",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-tomo-de-guerra",
+   "nome": "Tomo de guerra",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 300,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos. Tomo do Rancor. Suas magias recebem o seguinte aprimoramento:",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-tomo-do-rancor",
+   "nome": "Tomo do rancor",
+   "categoria": "esoterico",
+   "subtipo": "esoterico",
+   "peso": 0,
+   "preco": {
+    "valor": 750,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "esoterico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Suas magias recebem o seguinte aprimoramento: +2 PM: além do normal, a magia causa 2d8+2 pontos de dano de corte. Este dano é parte do efeito da magia, sendo afetado normalmente por testes de resistência dos alvos.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "esoterico"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-garra-feroz",
+   "nome": "Garra feroz",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Manopla feita com pinças de insetos gigantes, presas com tiras de couro. Funciona como uma manopla, mas seus benefícios também se aplicam a armas naturais de seres sob efeito de habilidades como Forma Selvagem.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-manto-do-mantor",
+   "nome": "Manto do mantor",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 450,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este manto, feito a partir de couro de um mantor, oferece parte de sua furtividade. Na escuridão completa fornece camuflagem total, mesmo contra criaturas com visão no escuro.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-traje-selako",
+   "nome": "Traje selako",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 90,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Feito com couro de selako, fornece parte das capacidades destes predadores. Você recebe +2 em testes de Atletismo para nadar e +1,5m em seu deslocamento quando nada.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-varinha-conspurcada",
+   "nome": "Varinha Conspurcada",
+   "categoria": "acessorio",
+   "subtipo": "mágico média",
+   "peso": 0,
+   "preco": {
+    "valor": 21000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico media",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "É uma varinha de osso completamente enegrecida e adornada com penduricalhos feitos de insetos secos. Ela conta como uma costela de lich. Além dos benefícios usuais de uma costela de lich, esta varinha também possui as seguintes características: O custo das magias de encantamento e necromancia lançadas pela varinha diminui em -1 PM. A CD para resistir a essas magias aumenta em +2.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-fragmento-de-filacterio",
+   "nome": "Fragmento de Filactério",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 90000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "É uma parte do poder mágico de um lich que pode sobreviver após a destruição de seu filactério. Este fragmento concede +20 PM quando utilizado (após um dia de uso). Um fragmento de filactério só pode ser obtido de um filactério já destruído e não pode ser fabricado.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-grilhao-de-descrenca",
+   "nome": "Grilhão de Descrença",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 24000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico especifico",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Essa armadura completa reforçada e selada contém uma forte maldição divina: uma vez vestida, não pode ser retirada. Além disso, qualquer criatura que chegue a 0 PV enquanto estiver usando essa armadura não pode ser ressuscitada e se torna um guerreiro perpétuo. Se a maldição for de alguma forma removida, a armadura se transforma em uma armadura completa reforçada e selada com um encanto aleatório. Essa armadura não pode ser fabricada e é encontrada apenas em guerreiros perpétuos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-pistola-demoniaca",
+   "nome": "Pistola Demoníaca",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 72250,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "É uma arma ameaçadora, formidável e profana que não pode ser fabricada por meios conhecidos por mortais. Ela só pode ser obtida através de um pacto com um demônio da pólvora. Esta pistola está sempre carregada e não requer munição. No entanto, ela possui uma maldição peculiar: Uma vez por dia, em um momento escolhido pelo mestre (ou na primeira ocasião em que houver outras pessoas próximas), o portador da arma é atingido pelo impulso homicida de disparar contra uma criatura inteligente aleatória à vista, inclusive aliados. O portador pode resistir a esse impulso por este dia passando em um teste de Vontade (CD 25). Medidas para evitar acidentes, como manter a pistola guardada, descarregada ou trancada, falham automaticamente. Quando o portador cede ao impulso assassino, a arma surge magicamente em suas mãos. Se o portador da pistola for morto, a arma desaparece.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-uyzrrak-daukthra",
+   "nome": "Uyzrrak Da’ukthra",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 78050,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esse machado de guerra magnífico aumentado atroz de adamante é marcado com escrita goblinoide em sua lâmina e aparenta já ter visto inúmeras batalhas . Quando empunhado por um duyshidakk, ele causa +2d8 pontos de dano adicionais contra qualquer criatura que não seja um duyshidakk. Além disso, o machado recebe um encanto adicional baseado no elemento do círculo intermediário do Akzath mais próximo do portador:",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-chifre-de-unicornio",
+   "nome": "Chifre de Unicórnio",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 120000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Pode ser empunhado como uma espada curta formidável. Permite lançar as magias \"Curar Ferimentos\" e \"Purificação.\" Se você já conhecer essas magias, o custo em PM para lançá-las diminui em -1 PM. Pode ser usado para lançar a magia \"Segunda Chance,\" mas perde todos os poderes mágicos após isso. Mesmo após perder seus poderes, o chifre pode ser transformado em 12 doses de pó de chifre, um ingrediente poderoso para preparados e poções. Adicionar uma dose desse pó a um preparado ou poção aumenta cada dado de cura do efeito em dois passos (até um máximo de d12). Este item é raro e não pode ser fabricado.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-casco-monstruoso",
+   "nome": "Casco Monstruoso",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Os cascos protetores de certos monstros podem substituir aço e outros materiais rígidos, embora sejam mais frágeis; um item de casco não mágico sofre 1 ponto de dano adicional por dado de dano de impacto. Por sua origem natural, podem ser usados por devotos de Allihanna sem contrariar suas obrigações e restrições. * Arma. Conta como uma arma primitiva para a magia Armamento da Natureza e efeitos semelhantes. * Armadura e Escudo. Penalidade de armadura diminuída em 1. Armaduras pesadas de casco permitem aplicar um ponto de Destreza na Defesa. * Esotérico. Quando lança uma magia, você recebe redução de dano 5 contra o próximo dano que sofrer até sua próxima rodada.",
+   "properties": "Preço adicional: Arma + 750 / Armadura Leve + 750 / Armadura Pesada + 6000 / Escudo + 750 / Esotéricos + 1500 / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-couraca-de-kaiju",
+   "nome": "Couraça de Kaiju",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Ainda mais raro que couro dracônico, este material pode ser empregado para fabricar itens superiores de grande poder. Jamais encontrado à venda, sendo obtido apenas a partir de um kaiju abatido. * Arma (exige uma peça). O dano aumenta um passo. Além disso, quando acerta um ataque com a arma, você pode gastar 2 PM para ignorar efeitos que reduzem o dano desse ataque (como as habilidades Durão e Escamas Supremas). * Armadura. Armadura leve e escudo (exigem uma peça): RD 10/mágico. Armadura pesada (exige três peças): RD 20/mágico. * Esotérico (exige uma peça). Quando lança uma magia que causa dano, você pode gastar 1 PM para ignorar efeitos dos alvos que reduzem o dano dessa magia, como Durão ou Evasão (exceto a redução de dano por passar no teste de resistência da magia).",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-couro-de-bulette",
+   "nome": "Couro de Bulette",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Este couro raramente é encontrado à venda; quando não é curtido e tratado logo após a extração, perde suas qualidades especiais. * Armadura. Armadura leve (exige uma peça): fornece deslocamento de escavar 3m e redução de ácido 5. Armadura pesada (exige três peças): fornece deslocamento de escavar 3m e redução de ácido 10. * Esotérico (exige uma peça). Suas magias de ácido causam +1 ponto de dano. Inclui o dano adicional em rodadas subsequentes, como o de Flecha Ácida.",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-cristal-de-sol",
+   "nome": "Cristal de Sol",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Utilizados pelos ursos das neves para armazenar calor, estes cristais perdem suas propriedades quando não utilizados em algumas semanas, tornando difícil encontrá-los à venda. * Arma (exige uma peça). Só pode ser aplicado a armas de corte ou perfuração. A arma causa +2 pontos de dano por fogo. * Armadura (exige uma peça). Quando faz um teste de resistência contra um efeito de frio, você pode rolar dois dados e usar o melhor resultado. * Esotérico (exige uma peça). Quando lança uma magia de fogo, você pode gastar 1 PM. Se fizer isso, criaturas que falham em seu teste de resistência contra a magia ficam em chamas (cumulativo com condições causadas pela magia).",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-pena-de-kraken",
+   "nome": "Pena de Kraken",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esse material vítreo extraído da concha interna de um kraken é extremamente afiado. Em seu estado bruto, é quebradiço e difícil de transportar sem equipamento adequado, sendo assim raramente encontrado à venda. * Armas (exige uma peça). Quando faz um acerto crítico, o dano aumenta dois passos (antes de ser multiplicado). * Armadura. Armadura leve e escudo (exigem uma peça): quando uma criatura erra um ataque corpo a corpo contra você, ela sofre 5 pontos de dano de corte. Armadura pesada (exige três peças): quando uma criatura erra um ataque corpo a corpo contra você, ela sofre 10 pontos de dano de corte. * Esotérico (exige uma peça). Os bônus numéricos fornecidos pelo efeito básico do item aumentam em +1.",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-quitina-razza",
+   "nome": "Quitina Razza",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Cobiçada por caçadores de monstros, que a consideram um grande troféu, esta quitina raramente é encontrada à venda; a única forma de obter esse material é abater um razza’kham. * Arma (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da arma, role um dado adicional, repetindo o processo a cada resultado máximo. * Armadura e Escudo. Armadura leve e escudo (exigem uma peça): concede +2 em Percepção e seu bônus na Defesa aumenta em 1. Armadura pesada (exigem três peças): concede +5 em Percepção e seu bônus na Defesa aumenta em 2. * Esotérico (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da magia (sem contar aprimoramentos), role um dado adicional, repetindo o processo a cada resultado máximo.",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-espada-vespa",
+   "nome": "Espada Vespa",
+   "categoria": "arma",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta arma estranha é feita com três ferrões de vespas gigantes, presos a uma estrutura de ossos em forma de “H”. Pode-se pressionar a empunhadura para unir os ferrões, como uma arma de corte; ou separá-los, para dano de perfuração.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-acoite-finntroll",
+   "nome": "Açoite Finntroll",
+   "categoria": "arma",
+   "subtipo": "arma",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Feito com tiras de couro guarnecidas com farpas de aço nas pontas, é uma arma e também instrumento de tortura. Uma criatura atingida pelo açoite sofre –2 em testes e jogadas de dano por uma rodada (metabolismo).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-arcabuz",
+   "nome": "Arcabuz",
+   "categoria": "arma",
+   "subtipo": "arma de fogo",
+   "peso": 0,
+   "preco": {
+    "valor": 800,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "arma de fogo",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Versão mais pesada do tradicional mosquete, capaz de disparos ainda mais potentes. Entretanto, por seu peso e recuo, é uma arma desbalanceada. Recarregar um arcabuz é uma ação padrão.",
+   "properties": "Dano 2d10, crítico 19/x3, alcance Médio, P; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Arcabuz",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "2d10",
+    "type": "P",
+    "threat": 19,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "Médio",
+    "hands": "2",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-arpao",
+   "nome": "Arpão",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Originalmente um instrumento de pesca, esta haste afiada tem rebarbas em uma extremidade e uma corda na outra. Com um ataque bem-sucedido, o arpão fica preso na vítima. Enquanto você segura a corda, sempre que a vítima se move, você pode fazer um teste de Força oposto como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (9m). A vítima pode se soltar gastando uma ação de movimento, mas perde 1d10 pontos de vida. O arpão é uma arma de arremesso; pode ser usado como arma corpo a corpo, mas com penalidade de –5 no teste de ataque. Esta é uma arma para devotos de Oceano, e se beneficia de poderes concedidos que afetam essas armas (como Arsenal das Profundezas).",
+   "properties": "Dano 1d10, crítico x3, alcance Curto, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Arpão",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "1d10",
+    "type": "P",
+    "threat": 20,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "Curto",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-gladio",
+   "nome": "Gládio",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Espada de lâmina curta, mas pesada, e sem guarda. A ponta é muito afiada, capaz de infligir ferimentos precisos e letais. É uma das armas padrão dos legionários do Império de Tauron.",
+   "properties": "Dano 1d6, crítico 19/x3, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Gládio",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d6",
+    "type": "P",
+    "threat": 19,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-lanca-de-fogo",
+   "nome": "Lança de Fogo",
+   "categoria": "arma",
+   "subtipo": "arma de fogo",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "arma de fogo",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta arma é formada por um longo cano com uma coronha de madeira e uma lâmina pontiaguda em sua extremidade. A lança de fogo é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo alongada (dano 1d10, crítico x3) ou como uma arma de fogo (dano 2d8, crítico 19/x3, alcance médio). Quando faz um ataque com a lança de fogo em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d8 pontos de dano. Quando faz um ataque com ela em modo arma de fogo contra um oponente adjacente, você causa +1d8 pontos de dano. Para atacar com ela como arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente na arma. Recarregar a lança de fogo é uma ação padrão.",
+   "properties": "Dano 2d8, crítico 19/x3, alcance Médio, P; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Lança de Fogo",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "2d8",
+    "type": "P",
+    "threat": 19,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "Médio",
+    "hands": "2",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-mordida-do-diabo",
+   "nome": "Mordida do Diabo",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 30,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta arma é formada por um aparato em forma de mandíbula preso a uma empunhadura. A mandíbula pode ser usada para agarrar e, graças a uma longa corrente, pode se destacar do cabo e alcançar alvos a até 3m. Por exigir movimentos precisos e coordenados, é uma arma exótica. A mordida pode ser feita de metal, mas ossos e dentes de feras aquáticas também são usados. É uma arma ágil e versátil, fornecendo +2 em testes para agarrar e desarmar.",
+   "properties": "Dano 1d4, crítico x2, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Mordida do Diabo",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d4",
+    "type": "P",
+    "threat": 20,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-neko-te",
+   "nome": "Neko-te",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Uma luva com garras metálicas na palma e dorso. Fornece +2 em testes de Atletismo para escalar e conta como uma mão livre para isso. Além disso, se estiver usando duas neko-te, seu deslocamento ao escalar aumenta em +1,5m.",
+   "properties": "Dano 1d4, crítico 19, alcance -, C; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Neko-te",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d4",
+    "type": "C",
+    "threat": 19,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-pistola-punhal",
+   "nome": "Pistola-Punhal",
+   "categoria": "arma",
+   "subtipo": "arma de fogo",
+   "peso": 0,
+   "preco": {
+    "valor": 300,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "arma de fogo",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta arma é formada por uma lâmina pontiaguda com um mecanismo acoplado que armazena uma bala. A pistola-punhal é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo ágil (dano 1d6, crítico 18) ou como uma arma de fogo (dano 2d6, crítico 19/x3, alcance curto). Quando faz um ataque com a pistola-punhal em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano. Para atacar com ela em modo arma de fogo, você deve também ter proficiência em armas de fogo, ou sofre a penalidade de –5 nos testes de ataque. Recarregar a pistola-punhal é uma ação padrão.",
+   "properties": "Dano 2d6, crítico 19/x3, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Pistola-Punhal",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "2d6",
+    "type": "P",
+    "threat": 19,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-porrete",
+   "nome": "Porrete",
+   "categoria": "arma",
+   "subtipo": "simples",
+   "peso": 0,
+   "preco": {
+    "valor": 2,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "simples",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Um pedaço sólido de madeira, coberto por uma camada grossa de lã. Um porrete é uma arma ágil que causa dano não letal.",
+   "properties": "Dano 1d6, crítico x2, alcance -, I; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Porrete",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d6",
+    "type": "I",
+    "threat": 20,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-presa-de-serpente",
+   "nome": "Presa de Serpente",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 1000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Espada feita de obsidiana, tipo de vidro vulcânico negro formado quando a lava esfria rapidamente. Por ser encontrado perto de vulcões, as voracis acreditam que esse material é uma dádiva da Divina Serpente. Mais afiada que o aço, seu gume causa ferimentos terríveis; em um acerto crítico, o dano aumenta em um passo (antes de ser multiplicado). Uma presa de serpente não pode receber a melhoria material especial, e exige treinamento especial para ser empunhada sem quebrar, por isso é uma arma exótica. É uma arma ágil.",
+   "properties": "Dano 1d8, crítico 17, alcance -, C; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Presa de Serpente",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d8",
+    "type": "C",
+    "threat": 17,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-tetsubo",
+   "nome": "Tetsubo",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 20,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Também conhecido como kanabo, é uma versão mais sofisticada do tacape, geralmente reforçado com anéis metálicos, rebites e/ou cravos. O tetsubo é uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar .",
+   "properties": "Dano 1d10, crítico x2, alcance -, I; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Tetsubo",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d10",
+    "type": "I",
+    "threat": 20,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "2",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-traque",
+   "nome": "Traque",
+   "categoria": "arma",
+   "subtipo": "arma de fogo",
+   "peso": 0,
+   "preco": {
+    "valor": 75,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "arma de fogo",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Esta arma de fogo leve, feita com sucata e materiais de segunda mão, é suscetível a falhar nos piores momentos. Se errar um ataque com um resultado ímpar no d20, ela se torna destruída. Recarregar um traque é uma ação padrão.",
+   "properties": "Dano 2d6, crítico 19/x3, alcance Curto, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Traque",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "2d6",
+    "type": "P",
+    "threat": 19,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "Curto",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-zarabatana",
+   "nome": "Zarabatana",
+   "categoria": "arma",
+   "subtipo": "simples",
+   "peso": 0,
+   "preco": {
+    "valor": 5,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "simples",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Pequeno tubo oco usado para disparar dardos pontiagudos. Seu dano é mínimo, mas são excelentes para inocular venenos; CD para resistir a um veneno aplicado via zarabatana aumenta em +2. Um pacote de munição contém 10 dardos, custa T$ 1 e ocupa 0,5 espaço.",
+   "properties": "Dano 1d3, crítico x2, alcance -, I; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Zarabatana",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d3",
+    "type": "I",
+    "threat": 20,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-armadura-de-ossos",
+   "nome": "Armadura de Ossos",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 120,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Os nezumi e outros povos são conhecidos por produzir estas armaduras sinistras. Combinando um aspecto assustador e energias negativas das ossadas, essa armadura fornece +1 em Intimidação e CD de seus efeitos de medo.",
+   "properties": "Defesa +3; penalidade -2; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true,
+   "armor": {
+    "defenseBonus": 3,
+    "armorPenalty": -2,
+    "type": "leve"
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-armadura-de-quitina",
+   "nome": "Armadura de Quitina",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Feita com carapaças selecionadas de grandes insetos, esta armadura dos povos-trovão é mais leve que suas contrapartes metálicas. Embora seja uma armadura pesada, não reduz o deslocamento do usuário.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-ameacas-de-arton-veste-de-teia-de-aranha",
+   "nome": "Veste de Teia de Aranha",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 3000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Feita com teia de aranha gigante, esta veste é cinza-escura, maleável e silenciosa, mas também forte como aço. Fornece +5 em Furtividade, mas não pode receber a melhoria material especial.",
+   "properties": "Defesa +4; penalidade 0; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true,
+   "armor": {
+    "defenseBonus": 4,
+    "armorPenalty": 0,
+    "type": "leve"
+   }
+  },
+  {
+   "id": "t20-ameacas-de-arton-escudo-de-couro",
+   "nome": "Escudo de Couro",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 3,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Ameaças de Arton",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "ameacas de arton"
+   ],
+   "descricao": "Por sua extrema leveza, este grande escudo é popular entre os velocis e outros povos da Grande Savana. Feito com uma borda de madeira esticando uma membrana de couro (ou outro material flexível). Contra ataques à distância, o bônus na Defesa do escudo leve aumenta em +2. Entretanto, ele é muito leve para ser usado como arma.",
+   "properties": "Defesa +1; penalidade -1; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true,
+   "armor": {
+    "defenseBonus": 1,
+    "armorPenalty": -1,
+    "type": "leve"
+   }
+  }
+ ]
+}

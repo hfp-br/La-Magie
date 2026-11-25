@@ -1,0 +1,45 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "t20-atlas-fardo-de-madeira-tollon",
+   "nome": "Fardo de madeira Tollon",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 1500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Atlas de Arton",
+   "pagina": 278,
+   "tags": [
+    "material",
+    "material especial",
+    "madeira tollon",
+    "tollon",
+    "tormenta20",
+    "atlas de arton"
+   ],
+   "descricao": "Madeira escura e resistente da árvore tollon. Metal comum não fere a árvore: só mitral, adamante ou itens encantados. Extrair exige um teste estendido de Ofício (artesão) ou Sobrevivência (CD 30, 5 sucessos); numa falha total, o instrumento de extração é danificado. Com sucesso, obtém-se um fardo, suficiente para fabricar uma arma, escudo ou item esotérico: o custo do material especial para fabricar o item cai a zero (o custo da melhoria ainda precisa ser pago). O tempo do teste estendido fica a critério do mestre (normalmente uma semana).",
+   "properties": "Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:19.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2507 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "t20-jornada-heroica-coxa-de-trobo-assada",
+   "nome": "Coxa de Trobo Assada",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Cura 1d6 PM e 1d6 PV.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-ensopado-de-coelho-e-caneca-de-cerveja",
+   "nome": "Ensopado de Coelho e Caneca de Cerveja",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 1,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "+1 em um teste à escolha do jogador, até o fim da aventura.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-ensopado-de-rabo-de-lagarto-e-olho-de-sapo",
+   "nome": "Ensopado de Rabo de Lagarto e Olho de Sapo",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "este cozido tenebroso é o típico conteúdo fumegante do caldeirão de uma bruxa. Não é apetitoso, mas coloca o comensal em contato com seu lado místico. Aumenta em +1 a CD de suas magias arcanas. A critério do mestre, pode conceder bônus em testes de Misticismo e outras perícias ligadas a magia ou em usos referentes a assuntos sobrenaturais. Benefício: +1 na CD de suas magias arcanas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-misturadinho-dos-deuses",
+   "nome": "Misturadinho dos Deuses",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Prato exclusivo feito com insumos fornecidos pelos heróis. Cada porção pode ter até três acompanhamentos diferentes, exigindo um ingrediente ou um mantimento por acompanhamento. Os efeitos dos acompanhamentos são cumulativos e contam como um único bônus de alimentação.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-sopa-leblanc",
+   "nome": "Sopa LeBlanc",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma antiga receita de família, a sopa LeBlanc é um prato especial desenvolvido há séculos pelos LeBlanc. Reza a tradição que a sopa só pode ser feita com a água que vem do poço dos LeBlanc. Revigorante, espessa e com ingredientes variados até demais, a sopa LeBlanc concede +1 em um atributo qualquer por um dia. Contudo, nos últimos anos a água do poço dos LeBlanc se tornou contaminada pela Tormenta. Qualquer um que tome a sopa tem horríveis pesadelos com a Tempestade Rubra e sofre –2 para resistir a quaisquer efeitos da Tormenta. Tomar a sopa 10 vezes elimina os pesadelos e dá um poder da Tormenta (que conta para a penalidade em Carisma, como normal) permanente.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-sopa-sombria",
+   "nome": "Sopa Sombria",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Em Sombria, o mundo de Tenebra, caso alguém se pergunte como plantas crescem, pode fazer um teste de Investigação ou Sobrevivência (CD 20). Se passar nota que estas não são plantas, mas cogumelos. São comestíveis, mas exigem um preparo especial. É possível cozinhá-los com um teste de Ofício (cozinheiro), contra CD 25. Em caso de falha, os cogumelos causam a perda de 4d12 pontos de vida por veneno. Como alternativa, também com um teste de Ofício (cozinheiro) contra CD 25, é possível prepará-los em uma sopa sombria que causa 4d6 pontos de dano de trevas e pode ser consumida por mortos-vivos. Benefício: 4d12 de dano por veneno ou 4d6 de dano de trevas (pode ser consumida por mortos-vivos).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cerveja-barbas-de-heredrimm",
+   "nome": "Cerveja Barbas de Heredrimm",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 45,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cerveja-beluhga-no-caneco",
+   "nome": "Cerveja Beluhga no Caneco",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 36,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta bebida opaca e esbranquiçada produz uma espuma azul e carrega um leve sabor mentolado. Fornece redução de fogo 5. Benefício: RD 5 Fogo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cerveja-do-escavador",
+   "nome": "Cerveja do Escavador",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 60,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Apesar do nome simples, esta é uma bebida muito prestigiosa em Doherimm, e raramente é encontrada na superfície. Fornece +1 em Força, mas reduz o deslocamento em –3m. Benefício: For +1, deslocamento -3m.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cerveja-rangedente",
+   "nome": "Cerveja Rangedente",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 20,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Viscosa e de textura gosmenta, esta cerveja prepara as tripas para sofrimentos ainda maiores. Fornece +2 em Fortitude.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cerveja-agua-de-sangue",
+   "nome": "Cerveja Água-de-Sangue",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 20,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "De sabor amargo e aparência avermelhada, esta cerveja aumenta a concentração e determinação. Fornece +2 em Vontade.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-destilado-limpa-ventas",
+   "nome": "Destilado Limpa-Ventas",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 36,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma bebida amarela e opaca, com um inesperado sabor picante. Fornece redução de frio 5. Benefício: RD 5 Frio.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-destilado-tuku-tu",
+   "nome": "Destilado Tuku'tu",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 20,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Benefício: +2 em Reflexo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-licor-bafo-de-elfa",
+   "nome": "Licor Bafo de Elfa",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 20,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Leve, suave e adocicado, este licor parece nem ser alcoólico, até que algumas doses “inofensivas” sejam consumidas. Fornece +2 em Misticismo.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-licor-de-tinta-de-kraken-com-algas",
+   "nome": "Licor de Tinta de Kraken com Algas",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um teste de Misticismo ou Ofício (alquimia) contra CD 20 indica que a bebida possui propriedades mágicas, mas não qual é o efeito dela. Um personagem que beba o licor deve rolar 1d6:",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-rubromel",
+   "nome": "Rubromel",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O vinho é paradoxalmente doce e seco, agradando todos os paladares, além de ser vendido a um preço bastante justo, dada a sua procura. Produtores maiores já quiseram comprar a receita, mas Rubão, o criador, é categórico. “Se eu vender a receita, vai deixar de ser especial, melhor ficar assim mesmo.” Há um boato de que o lefou usaria magia da Tormenta na fabricação da bebida, bobagem já desmentida inúmeras vezes por ele. “Eu nem sei usar magia!”. O vinho funciona como um prato do aventureiro, e apenas para lefous, tem os efeitos cumulativos de prato do aventureiro e sopa de peixe. Benefício: +1 na recuperação de PV e PM para Lefous.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-batata-do-castelo",
+   "nome": "Batata do Castelo",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "castelo do sabor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Melora garante que não é a mesma coisa que a batata valkariana - a Batata do Castelo tem muito mais sabor! Você recebe +1d4 num único teste a sua escolha realizado nesse dia. Benefício: +1d4 num único teste. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "properties": "Causa vício (ver descrição)",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cestinha-uivante",
+   "nome": "Cestinha Uivante",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "castelo do sabor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Outra criação do Castelo do Sabor. um creme gelado e muito doce, servido em uma cesta comestível. Não pergunte como o restaurante mantém a substância gelada, você não quer saber. Muitos valkarianos que já provaram a Cestinha Uivante dizem que é a melhor coisa que já experimentaram. Concede 2 PM extras. Benefício: +2 PM temporários. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "properties": "Causa vício (ver descrição)",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-alqui-fruta",
+   "nome": "Alqui-Fruta",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "castelo do sabor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Bebida exclusiva do Castelo do Sabor: um líquido negro e extremamente doce, feito segundo uma receita alquímica secreta. Não se preocupe com os produtos alquímicos, o próprio nome contém a palavra “fruta”, essa bebida deve ser saudável! A Alqui-Fruta deixa qualquer um agitado, concedendo +3m de deslocamento por um dia. Benefício: +3m de movimento. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "properties": "Causa vício (ver descrição)",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-doppelganger",
+   "nome": "Doppelganger",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "castelo do sabor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um sanduiche com dois pedaços de carne de procedência duvidosa (que recebe nome por ser \"duplo\"), além de cebola, algace e o Molho do Castelo. A sensação de estar empanturrado concede RD 1 por dia. Benefício: Redução de dano 1. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "properties": "Causa vício (ver descrição)",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-seiva-rubra",
+   "nome": "Seiva Rubra",
+   "categoria": "consumivel",
+   "subtipo": "alquimico preparado",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alquimico preparado",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um frasco de líquido viscoso e de gosto metálico que contém uma enorme quantidade de mana. Beber o líquido cura 3d8 PM, mas o usuário fica confuso até o fim de seu próximo turno.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-beijo-de-tenebra",
+   "nome": "Beijo-de-Tenebra",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Beijo-de-Tenebra é uma aranha cujo veneno é letal: sempre que a vítima dorme, perde 5d6 pontos de vida durante o sono. É possível curar a vítima com efeitos que curem venenos (como a magia Purificação) ou com um antídoto específico. Localizar os ingredientes para o antídoto é um teste de Sobrevivência (CD 25), enquanto fabricar o antídoto exige um teste de Ofício (alquimista) (CD 25). Ambos os testes gastam um dia.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-lagrimas-do-carrasco",
+   "nome": "Lágrimas do Carrasco",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Este veneno raro foi supostamente criado por sszzaazitas. Como o próprio nome indica, é feito a partir dos olhos da criatura conhecida como Carrasco de Lena e, além de potencializar os ferimentos de qualquer ataque, torna inúteis magias e poções de cura. Por ser difícil de fabricar, só é entregue na mão de arqueiros experientes ou é usado por vilões que foram encurralados. Esta substância não pode ser comprada ou obtida por métodos convencionais e apenas seletos membros das irmandades criminosas sabem o segredo da fabricação de seu antídoto; a única maneira conhecida de removê-lo. Ferimento, perde 2d12 e efeitos de cura causam dano (em vez de curar PV). Um personagem que sobreviva ao ataque inicial deve fazer um teste de Fortitude no início de cada dia seguinte (CD 20 +5 por teste anterior). Se falhar, fica fatigado. Se falhar novamente, fica exausto. Se falhar pela terceira vez, fica inconsciente. A quarta falha é letal. Este veneno, e as condições que ele impõem, só podem ser removidos por seu antídoto ou por magias poderosas (como Desejo).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-furoshiki",
+   "nome": "Furoshiki",
+   "categoria": "item geral",
+   "subtipo": "equipamento de aventura",
+   "peso": 0,
+   "preco": {
+    "valor": 75,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "equipamento de aventura",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma peça de pano quadrada e estampada, típica da cultura tamuraniana. Tem múltiplos usos, podendo ser dobrado como uma bolsa ou amarrado como um lenço. Como bolsa, conta como uma Mochila de Aventureiro. Como lenço, fornece +1 em Atuação, Diplomacia ou Intimidação (conforme sua estampa, definida ao ser fabricado) e ocupa 1 espaço. Em ambos os casos, deve ser vestido.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-sela-aprimorada-especial",
+   "nome": "Sela Aprimorada Especial",
+   "categoria": "item geral",
+   "subtipo": "ferramenta",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "ferramenta",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Além de fornecer +1 em Cavalgar, fornece +1 na Defesa enquanto o personagem estiver montado.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-capa-de-couro-de-dragao-do-esgoto",
+   "nome": "Capa de Couro de Dragão do Esgoto",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 3090,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Ao se cobrir com esta fina capa de couro reptiliano, você fica sob efeito de Invisibilidade. Um personagem invisível recebe camuflagem total, +10 em testes de Furtividade e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques. O efeito termina se você fizer um ataque ou lançar uma magia ofensiva, mas você pode reajustar a capa (uma ação padrão) para que ela volte a funcionar. A invisibilidade apresenta falhas sutis: uma criatura envolvida em combate contra o usuário da capa pode gastar uma ação de movimento para ignorar a invisibilidade até o início de seu próximo turno.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-capa-de-viagem-de-namalkah",
+   "nome": "Capa de viagem de Namalkah",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 75,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Capa mais pesadas e com forro reforçado, +1 em testes de resistência.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-casaco-de-capitao-pirata",
+   "nome": "Casaco de Capitão Pirata",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Este casacão típico de marinheiro é ornamentado com troféus e pequenos tesouros obtidos pelo capitão, marcando algumas de suas maiores conquistas (e atrocidades). Um casacão de capitão pirata não pode ser fabricado ou comprado, e só pode ser obtido de um capitão pirata derrotado. Fornece +2 em Enganação, Intimidação e Pilotagem e 2 espaços que só podem ser usados para itens que ocupem 0,5 espaço cada.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-sombreiro",
+   "nome": "Sombreiro",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone. Fornece resistência a efeitos de sentidos +2.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-caronte",
+   "nome": "Caronte",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 25000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O famoso navio de Draco Mandíbula. Feita de madeira reforçada, é uma embarcação de três mastros, projetada para navegar em alto-mar, embo ra possa fazê-lo por rios largos e fundos. É equipado com dois canhões (veja a seguir). Veículo Enorme, tripu lação mínima/máxima 10/40, deslocamento flutuar 9m (15m em alto mar), Defesa 14, 350 PV, RD 10, preço: T$ 25.000.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-navio-que-nos-compramos-barato",
+   "nome": "Navio Que Nós Compramos Barato",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 1500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta banheira embarcação pequena e velha possui apenas um mastro e alguns remos para fornecer mais velo cidade. Pode navegar por rios e mares, embora não seja recomendável tirá-la do porto… Navegar esta embarcação impõe –2 nos testes de Pilotagem devido a suas péssimas condições. Veículo Grande, tri pulação mínima/máxima 1/10, deslocamento flutuar 9m, Defesa 10, 100 PV, RD 5, preço: T$ 1.500.",
+   "properties": "Tamanho grande",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-prosciutto-del-mare",
+   "nome": "Prosciutto Del Mare",
+   "categoria": "veiculo",
+   "subtipo": "veiculo",
+   "peso": 0,
+   "preco": {
+    "valor": 12000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "veiculo",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O famoso Presunto do Mar foi o primeiro navio comandado por Nargom Mandíbula. É uma embarcação de três velas, típica para viagens, própria tanto para rios quanto para alto-mar. Veículo Enorme, tripulação mínima/máxima 5/30, deslocamento flutuar 12m, Defesa 12, 280 PV, RD 5, preço: T$ 12.000.",
+   "properties": "Tamanho enorme",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "veiculo"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-calices-encantados-de-mulk",
+   "nome": "Cálices Encantados de Mulk",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um par de cálices de vidro de aparência elegante. Os cálices são idênticos para todas as pessoas, exceto seu usuário: quando a palavra de comando é pronunciada, o dono enxerga um dos cálices ficar escuro. O cálice escuro torna venenoso qualquer líquido dentro dele, e quem beber um gole da taça deve passar em um teste de Fortitude CD 26, ou ficará enjoado e sofrerá 2d12 pontos de dano de veneno por rodada por 10 rodadas. Já o outro cálice transforma líquido em antídoto — ideal para chantagens...",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-lampiao-mecanomagico",
+   "nome": "Lampião Mecanomágico",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O lampião não tem limite de usos e afeta qualquer não humano inteligente em alcance longo. As vítimas devem fazer testes de Vontade contra CD 20 (este é um efeito mental). Em caso de falha, o usuário do lampião tem direito a decidir uma ação de movimento da vítima por rodada. A vítima ainda pode realizar sua ação padrão e não pode fazer ações completas. O usuário só pode obrigar a vítima a se mover desta forma — não pode, por exemplo, forçá-la a sacar uma arma. A vítima tem direito a um novo teste por rodada. Contudo, mesmo que passe no teste, não se torna imune ao poder do lampião. Suas peças contam como T$ 300 em matéria-prima para itens gerais e engenhocas.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-pingente-da-sereia-adormecida",
+   "nome": "Pingente da Sereia Adormecida",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma pérola enorme e brilhante, envolta em uma rede de fios de prata. O usuário do pingente se torna imune a sono, e sua recuperação de PV e PM é sempre confortável. Usando uma ação de movimento e 1 PM, o usuário pode remover uma condição de fadiga que esteja afetando qualquer criatura em alcance curto.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-vassoura-do-contra",
+   "nome": "Vassoura do Contra",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um teste de Misticismo (CD 25) revela que este item é mais do que uma vassoura comum — na verdade é uma vassoura voadora! Quem se arriscar a subir nela, contudo, percebe que sempre voa para o lado oposto pretendido pelo usuário. Um teste de Misticismo (CD 25) torna possível controlar a vassoura de forma normal. Mesmo que falhe no teste, o personagem pode tentar enganar a vassoura, se movendo na direção oposta que pretende ir! Isso exige sucesso em um teste de Enganação (CD 25).",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-parvathar-o-pulmao-da-montanha",
+   "nome": "Parvathar, o Pulmão da Montanha",
+   "categoria": "acessorio",
+   "subtipo": "mágico média",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico media",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esse fole de ferreiro é adornado com runas e feito de uma madeira escura. Seu couro lembra o aspecto de escamas, e o bocal de saída tem o desenho de uma cabeça de dragão, que parece “soprar” quando o objeto é manipulado. Dizem que é capaz de aspirar e expirar energias elementais. Essa é a ferramenta necessária para forjar aço-rubi. Criado pelos anões de Doherimm para forjar aço-rubi, o Parvathar utiliza as quatro energias elementais como combustível. Por esse motivo, é capaz de absorver essas energias, gerando os dois efeitos a seguir, mesmo em sua forma enfraquecida.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-manto-do-viajante",
+   "nome": "Manto do Viajante",
+   "categoria": "acessorio",
+   "subtipo": "mágico média",
+   "peso": 0,
+   "preco": {
+    "valor": 25500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico media",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Este manto velho e surrado tem marcas de muitas viagens. Fornece +5 em Sobrevivência e +3m em deslocamento, mas apenas em ambientes ermos (não urbanos). Além disso, você pode lançar a magia Primor Atlético (apenas em você mesmo). 1 espaço.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-cabana-do-mago",
+   "nome": "Cabana do Mago",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O item deixado por Fiz-Grin é uma Cabana do Mago. Ao ser ativada com uma ação padrão, a miniatura cresce até atingir o tamanho de uma pequena cabana. O item reproduz os mesmos efeitos da magia Refúgio, com o aprimoramento para criar uma cabana. Porém, o item foi modificado pela magia de Fiz-Grin. Sempre que um personagem descansar na Cabana do Mago, deve rolar 1d4. Se o resultado for 1, o personagem se torna vítima de uma pegadinha de Fiz-Grin; por um mês, pequenos itens inofensivos, como pedrinhas, flores ou cogumelos, ficam \"surgindo\" entre seu equipamento, efetivamente ocupando 1 espaço de sua capacidade de carga. Um personagem só pode ser vítima de uma dessas pegadinhas por vez.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-alaude-eletrico",
+   "nome": "Alaúde Elétrico",
+   "categoria": "acessorio",
+   "subtipo": "mágico maior",
+   "peso": 0,
+   "preco": {
+    "valor": 27000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico maior",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um instrumento exótico com uma pintura espalhafatosa, o Alaúde Elétrico é cheio de medidores e válvulas, como uma engenhoca goblin. Seu poder se manifesta quando um bardo começa a dedilhar suas cordas - o alaúde elétrico é imbuído com o poder do relâmpago. A cada nota que produz, faíscas e pequenas descargas elétricas correm pelas cordas e surgem de seu braço. Usando esse instrumento , a Inspiração de bardo passa a afetar aliados em alcance médio. Além disso, uma vez por rodada, como uma ação completa, o bardo pode fazer um teste de Atuação (CD 15 + custo em PM da magia) para tentar executar um solo mágico e lançar as magias Luz ou Relâmpago sem custos. O usuário pode escolher usar os aprimoramentos das magias, aumentado a complexidade e a dificuldade do solo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-armadura-do-cavaleiro-morto",
+   "nome": "Armadura do Cavaleiro Morto",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico especifico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma armadura que pertencia a um cavaleiro da Luz morto pelos agentes inquisidores, e foi feita sob medida para seu antigo portador. Adaptá-la a um novo usuário requer um armeiro capaz de trabalhar com itens mágicos — felizmente, um serviço como este pode ser facilmente encontrado em Sophand, por T$ 800. Depois de adaptado ao novo usuário, este item se torna uma armadura completa reforçada selada defensora invulnerável.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-muralha",
+   "nome": "Muralha",
+   "categoria": "armadura",
+   "subtipo": "mágico específico",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "magico",
+    "especifico",
+    "magico especifico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma armadura completa reforçada selada sob medida assustadora fortificada invulnerável, que cobre todo seu corpo, permitindo ver apenas seus olhos brilhando vermelhos dentro do elmo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-adaga-do-ultimo-suspiro",
+   "nome": "Adaga do Último Suspiro",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Uma adaga prateada com uma lágrima vermelha em rubi na base de sua lâmina e uma empunhadura totalmente preta, a Último Suspiro funciona como uma adaga formidável assassina sanguinária.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-manoplas-do-mestre-moldador",
+   "nome": "Manoplas do Mestre Moldador",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esse par de manoplas grossas feitas de couro avermelhado e reforçadas com aço permite que o usuário molde rocha e minérios comuns (mas não material especial) com as mãos. Ativar as manoplas gasta 3 PM e uma ação completa e gera o efeito da magia Transmutar Objetos em versão básica, mas com duração permanente.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-braco-das-uivantes",
+   "nome": "Braço das Uivantes",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O braço direito de um personagem pode ser substituído pela prótese com uma cirurgia: um teste de Cura, ou Ofício (artesão) para um recipiente golem, com CD 30. A prótese concede +2 em For, +5 na Defesa e imunidade a frio. Ataques corpo a corpo do personagem passam a causar +1d6 pontos de dano de frio. Se o ataque for desarmado, este dano sobe para +1d10. Entretanto, após alguns dias, o personagem desenvolve vulnerabilidade a fogo — um efeito irreversível e permanente.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-braco-metalico",
+   "nome": "Braço Metálico",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O braço metálico pode substituir o braço esquerdo de um personagem com uma cirurgia: um teste de Cura, ou Ofício (artesão) para um recipiente golem, contra CD 30. O braço concede ao usuário redução de dano 5, +2 em testes de ataque e rolagens de dano corpo a corpo e aumenta seu dano desarmado em um passo. Devido ao seu peso o braço conta como um item vestido e que ocupa 2 espaços.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-doutrinadora",
+   "nome": "Doutrinadora",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta espada bastarda de adamante pungente maciça formidável de arremesso pode ser usada para fazer ataques à distância em alcance curto, sendo lançada e rodopiando através do ar. Em vez da espada voltar voando, se teletransporta para a mão do portador, independente de qualquer obstáculo, desde que ele pronuncie a ordem de retorno. Para conectar a arma a alguém, fazendo sua habilidade de teletransporte funcionar com o novo portador, é necessário um ritual que exige passar em um teste de Misticismo (CD 30) e uma semana de trabalho.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-odio-e-violencia",
+   "nome": "Ódio e Violência",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "São dois machados de batalha atrozes maciços de adamante profanos sanguinários tumulares.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-metal-arco-iris",
+   "nome": "Metal Arco-Íris",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O metal arco-íris é um material extremamente versátil – mais do que isso, é maleável e mutante, assim como o próprio Tilliam. Pode ser usado de forma mais simples, permitindo que todo o potencial que existe nele funcione “por conta própria”. Nesse caso, uma arma de metal arco-íris causa +1 ponto de dano elemental rolado aleatoriamente a cada ataque, uma armadura ou escudo de metal arco-íris concede resistência 5 a um elemento rolado aleatoriamente a cada cena e um item esotérico de metal arco-íris transforma todas as magias do usuário em magias de um elemento rolado aleatoriamente a cada magia lançada. Contudo, o real poder do metal arco-íris surge quando um artesão que tenha estudado o material trabalha com ele. Nesse caso, todo o potencial intrínseco do metal arco-íris é direcionado pelo artesão. Um item de metal arco-íris pode ter uma melhoria qualquer de qualquer lista, não importa que tipo de item for (exceto outros materiais). Por exemplo, uma armadura de metal arco-íris pode ter a melhoria maciça (concedendo essa melhoria a qualquer arma que o usuário usar) ou uma arma de metal arco-íris pode ter a melhoria reforçada (concedendo o efeito ao usuário, mesmo que não use armadura). Além disso, um item de metal arco-íris pode ser reforjado infinitas vezes. Um personagem treinado em Ofício pode levar o tempo normal de criação de uma melhoria para reforjar o item, mudando a melhoria que ele possui, sem necessidade de testes ou custo em tibares. Um item de metal arco-íris também concede +5 em testes de resistência contra efeitos de lefeu, criaturas corrompidas pela Tormenta ou de áreas de Tormenta.",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-arco-elfico",
+   "nome": "Arco Élfico",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 500,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Um arco élfico possui runas místicas que possibilitam que você sintonize sua mente com cada disparo, permitindo que você aplique sua Inteligência às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 nas rolagens de dano). Além disso, também pode ser usado para fazer ataques corpo a corpo como uma arma dupla de duas mãos ágil (dano 1d6/1d6, crítico x2, impacto).",
+   "properties": "Dano 1d8, crítico x3, alcance Médio, P; Espaços: 2",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Arco Élfico",
+    "skill": "Pontaria",
+    "stat": "dex",
+    "die": "1d8",
+    "type": "P",
+    "threat": 20,
+    "crit": 3,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "Médio",
+    "hands": "2",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-jornada-heroica-espada-da-galaxia",
+   "nome": "Espada da Galáxia",
+   "categoria": "arma",
+   "subtipo": "marcial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "marcial",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "A Espada da Galáxia é feita de um metal superdenso, desconhecido em Arton. Seu fio tem a espessura igual à menor parte componente do mundo material. Nenhum artoniano possui conhecimento ou vocabulário científico para compreender isso, mas a espada é forjada em hidrogênio metálico e seu gume tem a espessura de um átomo de hidrogênio!",
+   "properties": "Dano 4d12, crítico 17, alcance -, C; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Espada da Galáxia",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "4d12",
+    "type": "C",
+    "threat": 17,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-jornada-heroica-escafandro-kliren",
+   "nome": "Escafandro Kliren",
+   "categoria": "armadura",
+   "subtipo": "armadura",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "armadura",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O escafandro kliren é uma armadura própria para a sobrevivência no éter divino. A armadura cobre todo o corpo do usuário, protegendo-o do frio e da descompressão, além de armazenar uma reserva de ar respirável. Um escafandro fornece redução de frio 5 e permite respirar por até 1 hora em ambientes inóspitos como debaixo d'água, no vácuo e em nuvens de gás ou fumaça. Após este período, você deve passar pelo menos 10 minutos em um ambiente com ar respirável para recarregar a reserva de ar da armadura.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "armadura"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-artefato-de-cross",
+   "nome": "Artefato de Cross",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta arma única é um item puramente mundano e tecnológico, inventado e forjado pelas mentes geniais e doentias de demônios. Ela é composta por diversos canos de mosquete, que giram por meio de engrenagens quando o usuário puxa uma alavanca. O artefato é pesado e desajeitado, mas quando acionado, dispara todos os seus canos, banhando os alvos com uma chuva de chumbo. O Artefato de Cross é uma arma de fogo de duas mãos (dano 2d12, crítico 19/x3, alcance médio, perfuração) que fornece +10 nos testes de ataque e, em caso de acerto, causa +1d12 pontos de dano para cada 2 pontos pelos quais o resultado do ataque passar a Defesa do alvo. Recarregá-lo é uma ação padrão. Atualmente, o Artefato de Cross está em posse do Senhor Porrada. O meio-orc vaga pelos ermos para manter a arma longe da civilização. Mas, claro, pode acabar sendo encontrado por um grupo de aventureiros. Neste caso, será melhor para eles que o encontro seja amistoso...",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-carthalkan-a-lamina-cristalina",
+   "nome": "Carthalkan, a Lâmina Cristalina",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta espada longa atroz e pungente é feita de um cristal translúcido. Empunhá-la traz uma sensação estranha, pois ela não tem o peso de materiais comuns, como metal ou madeira. Quando brandida por um herdeiro real, a arma emite uma luz límpida e revela todos os seus poderes: torna-se uma espada longa atroz pungente ameaçadora magnífica, que tem dano base 4d8.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-o-chapeu-de-palha",
+   "nome": "O Chapéu de Palha",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "É um artefato sagrado do caos que não ocupa espaço. Um teste de Misticismo para identificar item mágico contra CD 15 , permite identificá-lo e revela seus poderes. Este chapéu de camponês causa uma penalidade de –2 em qualquer teste social feito para falar com nobres preconceituosos em relação a plebeus, mas traz boa sorte. Uma vez por aventura, você pode rolar novamente um teste de uma perícia cujo atributo-chave não seja Carisma e escolher o melhor resultado.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-o-desbravador",
+   "nome": "O Desbravador",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Durante suas andanças por Arton e pelos planos, antes do cativeiro, a Deusa da Ambição em geral adotava a aparência de uma aventureira — armada com um mangual. Esta arma mágica, como outras empunhadas pelos deuses, é um artefato. Ela estará empunhando a arma durante seu combate final contra os aventureiros. Mais tarde, salva do cativeiro, Valkaria pode sentir-se agradecida o bastante para ceder a um dos Libertadores sua arma favorita. O Desbravador é um mangual preciso energético anticriatura (todas, exceto humanos ou devotos de Valkaria) que conta como um cajado arcano. Ele permite lançar as magias Amedrontar, Imobilizar e Dissipar Magia (CD Car) e, quando seu usuário lança uma magia de dano, ela causa +1 ponto de dano por dado. Por fim, refletindo o caráter inconstante de sua mestra, ele pode se transformar em outras armas. O usuário pode gastar uma ação de movimento para que o Desbravador se transforme em uma das seguintes armas: espada longa flamejante, lança congelante, maça elétrica, machado de guerra ameaçador ou pique defensor. Quando transformado, ele conserva suas propriedades, mas adquire as características do novo tipo de arma e o encanto indicado.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-lagrimas-de-valkaria",
+   "nome": "Lágrimas de Valkaria",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "No momento de sua condenação, Valkaria tinha plena certeza de ser salva por seus filhos humanos e aventureiros. Mesmo assim, sabia que o castigo seria horrível; lágrimas correram sobre seu lindo rosto e caíram em Arton, na forma de pequenos cristais mágicos. Encontradas por membros da ordem, estas gemas sagradas de grande poder foram identificadas e transformadas em pingentes. Uma Lágrima de Valkaria, quando usada por um devoto da deusa, permite que este consiga usar seus poderes normalmente além das fronteiras de Deheon. Por existirem poucas (1d8 peças conhecidas), são confiadas apenas aos maiores membros da ordem quando estes viajam em missões importantes. Ao longo dos anos, algumas foram roubadas, ou seus portadores assassinados: hoje, podem estar no pescoço de um mago maligno, ou em meio ao tesouro de um dragão. Uma Lágrima também permite a um devoto da deusa lançar Teletransporte e Viagem Planar. Além disso, uma função da Lágrima praticamente desconhecida é permitir acesso a Candeh’ssa, onde está a Antecâmara do Desafio. Sua magia Viagem Planar pode ser empregada com essa finalidade.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-o-machado-zakharin",
+   "nome": "O Machado Zakharin",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Séculos atrás, quando os refugiados humanos de Lamnor chegaram à região que viria a se tornar o reino de Zakharov, encontraram lá anões. Receptivos, o povo anão ofereceu como presente uma de suas relíquias — Zakharin, o Machado de Zakharov, um lendário campeão de seu povo. Este machado anão pungente maciço de adamante lancinante antifinntroll é um dos maiores tesouros de Arton. Se o machado for empunhado em defesa do povo anão — enfrentando puristas, por exemplo —, seus dados de dano são dobrados.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-madeixa-de-hippion",
+   "nome": "Madeixa de Hippion",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Esta madeixa pode ser vestida junto ao corpo presa em um colar ou pulseira, ou amarrada a uma peça de roupa. Fornece +5 em Adestramento, Atletismo e Cavalgar. 1 espaço.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-tabula-militaris",
+   "nome": "Tabula Militaris",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "O mapa bélico é um artefato antigo. Alguns acreditam que foi criado por uma grandiosa maga estrategista do passado, que estava presente na queda das nações de Lamnor. Outros afirmam que foi feito em algum lugar de Werra, o mundo de Keenn. Espiões do Reinado dizem que, entre as fileiras do inimigo, soldados sussurram que o mapa foi conquistado por Von Krauser em uma busca em sua juventude, enquanto outros afirmam que é uma herança de sua família, mas ninguém tem coragem de perguntar para confirmar a verdade! Este item mostra em tempo real qualquer campo de batalha no qual seu dono esteja, com quaisquer movimentações de tropas que estejam ocorrendo. Por conta disso, fornece +5 em Guerra — uma vantagem que pode ser decisiva em conflitos.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-jornada-heroica-o-tibar-de-prata",
+   "nome": "O Tibar de Prata",
+   "categoria": "artefato",
+   "subtipo": "artefato",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Jornada Heroica",
+   "pagina": 0,
+   "tags": [
+    "artefato",
+    "unico",
+    "magico",
+    "tormenta20",
+    "jornada heroica"
+   ],
+   "descricao": "Este artefato sagrado do caos não ocupa espaço. Um teste de Misticismo para identificar item mágico contra CD 20 (sendo um item avassalador, a CD deveria ser 35, mas é um item do caos e Nimb quer que seja 20), permite identificá-lo e revela seus poderes. Uma vez por aventura, pode ser usado para conjurar a magia Augúrio sem pagar seu custo em PM. Entretanto, é preciso lançar uma moeda para cima. Um resultado “coroa”, significa o bom funcionamento da magia, enquanto “não coroa” quer dizer que Nimb está de mau humor: o resultado é sempre “nada”.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "artefato"
+   ],
+   "revisarDados": true
+  }
+ ]
+}

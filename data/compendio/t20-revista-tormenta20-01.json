@@ -1,0 +1,686 @@
+{
+ "versao": 2,
+ "itens": [
+  {
+   "id": "t20-revista-tormenta-bolo-de-linhaca",
+   "nome": "Bolo de Linhaça",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 5,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "O acolhedor e reconfortante bolo dos pequenos (hynnes) é feito com farinha de linhaça e decorado com frutas cristalizadas. Sua massa é leve e muito calórica. Benefício: +2 em Atletismo e Iniciativa.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-sorvete",
+   "nome": "Sorvete",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Concede 2 PM temporários que duram por um dia.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-treckodimm",
+   "nome": "Treckodimm",
+   "categoria": "consumivel",
+   "subtipo": "alimentacao",
+   "peso": 0,
+   "preco": {
+    "valor": 10,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "alimentacao",
+    "comida",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Esse doce tradicional é feito com uma mistura de mel, farinha de grão-de-bico e polpa de treckod. É servido usando a casca da fruta como prato. Revigorante, fornece resistência a cansaço +2. Benefício: +2 resistência a cansaço.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-licor-de-lagrima",
+   "nome": "Licor de Lágrima",
+   "categoria": "consumivel",
+   "subtipo": "bebida",
+   "peso": 0,
+   "preco": {
+    "valor": 8,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "bebida",
+    "comida",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Benefício: +5 Vontade.",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel",
+    "comida"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-peconha-flamejante",
+   "nome": "Peçonha Flamejante",
+   "categoria": "consumivel",
+   "subtipo": "veneno",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "consumivel",
+    "veneno",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Veneno mortal extraído das serpes de fogo criadas por Sckhar. Contato, perde 1d12 pontos de vida e fica em chamas durante 3 rodadas (perde 1d12 pontos de vida).",
+   "properties": "Espaços: 0.5",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": true,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "consumivel"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-maracas-estelares",
+   "nome": "Maracas Estelares",
+   "categoria": "item geral",
+   "subtipo": "instrumento musical",
+   "peso": 0,
+   "preco": {
+    "valor": 19000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "instrumento musical",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Quando usado em conjunto, este par de instrumentos musicais diminui o custo de suas Músicas de Bardo em –1 PM. Além disso, cada maraca conta como uma arma simples corpo a corpo leve (dano 1d6, x2, impacto) que, quando empunhada por um bardo, recebe o encanto Veloz. Por fim, as maracas podem receber melhorias e encantos tanto de armas quando de ferramentas (exceto material especial), até o limite normal de melhorias e encantos.",
+   "properties": "Espaços: 1 cada",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-casaco-braseiro",
+   "nome": "Casaco Braseiro",
+   "categoria": "item geral",
+   "subtipo": "vestuario",
+   "peso": 0,
+   "preco": {
+    "valor": 40,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "item geral",
+    "vestuario",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Esta é uma variante do casaco pesado, que possui um espaço entre suas camadas para ser preenchido por carvão em brasa. Fornece +5 em testes de Fortitude para resistir a efeitos de frio e concede redução de frio 1, mas impõe penalidade de armadura de –2. Caso fique caído ou falhe em um teste de Reflexos enquanto veste um casaco braseiro, o personagem sofre 1 ponto de dano de fogo.",
+   "properties": "Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "item geral"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-coroa-das-serpes",
+   "nome": "Coroa das Serpes",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 9000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Este item foi criado por artesãos sckharjagar para garantir que os filhos de Sckhar conseguiriam controlar as dracoferas do fogo. Enquanto veste uma dessas coroas, você se torna treinado em Adestramento e Cavalgar e recebe +5 em testes dessas perícias com serpes do fogo. Além disso, pode se comunicar com serpes do fogo por meio de linguagem corporal e vocalizações, usando Adestramento para mudar atitude e persuasão, de forma similar a Empatia Selvagem.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-cetro-do-poder-usurpado",
+   "nome": "Cetro do Poder Usurpado",
+   "categoria": "acessorio",
+   "subtipo": "mágico menor",
+   "peso": 0,
+   "preco": {
+    "valor": 9000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "acessorio",
+    "magico",
+    "especifico",
+    "magico menor",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Esse cetro se parece com a pata de um dragão segurando um orbe em sua extremidade. Quando o empunha, você pode usar o poder Raio Arcano (CD seu atributo-chave de magias ou Car); se já o possuir, em vez disso cada dado de dano aumenta em um passo.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "acessorio"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-corte-limpo",
+   "nome": "Corte Limpo",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 22515,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "É uma cimitarra de mitral maciça formidável extremamente exigente. Qualquer portador sem um coração puro que saque a arma durante um combate, sente extrema dificuldade em empunhá-la. No início de cada um de seus turnos, o personagem precisa fazer um teste de Von CD 25 para conseguir manter a arma nas mãos. Definir um “coração puro” fica a critério do mestre, mas pode se supor que devotos de Azgher, Khalmyr, Lin-Wu ou Thyatis, ou seguidores de códigos de conduta (como o do herói, do paladino, ou o de honra, do cavaleiro), são boas referências.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-lanca-do-guerreiro-dragao",
+   "nome": "Lança do Guerreiro Dragão",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 24000,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "A lança do guerreiro dragão é uma arma concedida por Kallyadranoch como recompensa para dracomantes de inclinação marcial. Se estiver empunhando esta lança formidável quando lança uma magia, ela recebe +2 nas rolagens de dano e sua CD aumenta em +2.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-promessa-de-cinzas",
+   "nome": "Promessa de Cinzas",
+   "categoria": "arma magica",
+   "subtipo": "arma específica",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "arma magica",
+    "magico",
+    "especifico",
+    "arma especifica",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Promessa de Cinzas é uma alabarda formidável. Empunhada por um devoto de Arsenal, é uma alabarda magnífica.",
+   "properties": "",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma magica",
+    "arma"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-tixonessica",
+   "nome": "Tixonessica",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Itens de vestuário feitos com esse material especial concedem +2 na Defesa, mas ocupam 2 espaços em vez de 1. Além disso, são a última moda em Ghallystrix — usá-los concede +2 em testes de perícias baseadas em Carisma com habitantes da cidade.",
+   "properties": "Preço adicional: Arma - / Armadura Leve - / Armadura Pesada - / Escudo - / Esotéricos - / Vestuário + 7000",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-vidro-seletino",
+   "nome": "Vidro Seletino",
+   "categoria": "material",
+   "subtipo": "material especial",
+   "peso": 0,
+   "preco": {
+    "valor": 0,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "material",
+    "material especial",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Material especial. Preço adicional: Arma + 600 / Armadura Leve - / Armadura Pesada - / Escudo + 600 / Esotéricos + 600 / Vestuário -",
+   "properties": "Preço adicional: Arma + 600 / Armadura Leve - / Armadura Pesada - / Escudo + 600 / Esotéricos + 600 / Vestuário -",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "material"
+   ],
+   "revisarDados": true
+  },
+  {
+   "id": "t20-revista-tormenta-espada-enigma",
+   "nome": "Espada Enigma",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 750,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "A espada enigma é uma arma híbrida, mas mudar de uma forma para a outra é mais complexo: uma ação padrão em vez de uma ação de movimento. A mudança pode ser feita como uma ação de movimento com sucesso em um teste de Conhecimento (CD 20). Se tiver Saque Rápido, você pode mudar as formas com uma ação de movimento ou uma ação livre com o teste de Conhecimento. Todas as formas são ágeis e desbalanceadas.",
+   "properties": "Dano 1d6, crítico 19, alcance -, C; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Espada Enigma",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d6",
+    "type": "C",
+    "threat": 19,
+    "crit": 2,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  },
+  {
+   "id": "t20-revista-tormenta-katar",
+   "nome": "Katar",
+   "categoria": "arma",
+   "subtipo": "exótica",
+   "peso": 0,
+   "preco": {
+    "valor": 50,
+    "moeda": "T$"
+   },
+   "sistema": "tormenta20",
+   "fonte": "Revista Tormenta20",
+   "pagina": 0,
+   "tags": [
+    "arma",
+    "exotica",
+    "tormenta20",
+    "revista tormenta"
+   ],
+   "descricao": "Uma das armas preferidas dos rebeldes de Sckharshantallas, o katar é uma arma discreta (fornece +5 em testes de Ladinagem para ocultá-la) e de golpes poderosos. O katar é preferido por artistas marciais pela facilidade de integração com técnicas desarmadas; para personagens com a habilidade Briga ou o poder Estilo Desarmado, o katar é uma arma simples.",
+   "properties": "Dano 1d6, crítico x4, alcance -, P; Espaços: 1",
+   "schemaVersion": 5,
+   "updatedAt": "2026-11-25T17:51:07.000Z",
+   "efeitos": [],
+   "consumable": {
+    "enabled": false,
+    "amountPerUse": 1,
+    "label": "Usar"
+   },
+   "defenses": {
+    "resistances": "",
+    "immunities": ""
+   },
+   "resources": [],
+   "categorias": [
+    "arma"
+   ],
+   "revisarDados": true,
+   "weaponAttack": {
+    "enabled": true,
+    "name": "Katar",
+    "skill": "Luta",
+    "stat": "str",
+    "die": "1d6",
+    "type": "P",
+    "threat": 20,
+    "crit": 4,
+    "hitBonus": 0,
+    "damageBonus": "",
+    "range": "",
+    "hands": "1",
+    "ammo": "",
+    "reload": "",
+    "properties": "",
+    "allowedToggles": []
+   }
+  }
+ ]
+}
