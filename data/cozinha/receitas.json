@@ -1,0 +1,1830 @@
+{
+ "geradoEm": "2026-11-25",
+ "ingredientes": [
+  {
+   "nome": "Ave",
+   "tipo": "comum",
+   "preco": 4,
+   "descricao": "Carne de aves comuns, como frango e ganso. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Avelã de Norba",
+   "tipo": "comum",
+   "preco": 40,
+   "descricao": "Um tipo específico de avelã, que apenas os esquilos de Norba (nas Repúblicas Livres de Sambúrdia) conseguem encontrar. Regras Opcionais 305 Carne. De ovelha, gado ou trobo. Um alimento caro, pois esses animais são criados primariamente para outros usos — respectivamente, lã, leite e tração. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Açúcar das fadas",
+   "tipo": "comum",
+   "preco": 50,
+   "descricao": "Um pó prateado, brilhante e doce. Alguns dizem que é tirado de frutas que nascem apenas na Pondsmânia; outros, que cai das asas de certas criaturas feéricas. Seja como for, é raro e caro. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Carne",
+   "tipo": "comum",
+   "preco": 16,
+   "descricao": "De ovelha, gado ou trobo. Um alimento caro, pois esses animais são criados primariamente para outros usos — respectivamente, lã, leite e tração. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Carne de Canceronte",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Carne de Gorlogg",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Carne de Kraken",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Carne de Trobo",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Carne de basilisco",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Carne de basilisco usada em receitas especiais.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Carne de caça",
+   "tipo": "comum",
+   "preco": 32,
+   "descricao": "De animais como cervo, javali e faisão, ou mesmo de monstros como urso-coruja, serpe e lobo-das-cavernas. É ainda mais cara que a carne de animais de criação, mas também é mais nutritiva e possui sabor mais pronunciado. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Carne de monstro",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Carne extraída de monstros apropriados, usada em diversas receitas.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Carne de serpe",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Cereal",
+   "tipo": "comum",
+   "preco": 1,
+   "descricao": "A base da alimentação artoniana. Os mais comuns são o trigo, o centeio e a cevada, embora outros, como o arroz, o milho e a aveia, sejam consumidos em reinos e regiões específicos. Os preços listados na tabela são para uma porção individual do prato pronto, mas se você cozinhar o prato gastando seus ingredientes, prepara comida suficiente para seu grupo inteiro (por volta de 5 pessoas). Obviamente, nem todos os pratos estarão disponíveis em toda taverna. O mestre pode se divertir construindo o cardápio de cada lugar! Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Cogumelo",
+   "tipo": "comum",
+   "preco": 5,
+   "descricao": "Um alimento comum e acessível. Contudo, por sua ligação com a natureza e a magia, é visto com maus olhos em certos ambientes. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Cogumelos de Sombria",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Especiarias",
+   "tipo": "comum",
+   "preco": 100,
+   "descricao": "Pimentas, ervas, flores e outros tipos de temperos trazidos de terras distantes, ou até mesmo com origem mágica. São valorizadas por casas nobres, tanto por seu sabor quanto por serem um símbolo de poder e riqueza. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Farinha",
+   "tipo": "comum",
+   "preco": 1,
+   "descricao": "Pó obtido da moagem de certos cereais. Crucial para pães, mingaus e bolos, alimentos comuns entre camponeses artonianos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Fruta",
+   "tipo": "comum",
+   "preco": 3,
+   "descricao": "Das mais comuns, como maçãs, peras e pêssegos, às mais raras (do ponto de vista de um habitante do Reinado), como melões, tâmaras e figos, podem ser servidas cozidas, como acompanhamento, ou cruas, como sobremesa. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Fruto da Espada-Mãe",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Fruto de planta devoradora de homens",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Fruto coletado de uma área de plantas devoradoras de homens.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Gorad",
+   "tipo": "comum",
+   "preco": 30,
+   "descricao": "Uma iguaria doce originária da pequena província de Tragematum, no Império de Tauron. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Legume",
+   "tipo": "comum",
+   "preco": 1,
+   "descricao": "Inclui cebola, alho, nabo, cenoura, ervilha, feijão e outros. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Leite",
+   "tipo": "comum",
+   "preco": 1,
+   "descricao": "Um alimento importante por si só, além de ser a base de manteigas e queijos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Mandrágora",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Mandrágora aproveitada como ingrediente; sua cabeça é descrita como a parte mais nutritiva.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Miúdos de slime",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Partes aproveitáveis de um slime, usadas como ingrediente culinário.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Molho tamuraniano",
+   "tipo": "comum",
+   "preco": 30,
+   "descricao": "Um molho escuro, salgado e forte, fabricado apenas no Império de Jade (e no bairro de Nitamu-ra, em Valkaria). O segredo do molho nunca foi revelado a estrangeiros, motivo pelo qual é raro e caro. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Molusco de armadura animada",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Molusco que vive dentro de uma armadura animada e pode ser preparado como alimento.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Ovo de basilisco",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ovo de basilisco usado em receitas especiais.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Ovo de kobold",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Ovo de monstro",
+   "tipo": "comum",
+   "preco": 50,
+   "descricao": "Ovos de criaturas monstruosas, como grifos, serpes e ursos-corujas. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Ovos de cocatriz",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Peixe",
+   "tipo": "comum",
+   "preco": 7,
+   "descricao": "Consumidos frescos, salgados ou defumados. Os mais apreciados são o salmão, a enguia e a lampreia. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Porco",
+   "tipo": "comum",
+   "preco": 8,
+   "descricao": "A carne de açougue mais comum no Reinado — ao contrário de outros animais, o porco é criado primariamente para o abate. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Porção de cogumelos",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Porção extraída de um Cogumelo Andante. Pode ser usada em receitas de Dungeon Meshi/Tormenta20.",
+   "fonte": "Dragão Brasil 199"
+  },
+  {
+   "nome": "Queijo",
+   "tipo": "comum",
+   "preco": 6,
+   "descricao": "Fortes ou suaves, com ou sem aromatizantes, são comuns tanto em tavernas quanto em banquetes nobres. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Treckod",
+   "tipo": "comum",
+   "preco": 0,
+   "descricao": "Ingrediente citado em receita.",
+   "fonte": ""
+  },
+  {
+   "nome": "Verdura",
+   "tipo": "comum",
+   "preco": 1,
+   "descricao": "Inclui repolho, couve, urtiga, acelga, espinafre, alface e outras. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Óleo de cozinha",
+   "tipo": "comum",
+   "preco": 3,
+   "descricao": "De origem vegetal, o óleo é usado para cozinhar, temperar e conservar alimentos. Ingrediente de culinária avançada (insumo de ótima qualidade, necessário para pratos especiais). Ocupa 0,5 espaço.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Carne monstruosa",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "A carne de qualquer monstro. O prato fornece +5 PV temporários para cada poder da distinção Mestre Cozinheiro que você possui. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Ervas aromáticas",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "Ervas conhecidas por seu efeito calmante, que ajudam no foco. O prato fornece +1d4 em um teste de Misticismo, Ofício, Percepção ou Vontade realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Especiarias picantes",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "Tão ardidas que fazem bárbaros chorar; encontradas em planícies e terrenos urbanos. O prato fornece +1d4 em um teste de Acrobacia, Atletismo, Iniciativa ou Reflexos realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos difere",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Núcleo de temperatura",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "Minerais encontrados em terrenos de temperaturas extremas, que emitem frio ou calor capazes de amplificar as propriedades dos alimentos. Os bônus numéricos e em dados do prato aumentam em +1. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Raízes curativas",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "Ervas encontradas em pântanos e subterrâneos. O prato fornece +1d4 em um teste de resistência. A cada outro poder da distinção que você possui, esse dado aumenta em um passo. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+   "fonte": "Heróis de Arton"
+  },
+  {
+   "nome": "Sal azul",
+   "tipo": "monstruoso",
+   "preco": 0,
+   "descricao": "Ingrediente misterioso encontrado em montanhas e terreno aquático, que armazena energias místicas. O prato fornece +1 PM temporário, +1 PM para cada outro poder da distinção que você possui. Ingrediente monstruoso (distinção Mestre Cozinheiro, poder Tudo que Há de Bom): coletado em ambientes com monstros — 1 dia de trabalho e Ofício (cozinheiro) CD 20; acha 1, +1 a cada 10 pontos acima da CD (o mestre decide o que existe em cada terreno). Não é vendido. Ocupa 0,5 espaço. Efeitos de ingredientes monstruosos diferentes se acumulam.",
+   "fonte": "Heróis de Arton"
+  }
+ ],
+ "receitas": [
+  {
+   "id": "aguardente-de-arroz-ana",
+   "nome": "Aguardente de Arroz Anã",
+   "tipo": "bebida",
+   "fonte": "A Lenda de Ghanor",
+   "efeito": "Fabricado na ilha de Santa Sicária, este destilado fortalece o corpo e o espírito, fornecendo redução de dano 2.",
+   "descricao": "Fabricado na ilha de Santa Sicária, este destilado fortalece o corpo e o espírito, fornecendo redução de dano 2.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 30
+  },
+  {
+   "id": "algravia",
+   "nome": "Algravia",
+   "tipo": "bebida",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens.",
+   "descricao": "Bebida alcoólica adocicada feita da seiva de feras-cactus. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o final do dia.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 3
+  },
+  {
+   "id": "alqui-fruta",
+   "nome": "Alqui-Fruta",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "+3m de movimento",
+   "descricao": "Bebida exclusiva do Castelo do Sabor: um líquido negro e extremamente doce, feito segundo uma receita alquímica secreta. Não se preocupe com os produtos alquímicos, o próprio nome contém a palavra “fruta”, essa bebida deve ser saudável! A Alqui-Fruta deixa qualquer um agitado, concedendo +3m de deslocamento por um dia. Benefício: +3m de movimento. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "assado-de-carnes",
+   "nome": "Assado de carnes",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 em rolagens de dano corpo a corpo.",
+   "descricao": "Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): carne, carne de caça, porco (ingredientes T$ 56); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Carne",
+     "qtd": 1
+    },
+    {
+     "nome": "Carne de caça",
+     "qtd": 1
+    },
+    {
+     "nome": "Porco",
+     "qtd": 1
+    }
+   ],
+   "cd": 25,
+   "preco": 60
+  },
+  {
+   "id": "assado-deheoni",
+   "nome": "Assado deheoni",
+   "tipo": "prato",
+   "fonte": "Atlas de Arton",
+   "efeito": "Até o fim do dia, você pode rolar novamente um único teste recém realizado (exceto testes de ataque), mas deve ficar com o segundo resultado. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+   "descricao": "Até o fim do dia, você pode rolar novamente um único teste recém realizado (exceto testes de ataque), mas deve ficar com o segundo resultado. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+   "ingredientes": [
+    {
+     "nome": "Ave",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 10
+  },
+  {
+   "id": "baba-de-troll",
+   "nome": "Baba de troll",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +1d4 em um teste a sua escolha até o fim do dia.",
+   "descricao": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 30
+  },
+  {
+   "id": "baga-celeste-cozida",
+   "nome": "Baga celeste cozida",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Todo dano de queda que você sofre é reduzido em −1d6.",
+   "descricao": "Encontradas originalmente nas encostas invertidas de Vectora, estas bagas se espalharam por toda Arton. Preparadas adequadamente, fornecem qualidades místicas de flutuação. Todo dano de queda que você sofre é reduzido em −1d6.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 15
+  },
+  {
+   "id": "balinhas",
+   "nome": "Balinhas",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Claro… Apesar do ceticismo dos outros, você recebe +2 em rolagens de dano de magias.",
+   "descricao": "Balas coloridas e doces. Arcanistas gostam delas — dizem que o açúcar feérico usado nas balinhas potencializa suas magias. Claro… Apesar do ceticismo dos outros, você recebe +2 em rolagens de dano de magias. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): açúcar das fadas, fruta (ingredientes T$ 53); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Açúcar das fadas",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    }
+   ],
+   "cd": 25,
+   "preco": 60
+  },
+  {
+   "id": "banquete-de-canceronte",
+   "nome": "Banquete de canceronte",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Você recebe 1d4+1 dados de auxílio.",
+   "descricao": "Um canceronte adulto é suficiente para produzir um pequeno banquete. Você recebe 1d4+1 dados de auxílio. Sempre que realizar um teste de perícia, você pode gastar 1d4 e adicionar o resultado como bônus no teste. Se o banquete é preparado por um personagem com o poder Mestre Cuca, os dados de auxílio se tornam d6. Este prato requer carne fresca de canceronte, sendo assim raramente encontrado longe de grandes cidades costeiras.",
+   "ingredientes": [
+    {
+     "nome": "Carne de Canceronte",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 36
+  },
+  {
+   "id": "banquete-dos-herois",
+   "nome": "Banquete dos heróis",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +1 em um atributo a sua escolha.",
+   "descricao": "Uma mesa repleta das melhores comidas que o dinheiro pode pagar. Você recebe +1 em um atributo a sua escolha. Esse aumento não oferece PV, PM e perícias adicionais. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): carne de caça, ovo de monstro, avelã de Norba (ingredientes T$ 82); Ofício (cozinheiro) CD 30; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Carne de caça",
+     "qtd": 1
+    },
+    {
+     "nome": "Ovo de monstro",
+     "qtd": 1
+    },
+    {
+     "nome": "Avelã de Norba",
+     "qtd": 1
+    }
+   ],
+   "cd": 30,
+   "preco": 150
+  },
+  {
+   "id": "barba-queimada",
+   "nome": "Barba queimada",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Forte e amarga, esta cerveja próximas não serão mais ativadas como ação livre). anã fortalece o corpo e o espírito. Fornece redução de Sistema de Refrigeração.",
+   "descricao": "Forte e amarga, esta cerveja próximas não serão mais ativadas como ação livre). anã fortalece o corpo e o espírito. Fornece redução de Sistema de Refrigeração.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 45
+  },
+  {
+   "id": "basilisco-assado",
+   "nome": "Basilisco Assado",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Recupera 2d8+2 PV. PV excedentes recuperados dessa forma se tornam PV temporários.",
+   "descricao": "Carne de basilisco recheada e assada, com forte efeito restaurativo. Efeitos: Recupera 2d8+2 PV. PV excedentes recuperados dessa forma se tornam PV temporários. Ingredientes/requisitos: carne de basilisco.",
+   "ingredientes": [
+    {
+     "nome": "Carne de basilisco",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "batata-do-castelo",
+   "nome": "Batata do Castelo",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "+1d4 num único teste",
+   "descricao": "Melora garante que não é a mesma coisa que a batata valkariana - a Batata do Castelo tem muito mais sabor! Você recebe +1d4 num único teste a sua escolha realizado nesse dia. Benefício: +1d4 num único teste. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "batata-valkariana",
+   "nome": "Batata valkariana",
+   "tipo": "prato",
+   "fonte": "Livro Básico",
+   "efeito": "Recebe +1d6 em um único teste à sua escolha realizado nesse dia.",
+   "descricao": "Batatas fritas populares em Valkaria. É um prato especial que dá um impulso para uma façanha durante o dia. Efeito: Recebe +1d6 em um único teste à sua escolha realizado nesse dia. Apenas um bônus de alimentação pode ser recebido por dia. CD 15. Receita (culinária avançada, Heróis de Arton p. 306): óleo, legume (ingredientes T$ 4); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Óleo de cozinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    }
+   ],
+   "cd": 15,
+   "preco": 2
+  },
+  {
+   "id": "batatas-grelhadas",
+   "nome": "Batatas grelhadas",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Depois de consumido, fornece +4 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 15.",
+   "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +4 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 10
+  },
+  {
+   "id": "biscoito-de-cafe",
+   "nome": "Biscoito de café",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Ofício +2 e Percepção +2; CD 20.",
+   "descricao": "Receita adaptada para Tormenta20. Ofício +2 e Percepção +2; CD 20.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 10
+  },
+  {
+   "id": "bolo-de-linhaca",
+   "nome": "Bolo de Linhaça",
+   "tipo": "prato",
+   "fonte": "Revista Tormenta20",
+   "efeito": "+2 em Atletismo e Iniciativa.",
+   "descricao": "O acolhedor e reconfortante bolo dos pequenos (hynnes) é feito com farinha de linhaça e decorado com frutas cristalizadas. Sua massa é leve e muito calórica. Benefício: +2 em Atletismo e Iniciativa.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 5
+  },
+  {
+   "id": "bolo-de-cenoura",
+   "nome": "Bolo de cenoura",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Aparentemente, os anciões estão certos, pois o bolo de cenoura fornece +2 em testes de Percepção.",
+   "descricao": "Uma sobremesa simples, que “faz bem para a vista”, segundo anciões de todo o Reinado. Aparentemente, os anciões estão certos, pois o bolo de cenoura fornece +2 em testes de Percepção. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): farinha, fruta, óleo (ingredientes T$ 7); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Óleo de cozinha",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 4
+  },
+  {
+   "id": "bolo-do-panteao",
+   "nome": "Bolo do Panteão",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Seu custo para usar a habilidade escolhida diminui em –1 PM (mínimo 1).",
+   "descricao": "Uma sobremesa divina! Este bolo de gorad é preparado com os melhores ingredientes, por isso é caríssimo, servido apenas em banquetes reais — ou em tavernas que atendem aventureiros famosos. Comer uma fatia de um bolo do Panteão torna mais fácil dar o melhor de si, seja desferindo um golpe especial, seja lançando uma magia. Quando você come este prato, escolha uma habilidade. Seu custo para usar a habilidade escolhida diminui em –1 PM (mínimo 1). Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): açúcar das fadas, avelã de Norba, farinha, gorad (ingredientes T$ 121); Ofício (cozinheiro) CD 30; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Açúcar das fadas",
+     "qtd": 1
+    },
+    {
+     "nome": "Avelã de Norba",
+     "qtd": 1
+    },
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Gorad",
+     "qtd": 1
+    }
+   ],
+   "cd": 30,
+   "preco": 200
+  },
+  {
+   "id": "buque-de-thantalla",
+   "nome": "Buquê de Thantalla",
+   "tipo": "prato",
+   "fonte": "Atlas de Arton",
+   "efeito": "Efeitos que recuperem seus pontos de mana recuperam 1 PM a mais.",
+   "descricao": "Efeitos que recuperem seus pontos de mana recuperam 1 PM a mais. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+   "ingredientes": [
+    {
+     "nome": "Açúcar das fadas",
+     "qtd": 1
+    },
+    {
+     "nome": "Avelã de Norba",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 150
+  },
+  {
+   "id": "cafe-da-manha-do-fazendeiro",
+   "nome": "Café da manhã do fazendeiro",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Fortitude +1, Vontade +1 e 5 PV temporários; CD 10.",
+   "descricao": "Receita adaptada para Tormenta20. Fortitude +1, Vontade +1 e 5 PV temporários; CD 10.",
+   "ingredientes": [],
+   "cd": 10,
+   "preco": 10
+  },
+  {
+   "id": "cerveja-barbas-de-heredrimm",
+   "nome": "Cerveja Barbas de Heredrimm",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia.",
+   "descricao": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 45
+  },
+  {
+   "id": "cerveja-beluhga-no-caneco",
+   "nome": "Cerveja Beluhga no Caneco",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "RD 5 Fogo.",
+   "descricao": "Esta bebida opaca e esbranquiçada produz uma espuma azul e carrega um leve sabor mentolado. Fornece redução de fogo 5. Benefício: RD 5 Fogo.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 36
+  },
+  {
+   "id": "cerveja-rangedente",
+   "nome": "Cerveja Rangedente",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "Fornece +2 em Fortitude.",
+   "descricao": "Viscosa e de textura gosmenta, esta cerveja prepara as tripas para sofrimentos ainda maiores. Fornece +2 em Fortitude.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 20
+  },
+  {
+   "id": "cerveja-deheoni",
+   "nome": "Cerveja deheoni",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +1 em testes de resisque dissipam calor por sua correnteza interna.",
+   "descricao": "A bebida mais comum nas componentes da engenhoca e tubos cheios d’água, tavernas do Reinado. Fornece +1 em testes de resisque dissipam calor por sua correnteza interna. Uma tência.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 15
+  },
+  {
+   "id": "cerveja-do-escavador",
+   "nome": "Cerveja do Escavador",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "For +1, deslocamento -3m.",
+   "descricao": "Apesar do nome simples, esta é uma bebida muito prestigiosa em Doherimm, e raramente é encontrada na superfície. Fornece +1 em Força, mas reduz o deslocamento em –3m. Benefício: For +1, deslocamento -3m.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 60
+  },
+  {
+   "id": "cerveja-agua-de-sangue",
+   "nome": "Cerveja Água-de-Sangue",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "Fornece +2 em Vontade.",
+   "descricao": "De sabor amargo e aparência avermelhada, esta cerveja aumenta a concentração e determinação. Fornece +2 em Vontade.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 20
+  },
+  {
+   "id": "cestinha-uivante",
+   "nome": "Cestinha Uivante",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "+2 PM temporários",
+   "descricao": "Outra criação do Castelo do Sabor. um creme gelado e muito doce, servido em uma cesta comestível. Não pergunte como o restaurante mantém a substância gelada, você não quer saber. Muitos valkarianos que já provaram a Cestinha Uivante dizem que é a melhor coisa que já experimentaram. Concede 2 PM extras. Benefício: +2 PM temporários. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "coc-au-triz",
+   "nome": "Coc-au-triz",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Custo habilidade diminui em –1 PM.",
+   "descricao": "Ovos de cocatriz são ingredientes mágicos poderosos, e esta guloseima reflete esse poder; é um ninho de fios de ovos assados e gratinados. Ao consumir, escolha uma habilidade com custo em PMs. Seu custo diminui em –1 PM. Benefício: Custo habilidade diminui em –1 PM.",
+   "ingredientes": [
+    {
+     "nome": "Ovos de cocatriz",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 54
+  },
+  {
+   "id": "coxa-de-trobo-assada",
+   "nome": "Coxa de Trobo Assada",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "Cura 1d6 PM e 1d6 PV.",
+   "descricao": "Cura 1d6 PM e 1d6 PV.",
+   "ingredientes": [
+    {
+     "nome": "Carne de Trobo",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "cozido-de-pimenta",
+   "nome": "Cozido de pimenta",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Um prato forte, capaz no limite de itens vestidos). Contudo, ela modifica de trazer lágrimas aos olhos do mais resistente dos drasticamente o item de vestuário. Qualquer um que comensais.",
+   "descricao": "Um prato forte, capaz no limite de itens vestidos). Contudo, ela modifica de trazer lágrimas aos olhos do mais resistente dos drasticamente o item de vestuário. Qualquer um que comensais.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 10
+  },
+  {
+   "id": "cozido-de-serpe",
+   "nome": "Cozido de serpe",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Se preparado com sucesso, fornece +1 em todos os testes de perícia, cumulativo com outros itens.",
+   "descricao": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural. Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer três sucessos antes de três falhas. Se preparado com sucesso, fornece +1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fort CD 20 reduz para uma rodada).",
+   "ingredientes": [
+    {
+     "nome": "Carne de serpe",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 12
+  },
+  {
+   "id": "destilado-limpa-ventas",
+   "nome": "Destilado Limpa-Ventas",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "RD 5 Frio.",
+   "descricao": "Uma bebida amarela e opaca, com um inesperado sabor picante. Fornece redução de frio 5. Benefício: RD 5 Frio.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 36
+  },
+  {
+   "id": "destilado-tuku-tu",
+   "nome": "Destilado Tuku'tu",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "+2 em Reflexo.",
+   "descricao": "Benefício: +2 em Reflexo.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 20
+  },
+  {
+   "id": "dilinio",
+   "nome": "Dilínio",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Seu limite de gasto de PM aumenta em +1.",
+   "descricao": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 600
+  },
+  {
+   "id": "doppelganger",
+   "nome": "Doppelganger",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "Redução de dano 1",
+   "descricao": "Um sanduiche com dois pedaços de carne de procedência duvidosa (que recebe nome por ser \"duplo\"), além de cebola, algace e o Molho do Castelo. A sensação de estar empanturrado concede RD 1 por dia. Benefício: Redução de dano 1. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "ensopado-de-coelho-e-caneca-de-cerveja",
+   "nome": "Ensopado de Coelho e Caneca de Cerveja",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "+1 em um teste à escolha do jogador, até o fim da aventura.",
+   "descricao": "+1 em um teste à escolha do jogador, até o fim da aventura.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 1
+  },
+  {
+   "id": "ensopado-de-rabo-de-lagarto-e-olho-de-sapo",
+   "nome": "Ensopado de Rabo de Lagarto e Olho de Sapo",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "+1 na CD de suas magias arcanas.",
+   "descricao": "este cozido tenebroso é o típico conteúdo fumegante do caldeirão de uma bruxa. Não é apetitoso, mas coloca o comensal em contato com seu lado místico. Aumenta em +1 a CD de suas magias arcanas. A critério do mestre, pode conceder bônus em testes de Misticismo e outras perícias ligadas a magia ou em usos referentes a assuntos sobrenaturais. Benefício: +1 na CD de suas magias arcanas.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "ensopado-reforcado",
+   "nome": "Ensopado reforçado",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +20 PV temporários.",
+   "descricao": "Um prato nutritivo e pesado. Você recebe +20 PV temporários. Contudo, seu deslocamento diminui em –1,5m. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): fruta, porco, verdura (ingredientes T$ 12); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Porco",
+     "qtd": 1
+    },
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 12
+  },
+  {
+   "id": "estrogonofe",
+   "nome": "Estrogonofe",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 em testes de Vontade.",
+   "descricao": "Essa iguaria deliciosa foi inventada nas cortes do antigo Reino de Yudennach — dizem que é uma das poucas coisas boas a sair daquele lugar. Comer estrogonofe deixa você firme em suas convicções. Você recebe +2 em testes de Vontade. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): carne, cogumelo, leite (ingredientes T$ 22); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Carne",
+     "qtd": 1
+    },
+    {
+     "nome": "Cogumelo",
+     "qtd": 1
+    },
+    {
+     "nome": "Leite",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 18
+  },
+  {
+   "id": "fruto-da-espada-mae",
+   "nome": "Fruto da Espada-Mãe",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "cura 4d8+4 pontos de vida e remove todas as condições negativas, doenças e venenos.",
+   "descricao": "Benefício: cura 4d8+4 pontos de vida e remove todas as condições negativas, doenças e venenos.",
+   "ingredientes": [
+    {
+     "nome": "Fruto da Espada-Mãe",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "futomaki",
+   "nome": "Futomaki",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 em testes de Diplomacia.",
+   "descricao": "Criado no Império de Jade, este prato consiste em um rolo de arroz recheado com peixes, folhas e raízes. Uma refeição elegante, que deixa todos dispostos a dialogar. Você recebe +2 em testes de Diplomacia. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): cereal, peixe (ingredientes T$ 8); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Cereal",
+     "qtd": 1
+    },
+    {
+     "nome": "Peixe",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 12
+  },
+  {
+   "id": "gorad-quente",
+   "nome": "Gorad quente",
+   "tipo": "prato",
+   "fonte": "Livro Básico",
+   "efeito": "Recebe +2 PM temporários.",
+   "descricao": "Gorad e leite servidos quentes. É um prato especial que estimula a mente. Efeito: Recebe +2 PM temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 20. Receita (culinária avançada, Heróis de Arton p. 306): gorad, leite (ingredientes T$ 31); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Gorad",
+     "qtd": 1
+    },
+    {
+     "nome": "Leite",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 18
+  },
+  {
+   "id": "gorlogg-ensopado",
+   "nome": "Gorlogg ensopado",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Aumenta recuperação de PV e PM em +1 por nível.",
+   "descricao": "Criado nas cozinhas de Yuvalin por Rizzelena, chefe élfica de grande talento, este é um ensopado altamente nutritivo. Em sua próxima noite de sono, você aumenta a sua recuperação de PV e PM em +1 por nível. Benefício: Aumenta recuperação de PV e PM em +1 por nível.",
+   "ingredientes": [
+    {
+     "nome": "Carne de Gorlogg",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 6
+  },
+  {
+   "id": "gorvela",
+   "nome": "Gorvelã",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +5 PM temporários.",
+   "descricao": "Gorad com avelã de Norba. É uma sobremesa cara, mas deliciosa. Fornece +5 PM temporários. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): gorad, avelã de Norba (ingredientes T$ 70); Ofício (cozinheiro) CD 30; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Gorad",
+     "qtd": 1
+    },
+    {
+     "nome": "Avelã de Norba",
+     "qtd": 1
+    }
+   ],
+   "cd": 30,
+   "preco": 90
+  },
+  {
+   "id": "grogue-negro",
+   "nome": "Grogue negro",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Rum misturado com especiapenalidade de –5 no teste). rias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem — a Consumir uma bebida leva alguns receita foi criada por piratas do Co",
+   "descricao": "Rum misturado com especiapenalidade de –5 no teste). rias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem — a Consumir uma bebida leva alguns receita foi criada por piratas do Conclave, que atuam minutos — embora seja possível tomar no Mar Negro.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 15
+  },
+  {
+   "id": "grogue-rubro",
+   "nome": "Grogue rubro",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20.",
+   "descricao": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 45
+  },
+  {
+   "id": "hidromel-artusiano",
+   "nome": "Hidromel Artusiano",
+   "tipo": "bebida",
+   "fonte": "A Lenda de Ghanor",
+   "efeito": "Fornece +2 em testes de ataque corpo a corpo.",
+   "descricao": "Fabricada no norte gelado, esta bebida aquece e incita. Fornece +2 em testes de ataque corpo a corpo.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 8
+  },
+  {
+   "id": "hidromel-uivante",
+   "nome": "Hidromel uivante",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +2 em rolagens de dano corpo a corpo.",
+   "descricao": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 21
+  },
+  {
+   "id": "javali-do-bosque-enevoado",
+   "nome": "Javali do Bosque Enevoado",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 na Defesa.",
+   "descricao": "Um ensopado de javali cozido em caldo de cerveja escura e mel, servido com pão rústico recheado de cogumelos. Quem experimenta este prato de sabor forte fica mais confiante para encarar qualquer luta. Você recebe +2 na Defesa. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): carne de caça, cogumelo, farinha (ingredientes T$ 38); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Carne de caça",
+     "qtd": 1
+    },
+    {
+     "nome": "Cogumelo",
+     "qtd": 1
+    },
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 60
+  },
+  {
+   "id": "laghman",
+   "nome": "Laghman",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Fortitude +2, Vontade +1 e +4 PV; CD 15.",
+   "descricao": "Receita adaptada para Tormenta20. Fortitude +2, Vontade +1 e +4 PV; CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 10
+  },
+  {
+   "id": "licor-bafo-de-elfa",
+   "nome": "Licor Bafo de Elfa",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "Fornece +2 em Misticismo.",
+   "descricao": "Leve, suave e adocicado, este licor parece nem ser alcoólico, até que algumas doses “inofensivas” sejam consumidas. Fornece +2 em Misticismo.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 20
+  },
+  {
+   "id": "licor-de-lagrima",
+   "nome": "Licor de Lágrima",
+   "tipo": "bebida",
+   "fonte": "Revista Tormenta20",
+   "efeito": "+5 Vontade.",
+   "descricao": "Benefício: +5 Vontade.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 8
+  },
+  {
+   "id": "licor-de-tinta-de-kraken-com-algas",
+   "nome": "Licor de Tinta de Kraken com Algas",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "Um personagem que beba o licor deve rolar 1d6:",
+   "descricao": "Um teste de Misticismo ou Ofício (alquimia) contra CD 20 indica que a bebida possui propriedades mágicas, mas não qual é o efeito dela. Um personagem que beba o licor deve rolar 1d6:",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 0
+  },
+  {
+   "id": "licor-feerico",
+   "nome": "Licor feérico",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "O custo para ativar essa habilidade diminui em –1 PM.",
+   "descricao": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25.",
+   "ingredientes": [],
+   "cd": 25,
+   "preco": 450
+  },
+  {
+   "id": "macarrao-de-yuvalin",
+   "nome": "Macarrão de Yuvalin",
+   "tipo": "prato",
+   "fonte": "Livro Básico",
+   "efeito": "Recebe +5 PV temporários.",
+   "descricao": "Prato reforçado de macarrão, bacon e creme de leite criado em Yuvalin. Efeito: Recebe +5 PV temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 15. Receita (culinária avançada, Heróis de Arton p. 306): farinha, leite, porco (ingredientes T$ 10); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Leite",
+     "qtd": 1
+    },
+    {
+     "nome": "Porco",
+     "qtd": 1
+    }
+   ],
+   "cd": 15,
+   "preco": 6
+  },
+  {
+   "id": "macarrao-de-caravana",
+   "nome": "Macarrão de caravana",
+   "tipo": "prato",
+   "fonte": "Atlas de Arton",
+   "efeito": "Recebe +2 em testes de Fortitude contra marcha forçada e em testes contra o perigo complexo jornada pelos ermos.",
+   "descricao": "Recebe +2 em testes de Fortitude contra marcha forçada e em testes contra o perigo complexo jornada pelos ermos. Efeito dura 1 dia; só um bônus de alimentação por dia.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Leite",
+     "qtd": 1
+    },
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 5
+  },
+  {
+   "id": "manjar-de-sombras",
+   "nome": "Manjar de sombras",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +1d4 em um teste a sua escolha até o fim do dia.",
+   "descricao": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer. Bebidas Baba de Troll. Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 20
+  },
+  {
+   "id": "manjar-dos-titas",
+   "nome": "Manjar dos titãs",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e. Receita (culinária avançada, Heróis de Arton p. ",
+   "descricao": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e. Receita (culinária avançada, Heróis de Arton p. 306): avelã de Norba, farinha, ovo de monstro (ingredientes T$ 91); Ofício (cozinheiro) CD 30; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Avelã de Norba",
+     "qtd": 1
+    },
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Ovo de monstro",
+     "qtd": 1
+    }
+   ],
+   "cd": 30,
+   "preco": 150
+  },
+  {
+   "id": "misturadinho-dos-deuses",
+   "nome": "Misturadinho dos Deuses",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "Prato exclusivo feito com insumos fornecidos pelos heróis. Cada porção pode ter até três acompanhamentos diferentes, exigindo um ingrediente ou um mantimento por acompanhamento. Os efeitos dos acompanhamentos são cumulat",
+   "descricao": "Prato exclusivo feito com insumos fornecidos pelos heróis. Cada porção pode ter até três acompanhamentos diferentes, exigindo um ingrediente ou um mantimento por acompanhamento. Os efeitos dos acompanhamentos são cumulativos e contam como um único bônus de alimentação.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 50
+  },
+  {
+   "id": "omelete-de-basilisco-e-mandragora",
+   "nome": "Omelete de Basilisco e Mandrágora",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Recebe +2 em rolagens de dano e resistência a veneno +2.",
+   "descricao": "Omelete avermelhada feita com ovos de basilisco e raízes de mandrágora. Efeitos: Recebe +2 em rolagens de dano e resistência a veneno +2. Ingredientes/requisitos: 4 ovos de basilisco.",
+   "ingredientes": [
+    {
+     "nome": "Ovo de basilisco",
+     "qtd": 4
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "omelete-monstruosa",
+   "nome": "Omelete monstruosa",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "Você recebe +2 em rolagens de dano e –2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens.",
+   "descricao": "Dizem que esse prato foi inventado por aventureiros presos em uma caverna cheia de ovos de kobold. Desde então, tornou-se popular entre aqueles de baixa seletividade alimentar, ou muita coragem. É feita com ovos de kobold, mas variações mais refinadas usam ovos de corcel de Kally e outras feras dracônicas menores. Você recebe +2 em rolagens de dano e –2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens. Se feita com ovos de dragão, muda para +5 e –5. E garante que você será caçado por uma mamãe dragão furiosa...",
+   "ingredientes": [
+    {
+     "nome": "Ovo de kobold",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 3
+  },
+  {
+   "id": "ovo-de-monstro-frito",
+   "nome": "Ovo de monstro frito",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +10 PV temporários.",
+   "descricao": "A receita é simples — o segredo está nos ingredientes. Feito com ovos de monstros, este ovo frito é extremamente nutritivo. Você recebe +10 PV temporários. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): ovo de monstro, óleo (ingredientes T$ 53); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Ovo de monstro",
+     "qtd": 1
+    },
+    {
+     "nome": "Óleo de cozinha",
+     "qtd": 1
+    }
+   ],
+   "cd": 25,
+   "preco": 30
+  },
+  {
+   "id": "panelada-de-escorpiao-enorme-e-cogumelo-andante",
+   "nome": "Panelada de Escorpião Enorme e Cogumelo Andante",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Na próxima noite de sono, aumenta a recuperação de PV e PM em +1 por nível.",
+   "descricao": "Ensopado de cogumelos, raízes, algas e carne de escorpião enorme, preparado para restaurar aventureiros. Efeitos: Na próxima noite de sono, aumenta a recuperação de PV e PM em +1 por nível. Ingredientes/requisitos: carne de monstro e 3 porções de cogumelos.",
+   "ingredientes": [
+    {
+     "nome": "Carne de monstro",
+     "qtd": 1
+    },
+    {
+     "nome": "Porção de cogumelos",
+     "qtd": 3
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "pavao-celestial",
+   "nome": "Pavão celestial",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +1d4 de bônus em testes de perícias baseadas em Inteligência, Sabedoria e Carisma.",
+   "descricao": "Feito de ave de caça marinada em vinho e acompanhada de um molho espesso de pêssegos e figos, este prato é extremamente elegante. Você recebe +1d4 de bônus em testes de perícias baseadas em Inteligência, Sabedoria e Carisma. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): açúcar das fadas, carne de caça, fruta (ingredientes T$ 85); Ofício (cozinheiro) CD 30; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Açúcar das fadas",
+     "qtd": 1
+    },
+    {
+     "nome": "Carne de caça",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    }
+   ],
+   "cd": 30,
+   "preco": 150
+  },
+  {
+   "id": "peixe-empanado",
+   "nome": "Peixe empanado",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Luta +1, Pontaria +1 e Vontade +1; CD 15.",
+   "descricao": "Receita adaptada para Tormenta20. Luta +1, Pontaria +1 e Vontade +1; CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 10
+  },
+  {
+   "id": "pizza",
+   "nome": "Pizza",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Comer uma pizza deixa-o pronto para encarar qualquer perigo: você recebe +1 em todos os testes de resistência.",
+   "descricao": "Um disco de massa coberto com molho de tomate e queijo, este prato foi criado por Guido Venusto, um nobre de Ahlen que queria ascender socialmente. Inepto nas artes da intriga, Venusto resolveu manipular a corte pela barriga. Funcionou — o prato foi um sucesso e o nobre teve muita influência por anos. Certa noite, um espião conseguiu roubar a receita. O segredo da pizza se espalhou e, sem seu trunfo, Venusto foi assassinado logo depois. Comer uma pizza deixa-o pronto para encarar qualquer perigo: você recebe +1 em todos os testes de resistência. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): farinha, fruta, queijo (ingredientes T$ 10); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Queijo",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 6
+  },
+  {
+   "id": "porco-deheoni",
+   "nome": "Porco deheoni",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +1 em testes de ataque corpo a corpo.",
+   "descricao": "Um prato típico e popular em Deheon, que já se alastrou pelo Reinado. Comer um porco assado deixa-o valente e brigão. Você recebe +1 em testes de ataque corpo a corpo. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): porco, fruta, legume (ingredientes T$ 12); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Porco",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 36
+  },
+  {
+   "id": "prato-do-aventureiro",
+   "nome": "Prato do aventureiro",
+   "tipo": "prato",
+   "fonte": "Livro Básico",
+   "efeito": "Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível.",
+   "descricao": "Cozido simples de galinha com legumes, pensado para sustentar aventureiros. Efeito: Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10. Receita (culinária avançada, Heróis de Arton p. 306): ave, legume (ingredientes T$ 5); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Ave",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    }
+   ],
+   "cd": 10,
+   "preco": 1
+  },
+  {
+   "id": "pao-de-bacon",
+   "nome": "Pão de bacon",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "10 PV temporários e +2 dano em críticos; CD 10.",
+   "descricao": "Receita adaptada para Tormenta20. 10 PV temporários e +2 dano em críticos; CD 10.",
+   "ingredientes": [],
+   "cd": 10,
+   "preco": 10
+  },
+  {
+   "id": "pao-de-queijo",
+   "nome": "Pão de queijo",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 em testes de Fortitude.",
+   "descricao": "Um bom pão de queijo deixa qualquer aventureiro bem nutrido e saudável. Você recebe +2 em testes de Fortitude. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): farinha, queijo (ingredientes T$ 7); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Queijo",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 10
+  },
+  {
+   "id": "queijo-da-torre",
+   "nome": "Queijo da Torre",
+   "tipo": "prato",
+   "fonte": "A Lenda de Ghanor",
+   "efeito": "10 porções, recupera 1d4 PM por porção.",
+   "descricao": "Esta peça gigante é feita com leite de ovelha, e tem um forte odor devido a seu processo de fermentação com fungos azuis. Possui o equivalente a 10 porções, sendo cada porção o necessário para uma pessoa se fartar de queijo mágico… E recuperar 1d4 PM. Benefício: 10 porções, recupera 1d4 PM por porção.",
+   "ingredientes": [
+    {
+     "nome": "Queijo",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "refeicao-completa-de-armadura-animada",
+   "nome": "Refeição Completa de Armadura Animada",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Escolha dois benefícios entre: +1 em Defesa; +1 em Atletismo e Reflexos; 5 PV temporários; ou 2 PM temporários.",
+   "descricao": "Banquete que utiliza moluscos de uma armadura animada em diferentes preparos. Efeitos: Escolha dois benefícios entre: +1 em Defesa; +1 em Atletismo e Reflexos; 5 PV temporários; ou 2 PM temporários. Ingredientes/requisitos: 4 moluscos de armadura animada.",
+   "ingredientes": [
+    {
+     "nome": "Molusco de armadura animada",
+     "qtd": 4
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "rubromel",
+   "nome": "Rubromel",
+   "tipo": "bebida",
+   "fonte": "Jornada Heroica",
+   "efeito": "+1 na recuperação de PV e PM para Lefous.",
+   "descricao": "O vinho é paradoxalmente doce e seco, agradando todos os paladares, além de ser vendido a um preço bastante justo, dada a sua procura. Produtores maiores já quiseram comprar a receita, mas Rubão, o criador, é categórico. “Se eu vender a receita, vai deixar de ser especial, melhor ficar assim mesmo.” Há um boato de que o lefou usaria magia da Tormenta na fabricação da bebida, bobagem já desmentida inúmeras vezes por ele. “Eu nem sei usar magia!”. O vinho funciona como um prato do aventureiro, e apenas para lefous, tem os efeitos cumulativos de prato do aventureiro e sopa de peixe. Benefício: +1 na recuperação de PV e PM para Lefous.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 10
+  },
+  {
+   "id": "salada-de-salistick",
+   "nome": "Salada de Salistick",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Uma alimentação leve, mas nutritiva, aumenta seu deslocamento em +1,5m.",
+   "descricao": "Com folhas e carne de frango, esta salada foi criada no Reino sem Deuses, onde a saúde é uma grande preocupação. Uma alimentação leve, mas nutritiva, aumenta seu deslocamento em +1,5m. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): ave, fruta, legume (ingredientes T$ 8); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Ave",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 4
+  },
+  {
+   "id": "salada-de-gengibre",
+   "nome": "Salada de gengibre",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Misticismo +2, Vontade +1 e 2 PM temporários; CD 15.",
+   "descricao": "Receita adaptada para Tormenta20. Misticismo +2, Vontade +1 e 2 PM temporários; CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 10
+  },
+  {
+   "id": "salada-imperial",
+   "nome": "Salada imperial",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +2 em testes de Iniciativa.",
+   "descricao": "Uma mistura de folhas com bacon e queijo, esta salada é leve, mas empolgante. Fornece +2 em testes de Iniciativa. Comida é melhor que XP… Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): porco, queijo, verdura (ingredientes T$ 15); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Porco",
+     "qtd": 1
+    },
+    {
+     "nome": "Queijo",
+     "qtd": 1
+    },
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 6
+  },
+  {
+   "id": "salada-elfica",
+   "nome": "Salada élfica",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece +1 em testes de ataque à distância.",
+   "descricao": "Esta salada vegetariana leva uma mistura de folhas, frutas e legumes. Segundo os relatos, a receita foi inventada em Lenórienn e passada aos reinos humanos de Lamnor, antes do isolamento dos povos. Felizmente, a salada se espalhou por Arton antes da queda do continente. Um prato leve e equilibrado, inspira disparos precisos. Fornece +1 em testes de ataque à distância. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): fruta, legume, verdura (ingredientes T$ 5); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    },
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 4
+  },
+  {
+   "id": "sashimi",
+   "nome": "Sashimi",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Uma refeição refinada, leve e equilibrada, fornece +2 em rolagens de dano à distância.",
+   "descricao": "Uma iguaria da culinária tamuraniana, este prato consiste de peixes e frutos do mar fatiados em pequenos pedaços e servidos com um molho do Império de Jade. Uma refeição refinada, leve e equilibrada, fornece +2 em rolagens de dano à distância. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): peixe, molho tamuraniano (ingredientes T$ 37); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Peixe",
+     "qtd": 1
+    },
+    {
+     "nome": "Molho tamuraniano",
+     "qtd": 1
+    }
+   ],
+   "cd": 25,
+   "preco": 60
+  },
+  {
+   "id": "sashimi-de-kraken",
+   "nome": "Sashimi de kraken",
+   "tipo": "prato",
+   "fonte": "Ameaças de Arton",
+   "efeito": "+2 em Diplomacia, +5 PM temporários.",
+   "descricao": "Esta iguaria exótica foi criada pelos maiores chefs de Tamu-ra. Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar. Benefício: +2 em Diplomacia, +5 PM temporários.",
+   "ingredientes": [
+    {
+     "nome": "Carne de Kraken",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 60
+  },
+  {
+   "id": "sidra-ahleniense",
+   "nome": "Sidra ahleniense",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma.",
+   "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 45
+  },
+  {
+   "id": "sidra-de-zibrene",
+   "nome": "Sidra de Zibrene",
+   "tipo": "bebida",
+   "fonte": "A Lenda de Ghanor",
+   "efeito": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícia originalmente baseadas em Carisma.",
+   "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícia originalmente baseadas em Carisma.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 17
+  },
+  {
+   "id": "sopa-leblanc",
+   "nome": "Sopa LeBlanc",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "Revigorante, espessa e com ingredientes variados até demais, a sopa LeBlanc concede +1 em um atributo qualquer por um dia.",
+   "descricao": "Uma antiga receita de família, a sopa LeBlanc é um prato especial desenvolvido há séculos pelos LeBlanc. Reza a tradição que a sopa só pode ser feita com a água que vem do poço dos LeBlanc. Revigorante, espessa e com ingredientes variados até demais, a sopa LeBlanc concede +1 em um atributo qualquer por um dia. Contudo, nos últimos anos a água do poço dos LeBlanc se tornou contaminada pela Tormenta. Qualquer um que tome a sopa tem horríveis pesadelos com a Tempestade Rubra e sofre –2 para resistir a quaisquer efeitos da Tormenta. Tomar a sopa 10 vezes elimina os pesadelos e dá um poder da Tormenta (que conta para a penalidade em Carisma, como normal) permanente.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "sopa-sombria",
+   "nome": "Sopa Sombria",
+   "tipo": "prato",
+   "fonte": "Jornada Heroica",
+   "efeito": "4d12 de dano por veneno ou 4d6 de dano de trevas (pode ser consumida por mortos-vivos).",
+   "descricao": "Em Sombria, o mundo de Tenebra, caso alguém se pergunte como plantas crescem, pode fazer um teste de Investigação ou Sobrevivência (CD 20). Se passar nota que estas não são plantas, mas cogumelos. São comestíveis, mas exigem um preparo especial. É possível cozinhá-los com um teste de Ofício (cozinheiro), contra CD 25. Em caso de falha, os cogumelos causam a perda de 4d12 pontos de vida por veneno. Como alternativa, também com um teste de Ofício (cozinheiro) contra CD 25, é possível prepará-los em uma sopa sombria que causa 4d6 pontos de dano de trevas e pode ser consumida por mortos-vivos. Benefício: 4d12 de dano por veneno ou 4d6 de dano de trevas (pode ser consumida por mortos-vivos).",
+   "ingredientes": [
+    {
+     "nome": "Cogumelos de Sombria",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 0
+  },
+  {
+   "id": "sopa-de-cebola-assada",
+   "nome": "Sopa de cebola assada",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Depois de consumido, fornece +3 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 10.",
+   "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +3 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 10.",
+   "ingredientes": [],
+   "cd": 10,
+   "preco": 10
+  },
+  {
+   "id": "sopa-de-cogumelos",
+   "nome": "Sopa de cogumelos",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Você recebe +2 em testes de Misticismo.",
+   "descricao": "Esta sopa expande sua percepção mística. Você recebe +2 em testes de Misticismo. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): cogumelo, legume, verdura (ingredientes T$ 7); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Cogumelo",
+     "qtd": 1
+    },
+    {
+     "nome": "Legume",
+     "qtd": 1
+    },
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 6
+  },
+  {
+   "id": "sopa-de-peixe",
+   "nome": "Sopa de peixe",
+   "tipo": "prato",
+   "fonte": "Livro Básico",
+   "efeito": "Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível.",
+   "descricao": "Cozido simples de peixe com verduras, associado a um descanso relaxante. Efeito: Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10. Receita (culinária avançada, Heróis de Arton p. 306): verdura, peixe (ingredientes T$ 8); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Verdura",
+     "qtd": 1
+    },
+    {
+     "nome": "Peixe",
+     "qtd": 1
+    }
+   ],
+   "cd": 10,
+   "preco": 1
+  },
+  {
+   "id": "sorvete",
+   "nome": "Sorvete",
+   "tipo": "prato",
+   "fonte": "Revista Tormenta20",
+   "efeito": "Concede 2 PM temporários que duram por um dia.",
+   "descricao": "Concede 2 PM temporários que duram por um dia.",
+   "ingredientes": [
+    {
+     "nome": "Leite",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "tako-yaki",
+   "nome": "Tako-yaki",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Vontade +2, 5 PV temporários e +2 dano em críticos; CD 20.",
+   "descricao": "Receita adaptada para Tormenta20. Vontade +2, 5 PV temporários e +2 dano em críticos; CD 20.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 10
+  },
+  {
+   "id": "tempura-de-mandragora-e-morcego-atroz",
+   "nome": "Tempura de Mandrágora e Morcego Atroz",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Recebe +2 em Fortitude e Vontade.",
+   "descricao": "Pedaços de carne e vegetal fritos por imersão, resultando em uma refeição crocante. Efeitos: Recebe +2 em Fortitude e Vontade. Ingredientes/requisitos: carne de monstro e 2 ovos de basilisco.",
+   "ingredientes": [
+    {
+     "nome": "Carne de monstro",
+     "qtd": 1
+    },
+    {
+     "nome": "Ovo de basilisco",
+     "qtd": 2
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "torta-de-planta-devoradora-de-homens",
+   "nome": "Torta de Planta Devoradora de Homens",
+   "tipo": "prato",
+   "fonte": "Dragão Brasil 199",
+   "efeito": "Recebe +2 em testes de perícias baseadas em Sabedoria.",
+   "descricao": "Torta feita com frutos e vegetais coletados de plantas carnívoras. Efeitos: Recebe +2 em testes de perícias baseadas em Sabedoria. Ingredientes/requisitos: 6 frutos de planta devoradora de homens.",
+   "ingredientes": [
+    {
+     "nome": "Fruto de planta devoradora de homens",
+     "qtd": 6
+    }
+   ],
+   "cd": null,
+   "preco": 0
+  },
+  {
+   "id": "torta-de-maca",
+   "nome": "Torta de maçã",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Se a lenda é verdade ou se maçãs são simplesmente saudáveis, ninguém sabe dizer, mas comer este prato fornece resistência a veneno +5.",
+   "descricao": "Dizem que, após uma bruxa usar uma maçã envenenada para matar uma princesa, Thantalla-Dhaedelin, a Rainha das Fadas, decretou que maçãs nunca mais fariam mal a ninguém. Se a lenda é verdade ou se maçãs são simplesmente saudáveis, ninguém sabe dizer, mas comer este prato fornece resistência a veneno +5. Efeito dura 1 dia; só um bônus de alimentação por dia. Receita (culinária avançada, Heróis de Arton p. 306): farinha, fruta (ingredientes T$ 4); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
+   "ingredientes": [
+    {
+     "nome": "Farinha",
+     "qtd": 1
+    },
+    {
+     "nome": "Fruta",
+     "qtd": 1
+    }
+   ],
+   "cd": 20,
+   "preco": 2
+  },
+  {
+   "id": "torta-de-nozes",
+   "nome": "Torta de nozes",
+   "tipo": "prato",
+   "fonte": "Material Adicional da Dragão Brasil",
+   "efeito": "Misticismo +4 e 5 PM temporários; CD 20.",
+   "descricao": "Receita adaptada para Tormenta20. Misticismo +4 e 5 PM temporários; CD 20.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 10
+  },
+  {
+   "id": "treckodimm",
+   "nome": "Treckodimm",
+   "tipo": "prato",
+   "fonte": "Revista Tormenta20",
+   "efeito": "+2 resistência a cansaço.",
+   "descricao": "Esse doce tradicional é feito com uma mistura de mel, farinha de grão-de-bico e polpa de treckod. É servido usando a casca da fruta como prato. Revigorante, fornece resistência a cansaço +2. Benefício: +2 resistência a cansaço.",
+   "ingredientes": [
+    {
+     "nome": "Cereal",
+     "qtd": 1
+    },
+    {
+     "nome": "Treckod",
+     "qtd": 1
+    }
+   ],
+   "cd": null,
+   "preco": 10
+  },
+  {
+   "id": "vinho-pruss",
+   "nome": "Vinho Pruss",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "Fornece 3 PM temporários.",
+   "descricao": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15.",
+   "ingredientes": [],
+   "cd": 15,
+   "preco": 60
+  },
+  {
+   "id": "vinho-da-floresta-alta",
+   "nome": "Vinho da Floresta Alta",
+   "tipo": "bebida",
+   "fonte": "A Lenda de Ghanor",
+   "efeito": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas magias.",
+   "descricao": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas magias.",
+   "ingredientes": [],
+   "cd": null,
+   "preco": 50
+  },
+  {
+   "id": "vinho-elfico",
+   "nome": "Vinho élfico",
+   "tipo": "prato",
+   "fonte": "Heróis de Arton",
+   "efeito": "De sabor complexo, aguça a prejudiciais de itens ingeríveis (como mente, fornecendo +1 na CD para resistir a suas pelo poder Vida Rústica) pode abrir mão habilidades.",
+   "descricao": "De sabor complexo, aguça a prejudiciais de itens ingeríveis (como mente, fornecendo +1 na CD para resistir a suas pelo poder Vida Rústica) pode abrir mão habilidades. CD 20. dessa imunidade ao beber para receber os benefícios da bebida.",
+   "ingredientes": [],
+   "cd": 20,
+   "preco": 90
+  }
+ ]
+}

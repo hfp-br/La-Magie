@@ -4672,6 +4672,15 @@ body.editing
 
   <div class="section-title">Obsidiana</div>
 
+  <a
+    id="reknoCozinhaLink"
+    class="rekno-cozinha-link"
+    href="cozinha.html"
+    target="_blank"
+    rel="noopener"
+    hidden
+  >🍲 Cozinha do Deserto</a>
+
   <div class="feature-editor-header">
     <button
       id="addObsidianFeature"
@@ -5604,6 +5613,8 @@ async function fazerLogout() {
 
     FICHA_ID =
         null;
+
+    window.atualizarLinkCozinha?.();
 
 
     const toggle =
@@ -9023,6 +9034,8 @@ else {
 
     FICHA_ID =
         data.id;
+
+    window.atualizarLinkCozinha?.();
 
     currentFichaOwnerId =
         data.owner_id;
@@ -21710,4 +21723,22 @@ window.AcoesTurno?.ligarFicha({
   fichaId: () => (typeof FICHA_ID !== "undefined" ? FICHA_ID : null),
   dono: () => (typeof isOwner !== "undefined" ? Boolean(isOwner) : false)
 });
+</script>
+<style>
+.rekno-cozinha-link{
+  display:inline-flex;align-items:center;gap:6px;margin:0 0 12px;
+  padding:7px 14px;border-radius:999px;
+  background:linear-gradient(180deg,#ffd37a,#f0b43c);color:#2b1a05;
+  font-weight:bold;text-decoration:none;box-shadow:0 3px 0 #a8701b;
+}
+.rekno-cozinha-link[hidden]{display:none}
+.rekno-cozinha-link:hover{filter:brightness(1.05)}
+</style>
+<script>
+/* Botão da Cozinha do Deserto: só aparece na ficha do Rek'No. */
+window.atualizarLinkCozinha = function(){
+  const a = document.getElementById("reknoCozinhaLink");
+  if (a) a.hidden = !(typeof FICHA_ID !== "undefined" && FICHA_ID === "rekno");
+};
+atualizarLinkCozinha();
 </script>
