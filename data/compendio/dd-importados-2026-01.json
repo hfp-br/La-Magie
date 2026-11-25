@@ -1009,7 +1009,7 @@
         "arma",
         "marcial"
       ],
-      "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 perfurante. Propriedades: Alcance, especial.",
+      "descricao": "Você tem desvantagem quando usar a lança longa para atacar um alvo a até 1,5 metro de você. Além disso, uma lança longa requer as duas mãos para ser empunhada quando você não está em uma montaria. Dano: 1d12 perfurante. Propriedades: Alcance, especial.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -1033,7 +1033,8 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-arma-lanca-longa",
@@ -1667,7 +1668,7 @@
         "arma",
         "marcial"
       ],
-      "descricao": "Arma marcial (distância). Dano: –. Propriedades: Especial, arremesso (distância 1,5/4,5).",
+      "descricao": "Uma criatura Grande ou menor atingida por uma rede fica impedida até se libertar. Uma rede não afeta criaturas que não possuam uma forma definida, ou criaturas Enormes ou maiores. A criatura pode usar sua ação para realizar um teste de Força CD 10 para se libertar, ou outra criatura dentro do alcance que obtiver sucesso no teste pode fazer isso por ela. Causar 5 de dano cortante à rede (CA 10) também liberta a criatura sem feri-la, encerrando o efeito e destruindo a rede. Quando você usa uma ação, ação bônus, ou reação para atacar com a rede, você pode realizar apenas um ataque, independentemente do número de ataques que você possa realizar normalmente. Propriedades: Especial, arremesso (distância 1,5/4,5).",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -1691,7 +1692,8 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-arma-zarabatana",
@@ -1759,13 +1761,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "O ábaco é um instrumento de cálculo, formado por uma moldura com bastões ou arames paralelos, dispostos no sentido vertical, correspondentes cada um a uma posição digital (unidades, dezenas, etc.) e nos quais estão os elementos de contagem (fichas, bolas ou contas) que podem fazer-se deslizar livremente. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-acido-vidro",
@@ -1787,7 +1790,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Ataque improvisado com o frasco: 2d6 de dano ácido em caso de acerto.",
+      "descricao": "Usando uma ação, você pode despejar o conteúdo desse vidro em uma criatura a até 1,5 metro de você, ou arremessar o vidro a até 6 metros de distância, quebrando-o no impacto. Em ambos os casos, você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Se acertar, o alvo sofre 2d6 de dano ácido.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -1799,7 +1802,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-agua-benta-frasco",
@@ -1821,7 +1825,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Pode causar 2d6 de dano radiante a corruptores e mortos-vivos ao acertar.",
+      "descricao": "Usando uma ação, você pode espalhar o conteúdo desse frasco em uma criatura a até 1,5 metro de você ou arremessar a até 6 metros, quebrando o frasco com o impacto. Em ambos os casos, você deve realizar um ataque à distância contra uma criatura alvo, tratando a água benta como uma arma improvisada. Se o alvo for um corruptor ou morto-vivo, ele sofre 2d6 de dano radiante. Um clérigo ou paladino pode criar água benta realizando um ritual especial. O ritual leva 1 hora para ser realizado, consome 25 po de prata em pó e exige que se gaste um espaço de magia de 1º nível. Pode causar 2d6 de dano radiante a corruptores e mortos-vivos ao acertar.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -1833,7 +1837,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-algemas",
@@ -1854,13 +1859,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Prendem criatura Pequena ou Média; libertar-se ou quebrá-las exige testes de atributo.",
+      "descricao": "Essas algemas de metal podem prender uma criatura Pequena ou Média. Escapar das algemas exige sucesso em um teste de Destreza CD 20. Quebrá-las exige um teste de Força CD 20 bem sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura das algemas com um sucesso em um teste de Destreza CD 15. As algemas têm 15 pontos de vida.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-algibeira",
@@ -1881,13 +1887,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Uma bolsa de pano ou couro que pode armazenar até 20 munições de funda ou 50 munições de zarabatana, entre outras coisas. Para armazenar componentes de magia, veja bolsa de componentes, também descrita nessa seção. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-aljava",
@@ -1963,7 +1970,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Concede vantagem em salvaguardas contra veneno durante 1 hora; não afeta constructos nem mortos-vivos.",
+      "descricao": "Uma criatura que beber o líquido desse vidro tem vantagem em testes de resistência contra venenos por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -1975,7 +1982,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-apito-de-advertencia",
@@ -2023,13 +2031,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Ajuda a arrombar portas: +4 em teste de Força e pode receber ajuda.",
+      "descricao": "Você pode usar um aríete portátil para quebrar portas. Ao fazer isso, você ganha um bônus de +4 no teste de Força. Outra criatura pode ajudá-lo a usar o aríete, o que concede vantagem no teste.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-armadilha-de-caca",
@@ -2050,13 +2059,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Quando você usa sua ação para armá-la, essa armadilha forma um anel de aço com dentes serrilhados. Eles se fecham quando uma criatura pisa sobre uma placa de pressão no seu centro. A armadilha é fixada por uma pesada corrente em um objeto fixo e imóvel, como uma árvore ou um cravo enterrado no chão. Uma criatura que pisar na placa de pressão deve ser bem sucedida em um teste de resistência de Destreza CD 13 ou sofrerá 1d4 de dano perfurante e para de se mover. Daí em diante, até que a criatura se liberte da armadilha, seu movimento é limitado ao comprimento da corrente (tipicamente 1 metro de comprimento). A criatura presa pode usar sua ação para fazer um teste de Força CD 13 e se libertar, ou outra criatura no alcance pode fazer o teste para libertá-la. Cada fracasso no teste causa 1 de dano perfurante à criatura presa. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-arpeu",
@@ -2104,13 +2114,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Trata-se de uma pequena balança, pratos e um sortimento adequado de pesos de até 1 kg. Com ela, você pode medir o peso exato de pequenos objetos, como metais preciosos brutos ou bens comerciais, para ajudar a determinar seu valor. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-balde",
@@ -2212,13 +2223,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Trata-se de uma pequena bolsa de couro à prova d'água que pode ser fixada em um cinto. Ela possui compartimentos para armazenar todos os componentes materiais e outros itens especiais que você precisa para lançar suas magias, exceto os componentes que possuem um custo específico (conforme indicado na descrição da magia). Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-caixa-de-fogo",
@@ -2239,13 +2251,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Esse pequeno recipiente detém uma pederneira, isqueiro e um pavio (um pano geralmente seco embebido em óleo) usado para acender uma fogueira. Usá-lo para acender uma tocha – ou qualquer outra coisa exposta a um combustível abundante – leva uma ação. Acender qualquer outro fogo leva 1 minuto Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-caneca",
@@ -2455,13 +2468,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Uma corrente possui 10 pontos de vida e pode ser arrebentada com um teste de Força CD 20 bem sucedido. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-equipamento-de-pescaria",
@@ -2482,13 +2496,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Este kit inclui uma vara de pesca de madeira, linha de seda, boias de cortiça, anzóis de aço, chumbadas, iscas e redes de pesca. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-escada-3-metros",
@@ -2590,13 +2605,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Usando uma ação, você pode espalhar um único saco de estrepes para cobrir a área de um quadrado de 1,5 metro de lado. Qualquer criatura que entrar na área deve ser bem sucedida em um teste de resistência de Destreza CD 15. Se falhar, para de se mover e sofre 1 de dano perfurante. Até que a criatura recupere pelo menos 1 ponto de vida, seu deslocamento de caminhada é reduzido em 3 metros. Uma criatura que se mover pela área usando metade do seu deslocamento não precisa fazer o teste de resistência. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-fechadura",
@@ -2617,13 +2633,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "A fechadura vem com chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura com um sucesso em um teste de Destreza CD 15. O Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais elevados. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-bastao",
@@ -2888,7 +2905,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Substância incendiária arremessável que continua queimando até ser apagada.",
+      "descricao": "Esse líquido pegajoso e adesivo inflama em contado com o ar. Usando uma ação, você pode arremessar esse frasco a até 6 metros de distância, quebrando-o com o impacto. Você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o fogo alquímico como uma arma improvisada. Em um sucesso, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode terminar esse dano usando sua ação e fazendo um teste de Destreza CD 10 para apagar as chamas.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -2900,7 +2917,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-frasco",
@@ -3002,13 +3020,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-jarra",
@@ -3056,13 +3075,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Um kit de escalada inclui pítons especiais, botas com solas pontiagudas, luvas e um cinto. Você pode usar o kit de escalada como uma ação para \"ancorar-se\". Quando faz isso, você não pode cair mais de 7,5 metros a partir do ponto onde se ancorou, e não pode subir mais de 7,5 metros de distância desse ponto, sem desfazer a âncora. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-kit-de-primeiros-socorros",
@@ -3083,13 +3103,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Material médico usado para estabilizar criaturas feridas.",
+      "descricao": "Esse kit é uma bolsa de couro contendo ataduras, pomadas e talas. O kit possui material suficiente para dez usos. Usando uma ação, você pode gastar um uso do kit para estabilizar uma criatura que tenha 0 pontos de vida, sem a necessidade de realizar um teste de Sabedoria (Medicina).",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-lampada",
@@ -3110,13 +3131,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Uma lâmpada lança luz plena em um raio de 4,5 metros e penumbra por mais 9 metros. Uma vez acesa, a lâmpada queima por 6 horas usando um frasco de óleo (500 ml). Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-lanterna-coberta",
@@ -3137,13 +3159,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Uma lanterna coberta lança luz plena em um raio de 9 metros e penumbra por mais 9 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500 ml). Usando uma ação, você pode abaixar a cobertura, reduzindo a claridade para penumbra em um raio de 1,5 metro. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-lanterna-furta-fogo",
@@ -3164,13 +3187,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Uma lanterna furta-fogo lança luz plena em um cone de 18 metros e penumbra por mais 18 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500 ml). Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-lente-de-aumento",
@@ -3191,13 +3215,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Essa lente permite ver pequenos objetos mais de perto. Ela também é útil como um substituto da pederneira e isqueiro para acender fogo. Usar uma lupa para acender fogo necessita de luz tão brilhante como a luz do sol para focar, um pavio e cerca de 5 minutos. Uma lente de aumento concede vantagem em qualquer teste de habilidade feito para avaliar ou inspecionar um item que é pequeno ou muito detalhado. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-livro",
@@ -3218,13 +3243,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Um livro pode conter poesia, relatos históricos, informações relativas a um campo particular de sabedoria, diagramas e notas sobre engenhocas gnômicas, ou qualquer outra coisa que possa ser representada usando texto ou imagens. Um livro com magias é um grimório, também descrito nessa seção. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-luneta",
@@ -3488,13 +3514,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Geralmente vem em um frasco de argila que contém 500 ml. Usando uma ação, você pode espirrar o óleo desse frasco em uma criatura a até 1,5 metro de você ou arremessar a até 6 metros, quebrando-o com o impacto. Você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o óleo como uma arma improvisada. Com um sucesso, o alvo é coberto de óleo. Se o alvo sofrer qualquer dano flamejante antes do óleo secar (depois de 1 minuto), a criatura sofre 5 de dano flamejante adicional pela queima do óleo. Você também pode derramar um frasco de óleo no chão para cobrir uma área de um quadrado de 1,5 metro de lado, desde que a superfície esteja nivelada. Se aceso, o óleo queima por 2 rodadas e causa 5 de dano flamejante a qualquer criatura que entrar na área ou terminar seu turno dentro da área. Uma criatura pode sofrer esse dano apenas uma vez por turno. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-pa",
@@ -3623,13 +3650,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Usar um pé de cabra concede vantagem nos testes de Força onde uma alavanca possa ser aplicada. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-pedra-de-amolar",
@@ -3786,7 +3814,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Restaura 2d4 + 2 pontos de vida ao ser bebida.",
+      "descricao": "Um personagem que beber o líquido vermelho mágico deste frasco recupera 2d4+2 pontos de vida. Beber ou administrar uma poção exige uma ação.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -3798,7 +3826,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-porta-mapas-ou-pergaminhos",
@@ -3819,13 +3848,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Esse estojo cilíndrico de couro pode armazenar até 10 folhas de papel enroladas ou 5 folhas de pergaminhos enroladas. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-porta-virotes",
@@ -3901,7 +3931,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Alimento não perecível para sustento durante um dia de viagem.",
+      "descricao": "Rações de viajem consistem em alimentos desidratados adequados para viagens longas, incluindo carne seca, frutas secas, bolachas e nozes.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -3913,7 +3943,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-robes",
@@ -3961,13 +3992,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a roldana e polia permitem içar até quatro vezes o peso que você ergueria normalmente. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-roupas-comuns",
@@ -4339,13 +4371,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Fornece iluminação e pode ser usada como fonte de fogo.",
+      "descricao": "A tocha queima por 1 hora, fornecendo luz plena em um raio de 6 metros e penumbra por mais 6 metros. Se você realizar um ataque corpo-a-corpo com uma tocha acesa e acertar, causa 1 de dano flamejante.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-tinta-frasco-de-30ml",
@@ -4420,13 +4453,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Por uma hora, a vela emana luz plena em um raio de 1,5 metro e penumbra por mais 1,5 metro. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-equipamento-veneno-basico-frasco",
@@ -4448,7 +4482,7 @@
         "livro do jogador 2014",
         "consumivel"
       ],
-      "descricao": "Equipamento de aventura. ",
+      "descricao": "Você pode usar o veneno contido nesse vidro para cobrir a lâmina de uma arma cortante ou perfurante ou até três peças de munição. Aplicar o veneno leva uma ação. Uma criatura atingida pela arma ou munição envenenada deve obter sucesso em um teste de resistência de Constituição CD 10 ou sofrerá 1d4 de dano de veneno. Uma vez aplicado, o veneno retém sua potência durante 1 minuto antes de secar. Equipamento de aventura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4460,7 +4494,8 @@
       "categorias": [
         "equipamento",
         "consumivel"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-acolchoada",
@@ -4515,7 +4550,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: –.",
+      "descricao": "O peitoral e as ombreiras da armadura de couro são feitos de couro que foi endurecido após ser fervido em óleo. O resto da armadura é feita de materiais mais macios e mais flexíveis. Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: –.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4526,7 +4561,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-couro-batido",
@@ -4581,7 +4617,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura média. CA: 12 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "descricao": "Um gibão de peles é um armadura bruta consistindo de peles grossas. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar uma armadura melhor. Proteção armadura média. CA: 12 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4592,7 +4628,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-camisao-de-malha",
@@ -4614,7 +4651,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura média. CA: 13 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "descricao": "Feito de anéis de metal intercalados, um camisão de cota de malha é usado entre as camadas de roupa. Essa armadura oferece proteção modesta para a parte superior do corpo de quem a usa e permite que o som dos anéis de metal, friccionados uns contra os outros, sejam amortecidos pelas camadas exteriores. CA: 13 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4625,7 +4662,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-brunea",
@@ -4647,7 +4685,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
+      "descricao": "Essa armadura consiste em um casaco e calças (e talvez uma saia separada) de couro coberto com peças sobrepostas de metal, assim como as escamas de peixe. O conjunto inclui manoplas. Proteção armadura média. CA: 14 + modificador de Des (máx. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4658,7 +4696,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-peitoral",
@@ -4680,7 +4719,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura média. CA: 14 + modificador de Des (máx. +2). Força mínima: –. Furtividade: –.",
+      "descricao": "A armadura peitoral é constituída por um peitoral de metal usado com couro flexível em seu interior. Embora ele deixe as pernas e braços do usuário relativamente desprotegidos, essa armadura fornece boa proteção para seus órgãos vitais, deixando quem a usa relativamente sem restrições. CA: 14 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4691,7 +4730,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-meia-armadura",
@@ -4713,7 +4753,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura média. CA: 15 + modificador de Des (máx. +2). Força mínima: –. Furtividade: Desvantagem.",
+      "descricao": "Essa armadura é composta de placas de metal moldadas que cobrem a maior parte do corpo. Ela não inclui proteção para as pernas além de caneleiras fixadas com tiras de couro. CA: 15 + modificador de Des (máx. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4724,7 +4764,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-cota-de-aneis",
@@ -4746,7 +4787,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura pesada. CA: 14. Força mínima: –. Furtividade: Desvantagem.",
+      "descricao": "Esta armadura é feita de couro com pesados anéis presos a ela. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machados. A cota de anéis é inferior à cota de malha e geralmente é vestida apenas por aqueles que não podem pagar por uma armadura melhor. Proteção armadura pesada. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4757,7 +4798,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-cota-de-malha",
@@ -4779,7 +4821,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura pesada. CA: 16. Força mínima: For 13. Furtividade: Desvantagem.",
+      "descricao": "Feita de anéis de metal entrelaçados, a cota de malha inclui uma camada de tecido acolchoado usada por baixo da malha de metal para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui manoplas. Proteção armadura pesada. Força mínima: For 13. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4790,7 +4832,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-cota-de-talas",
@@ -4812,7 +4855,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura pesada. CA: 17. Força mínima: For 15. Furtividade: Desvantagem.",
+      "descricao": "Essa armadura é feita de tiras verticais de metal, rebitadas a um suporte de couro, usadas sobre um preenchimento de pano. Cotas de malha flexíveis protegem as articulações. Proteção armadura pesada. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4823,7 +4866,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-armadura-placas",
@@ -4845,7 +4889,7 @@
         "livro do jogador 2014",
         "armadura"
       ],
-      "descricao": "Proteção armadura pesada. CA: 18. Força mínima: For 15. Furtividade: Desvantagem.",
+      "descricao": "A armadura de placas consiste em placas de metal moldadas para cobrir todo o corpo. Inclui luvas, botas de couro pesadas, um capacete com viseira e espessas camadas de enchimento por baixo da armadura. Fivelas e tiras de couro distribuem o peso ao longo do corpo. Proteção armadura pesada. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
@@ -4856,7 +4900,8 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-kit-de-disfarce",
@@ -4878,14 +4923,15 @@
         "livro do jogador 2014",
         "ferramenta"
       ],
-      "descricao": "Cosméticos, tintura de cabelo e pequenos adereços para mudar sua aparência, além de algumas roupas. Com proficiência, você adiciona seu bônus de proficiência a testes para criar um disfarce visual.",
+      "descricao": "Essa bolsa de cosméticos, tintura de cabelo e pequenos adereços permite criar disfarces que mudam sua aparência física. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar um disfarce visual.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-kit-de-falsificacao",
@@ -4907,14 +4953,15 @@
         "livro do jogador 2014",
         "ferramenta"
       ],
-      "descricao": "Papéis, pergaminhos, canetas, tintas, selos e lacres para criar falsificações convincentes de documentos. Com proficiência, você adiciona seu bônus de proficiência a testes para falsificar um documento.",
+      "descricao": "Essa pequena caixa contém uma variedade de papéis e pergaminhos, canetas e tintas, selos e lacres, folha de ouro e prata, e outros suprimentos necessários para criar falsificações convincentes de documentos físicos. Proficiência com esse kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar uma falsificação de um documento físico.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ladrao",
@@ -4936,14 +4983,15 @@
         "livro do jogador 2014",
         "ferramenta"
       ],
-      "descricao": "Inclui uma pequena lima, gazuas, um pequeno espelho com cabo de metal, tesouras de lâmina estreita e um par de alicates. Com proficiência, você adiciona seu bônus de proficiência a testes para desarmar armadilhas ou abrir fechaduras.",
+      "descricao": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-carpinteiro",
@@ -5197,14 +5245,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Permite escrever usando a ponta do dedo como caneta inesgotável e ocultar uma página de texto por 24 horas para todos exceto duas criaturas designadas.",
+      "descricao": "Item maravilhoso (tatuagem), comum (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica apresenta uma bela caligrafia, imagens de instrumentos de escrita e similares. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Escrita mágica. Enquanto esta tatuagem estiver na sua pele, você pode escrever com a ponta do dedo como se fosse uma pena de tinta inesgotável. Como uma ação, você pode tocar um texto de até uma página e dizer o nome de uma criatura: a escrita fica invisível para todos, exceto você e a criatura nomeada, pelas próximas 24 horas. Qualquer um de vocês pode desfazer a invisibilidade tocando o texto (nenhuma ação necessária). Depois de usada, esta ação só pode ser usada de novo no próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "comum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-mascarada",
@@ -5226,14 +5275,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem mutável, cuja aparência pode ser alterada; permite conjurar Disfarçar-se uma vez por amanhecer.",
+      "descricao": "Item maravilhoso (tatuagem), comum (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica aparece no seu corpo do jeito que você desejar. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Tinta fluida. Como uma ação bônus, você pode moldar a tatuagem em qualquer cor ou padrão e movê-la para qualquer área da sua pele. Qualquer que seja a forma, ela sempre é obviamente uma tatuagem, e pode ir do tamanho de uma moeda de cobre até uma obra de arte intrincada que cobre toda a sua pele. Disfarçar-se. Como uma ação, você pode usar a tatuagem para conjurar disfarçar-se (CD 13 para perceber o disfarce). Depois de conjurada pela tatuagem, a magia só pode ser conjurada dela de novo no próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "comum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-membro-protetico",
@@ -5255,14 +5305,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Prótese mágica que substitui um membro perdido e funciona como parte natural do corpo enquanto estiver conectada.",
+      "descricao": "Item maravilhoso, comum Este item substitui um membro perdido - uma mão, um braço, um pé, uma perna ou uma parte do corpo semelhante. Enquanto a prótese é fixada, ela funciona de forma idêntica à peça que substitui. Você pode destacá-lo ou reconectá-lo como uma ação e não pode ser removido contra sua vontade. Ele se desprende se você morrer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "comum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-de-feitico",
@@ -5284,14 +5335,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem de uso único que contém uma magia de até 5º círculo; após conjurar o efeito, desaparece.",
+      "descricao": "Item maravilhoso (tatuagem), raridade variável. Produzida por uma agulha especial, esta tatuagem mágica contém uma única magia de até 5º nível. Para usá-la, você segura a agulha contra a pele e fala a palavra de comando; a agulha se transforma na tinta da tatuagem, que aparece na pele com o desenho que você quiser. Com a tatuagem na pele, você pode conjurar a magia dela sem precisar de componentes materiais. A tatuagem brilha fracamente durante a conjuração e enquanto a magia durar; quando a magia termina, a tatuagem desaparece. O nível da magia determina a raridade, o modificador de conjuração, a CD e o bônus de ataque: truque ou 1º nível, comum (+3, CD 13, ataque +5); 2º nível, incomum (+3, CD 13, +5); 3º nível, incomum (+4, CD 15, +7); 4º nível, raro (+4, CD 15, +7); 5º nível, raro (+5, CD 17, +9).",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "comum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-ferramenta-multifuncional",
@@ -5371,14 +5423,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Grimório que serve de foco arcano e oferece bônus a ataques e CDs de magias de mago; permite recuperar uma utilização de Recuperação Arcana.",
+      "descricao": "Item maravilhoso, incomum (+ l), raro (+2), muito raro (+3) (requer sintonização por um mago) Enquanto você estiver segurando este livro encadernado em couro, você pode usá-lo como um foco de lançamento de feitiços para seus feitiços de mago, e você ganha um bônus para jogadas de ataque de feitiço e para a CD de teste de resistência de seus feitiços de mago. O bônus é determinado pela raridade do livro. Você pode usar este livro como um livro de feitiços. Além disso, quando você usa o recurso de ecuperação Arcana pode aumentar em 1 o número de níveis de espaços de magia que você recupera.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-barreira",
@@ -5400,14 +5453,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem protetora cuja raridade determina a Classe de Armadura que concede enquanto o portador não utiliza armadura.",
+      "descricao": "Item maravilhoso (tatuagem), raridade variável (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica retrata imagens protetoras e usa uma tinta que lembra metal líquido. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Proteção. Enquanto você não estiver usando armadura, a tatuagem concede uma Classe de Armadura de acordo com a raridade: incomum, 12 + seu modificador de Destreza; rara, 15 + seu modificador de Destreza (máximo +2); muito rara, 18. Você pode usar um escudo e ainda receber esse benefício.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-frasco-de-sangue",
@@ -5429,14 +5483,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Foco arcano para feiticeiros que melhora ataques e CDs de magias; permite recuperar pontos de feitiçaria após gastar Dados de Vida.",
+      "descricao": "Item maravilhoso, incomum (+1), raro (+2), muito raro (+3) (requer sintonização por um feiticeiro) Para sintonizar este frasco, você deve colocar algumas gotas de seu sangue nele. O frasco não pode ser aberto enquanto durar a sua sintonização. Se sua sintonização com o frasco terminar, o sangue contido se transforma em cinzas. Você pode usar o frasco como um foco de lançamento de feitiços para seus feitiços enquanto o usa ou segura, e você ganha um bônus para jogadas de ataque de feitiço e para as CDs de teste de resistência de seus feitiços de feiticeiro. O bônus é determinado pela raridade do frasco. Além disso, quando você rola qualquer Dado de Vida para recuperar pontos de vida enquanto carrega o frasco, você pode recuperar 5 pontos de feitiçaria. Esta propriedade do frasco não pode ser usada novamente até o próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-garra-mistica",
@@ -5458,14 +5513,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem que transforma ataques desarmados em mágicos e melhora sua eficácia; pode projetar golpes à distância por tempo limitado.",
+      "descricao": "Item maravilhoso (tatuagem), incomum (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica representa garras e outras formas irregulares. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Golpes mágicos. Enquanto a tatuagem estiver na sua pele, seus ataques desarmados contam como mágicos para superar resistência e imunidade a ataques não mágicos, e você recebe +1 nas jogadas de ataque e de dano com ataques desarmados. Malho místico. Como ação bônus, você pode ativar a tatuagem por 1 minuto. Durante esse tempo, cada ataque corpo a corpo com arma ou ataque desarmado pode atingir um alvo a até 4,5 metros de você, enquanto tentáculos de tinta se lançam em direção a ele, e seus ataques corpo a corpo causam 1d6 de dano de energia extra ao acertar. Depois de usada, esta ação bônus só pode ser usada de novo no próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-fragmento-de-feywild",
@@ -5487,14 +5543,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Fragmento feérico usado como foco de feiticeiro; ativar Metamagia provoca um efeito mágico aleatório relacionado à Agrestia das Fadas.",
+      "descricao": "Item maravilhoso, incomum (requer sintonização por um feiticeiro) Este cristal quente brilha com as cores do pôr do sol no céu da Agrestia das Fadas e evoca sussurros de memória emocional. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma joia) ou destacálo. Ele cai se sua sintonia com ele terminar. Você pode usar o fragmento como um foco de lançamento de feitiços enquanto o segura ou usa. Quando você usa uma Metamagia em um feitiço enquanto segura ou usa o fragmento, você pode rolar na tabela Surto de Magia Selvagem no Livro do Jogador. Se o resultado for um feitiço, ele é muito selvagem para ser afetado por sua Metamágia, e se normalmente requer concentração, não requer concentração neste caso; o feitiço dura por toda a duração. Se você não tiver a Origem de Feitiçaria: Magia Selvagem, uma vez que esta propriedade é usada para rolar na tabela Surto de Magia Selvagem, ela não pode ser usada novamente até o próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-emblema-do-guardiao",
@@ -5516,14 +5573,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Insígnia protetora usada por paladino ou clérigo que permite anular um acerto crítico recebido, dentro dos limites de uso do item.",
+      "descricao": "Item maravilhoso (símbolo sagrado), incomum (requer sintonização por um clérigo ou paladino) Este emblema é o símbolo de uma divindade ou tradição espiritual. Como uma ação, você pode anexar o emblema a uma armadura ou escudo ou removê-lo. O emblema tem 3 cargas. Quando você ou uma criatura que você pode ver a 9 metros de você sofre um acerto crítico enquanto você está vestindo a armadura ou empunhando o escudo que carrega o emblema, você pode usar sua reação para gastar 1 carga para transformar o acerto crítico em normal em vez disso. O emblema recupera todas as cargas gastas diariamente ao amanhecer. Ferramenta para Todos os Fins Item maravilhoso, incomum (+ l), raro (+2), muito raro (+3) (requer sintonização por um artífice) Esta chave de fenda simples pode se transformar em uma variedade de ferramentas; como uma ação, você pode tocar o item e transformá-lo em qualquer tipo de ferramenta de artesão de sua escolha (veja o capítulo \"Equipamento\" no Livro do Jogador para uma lista de ferramentas de artesão). Seja qual for a forma da ferramenta, você é proficiente com ela. Enquanto segura esta ferramenta, você ganha um bônus nas jogadas de ataque de feitiço e nas CDs de teste de resistência de seu feitiços de artífice. O bônus é determinado pela raridade da ferramenta. Como uma ação, você pode se concentrar na ferramenta para canalizar suas forças criativas. Escolha um truque que você não conhece em qualquer lista de classe. Por 8 horas, você pode lançar esse truque, e ele conta como um truque do artífice para você. Uma vez que esta propriedade é usada, ela não pode ser usada novamente até o próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-foice-da-lua",
@@ -5545,14 +5603,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Foice mágica para druida ou patrulheiro; acrescenta bônus a ataques, dano e magias, funcionando também como foco de conjuração.",
+      "descricao": "Arma (foice), incomum (+1), rara (+2), muito rara (+3) (requer sintonização por um druida ou ranger) Esta foice com lâmina de prata brilha suavemente com o luar. Enquanto segura esta arma mágica, você ganha um bônus de ataque e jogadas de dano feitas com ele, e você ganha um bônus para jogadas de ataque de feitiço e as CDs de teste de resistência de seus feitiços de druida e ranger. O bônus é determinado pela raridade da arma. Além disso, você pode usar a foice como um foco de lançamento de feitiços para suas magias de druida e ranger.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-manto-da-natureza",
@@ -5574,14 +5633,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Manto para druida ou patrulheiro que serve como foco mágico e pode ocultar o portador com maior facilidade em ambientes naturais.",
+      "descricao": "Item maravilhoso, incomum (requer sintonização por um druida ou ranger) Este manto muda de cor e textura para se misturar com o terreno ao seu redor. Enquanto estiver vestindo a capa, você pode usá-la como um foco de conjuração para suas magias de druida e ranger. Enquanto estiver em uma área levemente obscurecida, você pode Esconder-se como uma ação bônus mesmo se estiver sendo observado diretamente.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tambor-fabricante-de-ritmo",
@@ -5603,14 +5663,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tambor mágico que aprimora jogadas de ataque mágico e CDs das magias de bardo e permite recuperar um uso de Inspiração de Bardo.",
+      "descricao": "Item maravilhoso, incomum (+ 1), raro (+2), muito raro (+3) (requer sintonização por um bardo) Enquanto segura este tambor, você ganha um bônus nas jogadas de ataque de feitiço e nas CDs de teste de resistência de seus feitiços de bardo. O bônus é determinado pela raridade do tambor. Como uma ação, você pode tocar o tambor para recuperar o uso de seu recurso Inspiração de Bardo. Esta propriedade do tambor não pode ser usada novamente até o próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "incomum",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-compendio-alquimico",
@@ -5661,14 +5722,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Cristal planar de feiticeiro que concede mobilidade especial ao usar Metamagia, permitindo deslocamento instantâneo.",
+      "descricao": "Item maravilhoso, raro (requer sintonização por um feiticeiro) Este cristal é um fragmento solidificado do Plano Astral, rodando com névoa prateada. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma jóia) ou destacá-lo. Cai se sua sintonização com ele terminar. Você pode usar o fragmento como um foco de lançamento de feitiços para suas magias de feiticeiro enquanto o segura ou usa. Quando você usa uma metamagia em um feitiço, enquanto segura ou usa o fragmento, imediatamente após lançar o feitiço, você pode se teletransportar para um espaço desocupado que você pode ver a 9 metros de você. Fragmento de Essência Externa d4 Propriedade 1 Leal. Você pode acabar com uma das seguintes condições que afetam a si mesmo ou a uma criatura que você pode ver a menos de 9 metros de você: encantado, cego, surdo, amedrontado, envenenado ou atordoado. 2 Caótico. Escolha uma criatura que sofre o dano do feitiço. Esse alvo tem desvantagem em jogadas de ataque e testes de habilidade feitos antes do início de seu próximo turno. 3 Bom. Você ou uma criatura de sua escolha que você possa ver a até 9 metros de você ganha 3d6 pontos de vida temporários. 4 Mal. Escolha uma criatura que sofre o dano do feitiço. Esse alvo sofre 3d6 de dano necrótico extra. Miscelânea Mágica 127",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-arquivo-de-astromancia",
@@ -5806,14 +5868,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Livro de magia ligado à ilusão; suas cargas permitem trocar magias preparadas e criar efeitos enganosos adicionais.",
+      "descricao": "Item maravilhoso, raro (requer sintonização de um mago) Para você, este livro é um livro de feitiços mágico. Para qualquer outra pessoa, o livro parece um volume de ficção romântica prolixa. Como uma ação, você pode mudar a aparência do livro e alterar o enredo do romance. Quando encontrado, o livro contém os seguintes feitiços: terreno alucinógeno, imagem maior, reflexos, despistar, aura mágica de Nystul, força fantasmagórica e imagem silenciosa. Ele funciona como um livro de feitiços para você. Enquanto estiver segurando o livro, você pode usá-lo como um foco de lançamento de feitiços para seus feitiços. O livro tem 3 cargas e recupera 1d3 cargas gastas diariamente ao amanhecer. Você pode usar as cargas das seguintes maneiras enquanto a segura: Se você gastar 1 minuto estudando o livro, você pode gastar 1 carga para substituir um de seus feitiços de mago preparados por um feitiço diferente no livro. O novo feitiço deve ser da escola de ilusão. Quando uma criatura que você pode ver faz um teste de Inteligência (Investigação) para discernir a verdadeira natureza de uma magia de ilusão que você lançou, ou faz um teste de resistência contra uma magia de ilusão que você lançou, você pode usar sua reação e gastar uma carga para impor desvantagem a rolagem.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-elemental",
@@ -5835,14 +5898,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Cristal de feiticeiro sintonizado com um elemento; Metamagia ativa um efeito de ar, terra, fogo ou água.",
+      "descricao": "Item maravilhoso, raro (requer sintonização por um feiticeiro) Este cristal crepitante contém a essência de um plano elemental. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma joia) ou destacá-lo. Cai se sua sintonização com ele terminar. Você pode usar o fragmento como um foco de lançamento de feitiços enquanto o segura ou usa. Role um d4 e consulte a tabela Fragmentos de Essência Elemental para determinar a essência e propriedade do fragmento. Quando você usa uma metamagia em um feitiço enquanto segura ou usa o fragmento, pode usar essa propriedade. Fragmentos de Essência Elemental d4 Propriedade 1 Ar. Você pode voar imediatamente a até 18 metros sem provocar ataques de oportunidade. 2 Terra. Você ganha resistência a um tipo de dano de sua escolha até o início de seu próximo turno. 3 Fogo. Um alvo do feitiço que você pode ver pega fogo. O alvo em chamas sofre 2d10 de dano de fogo no início de seu próximo turno, e então as chamas se apagam 4 Água. Você cria uma onda de água que explode de você em um raio de 3 metros. Cada criatura de sua escolha que você pode ver nessa área leva 2d6 frio dano e deve ter sucesso em um salvamento de Força jogue contra o seu feitiço salvar CD ou seja empurrado 3 metros de distância de você e cair.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-fragmento-do-plano-distante",
@@ -5864,14 +5928,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Fragmento extraplanar de feiticeiro; quando usado com Metamagia, desencadeia um efeito perturbador sobre um alvo.",
+      "descricao": "Item maravilhoso, raro (requer sintonização por um feiticeiro) Este cristal retorcido está imerso na essência distorcida do Plano Distante. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma joia) ou destacálo. Cai se a sua sintonização terminar. Você pode usar o fragmento como um foco de lançamento de feitiços enquanto o segura ou usa. Quando você usa uma Metamagia em um feitiço enquanto segura ou usa o fragmento, você pode fazer com que um tentáculo rasgue através do tecido da realidade e acerte uma criatura que você pode ver a 9 metros de você. A criatura deve ter sucesso em um teste de resistência de Carisma contra a CD do seu feitiço ou receber 3d6 de dano psíquico e ficar com medo de você até o início de seu próximo turno. 128 Miscelânea Mágica",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-manual-do-tecelao-do-coracao",
@@ -5922,14 +5987,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Grimório de necromancia que contém magias relacionadas a mortos-vivos e oferece poderes ligados à manipulação da vida e da morte.",
+      "descricao": "Item maravilhoso, raro (requer sintonização de um mago) Com capas feitas de pele e acessórios de osso, este livro é frio ao toque e sussurra baixinho. Quando encontrado, o livro contém os seguintes feitiços, que são feitiços de mago para você enquanto está sintonizado com o livro: animar mortos, círculo da morte, vida falsa, dedo da morte, falar com os mortos, invocar mortos-vivos (aparece neste livro) , toque vampírico. Ele funciona como um livro de feitiços para você. Enquanto estiver segurando o livro, você pode usá-lo como um foco de lançamento de feitiços para seus feitiços. O livro tem 3 cargas e recupera ld3 cargas gastas diariamente ao amanhecer. Você pode usar as cargas das seguintes maneiras enquanto a segura: Se você gastar 1 minuto estudando o livro, você pode gastar 1 carga para substituir um de seus feitiços de mago preparados por um feitiço diferente no livro. O novo feitiço deve ser da escola de necromancia. Como uma ação, você pode gastar 1 carga para assumir uma aparência de morto-vivo por 10 minutos. Enquanto isso, você assume uma aparência mortal, e as criaturas mortas-vivas são indiferentes a você, a menos que você as tenha danificado. Você também aparece morto-vivo para todas as inspeções externas e para as magias usadas para determinar o status do alvo. O efeito termina se você causar dano ou forçar uma criatura a fazer um teste de resistência.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-lira-da-construcao",
@@ -5951,14 +6017,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Instrumento mágico que protege estruturas e pode criar ou reparar construções e objetos por meio de magia.",
+      "descricao": "Item maravilhoso, raro (requer sintonização de um bardo) Enquanto segura esta lira, você pode lançar consertar como uma ação. Você também pode tocar a lira como uma reação quando um objeto ou estrutura que você pode ver a 90 metros de você sofrer dano, fazendo com que seja imune a esse dano e a qualquer dano posterior do mesmo tipo até o início de seu próximo turno. Além disso, você pode tocar a lira como uma ação para lançar fabricar, mover terra, criar passagem ou invocar construto (aparece neste livro), e aquele feitiço não pode ser lançado novamente até o próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-fragmento-de-essencia-externa",
@@ -5980,14 +6047,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Cristal que contém essência de Plano Exterior; quando um feiticeiro aplica Metamagia, ativa um efeito conforme a natureza planar do fragmento.",
+      "descricao": "Item maravilhoso, raro (requer sintonização por um feiticeiro) Este cristal cintilante contém a essência de um Plano Externo. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma joia) ou destacá-lo. Cai se sua sintonização com ele terminar. Você pode usar o fragmento como um foco de lançamento de feitiços enquanto o segura ou usa. Role um d4 e consulte a tabela Fragmento de Essência Externa para determinar a essência e propriedade do fragmento. Quando você usa uma metamagia em um feitiço enquanto segura ou usa o fragmento, você pode usar essa propriedade.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-codex-do-invocador-de-planos",
@@ -6067,14 +6135,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem sombria que concede visão no escuro e facilita furtividade; permite reduzir dano recebido com uma reação limitada.",
+      "descricao": "Item maravilhoso (tatuagem), raro (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica é escura e abstrata. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Essência sombria. Você ganha visão no escuro com alcance de 18 metros e tem vantagem em testes de Destreza (Furtividade). Defesa sombria. Quando você sofre dano, pode usar sua reação para se tornar insubstancial por um momento, reduzindo à metade o dano sofrido. Depois de usada, esta reação só pode ser usada de novo no próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-fragmento-de-shadowfell",
@@ -6096,14 +6165,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Cristal das sombras para feiticeiro que, ao empregar Metamagia, pode enfraquecer um alvo com energia sombria.",
+      "descricao": "Item maravilhoso, raro (requer sintonização por um feiticeiro) Este cristal frio e opaco fica pesado como chumbo, e saturado pelo desespero de shadowfell. Como uma ação, você pode anexar o fragmento a um objeto Minúsculo (como uma arma ou uma joia) ou destacálo. Cai se sua sintonização com ele terminar. Você pode usar o fragmento como um foco de lançamento de feitiços enquanto você o segura ou usa. Quando você usa uma Metamagia em uma magia enquanto segura ou usa o fragmento, você pode amaldiçoar momentaneamente uma criatura alvo da magia; escolha um valor de habilidade e, até o final de seu próximo turno, a criatura tem desvantagem em testes de habilidade e testes de resistência que usam aquela habilidade.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-da-absorcao",
@@ -6125,14 +6195,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem que proporciona resistência a um tipo específico de dano e permite absorver parte de uma fonte desse dano.",
+      "descricao": "Item maravilhoso (tatuagem), muito raro (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica apresenta desenhos que enfatizam uma cor. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Resistência a dano. Enquanto a tatuagem estiver na sua pele, você tem resistência ao tipo de dano associado à cor dela (o Mestre escolhe ou rola 1d10): 1 ácido (verde), 2 frio (azul), 3 fogo (vermelho), 4 energia (branco), 5 elétrico (amarelo), 6 necrótico (preto), 7 veneno (roxo), 8 psíquico (prata), 9 radiante (ouro), 10 trovejante (laranja). Absorção de dano. Quando você sofre dano do tipo escolhido, pode usar sua reação para ganhar imunidade contra aquela instância de dano e recuperar pontos de vida iguais à metade do dano que teria sofrido. Depois de usada, esta reação só pode ser usada de novo no próximo amanhecer.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "muito raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-caldeirao-do-renascimento",
@@ -6212,14 +6283,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem que permite tornar-se parcialmente incorpóreo e atravessar criaturas ou objetos durante uma duração limitada.",
+      "descricao": "Item maravilhoso (tatuagem), muito raro (requer sintonização). Produzida por uma agulha especial, esta tatuagem se move e oscila na pele, e partes dela parecem borradas. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Forma fantasmagórica. A tatuagem tem 3 cargas e recupera todas as cargas gastas diariamente ao amanhecer. Como uma ação bônus, enquanto a tatuagem estiver na sua pele, você pode gastar 1 carga para se tornar incorpóreo até o fim do seu próximo turno. Durante esse tempo: você tem resistência a dano de concussão, perfurante e cortante de ataques não mágicos; você não pode ser agarrado nem contido; e você pode se mover através de criaturas e objetos sólidos como se fossem terreno difícil. Se terminar o turno dentro de um objeto sólido, sofre 1d10 de dano de energia. Se o efeito acabar enquanto você estiver dentro de um objeto sólido, você é desviado para o espaço desocupado mais próximo e sofre 1d10 de dano de energia para cada 1,5 metro percorrido.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "muito raro",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tatuagem-de-furia-de-sangue",
@@ -6241,14 +6313,15 @@
         "tasha",
         "item magico"
       ],
-      "descricao": "Tatuagem lendária com cargas: causa dano necrótico extra e cura o portador em golpes de arma; permite reagir com ataque a quem o feriu.",
+      "descricao": "Item maravilhoso (tatuagem), lendário (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica evoca fúria em sua forma e cores. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Ataques sanguinários. A tatuagem tem 10 cargas e recupera todas as cargas gastas diariamente ao amanhecer. Enquanto estiver na sua pele: quando você atinge uma criatura com um ataque com arma, pode gastar 1 carga para causar 4d6 de dano necrótico extra ao alvo e recuperar pontos de vida iguais ao dano necrótico causado; e quando uma criatura que você pode ver causar dano a você, pode gastar 1 carga e usar sua reação para fazer um ataque corpo a corpo contra ela, com vantagem na jogada de ataque.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "raridade": "lendário",
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-almofariz-e-pilao-de-baba-yaga",
@@ -6380,7 +6453,7 @@
       "fonte": "Caldeirão de Tasha para Tudo",
       "pagina": 134,
       "raridade": "incomum",
-      "descricao": "Tatuagem que projeta tentáculos de tinta contra uma criatura próxima, causando dano de força e podendo agarrá-la com uma salvaguarda de Força.",
+      "descricao": "Item maravilhoso (tatuagem), incomum (requer sintonização). Produzida por uma agulha especial, esta tatuagem mágica tem desenhos longos e entrelaçados. Sintonização de tatuagem. Para sintonizar este item, você coloca a agulha na pele onde deseja que a tatuagem apareça, pressionando-a nesse local durante todo o processo de sintonização. Quando a sintonização termina, a agulha se transforma na tinta da tatuagem, que aparece na pele. Se sua sintonia com a tatuagem terminar, a tatuagem desaparece e a agulha reaparece em seu espaço. Aperto de gavinhas. Enquanto a tatuagem estiver na sua pele, você pode, como uma ação, fazê-la se expandir em gavinhas de tinta que alcançam uma criatura que você possa ver a até 4,5 metros. A criatura deve passar num teste de resistência de Força CD 14 ou sofre 3d6 de dano de energia e fica agarrada por você. Como uma ação, a criatura pode escapar com um teste de Força (Atletismo) ou Destreza (Acrobacia) CD 14. O agarrão também termina se você o encerrar (nenhuma ação necessária), se a criatura ficar a mais de 4,5 metros de você ou se você usar a tatuagem em outra criatura.",
       "tags": [
         "dnd",
         "tasha",
@@ -6391,7 +6464,8 @@
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-tasha-tratado-fulminante",
@@ -6434,7 +6508,7 @@
       "fonte": "Caldeirão de Tasha para Tudo",
       "pagina": 135,
       "raridade": "raro",
-      "descricao": "Instrumento mágico associado a um bardo que aprimora apresentações e pode conjurar magias por meio da música.",
+      "descricao": "Item maravilhoso, raro (requer sintonização de um bardo) Enquanto segura esta sanfona, você ganha um bônus de +2 para a CD do teste de resistência de seus feitiços de bardo. Como uma ação, você pode usar a sanfona para lançar Dança irresistível de Otto do item. Esta propriedade da sanfona não pode ser usada novamente até que o próximo amanhecer.",
       "tags": [
         "dnd",
         "tasha",
@@ -6445,7 +6519,8 @@
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-tasha-cajado-de-rao",

@@ -145,10 +145,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Pequeno navio de um único mastro com vela quadrangular e alguns remos. Navega em rios e mar aberto; comum em mundos pacíficos como Serena, Terápolis e Ramknal. Embarcação Enorme; tripulação mínima 1, total 10; desl. 6m; CA 13 (–2 tamanho, +5 natural); PV 120; RD 5; armamento: nenhum.",
+   "descricao": "Este pequeno navio tem um único mastro, de vela quadrangular, e alguns remos para suplementar a força da vela. Pode navegar em rios e mar aberto. Muito comum em mundos pacíficos como Serena, Terápolis e até mesmo Ramknal. Embarcação Enorme; Tripulação mínima 1, total 10; Desl. 6m; CA 13 (–2 tamanho, +5 natural); PV 120; redução de dano 5; armamento: nenhum; Custo 3.000 TO.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -223,10 +223,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Comprida e estreita, com um mastro, mas impelida basicamente por remos. Típico navio de guerra, usado por marinhas e piratas. Embarcação Descomunal; tripulação mínima 5, total 40; desl. 9m; CA 11; PV 260; RD 5; armamento: 4 balistas.",
+   "descricao": "Esta embarcação comprida e estreita tem um mastro, mas é impelida basicamente por remos. Típico navio de guerra, usado tanto pela marinha de diversos reinos quanto por piratas. Embarcação Descomunal; Tripulação mínima 5, total 40; Desl. 9m; CA 11 (–4 tamanho, +5 natural); PV 260; redução de dano 5; armamento: 4 balistas. Custo 16.000 TO.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -262,10 +262,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Três mastros com grandes velas triangulares, melhores para ventos desconhecidos; favorita para desbravar mares inexplorados. Embarcação Descomunal; tripulação mínima 5, total 30; desl. 9m; CA 11; 220 PV; armamento: nenhum. O piloto não sofre a penalidade em Ofício (marinheiro) por condições ruins.",
+   "descricao": "Seus três mastros usam grandes velas triangulares, que são melhores para regiões onde os ventos são desconhecidos. Por essa razão a caravela é favorita para desbravar mares inexplorados. Embarcação Descomunal; Tripulação mínima 5, total 30; Desl. 9m; CA 11 (–4 tamanho, +5 natural); 220 PV; armamento: nenhum; Custo 11.000 PO. O piloto não sofre a penalidade em testes de Ofício (marinheiro) por condições ruins.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -418,10 +418,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "O maior navio a singrar os mares de Arton e dos mundos dos deuses: seis conveses, quatro mastros e castelos de popa e proa. Embarcação Colossal; tripulação mínima 15, total 150; desl. 13,5m; CA 7; PV 560; armamento: 8 canhões; 10 botes salva-vidas.",
+   "descricao": "Este impressionante navio é o maior a singrar os mares de Arton e dos mundos dos deuses. Possui seis conveses e quatro mastros, além de castelos de popa e proa. Embarcação Colossal; Tripulação mínima 15, total 150; Desl. 13,5m; CA 7 (–8 tamanho, +5 natural); PV 560; armamento: 8 canhões; 10 botes salva-vidas; Custo 63.500 TO.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -578,10 +578,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Modificação de navio: +10 PV por compra, até o dobro dos PV iniciais. Cada 10 PV adicionais aumentam a tripulação total em 3; cada 20 PV adicionais dão +1 espaço para armas. Preço por cada 10 PV.",
+   "descricao": "Aumenta os pontos de vida em +10. Você pode aumentar os PV de um navio até o dobro da quantidade inicial (logo, um navio Colossal pode ter até 800 PV). Para cada 10 PV adicionais, aumente a tripulação total em três. Para cada 20 PV adicionais, aumente um espaço disponível para armas (um navio Descomunal com 300 PV, por exemplo, tem 12 espaços para armas). Custo: 1.000 TO por cada 10 PV. Preço por cada 10 PV.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -698,10 +698,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Adorno esculpido na proa (cabeça de dragão, sereia, anjo...). Assustador: inimigos a até 36m sofrem –1 na CA e nos testes de resistência. Motivador: +1 em ataque e dano da tripulação no próprio navio ou abordando. Protetor: +1 na CA e nos testes de resistência da tripulação. Só um por navio.",
+   "descricao": "Adorno esculpido em forma de cabeça ou corpo de uma criatura fantástica, colocado na proa da embarcação para aumentar o moral da tripulação (ou baixar o dos inimigos). Existem muitos acrostólios — cabeça de dragão, corpo de sereia, anjo, etc. — mas todos se encaixam em um de três tipos: assustador, motivador ou protetor. Um acrostólio assustador impõe uma penalidade de –1 na CA e nos testes de resistência de todos os inimigos a até 36m do navio. Um acrostólio motivador fornece um bônus de +1 nas jogadas de ataque e dano da tripulação (apenas enquanto os tripulantes estiverem no próprio navio ou abordando uma embarcação inimiga). Por fim, um acrostólio protetor funciona como um motivador, mas o bônus fornecido para a tripulação é de +1 na CA e nos testes de resistência. Cada navio só pode ter um acrostólio. Custo: 5.000 TO.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,
@@ -818,10 +818,10 @@
     "mundo dos deuses",
     "tormenta classico"
    ],
-   "descricao": "Necessário em naves-vivas para renovar o ar. Sem ele, o ar deve ser renovado magicamente ou em uma atmosfera a cada 2 dias (tripulação mínima) ou 12 horas (máxima). Com a estufa danificada, há ar para 2d6 horas.",
+   "descricao": "Uma nave-viva deve incluir um herbanário para ajudar a renovar o ar da embarcação. Sem esta modificação, o ar deve ser renovado magicamente ou em uma atmosfera a cada 2 dias (para um navio com tripulação mínima) ou 12 horas (tripulação máxima). Uma nave com a estufa danificada ou destruída pode ter ar suficiente para algumas horas (2d6), até que o ar se torne impuro demais para manutenção. Magias do descritor ar, como lufada de vento, podem refrescar um deque, mas no geral apenas adiam um inevitável sufocamento.",
    "properties": "",
    "schemaVersion": 5,
-   "updatedAt": "2026-11-25T17:48:24.000Z",
+   "updatedAt": "2026-11-25T18:22:43.000Z",
    "efeitos": [],
    "consumable": {
     "enabled": false,

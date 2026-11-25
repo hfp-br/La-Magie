@@ -4663,10 +4663,10 @@
         "modulo basico",
         "tormenta classico"
       ],
-      "descricao": "Feito de ébano, e esculpido com imagens macabras de ossos e crânios, este cajado permite o uso de causar medo.",
+      "descricao": "Feito de ébano, e esculpido com imagens macabras de ossos e crânios, este cajado permite o uso de causar medo, círculo da morte, drenar temporário, imobilizar mortos-vivos, onda de fadiga e toque do carniçal.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:51:46.213Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8331,10 +8331,10 @@
         "modulo basico",
         "tormenta classico"
       ],
-      "descricao": "Vinte flechas, munição para arcos.",
+      "descricao": "Hastes de madeira com ponta metálica e penas para estabilizar o vôo, flechas são vendidas em aljavas com 20 unidades. Recarregar um arco com uma flecha é uma ação livre.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:51:46.213Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8368,10 +8368,10 @@
         "modulo basico",
         "tormenta classico"
       ],
-      "descricao": "Dez virotes, munição para bestas.",
+      "descricao": "Pequenas setas de madeira que servem como munição para bestas. Uma caixa com 10 virotes custa 1 TP.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:51:46.213Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8405,10 +8405,10 @@
         "modulo basico",
         "tormenta classico"
       ],
-      "descricao": "Dez balas de chumbo, munição para fundas.",
+      "descricao": "Fundas atiram pequenas balas esféricas de metal, que são vendidas em sacos de couro contendo 10 balas por 1 TP. Recar regar uma funda com uma bala é uma ação de movimento.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:51:46.213Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8442,10 +8442,10 @@
         "modulo basico",
         "tormenta classico"
       ],
-      "descricao": "Uma noite de hospedagem.",
+      "descricao": "Este é o preço por noite para um quarto individual. Normalmente inclui uma cama com colchão de palha, algodão ou penas, e um baú para guardar pertences. Existem quartos mais luxuosos ou modestos, por preços maiores ou menores.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:51:46.213Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

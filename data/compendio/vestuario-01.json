@@ -23,9 +23,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Traje feito para um tipo específico de terreno. No ambiente correto, fornece +2 em testes de Furtividade. Efeito: +2 em Furtividade no terreno correspondente. CD 20.",
+      "descricao": "Um traje camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, do caçador, para os tipos de terrenos existentes). Por exemplo, um traje camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um traje urbano pode ser cinza ou negro. Usar um traje camuflado no terreno correto fornece +2 em testes de Furtividade. CD 20.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

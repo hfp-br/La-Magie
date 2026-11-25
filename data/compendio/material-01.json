@@ -21,10 +21,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Armas feitas deste metal ignoram redução de dano, inclusive reduções normalmente impossíveis de superar.",
+      "descricao": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço verdadeiro. Armas forjadas com ele vencem qualquer tipo de redução de dano, mesmo aquela que normalmente não pode ser ultrapassada por nada (como a RD dos bárbaros). Ferreiros e artesãos anões estão comercializando peças de açorubi através de todo o Reinado — sem jamais revelar sua verdadeira origem, seus metais componentes, ou métodos para forjá-lo. A regência de Doherimm vem sendo pressionada por outros governos para revelar a origem do precioso metal, mas os anões permanecem irredutíveis. Existe a suspeita de que eles extraem o minério necessário em uma área de Tormenta subterrânea, ainda desconhecida dos outros povos. Por sua raridade, e também por não mostrar qualidades protetoras especiais, aço-rubi não é usado para armaduras ou escudos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -60,10 +60,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Armas causam dano como se fossem uma categoria de tamanho maior; armaduras e escudos pesados podem fornecer redução de dano.",
+      "descricao": "Metal extremamente raro, o adamante é encontrado apenas em meteoritos (e por isso também é chamado de “ferro-meteórico”). O adamante é escuro, fosco, e mais denso e resistente que o aço. Armas de adamante causam dano como se fossem uma categoria de tamanho maior (por exemplo, um machado de batalha de adamante causa 2d6 pontos de dano). Armaduras e escudos pesados de adamante fornecem redução de dano, de acordo com seu tipo: escudos e armaduras leves, RD 1; armaduras médias, RD 2, e pesadas, RD 3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -99,10 +99,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Material das Montanhas Uivantes. Armas causam dano adicional por frio; armaduras e escudos concedem resistência a frio.",
+      "descricao": "As gélidas Montanhas Uivantes produzem um tipo de gelo muito duro, e que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa, à caça do material fantástico.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -138,10 +138,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Madeira negra tão resistente quanto metal. Armas contam como mágicas para superar redução de dano; escudos leves podem conceder RD.",
+      "descricao": "O reino de Tollon produz um tipo especial de madeira negra, dura como o ferro das melhores forjas, e com propriedades mágicas. Armas de madeira — bordões, clavas, lanças, nunchakus e tacapes — e escudos leves podem ser feitas com madeira Tollon. Armas de madeira Tollon não oferecem bônus, mas contam",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -177,10 +177,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Material lefeu. Armas ferem criaturas naturais com dano adicional, mas também machucam o usuário; armaduras distorcem ataques recebidos.",
+      "descricao": "Qualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como “matéria vermelha”. Uma arma de matéria vermelha é hostil ao toque de seres naturais. Por isso, causa 1d4 pontos de dano extra contra quaisquer criaturas, exceto lefeu. Infelizmente, sempre que o usuário executa um ataque corpo-a-corpo bem-sucedido, ele próprio recebe 1 ponto de dano pela arma (membros da raça lefou não sofrem este efeito colateral). Por sua aparência “borrada”, armaduras de matéria vermelha distorcem a percepção do atacante, impondo uma chance de falha para cada golpe: 10% para escudos e armaduras leves, 20% para médias e 30% para pesadas. Lefeu e lefou ignoram esta chance de erro. Estes itens assustadores impõem ao usuário penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -216,10 +216,10 @@
         "modulo basico",
         "equipamento"
       ],
-      "descricao": "Metal raro e muito leve. Armas ampliam a margem de ameaça e armaduras são mais leves e flexíveis.",
+      "descricao": "Metal muito raro, encontrado em veios profundos e tipicamente minerado apenas por anões. O mitral é prateado e brilhante, e muito mais leve que o aço. Armas de mitral aumentam sua margem de ameaça em 1. Por exemplo, uma espada longa de mitral tem margem de ameaça 18-20. Armaduras de mitral são consideradas uma categoria mais leve que o normal (por exemplo, uma cota de malha de mitral é considerada uma armadura leve). Além disso, seu bônus máximo de Destreza aumenta em 2 e sua penalidade de armadura diminui em 2. Escudos de mitral não têm nenhuma penalidade de armadura.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:18:13.161Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

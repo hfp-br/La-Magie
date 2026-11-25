@@ -499,9 +499,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "A mais forte e pesada das armaduras, formada por placas de metal ajustadas para cobrir todo o corpo. Precisa ser feita sob medida; adaptar uma armadura completa a outro usuário custa T$ 200.",
+      "descricao": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo Couraça a cobrir o corpo inteiro. Inclui manoplas e grevas (luvas e botas metálicas, respectivamente), um elmo com viseira e uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:20:44.861Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "armadura-completa-defesa",
@@ -1556,10 +1556,10 @@
         "modulo basico",
         "protecao"
       ],
-      "descricao": "Armadura de talas metálicas costuradas sobre couro, tradicional entre samurais, mas também encontrada no Reinado.",
+      "descricao": "Armadura composta de talas de metal cuidadosamente costuradas sobre um corselete de couro. É a armadura tradicional do samurai, embora também exista em versões nativas do Reinado.",
       "properties": "CA +6; Bônus máximo de Destreza: +0; Penalidade de armadura: -4",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-cota-de-talas-ca",
@@ -1697,10 +1697,10 @@
         "modulo basico",
         "protecao"
       ],
-      "descricao": "Uma espada bastarda é muito grande Bordão: um cajado apreciado por viajantes e camponeses, por para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial sua praticidade e preço — assim como uma clava, seu custo é zero. de duas mãos.",
+      "descricao": "A mais forte e pesada, formada por placas de metal forjadas e encaixadas de modo a cobrir o corpo inteiro. Inclui manoplas e grevas (luvas e botas metálicas, respectivamente), um elmo com viseira e um colete acolchoado para ser usado sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra 500 TO para adaptar uma armadura completa a um novo usuário.",
       "properties": "CA +8; Bônus máximo de Destreza: +1; Penalidade de armadura: -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:20.488Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "tormenta-rpg-armadura-completa-ca",
@@ -1743,10 +1743,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "As histórias de heróis estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram pensadas para uso na vida real... Mas alguém, em algum momento, achou que isso seria boa ideia. Uma armadura sensual é feita de pedaços (minúsculos) de cota de malha, (pouquíssimas) escamas ou tiras (extremamente finas) de metal. A armadura sensual não oferece muita proteção, mas permite usar o poder Atraente.",
+      "descricao": "As histórias de heróis estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram pensadas para uso na vida real... Mas alguém, em algum momento, achou que isso seria boa ideia. Uma armadura sensual é feita de pedaços (minúsculos) de cota de malha, (pouquíssimas) escamas ou tiras (extremamente finas) de metal. A armadura sensual não oferece muita proteção, mas permite usar o poder Atraente. Se você já tiver esse poder, em vez disso o bônus fornecido por ele aumenta para +5. Note que, em muitos lugares de Arton, uma armadura sensual não é um traje apropriado para bailes, reuniões diplomáticas ou mesmo para andar na rua! O usuário pode ser barrado desses lugares ou o bônus da armadura pode ser transformado em penalidade, a critério do mestre. As únicas ocasiões em que esses bônus nunca são anulados são combates.",
       "properties": "Defesa +1; Penalidade 0",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:58:45.373Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "armadura-sensual-ac-1-na-defesa",
@@ -2100,10 +2100,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta meia armadura é e tralhas em geral que são necessários para seu ofício. feita especialmente para ser usada por cavaleiros em Uma armadura de engenhoqueiro goblin recobre o justas. Assim, é toda feita de placas de metal, bastante corpo inteiro e é feita de pedaços desencontrados adornada, e tem aparência aristocrática e tradicional.",
+      "descricao": "Esta meia armadura é feita especialmente para ser usada por cavaleiros em justas. Assim, é toda feita de placas de metal, bastante adornada, e tem aparência aristocrática e tradicional. Seu grande diferencial, contudo, é a proteção extra no lado do peito do usuário que provavelmente será atingido pela lança do oponente — o lado em que ele próprio não empunha sua lança. A armadura de justa fornece +5 em testes para resistir a ser derrubado",
       "properties": "Defesa +9; Penalidade -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.320Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "armadura-de-justa-ac-9-na-defesa",
@@ -2151,10 +2151,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Alguns extremamente pesada e desajeitada faz o usuário dos reinos mais avançados (e menos tradicionalistas) parecer mais uma estátua do que um cavaleiro... de Arton começaram a equipar seus cavaleiros No entanto, é a preferida de alguns infelizes que já com estas armaduras vistosas e impressionantes. sofreram nas mãos de arcanistas.",
+      "descricao": "Alguns dos reinos mais avançados (e menos tradicionalistas) de Arton começaram a equipar seus cavaleiros com estas armaduras vistosas e impressionantes. Uma armadura de hussardo alado é uma armadura completa com um adicional: duas hastes longas nas costas, cobertas de penas, que parecem asas! Quando você avança a galope, as “asas” zunem ao vento, criando um som desconcertante e amedrontador. Quando faz uma investida montada, você pode fazer um teste de Intimidação para assustar o alvo de sua investida. Esse efeito só funciona uma vez por cena com cada oponente.",
       "properties": "Defesa +10; Penalidade -6",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.321Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "armadura-de-hussardo-alado-ac-10-na-defesa",
@@ -2295,10 +2295,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta armadura completa guardiã invulnerável feita de escamas douradas Purificador. Você recebe resistência a medo e iridescentes é incrivelmente resistente. Você recebe mental +5 e pode gastar 2 PM para permitir que um redução de eletricidade, fogo e frio 10.",
+      "descricao": "Esta armadura completa guardiã invulnerável feita de escamas douradas iridescentes é incrivelmente resistente. Você recebe redução de eletricidade, fogo e frio 10. Além disso, enquanto estiver com menos da metade dos seus pontos de vida, você pode emitir um rugido dracônico idêntico ao efeito de um item assustador (Tormenta20, p. 338).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.370Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3072,9 +3072,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "A armadura mais forte e pesada, feita de placas metálicas encaixadas sobre uma túnica acolchoada. É feita sob medida; adaptar para outro usuário custa T$ 200. Efeitos: +10 na Defesa. Espaços: 5; Defesa +10; penalidade de armadura -5",
+      "descricao": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo Couraça a cobrir o corpo inteiro. Inclui manoplas e grevas (luvas e botas metálicas, respectivamente), um elmo com viseira e uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário. Efeitos: +10 na Defesa. Espaços: 5; Defesa +10; penalidade de armadura -5",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "t20-jda-armadura-completa-defesa",

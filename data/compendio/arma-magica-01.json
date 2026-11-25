@@ -443,10 +443,10 @@
         "especifico",
         "arma"
       ],
-      "descricao": "Esta lança flamejante magnífica Encantos para tem a ponta forjada no formato de uma chama. Sempre Armaduras & Escudos que reduz um inimigo a 0 PV, você recupera 10 PV. Abissal.",
+      "descricao": "Esta lança flamejante magnífica tem a ponta forjada no formato de uma chama. Sempre que reduz um inimigo a 0 PV, você recupera 10 PV. Além disso, uma vez por cena, caso você seja reduzido a 0 PV, pode gastar 5 PM para renascer como uma fênix. Se fizer isso, você é reerguido com metade de seus PV totais e gera uma explosão que causa 10d6 pontos de dano de fogo em todas as demais criaturas em um raio de 9m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.367Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -527,10 +527,10 @@
         "especifico",
         "arma"
       ],
-      "descricao": "Este machado de lâmina Arbóreo. Você recebe resistência a magia divina dupla é feito de metal negro e emite um leve brilho +5. Além disso, pode lançar a magia Controlar Plantas púrpura.",
+      "descricao": "Este machado de lâmina dupla é feito de metal negro e emite um leve brilho púrpura. É um machado de batalha macabro formidável. Você pode gastar uma ação de movimento e 3 PM para invocar uma onda de energia abissal. Quando faz isso, criaturas a sua escolha em um raio de 9m sofrem 4d8 pontos de dano de essência e ficam abaladas por 1 rodada (Vontade CD For ou Des evita).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.368Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

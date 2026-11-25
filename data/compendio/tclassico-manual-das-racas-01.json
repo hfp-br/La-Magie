@@ -100,10 +100,10 @@
         "tormenta classico",
         "aeronave goblin"
       ],
-      "descricao": "Engenho voador que levanta voo com o zumbido de um inseto monstruoso. Mede 4,5m de diâmetro e transporta apenas um piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 15; voa a 50km/h (deslocamento 15m em combate) e o piloto fica sob cobertura.",
+      "descricao": "Lembra uma pequena canoa com um tipo de mastro central, e vários “remos” alongados dispostos no topo. Motores fazem esses remos girarem a altíssima velocidade, produzindo o zumbido de algum inseto monstruoso — e, de forma mira culosa (ou insana!), o veículo levanta voo. Um autogiro mede 4,5m de diâmetro e pode transportar apenas um piloto de tamanho Pequeno com pouca carga. Exige uma ação completa e um teste de Ofício (pilotagem), CD 15, para decolar ou pousar. No ar, viaja a 50km/h (ou deslocamento 15m em situações de combate). O piloto é considerado sob cobertura. Ele pode realizar as mesmas manobras permitidas a cavaleiros (veja a perícia Cavalgar), fazendo testes de Ofício (pilotagem) em vez de Cavalgar (e adaptando conforme a situação). Um autogiro tem tamanho Grande, CA 8 (+ modificador de Destreza do piloto), RD 8 e 30 PV. Preço: 350 TO.",
       "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 8, 30 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -140,10 +140,10 @@
         "tormenta classico",
         "aeronave goblin"
       ],
-      "descricao": "Engenho com grandes asas de morcego que, à distância, lembra um dragão. Envergadura de 4,5m; transporta um único piloto Pequeno com pouca carga. Decolar ou pousar exige uma ação completa e Ofício (pilotagem) CD 12; voa a 60km/h (deslocamento 18m em combate) e o piloto fica sob cobertura.",
+      "descricao": "Espécie de engenho com grandes asas de morcego que, à distância, lembra um dragão (fato que já causou um sem número de acidentes). Tem envergadura (distância entre as pontas das asas) de 4,5m e transporta um único piloto de tamanho Pequeno com pouca carga. Exige uma ação completa e um teste de Ofício (pilotagem), CD 12, para decolar ou pousar. No ar, viaja a 60km/h (ou deslocamento 18m em situações de combate). O piloto é considerado sob cobertura. Ele pode realizar as mesmas manobras permitidas a cavaleiros (veja a perícia Cavalgar), fazendo testes de Ofício (pilotagem) em vez de Cavalgar (e adaptando conforme a situação). Uma demoiselle tem tamanho Grande, CA 8 (+ modificador de Destreza do piloto), RD 2 e 80 PV. Preço: 300 TO.",
       "properties": "Tamanho Grande, CA 8 (+ Des do piloto), RD 2, 80 PV.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:49:05.217Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

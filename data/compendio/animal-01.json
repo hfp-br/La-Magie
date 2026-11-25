@@ -62,9 +62,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Montaria comum no Reinado. Sem treinamento de guerra, se assusta facilmente em combate e exige Cavalgar CD 20 por rodada para permanecer montado.",
+      "descricao": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -141,9 +141,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Montaria comum entre raças Pequenas. Sem treinamento de guerra, exige Cavalgar CD 20 por rodada para permanecer montado em combate.",
+      "descricao": "A montaria mais comum entre raças Pequenas. Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -222,9 +222,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Grande ave semelhante a um avestruz com chifres e cascos de búfalo. Muito dócil, é usada como animal de carga e tração.",
+      "descricao": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos de búfalo. Não têm asas. Possuem poucas penas, que servem apenas como ornamentação. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -333,9 +333,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Montaria comum do Reinado. Pode funcionar como parceiro montaria; cavalos sem treinamento exigem Cavalgar CD 20 por rodada durante combate.",
+      "descricao": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -407,9 +407,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Montaria comum entre raças Pequenas. Pode funcionar como parceiro montaria; sem treinamento, exige Cavalgar CD 20 por rodada em combate.",
+      "descricao": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262). Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -481,9 +481,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Grande ave sem asas, semelhante a um avestruz com chifres, couro e cascos. É dócil, usada para carga, tração e também como montaria.",
+      "descricao": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria (veja a página 262).",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

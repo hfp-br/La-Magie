@@ -443,9 +443,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Cajado entalhado com runas. Aumenta em +1 o limite de PM e a CD de magias arcanas; precisa ser empunhado com as duas mãos e também pode ser usado como bordão. Efeito: Espaços: 2",
+      "descricao": "Um cajado típico, feito de madeira de boa qualidade e entalhado com runas. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Para fornecer seus benefícios, um cajado precisa ser empunhado com as duas mãos. Ele pode ser usado como arma, com as estatísticas de um bordão. Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -777,10 +777,10 @@
         "dragao brasil 228",
         "tormenta20"
       ],
-      "descricao": "Uma pedra translúcida, no formato de uma escama de dragão e do tamanho de um punho fechado, que faz parte das posses de todos os Herdeiros da Escama. Quando sofrer dano de um dos tipos a seguir, você pode reduzir o dano sofrido em um dado como uma reação. Então este item deixa de ser translúcido e armazena a energia do dano, tomando a aparência de uma pedra preciosa: diamante (luz), esmeralda (ácido), ônix (trevas), rubi (fogo), safira (frio) ou topázio (eletricidade).",
+      "descricao": "Uma pedra translúcida, no formato de uma escama de dragão e do tamanho de um punho fechado, que faz parte das posses de todos os Herdeiros da Escama. Quando sofrer dano de um dos tipos a seguir, você pode reduzir o dano sofrido em um dado como uma reação. Então este item deixa de ser translúcido e armazena a energia do dano, tomando a aparência de uma pedra preciosa: diamante (luz), esmeralda (ácido), ônix (trevas), rubi (fogo), safira (frio) ou topázio (eletricidade). Quando lança uma magia que causa dano do tipo da pedra preciosa enquanto tiver uma energia armazenada, você pode descarregar essa energia como uma ação livre para aumentar o dano em um dado do mesmo tipo. Após descarregar a energia, a pedra volta a ser translúcida e precisa armazenar energia outra vez antes de ser usada novamente. Item esotérico, preço T$ 250.",
       "properties": "Item esotérico.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

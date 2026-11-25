@@ -780,10 +780,10 @@
         "manual do arcano",
         "tormenta classico"
       ],
-      "descricao": "Frasco de cola comum.",
+      "descricao": "Pode ser usada para colar objetos, pregar peças ou reparar itens. Quando usada para consertar itens, concede um bônus de +2 no teste de Ofício (veja Tormenta RPG, página 89).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -1727,10 +1727,10 @@
         "manual do arcano",
         "tormenta classico"
       ],
-      "descricao": "Capa simples que protege do clima, com +1 contra efeitos climáticos (a capa elegante aumenta o bônus para +2).",
+      "descricao": "Uma capa é feita com couro, para proteger o seu usuário do sol e da chuva. Pode vir com ou sem capuz. Concede +1 em todos os testes para resistir a efeitos climáticos não mágicos (Tormenta RPG, páginas 233 e 234). Capa simples que protege do clima, com +1 contra efeitos climáticos (a capa elegante aumenta o bônus para +2).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:55:32.152Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

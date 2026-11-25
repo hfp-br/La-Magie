@@ -111,9 +111,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Corda mágica de 15m, fina e extremamente resistente. Efeito: Suporta até 1.500 kg. Com uma ação de movimento, move-se em qualquer direção a 3m por rodada, fixa-se onde desejar e pode se soltar e retornar.",
+      "descricao": "Esta corda de 15m é bastante fina, mas forte o suficiente para suportar até seis criaturas Médias (ou 120 espaços). Com um comando (uma ação de movimento), a corda se move em qualquer direção (incluindo para cima) a 3m por rodada, fixando-se firmemente onde você quiser. Ela pode se desamarrar e voltar da mesma forma. Efeito: Suporta até 1.500 kg.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "corda-da-escalada-other-suporta-ate-1-500-kg-com",
@@ -156,9 +156,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Ferraduras mágicas para uma montaria. Efeito: +3m no deslocamento da montaria.",
+      "descricao": "Este conjunto de ferraduras pode ser fixado nos cascos de um cavalo (ou outro parceiro montaria, a critério do mestre) para aumentar seu deslocamento em +3m.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "ferraduras-da-velocidade-movement-3m-no-deslocamento-da-mo",
@@ -339,9 +339,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Mochila ligada a um espaço interdimensional. Efeito: Pode guardar até 100 kg, mas pesa no máximo 5 kg. Se rasgada, os objetos internos são destruídos; criaturas vivas ficam sem ar após 10 minutos.",
+      "descricao": "Este item, que parece uma simples mochila de pano, está na verdade ligado a um espaço interdimensional — fazendo com que seja maior por dentro do que por fora. Você pode guardar até 100 kg dentro de uma mochila de carga, mas ela pesará no máximo 5 kg. Se a mochila for rasgada, os objetos em seu interior são destruídos. Criaturas vivas colocadas no interior da mochila podem sobreviver até 10 minutos, mas depois disso ficarão sem ar.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "mochila-de-carga-other-pode-guardar-ate-100-kg-",
@@ -617,9 +617,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Pequena pérola em uma corrente leve. Efeito: +2 em Sabedoria.",
+      "descricao": "Esta pequena pérola com uma corrente leve é usada como um colar. Você recebe +1 em Sabedoria (somente após um dia de uso).",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "pingente-da-sensatez-attribute-2-em-sabedoria",
@@ -711,9 +711,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Chapéu mágico capaz de alterar sua própria aparência como parte de um disfarce. Efeito: Permite lançar Disfarce Ilusório com odores e sensações e bônus de Enganação para disfarces +20, sem pagar PM; não aceita outros aprimoramentos.",
+      "descricao": "Você pode lançar Disfarce Ilusório (CD Car), com o aprimoramento que inclui odores e sensações e muda o bônus em Enganação para disfarces para +20, sem pagar seu custo em PM. Você não pode usar outros aprimoramentos. Como parte do disfarce, o chapéu pode mudar para um elmo, faixa, tiara, gorro, touca e assim por diante.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "chapeu-do-disfarce-other-permite-lancar-disfarce-",
@@ -1118,9 +1118,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Botas das quais podem brotar asas mágicas. Efeito: Gaste 2 PM para receber voo 12m por 1 rodada; gaste 1 PM no início de cada turno para manter.",
+      "descricao": "Você pode gastar 2 PM para fazer asas brotarem dos calcanhares destas botas e receber deslocamento de voo 12m por uma rodada. Você pode gastar 1 PM no início de cada um de seus turnos para manter esse efeito.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "botas-aladas-other-gaste-2-pm-para-receber-",
@@ -1390,9 +1390,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Brincos brancos abençoados pela Deusa da Paz. Efeito: A primeira criatura que atacar você numa cena deve passar em Vontade ou perder a ação. Se você atacar alguém, o efeito é cancelado por um dia. Aparência Inofensiva ou similar faz afetar as duas primeiras criaturas.",
+      "descricao": "Este par de brincos brancos é abençoado pela Deusa da Paz. A primeira criatura que o atacar em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá a ação. Se você atacar uma criatura, o efeito dos brincos é cancelado por um dia. Se você possuir Aparência Inofensiva (ou um poder similar) os efeitos acumulam, afetando as duas primeiras criaturas que o atacarem em uma cena.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "brincos-de-marah-other-a-primeira-criatura-que-",
@@ -1480,9 +1480,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Manto de seda negra com fios de prata. Efeitos: Recebe escalada igual ao deslocamento terrestre, +5 contra venenos e imunidade a teias mundanas ou mágicas. Pode lançar Teia; se já conhece a magia, o custo diminui em –1 PM.",
+      "descricao": "Este manto é feito de seda negra com fios de prata bordados. Você recebe deslocamento de escalada igual ao seu deslocamento terrestre, +5 em testes de resistência contra venenos e imunidade a teias mundanas ou mágicas. Além disso, pode lançar Teia (CD Des). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "manto-da-aranha-other-recebe-escalada-igual-ao",
@@ -1814,9 +1814,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Faixa de pano com inscrições mágicas usada sobre a nuca. Efeito: +5 em Sabedoria.",
+      "descricao": "Esta faixa de pano com inscrições mágicas é usada sobre a nuca, com as duas extremidades caindo na frente do corpo. Você recebe +2 em Sabedoria (somente após um dia de uso).",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "estola-da-serenidade-attribute-5-em-sabedoria",
@@ -1861,9 +1861,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Manto escuro que concede furtividade e permite transformação em morcego. Efeitos: +5 em Furtividade. À noite ou em ambientes escuros, ação padrão para virar morcego: tamanho Minúsculo, voo 12m e mordida 1d4 perfuração; funciona como Forma Selvagem.",
+      "descricao": "Este manto marrom escuro ou negro fornece +5 em Furtividade e permite que você fique pendurado de ponta-cabeça no teto, como um morcego. Além disso, você pode gastar uma ação padrão para segurar as pontas do manto e se transformar em um morcego. Seu tamanho muda para Minúsculo e você recebe deslocamento de voo 12m e uma arma natural de mordida (dano 1d4, perfuração). Em outros aspectos, isso funciona como a Forma Selvagem do druida. Você só pode se transformar em morcego à noite ou em ambientes escuros.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "manto-do-morcego-skill-5-em-furtividade",
@@ -2188,9 +2188,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Livro mágico de exercícios físicos. Após a leitura, perde sua magia. Efeito: Ler leva uma semana e aumenta Força em +1 permanentemente. Livros e Desejo podem aumentar um mesmo atributo em no máximo +5.",
+      "descricao": "Este tomo volumoso contém exercícios de musculação, mas escondido entre as palavras há um poderoso efeito mágico. Ler o livro leva uma semana e aumenta seu valor de Força em +1 permanentemente. Um valor de atributo pode aumentar no máximo em +5 pelo uso de livros e da magia Desejo. Assim que o livro é lido, a magia desaparece de suas páginas e ele se torna um item mundano.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "manual-do-bom-exercicio-other-ler-leva-uma-semana-e-au",
@@ -2458,9 +2458,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Aro de platina capaz de devolver magias ao conjurador. Efeito: Uma vez por rodada, quando for alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador, mantendo efeitos e CD.",
+      "descricao": "Este aro de platina é poderoso contra conjuradores. Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao seu conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "anel-refletor-other-uma-vez-por-rodada-quand",
@@ -2503,9 +2503,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Cinturão de ouro dos antigos campeões gladiatoriais. Efeitos: +2 em Força. Concede Briga. Se já possui, dano desarmado é calculado como quatro níveis de lutador a mais, máximo 2d12. Se possuir Torcida, o bônus dela aumenta para +3.",
+      "descricao": "Este cinturão de ouro é cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Você recebe +2 em Força e a habilidade Briga (veja a página 76). Caso já a possua, seu dano desarmado será calculado como se você possuísse quatro níveis de lutador a mais (máximo 2d12). Por fim, caso possua o poder Torcida, o bônus que você recebe por ele aumenta para +3. Em tempos antigos, estes cintos eram dados aos vencedores dos jogos gladiatoriais do Império de Tauron. A cada ano, diversos combatentes de toda Arton viajavam a Tiberus para competir e ter uma chance de ganhar um destes itens.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "cinto-do-campeao-attribute-2-em-forca",
@@ -2602,9 +2602,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Pequena estatueta animal que ganha vida mediante comando. Efeito: Ao ser atirada no chão e receber a palavra de comando, vira um animal e fornece um aliado veterano até o fim da cena: raposa ajudante, onça assassino, águia atirador, lobo combatente, leão fortão ou urso guardião.",
+      "descricao": "Esta estatueta de pedra é esculpida na forma de um animal e tem cerca de 10cm de altura. Quando é atirada no chão e a palavra de comando é proferida, transforma-se no animal correspondente. O animal fornece os benefícios de um aliado veterano até o fim da cena, quando então volta à sua forma de estatueta. O tipo de aliado é definido pelo animal: raposa (aliado ajudante), onça (assassino), águia (atirador), lobo (combatente), leão (fortão) ou urso (guardião).",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "estatueta-animista-other-ao-ser-atirada-no-chao-e",
@@ -2783,9 +2783,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Grande espelho mágico que cria um duplicado hostil de quem observa o próprio reflexo. Efeito: Quando ativado, quem observa o próprio reflexo gera uma cópia com as mesmas habilidades e equipamento; a duplicata ataca o original e desaparece quando um dos dois é derrotado.",
+      "descricao": "Este item lembra um espelho normal com cerca de 1m de comprimento e 1,5m de altura. Pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Quando uma criatura observa seu reflexo, o espelho cria uma cópia sua, com as mesmas habilidades e equipamento. A duplicata ataca a criatura original; quando um dos dois é derrotado, a duplicata e seus itens desaparecem.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "espelho-da-oposicao-other-quando-ativado-quem-obse",
@@ -2828,9 +2828,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Traje pesado que protege conjuradores arcanos usando a própria energia mágica. Efeito: Se for conjurador arcano, recebe Defesa igual a 5 + o maior círculo de magia que pode lançar e bônus em resistências igual à metade desse valor. Não é automatizado por depender do círculo.",
+      "descricao": "Este traje pesado alinha-se com as energias arcanas emitidas por seu usuário para gerar um campo protetor. Se você for um conjurador arcano, recebe um bônus na Defesa igual a 5 + o círculo de magia mais alto que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Assim, um arcanista de 9º nível (capaz de lançar magias de 3º círculo) recebe +8 na Defesa e +4 em testes de resistência.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "robe-do-arquimago-other-se-for-conjurador-arcano",
@@ -2969,9 +2969,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Grande espelho de cristal que aprisiona criaturas em um espaço extradimensional. Efeito: Quando ativado, criatura em alcance curto que veja o próprio reflexo deve passar em Reflexos ou ser aprisionada no espelho. Construtos, mortos-vivos e objetos não são afetados. Um comando permite conversar ou libertar; quebrar o espelho liberta todos.",
+      "descricao": "Este item de cristal, com 1,5m de altura e moldura de metal, pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Qualquer criatura que se aproxime a alcance curto do espelho do aprisionamento e enxergue seu próprio reflexo deve passar em um teste de Reflexos (CD Int) ou será transportada magicamente para um espaço extradimensional dentro do espelho, ficando presa ali. O tamanho da criatura não importa — mas construtos, mortos-vivos e objetos não podem ser transportados. Com um comando, é possível conversar com uma criatura presa no espelho ou libertá-la. Se o espelho for quebrado, todas as criaturas dentro dele são libertadas.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "espelho-do-aprisionamento-other-quando-ativado-criatura-",
@@ -3414,10 +3414,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este anel de plaação padrão e passar em um teste de Acrobacia (CD tina contém inscrições sobre um acordo com uma do item) — você pode liberar a criatura proferindo entidade poderosa — talvez um espírito ancestral, um uma palavra de comando (uma ação livre). Dragão-Real ou mesmo um deus do Panteão. O anel Algibeira Provedora.",
+      "descricao": "Este anel de platina contém inscrições sobre um acordo com uma entidade poderosa — talvez um espírito ancestral, um Dragão-Real ou mesmo um deus do Panteão. O anel permite lançar uma magia divina de até 4º círculo a sua escolha, sem custo em PM. Contudo, para cada utilização, você deve realizar uma penitência ou busca determinada pelo mestre. Você não pode lançar uma nova magia até que a penitência pela magia anterior tenha sido cumprida.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.378Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3534,10 +3534,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este saco de dormir mágico aumenta em +2. é feito de tecido macio e aveludado, em um tom de azul profundo que lembra o céu noturno. Mesmo ao Anel da Beleza Ilusória.",
+      "descricao": "Este saco de dormir mágico é feito de tecido macio e aveludado, em um tom de azul profundo que lembra o céu noturno. Mesmo ao relento e sem um acampamento, oferece condição de descanso confortável. Além disso, enquanto está no saco de dormir, você é considerado sob efeito da magia Suporte Ambiental.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.379Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3854,10 +3854,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta cartola de dano aumentam em +1. ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode Colar da Perseverança.",
+      "descricao": "Esta cartola ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode lançar livremente qualquer versão truque de qualquer magia de 1º círculo que ofereça esse aprimoramento, mesmo que não a conheça. Esta cartola de dano aumentam em +1.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.381Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4294,10 +4294,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este colar de ouro o cristal é quebrado, pode acelerar o tempo dentro de possui cinco pequenos rubis incrustados (ou 1d4+1 um aposento. Em termos de jogo, gastar o cristal perrubis, se for encontrado num tesouro). Você recebe mite um intervalo entre aventuras no tempo de 1 dia.",
+      "descricao": "Este colar de ouro possui cinco pequenos rubis incrustados (ou 1d4+1 rubis, se for encontrado num tesouro). Você recebe redução de fogo 10 e pode lançar Bola de Fogo (CD Int ou Car; se já puder lançar essa magia, você recebe 2 PM para gastar em aprimoramentos dela). Quando lança Bola de Fogo, você pode gastar uma ação de movimento para arrancar e quebrar um dos rubis. Se fizer isso, aumenta a CD para resistir a magia em +2 e todos os dados de dano dela em um passo (ambos os efeitos são cumulativos com bônus de outros itens). Se quebrar todos os rubis, o colar perde seus poderes. Você recebe mite um intervalo entre aventuras no tempo de 1 dia.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.384Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4534,10 +4534,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este cristal azutambém afeta todos os escravos encoleirados. lado contém em seu interior uma pequena porção de gás mágico que afeta a passagem do tempo. Quando Colar das Bolas de Fogo.",
+      "descricao": "Este cristal azulado contém em seu interior uma pequena porção de gás mágico que afeta a passagem do tempo. Quando o cristal é quebrado, pode acelerar o tempo dentro de um aposento. Em termos de jogo, gastar o cristal permite um intervalo entre aventuras no tempo de 1 dia.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.387Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4694,10 +4694,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este pequeno esCarisma (somente após um dia de uso) e pode lançar pelho de bronze polido reflete não apenas a imagem Comando (CD Car) como uma ação de movimento e física, mas a alma do indivíduo que o encara. Uma com um bônus de +2 na CD. Contudo, aqueles que vez por aventura, você pode encarar o espelho para passam em seu teste de resistência uma única vez não conversar por alguns minutos com sua contraparte Capítulo 3 266 <PARSED TEXT FOR PAGE: 269 / 330> espiritual.",
+      "descricao": "Este pequeno espelho de bronze polido reflete não apenas a imagem física, mas a alma do indivíduo que o encara. Uma vez por aventura, você pode encarar o espelho para conversar por alguns minutos com sua contraparte espiritual. O resultado da interação é imprevisível, pois o reflexo pode se manifestar como um aliado solícito que oferece conselhos ou como um crítico severo que diminui sua autoconfiança. Em termos de regras, role 1d10–3. Se você rolar um número positivo, recebe esse número em d6 de auxílio — até o fim da aventura, quando faz um teste de perícia, pode gastar até 2d6 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens). Se você rolar um número negativo, o mestre recebe esse número em d6. Até o fim da aventura, quando você faz um teste de perícia, o mestre pode gastar qualquer quantidade desses dados e impor o resultado como uma penalidade no teste, representando inseguranças incutidas em você por sua própria alma!",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4734,10 +4734,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta enorme das imagens aumenta a CD para resistir à magia em +5. frigideira de adamante, gravada com runas dos Máscara da Raposa. Esta máscara de marfim anões, é amplamente utilizada pelos maiores chefs de ornada com linhas em vermelho vivo é muitas vezes Doherimm.",
+      "descricao": "Esta enorme frigideira de adamante, gravada com runas dos anões, é amplamente utilizada pelos maiores chefs de Doherimm. É um instrumento de Ofício (cozinheiro) que fornece +5 nessa perícia. Também pode ser usada como uma maça maciça formidável de adamante ou, em situações de emergência, como um escudo pesado defensor de adamante que, por não ter suportes próprios, exige as duas mãos. Esta enorme das imagens aumenta a CD para resistir à magia em +5.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.388Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4854,10 +4854,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta gema preciosa foi abençoada por Lena, Marah, Thyatis ou outra divindade Ocarina da Melodia Distante. Este inspiedosa. Você pode lançar a magia Purificação.",
+      "descricao": "Esta gema preciosa foi abençoada por Lena, Marah, Thyatis ou outra divindade piedosa. Você pode lançar a magia Purificação. Caso seja devoto de uma divindade que canaliza energia positiva e/ou já conheça essa magia, seu custo diminui em –1 PM (essas reduções são cumulativas entre si).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.389Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5134,10 +5134,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este inspiedosa. Você pode lançar a magia Purificação. Caso seja trumento musical feito de porcelana fornece +2 em devoto de uma divindade que canaliza energia positiva Atuação.",
+      "descricao": "Este instrumento musical feito de porcelana fornece +2 em Atuação. Contudo, seu verdadeiro potencial só é revelado quando é tocado por um bardo — o bônus em Atuação aumenta para +5 e o alcance de suas Músicas de bardo aumenta em um passo (de curto para médio e de médio para longo).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.391Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5294,10 +5294,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Uma pequena pedra Quando um aliado em alcance curto se fere, você dourada que emite uma leve pulsação de luz. Você pode gastar 2 PM. Se fizer isso, o aliado não sofre pode gastar uma ação padrão e 3 PM para segurá-la o dano, mas você perde PV em quantidade igual ao contra uma superfície sólida e produzir uma abertura dano que ele teria sofrido (após quaisquer efeitos de tamanho Médio.",
+      "descricao": "Uma pequena pedra dourada que emite uma leve pulsação de luz. Você pode gastar uma ação padrão e 3 PM para segurá-la contra uma superfície sólida e produzir uma abertura de tamanho Médio. Afeta apenas superfícies não mágicas com RD 8 ou menos. Não abre buracos em seres vivos. Não abre buracos em golens ou osteon. Não abre buracos em armadilhas ou evita perigos complexos, mesmo que você ache as palavras “porta” ou “parede” em algum lugar da descrição. Não abre buracos em nada exceto portas e paredes. Francamente...!",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5374,10 +5374,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Este aventuras. Uma vez que você tenha feito isso, seu perigoso pergaminho contém uma revelação divina Golpe Pessoal recebe novos efeitos num total de até tão poderosa e terrível que pode destruir a mente 2 PM, que não contam no limite para construí-lo e do leitor (avisos a esse respeito estão gravados no que não aumentam seu custo em PM. Quando sobe estojo externo).",
+      "descricao": "Este perigoso pergaminho contém uma revelação divina tão poderosa e terrível que pode destruir a mente do leitor (avisos a esse respeito estão gravados no estojo externo). Abrir e olhar o pergaminho exige fazer um teste de Vontade (CD 40). Nenhum tipo de habilidade ou efeito que conceda sucessos automáticos ou permita escolher 10 funciona para esse teste. Em caso de falha, sua mente se despedaça — você sofre o efeito debilidade de Rogar Maldição, em sua versão permanente. Contudo, em caso de sucesso, você pode imediatamente lançar Intervenção Divina, para qualquer divindade que deseje, sem precisar gastar ou sacrificar PM, independente do efeito que peça. Uma vez utilizado, o pergaminho se desfaz em cinzas; o mesmo acontece com a verdade revelada, sendo impossível uma mente mortal contê-la.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.393Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5454,10 +5454,10 @@
         "magico",
         "especifico"
       ],
-      "descricao": "Esta joia degos iminentes. Fornece +5 em testes de Sobrevivência licada, feita de prata escurecida, é ornamentada com para orientar-se e rastrear, e em testes de Percepção um pequeno rubi em formato de lágrima, pulsando para evitar ser surpreendido por inimigos nos ermos. suavemente no ritmo do coração de seu portador.",
+      "descricao": "Esta joia delicada, feita de prata escurecida, é ornamentada com um pequeno rubi em formato de lágrima, pulsando suavemente no ritmo do coração de seu portador. Quando um aliado em alcance curto se fere, você pode gastar 2 PM. Se fizer isso, o aliado não sofre o dano, mas você perde PV em quantidade igual ao dano que ele teria sofrido (após quaisquer efeitos que reduzam dano que seu aliado possua ou use, como RD ou Durão).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.394Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5929,10 +5929,10 @@
         "dragao brasil 228",
         "tormenta20"
       ],
-      "descricao": "Desenvolvido por inventores Peregrinos, este item mágico foi um protótipo que acabou se tornando mais famoso do que o planejado: seu objetivo inicial era rastrear as Lágrimas de Valkaria, mas as primeiras versões acabaram alertando seu usuário para a presença de qualquer magia.",
+      "descricao": "Desenvolvido por inventores Peregrinos, este item mágico foi um protótipo que acabou se tornando mais famoso do que o planejado: seu objetivo inicial era rastrear as Lágrimas de Valkaria, mas as primeiras versões acabaram alertando seu usuário para a presença de qualquer magia. Hoje em dia, ainda que usem uma versão mais avançada e precisa para buscar pelas Lágrimas, os Peregrinos continuam comercializando este item — afinal, todo mundo precisa pagar as contas, certo? Ao empunhar a Bússola das Lágrimas com uma das mãos, você tem sucesso automático em testes de Misticismo para detectar magia e pode fazê-los mesmo que não seja treinado nesta perícia. Acessório menor, preço T$ 3.500.",
       "properties": "Acessório menor.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:31:17.223Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

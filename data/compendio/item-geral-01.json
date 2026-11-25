@@ -139,9 +139,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Rolo com 10 metros de corda de cânhamo. Dar um nó firme exige Destreza CD 10; nó especial, CD 12; arrebentar a corda exige Força CD 23.",
+      "descricao": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente, se desfazer com um puxão etc.) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23).",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -178,9 +178,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Espelho de metal polido, útil para observar cantos, fazer sinais de luz, auxiliar disfarces e outras aplicações criativas.",
+      "descricao": "Este espelho de metal polido possui diversas utilidades. Além de garantir que você esteja apresentável, pode ser usado para observar cantos, fazer sinais de luz, colocar disfarces...",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -257,9 +257,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Conjunto de ferramentas apropriadas para um tipo de Ofício. Sem o kit necessário, o personagem sofre –5 nos testes daquele Ofício. Efeito: Sem o kit adequado: –5 nos testes do Ofício correspondente.",
+      "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria) ou lente de aumento e balança para testes de Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -417,9 +417,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Lampião alimentado por óleo. Ilumina até 9m; uma carga dura 6 horas e custa T$ 0,1. Efeito: Ilumina até 9m; uma carga de óleo dura 6 horas e custa T$ 0,1.",
+      "descricao": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. A luz do lampião atinge 9m. Uma carga de óleo dura 6 horas e custa T$ 0,1.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.744Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -498,9 +498,9 @@
         "livro basico",
         "comida"
       ],
-      "descricao": "Bolsa de couro para líquidos. O modelo mais comum comporta 1 litro.",
+      "descricao": "Bolsa de couro para guardar bebida (geralmente água ou vinho). Existe em vários tamanhos, mas o odre mais comum comporta 1 litro.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -578,9 +578,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna é uma ação completa.",
+      "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma tocha ou lanterna com uma pederneira é uma ação completa.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -694,9 +694,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Colchão e coberta fina enroláveis para pernoites. Dormir ao relento sem saco de dormir diminui a recuperação de PV e PM.",
+      "descricao": "Composto por um colchão e uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um saco de dormir diminui sua recuperação de PV e PM.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -911,9 +911,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Conjunto de sela, arreios, freios e alforjes para equipar uma montaria.",
+      "descricao": "Uma peça de couro e pelego, posicionada sobre o lombo da montaria para o cavaleiro sentar. Inclui arreios, freios e alforjes (sacos de couro para levar mantimentos de viagem).",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T02:56:46.955Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -987,10 +987,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um objeto delicado, usado para medir o tempo. Um ciclo da ampulheta normalmente Bainha Adornada. Coberta de fios de ouro, equivale a uma hora.",
+      "descricao": "Um objeto delicado, usado para medir o tempo. Um ciclo da ampulheta normalmente equivale a uma hora. Usada por nobres para manter controle de seus compromissos e por alquimistas para medir o tempo de certas reações. Quando escolhe 10 em um teste de Ofício (alquimista), você considera o resultado do d20 como um 12 automático.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.323Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1139,10 +1139,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Criada por uma serelepe tribo de kobolds, este implemento deixou inúmeros engenhoqueiros goblins se perguntando: “Por que não pensei nisso antes?”. Consiste em uma mochila vestida às costas, da qual se projetam duas asas retráteis. Pedais, manivelas e roldanas permitem o “bater” das asas, sustentando um voo um tanto irregular, mas controlável. Para voar com as asas do texugo, é necessário gastar uma ação de movimento para estender as asas (quando não estão em uso, elas ficam dobradas dentro da “mochila”).",
+      "descricao": "Criada por uma serelepe tribo de kobolds, este implemento deixou inúmeros engenhoqueiros goblins se perguntando: “Por que não pensei nisso antes?”. Consiste em uma mochila vestida às costas, da qual se projetam duas asas retráteis. Pedais, manivelas e roldanas permitem o “bater” das asas, sustentando um voo um tanto irregular, mas controlável. Para voar com as asas do texugo, é necessário gastar uma ação de movimento para estender as asas (quando não estão em uso, elas ficam dobradas dentro da “mochila”). Isso faz com que você passe a ocupar o espaço de uma criatura uma categoria de tamanho maior que a sua. Para sair do chão é necessário fazer um teste de Atletismo para saltar (CD 15) para pegar impulso. Se passar, você recebe deslocamento de voo 12m por 1 rodada, +1 rodada para cada 5 pontos pelos quais o resultado superar a CD. Saltar de um ponto elevado, como do telhado de um celeiro, fornece +5 nesse teste. Ao fim do tempo de voo, você plana rumo ao chão (como no efeito básico da magia Queda Suave). Enquanto está voando, você fica vulnerável e em condição ruim para lançar magias (você ignora essas penalidades se for treinado em Pilotagem).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:58:45.373Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1291,10 +1291,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Condecorações não de aventureiro passa a aumentar sua capacidade de são compradas, são conquistadas! Uma condecoração carga em 6 espaços (em vez de 2). Entretanto, a ação militar é concedida por um reino ou igreja após uma necessária para sacar seus itens aumenta em um passo missão bem-sucedida.",
+      "descricao": "Condecorações não são compradas, são conquistadas! Uma condecoração militar é concedida por um reino ou igreja após uma missão bem-sucedida. Se estiver ostentando sua condecoração, no início de cada combate, você recebe uma quantidade de PV temporários, cumulativos com outros bônus de itens e com outras condecorações, igual a 3x o patamar em que a condecoração foi conquistada (por exemplo, 6 PV para uma condecoração obtida em patamar veterano). Uma condecoração carga em 6 espaços (em vez de 2).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.326Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1405,10 +1405,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este pequeno espelho de azar recebem esse nome porque dependem do pode ser usado para refletir qualquer luz nos olhos acaso. Os melhores jogadores são capazes de usar seu de um inimigo, cegando-o temporariamente. Você magnetismo natural, frieza e capacidade de blefar para pode gastar uma ação de movimento para fazer um garantir vitória em quase qualquer mesa.",
+      "descricao": "Este pequeno espelho pode ser usado para refletir qualquer luz nos olhos de um inimigo, cegando-o temporariamente. Você pode gastar uma ação de movimento para fazer um teste de Ladinagem oposto a um teste de Reflexos de uma criatura em alcance curto. Se você vencer o teste oposto, ela fica desprevenida contra seu próximo ataque realizado até o fim do seu próximo turno. Pode ser usado apenas uma vez por cena — após isso, os inimigos sabem que devem se proteger contra o truque.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1443,10 +1443,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Médicos de Salistick usam alguém consultando um destes livros podem bani-lo este aparato sofisticado para auscultar o coração de do jogo (ou fazer coisa bem pior). pacientes. No entanto, criminosos costumam usá-lo para ouvir os movimentos de mecanismos internos Lupa.",
+      "descricao": "Médicos de Salistick usam este aparato sofisticado para auscultar o coração de pacientes. No entanto, criminosos costumam usá-lo para ouvir os movimentos de mecanismos internos de fechaduras e armadilhas, facilitando seu trabalho ardiloso. Você pode gastar uma ação padrão para fazer um teste de Investigação para ajudar a si mesmo e aplicar o bônus a um teste de Cura, ou de Ladinagem para abrir fechadura ou sabotar, que você realize até o fim do seu próximo turno.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.327Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1481,10 +1481,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Pequenas peças metálicas pontiagudas. Com uma ação padrão, você espalha os estrepes em uma área de até 3m; quem pisar nela sofre 1d4 de perfuração e, se sofrer dano, fica lento até o fim do próximo turno.",
+      "descricao": "Pequenas peças de metal com pontas afiadas. Você pode gastar uma ação padrão para cobrir um quadrado de até 3m de lado com os estrepes. Eles causam 1d4 pontos de dano de perfuração em qualquer criatura que pise na área. Uma criatura que sofra dano dos estrepes fica lenta até o fim do próximo turno dela.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1633,10 +1633,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Jogos Espelho Refletor. Este pequeno espelho de azar recebem esse nome porque dependem do pode ser usado para refletir qualquer luz nos olhos acaso. Os melhores jogadores são capazes de usar seu de um inimigo, cegando-o temporariamente.",
+      "descricao": "Jogos de azar recebem esse nome porque dependem do acaso. Os melhores jogadores são capazes de usar seu magnetismo natural, frieza e capacidade de blefar para garantir vitória em quase qualquer mesa. Este livro, contudo, contém métodos que permitem trocar toda essa aleatoriedade e malandragem por racionalidade: cálculos de estatísticas e probabilidades, truques para contar cartas, gráficos com projeções de ganhos e perdas... Você pode gastar 1 minuto consultando o livro e 1 PM para substituir testes de Jogatina por testes de Conhecimento até o fim da cena. Certos cassinos, tavernas e grupos de jogadores que notem alguém consultando um destes livros podem bani-lo do jogo (ou fazer coisa bem pior).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.328Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1823,10 +1823,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma simples tabuleta de madeira uma desavença ou decepcionarem um ao outro de com um pergaminho, no qual o usuário pode fingir alguma forma, este item para de funcionar. escrever alguma coisa. Alguém que carrega uma pranLampião de Foco.",
+      "descricao": "Uma simples tabuleta de madeira com um pergaminho, no qual o usuário pode fingir escrever alguma coisa. Alguém que carrega uma prancheta é imediatamente identificado como uma figura de autoridade — talvez um inspetor de alguma guilda, ou um enviado de um nobre. Você pode fazer testes de Nobreza para etiqueta mesmo sem ser treinado.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.330Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2203,10 +2203,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Criada pelos com um parceiro não inteligente (Int –4 ou –5) como anões para reverberar na acústica de cavernas, este ação livre uma vez por rodada. instrumento é similar a uma gaita de foles, mas possui Baralho Marcado. Um baralho com marcações roncões imensos, que sobem pelas costas do músico sutis, que só o usuário é capaz de reconhecer.",
+      "descricao": "Criada pelos anões para reverberar na acústica de cavernas, este instrumento é similar a uma gaita de foles, mas possui roncões imensos, que sobem pelas costas do músico numa curva e repousam em seus ombros. Diferente de outros instrumentos, a cornamusa é vestida e não empunhada (mas você ainda precisa ter pelo menos uma mão livre para usá-la). Enquanto você estiver vestindo a cornamusa, o custo de sua Inspiração é reduzido –1 PM, mas você sofre –2 na Defesa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2279,10 +2279,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um instrumento polêmico — de Cura em si mesmo. algumas culturas adoram seu som, mas a maioria das Estandarte. Um pedaço de tecido, geralmente pessoas odeia!",
+      "descricao": "Um instrumento polêmico — algumas culturas adoram seu som, mas a maioria das pessoas odeia! Apenas um músico muito habilidoso consegue transformar o lamento da gaita de foles em algo agradável. Ao usar Inspiração, faça um teste de Atuação (CD 20 + total de PM gastos na habilidade). Se passar, o bônus concedido pela Inspiração aumenta em +1. Se falhar, a habilidade não tem efeito, mas os PM são gastos da mesma forma.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.334Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2355,10 +2355,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Embora não produza nenhum som, como um item vestido dela (veja p. 238). este conjunto de bonecos articulados pode ser empreMolde Pré-Fabricado.",
+      "descricao": "Embora não produza nenhum som, este conjunto de bonecos articulados pode ser empregado como um “instrumento musical”. Você recebe +2 no teste oposto de Atuação para usar os poderes Música: Balada Fascinante e Fascinar em Massa, e na CD dos poderes Manipular e Manipular em Massa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.335Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2659,10 +2659,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este casacão pesado (CD 25) para ser capaz de descrevê-lo mais tarde (útil recobre todo o corpo do usuário, estendendo-se até para fugir das autoridades após um crime). abaixo de seus joelhos. É forrado de bolsos por dentro Máscara Completa.",
+      "descricao": "Este casacão pesado recobre todo o corpo do usuário, estendendo-se até abaixo de seus joelhos. É forrado de bolsos por dentro e por fora, sendo ideal para carregar muitos pequenos itens de utilidade variada. Uma casaca de apetrechos aumenta sua capacidade de carga em 4 espaços (ela própria não gasta um espaço). Por ser volumosa e desajeitada, impõe uma penalidade de armadura de –2 e não pode ser usada com armadura.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2697,10 +2697,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Popular entre capitães este instrumento é tocado com um par de baquetas piratas e duelistas fanfarrões, este enorme chapéu pequenas. Produz um som rápido e cadenciado. tem abas largas e uma gigantesca pluma.",
+      "descricao": "Popular entre capitães piratas e duelistas fanfarrões, este enorme chapéu tem abas largas e uma gigantesca pluma. Na primeira rodada de um combate, você pode gastar uma ação de movimento para saudar seus inimigos. Se fizer isso, você recebe 1 PM temporário que dura até o fim da cena.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2773,10 +2773,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Uma coifa (capuz de cota de próximo turno. malha) ou capacete fechado. Fornece fortificação Violino Soprano.",
+      "descricao": "Uma coifa (capuz de cota de malha) ou capacete fechado. Fornece fortificação 50%, mas impõe –5 em Iniciativa e Percepção. Se você tiver proficiência com armaduras pesadas, reduz essa penalidade para –2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.338Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2925,10 +2925,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta máscara nada mais é condições de descanso confortáveis em luxuosas. que um pano que cobre nariz e boca do usuário. Ela Capa com Dragonas.",
+      "descricao": "Esta máscara nada mais é que um pano que cobre nariz e boca do usuário. Ela permite respirar mas esconde boa parte das feições, deixando à mostra apenas olhos, testa e orelhas. A preferida de onze entre dez bandoleiros de estradas. Qualquer pessoa que veja um personagem usando uma máscara bucal deve passar em um teste de Percepção (CD 25) para ser capaz de descrevê-lo mais tarde (útil para fugir das autoridades após um crime).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2963,10 +2963,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Esta máscara cobre toe por fora, sendo ideal para carregar muitos pequenos talmente o rosto. Como a área da máscara é maior, itens de utilidade variada. Uma casaca de apetrechos geralmente ela tem a forma de uma criatura ou aumenta sua capacidade de carga em 4 espaços (ela entidade — ursos, demônios, golens, javalis...",
+      "descricao": "Esta máscara cobre totalmente o rosto. Como a área da máscara é maior, geralmente ela tem a forma de uma criatura ou entidade — ursos, demônios, golens, javalis... Tudo que couber na imaginação do artesão. Pode ser feita de argila, madeira, porcelana ou metal. Escolha uma perícia baseada em Carisma. A máscara concede +1 em testes dessa perícia, de acordo com sua forma (uma máscara de demônio pode ajudar em Intimidação, por exemplo).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3001,10 +3001,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Tapa a região dos olhos, Rondel. Dois discos de aço costurados rebitados testa e às vezes o nariz, deixando à mostra a boca, o na armadura. Aumentam o bônus na Defesa de sua queixo e as orelhas.",
+      "descricao": "Tapa a região dos olhos, testa e às vezes o nariz, deixando à mostra a boca, o queixo e as orelhas. Muito popular em bailes e festas requintadas… Ou picantes. Uma vez por cena, se estiver em um baile, festa ou outra situação apropriada (de acordo com o mestre), você pode colocar uma máscara de baile (ou trocar de máscara) para repetir um teste de Diplomacia ou Enganação.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.340Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3609,10 +3609,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este aparato funciona vulnerável (vulnerável por 1 rodada). como um adaptador que permite instalar melhorias de outros itens na engenhoca. Fazer isso segue as Seiva Necrótica.",
+      "descricao": "Este aparato funciona como um adaptador que permite instalar melhorias de outros itens na engenhoca. Fazer isso segue as mesmas regras e custos para aplicar melhorias em itens convencionais. De forma geral, se uma melhoria afeta uma característica da magia simulada pela engenhoca, ela pode ser aplicada (uma engenhoca que simula Armadura Arcana poderia receber melhorias de armaduras, por exemplo). Para materiais especiais, o custo da melhoria é baseado no tipo de efeito que ela vai gerar (arma, armadura ou esotérico — se mais de um for aplicável, você deve escolher apenas uma). Uma engenhoca pode receber mais de uma espera, e cada uma permite instalar uma melhoria (mas efeitos iguais não se acumulam, como normal). A critério do mestre, melhorias que não se apliquem naturalmente a engenhocas ainda podem ser aplicadas.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.353Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3913,10 +3913,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Um conjunto dano 2. CD 20. de ventoinhas que fazem ar fresco circular entre os Cerveja Deheoni.",
+      "descricao": "Um conjunto de ventoinhas que fazem ar fresco circular entre os componentes da engenhoca e tubos cheios d’água, que dissipam calor por sua correnteza interna. Uma",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.356Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4217,10 +4217,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Muito usado em desfiles, justas Conselheiro. Um estudioso de diversos ase outras ocasiões em que uma montaria precisa se suntos. Ajudante (Conhecimento, Misticismo e Nobreza) mostrar garbosa.",
+      "descricao": "Muito usado em desfiles, justas e outras ocasiões em que uma montaria precisa se mostrar garbosa. Uma vez por cena, se você estiver montado e for treinado em Cavalgar, pode se exibir com sua montaria para receber +1d4 em um teste de perícia baseada em Carisma.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.363Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4256,10 +4256,10 @@
         "adicional",
         "material adicional da dragao brasil"
       ],
-      "descricao": "Dispositivo de duas mãos que aumenta para médio o alcance de um item alquímico ou poção carregado.",
+      "descricao": "Este cano grosso com uma empunhadura e gatilho pode ser carregado com um item alquímico ou poção como uma ação padrão. Disparar o lançador exige as duas mãos e uma ação padrão e gera o efeito do item carregado nele em alcance médio. Ofício (armeiro) CD 20. (Nota: este item não conta como arma para modificações e encantos.)",
       "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4295,9 +4295,9 @@
         "tormenta20",
         "consumivel"
       ],
-      "descricao": "Água sagrada criada com Abençoar Alimentos. Com uma ação padrão, pode atingir um morto-vivo, demônio ou diabo em alcance curto e causar 2d10 de dano de luz, com Reflexos para reduzir à metade.",
+      "descricao": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo, demônio ou diabo em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade).",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -4334,9 +4334,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Par de algemas para criaturas Médias. Pode prender os dois pulsos ou um pulso a um objeto; escapar exige Acrobacia CD 30, Força CD 25 ou as chaves. Efeito: Espaços: 1",
+      "descricao": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo (veja “Manobras de Combate”, no Capítulo 5) e vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige uma ação completa e um teste de Acrobacia contra CD 30 ou de Força contra CD 25 — ou ter as chaves... Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4372,9 +4372,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Gancho de aço preso a uma corda para fixação em muros, janelas e parapeitos. Prendê-lo exige Pontaria CD 15 e usá-lo para subir fornece +5 em Atletismo. Efeito: Espaços: 1",
+      "descricao": "Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4486,9 +4486,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Rolo de 10m de corda de cânhamo. Ajuda em escaladas e descidas, podendo fornecer +5 em Atletismo em situações apropriadas; também pode ser usada para amarrar criaturas e objetos. Efeito: Espaços: 1",
+      "descricao": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Possui diversas utilidades: pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc. Dar um nó firme ou especial (por exemplo, capaz de deslizar, se desfazer com um puxão etc.) exige um teste de Destreza (CD 15). Arrebentar a corda exige 2 pontos de dano de corte ou uma ação padrão e um teste de Força (CD 20). Ajuda em escaladas e descidas, podendo fornecer +5 em Atletismo em situações apropriadas; também pode ser usada para amarrar criaturas e objetos. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4562,9 +4562,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Lampião a óleo com portinholas. Acendê-lo é uma ação padrão; ilumina um raio de 15m e uma carga de óleo dura uma cena. Efeito: Espaços: 1",
+      "descricao": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4792,9 +4792,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Colchão fino e enrolável com coberta, necessário para descansar adequadamente ao relento. Efeito: Espaços: 1",
+      "descricao": "Composto por um colchão e uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um saco de dormir diminui sua recuperação de PV e PM. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4868,9 +4868,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Bastão com material inflamável na ponta. Acender exige ação padrão; ilumina um raio de 9m por uma cena e pode ser usada como arma simples leve, causando 1d4 de impacto +1 de fogo. Efeito: Espaços: 1",
+      "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2). Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4944,9 +4944,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Alaúde de madeira refinada e manufatura delicada. Enquanto empunhado, permite usar Inspiração como ação de movimento e conta como instrumento musical. Efeito: Espaços: 1",
+      "descricao": "Feito com madeira de alta qualidade e manufatura delicada, este alaúde gera notas vívidas e emocionantes. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5172,9 +5172,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Conjunto de ferramentas específicas para uma perícia de Ofício. Sem os instrumentos adequados, você sofre –5 nos testes desse Ofício. Efeito: Espaços: 1",
+      "descricao": "Existe uma versão deste item para cada perícia de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpinteiro), pergaminhos em branco, tinta e pena para Ofício (escriba) e assim por diante. Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5324,9 +5324,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Peça de couro e pelego com arreios para controlar uma montaria. Montar sem sela impõe –5 em Cavalgar; quando usada no animal, não ocupa espaço do personagem. Efeito: Espaços: 1",
+      "descricao": "Uma peça de couro e pelego colocada sobre o lombo da montaria, sobre a qual o cavaleiro se senta. Inclui arreios para conduzir o animal. Um personagem montado em uma montaria sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5362,9 +5362,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Tambor anão de som grave. Enquanto empunhado, dobra o alcance de Inspiração e de qualquer Música de Bardo; conta como instrumento musical. Efeito: Espaços: 1",
+      "descricao": "Um instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5400,9 +5400,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Roupas simples de camponês. Fornecem +2 em Investigação para interrogar e aumentam a CD de Aparência Inofensiva em +2, mas podem impor –2 em perícias de Carisma contra pessoas preocupadas com classe social.",
+      "descricao": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas — os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:46:42.576Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5628,9 +5628,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Casaco quente de peles ou couro forrado e impermeabilizado. Fornece +5 em Fortitude contra frio, mas impõe penalidade de armadura –2. Efeito: Espaços: 1",
+      "descricao": "Feito de peles ou couro grosso forrado com lã, e impermeabilizado com óleo, este casaco é quente e pesado. Fornece +5 em testes de Fortitude para resistir a efeitos de frio, mas impõe penalidade de armadura de –2. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5666,9 +5666,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Chapéu pontudo adornado com símbolos místicos. Fornece +1 PM, mas apenas para personagens com Caminho do Arcanista. Efeito: Espaços: 1",
+      "descricao": "Com pinturas e bordados de símbolos místicos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 ponto de mana, mas apenas se você possuir a habilidade de classe Caminho do Arcanista. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5742,9 +5742,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Trapos adornados com plantas e raízes. Fornecem +2 em Adestramento, mas impõem –2 em Diplomacia e em Investigação para interrogar. Efeito: Espaços: 1",
+      "descricao": "Trapos “adornados” com plantas e raízes. Uma pessoa vestindo farrapos de ermitão não parece muito civilizada, e sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5894,9 +5894,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Manto feito para um terreno específico. No terreno correto, fornece +2 em Furtividade. Efeito: Espaços: 1",
+      "descricao": "Um manto camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, na página 51). Por exemplo, um manto camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um manto urbano pode ser cinza ou negro. Usar um manto camuflado no terreno correto fornece +2 em Furtividade. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6084,9 +6084,9 @@
         "jogo do ano",
         "tormenta20"
       ],
-      "descricao": "Roupas de luxo feitas sob medida, com joias e acessórios. Em ambientes formais, personagens sem esse traje podem sofrer –5 em perícias baseadas em Carisma. Efeito: Espaços: 1",
+      "descricao": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como aneis e colares. Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.752Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

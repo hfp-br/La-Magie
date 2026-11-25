@@ -504,10 +504,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Este escudo é grande e Sagna. Desenvolvido por devotos de Oceano desajeitado, mas extremamente leve devido a seu e muito comum em regiões praianas, este grande material. Parece não proteger muito, pois existem escudo de madeira também pode ser usado para pequenas “falhas” entre as fibras de vime.",
+      "descricao": "Este escudo é grande e desajeitado, mas extremamente leve devido a seu material. Parece não proteger muito, pois existem pequenas “falhas” entre as fibras de vime. À primeira vista, apenas um louco usaria este tipo de proteção — mas, justamente por ser leve, volumoso e com uma trama aberta, pode ser movido com facilidade para confundir os inimigos. Não é preso ao braço, mas precisa ser empunhado com as duas mãos, impedindo que você empunhe uma arma ou qualquer outro item (um parceiro capaz de empunhar escudos pode segurar Colete fora da lei Broquéis Cota de moedas Escudo de vime",
       "properties": "Defesa +2; Penalidade -2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "escudo-de-vime-ac-2-na-defesa",
@@ -604,10 +604,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Desenvolvido por devotos de Oceano desajeitado, mas extremamente leve devido a seu e muito comum em regiões praianas, este grande material. Parece não proteger muito, pois existem escudo de madeira também pode ser usado para pequenas “falhas” entre as fibras de vime. À primeira deslizar pelas ondas.",
+      "descricao": "Desenvolvido por devotos de Oceano e muito comum em regiões praianas, este grande escudo de madeira também pode ser usado para deslizar pelas ondas. Enquanto você o usa dessa forma, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Além disso, quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade); se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Um sagna pode ser usado para atacar como um escudo pesado. Escudo torre Sagna",
       "properties": "Defesa +2; Penalidade -3",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.322Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "sagna-ac-2-na-defesa",

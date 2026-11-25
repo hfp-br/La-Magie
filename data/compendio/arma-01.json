@@ -23,9 +23,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Faca curta e discreta, comum entre aventureiros e criminosos. Pode ser arremessada e permite usar Destreza no teste de ataque. Efeito: leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
+      "descricao": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +2 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar seu modificador de Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.742Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -197,9 +197,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Luva metálica que torna ataques desarmados letais. Modificações e encantos da manopla se aplicam aos ataques desarmados. Efeito: ataque desarmado letal; não pode ser desarmada",
+      "descricao": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Manoplas superiores e mágicas aplicam os efeitos de suas modificações e encantos em ataques desarmados. Uma manopla não pode ser desarmada.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -255,9 +255,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Pedaço robusto de madeira usado como arma; é simples de obter e normalmente não tem custo.",
+      "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como Floretes Foices Água benta",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -313,9 +313,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Haste com ponta afiada, muito comum por ser fácil de fabricar. Também pode ser arremessada. Efeito: arremesso",
+      "descricao": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada. Efeito: arremesso",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -370,9 +370,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Arma de impacto com cabeça pesada, associada a combatentes que preferem esmagar em vez de cortar.",
+      "descricao": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -601,9 +601,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Arco comum usado para caça e guerra. Exige as duas mãos, mas pode ser usado enquanto o personagem está montado. Efeito: disparo; pode ser usado montado",
+      "descricao": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Exige as duas mãos, mas pode ser usado montado. Espadas curtas Manoplas Espadas longas Espadas bastardas Katana",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -660,9 +660,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Besta de madeira acionada por gatilho. Exige as duas mãos e precisa de uma ação de movimento para recarregar. Efeito: disparo",
+      "descricao": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é Cimitarras Adagas Alfanges uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos. Efeito: disparo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -777,9 +777,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Tira de couro para lançar projéteis. Pode usar pedras improvisadas com dano menor e, diferente de outras armas de disparo, soma Força ao dano. Efeito: disparo; aplica FOR ao dano; pedras reduzem o dano em um passo",
+      "descricao": "Uma simples tira de couro usada para arremessar balas de metal. Na falta de munição adequada, pode disparar pedras comuns, mas o dano é reduzido em um passo. Recarregar uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica seu modificador de Força a rolagens de dano com uma funda.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1215,9 +1215,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Machado adaptado especificamente para combate, capaz de produzir ferimentos profundos.",
+      "descricao": "Adaptado do machado de lenhador, este não é um instrumento para Marreta Martelo de guerra Manguais Maças Clavas corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1619,9 +1619,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Versão grande da foice agrícola, usada com as duas mãos.",
+      "descricao": "Outra ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T01:46:08.504Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -1850,9 +1850,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Arco de guerra reforçado e de grande porte. Exige as duas mãos, soma Força ao dano e não pode ser usado montado. Efeito: disparo; aplica FOR ao dano; nao pode ser usado montado",
+      "descricao": "Este arco reforçado tem a altura de uma pessoa. Ao contrário da versão curta, é primariamente uma arma de guerra. Por ter uma puxada pesada, permite que você aplique seu modificador de Força às rolagens de dano. Exige as duas mãos e não pode ser usado se você estiver montado.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2027,9 +2027,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Espada maior que a longa. Com treinamento exótico funciona em uma mão; também pode ser usada com duas mãos como arma marcial. Efeito: adaptavel; pode ser usada como marcial de duas maos",
+      "descricao": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2087,9 +2087,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Espada tradicional de lâmina curva e um gume. É adaptável e ágil; também pode ser empunhada com duas mãos como arma marcial. Efeito: adaptavel; agil; pode ser usada como marcial de duas maos",
+      "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento Machado táurico Machados de batalha Machado anão especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2206,9 +2206,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Corrente armada capaz de alcançar inimigos mais distantes e prender membros ou armas. É ágil, dupla e versátil. Efeito: agil; dupla; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
+      "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar. Montantes Gadanhos Fogo alquímico Ácido",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2323,9 +2323,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Rede com dentes e corda de controle. Ao acertar, não causa dano: deixa a vítima enredada e pode limitar seu movimento. Efeito: nao causa dano; enreda; corda em alcance curto",
+      "descricao": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 em Defesa e testes de ataque). Enquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste Azagaias Lanças de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto). A vítima pode se soltar com uma ação completa e um teste de Acrobacia (CD 20). A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.743Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -2917,9 +2917,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Bordão formidável escuro e reforçado, procurado por conjuradores de batalha. Efeitos: Magias de dano lançadas por você causam +1 ponto de dano por dado. dupla",
+      "descricao": "Este bordão formidável escuro e reforçado com ponteiras de metal é procurado por conjuradores de batalha. Conta como um cajado arcano. Além dos benefícios desse esotérico, quando você lança uma magia de dano, ela causa +1 ponto de dano por dado.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "cajado-da-destruicao-at6dm",
@@ -2987,9 +2987,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Bordão formidável branco com runas prateadas, valorizado por curandeiros. Efeitos: Magias de cura lançadas por você curam +2 PV por dado. dupla",
+      "descricao": "Este bordão formidável branco com runas prateadas é valorizado por curandeiros. Conta como um cajado arcano, mas afeta magias divinas. Além disso, quando você lança uma magia de cura, ela cura +2 pontos de vida por dado.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "cajado-da-vida-m4hfa",
@@ -3056,9 +3056,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Machado de batalha formidável gravado com plantas e animais selvagens. Efeito: Em ambiente ermo e ao ar livre, causa +1d8 de dano e concede o poder Trespassar. Se já possuir Trespassar, pode usá-lo sem gastar PM.",
+      "descricao": "O cabo e a lâmina deste machado de batalha formidável são cobertos de gravuras representando plantas e animais selvagens. Quando você usa o machado silvestre em um ambiente ermo e ao ar livre, causa +1d8 de dano e recebe o poder Trespassar. Caso já possua este poder, pode utilizá-lo sem pagar pontos de mana.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "machado-silvestre-9axuj",
@@ -3194,9 +3194,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Arco longo formidável sem corda física, capaz de criar flechas de energia diferentes conforme a intenção do usuário. Efeitos: Flecha normal: 3d8 de essência. Flecha piedosa: 4d8 não letal. Flecha explosiva: 3d6 fogo no alvo e adjacentes (Reflexos CD 20 reduz pela metade para adjacentes). Flecha-rede: sem dano, deixa agarrado; Força CD 20 para escapar. disparo; aplica FOR ao dano; nao pode ser usado montado",
+      "descricao": "O arco do poder conta como um arco longo formidável, mas parece apenas o corpo de um arco — não tem corda e não aceita flechas. Contudo, quando você o empunha e faz o gesto de puxar a corda inexistente, o arco cria uma corda e uma flecha de energia dourada. O arco do poder é capaz de ler suas intenções, produzindo diferentes tipos de flechas energéticas a sua escolha. • Flecha Normal. 3d8 pontos de dano de essência. • Flecha Piedosa. 4d8 pontos de dano de essência não letal. • Flecha Explosiva. 3d6 pontos de dano de fogo no alvo e em todas as criaturas adjacentes a ele. Essas têm direito a um teste de Reflexos (CD Des) para reduzir o dano à metade. • Flecha-Rede. Não causa dano, mas deixa a vítima agarrada por uma rede de energia. A criatura pode se soltar passando em um teste de Força ou Acrobacia (CD 25). A rede se dissipa quando a criatura se solta ou no fim da cena.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "arco-do-poder-ayffx",
@@ -3341,9 +3341,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Besta pesada formidável de madeira escurecida, capaz de transformar virotes em explosões de fogo. Efeitos: Ao disparar, pode gastar 3 PM para transformar o virote em Bola de Fogo. Contra criatura: ataque normal + 6d6 fogo no alvo e 6d6 fogo em criaturas a até 6m (Reflexos reduz metade); se errar, não explode. Contra ponto no chão: funciona como Bola de Fogo, sem teste de ataque. disparo",
+      "descricao": "Esta besta pesada formidável é feita de madeira escurecida, similar a carvão. Quando usa uma besta explosiva, você pode gastar 3 PM para transformar o virote disparado por ela em uma Bola de Fogo. Você pode mirar esta Bola de Fogo em uma criatura ou em um ponto no chão em alcance médio. No primeiro caso, faça um ataque contra o alvo. Se acertar, ele sofre o dano do disparo mais 6d6 de fogo. Além disso, todas as criaturas a até 6m do alvo sofrem 6d6 pontos de dano de fogo (Ref reduz à metade). Porém, se o ataque errar, o virote se desfaz em uma nuvem de cinzas inofensivas. No segundo caso, ela funciona como a magia de mesmo nome. Nenhum teste de ataque é necessário e todas as criaturas a 6m do ponto escolhido sofrem 6d6 pontos de dano de fogo (Ref reduz à metade).",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "besta-explosiva-s6uas",
@@ -3571,9 +3571,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Machado de guerra formidável de gelo eterno e encantado com frio, capaz de invocar uma tempestade de gelo. Efeitos: Fornece resistência a fogo 10. Ação padrão e 6 PM: cria tempestade de gelo em alcance curto ao redor. Criaturas recebem camuflagem e sofrem 3d6 impacto + 3d6 frio por rodada; você ignora esses efeitos. Gaste 1 PM no início de cada turno para manter.",
+      "descricao": "Este machado de guerra de gelo eterno congelante formidável fornece resistência a fogo 10. Você pode gastar uma ação padrão e 6 PM para brandi-lo acima de sua cabeça e invocar uma tempestade de gelo que afeta alcance curto ao seu redor. Criaturas na área recebem camuflagem e sofrem 3d6 pontos de dano de impacto e 3d6 pontos de frio por rodada. Você não sofre os efeitos nocivos da tempestade (o dano e a chance de falha pela camuflagem) e pode gastar 1 PM no início de cada um de seus turnos para mantê-la. Gaste 1 PM no início de cada turno para manter.",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "avalanche-resistencia-e8ai8",
@@ -3646,9 +3646,9 @@
         "tormenta20",
         "jogo do ano"
       ],
-      "descricao": "Bordão magnífico de cabo liso com joia cintilante, feito para ampliar o poder de conjuradores arcanos. Efeitos: O custo de suas magias arcanas diminui em –1 PM e a CD para resistir a elas aumenta em +2. dupla",
+      "descricao": "Este bordão defensor magnífico tem cabo reto e liso, com uma joia cintilante na ponta. Conta como um cajado arcano. Além dos benefícios desse esotérico, o custo de suas magias arcanas diminui em –1 PM (cumulativo com Mestre em Escola) e a CD para resistir a elas aumenta em +2 (para um aumento total de +3).",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:24:10.158Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
           "id": "cajado-do-poder-p51nw",
@@ -3838,10 +3838,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Perfuração. Crítico 19–20.",
+      "descricao": "É o tipo mais comum de espada, muito usada por soldados, legionários e guardas de milícia — ou como arma secundária. Mede entre 40 e 50cm de comprimento. Causa 1d6 de Perfuração. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -3896,10 +3896,10 @@
         "simples",
         "corpo a corpo"
       ],
-      "descricao": "Luva metálica que protege a mão e fortalece os socos. Um par acompanha a armadura completa; o usuário não pode ser desarmado enquanto ataca com ela.",
+      "descricao": "Luva metálica que protege a mão e também permite socos mais fortes. Uma armadura completa inclui um par de manoplas. Você não pode ser desarmado quando usa esta arma. Marreta Estilhaçadora: este grande e desajeitado martelo de guerra é pouco eficaz em combate normal. Com cabo longo e uma imensa cabeça de metal, a marreta estilhaçadora conta com uma superfície de impacto larga, incapaz de causar muito dano real. Sua verdadeira função é despedaçar armaduras e carapaças de monstros — especialmente demônios da Tormenta; com um sucesso decisivo, em vez de causar dano multiplicado, a marreta reduz em 2 o bônus de armadura natural da criatura atingida, ou o bônus de armadura da armadura que a criatura estiver usando. Dano causado a carapaças pode ser restaurado com uma magia cura completa. Dano a armaduras requer um teste bem-sucedido de Ofícios (CD 15 + dano a ser restaurado).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4363,10 +4363,10 @@
         "distancia",
         "consumivel"
       ],
-      "descricao": "Frasco de água consagrada por clérigos, nociva a mortos-vivos e espíritos malignos, mas inofensiva às demais criaturas. É arremessado em um ataque à distância resistido por Reflexos: causa 2d6 de dano se acertar ou metade se errar.",
+      "descricao": "Criada por clérigos e vendida em pequenos frascos, a água benta é uma poderosa arma contra mortos-vivos e espíritos Malignos (mas é inofensiva contra outras criaturas). Você atira o frasco, fazendo um ataque à distância resistido por um teste de Reflexos do alvo. Se acertar, o alvo sofre 2d6 pontos de dano. Se errar, ele sofre metade desse dano.",
       "properties": "frasco sagrado",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -4422,10 +4422,10 @@
         "simples",
         "distancia"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 1d6 de Perfuração. Crítico x3. Alcance 12m. Propriedades: duas mãos.",
+      "descricao": "Este arco bastante comum é próprio para caçadas, muito usado por povos selvagens ou caçadores — o tamanho pequeno é apropriado para manuseio em florestas e outros ambientes fechados. Exige as duas mãos. Causa 1d6 de Perfuração. Crítico x3. Alcance 12m.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -4715,10 +4715,10 @@
         "distancia",
         "consumivel"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 4d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: explosivo.",
+      "descricao": "Popular entre goblins, mas também empregada por outros usuários de pólvora, esta bomba rudimentar tem um pavio que precisa ser aceso antes do uso (uma ação de movimento). Faça um ataque à distância. Qualquer criatura a até 3m do alvo sofre 4d6 pontos de dano (ou metade, com um teste de Reflexos, CD igual ao resultado da jogada de ataque). Causa 4d6 de Fogo. Crítico x2. Alcance 3m. Propriedades: explosivo.",
       "properties": "explosivo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -4948,10 +4948,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Corte. Crítico 19–20.",
+      "descricao": "Arma típica de guerreiros humanos, mas também extremamente comum entre elfos. Esta espada de dois gumes tem lâmina reta medindo entre 80cm e 1m. Causa 1d8 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5064,10 +5064,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Corte. Crítico x3.",
+      "descricao": "Diferente de uma machadinha, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5122,10 +5122,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Esmagamento. Crítico x2.",
+      "descricao": "Arma composta por uma haste metálica ligada a uma corrente, que por sua vez é ligada a uma esfera de aço. O mangual pode se enroscar na arma do adversário; você recebe +4 em jogadas de ataque para desarmar. Causa 1d8 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5180,10 +5180,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Esmagamento. Crítico x3.",
+      "descricao": "Outra ferramenta modificada para combate, o martelo de combate é muito eficiente contra alguns tipos de mortos-vivos, como esqueletos. É também a arma favorita de quase todos os anões que não usam machados. Causa 1d8 de Esmagamento. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5296,10 +5296,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d8 de Perfuração. Crítico x2.",
+      "descricao": "Uma lança com três pontas favorita dos gladiadores, própria para prender as pernas do oponente. Você recebe +4 em jogadas de ataque para derrubar. Causa 1d8 de Perfuração. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5354,10 +5354,10 @@
         "marcial",
         "corpo a corpo"
       ],
-      "descricao": "Arma de haste com cerca de 2m e lâmina de machado na ponta. Permite atacar inimigos a até 3m, mas não pode atingir oponentes adjacentes.",
+      "descricao": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na extremidade. A alabarda é uma arma de haste (você pode usá-la para atacar inimigos a até 3m, mas não pode usá-la contra inimigos adjacentes).",
       "properties": "haste",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5760,10 +5760,10 @@
         "marcial",
         "distancia"
       ],
-      "descricao": "Arco reforçado, aproximadamente da altura de uma pessoa, próprio para campos de batalha e áreas abertas. Seu alcance elevado exige o uso das duas mãos.",
+      "descricao": "Este arco reforçado tem a altura de uma pessoa. Diferente do arco curto, é próprio para campos de batalha e outras áreas abertas — seu longo alcance permite atingir o inimigo a grandes distâncias. Exige as duas mãos.",
       "properties": "duas mãos",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5876,10 +5876,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Esmagamento. Crítico x3.",
+      "descricao": "Formado por dois bastões curtos de madeira ligados por uma corrente ou tira de couro, o nunchaku era usado por camponeses para separar o joio do trigo, sendo mais tarde adotado como arma. O nunchaku é também uma arma de monge (significa que pode ser usado com determinadas habilidades, como a rajada de golpes). Causa 1d6 de Esmagamento. Crítico x3.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5934,10 +5934,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Esmagamento. Crítico x2.",
+      "descricao": "Parecida com um grande garfo de metal, a adaga sai é própria para prender as armas do oponente. Você recebe +4 em jogadas de ataque para desarmar. A sai é uma arma de monge (significa que pode ser usada com determinadas habilidades, como rajada de golpes). Causa 1d6 de Esmagamento. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -5992,10 +5992,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - leve do Tormenta RPG. Causa 1d6 de Corte. Crítico 19–20. Propriedades: obra-prima.",
+      "descricao": "Versão mais curta da katana. A katana e wakizashi, juntas, formam um conjunto chamado daisho — são as armas tradicionais do samurai. Alguns samurais carregam a waki zashi apenas como uma peça simbólica, enquanto outros a usam como arma secundária. Como a katana, a wakizashi é também uma arma obra-prima (+1 nas jogadas de ataque, custo já está incluso no preço). Causa 1d6 de Corte. Crítico 19–20.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6108,10 +6108,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d10 de Corte. Crítico 19–20.",
+      "descricao": "Maior e mais pesada que a espada longa, esta poderosa espada é usada por cavaleiros para vencer a proteção de uma armadura completa. Uma espada bastarda é muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos. Causa 1d10 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6166,10 +6166,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Cada katana é uma obra de arte única, com entalhes no cabo, guarda e lâmina. Por seu extremo acabamento, uma katana é sempre considerada uma arma obra-prima (seu custo já inclui esta qualidade), oferecendo +1 nas jogadas de ataque. Lança: “lança” é o nome de qualquer arma feita com uma haste de madeira e uma ponta aﬁada, natural ou metálica.",
+      "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos. O talento Acuidade com Arma se aplica à katana. Cada katana é uma obra de arte única, com entalhes no cabo, guarda e lâmina. Por seu extremo acabamento, uma katana é sempre considerada uma arma obra-prima (seu custo já inclui esta qualidade), oferecendo +1 nas jogadas de ataque.",
       "properties": "obra-prima",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:20.484Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6224,10 +6224,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - uma mao do Tormenta RPG. Causa 1d10 de Corte. Crítico 19–20.",
+      "descricao": "Este poderoso machado é a arma preferida por onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos. Causa 1d10 de Corte. Crítico 19–20.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6456,10 +6456,10 @@
         "exotica",
         "corpo a corpo"
       ],
-      "descricao": "Corpo a corpo - duas maos do Tormenta RPG. Causa 2d8 de Corte. Crítico x2.",
+      "descricao": "Esta espada gigantesca é usada pelos maiores campeões e gladiadores de Tapista. Além do talento Usar Arma Exótica, também exige Força 15 ou mais para ser manuseada. Causa 2d8 de Corte. Crítico x2.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6630,10 +6630,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Recarregar ou dardos. Você pode gastar uma ação padrão para arremesar duas um mosquete ou pistola é uma ação padrão. shuriken. Efeito: arma de fogo",
+      "descricao": "A mais popular arma de fogo, tem capacidade para apenas um tiro. Requer apenas uma mão — mas, quando empunhada com as duas mãos, a estabilidade extra oferece um bônus de +1 em jogadas de ataque. Devido ao tempo de recarga (uma ação padrão), alguns pistoleiros trazem consigo várias pistolas carregadas em vários coldres. Até seis pistolas podem ser transportadas desta forma. Assim o pistoleiro faz um disparo, descarta a arma (uma ação livre) e saca outra (uma ação de movimento), sendo capaz de disparar um tiro por rodada até que suas armas se esgotem.",
       "properties": "arma de fogo",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.749Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6688,10 +6688,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Rede de combate com pequenos dentes na trama e uma corda de controle. Ao acertar, deixa a criatura enredada, reduzindo sua mobilidade e dificultando ataques e defesa; a corda também pode limitar o deslocamento do alvo.",
+      "descricao": "Uma rede de combate tem pequenos dentes em sua trama, e uma corda para controlar os inimigos presos. Você atira a rede, fazendo um ataque à distância resistido por um teste de Reflexos do alvo. Se acertar, a criatura fica enredada (–2 nas jogadas de ataque, CA, testes de Destreza, perícias baseadas em Destreza e Reflexos, e deslocamento reduzido à metade). Além disso, se você for bemsucedido em um teste resistido de Força, a vítima só pode se mover até o limite da corda (9m). A vítima pode se soltar com uma ação completa e um teste de Acrobacia (CD 20). A rede tem 5 pontos de vida, e se rasgar qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas até uma categoria de tamanho maiores que você. Sabre Serrilhado: esta é uma arma cruel, de lâmina parecida com um serrote. Causa grande estrago quando atinge a carne, rasgando e destroçando. Devido a seus “dentes”, é comum que fique profundamente entrelaçada nas costelas (ou órgãos equivalentes). Após um acerto crítico, em vez de causar dano multiplicado, o sabre fica preso — e requer uma ação de movimento para ser arrancado. Esse ato causa à vítima 1d6 pontos de dano adicional. Caso não seja removida, a arma causa 1d4 pontos de dano para cada ação padrão ou ação completa realizada pela vítima.",
       "properties": "arma de manobra",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6804,10 +6804,10 @@
         "exotica",
         "distancia"
       ],
-      "descricao": "Ataque a distancia do Tormenta RPG. Causa 2d4 de Esmagamento. Crítico x2. Alcance 24m.",
+      "descricao": "Halflings são famosos por gostar de jogar pedras, seja como esporte ou forma de combate. Para esta finalidade, desenvolveram certos engenhos. O tai-tai é uma espécie de catapulta minúscula presa ao braço com fivelas. Com um movimento correto do pulso, lança uma pedra ou bala de chumbo tão longe quanto um arco lança uma flecha. Causa 2d4 de Esmagamento. Crítico x2. Alcance 24m.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:06.088Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -6861,10 +6861,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Bastão usado para rebater bolas duras em esportes tradicionais de Arton.",
+      "descricao": "A aristocracia de Deheon, Namalkah e outros reinos vem recentemente redescobrindo um esporte dos povos originais do continente, que consiste em arremessar e rebater bolas duras. Existem variações: em algumas modalidades, é preciso",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.304Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7089,10 +7089,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Também conhecida como “adaga Honra (Tormenta20, p. 53) — a tradição dita que seus língua de vaca”, esta arma é um meio-termo entre usuários são honrados e sabem o que estão fazendo! uma espada curta e uma adaga.",
+      "descricao": "Também conhecida como “adaga língua de vaca”, esta arma é um meio-termo entre uma espada curta e uma adaga. Sua lâmina triangular, que termina numa ponta muito fina, é feita apenas para estocar, nunca cortar, e causa ferimentos graves. Contra uma criatura desprevenida ou que você esteja flanqueando, a cinquedea causa um dado de dano extra do mesmo tipo. Dizem que o apelido se originou entre os rebeldes do Império de Tauron, que usam esta arma para apunhalar seus senhores e deixá-los estrebuchando com a língua para fora…",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.308Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7146,10 +7146,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Este punhal longo e delgado parece uma ataque à distância com uma penalidade cumulativa arma feita para assassinato e ataques traiçoeiros, mas de –5. Você pode continuar atacando novos alvos é parte da indumentária de nobres e oficiais em vários até recuperar o chakram ou errar um ataque. Por reinos artonianos.",
+      "descricao": "Este punhal longo e delgado parece uma arma feita para assassinato e ataques traiçoeiros, mas é parte da indumentária de nobres e oficiais em vários reinos artonianos. Se estiver atacando com um dirk, você pode atacar um oponente pelas costas, caído, desprevenido ou incapaz de lutar sem violar seu Código de Honra (Tormenta20, p. 53) — a tradição dita que seus usuários são honrados e sabem o que estão fazendo!",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.308Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7203,10 +7203,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Martelo compacto, usado como arma secundária ou de arremesso.",
+      "descricao": "Geralmente fabricado de uma única peça de metal, este martelo é muito apreciado por anões como arma secundária. Pode ser arremessado.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.308Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7260,10 +7260,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Espada de lâmina mais larga e pesada que a espada longa.",
+      "descricao": "Esta arma usada por bárbaros e mercenários tem a lâmina menos afiada, mas mais larga e pesada, que a da espada longa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.309Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7374,10 +7374,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Maça com cravos que causa dano de impacto e perfuração.",
+      "descricao": "Uma maça com cravos, esta arma exige mais treinamento para ser empunhada, mas desfere golpes mais perigosos. Por seu peso e pontas proeminentes, causa dano de impacto e perfuração ao mesmo tempo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.310Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7488,10 +7488,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Arma alongada de haste com martelo e ponta. Concede +2 em testes para derrubar e quebrar.",
+      "descricao": "Também chamada de “martelo sambur”, esta arma consiste em uma haste de madeira de 2m de comprimento com uma ponta de lança em sua extremidade. Na base da ponta de lança há um gancho afiado de um lado e uma cabeça quadrada do outro. O bico de corvo é um martelo alongado e versátil, que fornece +2 em testes para derrubar e quebrar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.310Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7545,10 +7545,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Haste alongada com ganchos móveis, usada para agarrar, derrubar e empurrar (+2 nos testes). Não causa dano direto.",
+      "descricao": "À primeira vista, o desmontador pode nem parecer uma arma. É uma haste longa, com dois pedaços de metal recurvados na ponta. As partes metálicas possuem um mecanismo de mola, abrindo-se quando as extremidades são pressionadas contra algo, então se fechando. O desmontador é usado para prender pescoços de inimigos, então puxá-los de uma montaria (daí o nome), mantê-los presos à distância ou derrubá-los ao chão. Por isso pode ser usado para agarrar. Um desmontador é uma arma alongada e versátil, fornecendo +2 em testes para agarrar, derrubar e empurrar.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.310Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7716,10 +7716,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Martelo pesado com cabeça de madeira dura, apropriado para golpes de impacto.",
+      "descricao": "Uma ferramenta para uso em construções, este martelo possui uma cabeça de madeira Bestas de mão Garruchas Agulhas de Ahlen Cinquedeas Bestas duplas Sifão cáustico Lanças de justa dura e pesada, que o torna apropriado para enterrar estacas no chão. Não é tão eficiente quanto os martelos projetados para guerra, mas seu peso excessivo pode desequilibrar os oponentes. O malho é uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar. Por ser feito basicamente de madeira, pode ser fabricado de madeira Tollon.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.311Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7773,10 +7773,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Arma de haste alongada que combina ponta perfurante e cabeça de martelo.",
+      "descricao": "Uma haste de madeira com 2m de comprimento, esta arma possui uma ponta de metal afiada ao lado de uma cabeça densa e pesada. Combinando o alcance de uma alabarda com a contundência de um martelo, é uma arma alongada. Bestas de repetição Arcos montados Arcos de guerra Clava-grão Espadim",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.312Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7830,10 +7830,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Arma exótica de duas mãos, rara fora de Gorendill.",
+      "descricao": "Esta curiosa arma de duas mãos é raríssima em Arton, usada apenas pela milícia da cidade de Gorendill, em Deheon. O fundador da milícia, Marcus Dubeau, afirma que aprendeu a usá-la com um monge nativo de Tamu-ra — mas, estranhamente, não há notícias de nenhum tamuraniano usando esta arma. Um tan-korak é um bastão metálico de formato peculiar, com ganchos e reentrâncias, e um anel na extremidade. É uma arma versátil, fornecendo +2 em testes para derrubar ou desarmar, e pode ser usada para causar dano letal ou não letal, a sua escolha. Balestras Desmontadores Bicos de corvo",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.312Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -7944,10 +7944,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Arco próprio para uso montado. Evita a penalidade de atacar à distância pelo balanço da montaria.",
+      "descricao": "Este arco combina materiais resistentes em uma estrutura mais curta, tornando-o próprio para ser disparado por um arqueiro montado. Você não sofre a penalidade em ataques à distância devido ao balanço de sua montaria (Tormenta20, p. 262). Se você já possui uma habilidade que elimina essa penalidade, em vez disso ela fornece +2 nas rolagens de dano com este arco enquanto você está montado.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.313Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8115,10 +8115,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Clava vegetal cultivada por druidas, capaz de acrescentar Sabedoria ao dano conforme a regra especial.",
+      "descricao": "Esta arma possui cabo fino e delgado e uma extremidade larga e arredondada. Clavas-grão não são “fabricadas”, mas cultivadas por druidas a partir de sementes específicas que emitem uma energia natural. Essa energia, por sua vez, permite que o usuário da clava-grão estabeleça um elo com a arma. Quando ataca com uma clava-grão, você pode aplicar sua Sabedoria às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 nas rolagens de dano, cumulativo com outros efeitos de itens). Por sua afinidade natural, druidas podem usar a clava-grão como uma arma simples.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.313Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8343,10 +8343,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Lança alongada de infantaria, que também pode ser arremessada e usada com duas mãos.",
+      "descricao": "Esta lança de infantaria é muito empregada por tropas treinadas para lutar em formação fechada. Ela é uma arma alongada que pode ser arremessada. Entretanto, é muito grande para ser usada com uma mão sem treinamento especial, por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.315Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8400,10 +8400,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Machado alongado e adaptável que pode ser empunhado como arma marcial de duas mãos.",
+      "descricao": "Desenvolvida pelos anões para auxiliar suas formações fechadas em Doherimm, esta arma é essencialmente uma pequena cabeça de machado montada em um cabo longo. O machado de haste é uma arma adaptável e alongada. É muito grande para ser usado com uma só mão sem treinamento especial, por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.315Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8514,10 +8514,10 @@
         "herois de arton",
         "corpo a corpo"
       ],
-      "descricao": "Marreta extremamente pesada capaz de partir materiais resistentes.",
+      "descricao": "Uma versão mais pesada da marreta de guerra, esta arma possui uma cabeça de metal capaz de partir pedra, aço e ossos. Um marrão é muito grande para ser usado sem treinamento especial, por isso é uma arma exótica. Além disso, por seu peso, também é uma arma desbalanceada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.315Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8628,10 +8628,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Arma de arremesso usada para realizar a manobra derrubar à distância.",
+      "descricao": "Esta arma de arremesso típica de Namalkah pode se enrolar nos tornozelos de um inimigo, derrubando-o. A boleadeira pode ser usada para executar uma manobra derrubar à distância.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.316Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8685,10 +8685,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Disco metálico afiado de arremesso que pode retornar à mão ou ricochetear após um acerto.",
+      "descricao": "Um disco de metal com bordas afiadas, usado para arremesso. Sempre que acerta um ataque com o chakram, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o chakram ou errar um ataque. Por seu desenho e forma de manuseio, o chakram exige treinamento especial, sendo uma arma exótica.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.316Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8742,10 +8742,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Arco de grande potência que permite aplicar Força ao dano, com restrições especiais de uso.",
+      "descricao": "Este arco robusto possui braços grossos e resistentes, capazes de disparos poderosos. Como um arco longo, permite que você aplique sua Força às rolagens de dano e não pode ser usado se você estiver montado. A força exigida para puxar o arco de guerra o torna uma arma desbalanceada.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.317Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -8799,10 +8799,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Esta arma é muito de 2m de comprimento com uma ponta de lança em pesada e complexa para ser usada sem treinamento sua extremidade. Na base da ponta de lança há um especial, por isso é uma arma exótica. Recarregar uma gancho afiado de um lado e uma cabeça quadrada do balestra é uma ação padrão.",
+      "descricao": "Uma versão mais robusta da besta pesada, que utiliza um sistema de catracas reguláveis para armar seu arco. Esse sistema permite que usuários mais fortes apliquem mais tensão à arma; ao contrário de outras armas de disparo, você aplica sua Força às rolagens de dano com uma balestra. Esta arma é muito pesada e complexa para ser usada sem treinamento especial, por isso é uma arma exótica. Recarregar uma balestra é uma ação padrão.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.317Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9027,10 +9027,10 @@
         "herois de arton",
         "distancia"
       ],
-      "descricao": "Engenho alquímico que lança ácido em área e utiliza ácido como munição.",
+      "descricao": "A origem deste estranho engenho é controversa. Há quem diga que foi criado por um inventor anão para combater os finntroll, enquanto outros alegam que veio de algum lugar distante, como Moreania. Um sifão cáustico é formado por um cilindro metálico conectado por uma mangueira a uma mochila (que armazena sua munição). Quando acionado, o cilindro dispersa ácido em um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. O sifão usa ácido como munição (Tormenta20, p. 160); seu reservatório pode armazenar duas doses de ácido, cada uma suficiente para 5 ataques, e carregá-lo é uma ação completa. Se você possuir habilidades que forneçam bônus em rolagens de dano com itens alquímicos, pode aplicar esse bônus com o sifão cáustico. Pela forma como é carregado, o sifão cáustico ocupa também o espaço de um item vestido.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:51:01.318Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9200,10 +9200,10 @@
         "adicional",
         "material adicional da dragao brasil"
       ],
-      "descricao": "Arma de fogo que dispara um cone de impacto e consome duas munições.",
+      "descricao": "Esta arma de fogo foi criada para não depender de precisão. O disparo causa 4d6 pontos de dano de impacto em um cone de 6m (Reflexos CD Des reduz à metade; se você não for proficiente com armas de fogo, a CD é reduzid41a em –5). Recarregar um bacamarte exige uma ação completa e 2 munições. Exige as duas mãos. Ofício (armeiro) CD 20. Elixir de Vida. Ingerir este tônico analgésico é uma ação padrão e recupera 4d6 pontos de vida. Ofício (alquimia) CD 25.",
       "properties": "material adicional da dragao brasil",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:23:37.324Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9253,9 +9253,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Lâmina curta e fácil de ocultar, útil tanto em combate corpo a corpo quanto para arremesso em alcance curto. Efeito: Espaços: 1",
+      "descricao": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +5 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar sua Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9424,9 +9424,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Pedaço robusto de madeira usado como arma simples. É fácil de conseguir e por isso não tem preço. Efeito: Espaços: 1",
+      "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9481,9 +9481,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Haste longa com ponta perfurante. Pode ser usada em combate corpo a corpo ou arremessada em alcance curto. Efeito: Espaços: 1",
+      "descricao": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9538,9 +9538,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Bastão com uma cabeça pesada e protuberante, tradicional entre clérigos; seus golpes esmagam em vez de cortar. Efeito: Espaços: 1",
+      "descricao": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -9937,9 +9937,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Arco compacto de duas mãos, adequado a combate à distância e mais fácil de manejar que um arco longo. Efeito: Espaços: 2",
+      "descricao": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Exige as duas mãos, mas pode ser usado montado. Espadas curtas Manoplas Espadas longas Espadas bastardas Katana Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -10450,9 +10450,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Lança de três pontas comum entre povos marinhos e gladiadores. Fornece +2 para derrubar e também pode ser arremessada. Efeito: Espaços: 1",
+      "descricao": "Uma lança com três pontas, favorita de povos marinhos e gladiadores e própria para prender as pernas do oponente. O tridente é uma arma versátil, fornecendo +2 em testes para derrubar. Um tridente pode ser arremessado. Azagaias Lanças Fornece +2 para derrubar e também pode ser arremessada. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -10678,9 +10678,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Lança projetada para cavalaria. Pode ser empunhada com uma mão quando montado e, em investida montada, causa +2d8 de dano. Efeito: Espaços: 2",
+      "descricao": "A lança montada é uma arma alongada. Se você estiver montado, pode usá-la Machado táurico Machados de batalha Machado anão com apenas uma mão. Além disso, quando usada numa investida montada, causa +2d8 pontos de dano (note que dados extras não são multiplicados em caso de acerto crítico). Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -10906,9 +10906,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Arco reforçado aproximadamente da altura de uma pessoa, feito para disparos potentes de média distância. Efeito: Espaços: 2",
+      "descricao": "Este arco reforçado tem a altura de uma pessoa. Ao contrário da versão curta, é primariamente uma arma de guerra. Por ter uma puxada pesada, permite que você aplique sua Força às rolagens de dano (ao contrário de outras armas de disparo). Porém, um arco longo não pode ser usado se você estiver montado. Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11020,9 +11020,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Arma flexível que alcança inimigos a até 4,5m. É ágil e fornece +2 em testes para derrubar ou desarmar. Efeito: Espaços: 1",
+      "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. O chicote é uma arma ágil e versátil, fornecendo +2 em testes para derrubar ou desarmar. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11077,9 +11077,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Espada maior e mais pesada que uma espada longa. É adaptável e pode ser usada como arma marcial de duas mãos. Efeito: Espaços: 1",
+      "descricao": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11134,9 +11134,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Espada tamuraniana de lâmina curva. É adaptável e pode ser usada com as duas mãos para aumentar seu dano. Efeito: Espaços: 1",
+      "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11191,9 +11191,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Grande machado tradicional dos anões. Exige treinamento para uma mão, mas pode ser usado como arma marcial de duas mãos. Efeito: Espaços: 1",
+      "descricao": "A arma preferida de onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos. Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11248,9 +11248,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Corrente armada que alcança inimigos a até 4,5m. É ágil, dupla e fornece +2 em testes para derrubar ou desarmar. Efeito: Espaços: 2",
+      "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar. Montantes Gadanhos Fogo alquímico Ácido Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11305,9 +11305,9 @@
         "corpo a corpo",
         "tormenta20"
       ],
-      "descricao": "Arma ancestral dos minotauros, com haste longa e lâmina extremamente grossa. É desbalanceada e exige treinamento especial. Efeito: Espaços: 2",
+      "descricao": "Uma haste comprida com uma lâmina extremamente grossa na ponta, esta é uma arma ancestral dos minotauros. Um machado táurico é uma arma desbalanceada. Além disso, é muito grande para ser usado sem treinamento especial; por isso, é uma arma exótica. Efeito: Espaços: 2",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -11362,9 +11362,9 @@
         "distancia",
         "tormenta20"
       ],
-      "descricao": "Rede com pequenos dentes e corda de controle. Não causa dano; em vez disso, deixa o alvo enredado e restringe seus movimentos. Efeito: Espaços: 1",
+      "descricao": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 na Defesa e em testes de ataque). Rede Chicote Lanças montadas Piques Efeito: Espaços: 1",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:52:02.751Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

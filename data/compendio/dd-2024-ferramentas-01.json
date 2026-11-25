@@ -20,11 +20,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Força. Uso: Selar ou abrir porta/recipiente (CD 20).",
+      "descricao": "Atributo: Força Peso: 3 kg Usar Objeto: Selar ou abrir uma porta ou recipiente (CD 20) Fabricação: Aríete Portável, Baliza, Barril, Baú, Cajado, Clava, Clava Grande, Escada, Tocha",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-cartografo",
@@ -70,11 +71,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Moldar aparência de item de couro (CD 10).",
+      "descricao": "Atributo: Destreza Peso: 2,5 kg Usar Objeto: Moldar a estética de um item de couro (CD 10) Fabricação: Algibeira, Aljava, Armadura de Couro, Armadura de Couro Batido, Cantil, Chicote, Estojo de Mapa ou Pergaminho, Estojo de Virotes de Besta, Funda, Gibão de Peles, Mochila, Pergaminho",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-entalhador",
@@ -95,11 +97,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Entalhar padrão em madeira (CD 10).",
+      "descricao": "Atributo: Destreza Peso: 2,5 kg Usar Objeto: Entalhar um padrão em madeira (CD 10) Fabricação: Armas à Distância (exceto Funda, Mosquete e Pistola), Cajado, Caneta Tinteiro, Clava, Clava Grande, Dardos, Flechas, Foco Arcano, Foco Druídico, Virotes 220",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-ferreiro",
@@ -120,11 +123,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Força. Uso: Forçar abertura de porta ou recipiente (CD 20).",
+      "descricao": "Atributo: Força Peso: 4 kg Usar Objeto: Forçar a abertura de uma porta ou recipiente (CD 20) Fabricação: qualquer arma Corpo a Corpo (exceto Cajado, Chicote, Clava, Clava Grande), armadura Média (exceto Gibão de Peles), armadura Pesada, Arpéu e Gancho, Balas de Arma de Fogo, Balas de Funda, Balde, Corrente, Esferas de Metal, Estacas de Ferro, Estrepes, Panela de Ferro, Pé de Cabra",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-funileiro",
@@ -145,11 +149,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Montar pequeno item de sucata que se desfaz em 1 minuto (CD 20).",
+      "descricao": "Atributo: Destreza Peso: 5 kg Usar Objeto: Monte um item Minúsculo composto de sucata, que se desfaz em 1 minuto (CD 20) Fabricação: Apito Sinalizador, Armadilha de Caça, Cadeado ou Fechadura, Caixa para Fogo, Espelho, Grilhões, Lanterna Coberta, Lanterna Foca-Facho, Mosquete, Pá, Pistola,Pote, Sino",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-joalheiro",
@@ -170,11 +175,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Avaliar gema (CD 15).",
+      "descricao": "Atributo: Inteligência Peso: 1 kg Usar Objeto: Discernir o valor de uma gema (CD 15) Fabricação: Foco Arcano, Símbolo Sagrado",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-oleiro",
@@ -195,11 +201,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Examinar histórico recente de objeto de cerâmica (CD 15).",
+      "descricao": "Atributo: Inteligência Peso: 1,5 kg Usar Objeto: Discernir como um objeto de cerâmica foi manuseado nas últimas 24 horas (CD 15) Fabricação: Jarro, Lâmpada",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-pedreiro",
@@ -270,11 +277,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Reparar roupa ou costurar ornamento (CD 10).",
+      "descricao": "Atributo: Destreza Peso: 2,5 kg Usar Objeto: Reparar um rasgo em uma roupa (CD 10) ou costurar um ornamento Minúsculo (CD 10) Fabricação: Armadura Acolchoada, Cesta, Cobertor, Saco de Dormir, Roupas Finas, Rede, Túnica, Corda, Saca, Cordão, Tenda, Roupas de Viagem",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-ferramentas-de-vidreiro",
@@ -295,11 +303,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Examinar manipulação recente de vidro (CD 15).",
+      "descricao": "Atributo: Inteligência Peso: 2,5 kg Usar Objeto: Discernir como um objeto de vidro foi manuseado nas últimas 24 horas (CD 15) Fabricação: Frasco, Jarro, Luneta, Lupa Uso: Examinar manipulação recente de vidro (CD 15).",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-alquimista",
@@ -320,11 +329,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Identificar substância ou iniciar fogo (CD 15).",
+      "descricao": "Atributo: Inteligência Peso: 4 kg Usar Objeto: Identificar uma substância (CD 15) ou iniciar um incêndio (CD 15) Fabricação: Ácido, Bolsa de Componentes, Fogo Alquímico, Óleo, Papel, Perfume",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-caligrafo",
@@ -345,11 +355,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Escrever texto resistente à falsificação (CD 15).",
+      "descricao": "Atributo: Destreza Peso: 2,5 kg Usar Objeto: Escrever texto com uma caligrafia que protege contra falsificação (CD 15) Fabricação: Pergaminho Mágico, Tinta",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-suprimentos-de-cervejeiro",
@@ -395,11 +406,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Sabedoria. Uso: Pintar algo reconhecível visto anteriormente (CD 10).",
+      "descricao": "Atributo: Sabedoria Peso: 2,5 kg Usar Objetor: Fazer uma pintura reconhecível de algo que você viu (CD 10) Fabricação: Foco Druídico, Símbolo Sagrado",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-utensilios-de-cozinheiro",
@@ -520,11 +532,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Destreza. Uso: Imitar escrita (CD 15) ou duplicar selo (CD 20).",
+      "descricao": "Atributo: Destreza Peso: 2,5 kg Usar Objeto: Imitar 10 ou menos palavras escritas de outra pessoa (CD 15) ou duplicar um selo de cera (CD 20)",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-kit-de-herbalismo",
@@ -545,11 +558,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Identificar planta (CD 10).",
+      "descricao": "Atributo: Inteligência Peso: 1,5 kg Usar Objeto: Identificar uma planta (CD 10) Fabricação: Antitoxina, Kit de Curandeiro, Poção de Cura, Vela",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-ferramenta-kit-de-veneno",
@@ -570,11 +584,12 @@
         "ferramenta",
         "livro do jogador 2024"
       ],
-      "descricao": "Atributo: Inteligência. Uso: Detectar objeto envenenado (CD 10).",
+      "descricao": "Atributo: Inteligência Peso: 1 kg Usar Objeto: Detectar um objeto envenenado (CD 10) Fabricação: Veneno Básico Equipamento de Aventura Equipamento de Aventura A tabela Equipamentos de Aventura nesta seção inclui equipamentos que geralmente são úteis em suas aventuras. Esses itens são descritos aqui em ordem alfabética, com o preço de um item aparecendo após seu nome.",
       "schemaVersion": 5,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2024-instrumento-alaude",

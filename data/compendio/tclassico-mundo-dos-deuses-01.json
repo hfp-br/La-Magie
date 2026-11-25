@@ -20,10 +20,10 @@
         "mundo dos deuses",
         "tormenta classico"
       ],
-      "descricao": "Esta arma de haste (com alcance de 3m) não causa dano, mas pode ser usada para manobras de combate. O aprisionador tem uma espécie de garfo cego e acolchoado na ponta, que pode ser usado para prender o pescoço, corpo ou membros do oponente contra uma parede ou o chão.",
+      "descricao": "Esta arma de haste (com alcance de 3m) não causa dano, mas pode ser usada para manobras de combate. O aprisionador tem uma espécie de garfo cego e acolchoado na ponta, que pode ser usado para prender o pescoço, corpo ou membros do oponente contra uma parede ou o chão. Ele oferece um bônus de +4 em jogadas de ataque para agarrar, derrubar, desarmar e empurrar.",
       "properties": "Dano —, crítico —",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -209,10 +209,10 @@
         "mundo dos deuses",
         "tormenta classico"
       ],
-      "descricao": "Basicamente uma espécie de besta gigante, a balista fica instalada em torres giratórias e dispara arpões enormes (em termos de regras, uma balista que possa ser carregada na verdade é uma besta pesada Grande).",
+      "descricao": "Basicamente uma espécie de besta gigante, a balista fica instalada em torres giratórias e dispara arpões enormes (em termos de regras, uma balista que possa ser carregada na verdade é uma besta pesada Grande). Disparar uma balista exige uma ação completa; recarregá-la exige duas ações completas (se você possuir o talento Rapidez de Recarga, apenas uma ação completa).",
       "properties": "Dano 5d8, crítico 19-20, distância 45m, tipo perfuração",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -284,10 +284,10 @@
         "mundo dos deuses",
         "tormenta classico"
       ],
-      "descricao": "Uma boleadeira é um par de pesos metálicos ou de pedra, conectados por uma corda fina. Boleadeiras causam dano não letal e podem ser usadas na manobra derrubar, mesmo à distância.",
+      "descricao": "Uma boleadeira é um par de pesos metálicos ou de pedra, conectados por uma corda fina. Boleadeiras causam dano não letal e podem ser usadas na manobra derrubar, mesmo à distância. Halflings e nativos de Namalkah tratam a boleadeira como arma marcial em vez de arma exótica.",
       "properties": "Dano 1d4, crítico x2, distância 3m, tipo esmagamento",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -622,10 +622,10 @@
         "mundo dos deuses",
         "tormenta classico"
       ],
-      "descricao": "Também chamada apenas pistola de roda, esta arma de tiro único usa um sistema diferente para acender a pólvora e disparar.",
+      "descricao": "Também chamada apenas pistola de roda, esta arma de tiro único usa um sistema diferente para acender a pólvora e disparar. Sua recarga é mais rápida; exige apenas uma ação de movimento.",
       "properties": "Dano 2d6, crítico 19–20/x3, distância 15m, tipo perfuração",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -773,10 +773,10 @@
         "tormenta classico",
         "armadura media"
       ],
-      "descricao": "Algumas naves dos sklirynei e muitas de suas colônias costumam possuir uma ou mais dessas armaduras especiais, que permitem que seu usuário caminhe no vazio do espaço. Um escafandro parece uma armadura completa, mas é tecnologicamente selado e inclui uma pesada mochila metálica às costas, que armazena ar. O usuário do escafandro fica imune ao vácuo e possui 1 hora de ar enquanto a armadura estiver em um ambiente sem ar. Use as regras de ar impuro (p. XX) e sufocamento (Tormenta RPG, p. 238) quando o ar estiver esgotado.",
+      "descricao": "Algumas naves dos sklirynei e muitas de suas colônias costumam possuir uma ou mais dessas armaduras especiais, que permitem que seu usuário caminhe no vazio do espaço. Um escafandro parece uma armadura completa, mas é tecnologicamente selado e inclui uma pesada mochila metálica às costas, que armazena ar. O usuário do escafandro fica imune ao vácuo e possui 1 hora de ar enquanto a armadura estiver em um ambiente sem ar. Use as regras de ar impuro (p. XX) e sufocamento (Tormenta RPG, p. 238) quando o ar estiver esgotado. Além do talento Usar Armaduras Pesadas, o escafandro exige treinamento em Conhecimento (engenharia). Personagens sem uma destas perícias que tentem usar a armadura sofrem a penalidade de armadura em todas as suas jogadas e testes.",
       "properties": "Bônus na CA +8, Destreza máxima +2, penalidade de armadura –5",
       "schemaVersion": 5,
-      "updatedAt": "2026-11-18T23:47:45.623Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

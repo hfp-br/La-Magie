@@ -102,9 +102,9 @@
         "tormenta20",
         "livro basico"
       ],
-      "descricao": "Saco com 20 balas de funda, pequenas pedras ou projéteis arredondados usados como munição para a funda.",
+      "descricao": "Fundas atiram pequenas balas esféricas de metal, que são vendidas em sacos de couro contendo 20 balas por 1 tibar de cobre. Recarregar uma funda com uma bala é uma ação de movimento. Saco com 20 balas de funda, pequenas pedras ou projéteis arredondados usados como munição para a funda.",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:54:29.910Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -295,10 +295,10 @@
         "tormenta20",
         "herois de arton"
       ],
-      "descricao": "Projétil pesado de ferro usado como munição para o canhão portátil.",
+      "descricao": "Estas esferas metálicas com pólvora são a munição de canhões portáteis. Diferente de outras munições, são vendidas individualmente.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,

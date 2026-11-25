@@ -51,13 +51,14 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Permite substituir uma rolagem de ataque por um resultado 10, uma vez até o próximo amanhecer.",
+      "descricao": "Item maravilhoso, comum Este amuleto de cobre contém pequenas engrenagens interligadas e é alimentado pela magia de Mechanus, um plano de previsibilidade exata. Uma criatura que aproximar o ouvido do amuleto pode escutar suaves ruídos de zumbidos e tique-taques em seu interior. Ao usar o amuleto, quando fizer um ataque você pode se abster de rolar um d20 para obter um resultado 10. Uma vez usado, esta propriedade não pode ser usada até o próximo amanhecer.",
       "raridade": "comum",
       "revisarDados": true,
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-armadura-ardente",
@@ -225,13 +226,14 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Boneca que reproduz frases configuradas quando certas condições ocorrem.",
+      "descricao": "Item maravilhoso, comum (requer sintonização) Enquanto esta boneca de pelúcia está há 1,5 metros de você, pode-se gastar um descanso curto dizendo-a para proferir até seis frases , nenhuma das quais pode ter mais de seis palavras, e definir uma condição na qual a boneca falará cada frase. Você também pode substituir frases antigas por frases novas. Qualquer que seja a condição definida, ela deve ocorrer há 1,5 metros da boneca para que ela fale. Por exemplo, sempre que alguém pegar a boneca ela pode dizer \"Quero um pouco de doce\". As frases da boneca se perdem quando sua sintonização com ela termina.",
       "raridade": "comum",
       "revisarDados": true,
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-botas-de-pegadas-falsas",
@@ -283,13 +285,14 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Forma pequenas silhuetas de criaturas com a fumaça.",
+      "descricao": "Item maravilhoso, comum Ao fumar este cachimbo você pode usar uma ação para baforar fumaça que assume a forma de uma criatura, como um dragão, um flumph ou um froghemoth. A forma deve ser pequena o suficiente para caber em um cubo com 30 centímetros e perde sua forma depois de alguns segundos, tornando-se fumaça normal.",
       "raridade": "comum",
       "revisarDados": true,
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-cadeado-da-enganacao",
@@ -312,13 +315,14 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Fechadura encantada que dificulta tentativas de arrombamento.",
+      "descricao": "Item maravilhoso, comum Este cadeado aparenta ser comum (do tipo descrito no capítulo 5 do Livro do Jogador] e é acompanhado de uma chave. O mecanismo da fechadura ajusta-se magicamente para impedir ladrôes. Testes de Destreza feitos para abrir a fechadura têm desvantagem.",
       "raridade": "comum",
       "revisarDados": true,
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-cajado-canoro",
@@ -482,12 +486,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Uma ação bônus modifica visualmente a cor, o estilo e a qualidade da capa, sem reproduzir efeitos de outras capas mágicas.",
+      "descricao": "Item maravilhoso, comum Ao usar esta capa você pode usar uma ação bônus para alterar o estilo, cor e qualidade aparente do vestuário. O peso da capa não se altera. Independente da aparência a capa não pode ser nada além de uma capa. Embora possa duplicar a aparência de outras capas mágicas, ela não ganha suas propriedades mágicas.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-chapeu-da-feiticaria",
@@ -622,12 +627,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Corda de 15 m que pode ser cortada e reunida magicamente por comando se todos os pedaços estiverem encostados.",
+      "descricao": "Item maravilhoso, comum Você pode cortar esta corda de cânhamo de 15 metros em vários pedaços menores , e então usar uma ação para falar uma palavra de comando que faz o pedaços se unirem novamente. Os fragmentos devem estar em contato entre si e não sendo utilizados para qualquer fim. Uma corda do reparo é permanentemente encurtada se um fragmento por perdido ou destruído. Corda de 15 m que pode ser cortada e reunida magicamente por comando se todos os pedaços estiverem encostados.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-dado-do-charlatao",
@@ -762,12 +768,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Uma ação indica se é manhã, tarde ou noite no Plano Material.",
+      "descricao": "Item maravilhoso, comum Ao segurar esta esfera você pode usar uma ação para determinar se é de manhã, tarde ou noite. Esta propriedade funciona apenas no Plano Material.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-espada-lunar",
@@ -790,12 +797,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Quando desembainhada na escuridão, emite luz plena por 4,5 m e penumbra por outros 4,5 m.",
+      "descricao": "Arma (qualque r espada), comum Na escuridão a lâmina desembainhada desta espada emana luar, criando luz brilhante em um raio de 4 ,5 metros e luz fraca por mais 4 ,5 metros. Quando desembainhada na escuridão, emite luz plena por 4,5 m e penumbra por outros 4,5 m.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-flecha-inquebravel",
@@ -874,12 +882,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Dissolve-se em líquido e transforma até meio litro em água potável e fresca; não purifica venenos nem líquidos mágicos.",
+      "descricao": "Item maravilhoso, comum Esta miçanga esponjosa, sem gosto e gelatinosa se dissolve em meio líquido, transformando até meio litro desse líquido em água fresca e gelada. A gota não tem efeito em líquidos mágicos ou danosos, como veneno.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-grimorio-duradouro",
@@ -902,12 +911,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Grimório cujas páginas e escritos resistem a água, fogo e deterioração natural.",
+      "descricao": "Item maravilhoso, comum Este grimório, assim como tudo que está escrito em suas páginas, não pode ser danificado por fogo ou imersão em água. Além disso , o grimório não se deteriora com o tempo.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-instrumento-da-escrita",
@@ -958,12 +968,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Enquanto é tocado, produz pequenas ilusões visuais inofensivas num raio de 1,5 m; para bardos, 4,5 m.",
+      "descricao": "Item maravilhoso, comum (requer sintonização) Ao tocar este instrumento musical, você pode criar efeitos visuais ilusórios inofensivos em uma esfera com raio de 1,5 metros ao redor do instrumento. Se você é um bardo, este raio aumenta para 4 ,5 metros. Exemplos de efeitos incluem no1tas musicais ilusórias, um dançarino espectral, borboletas, ou neve caindo suavemente. Os efeitos mágicos não têm substância nem emitem sons, e são obviamente ilusórios. Os efeitos terminam quando você pára de tocar. Enquanto é tocado, produz pequenas ilusões visuais inofensivas num raio de 1,5 m; para bardos, 4,5 m.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-mastro-da-diminuicao",
@@ -986,12 +997,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Mastro de 3 m que se retrai até 30 cm por palavra de comando e pode voltar ao comprimento original.",
+      "descricao": "Item maravilhoso, comum Ao segurar este mastro de 3 metros você pode falar uma palavra de comando e transformá-lo em um bastão de 30 centímetros, facilitando seu armazenamento. O peso do mastro não se altera. Você pode uma palavra de comando diferente para reverter o bastão ao mastro; no entanto, o bastão irá se alongar somente se há espaço disponível ao redor.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-mastro-da-pescaria",
@@ -1014,12 +1026,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Mastro de 3 m que vira vara de pescar equipada e retorna à forma original por comando.",
+      "descricao": "Item maravilhoso, comum Ao segurar este mastro de 3 metros você pode falar uma palavra de comando e transformá-lo em uma vara de pesca com anzol, linha e molinete. Falar a palavra de comando novamente a transforma de volta a em um mastro de 3 metros normal. Mastro de 3 m que vira vara de pescar equipada e retorna à forma original por comando.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-municao-colossal",
@@ -1098,12 +1111,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Traje que se repara automaticamente do desgaste cotidiano; não recria partes completamente destruídas.",
+      "descricao": "Item maravilhoso, comum Esta elegante roupa de viajante é capaz de repararse magicamente para neutralizar o desgaste diário. Fragmentos da roupa que sejam destruídos não podem ser reparados desta forma.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-rubi-do-mago-da-guerra",
@@ -1210,12 +1224,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "7 cargas: gaste uma com ação para produzir fogos de artifício e luzes coloridas inofensivas; recarga diária.",
+      "descricao": "Varinha, comum Esta varinha tem 7 cargas. Ao segurá-la você pode usar uma ação para gastar 1 das cargas e criar uma explosão inofensiva de luzes multicoloridas em um ponto que você possa ver a até .1 8 metros de distância. A explosão é acompanhada de ruídos estalidos que podem ser ouvidos a até 90 metros. A luz ilumina como uma tocha, mas dura apenas um segundo. A varinha recupera diariamente 1d6 + 1 cargas gastas ao amanhecer. Se você gastar a última carga, role um d20. Em um resultado 1, a varinha irrompe em um show pirotécnico inofensivo, sendo destruída. VARINHA DA REGÊNCIA 7 cargas: gaste uma com ação para produzir fogos de artifício e luzes coloridas inofensivas; recarga diária.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-varinha-da-regencia",
@@ -1238,12 +1253,13 @@
         "dnd 2014",
         "item magico"
       ],
-      "descricao": "Uma ação cria música orquestral audível a uma curta distância; a melodia acompanha os gestos do portador.",
+      "descricao": "Varinha, comum Esta varinha tem 3 cargas. Ao segurá-la você pode usar uma ação para gastar 1 das cargas e criar música orquestral ao agitá-la. A música pode ser ouvida a uma distância de até 18 metros e termina quando você para de agitar a varinha. A varinha recupera diariamente todas as cargas gastas ao amanhecer. Se você gastar a última carga, role um d20. Em um resultado 1, um som triste de tuba toca enquanto a varinha se desintegra em poeira, sendo destruída.",
       "raridade": "comum",
       "schemaVersion": 5,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-xanathar-varinha-sorridente",

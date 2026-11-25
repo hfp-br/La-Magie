@@ -390,13 +390,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Inclui recipientes para guardar ervas, tesouras e luvas, almofariz e pilão, bolsas e frascos. Com proficiência, você adiciona seu bônus de proficiência a testes para identificar ou aplicar ervas; é necessário para criar antídotos e poções de cura.",
+      "descricao": "Esse kit contém uma variedade de instrumentos, como alicates, almofariz e pilão, e bolsas e frascos utilizados pelos herbalistas para criar remédios e poções. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para identificar ou aplicar ervas. Além disso, a proficiência com esse kit é necessária para criar antídotos e poções de cura.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-kit-de-venenos",
@@ -418,13 +419,14 @@
         "dnd 2014",
         "livro do jogador 2014"
       ],
-      "descricao": "Frascos de vidro, almofariz e pilão, produtos químicos e uma haste de vidro. Com proficiência, você adiciona seu bônus de proficiência a testes para preparar ou usar venenos.",
+      "descricao": "O kit de venenos inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. Proficiência com esse kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar ou utilizar venenos.",
       "efeitos": [],
       "schemaVersion": 5,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-flauta-de-pa",

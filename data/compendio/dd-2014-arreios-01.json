@@ -338,7 +338,7 @@
       "sistema": "D&D 5e 2014",
       "fonte": "Livro do Jogador (2014)",
       "pagina": 159,
-      "descricao": "O custo é quatro vezes o da armadura equivalente e o peso é o dobro.",
+      "descricao": "Projetada para proteger a cabeça, pescoço, tórax e o corpo do animal. Qualquer tipo de armadura mostrada na tabela Armadura nesse capítulo pode ser comprada para montaria. O custo é quatro vezes maior que a armadura equivalente feita para humanoides e possuem o dobro do peso.",
       "tags": [
         "dnd",
         "dnd 2014",
@@ -350,7 +350,8 @@
       "schemaVersion": 5,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "updatedAt": "2026-11-25T18:22:43.000Z"
     }
   ]
 }

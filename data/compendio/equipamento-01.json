@@ -96,10 +96,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Rolo de 15m de corda de cânhamo. Nós comuns exigem Destreza CD 10, nós especiais CD 12 e arrebentá-la exige Força CD 23.",
+      "descricao": "Este é o preço para 15 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente ou se desfazer com um tranco) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23).",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -172,10 +172,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Conjunto de ferramentas específico para uma perícia de Ofício, como carpintaria ou joalheria. Sem as ferramentas adequadas, o personagem sofre –4 nos testes do Ofício.",
+      "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria), ou lente de aumento e balança para testes de Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu próprio Ofício sofre penalidade de –4 nos testes.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -248,10 +248,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Estojo com cosméticos, tinta para cabelo e próteses simples. Sem o kit, o personagem sofre –4 em Enganação para criar disfarces.",
+      "descricao": "Estojo contendo cosméticos, tinta para cabelo e alguns apêndices físicos simples (como narizes falsos). Um personagem sem este kit sofre penalidade de –4 em testes de Enganação para fazer um disfarce.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -286,10 +286,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Estojo com gazuas, arames e pequenas ferramentas para abrir fechaduras e operar mecanismos. Sem o kit, sofre –4 em Ladinagem para essas tarefas.",
+      "descricao": "Usado para abrir portas e desarmar armadilhas, este kit é composto de gazuas, arames e outras pequenas ferramentas guardadas em um estojo de couro. Um personagem sem este kit sofre penalidade de –4 em testes de Ladinagem para abrir fechaduras e operar mecanismos.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -400,10 +400,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Cilindro com alça e portinholas que abriga uma chama alimentada por óleo. Ilumina até 9m; uma carga de óleo dura 6 horas.",
+      "descricao": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro, e uma das portinholas aberta deixa a luz sair. A luz do lampião atinge 9m. Uma carga de óleo dura 6 horas e custa 1 TP. Óleo de lampiões é diferente, mais estável que aquele usado em frascos de óleo.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -514,10 +514,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Barra de ferro para forçar portas e baús. Fornece +4 em testes de Força para abri-los e pode ser usada como uma clava.",
+      "descricao": "Barra de ferro para forçar portas e baús fechados. Abrir uma porta ou baú usando um pé de cabra oferece +4 no teste de Força. Um pé de cabra também pode ser usado em combate como uma clava. Fornece +4 em testes de Força para abri-los e pode ser usada como uma clava.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -552,10 +552,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Pedra de faísca e placa metálica usadas para acender fogo. Acender uma tocha ou lanterna com ela exige uma ação de rodada completa.",
+      "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma tocha ou lanterna com uma pederneira é uma ação de rodada completa.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
@@ -781,10 +781,10 @@
         "modulo basico",
         "consumivel"
       ],
-      "descricao": "Bastão com material combustível na ponta. Queima por uma hora e ilumina até 6m; em combate, funciona como arma simples e acrescenta 1 ponto de dano de fogo.",
+      "descricao": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Depois de acesa, queima por uma hora, iluminando até 6m. Usada com arma, uma tocha causa 1d4 pontos de dano + modificador de Força + 1 por fogo. Uma tocha é uma arma simples.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": true,
@@ -896,10 +896,10 @@
         "tormenta classico",
         "modulo basico"
       ],
-      "descricao": "Roupa resistente para aventureiros, com botas, peças de couro, cinto, camisa de linho e capa com capuz.",
+      "descricao": "Adequado para quem nunca sabe o que esperar. Inclui botas resistentes, calças ou saias de couro, cinto, camisa de linho e capa com capuz. São as roupas preferidas por aventureiros, oferecendo variantes para todas as classes.",
       "properties": "",
       "schemaVersion": 5,
-      "updatedAt": "2026-10-23T04:53:41.970Z",
+      "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
         "enabled": false,
