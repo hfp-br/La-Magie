@@ -9,33 +9,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --noite:#1f1b3a;
-  --noite-2:#28224a;
-  --obsidiana:#2e2846;
-  --obsidiana-2:#3a3358;
-  --vidro:rgba(255,255,255,.06);
-  --areia:#efdfbd;
-  --areia-2:#c9b892;
-  --acafrao:#f0b43c;
-  --turquesa:#45c4b0;
-  --cacto:#7bb58f;
-  --flor:#e58fa8;
-  --brasa:#ff7a3d;
-  --falta:#8d84ad;
+  --umbra:#2e1a0e;
+  --noite:#4a2a17;
+  --noite-2:#5e361d;
+  --obsidiana:#5a3620;
+  --obsidiana-2:#6e4527;
+  --vidro:rgba(255,236,200,.07);
+  --areia:#fbecc8;
+  --areia-2:#e6c896;
+  --acafrao:#f6a623;
+  --turquesa:#3bb3a1;
+  --cacto:#9cbc6c;
+  --flor:#f08da3;
+  --brasa:#ff8a3d;
+  --falta:#c49a72;
   --raio-g:22px;
   --raio-p:10px;
 }
 *{box-sizing:border-box}
-html{color-scheme:dark}
+html{color-scheme:dark;overflow-x:hidden}
 body{
   margin:0;
   font-family:"Figtree",system-ui,sans-serif;
   font-size:16px;line-height:1.5;
   color:var(--areia);
   background:
-    radial-gradient(1200px 520px at 50% -120px, #3b2f63 0%, transparent 70%),
-    radial-gradient(900px 400px at 50% 560px, rgba(255,122,61,.10), transparent 70%),
-    linear-gradient(180deg,var(--noite) 0%, #191631 100%);
+    radial-gradient(520px 520px at 74% 300px, rgba(255,214,120,.55) 0%, rgba(255,160,70,.18) 38%, transparent 62%),
+    linear-gradient(180deg,#8a3f1c 0%,#b8602c 220px,#9a4b22 420px,#5e361d 640px,var(--noite) 900px,#3a2112 100%);
   min-height:100vh;
 }
 h1,h2,h3{font-family:"Caprasimo",Georgia,serif;font-weight:400;letter-spacing:.01em;margin:0}
@@ -52,43 +52,59 @@ button,input,select{font:inherit;color:inherit}
 }
 #brasas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
 .hero>*{position:relative;z-index:1}
-.titulo h1{font-size:clamp(44px,6vw,78px);line-height:.95;color:var(--acafrao);
-  text-shadow:0 2px 0 #7a4b10, 0 0 40px rgba(240,180,60,.25)}
+.titulo h1{font-size:clamp(44px,6vw,78px);line-height:.95;color:#ffd77e;
+  text-shadow:0 3px 0 #6b2f0e, 0 0 40px rgba(255,200,90,.3)}
 .titulo p{max-width:46ch;color:var(--areia-2);margin:16px 0 0}
-.titulo .nota{font-size:14px;margin-top:10px;color:var(--falta)}
+.titulo .nota{font-size:14px;margin-top:10px;color:#f3cfa0}
 .contagem{display:flex;gap:22px;margin-top:22px;flex-wrap:wrap}
 .contagem div{font-size:14px;color:var(--areia-2)}
 .contagem b{display:block;font-family:"Caprasimo",serif;font-weight:400;font-size:30px;color:var(--areia);line-height:1.1}
 
-.roleta-area{display:flex;flex-direction:column;align-items:center;gap:18px}
-.roleta-moldura{
-  position:relative;width:min(440px,86vw);aspect-ratio:1;
-  border-radius:50%;
-  padding:16px;
-  background:conic-gradient(from 0deg,#4a3f70,#2a2342,#5a4c86,#2a2342,#4a3f70);
-  box-shadow:0 0 0 2px rgba(255,255,255,.08),0 30px 80px rgba(0,0,0,.45),0 0 120px rgba(240,180,60,.18);
+.dunas{position:absolute;left:calc(50% - 50vw);width:100vw;bottom:-40px;height:160px;z-index:0;pointer-events:none}
+.roleta-area{display:flex;flex-direction:column;align-items:center;gap:16px}
+.slot{position:relative;display:flex;align-items:center;gap:0}
+.gabinete{
+  position:relative;width:min(470px,84vw);padding:18px 18px 22px;border-radius:28px 28px 18px 18px;
+  background:linear-gradient(180deg,#7a4222,#4f2a14);
+  box-shadow:inset 0 2px 0 rgba(255,220,160,.25),inset 0 -6px 0 rgba(0,0,0,.25),0 26px 60px rgba(40,15,0,.55);
+  border:3px solid #a8692f;
 }
-.roleta-moldura::after{ /* luz da fogueira */
-  content:"";position:absolute;inset:-30px;border-radius:50%;
-  background:radial-gradient(circle at 50% 110%,rgba(255,122,61,.25),transparent 60%);
-  pointer-events:none;z-index:-1;
+.marquise{
+  position:relative;text-align:center;margin:-6px 0 14px;padding:10px 12px;border-radius:18px;
+  background:linear-gradient(180deg,#f6a623,#c96f12);color:#3a1a05;
+  font-family:"Caprasimo",serif;font-size:clamp(18px,2.6vw,24px);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.4),0 4px 0 #7a3d0b;
 }
-#roleta{width:100%;height:100%;display:block;border-radius:50%;
-  transition:transform 5.2s cubic-bezier(.12,.72,.08,1)}
-.ponteiro{
-  position:absolute;top:-6px;left:50%;transform:translateX(-50%);
-  width:38px;height:56px;z-index:3;
-  filter:drop-shadow(0 6px 8px rgba(0,0,0,.5));
+.luzes{position:absolute;inset:-12px -10px auto -10px;height:10px;display:flex;justify-content:space-between;padding:0 14px}
+.luzes i{width:10px;height:10px;border-radius:50%;background:#ffe2a0;box-shadow:0 0 8px #ffcf6b}
+.slot.girando .luzes i{animation:pisca .5s steps(2) infinite}
+.slot.girando .luzes i:nth-child(odd){animation-delay:.25s}
+.slot.ganhou .luzes i{animation:pisca .18s steps(2) 8}
+@keyframes pisca{50%{background:#7a4a20;box-shadow:none}}
+.janela{
+  position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:10px;border-radius:16px;
+  background:#2a160a;box-shadow:inset 0 6px 14px rgba(0,0,0,.6);
 }
-.miolo{
-  position:absolute;inset:50%;width:84px;height:84px;margin:-42px 0 0 -42px;border-radius:50%;
-  background:radial-gradient(circle at 35% 30%,#6b5d9a,#231d38 70%);
-  box-shadow:inset 0 2px 6px rgba(255,255,255,.2),0 4px 14px rgba(0,0,0,.5);
-  display:grid;place-items:center;font-size:34px;z-index:2;
-}
-.roleta-vazia[hidden]{display:none}
-.roleta-vazia{position:absolute;inset:16px;border-radius:50%;display:grid;place-items:center;text-align:center;
-  padding:60px;color:var(--areia-2);background:rgba(20,17,38,.82);font-size:15px;z-index:2}
+.rolo{position:relative;height:var(--cel);overflow:hidden;border-radius:10px;
+  background:linear-gradient(180deg,#e9d2a4,#fff3d6 45%,#fff3d6 55%,#d9bd88);
+  box-shadow:inset 0 10px 12px -6px rgba(0,0,0,.45),inset 0 -10px 12px -6px rgba(0,0,0,.45)}
+.faixa{position:absolute;left:0;right:0;top:0;will-change:transform}
+.cel{height:var(--cel);display:grid;place-items:center;font-size:calc(var(--cel)*.5);line-height:1}
+.slot.girando .rolo:not(.parou) .faixa{filter:blur(1.6px)}
+.rolo.parou{animation:clack .25s ease-out}
+@keyframes clack{30%{transform:translateY(3px)}}
+.janela::after{content:"";position:absolute;left:4px;right:4px;top:50%;height:2px;margin-top:-1px;background:rgba(240,90,40,.55);pointer-events:none}
+.rotulos{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px;padding:0 10px;min-height:20px}
+.rotulos span{text-align:center;font-size:12.5px;font-weight:600;color:#ffe9c2;line-height:1.2}
+.alavanca{appearance:none;border:0;background:transparent;cursor:pointer;width:46px;height:170px;position:relative;margin-left:-6px;padding:0}
+.alavanca .base{position:absolute;left:0;bottom:30px;width:22px;height:50px;border-radius:0 12px 12px 0;background:linear-gradient(90deg,#4f2a14,#8a5228)}
+.alavanca .braco{position:absolute;left:14px;bottom:52px;width:8px;height:110px;border-radius:4px;background:linear-gradient(90deg,#c9c9c9,#fff,#9a9a9a);transform-origin:50% 100%;transition:transform .25s}
+.alavanca .bola{position:absolute;left:-8px;top:-18px;width:24px;height:24px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffb38a,#d8401a 70%)}
+.alavanca.puxada .braco{transform:scaleY(-.55)}
+.alavanca:disabled{cursor:not-allowed;opacity:.6}
+.slot-vazia[hidden]{display:none}
+.slot-vazia{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:30px;border-radius:16px;
+  background:rgba(42,22,10,.88);color:var(--areia-2);font-size:15px;z-index:3}
 .btn-girar{
   appearance:none;border:0;cursor:pointer;
   font-family:"Caprasimo",serif;font-size:22px;
@@ -103,13 +119,13 @@ button,input,select{font:inherit;color:inherit}
 .resultado{min-height:64px;text-align:center}
 .resultado .nome{font-family:"Caprasimo",serif;font-size:26px;color:var(--areia)}
 .resultado .toque{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:999px;
-  background:rgba(69,196,176,.16);color:var(--turquesa);font-weight:600;font-size:14px}
+  background:rgba(46,26,14,.78);color:#8af0de;font-weight:600;font-size:14px}
 .resultado.revelado .nome{animation:revela .6s cubic-bezier(.2,1.4,.4,1)}
 @keyframes revela{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
 
 /* ---------- painéis ---------- */
-.grade{display:grid;grid-template-columns:300px minmax(0,1fr) 360px;gap:20px;align-items:start;margin-top:12px}
-.painel{background:linear-gradient(180deg,var(--obsidiana-2),var(--obsidiana));
+.grade{position:relative;z-index:1;display:grid;grid-template-columns:300px minmax(0,1fr) 360px;gap:20px;align-items:start;margin-top:12px}
+.painel{background:radial-gradient(rgba(255,230,180,.05) 1px,transparent 1.4px) 0 0/7px 7px,linear-gradient(180deg,var(--obsidiana-2),var(--obsidiana));
   border-radius:var(--raio-g);padding:20px;
   box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 14px 40px rgba(0,0,0,.25)}
 .painel h2{font-size:26px;color:var(--areia);margin-bottom:4px}
@@ -143,7 +159,7 @@ button,input,select{font:inherit;color:inherit}
 .filtros{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
 .abas{display:flex;background:rgba(0,0,0,.25);border-radius:999px;padding:4px}
 .abas button{border:0;background:transparent;border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:600;font-size:14px;color:var(--areia-2)}
-.abas button[aria-pressed="true"]{background:var(--areia);color:#2a2342}
+.abas button[aria-pressed="true"]{background:var(--areia);color:var(--umbra)}
 .filtros input{flex:1;min-width:160px;background:rgba(0,0,0,.25);border:1px solid rgba(255,255,255,.1);border-radius:999px;padding:8px 14px}
 .receitas>.vazio{grid-column:1/-1}
 .receitas{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
@@ -194,12 +210,12 @@ mark{background:rgba(69,196,176,.25);color:#c9fff5;border-radius:4px;padding:0 3
 .diario li{padding:8px 10px;border-radius:var(--raio-p);background:rgba(0,0,0,.2);font-size:14px}
 .diario time{display:block;font-size:12px;color:var(--falta)}
 
-.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,140%);background:var(--areia);color:#2a2342;
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,140%);background:var(--areia);color:var(--umbra);
   padding:10px 18px;border-radius:999px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.4);transition:transform .3s, opacity .3s;z-index:20;opacity:0;visibility:hidden}
 .toast.on{transform:translate(-50%,0);opacity:1;visibility:visible}
 
 dialog{border:0;border-radius:var(--raio-g);background:var(--obsidiana-2);color:var(--areia);padding:20px;max-width:520px;width:92vw}
-dialog::backdrop{background:rgba(10,8,22,.7)}
+dialog::backdrop{background:rgba(30,15,6,.72)}
 dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
 
 @media (max-width:1180px){.grade{grid-template-columns:280px minmax(0,1fr)}.montar{grid-column:1/-1}}
@@ -209,7 +225,8 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
   .grade,.inferior{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:reduce){
-  #roleta{transition-duration:.01s}
+  .faixa{transition-duration:.01s!important}
+  .slot .luzes i{animation:none!important}
   .resultado.revelado .nome{animation:none}
 }
 </style>
@@ -222,7 +239,7 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
   <div class="titulo">
     <h1>Cozinha<br>do Deserto</h1>
     <p>O inventário culinário do Rek'No. Guarde o que achar pelo caminho, veja o que dá para cozinhar e, se quiser, deixe o deserto escolher o prato.</p>
-    <p class="nota">Versão de teste: os dados ficam salvos só neste navegador, sem ligação com a ficha.</p>
+    <p class="nota">Versão de teste: os dados ficam salvos só neste navegador, sem ligação com a ficha. A bolsa começa com ingredientes de teste.</p>
     <div class="contagem" aria-live="polite">
       <div><b id="nIng">0</b>ingredientes na bolsa</div>
       <div><b id="nProntas">0</b>receitas prontas</div>
@@ -231,19 +248,28 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
   </div>
 
   <div class="roleta-area">
-    <div class="roleta-moldura">
-      <svg class="ponteiro" viewBox="0 0 38 56" aria-hidden="true">
-        <defs><linearGradient id="obs" x1="0" x2="1"><stop offset="0" stop-color="#8b7cc4"/><stop offset=".5" stop-color="#2b2342"/><stop offset="1" stop-color="#5d4f8f"/></linearGradient></defs>
-        <path d="M19 56 L3 14 L19 0 L35 14 Z" fill="url(#obs)" stroke="#d9cdf7" stroke-width="1.5"/>
-        <path d="M19 0 L19 56" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
-      </svg>
-      <svg id="roleta" viewBox="-200 -200 400 400" role="img" aria-label="Roleta de receitas disponíveis"></svg>
-      <div class="miolo" aria-hidden="true">🦎</div>
-      <div class="roleta-vazia" id="roletaVazia" hidden>Nenhuma receita pronta ainda. Adicione ingredientes na bolsa para encher a roleta.</div>
+    <div class="slot" id="slot">
+      <div class="gabinete">
+        <div class="luzes" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="marquise">O deserto escolhe</div>
+        <div class="janela" id="janela" role="img" aria-label="Rolos com ingredientes">
+          <div class="rolo"><div class="faixa"></div></div>
+          <div class="rolo"><div class="faixa"></div></div>
+          <div class="rolo"><div class="faixa"></div></div>
+          <div class="rolo"><div class="faixa"></div></div>
+          <div class="slot-vazia" id="roletaVazia" hidden>Nenhuma receita pronta. Guarde ingredientes na bolsa para os rolos terem o que sortear.</div>
+        </div>
+        <div class="rotulos" id="rotulos" aria-live="polite"></div>
+      </div>
+      <button class="alavanca" id="alavanca" type="button" aria-label="Puxar a alavanca"><span class="base"></span><span class="braco"><span class="bola"></span></span></button>
     </div>
     <button class="btn-girar" id="girar" type="button">Deixar o deserto escolher</button>
     <div class="resultado" id="resultado" aria-live="polite"></div>
   </div>
+  <svg class="dunas" viewBox="0 0 1400 150" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 90 C180 40 320 60 470 85 S760 120 930 70 S1240 40 1400 80 V150 H0Z" fill="#7a4424" opacity=".55"/>
+    <path d="M0 120 C220 80 380 95 560 115 S880 140 1060 105 S1300 95 1400 112 V150 H0Z" fill="#5e361d"/>
+  </svg>
 </header>
 
 <main class="grade">
@@ -256,6 +282,10 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
       <datalist id="listaIng"></datalist>
       <button class="btn primario" type="submit">Guardar</button>
     </form>
+    <div class="acoes" style="margin-top:10px">
+      <button class="btn" type="button" id="encherTeste">Encher com ingredientes de teste</button>
+      <button class="btn perigo" type="button" id="esvaziar">Esvaziar</button>
+    </div>
     <div class="grupo-titulo">Comuns</div>
     <ul class="lista-ing" id="invComum"></ul>
     <div class="grupo-titulo">Monstruosos</div>
@@ -313,14 +343,17 @@ dialog p{max-height:50vh;overflow:auto;color:var(--areia-2)}
 <script>
 "use strict";
 const CHAVE = "rekno-cozinha-v1";
-const CORES = ["#f0b43c","#45c4b0","#efdfbd","#7bb58f","#e58fa8","#b9a6ff"];
 const canon = s => String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9]+/g," ").trim();
 const esc = s => String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $ = id => document.getElementById(id);
 
+const BOLSA_TESTE={"Farinha":3,"Leite":3,"Porco":2,"Fruta":4,"Queijo":2,"Legume":3,"Óleo de cozinha":2,"Ave":2,"Verdura":3,
+  "Carne":2,"Carne de caça":1,"Cogumelo":2,"Peixe":2,"Cereal":2,"Gorad":1,"Avelã de Norba":1,"Açúcar das fadas":1,"Ovo de monstro":1,
+  "Molho tamuraniano":1,"Sal azul":1,"Especiarias picantes":1,"Ervas aromáticas":1,"Raízes curativas":1};
+function bolsaTeste(){ const inv={}; for(const [n,q] of Object.entries(BOLSA_TESTE)) inv[canon(n)]={nome:n,qtd:q}; return inv; }
 let DADOS = {ingredientes:[],receitas:[]};
 let estado = carregar();
-let aba = "prontas", busca = "", selecionada = null, toqueAtivo = false, rotacao = 0, girando = false;
+let aba = "prontas", busca = "", selecionada = null, toqueAtivo = false, girando = false;
 const prato = {monstros:[], deserto:false, tesouro:false, tempero:""};
 
 function padrao(){
@@ -338,7 +371,9 @@ function padrao(){
   };
 }
 function carregar(){
-  try{ return Object.assign(padrao(), JSON.parse(localStorage.getItem(CHAVE)||"{}")); }
+  const salvo=localStorage.getItem(CHAVE);
+  if(!salvo){ const e=padrao(); e.inventario=bolsaTeste(); return e; }
+  try{ return Object.assign(padrao(), JSON.parse(salvo)); }
   catch{ return padrao(); }
 }
 function salvar(){ localStorage.setItem(CHAVE, JSON.stringify(estado)); }
@@ -425,51 +460,86 @@ function renderReceitas(){
   }).join("");
 }
 
-/* ---------- roleta ---------- */
-function desenharRoleta(){
-  const lista=prontas(), svg=$("roleta");
-  $("roletaVazia").hidden = lista.length>0;
-  $("girar").disabled = lista.length===0 || girando;
-  $("nProntas").textContent = lista.length;
-  if(!lista.length){ svg.innerHTML=""; return; }
-  const n=lista.length, ang=360/n, R=190;
-  let out="";
-  lista.forEach((r,i)=>{
-    const a0=(i*ang-90)*Math.PI/180, a1=((i+1)*ang-90)*Math.PI/180;
-    const big = ang>180?1:0;
-    const path = n===1 ? `<circle r="${R}" fill="${CORES[0]}"/>`
-      : `<path d="M0 0 L${R*Math.cos(a0)} ${R*Math.sin(a0)} A${R} ${R} 0 ${big} 1 ${R*Math.cos(a1)} ${R*Math.sin(a1)} Z" fill="${CORES[i%CORES.length]}" stroke="#2a2342" stroke-width="2"/>`;
-    const mid=(i+.5)*ang;
-    const nome=r.nome.length>20?r.nome.slice(0,19)+"…":r.nome;
-    out+=path+`<text transform="rotate(${mid-90}) translate(${R-14} 0)" text-anchor="end" dominant-baseline="middle"
-      font-family="Figtree" font-weight="700" font-size="${n>14?11:13}" fill="#2a2342">${esc(nome)}</text>`;
+/* ---------- caça-níquel ---------- */
+const ICONES=[
+  [/sal azul/,"💎"],[/especiaria|pimenta|picante/,"🌶️"],[/erva/,"🌿"],[/raiz|raizes/,"🫚"],[/nucleo|temperatura/,"🔥"],
+  [/basilisco/,"🦎"],[/mandragora/,"🌱"],[/slime/,"🟢"],[/molusco|armadura animada/,"🐚"],[/kraken/,"🐙"],[/serpe/,"🐍"],
+  [/canceronte/,"🦀"],[/cocatriz|ovo/,"🥚"],[/planta devoradora|fruto/,"🍈"],[/carne de caca/,"🦌"],[/monstr/,"🍖"],[/carne/,"🥩"],
+  [/porco/,"🥓"],[/\bave\b|frango/,"🍗"],[/peixe/,"🐟"],[/fruta/,"🍎"],[/legume/,"🥕"],[/verdura/,"🥬"],[/farinha/,"🌾"],[/cereal|arroz/,"🍚"],
+  [/leite/,"🥛"],[/queijo/,"🧀"],[/oleo/,"🫒"],[/cogumelo/,"🍄"],[/acucar|fadas/,"✨"],[/avela|noz/,"🌰"],[/gorad/,"🍫"],[/molho/,"🫙"],
+  [/treckod/,"🍐"],[/trobo/,"🍗"],[/inseto|escorpiao|grilo/,"🦗"],[/cacto/,"🌵"]
+];
+const icone=nome=>{ const c=canon(nome); for(const [re,i] of ICONES) if(re.test(c)) return i; return "🧺"; };
+const VAZIO="🌵";
+const CEL=()=>parseFloat(getComputedStyle($("janela")).getPropertyValue("--cel"))||96;
+function poolIcones(){
+  const s=new Set(Object.values(estado.inventario).filter(i=>i.qtd>0).map(i=>icone(i.nome)));
+  DADOS.ingredientes.forEach(i=>s.add(icone(i.nome)));
+  return [...s];
+}
+function ajustarCel(){ const w=$("janela").clientWidth; $("janela").style.setProperty("--cel",Math.round(Math.min(110,(w-20-24)/4))+"px"); }
+function rolosParados(icones){
+  ajustarCel();
+  document.querySelectorAll("#janela .faixa").forEach((f,i)=>{
+    f.style.transition="none"; f.style.transform="translateY(0)";
+    f.innerHTML=`<div class="cel">${icones[i]}</div>`;
   });
-  svg.innerHTML=out;
-  svg.dataset.n=n;
+}
+function desenharRoleta(){
+  const lista=prontas();
+  $("roletaVazia").hidden = lista.length>0;
+  $("girar").disabled = $("alavanca").disabled = lista.length===0 || girando;
+  $("nProntas").textContent = lista.length;
+  if(!girando && !$("slot").dataset.mostrando){
+    const pool=poolIcones(); rolosParados([0,1,2,3].map(()=>pool[Math.floor(Math.random()*pool.length)]||VAZIO));
+  }
 }
 function girar(){
   const lista=prontas(); if(!lista.length||girando) return;
-  girando=true; $("girar").disabled=true; $("resultado").innerHTML=""; $("resultado").classList.remove("revelado");
-  const n=lista.length, ang=360/n, idx=Math.floor(Math.random()*n);
-  const alvo = 360 - (idx+.5)*ang + (Math.random()-.5)*ang*.6;
-  rotacao += 360*6 + ((alvo - rotacao%360)+360)%360;
-  $("roleta").style.transform=`rotate(${rotacao}deg)`;
-  const tempo = matchMedia("(prefers-reduced-motion: reduce)").matches?50:5300;
+  girando=true; const slot=$("slot"); delete slot.dataset.mostrando;
+  slot.classList.remove("ganhou"); slot.classList.add("girando");
+  $("girar").disabled=$("alavanca").disabled=true;
+  $("alavanca").classList.add("puxada"); setTimeout(()=>$("alavanca").classList.remove("puxada"),350);
+  $("resultado").innerHTML=""; $("resultado").classList.remove("revelado"); $("rotulos").innerHTML="";
+  const r=lista[Math.floor(Math.random()*lista.length)];
+  // ingredientes do prato nos rolos, em posições embaralhadas; sobras viram cacto
+  const ings=ingredientesDe(r).slice(0,4).map(i=>({ic:icone(i.nome),nome:i.qtd>1?`${i.qtd}× ${i.nome}`:i.nome}));
+  const casas=[0,1,2,3].map(()=>({ic:VAZIO,nome:""}));
+  const pos=[0,1,2,3].sort(()=>Math.random()-.5);
+  ings.forEach((x,i)=>casas[pos[i]]=x);
+  const pool=poolIcones(), cel=CEL(), reduz=matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const fims=[];
+  document.querySelectorAll("#janela .rolo").forEach((rolo,i)=>{
+    rolo.classList.remove("parou");
+    const f=rolo.querySelector(".faixa");
+    const atual=f.firstElementChild?f.firstElementChild.textContent:VAZIO;
+    const n=reduz?2:22+i*7;
+    const fita=[atual]; for(let k=0;k<n;k++) fita.push(pool[Math.floor(Math.random()*pool.length)]);
+    fita.push(casas[i].ic);
+    f.style.transition="none"; f.style.transform="translateY(0)";
+    f.innerHTML=fita.map(x=>`<div class="cel">${x}</div>`).join("");
+    void f.offsetHeight;
+    const dur=reduz?10:1500+i*520;
+    f.style.transition=`transform ${dur}ms cubic-bezier(.18,.8,.28,1.04)`;
+    f.style.transform=`translateY(${-(fita.length-1)*cel}px)`;
+    fims.push(dur);
+    setTimeout(()=>{ rolo.classList.add("parou"); f.innerHTML=`<div class="cel">${casas[i].ic}</div>`; f.style.transition="none"; f.style.transform="translateY(0)";
+      const sp=$("rotulos").children[i]; if(sp) sp.textContent=casas[i].nome; },dur+30);
+  });
+  $("rotulos").innerHTML=casas.map(()=>"<span></span>").join("");
   setTimeout(()=>{
-    girando=false;
-    const r=lista[idx];
+    girando=false; slot.classList.remove("girando"); slot.classList.add("ganhou"); slot.dataset.mostrando="1";
     selecionada=r; toqueAtivo=true;
     $("resultado").innerHTML=`<div class="nome">${esc(r.nome)}</div><span class="toque">Toque do Acaso ativo</span>`;
     $("resultado").classList.add("revelado");
     tudo();
-    document.querySelector(".montar").scrollIntoView({behavior:tempo>100?"smooth":"auto",block:"nearest"});
-  },tempo);
+  },Math.max(...fims)+120);
 }
 
 /* ---------- montar prato ---------- */
 function renderPrato(){
   const box=$("prato");
-  if(!selecionada){ box.innerHTML=`<p class="prato-vazio">Escolha uma receita na lista ou gire a roleta.</p>`; return; }
+  if(!selecionada){ box.innerHTML=`<p class="prato-vazio">Escolha uma receita na lista ou puxe a alavanca.</p>`; return; }
   const r=selecionada, ings=ingredientesDe(r), falta=faltando(r);
   const monstrosBolsa=Object.values(estado.inventario).filter(i=>i.qtd>0&&ehMonstro(i.nome));
   const temperoLivre=!estado.temperoUsado;
@@ -502,7 +572,7 @@ function renderPrato(){
 
     <div class="opcao">
       <input type="checkbox" id="optToque" ${toqueAtivo?"checked":""}>
-      <label for="optToque">Toque do Acaso<small>Só vale se o prato veio da roleta. Melhora o primeiro número do efeito: +1, um passo de dado ou +25% de PV/PM.</small></label>
+      <label for="optToque">Toque do Acaso<small>Só vale se o prato foi sorteado pelo deserto. Melhora o primeiro número do efeito: +1, um passo de dado ou +25% de PV/PM.</small></label>
     </div>
     <div class="opcao">
       <span style="width:18px">◆</span>
@@ -614,25 +684,28 @@ document.addEventListener("change",e=>{
 $("busca").addEventListener("input",e=>{busca=e.target.value; renderReceitas();});
 $("formIng").addEventListener("submit",e=>{ e.preventDefault(); const v=$("novoIng").value.trim(); if(!v) return; mudarQtd((infoIng(v)||{}).nome||v,1); $("novoIng").value=""; toast(`${(infoIng(v)||{}).nome||v} guardado na bolsa.`); });
 $("girar").addEventListener("click",girar);
+$("alavanca").addEventListener("click",girar);
+addEventListener("resize",()=>{ if(!girando) ajustarCel(); });
+$("encherTeste").addEventListener("click",()=>{ estado.inventario=bolsaTeste(); salvar(); toast("Bolsa cheia de ingredientes de teste."); tudo(); });
+$("esvaziar").addEventListener("click",()=>{ if(confirm("Esvaziar a bolsa inteira?")){ estado.inventario={}; salvar(); toast("Bolsa esvaziada."); tudo(); } });
 $("novoDescanso").addEventListener("click",()=>{ estado.temperoUsado=null; salvar(); toast("Novo descanso longo: tempero liberado."); tudo(); });
 $("addTempero").addEventListener("click",()=>{ estado.temperos.push({nome:"Nova pessoa",sabor:"",bonus:""}); salvar(); tudo(); });
 
-/* ---------- brasas ---------- */
-(function brasas(){
+/* ---------- areia ao vento ---------- */
+(function areia(){
   const cv=$("brasas"), ctx=cv.getContext("2d");
   if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  let W,H,P=[];
-  const tam=()=>{ W=cv.width=cv.offsetWidth*devicePixelRatio; H=cv.height=cv.offsetHeight*devicePixelRatio; };
+  let W,H,P=[]; const d=devicePixelRatio;
+  const tam=()=>{ W=cv.width=cv.offsetWidth*d; H=cv.height=cv.offsetHeight*d; };
   tam(); addEventListener("resize",tam);
-  const nova=()=>({x:W*(.55+Math.random()*.4),y:H+10,v:.4+Math.random()*1.1,r:(1+Math.random()*2.2)*devicePixelRatio,a:1,dx:(Math.random()-.5)*.6});
-  for(let i=0;i<40;i++){ const p=nova(); p.y=Math.random()*H; P.push(p); }
-  (function loop(){
+  const nova=(x)=>({x:x??-10,y:H*(.35+Math.random()*.65),v:(.6+Math.random()*1.8)*d,r:(.6+Math.random()*1.6)*d,o:.25+Math.random()*.5,f:Math.random()*6});
+  for(let i=0;i<90;i++) P.push(nova(Math.random()*W));
+  (function loop(t){
     ctx.clearRect(0,0,W,H);
     for(const p of P){
-      p.y-=p.v*devicePixelRatio; p.x+=p.dx+Math.sin(p.y/40)*.3; p.a=Math.max(0,p.y/H);
-      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,7);
-      ctx.fillStyle=`rgba(255,${140+Math.random()*60|0},61,${p.a*.8})`; ctx.fill();
-      if(p.y<-10) Object.assign(p,nova());
+      p.x+=p.v; p.y+=Math.sin((p.x/90)+p.f)*.35*d;
+      ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,7); ctx.fillStyle=`rgba(255,225,165,${p.o})`; ctx.fill();
+      if(p.x>W+10) Object.assign(p,nova());
     }
     requestAnimationFrame(loop);
   })();
