@@ -16483,6 +16483,8 @@ renderizarFonteEfeito(
     "hpPerLevel",
     "PV por nível"
 ],
+        ["maxPm", "PM Máximo"],
+        ["pmPerLevel", "PM por nível"],
 
                   [
                       "attribute",
@@ -16943,8 +16945,7 @@ renderizarFonteEfeito(
                     }
 
                     else if (
-    effect.type ===
-    "hpPerLevel"
+    ["hpPerLevel", "maxPm", "pmPerLevel"].includes(effect.type)
 ) {
 
     const bonus =
@@ -16956,7 +16957,7 @@ renderizarFonteEfeito(
         "number";
 
     bonus.placeholder =
-        "PV por nível";
+        ({ maxPm: "PM máximo", pmPerLevel: "PM por nível" })[effect.type] || "PV por nível";
 
     bonus.value =
         Number(
@@ -17368,8 +17369,7 @@ renderizarFonteEfeito(
                     }
 
                     else if (
-    effect.type ===
-    "hpPerLevel"
+    ["hpPerLevel", "maxPm", "pmPerLevel"].includes(effect.type)
 ) {
 
     effect.bonus =
@@ -18368,6 +18368,8 @@ function normalizarTipoEfeitoItem(effect) {
         atributo: "attribute", attribute: "attribute",
         "pv maximo": "maxHp", "pv máximo": "maxHp", pvmax: "maxHp", maxhp: "maxHp",
         "pv por nivel": "hpPerLevel", "pv por nível": "hpPerLevel", hpperlevel: "hpPerLevel",
+        "pm maximo": "maxPm", "pm máximo": "maxPm", pmmax: "maxPm", maxpm: "maxPm",
+        "pm por nivel": "pmPerLevel", "pm por nível": "pmPerLevel", pmperlevel: "pmPerLevel",
         movimento: "movement", movement: "movement",
         carga: "carryCapacity", capacidade: "carryCapacity", carrycapacity: "carryCapacity",
         ataque: "attack", attack: "attack"
@@ -18395,7 +18397,7 @@ function converterEfeitoItem(effect, item) {
         text: effect?.text ?? effect?.descricao ?? ""
     };
 
-    if (["ac", "maxHp", "hpPerLevel", "movement", "carryCapacity"].includes(type)) {
+    if (["ac", "maxHp", "hpPerLevel", "maxPm", "pmPerLevel", "movement", "carryCapacity"].includes(type)) {
         converted.bonus = bonus;
     }
     if (type === "skill") {
@@ -18499,10 +18501,10 @@ function descreverEfeitoItem(effect) {
     const bonus = numeroDoEfeitoItem(effect);
     const valor = String(effect?.valor ?? "").trim();
     const sign = bonus > 0 ? `+${bonus}` : String(bonus);
-    const nomes = {ac:"CA",skill:"Perícia",attribute:"Atributo",maxHp:"PV Máx.",hpPerLevel:"PV/nível",movement:"Movimento",carryCapacity:"Carga",attack:"Ataque"};
+    const nomes = {ac:"CA",skill:"Perícia",attribute:"Atributo",maxHp:"PV Máx.",hpPerLevel:"PV/nível",maxPm:"PM Máx.",pmPerLevel:"PM/nível",movement:"Movimento",carryCapacity:"Carga",attack:"Ataque"};
     let texto = effect?.text ?? effect?.descricao ?? "";
     if (!texto) {
-        if (["ac","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)) texto = `${sign} ${nomes[type] || type}`;
+        if (["ac","maxHp","hpPerLevel", "maxPm", "pmPerLevel","movement","carryCapacity"].includes(type)) texto = `${sign} ${nomes[type] || type}`;
         else if (["skill","attribute"].includes(type)) texto = `${sign} ${target || (nomes[type] || type)}`;
         else texto = valor || `${nomes[type] || type}`;
     }
@@ -18693,6 +18695,8 @@ function opcoesTipoEfeitoInventario(valor) {
         ["attribute", "Atributo"],
         ["maxHp", "PV Máximo"],
         ["hpPerLevel", "PV por nível"],
+        ["maxPm", "PM Máximo"],
+        ["pmPerLevel", "PM por nível"],
         ["movement", "Movimento"],
         ["carryCapacity", "Carga"],
         ["attack", "Ataque"],
@@ -18789,7 +18793,7 @@ function coletarEfeitosDetalhadosInventario() {
         };
 
         const numeric = String(rawValue).replace(",", ".").match(/[+-]?\d+(?:\.\d+)?/);
-        if (numeric && ["ac","skill","attribute","maxHp","hpPerLevel","movement","carryCapacity"].includes(type)) {
+        if (numeric && ["ac","skill","attribute","maxHp","hpPerLevel", "maxPm", "pmPerLevel","movement","carryCapacity"].includes(type)) {
             effect.bonus = Number(numeric[0]);
         } else {
             delete effect.bonus;

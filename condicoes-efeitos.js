@@ -2,7 +2,7 @@
 // Usa os mesmos campos dos efeitos de características da ficha.
 window.CondicoesEfeitos = (() => {
   const TIPOS = {
-    skill: "Perícia", attack: "Ataque", ac: "CA", maxHp: "PV Máximo", hpPerLevel: "PV por nível",
+    skill: "Perícia", attack: "Ataque", ac: "CA", maxHp: "PV Máximo", hpPerLevel: "PV por nível", maxPm: "PM Máximo", pmPerLevel: "PM por nível",
     attribute: "Atributo", spell: "Conjuração", movement: "Movimento", carryCapacity: "Peso carregável"
   };
   const ATRIBUTOS = { str: "FOR", dex: "DES", con: "CON", int: "INT", wis: "SAB", cha: "CAR" };

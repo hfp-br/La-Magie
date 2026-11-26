@@ -26,7 +26,13 @@
   const recursoPM=()=>(Array.isArray(conteudo?.recursos)?conteudo.recursos:[]).find(ehRecursoPM)||null;
   const editando=()=>Boolean(typeof isOwner!=='undefined'&&isOwner&&document.getElementById('editModeToggle')?.checked);
   const nivel=()=>Math.max(1,num(document.getElementById('level')?.value,1));
-  const modAtributo=()=>{try{return num(getMods()?.[atributoConjuracao],0)}catch{return 0}};
+  const modDe=a=>{try{return num(getMods()?.[a],0)}catch{return 0}};
+  // efeitos mecânicos ativos (habilidades, magias, itens, condições): "PM Máximo" e "PM por nível"
+  function efeitos(){
+    const soma=t=>{try{return typeof somarEfeitos==='function'?num(somarEfeitos(t),0):0}catch{return 0}};
+    const fixo=soma('maxPm'),porNivel=soma('pmPerLevel');
+    return{fixo,porNivel,total:fixo+porNivel*nivel()};
+  }
 
   function classeDoNome(){
     const n=norm(document.getElementById('configClassName')?.value);
@@ -35,16 +41,22 @@
   }
 
   function config(){
-    if(!conteudo.pmConfig||typeof conteudo.pmConfig!=='object')return{modo:'manual',classe:classeDoNome(),porNivel:null,bonus:0,somarAtributo:false};
-    return conteudo.pmConfig;
+    const padrao={modo:'manual',classe:classeDoNome(),porNivel:null,bonus:0,somarAtributo:false,atributo:null,maxManual:null};
+    const c=conteudo.pmConfig&&typeof conteudo.pmConfig==='object'?conteudo.pmConfig:{};
+    return{...padrao,...c};
   }
+  const atributoDe=cfg=>ATR[cfg.atributo]?cfg.atributo:(ATR[atributoConjuracao]?atributoConjuracao:'int');
   function porNivelDe(cfg){
     const c=CLASSES.find(x=>x[0]===cfg.classe);
     return cfg.classe==='outra'||!c?num(cfg.porNivel,0):c[2];
   }
-  function maximoAuto(cfg){
-    return porNivelDe(cfg)*nivel()+num(cfg.bonus,0)+(cfg.somarAtributo?modAtributo():0);
+  // máximo sem os efeitos
+  function base(cfg){
+    if(cfg.modo==='auto')return porNivelDe(cfg)*nivel()+num(cfg.bonus,0)+(cfg.somarAtributo?modDe(atributoDe(cfg)):0);
+    if(cfg.maxManual!=null)return num(cfg.maxManual,0);
+    const r=recursoPM();return r?num(r.max,0):0;
   }
+  const maximo=cfg=>base(cfg)+efeitos().total;
 
   // cria o recurso de PM só quando a pessoa mexe no painel
   function garantirRecurso(max){
@@ -59,26 +71,38 @@
 
   function salvar(){agendarSalvamentoConteudo();renderizarRecursos()}
 
-  // modo automático: acerta o máximo quando nível/classe/atributo mudam (só o dono salva)
+  // acerta o máximo quando nível, classe, atributo ou efeitos mudam (só o dono salva).
+  // Ficha sem configuração e sem efeitos de PM: nada muda.
   function recalcular(){
-    if(typeof conteudo==='undefined')return;
-    const cfg=conteudo.pmConfig;
-    if(!cfg||cfg.modo!=='auto'||!(typeof isOwner!=='undefined'&&isOwner))return;
+    if(typeof conteudo==='undefined'||!(typeof isOwner!=='undefined'&&isOwner))return;
     const r=recursoPM();if(!r)return;
-    const max=maximoAuto(cfg);
+    const ef=efeitos().total;
+    if(!conteudo.pmConfig){
+      if(!ef)return;
+      // primeira vez com efeito de PM: o máximo de hoje vira a base manual
+      conteudo.pmConfig={...config(),modo:'manual',maxManual:num(r.max,0)};
+    }
+    const cfg=config();
+    if(cfg.modo!=='auto'&&cfg.maxManual==null)conteudo.pmConfig.maxManual=num(r.max,0)-ef;
+    const max=maximo(config());
     if(num(r.max,NaN)!==max){r.max=max;salvar()}
   }
+
+  function sinal(v,rot){return v?` ${v>0?'+':'−'} ${Math.abs(v)}${rot?` ${rot}`:''}`:''}
 
   function desenhar(){
     const host=document.getElementById('pmPanel');
     if(!host||typeof conteudo==='undefined')return;
     const r=recursoPM(),cfg=config(),ed=editando(),dono=Boolean(typeof isOwner!=='undefined'&&isOwner);
-    const max=r?num(r.max,0):(cfg.modo==='auto'?maximoAuto(cfg):0);
+    const ef=efeitos();
+    const max=r?num(r.max,0):maximo(cfg);
     const atual=r?num(r.current,max):max;
     const pct=max>0?Math.max(0,Math.min(100,atual/max*100)):0;
+    const txtEf=ef.total?sinal(ef.total,'(efeitos)'):'';
+    const atr=atributoDe(cfg);
     const formula=cfg.modo==='auto'
-      ?`${porNivelDe(cfg)} PM × nível ${nivel()}${num(cfg.bonus,0)?` ${num(cfg.bonus)>0?'+':'−'} ${Math.abs(num(cfg.bonus))} bônus`:''}${cfg.somarAtributo?` ${modAtributo()>=0?'+':'−'} ${Math.abs(modAtributo())} (${ATR[atributoConjuracao]||'atributo'})`:''} = ${maximoAuto(cfg)}`
-      :'Máximo digitado à mão';
+      ?`${porNivelDe(cfg)} PM × nível ${nivel()}${sinal(num(cfg.bonus,0),'bônus')}${cfg.somarAtributo?sinal(modDe(atr),`(${ATR[atr]})`)||` + 0 (${ATR[atr]})`:''}${txtEf} = ${maximo(cfg)}`
+      :(ef.total||cfg.maxManual!=null?`Base ${base(cfg)}${txtEf} = ${maximo(cfg)}`:'Máximo digitado à mão');
 
     let html=`<div class="pm-topo">
       <div class="pm-valor"><span class="pm-atual">${atual}</span><span class="pm-sep">/</span><span class="pm-max">${max}</span><small>PM</small></div>
@@ -94,6 +118,7 @@
 
     if(ed){
       const cls=CLASSES.map(([k,n,p])=>`<option value="${k}"${cfg.classe===k?' selected':''}>${n} (${p}/nível)</option>`).join('');
+      const atrs=Object.entries(ATR).map(([k,n])=>`<option value="${k}"${atr===k?' selected':''}>${n}</option>`).join('');
       html+=`<div class="pm-config">
         <label>Cálculo
           <select data-pmc="modo"><option value="manual"${cfg.modo!=='auto'?' selected':''}>Manual: eu digito o máximo</option><option value="auto"${cfg.modo==='auto'?' selected':''}>Automático (Tormenta20)</option></select>
@@ -103,37 +128,41 @@
           <select data-pmc="classe">${cls}<option value="outra"${cfg.classe==='outra'?' selected':''}>Outra: digitar PM por nível</option></select>
         </label>
         ${cfg.classe==='outra'?`<label>PM por nível<input type="number" min="0" data-pmc="porNivel" value="${esc(cfg.porNivel??'')}"></label>`:''}
-        <label>Bônus fixo<input type="number" data-pmc="bonus" value="${esc(cfg.bonus??0)}" title="Poderes, raça, itens, outras classes (multiclasse)"></label>
-        <label class="pm-check"><input type="checkbox" data-pmc="somarAtributo"${cfg.somarAtributo?' checked':''}> Somar ${esc(ATR[atributoConjuracao]||'atributo de conjuração')}</label>
-        `:`<label>PM máximo<input type="number" min="0" data-pmc="max" value="${max}"></label>`}
-      </div>`;
+        <label>Bônus fixo<input type="number" data-pmc="bonus" value="${esc(cfg.bonus??0)}" title="Raça, outras classes (multiclasse) ou qualquer ajuste"></label>
+        <label class="pm-check"><input type="checkbox" data-pmc="somarAtributo"${cfg.somarAtributo?' checked':''}> Somar atributo</label>
+        ${cfg.somarAtributo?`<label>Atributo<select data-pmc="atributo">${atrs}</select></label>`:''}
+        `:`<label>PM máximo${ef.total?' (sem efeitos)':''}<input type="number" min="0" data-pmc="max" value="${base(cfg)}"></label>`}
+      </div>
+      <div class="pm-dica">Habilidades, magias e itens podem mudar o PM com os efeitos <b>PM Máximo</b> e <b>PM por nível</b>.</div>`;
     }
     host.innerHTML=html;
   }
 
   function mudarAtual(delta,cheio){
     const cfg=config();
-    const maxBase=recursoPM()?num(recursoPM().max,0):(cfg.modo==='auto'?maximoAuto(cfg):0);
-    const r=garantirRecurso(maxBase);
+    const r=garantirRecurso(maximo(cfg));
     const max=num(r.max,0);
     r.current=cheio?max:Math.max(0,num(r.current,max)+delta);
     salvar();desenhar();
   }
 
   function mudarConfig(campo,el){
-    const cfg={...config()};
+    const antes=config(),cfg={...antes};
+    const ef=efeitos().total;
     if(campo==='max'){
-      const r=garantirRecurso(0);
-      r.max=Math.max(0,Math.trunc(num(el.value,0)));
-      if(!conteudo.pmConfig)conteudo.pmConfig={...cfg,modo:'manual'};
-      salvar();desenhar();return;
+      cfg.modo='manual';cfg.maxManual=Math.max(0,Math.trunc(num(el.value,0)));
+    }else if(campo==='modo'){
+      cfg.modo=el.value;
+      // voltar ao manual mantém o máximo que está na ficha
+      if(cfg.modo!=='auto'){const r=recursoPM();cfg.maxManual=r?num(r.max,0)-ef:base(antes)}
     }
-    if(campo==='somarAtributo')cfg.somarAtributo=el.checked;
+    else if(campo==='somarAtributo')cfg.somarAtributo=el.checked;
     else if(campo==='bonus')cfg.bonus=Math.trunc(num(el.value,0));
     else if(campo==='porNivel')cfg.porNivel=Math.max(0,Math.trunc(num(el.value,0)));
     else cfg[campo]=el.value;
+    if(cfg.somarAtributo&&!ATR[cfg.atributo])cfg.atributo=atributoDe(cfg);
     conteudo.pmConfig=cfg;
-    if(cfg.modo==='auto'){const r=garantirRecurso(maximoAuto(cfg));r.max=maximoAuto(cfg)}
+    const r=garantirRecurso(maximo(cfg));r.max=maximo(cfg);
     salvar();desenhar();
   }
 
@@ -184,6 +213,7 @@
 #pmPanel .pm-config label{display:grid;gap:3px;font-size:.78rem;font-weight:bold;color:var(--sand-5,#3d2b1d)}
 #pmPanel .pm-config select,#pmPanel .pm-config input[type=number]{font:inherit;font-weight:normal;padding:4px 8px;border-radius:8px;border:1px solid var(--line,#c9a96b);background:#fffaf0;min-width:90px}
 #pmPanel .pm-config .pm-check{display:flex;align-items:center;gap:6px}
+#pmPanel .pm-dica{font-size:.76rem;color:var(--muted,#7a6650)}
 `;
   document.head.append(css);
 
