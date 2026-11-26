@@ -136,6 +136,35 @@
       <div class="pm-dica">Habilidades, magias e itens podem mudar o PM com os efeitos <b>PM Máximo</b> e <b>PM por nível</b>.</div>`;
     }
     host.innerHTML=html;
+    animar(host,atual,max);
+  }
+
+  /* Barra e número andam até o valor novo em vez de pular.
+     Duração cresce devagar com o tamanho da mudança (raiz quadrada), então a
+     velocidade cresce: ±1 leva ~0,45 s; +20 leva ~0,9 s, bem mais rápido por ponto. */
+  const reduzir=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  let mostrado=null,quadro=0;
+  function animar(host,atual,max){
+    const barra=host.querySelector('.pm-barra span'),num=host.querySelector('.pm-atual');
+    const pinta=v=>{
+      if(barra)barra.style.width=(max>0?Math.max(0,Math.min(100,v/max*100)):0)+'%';
+      if(num)num.textContent=Math.round(v);
+    };
+    cancelAnimationFrame(quadro);
+    const de=mostrado??atual,delta=Math.abs(atual-de);
+    if(reduzir||!delta){mostrado=atual;pinta(atual);return}
+    const dur=Math.min(1400,300+140*Math.sqrt(delta));
+    const t0=performance.now();
+    pinta(de);
+    host.querySelector('.pm-barra')?.classList.toggle('subindo',atual>de);
+    host.querySelector('.pm-barra')?.classList.toggle('descendo',atual<de);
+    const passo=t=>{
+      const k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3); // desacelera no fim
+      mostrado=de+(atual-de)*e;pinta(mostrado);
+      if(k<1)quadro=requestAnimationFrame(passo);
+      else{mostrado=atual;host.querySelector('.pm-barra')?.classList.remove('subindo','descendo')}
+    };
+    quadro=requestAnimationFrame(passo);
   }
 
   function mudarAtual(delta,cheio){
@@ -207,7 +236,9 @@
 #pmPanel .pm-btn:hover{background:var(--sand-0,#fbf3e2)}
 #pmPanel .pm-delta{width:70px;font:inherit;padding:4px 8px;border-radius:999px;border:1px solid var(--line,#c9a96b);background:#fffaf0}
 #pmPanel .pm-barra{height:12px;border-radius:999px;background:rgba(47,90,138,.14);border:1px solid rgba(47,90,138,.35);overflow:hidden}
-#pmPanel .pm-barra span{display:block;height:100%;background:linear-gradient(90deg,#3b6fa6,#6fa3d8);box-shadow:0 0 8px rgba(111,163,216,.6);transition:width .3s ease}
+#pmPanel .pm-barra span{display:block;height:100%;background:linear-gradient(90deg,#3b6fa6,#6fa3d8);box-shadow:0 0 8px rgba(111,163,216,.6)}
+#pmPanel .pm-barra.subindo span{box-shadow:0 0 12px rgba(140,190,240,.95)}
+#pmPanel .pm-barra.descendo span{filter:saturate(.8) brightness(.95)}
 #pmPanel .pm-formula{font-size:.8rem;color:var(--muted,#7a6650);font-style:italic}
 #pmPanel .pm-config{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:flex-end;border-top:1px dashed var(--line,#c9a96b);padding-top:8px}
 #pmPanel .pm-config label{display:grid;gap:3px;font-size:.78rem;font-weight:bold;color:var(--sand-5,#3d2b1d)}
