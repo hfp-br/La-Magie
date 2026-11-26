@@ -430,6 +430,7 @@ $("search").oninput=render;$("category").onchange=render;$("source").onchange=re
 sb.auth.onAuthStateChange(()=>{checkSession()});
 (async()=>{setAdmin(false);await Promise.all([loadItems(),checkSession()])})();
 </script>
+<script src="../portal-link.js"></script>
 </body>
 </html>
 

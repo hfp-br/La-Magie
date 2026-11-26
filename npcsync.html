@@ -4616,6 +4616,11 @@ body.editing
     </div>
 
 
+    <div class="section" id="pmSection">
+      <div class="section-title">Pontos de Mana</div>
+      <div id="pmPanel" class="panel"></div>
+    </div>
+
     <div
   class="section"
   id="spellcastingSection"
@@ -6890,6 +6895,10 @@ function normalizarConteudo(dados) {
             Array.isArray(dados?.obsidiana)
                 ? dados.obsidiana
                 : [],
+        pmConfig:
+            dados?.pmConfig && typeof dados.pmConfig === "object"
+                ? dados.pmConfig
+                : undefined,
 
         classe:
             Array.isArray(dados?.classe)
@@ -22233,3 +22242,5 @@ body.editing .inventory-compact-row{display:none!important}
   }, true);
 })();
 </script>
+<script src="pm-ficha.js"></script>
+<script src="portal-link.js"></script>

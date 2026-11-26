@@ -853,5 +853,6 @@ fetch("data/cozinha/receitas.json?v="+Date.now()).then(r=>r.json()).then(d=>{
   conectarFicha();
 }).catch(()=>{ $("receitas").innerHTML=`<p class="aviso">Não foi possível carregar data/cozinha/receitas.json. Abra a página pelo site ou por um servidor local (python server.py).</p>`; });
 </script>
+<script src="portal-link.js"></script>
 </body>
 </html>
