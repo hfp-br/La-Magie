@@ -440,7 +440,7 @@ sb.auth.onAuthStateChange(()=>{checkSession()});
   const chip = document.createElement("span");
   chip.id = "lojaChip";
   actions?.prepend(chip);
-  Loja.iniciar({ chip });
+  Loja.iniciar({ chip, entrar: false });
   // registro das compras dos jogadores: só aparece no modo edição (Mestres)
   const reg = document.createElement("button");
   reg.type = "button";

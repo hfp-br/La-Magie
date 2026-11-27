@@ -196,11 +196,11 @@
     requestAnimationFrame(passo);
   }
 
-  let chipHost = null, mostrada = null, timerChip = 0;
+  let chipHost = null, mostrada = null, timerChip = 0, chipEntrar = true;
   function desenharChip() {
     if (!chipHost) return;
     const f = fichaAtual();
-    if (!estado.sessao) { chipHost.innerHTML = `<button type="button" class="loja-chip entrar" data-loja="login">🪙 Entrar para comprar</button>`; mostrada = null; return; }
+    if (!estado.sessao) { chipHost.innerHTML = chipEntrar ? `<button type="button" class="loja-chip entrar" data-loja="login">🪙 Entrar para comprar</button>` : ""; mostrada = null; return; }
     if (!f) { chipHost.innerHTML = `<button type="button" class="loja-chip entrar" data-loja="sair" title="Sair">Sem ficha nesta conta · sair</button>`; mostrada = null; return; }
     const c = estado.carteira;
     const antes = mostrada && mostrada.id === f.id ? mostrada.c : null;
@@ -415,9 +415,11 @@
     corpo.addEventListener("change", e => { if (e.target.matches("[data-filtro]")) { filtro = e.target.value; desenhar(); } });
   }
 
-  function iniciar({ chip } = {}) {
+  // entrar: false quando a página já tem o próprio botão "Entrar" (Compêndio)
+  function iniciar({ chip, entrar: mostrarEntrar = true } = {}) {
     css();
     chipHost = chip || null;
+    chipEntrar = mostrarEntrar;
     chipHost?.addEventListener("click", e => {
       const b = e.target.closest("[data-loja]"); if (!b) return;
       if (b.dataset.loja === "login") abrirLogin();
