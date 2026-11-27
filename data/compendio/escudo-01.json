@@ -376,11 +376,10 @@
         "sol",
         "fogo",
         "guardia",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Escudo pesado guardião forjado na forma de um sol estilizado, dedicado a Azgher. Efeitos: Bônus de Defesa +6 Ação padrão e 10 PM: emite luz em cone de alcance curto, gera os efeitos de Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 em mortos-vivos e criaturas vulneráveis à luz solar). Gaste 1 PM no início de cada turno para manter. perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -423,8 +422,7 @@
         "ammo": "",
         "reload": "",
         "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
       "armor": {
