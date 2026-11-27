@@ -25,14 +25,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-carne-pedaco",
@@ -58,14 +63,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-cerveja-galao",
@@ -91,14 +101,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-cerveja-caneca",
@@ -124,14 +139,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-pao-pedaco",
@@ -157,14 +177,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-queijo-pedaco",
@@ -190,14 +215,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-vinho-comum-jarra",
@@ -223,14 +253,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-alimento-vinho-fino-garrafa",
@@ -256,14 +291,19 @@
         "dnd 2014",
         "comida",
         "bebida",
-        "livro do jogador 2014",
         "consumivel"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "consumivel",
         "comida"
-      ]
+      ],
+      "efeitos": [],
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
