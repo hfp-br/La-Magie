@@ -20,11 +20,10 @@
         "corpo a corpo - leve",
         "leve",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +2 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar seu modificador de Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -53,8 +52,7 @@
         "ammo": "",
         "reload": "",
         "properties": "leve; arremesso; +2 em Ladinagem para ocultar; pode usar DES no teste de ataque",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -79,11 +77,10 @@
         "simples",
         "corpo a corpo - leve",
         "leve",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada compacta de uso muito comum, adequada como arma principal leve ou secundária.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -112,8 +109,7 @@
         "ammo": "",
         "reload": "",
         "properties": "leve",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -137,11 +133,10 @@
         "simples",
         "corpo a corpo - leve",
         "leve",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Ferramenta agrícola de lâmina curva, também usada como arma; é tradicional entre druidas. Efeito: leve",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -170,8 +165,7 @@
         "ammo": "",
         "reload": "",
         "properties": "leve",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -194,11 +188,10 @@
         "arma",
         "simples",
         "corpo a corpo - leve",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Manoplas superiores e mágicas aplicam os efeitos de suas modificações e encantos em ataques desarmados. Uma manopla não pode ser desarmada.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -227,8 +220,7 @@
         "ammo": "",
         "reload": "",
         "properties": "ataque desarmado letal; não pode ser desarmada",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -252,11 +244,10 @@
         "arma",
         "simples",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como Floretes Foices Água benta",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -285,8 +276,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -310,11 +300,10 @@
         "simples",
         "corpo a corpo - uma mao",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada. Efeito: arremesso",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -343,8 +332,7 @@
         "ammo": "",
         "reload": "",
         "properties": "arremesso",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -367,11 +355,10 @@
         "arma",
         "simples",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -400,8 +387,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -425,11 +411,10 @@
         "simples",
         "corpo a corpo - duas maos",
         "dupla",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cajado simples e acessível. É uma arma dupla, permitindo uso com técnicas de duas armas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -458,8 +443,7 @@
         "ammo": "",
         "reload": "",
         "properties": "dupla",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -483,11 +467,10 @@
         "simples",
         "corpo a corpo - duas maos",
         "alongada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Lança extremamente longa. É uma arma alongada, aumentando o alcance corpo a corpo, mas dificultando ataques adjacentes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -516,8 +499,7 @@
         "ammo": "",
         "reload": "",
         "properties": "alongada",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -540,11 +522,10 @@
         "arma",
         "simples",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Versão maior e mais pesada de uma clava, às vezes reforçada com pregos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -573,8 +554,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -598,11 +578,10 @@
         "simples",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Exige as duas mãos, mas pode ser usado montado. Espadas curtas Manoplas Espadas longas Espadas bastardas Katana",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -631,8 +610,7 @@
         "ammo": "Flechas",
         "reload": "Livre",
         "properties": "disparo; pode ser usado montado",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -657,11 +635,10 @@
         "simples",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é Cimitarras Adagas Alfanges uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento. Exige as duas mãos. Efeito: disparo",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -690,8 +667,7 @@
         "ammo": "Virotes",
         "reload": "Movimento",
         "properties": "disparo",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -715,11 +691,10 @@
         "simples",
         "ataque a distancia",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Lança leve feita para arremesso. Pode ser usada em combate corpo a corpo, mas com penalidade no teste de ataque. Efeito: arremesso; corpo a corpo com -5 no ataque",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -748,8 +723,7 @@
         "ammo": "",
         "reload": "",
         "properties": "arremesso; corpo a corpo com -5 no ataque",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -774,11 +748,10 @@
         "simples",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma simples tira de couro usada para arremessar balas de metal. Na falta de munição adequada, pode disparar pedras comuns, mas o dano é reduzido em um passo. Recarregar uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica seu modificador de Força a rolagens de dano com uma funda.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -807,8 +780,7 @@
         "ammo": "Balas",
         "reload": "Movimento",
         "properties": "disparo; aplica FOR ao dano; pedras reduzem o dano em um passo",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -835,11 +807,10 @@
         "escudo",
         "defesa",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Escudo leve normalmente feito de madeira e amarrado ao antebraço, deixando a mão livre para carregar objetos, mas não para manusear uma arma. Efeitos: Bônus de Defesa +1 perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma. perde o bonus de Defesa ate o proximo turno ao atacar",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [
         {
@@ -876,8 +847,7 @@
         "ammo": "",
         "reload": "",
         "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +1; penalidade de armadura –1; mão do escudo pode carregar objeto, mas não manusear arma.",
       "armor": {
@@ -908,11 +878,10 @@
         "corpo a corpo - leve",
         "leve",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Pequeno machado útil tanto como ferramenta quanto como arma. Pode ser arremessado. Efeito: leve; arremesso",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -941,8 +910,7 @@
         "ammo": "",
         "reload": "",
         "properties": "leve; arremesso",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -966,11 +934,10 @@
         "marcial",
         "corpo a corpo - uma mao",
         "agil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada de lâmina curva e muito afiada. É uma arma ágil.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -999,8 +966,7 @@
         "ammo": "",
         "reload": "",
         "properties": "agil",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1026,11 +992,10 @@
         "escudo",
         "defesa",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Escudo pesado normalmente feito de aço, preso ao antebraço e empunhado com firmeza, impedindo o uso daquela mão. Efeitos: Bônus de Defesa +2 perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão. perde o bonus de Defesa ate o proximo turno ao atacar",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [
         {
@@ -1067,8 +1032,7 @@
         "ammo": "",
         "reload": "",
         "properties": "perde o bonus de Defesa ate o proximo turno ao atacar",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "properties": "perde o bonus de Defesa ate o proximo turno ao atacar; Escudo; bônus de Defesa +2; penalidade de armadura –2; ocupa a mão.",
       "armor": {
@@ -1097,11 +1061,10 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada clássica de soldados e guerreiros, com lâmina reta de dois gumes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1130,8 +1093,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1155,11 +1117,10 @@
         "marcial",
         "corpo a corpo - uma mao",
         "agil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada de lâmina fina e precisa, feita para estocadas rápidas e controle fino da ponta. É uma arma ágil.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
@@ -1188,8 +1149,7 @@
         "ammo": "",
         "reload": "",
         "properties": "agil",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1212,11 +1172,10 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Adaptado do machado de lenhador, este não é um instrumento para Marreta Martelo de guerra Manguais Maças Clavas corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -1245,8 +1204,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1270,11 +1228,10 @@
         "marcial",
         "corpo a corpo - uma mao",
         "versatil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Arma com esfera metálica presa a uma corrente. Sua construção facilita prender e desarmar a arma do adversário. Efeito: versatil; +2 para desarmar",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -1303,8 +1260,7 @@
         "ammo": "",
         "reload": "",
         "properties": "versatil; +2 para desarmar",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1328,11 +1284,10 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Ferramenta convertida em arma de combate, muito popular entre guerreiros anões.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1361,8 +1316,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1385,11 +1339,10 @@
         "arma",
         "marcial",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Ferramenta de mineração cuja ponta também é extremamente perigosa em combate.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1418,8 +1371,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1443,11 +1395,10 @@
         "marcial",
         "corpo a corpo - uma mao",
         "versatil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Lança de três pontas usada por povos marinhos e gladiadores. É especialmente útil para derrubar oponentes. Efeito: versatil; +2 para derrubar",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -1476,8 +1427,7 @@
         "ammo": "",
         "reload": "",
         "properties": "versatil; +2 para derrubar",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1502,11 +1452,10 @@
         "marcial",
         "corpo a corpo - duas maos",
         "alongada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Arma de haste longa com lâmina de machado na ponta. É uma arma alongada.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1535,8 +1484,7 @@
         "ammo": "",
         "reload": "",
         "properties": "alongada",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1559,11 +1507,10 @@
         "arma",
         "marcial",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Grande espada curva derivada da cimitarra, comum entre guerreiros do Deserto da Perdição.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1592,8 +1539,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1616,11 +1562,10 @@
         "arma",
         "marcial",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Outra ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -1649,8 +1594,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1674,11 +1618,10 @@
         "marcial",
         "corpo a corpo - duas maos",
         "alongada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Lança longa de cavalaria. Pode ser usada com uma mão quando montado e causa dano extra em investidas montadas. Efeito: alongada; montado pode usar com 1 mao; investida montada +2d8 dano",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -1707,8 +1650,7 @@
         "ammo": "",
         "reload": "",
         "properties": "alongada; montado pode usar com 1 mao; investida montada +2d8 dano",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1732,11 +1674,10 @@
         "arma",
         "marcial",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Machado enorme de lâmina dupla, feito para golpes muito pesados.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1765,8 +1706,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1789,11 +1729,10 @@
         "arma",
         "marcial",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada enorme de cerca de um metro e meio, pesada e poderosa.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T01:46:08.504Z",
       "efeitos": [],
       "consumable": {
@@ -1822,8 +1761,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1847,11 +1785,10 @@
         "marcial",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Este arco reforçado tem a altura de uma pessoa. Ao contrário da versão curta, é primariamente uma arma de guerra. Por ter uma puxada pesada, permite que você aplique seu modificador de Força às rolagens de dano. Exige as duas mãos e não pode ser usado se você estiver montado.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -1880,8 +1817,7 @@
         "ammo": "Flechas",
         "reload": "Livre",
         "properties": "disparo; aplica FOR ao dano; nao pode ser usado montado",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1906,11 +1842,10 @@
         "marcial",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Versão maior e mais potente da besta leve. Exige as duas mãos e uma ação padrão para recarregar. Efeito: disparo",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -1939,8 +1874,7 @@
         "ammo": "Virotes",
         "reload": "Padrão",
         "properties": "disparo",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -1965,11 +1899,10 @@
         "corpo a corpo - uma mao",
         "agil",
         "versatil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Chicote de combate capaz de atingir alvos a distância curta de corpo a corpo e auxiliar manobras de derrubar ou desarmar. Efeito: agil; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -1998,8 +1931,7 @@
         "ammo": "",
         "reload": "",
         "properties": "agil; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2024,11 +1956,10 @@
         "exotica",
         "corpo a corpo - uma mao",
         "adaptavel",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -2057,8 +1988,7 @@
         "ammo": "",
         "reload": "",
         "properties": "adaptavel; pode ser usada como marcial de duas maos",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2084,11 +2014,10 @@
         "corpo a corpo - uma mao",
         "adaptavel",
         "agil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento Machado táurico Machados de batalha Machado anão especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -2117,8 +2046,7 @@
         "ammo": "",
         "reload": "",
         "properties": "adaptavel; agil; pode ser usada como marcial de duas maos",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2142,11 +2070,10 @@
         "arma",
         "exotica",
         "corpo a corpo - uma mao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Machado tradicional anão de grande porte. Exige treino especial para uma mão, mas pode ser usado com duas mãos como arma marcial. Efeito: pode ser usado como marcial de duas maos",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -2175,8 +2102,7 @@
         "ammo": "",
         "reload": "",
         "properties": "pode ser usado como marcial de duas maos",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2203,11 +2129,10 @@
         "agil",
         "dupla",
         "versatil",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar. Montantes Gadanhos Fogo alquímico Ácido",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -2236,8 +2161,7 @@
         "ammo": "",
         "reload": "",
         "properties": "agil; dupla; versatil; +2 para derrubar e desarmar; alcance 4,5 m",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2261,11 +2185,10 @@
         "arma",
         "exotica",
         "corpo a corpo - duas maos",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Machado ancestral dos minotauros, enorme e extremamente pesado. Seu formato desbalanceado impõe penalidade nos ataques. Efeito: -2 em testes de ataque",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -2294,8 +2217,7 @@
         "ammo": "",
         "reload": "",
         "properties": "-2 em testes de ataque",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2320,11 +2242,10 @@
         "exotica",
         "ataque a distancia",
         "enreda",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 em Defesa e testes de ataque). Enquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste Azagaias Lanças de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto). A vítima pode se soltar com uma ação completa e um teste de Acrobacia (CD 20). A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -2353,8 +2274,7 @@
         "ammo": "",
         "reload": "",
         "properties": "nao causa dano; enreda; corda em alcance curto",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2379,11 +2299,10 @@
         "arma de fogo",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Arma de fogo de grande potência. Exige as duas mãos e uma ação padrão para recarregar. Efeito: disparo; arma de fogo",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -2412,8 +2331,7 @@
         "ammo": "Munição",
         "reload": "Padrão",
         "properties": "disparo; arma de fogo",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -2437,11 +2355,10 @@
         "arma de fogo",
         "ataque a distancia",
         "disparo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Arma de fogo compacta. Conta como arma leve para técnicas de duas armas e exige uma ação padrão para recarregar. Efeito: disparo; conta como arma leve para Estilo de Duas Armas",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [],
       "consumable": {
@@ -2470,8 +2387,7 @@
         "ammo": "Munição",
         "reload": "Padrão",
         "properties": "disparo; conta como arma leve para Estilo de Duas Armas",
-        "allowedToggles": [],
-        "damageStat": "none"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
@@ -3712,11 +3628,10 @@
         "paladino",
         "sagrada",
         "formidavel",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Espada longa formidável que revela seu verdadeiro poder quando empunhada por um paladino. Efeito: Nas mãos de um paladino: fornece +5 em ataque e dano, +5 em testes de resistência contra magia ao paladino e aliados em alcance curto, e reduz o custo de Golpe Divino em –1 PM.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.745Z",
       "efeitos": [
         {
@@ -3752,8 +3667,7 @@
         "ammo": "",
         "reload": "",
         "properties": "",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "arma"
