@@ -196,6 +196,8 @@ button,input,select{font:inherit;color:inherit}
 .efeitos ul{margin:0;padding-left:18px}
 .efeitos li{margin:3px 0;font-size:14.5px}
 mark{background:rgba(69,196,176,.25);color:#c9fff5;border-radius:4px;padding:0 3px}
+.opcao.envio{margin-top:10px;padding:10px 12px;border:1px solid rgba(69,196,176,.45);border-radius:12px;background:rgba(69,196,176,.08)}
+.diario .enviar{margin-left:6px;padding:3px 10px}
 .efeitos li.mec{list-style:"✦ ";color:#f3e2bf}
 .efeitos li.mec small{color:var(--areia-2)}
 .acoes{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
@@ -593,9 +595,19 @@ async function carregarEquipes(){
   if(error){ console.warn("Equipes:",error.message); equipes=[]; }
   else equipes=data||[];
   if(equipeEnvio&&!equipes.some(e=>e.id===equipeEnvio)) equipeEnvio="";
-  renderPrato();
+  renderPrato(); renderDiario();
 }
 const outrosDaEquipe = eq => (eq.membros||[]).filter(m=>!(m.tipo==="jogador"&&m.id===FICHA));
+const equipeSel = () => MODO==="ficha"&&podeEditar ? equipes.find(eq=>eq.id===equipeEnvio)||null : null;
+const podeEnviar = () => MODO==="ficha"&&podeEditar&&equipes.length>0;
+// manda uma cópia do prato para os outros membros (não gasta ingredientes de novo)
+async function enviarParaEquipe(pratoFeito, equipe, entrada){
+  const {data,error}=await SB.rpc("enviar_item_equipe",{p_equipe:equipe.id,p_ficha:FICHA,p_item:itemPrato(pratoFeito)});
+  if(error){ console.error(error); toast(`Não foi possível enviar para a equipe ${equipe.nome}.`); return false; }
+  if(entrada){ entrada.enviadoPara=equipe.nome; salvar(); renderDiario(); }
+  toast(`${pratoFeito.receita||pratoFeito.nome} enviado para ${data} ${data===1?"membro":"membros"} da equipe ${equipe.nome}.`);
+  return true;
+}
 
 /* ---------- inventário ---------- */
 function renderInventario(){
@@ -793,16 +805,16 @@ function renderPrato(){
       </label>
     </div>
 
-    ${MODO==="ficha"&&podeEditar&&equipes.length?`<div class="opcao">
+    <div class="efeitos"><h3>Efeitos do prato</h3><ul>${efeitos}</ul></div>
+    ${falta.length?`<p class="aviso">Faltam ingredientes na bolsa para cozinhar este prato.</p>`:""}
+    ${MODO==="ficha"&&podeEditar&&equipes.length?`<div class="opcao envio">
       <span style="width:18px">🎒</span>
       <label for="optEquipe">Para quem<small>Com uma equipe, o Rek'No fica com o prato dele e cada outro membro recebe um igual na ficha.</small>
         <select id="optEquipe"><option value="">Só para o Rek'No</option>${equipes.map(eq=>`<option value="${esc(eq.id)}" ${eq.id===equipeEnvio?"selected":""}>Equipe ${esc(eq.nome)} (+${outrosDaEquipe(eq).length}: ${esc(outrosDaEquipe(eq).map(m=>m.nome).join(", "))})</option>`).join("")}</select>
       </label>
     </div>`:""}
-    <div class="efeitos"><h3>Efeitos do prato</h3><ul>${efeitos}</ul></div>
-    ${falta.length?`<p class="aviso">Faltam ingredientes na bolsa para cozinhar este prato.</p>`:""}
     <div class="acoes">
-      <button class="btn primario" id="cozinhar" type="button" ${falta.length||!ings.length?"disabled":""}>Cozinhar e gastar ingredientes</button>
+      <button class="btn primario" id="cozinhar" type="button" ${falta.length||!ings.length?"disabled":""}>${equipeSel()?`Cozinhar e enviar para ${esc(equipeSel().nome)}`:"Cozinhar e gastar ingredientes"}</button>
       <button class="btn" id="limpar" type="button">Limpar prato</button>
     </div>`;
 }
@@ -829,9 +841,9 @@ async function cozinhar(){
     prato.deserto?"O Deserto Provê: recuperação de PM conforme a habilidade.":"", prato.tesouro?"Tesouros do Deserto: 1d4+1 PM.":"",
     pessoa?`Para ${pessoa.nome}: ${pessoa.bonus}.`:"", `Preparado pela Cozinha do Deserto. Receita: ${r.nome} (${r.fonte}).`].filter(Boolean).join(" ");
   const pratoFeito={nome:nomePrato, receita:r.nome, descricao:desc, refeicao};
-  const equipe = MODO==="ficha" ? equipes.find(eq=>eq.id===equipeEnvio) : null;
+  const equipe = equipeSel();
   if(MODO==="ficha") pendentes.push({tipo:"por",prato:pratoFeito});
-  estado.diario.unshift({quando:new Date().toISOString(),prato:r.nome,extras,gasto,feito:pratoFeito,...(equipe?{enviadoPara:equipe.nome}:{})});
+  estado.diario.unshift({quando:new Date().toISOString(),prato:r.nome,extras,gasto,feito:pratoFeito});
   estado.diario=estado.diario.slice(0,20);
   salvar();
   toast(MODO==="ficha"?`${r.nome} pronto e guardado no inventário da ficha.`:`${r.nome} pronto.`);
@@ -839,9 +851,7 @@ async function cozinhar(){
   tudo();
   if(equipe){
     const entrada=estado.diario[0];
-    const {data,error}=await SB.rpc("enviar_item_equipe",{p_equipe:equipe.id,p_ficha:FICHA,p_item:itemPrato(pratoFeito)});
-    if(error){ console.error(error); toast(`O prato ficou com o Rek'No, mas não foi possível enviar para a equipe ${equipe.nome}.`); delete entrada.enviadoPara; salvar(); renderDiario(); }
-    else setTimeout(()=>toast(`${r.nome} enviado para ${data} ${data===1?"membro":"membros"} da equipe ${equipe.nome}.`),1400);
+    setTimeout(()=>enviarParaEquipe(pratoFeito,equipe,entrada),1400);
   }
 }
 function mudarQtdSilencioso(nome,d){
@@ -874,7 +884,8 @@ function renderDiario(){
   $("diario").innerHTML = estado.diario.length ? estado.diario.slice(0,8).map((d,i)=>`
     <li><time>${new Date(d.quando).toLocaleString("pt-BR",{dateStyle:"short",timeStyle:"short"})}</time>
     <b>${esc(d.prato)}</b>${d.extras.length?` com ${esc(d.extras.join(", "))}`:""}${d.enviadoPara?` · enviado para a equipe ${esc(d.enviadoPara)}`:""}
-    ${i===0?` <button class="btn" type="button" id="desfazer" style="margin-left:6px;padding:3px 10px">Desfazer</button>`:""}</li>`).join("")
+    ${i===0?` <button class="btn" type="button" id="desfazer" style="margin-left:6px;padding:3px 10px">Desfazer</button>`:""}
+    ${podeEnviar()&&d.feito&&!d.enviadoPara?equipes.map(eq=>` <button class="btn enviar" type="button" data-enviar="${i}" data-equipe="${esc(eq.id)}" title="Manda um prato igual para cada outro membro, sem gastar ingredientes de novo">Enviar para ${esc(eq.nome)}</button>`).join(""):""}</li>`).join("")
     : `<li class="vazio">Nada cozinhado ainda.</li>`;
 }
 
@@ -882,8 +893,14 @@ function tudo(){ renderInventario(); renderReceitas(); desenharRoleta(); renderP
 
 /* ---------- eventos ---------- */
 document.addEventListener("click",e=>{
-  const t=e.target.closest("[data-mais],[data-menos],[data-conhece],[data-rm],[data-aba],.receita,#cozinhar,#limpar,#salvarCustom,#desfazer,#verDesc");
+  const t=e.target.closest("[data-mais],[data-menos],[data-conhece],[data-rm],[data-aba],[data-enviar],.receita,#cozinhar,#limpar,#salvarCustom,#desfazer,#verDesc");
   if(!t) return;
+  if(t.dataset.enviar!==undefined){
+    const entrada=estado.diario[+t.dataset.enviar], eq=equipes.find(x=>x.id===t.dataset.equipe);
+    if(!entrada?.feito||!eq) return;
+    t.disabled=true; enviarParaEquipe(entrada.feito,eq,entrada).then(ok=>{ if(!ok) t.disabled=false; });
+    return;
+  }
   if(t.dataset.mais) return mudarQtd(t.dataset.mais,1);
   if(t.dataset.menos) return mudarQtd(t.dataset.menos,-1);
   if(t.dataset.conhece){ e.stopPropagation(); const id=t.dataset.conhece; estado.desconhecidas=estado.desconhecidas.includes(id)?estado.desconhecidas.filter(x=>x!==id):[...estado.desconhecidas,id]; salvar(); return tudo(); }
@@ -906,7 +923,7 @@ document.addEventListener("change",e=>{
   if(t.id==="optDeserto"){ prato.deserto=t.checked; return renderPrato(); }
   if(t.id==="optTesouro"){ prato.tesouro=t.checked; return renderPrato(); }
   if(t.id==="optTempero"){ prato.tempero=t.value; return renderPrato(); }
-  if(t.id==="optEquipe"){ equipeEnvio=t.value; return; }
+  if(t.id==="optEquipe"){ equipeEnvio=t.value; return renderPrato(); }
   if(t.id==="nMonstros"){ const n=Math.max(0,Math.min(5,+t.value||0)); prato.monstros=Array.from({length:n},(_,i)=>prato.monstros[i]||""); return renderPrato(); }
   if(t.dataset.monstro!==undefined){ prato.monstros[+t.dataset.monstro]=t.value; return renderPrato(); }
   if(t.dataset.t!==undefined){ estado.temperos[+t.dataset.t][t.dataset.campo]=t.value; salvar(); return renderPrato(); }
