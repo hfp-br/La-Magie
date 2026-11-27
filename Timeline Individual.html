@@ -1101,12 +1101,16 @@ function showTip(e,dot){
 }
 
 /* zoom (roda do mouse) e arrastar */
+// zoom-out até uma janela de ~5000 anos (antes: 50× o período dos eventos, uns poucos anos);
+// as marcas passam a 100, 250, 500 e 1000 anos conforme afasta
+const ANOS_MAX_VISIVEIS=5000;
+function zoomMinimo(){const [r0,r1]=range();return Math.min(.02,Math.max(1,r1-r0)/(ANOS_MAX_VISIVEIS*360))}
 function setZoom(z,cx){
   cx=cx??sc.clientWidth/2;
 
   // preserva sob o cursor a mesma data enquanto o zoom muda
   const anchor=t0+(cx-20)/ppm;
-  zoom=Math.min(Math.max(z,.02),8000);
+  zoom=Math.min(Math.max(z,zoomMinimo()),8000);
 
   const [r0,r1]=range();
   const baseSpan=Math.max(1,r1-r0);
@@ -1128,7 +1132,7 @@ function fitTimeline(){
 }
 
 function centerOn(t,z=null){
-  if(z!==null) zoom=Math.min(Math.max(z,.02),8000);
+  if(z!==null) zoom=Math.min(Math.max(z,zoomMinimo()),8000);
   viewCenter=t;
   drawTimeline();
 }
@@ -1179,7 +1183,7 @@ function updatePinch(){
   const rect=sc.getBoundingClientRect();
   const cx=(a.x+b.x)/2-rect.left;
   const distance=Math.max(1,pointerDistance(a,b));
-  const nextZoom=Math.min(Math.max(pinch.zoom*(distance/pinch.distance),.02),8000);
+  const nextZoom=Math.min(Math.max(pinch.zoom*(distance/pinch.distance),zoomMinimo()),8000);
 
   const [r0,r1]=range();
   const baseSpan=Math.max(1,r1-r0);
