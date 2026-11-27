@@ -321,18 +321,41 @@
       if (m) { moedaVer = m.dataset.moeda; try { localStorage.setItem(CHAVE_MOEDA, moedaVer); } catch {} atual = desenhar(); }
     });
     corpo.addEventListener("change", e => { if (e.target.matches("[data-ficha]")) { escolherFicha(e.target.value); atual = desenhar(); } });
-    caixa.querySelector("[data-cancelar]").addEventListener("click", fechar);
-    caixa.querySelector("[data-pagar]").addEventListener("click", async e => {
-      const btn = e.currentTarget;
+    const pe = caixa.querySelector(".loja-pe");
+    const rodapeCompra = pe.innerHTML;
+    function religar() {
+      pe.querySelector("[data-cancelar]").addEventListener("click", fechar);
+      pe.querySelector("[data-pagar]").addEventListener("click", e => { if (!e.currentTarget.disabled) confirmar(); });
+    }
+    religar();
+    // toda compra passa por esta confirmação
+    function confirmar() {
+      const f = fichaAtual(), depois = pagar(estado.carteira, atual.total);
+      if (!depois) return;
+      corpo.innerHTML = `<div class="loja-confirma">
+        <p style="margin:6px 0 10px">Confirmar a compra para <b>${esc(f.nome_personagem)}</b>?</p>
+        <ul style="margin:0 0 10px;padding-left:18px">${atual.validas.map(l => `<li>${l.qtd}× ${esc(l.item.nome)}</li>`).join("")}</ul>
+        <div class="loja-total"><span>Total</span><strong>${fmt(converterPc(atual.total, moedaVer))} ${moedaVer}</strong></div>
+        <div class="loja-bolsas"><div><small>Bolsa agora</small>${moedasHtml(estado.carteira)}</div><button class="seta" type="button" tabindex="-1">➜</button><div><small>Depois</small>${moedasHtml(depois)}</div></div>
+        <p style="color:#7d684d;font-size:12px;margin:10px 0 0">O dinheiro sai da ficha na hora e os itens entram no inventário. Os Mestres veem o registro das compras.</p>
+        <div class="loja-erro"></div></div>`;
+      pe.innerHTML = `<button class="loja-btn" type="button" data-voltar>Voltar</button><button class="loja-btn pri" type="button" data-sim>Sim, comprar</button>`;
+      pe.querySelector("[data-voltar]").addEventListener("click", () => { pe.innerHTML = rodapeCompra; religar(); atual = desenhar(); });
+      pe.querySelector("[data-sim]").addEventListener("click", e => pagarAgora(e.currentTarget));
+      pe.querySelector("[data-sim]").focus();
+    }
+    async function pagarAgora(btn) {
       if (btn.disabled) return;
       btn.disabled = true; btn.textContent = "Pagando…";
       const itens = atual.validas.map(l => itemInventario(l.item, l.qtd));
       const { data, error } = await sb.rpc("comprar_itens", { p_ficha: estado.ficha, p_itens: itens, p_custo_pc: atual.total });
       if (error) {
         console.error(error);
-        corpo.querySelector(".loja-erro").textContent = /saldo/.test(error.message) ? "Dinheiro insuficiente na ficha." : "Não foi possível comprar. Tente de novo.";
-        btn.classList.add("treme"); setTimeout(() => btn.classList.remove("treme"), 400);
-        atual = desenhar(); return;
+        const msg = /saldo/.test(error.message) ? "Dinheiro insuficiente na ficha." : "Não foi possível comprar. Tente de novo.";
+        pe.innerHTML = rodapeCompra; religar(); atual = desenhar();
+        corpo.querySelector(".loja-erro").textContent = msg;
+        const b = pe.querySelector("[data-pagar]"); b.classList.add("treme"); setTimeout(() => b.classList.remove("treme"), 400);
+        return;
       }
       voarMoedas(btn);
       const f = fichaAtual();
@@ -342,9 +365,9 @@
       ouvintesCompra.forEach(fn => { try { fn(atual.validas); } catch {} });
       corpo.innerHTML = `<div class="loja-ok"><span class="selo">🛍️</span><h3 style="margin:10px 0 4px">Comprado!</h3>
         <p style="color:#7d684d;margin:0">${atual.validas.map(l => `${l.qtd}× ${esc(l.item.nome)}`).join(", ")}<br>entra${itens.length > 1 ? "m" : ""} no inventário de ${esc(f.nome_personagem)} em instantes.</p></div>`;
-      caixa.querySelector(".loja-pe").innerHTML = `<button class="loja-btn pri" type="button">Fechar</button>`;
-      caixa.querySelector(".loja-pe button").addEventListener("click", fechar);
-    });
+      pe.innerHTML = `<button class="loja-btn pri" type="button">Fechar</button>`;
+      pe.querySelector("button").addEventListener("click", fechar);
+    }
   }
   const ouvintesCompra = new Set();
 
@@ -365,6 +388,33 @@
     }
   }
 
+  /* ---------- registro de compras (só Mestres; a tabela só deixa Mestre ler) ---------- */
+  async function abrirRegistro() {
+    const caixa = janela("Registro de compras", `<div class="loja-erro">Carregando…</div>`);
+    const corpo = caixa.querySelector(".loja-corpo");
+    const { data, error } = await sb.from("compras_registro").select("*").order("criado_em", { ascending: false }).limit(300);
+    if (error) { corpo.innerHTML = `<div class="loja-erro">Não foi possível carregar o registro.</div>`; return; }
+    const lista = data || [];
+    let filtro = "";
+    const pessoas = [...new Set(lista.map(r => r.personagem))].sort((a, b) => a.localeCompare(b, "pt-BR"));
+    const desenhar = () => {
+      const vis = lista.filter(r => !filtro || r.personagem === filtro);
+      const total = vis.reduce((a, r) => a + r.custo_pc, 0);
+      corpo.innerHTML = `
+        <div class="loja-moedabar"><span>Personagem</span><select data-filtro style="font:inherit;padding:3px 8px;border-radius:8px;border:1px solid rgba(104,75,43,.35)"><option value="">Todos</option>${pessoas.map(p => `<option ${p === filtro ? "selected" : ""}>${esc(p)}</option>`).join("")}</select></div>
+        <div class="loja-moedabar"><span>Ver em</span>${MOEDAS_EXIBIR.map(m => `<button type="button" data-moeda="${m}" aria-pressed="${m === moedaVer}">${m}</button>`).join("")}</div>
+        ${vis.length ? vis.map(r => `<div class="loja-linha" style="grid-template-columns:minmax(0,1fr) auto">
+          <div><span class="nome">${esc(r.personagem)}</span> <small style="display:inline">· ${new Date(r.criado_em).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" })}</small>
+            <small>${(r.itens || []).map(i => `${i.quantidade ?? 1}× ${esc(i.nome)}`).join(", ")}</small>
+            <small>Bolsa: ${esc(bolsaTexto(r.bolsa_antes || {}))} → ${esc(bolsaTexto(r.bolsa_depois || {}))}</small></div>
+          <span class="loja-preco">${fmt(converterPc(r.custo_pc, moedaVer))} ${moedaVer}</span></div>`).join("") : `<p style="color:#7d684d">Nenhuma compra ainda.</p>`}
+        <div class="loja-total"><span>${vis.length} compra${vis.length === 1 ? "" : "s"}</span><strong>${fmt(converterPc(total, moedaVer))} ${moedaVer}</strong></div>`;
+    };
+    desenhar();
+    corpo.addEventListener("click", e => { const m = e.target.closest("[data-moeda]"); if (m) { moedaVer = m.dataset.moeda; desenhar(); } });
+    corpo.addEventListener("change", e => { if (e.target.matches("[data-filtro]")) { filtro = e.target.value; desenhar(); } });
+  }
+
   function iniciar({ chip } = {}) {
     css();
     chipHost = chip || null;
@@ -379,6 +429,6 @@
     atualizar();
   }
 
-  window.Loja = { iniciar, comprar, abrirLogin, sair, entrar, atualizar, custoPc, converterPc, pagar, estado, EM_TIBARES, MOEDAS_EXIBIR,
+  window.Loja = { iniciar, comprar, abrirLogin, abrirRegistro, sair, entrar, atualizar, custoPc, converterPc, pagar, estado, EM_TIBARES, MOEDAS_EXIBIR,
     aoMudar: fn => ouvintes.add(fn), aoComprar: fn => ouvintesCompra.add(fn), cliente: sb };
 })();

@@ -236,6 +236,7 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
     </div>
     <div class="conta">
       <a class="btn small" href="portal/index.html">← Portal</a>
+      <button id="btnTreino" class="btn small" type="button" hidden></button>
       <button id="btnEquipes" class="btn small" type="button" hidden title="Grupos de jogadores e NPCs para pôr no combate de uma vez">👥 Equipes</button>
       <span id="contaPill" class="pill">Desconectado</span>
       <button id="btnSair" class="btn small" type="button" hidden>Sair</button>
@@ -407,8 +408,11 @@ const params = new URLSearchParams(location.search);
 let usuario = null, mestre = false, temBancoNpc = false;
 // "Mestre de rodinhas": só conduz combates de TREINO criados por ele (cópias, nada ligado a fichas)
 let rodinhas = false;
-const conduz = () => mestre || rodinhas;
-const soTreino = () => rodinhas && !mestre;
+// quem tem o cargo e também é jogador escolhe: combate real (como jogador) ou treino (conduz)
+let modoTreino = false;
+try { modoTreino = localStorage.getItem("laMagie.modoTreino") === "1"; } catch {}
+const conduz = () => mestre || (rodinhas && modoTreino);
+const soTreino = () => rodinhas && !mestre && modoTreino;
 let batalha = null, participantes = [], privado = new Map(), condicoesJogador = new Map();
 const fichas = new Map(), resumos = new Map(), npcResumos = new Map(), npcs = new Map(), monstros = new Map(), fichaCondMestre = new Map();
 let codice = [];
@@ -1213,6 +1217,14 @@ $("equipesLista").addEventListener("click", e => {
 });
 
 /* ---------- treino (mestre de rodinhas) ---------- */
+$("btnTreino").addEventListener("click", async () => {
+  modoTreino = !modoTreino;
+  try { localStorage.setItem("laMagie.modoTreino", modoTreino ? "1" : "0"); } catch {}
+  batalha = null; participantes = []; privado = new Map();
+  atualizarConta();
+  await carregarTudo();
+  ligarTempoReal();
+});
 let fichasTreino = null;
 async function abrirTreino() {
   if (!$("dlgTreino").open) $("dlgTreino").showModal();
@@ -1313,7 +1325,10 @@ async function verificarBancoNpc() {
 function atualizarConta() {
   const pill = $("contaPill");
   pill.classList.toggle("mestre", conduz());
-  pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : rodinhas ? "Mestre de rodinhas" : (usuario.email || "").split("@")[0];
+  pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : soTreino() ? "Mestre de rodinhas" : (usuario.email || "").split("@")[0];
+  $("btnTreino").hidden = !(rodinhas && !mestre);
+  $("btnTreino").textContent = modoTreino ? "⚔ Ver combate real" : "🎓 Modo treino";
+  $("btnTreino").title = modoTreino ? "Voltar a ver o combate de verdade como jogador" : "Conduzir combates de treino (só você vê)";
   $("btnSair").hidden = !usuario;
   $("btnEquipes").hidden = !mestre;
 }

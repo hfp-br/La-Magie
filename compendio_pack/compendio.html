@@ -440,6 +440,14 @@ sb.auth.onAuthStateChange(()=>{checkSession()});
   chip.id = "lojaChip";
   actions?.prepend(chip);
   Loja.iniciar({ chip });
+  // registro das compras dos jogadores: só aparece no modo edição (Mestres)
+  const reg = document.createElement("button");
+  reg.type = "button";
+  reg.className = "btn admin-only";
+  reg.textContent = "📜 Compras";
+  reg.title = "O que cada jogador comprou na loja";
+  reg.addEventListener("click", () => Loja.abrirRegistro());
+  actions?.append(reg);
   // "Entrar" serve para jogador e Mestre; edição continua só para quem tem permissão
   $("loginBtn").onclick = () => Loja.abrirLogin();
   const _setAdmin = setAdmin;
