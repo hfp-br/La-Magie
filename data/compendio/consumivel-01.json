@@ -20,11 +20,10 @@
         "sagrado",
         "luz",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Frasco de água benta criado por clérigos. É especialmente útil contra mortos-vivos, demônios e diabos. Efeito: Ação padrão; escolha um morto-vivo, demônio ou diabo em alcance curto. O alvo sofre 2d10 de dano de luz; Reflexos CD Des reduz à metade. É inofensiva contra outras criaturas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -66,11 +65,10 @@
         "consumivel",
         "comida",
         "viagem",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Porção de alimentos conservados suficiente para alimentar uma pessoa por um dia. Mantida seca, dura bastante; molhada, estraga em 24 horas. Efeito: Consome uma porção de ração de viagem referente a um dia.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -114,11 +112,10 @@
         "alquimia",
         "acido",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Frasco com ácido alquímico corrosivo. É usado contra uma criatura em alcance curto. Efeito: Ação padrão; alvo em alcance curto sofre 2d4 de dano de ácido. Reflexos CD Des reduz à metade. CD 15.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -160,11 +157,10 @@
         "consumivel",
         "alquimia",
         "cura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Pasta medicinal verde e de odor forte, usada diretamente em ferimentos. Efeito: Ação completa; recupera 2d4 PV. CD 15.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -207,11 +203,10 @@
         "alquimia",
         "explosivo",
         "impacto",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma granada rudimentar, popular entre goblins e usuários de pólvora. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e então uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto. Um teste de Reflexos (CD Des) reduz o dano à metade. CD 20.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
@@ -254,11 +249,10 @@
         "alquimia",
         "mana",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Poção feita de ervas raras e compostos alquímicos que restaura energia pessoal. Efeito: Ação padrão; recupera 1d4 PM. CD 20.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -301,11 +295,10 @@
         "alquimia",
         "fogo",
         "arremesso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Frasco de cerâmica contendo uma substância grossa e pegajosa, que entra em combustão em contato com o ar. Para usar o fogo alquímico, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 1d6 pontos de dano de fogo e fica em chamas. Um teste de Reflexos (CD Des) reduz o dano à metade e evita as chamas. CD 15.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
@@ -347,11 +340,10 @@
         "consumivel",
         "comida",
         "bebida",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma caneca da bebida comum do local, geralmente cerveja. Efeito: Consumir a bebida.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -393,11 +385,10 @@
       "tags": [
         "consumivel",
         "comida",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Refeição típica com pão, queijo, cozido de carne ou galinha com legumes e uma bebida. Efeito: Consumir a refeição.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -440,11 +431,10 @@
         "consumivel",
         "comida",
         "prato especial",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Batatas fritas populares em Valkaria. É um prato especial que dá um impulso para uma façanha durante o dia. Efeito: Recebe +1d6 em um único teste à sua escolha realizado nesse dia. Apenas um bônus de alimentação pode ser recebido por dia. CD 15. Receita (culinária avançada, Heróis de Arton p. 306): óleo, legume (ingredientes T$ 4); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-19T00:42:04.030Z",
       "efeitos": [
         {
@@ -488,11 +478,10 @@
         "comida",
         "prato especial",
         "mana",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Gorad e leite servidos quentes. É um prato especial que estimula a mente. Efeito: Recebe +2 PM temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 20. Receita (culinária avançada, Heróis de Arton p. 306): gorad, leite (ingredientes T$ 31); Ofício (cozinheiro) CD 25; ao cozinhar, serve o grupo inteiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-19T00:42:04.030Z",
       "efeitos": [
         {
@@ -536,11 +525,10 @@
         "comida",
         "prato especial",
         "pv",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Prato reforçado de macarrão, bacon e creme de leite criado em Yuvalin. Efeito: Recebe +5 PV temporários. Apenas um bônus de alimentação pode ser recebido por dia. CD 15. Receita (culinária avançada, Heróis de Arton p. 306): farinha, leite, porco (ingredientes T$ 10); Ofício (cozinheiro) CD 20; ao cozinhar, serve o grupo inteiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-19T00:42:04.030Z",
       "efeitos": [
         {
@@ -584,11 +572,10 @@
         "comida",
         "prato especial",
         "descanso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cozido simples de galinha com legumes, pensado para sustentar aventureiros. Efeito: Na próxima noite de sono, aumenta a recuperação de PV em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10. Receita (culinária avançada, Heróis de Arton p. 306): ave, legume (ingredientes T$ 5); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-19T00:42:04.030Z",
       "efeitos": [
         {
@@ -633,11 +620,10 @@
         "prato especial",
         "descanso",
         "mana",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cozido simples de peixe com verduras, associado a um descanso relaxante. Efeito: Na próxima noite de sono, aumenta a recuperação de PM em +1 por nível. Apenas um bônus de alimentação pode ser recebido por dia. CD 10. Receita (culinária avançada, Heróis de Arton p. 306): verdura, peixe (ingredientes T$ 8); Ofício (cozinheiro) CD 15; ao cozinhar, serve o grupo inteiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-19T00:42:04.030Z",
       "efeitos": [
         {
@@ -681,11 +667,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Abençoar Alimentos. Efeito: Ação padrão para aplicar; gera o efeito de Abençoar Alimentos no objeto afetado.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -728,11 +713,10 @@
         "granada",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Granada de Área Escorregadia. Efeito: Ação padrão para arremessar em alcance curto; gera Área Escorregadia no ponto escolhido.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -775,11 +759,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Arma Mágica. Efeito: Ação padrão para aplicar em uma arma; gera o efeito de Arma Mágica.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -821,11 +804,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Compreensão. Efeito: Ação padrão para beber; gera o efeito de Compreensão.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -867,11 +849,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Curar Ferimentos. Efeito: Ação padrão para beber; recupera 2d8+2 PV.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -913,11 +894,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Disfarce Ilusório. Efeito: Ação padrão para beber; gera o efeito de Disfarce Ilusório.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -959,11 +939,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Enfeitiçar. Efeito: Ação padrão para beber; o alvo fica enfeitiçado pela primeira criatura que enxergar.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1006,11 +985,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Escuridão. Efeito: Ação padrão para aplicar; gera o efeito de Escuridão.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1053,11 +1031,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Luz. Efeito: Ação padrão para aplicar; gera o efeito de Luz.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1100,11 +1077,10 @@
         "granada",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Granada de Névoa. Efeito: Ação padrão para arremessar em alcance curto; gera Névoa no ponto escolhido.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1146,11 +1122,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Primor Atlético. Efeito: Ação padrão para beber; gera o efeito de Primor Atlético.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1192,11 +1167,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Proteção Divina. Efeito: Ação padrão para beber; gera o efeito de Proteção Divina.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1238,11 +1212,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Resistência a Energia. Efeito: Ação padrão para beber; gera o efeito de Resistência a Energia.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1284,11 +1257,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Sono. Efeito: Ação padrão para beber; gera o efeito de Sono.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1330,11 +1302,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Suporte Ambiental. Efeito: Ação padrão para beber; gera o efeito de Suporte Ambiental.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1377,11 +1348,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Tranca Arcana. Efeito: Ação padrão para aplicar; gera o efeito de Tranca Arcana.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1423,11 +1393,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Visão Mística. Efeito: Ação padrão para beber; gera o efeito de Visão Mística.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1469,11 +1438,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Vitalidade Fantasma. Efeito: Ação padrão para beber; gera o efeito de Vitalidade Fantasma.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1515,11 +1483,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Escudo da Fé. Efeito: Ação padrão para beber; gera Escudo da Fé com aprimoramento para duração de cena.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1561,11 +1528,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Alterar Tamanho. Efeito: Ação padrão para beber; gera o efeito de Alterar Tamanho.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1607,11 +1573,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Aparência Perfeita. Efeito: Ação padrão para beber; gera o efeito de Aparência Perfeita.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1654,11 +1619,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Armamento da Natureza. Efeito: Ação padrão para aplicar; gera o efeito de Armamento da Natureza.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1701,11 +1665,10 @@
         "granada",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Granada de Bola de Fogo. Efeito: Ação padrão para arremessar em alcance curto; gera Bola de Fogo no ponto escolhido.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1747,11 +1710,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Camuflagem Ilusória. Efeito: Ação padrão para beber; gera o efeito de Camuflagem Ilusória.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1793,11 +1755,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Concentração de Combate. Efeito: Ação padrão para beber; gera Concentração de Combate com aprimoramento para duração de cena.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1885,11 +1846,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Físico Divino. Efeito: Ação padrão para beber; gera o efeito de Físico Divino.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1931,11 +1891,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Mente Divina. Efeito: Ação padrão para beber; gera o efeito de Mente Divina.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -1977,11 +1936,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Metamorfose. Efeito: Ação padrão para beber; gera o efeito de Metamorfose.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2023,11 +1981,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Purificação. Efeito: Ação padrão para beber; gera o efeito de Purificação.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2069,11 +2026,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Velocidade. Efeito: Ação padrão para beber; gera o efeito de Velocidade.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2116,11 +2072,10 @@
         "oleo",
         "magico",
         "pocao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Óleo de Vestimenta da Fé. Efeito: Ação padrão para aplicar; gera o efeito de Vestimenta da Fé.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2162,11 +2117,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Voz Divina. Efeito: Ação padrão para beber; gera o efeito de Voz Divina.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2347,11 +2301,10 @@
         "consumivel",
         "pocao",
         "magico",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Item mágico consumível contendo o efeito de Poção de Invisibilidade. Efeito: Ação padrão para beber; gera Invisibilidade com aprimoramento para duração de cena.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
@@ -2487,11 +2440,10 @@
         "pergaminho",
         "magico",
         "template",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Template para um pergaminho contendo qualquer magia. Edite a cópia no inventário para registrar a magia e seu custo. Efeito: Ler em voz alta exige uma ação padrão ou a ação da magia, o que for maior. É preciso conhecer a magia ou passar em Misticismo (CD 20 + custo em PM da magia). Ao ativar, o pergaminho se desfaz.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.746Z",
       "efeitos": [
         {
