@@ -18,16 +18,26 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Ao executar a ação Atacar, você pode substituir um de seus ataques arremessando um frasco de Ácido. Ataque uma criatura ou objeto à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofre 2d6 pontos de dano Ácido.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "revisarDescricao": false,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-agua-benta",
@@ -46,16 +56,26 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Ao executar a ação Atacar, você pode substituir um de seus ataques arremessando um pote de Água Benta. Escolha como alvo uma criatura à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofre 2d8 pontos de dano Radiante se for um Ínfero ou um Morto-vivo.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "revisarDescricao": false,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-algibeira",
@@ -74,14 +94,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pequena bolsa de tecido ou couro usada na cintura para guardar moedas e objetos miúdos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-aljava",
@@ -100,14 +130,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Estojo próprio para carregar e retirar flechas com rapidez.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-antitoxina",
@@ -126,14 +166,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Líquido medicinal que auxilia o organismo a resistir a venenos durante um período limitado.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-apito-sinalizador",
@@ -152,14 +202,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Apito portátil cujo som agudo é usado para chamar atenção, transmitir sinais ou pedir socorro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-ariete-portavel",
@@ -178,15 +238,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Você pode usar um Aríete Portável para arrombar portas. Ao fazer isso, você recebe um bônus de +4 no teste de Força. Outro personagem pode ajudá-lo a usar o Aríete, concedendo-lhe Vantagem nesse teste.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-armadilha-de-caca",
@@ -205,15 +275,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Como uma ação Usar Objeto, você pode armar uma Armadilha de Caça, que é um anel de aço dentado que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é presa em uma corrente pesada a um objeto imóvel, como uma árvore ou um espigão cravado no chão. Uma criatura que pisa no prato deve ser bem-sucedida em uma salvaguarda de Destreza CD 13 ou sofre 1d4 de dano Perfurante e tem o Deslocamento reduzido a 0 até o início de seu próximo turno. Depois disso, até que a criatura",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-arpeu",
@@ -232,15 +312,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Como uma ação Usar Objeto, você pode arremessar um Arpéu em um corrimão, uma borda ou outra superfície na qual pode ser ancorado, a até 15 metros de você, e o arpéu se ancora se você for bem-sucedido em um teste de Destreza (Acrobacia) CD 13. Se você amarrar uma corda no gancho, poderá escalá-la.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-balde",
@@ -259,14 +349,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Recipiente com alça para transportar água, areia e outros materiais em pequenas quantidades.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-baliza",
@@ -285,14 +385,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Haste ou bastão utilizado para delimitar áreas, marcar posições e sinalizar caminhos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-barril",
@@ -311,14 +421,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Grande recipiente de madeira para armazenamento e transporte de líquidos ou mantimentos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-bau",
@@ -337,14 +457,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Caixa rígida de armazenamento, adequada a equipamentos, roupas e tesouros.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-bolsa-de-componentes",
@@ -363,14 +493,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Bolsa que contém materiais consumíveis de conjuração sem preço específico, usados em magias que exigem componentes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-cadeado",
@@ -389,15 +529,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Cadeado vem com uma chave. Sem a chave, uma criatura pode usar Ferramentas de Ladrão para abrir este Cadeado com um teste bem-sucedido de Destreza (Prestidigitação) CD 15.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-caixa-para-fogo",
@@ -416,15 +566,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Uma Caixa para Fogo é um pequeno recipiente contendo pedra de sílex, aço contra fogo e material muito seco e altamente inflamável (geralmente pano seco embebido em óleo leve) usado para acender um fogo. Usá-lo para acender uma Lâmpada, Lanterna, Tocha ou Vela — ou qualquer outra coisa com combustível exposto — requer uma Ação Bônus. Acender qualquer outro fogo leva 1 minuto.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-caneta-tinteiro",
@@ -443,14 +603,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Instrumento de escrita usado com tinta em papel, pergaminhos e documentos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-cantil-cheio",
@@ -469,15 +639,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Cantil comporta até 2 litros. Se você não beber água suficiente, corre o risco de desidratação (veja o glossário de regras). Como uma ação Usar Objeto, você pode derramar Esferas de Metal de sua algibeira. Elas se espalham para cobrir uma área nivelada quadrada de 3 metros de lados a até 3 metros de você. Uma criatura que entra nesta área pela primeira vez em um turno deve ser bem-sucedida em uma salvaguarda de Destreza CD 10 ou tem a condição Caído. Leva 10 minutos para recolher as Esferas de Metal.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-cesta",
@@ -496,14 +676,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Recipiente trançado com alças para carregar alimentos, ferramentas e objetos leves.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-cobertor",
@@ -522,14 +712,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Manta de tecido utilizada para aquecer o corpo em descanso e proteger contra o frio moderado.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-corda",
@@ -548,15 +748,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Como uma ação Usar Objeto, você pode dar um nó em uma Corda se for bem-sucedido em um teste de Destreza (Prestidigitação) CD 10. Um teste bem-sucedido de Força (Atletismo) CD 20 pode romper a Corda. Você pode amarrar uma criatura involuntária com a Corda somente se a criatura tem a condição Contido, Imobilizado ou Incapacitado. Se as pernas da criatura estiverem amarradas, a criatura tem a condição Contido até escapar. Escapar da Corda requer que a criatura realize um teste bem-sucedido de Destreza (Acrobacia) CD 15 como uma ação.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-cordao",
@@ -575,14 +785,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Fio ou cordão para amarrar pequenos objetos, prender bolsas e improvisar laços.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-corrente",
@@ -601,14 +821,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Elos metálicos resistentes usados para prender, puxar ou limitar movimentos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-escada",
@@ -627,14 +857,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Escada portátil de madeira para alcançar locais elevados ou transpor pequenos obstáculos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-esferas-de-metal",
@@ -653,14 +893,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pequenas esferas que podem ser espalhadas pelo chão para tornar a passagem escorregadia e dificultar movimentação.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-espelho",
@@ -679,14 +929,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pequeno espelho portátil usado para observar reflexos, examinar ângulos e fazer sinais luminosos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-estacas-de-ferro",
@@ -705,15 +965,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Estacas de Ferro vêm em pacotes de dez. Como uma ação Usar Objeto, você pode usar um objeto contundente, como um Martelo Leve, para martelar uma Estaca em madeira, terra ou um material semelhante. Você pode fazer isso para fechar uma porta, amarrar uma corda ou corrente na Estaca.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-estojo-mapa-ou-pergaminho",
@@ -732,14 +1002,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Tubo protetor para transportar mapas, cartas e pergaminhos enrolados sem danificá-los.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-estojo-virote-de-besta",
@@ -758,14 +1038,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Estojo ou aljava apropriada para armazenar e transportar virotes de besta.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-estrepes",
@@ -784,14 +1074,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Peças metálicas pontiagudas que podem ser espalhadas no chão para atrapalhar passagem e ferir pés desprotegidos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-fogo-alquimico",
@@ -810,15 +1110,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "0,5 kg 10 PO Ao executar a ação Atacar, você pode substituir um de seus ataques arremessado um frasco de Fogo Alquímico. Escolha como alvo uma criatura ou objeto à sua vista a até 6 metros de você. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e Bônus de Proficiência) ou sofre 1d4 pontos de dano Ígneo e entra em combustão (veja o glossário de regras).",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-frasco",
@@ -837,14 +1147,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pequeno recipiente de vidro ou cerâmica usado para guardar substâncias, poções ou reagentes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-garrafa-de-vidro-1-litro",
@@ -863,14 +1183,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Garrafa reutilizável com capacidade aproximada de um litro para líquidos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-grilhoes",
@@ -889,15 +1219,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Como uma ação Usar Objeto, você pode usar Grilhões para prender uma criatura Pequena ou Média involuntária a até 1,5 metro de você que tem a condição Contido, Imobilizado ou Incapacitado, se você for bem-sucedido em um teste de Destreza (Prestidigitação) CD 13. Enquanto presa, uma criatura tem Desvantagem em jogadas de ataque, e a criatura está Contida se os grilhões estiverem presos a uma corrente ou gancho fixo no lugar. Escapar dos grilhões requer um teste bem-sucedido de Destreza (Prestidigitação) CD 20 como uma ação. Estourá-los requer um teste bem-sucedido de Força (Atletismo) CD 25 como uma ação.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-jarro-4-litros",
@@ -916,14 +1256,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Recipiente grande, próprio para armazenar ou servir até quatro litros de líquido.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-artista",
@@ -942,14 +1292,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pacote de suprimentos e utensílios para trabalhos artísticos e apresentações em viagem.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-assaltante",
@@ -968,15 +1328,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Kit de Assaltante contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Esferas de Metal, Lanterna Coberta, Mochila, 7 potes de Óleo, Pé de Cabra, 5 dias de Rações, Sino e 10 Velas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-aventureiro",
@@ -995,15 +1365,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Kit de Aventureiro contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Mochila, 2 potes de Óleo, 10 dias de Rações, Saco de Dormir, 10 Tochas. Um Kit de Sacerdote contém os seguintes itens: Água Benta, Caixa para Fogo, Cobertor, Lâmpada, Mochila, 7 dias de Rações, Túnica.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-curandeiro",
@@ -1022,16 +1402,26 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Kit de Curandeiro tem dez usos. Como uma ação Usar Objeto, você pode gastar um dos usos para estabilizar uma criatura Inconsciente que tenha 0 Pontos de Vida sem precisar realizar um teste de Sabedoria (Medicina).",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "revisarDescricao": false,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-diplomata",
@@ -1050,15 +1440,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Kit de Diplomata contém os seguintes itens: Baú, Caixa para Fogo, 5 Canetas Tinteiro, 2 Estojos de Mapa ou Pergaminho, Lâmpada, 4 potes de Óleo, Perfume, 5 folhas de Papel, 5 folhas de Pergaminho, Roupas Finas, Tinta. Uma Lanterna Foca-Facho usa Óleo como combustão para emitir Luz Plena em um Cone de 18 metros e Meia-luz por mais 18 metros.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-erudito",
@@ -1077,14 +1477,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Conjunto de material de escrita, livros e acessórios para pesquisa e registro de informações.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-escalada",
@@ -1103,14 +1513,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Conjunto de equipamentos de segurança e fixação usado para subir paredões e superfícies íngremes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-explorador-de-masmorras",
@@ -1129,15 +1549,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Um Kit de Explorador de Masmorras contém os seguintes itens: Caixa para Fogo, Cantil, Corda, Estrepes, Mochila, 2 potes de Óleo, Pé de Cabra, 10 dias de Rações, 10 Tochas. Um Jarro armazena até 4 litros.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-kit-de-sacerdote",
@@ -1156,14 +1586,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Conjunto de suprimentos de viagem para práticas religiosas, vestes e utensílios de devoção.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-lampada",
@@ -1182,14 +1622,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Luminária que queima óleo para fornecer luz durante uma viagem ou permanência em acampamento.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-lanterna-coberta",
@@ -1208,15 +1658,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Uma Lanterna Coberta usa Óleo para combustão para emitir Luz Plena em um raio de 9 metros e Meia-luz por mais 9 metros. Como uma Ação Bônus, você pode baixar o capuz, reduzindo a luz para Meia-luz em um raio de 1,5 metro, ou levantá-lo novamente.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-lanterna-foca-facho",
@@ -1235,14 +1695,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Lanterna cujo refletor direciona a luz em um cone, útil para iluminar áreas à distância.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-livro",
@@ -1261,14 +1731,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Volume encadernado com páginas para consulta, estudo ou registro de informações.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-luneta",
@@ -1287,14 +1767,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Instrumento óptico portátil que aproxima visualmente objetos e locais muito distantes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-lupa",
@@ -1313,14 +1803,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Lente convexa utilizada para examinar detalhes pequenos, inscrições e materiais delicados.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-mapa",
@@ -1339,14 +1839,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Representação de estradas, relevos ou locais conhecidos, útil para planejar rotas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-mochila",
@@ -1365,14 +1875,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Bolsa de costas para transportar provisões, ferramentas e equipamentos pessoais.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-oleo",
@@ -1391,15 +1911,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Você pode cobrir uma criatura, objeto ou área com Óleo ou utilizá-lo como combustível, conforme detalhado abaixo. Cobrindo uma Criatura ou um Objeto. Ao executar a ação Atacar, você pode substituir um de seus ataques por arremessar um pote de Óleo. Escolha uma criatura ou objeto a até 6 metros de distância. O alvo deve ser bem-sucedido em uma salvaguarda de Destreza (CD 8 mais seu modificador de Destreza e seu Bônus de Proficiência) ou fica coberto de óleo. Se o alvo sofrer dano Ígneo antes que o óleo seque (após 1 minuto), ele sofre 5 pontos de dano Ígneo adicionais devido ao óleo em combustão. Cobrindo um Espaço. Você pode executar a ação Usar Objeto para despejar um pote de Óleo em um terreno plano para cobrir uma área quadrada de 1,5 metro de lado a até 1,5 metro de você. Ao ser aceso, o óleo queima até o fim do turno 2 rodadas depois (ou 12 segundos) e causa 5 pontos de dano Ígneo a qualquer criatura que entre ou termine o turno na área. Uma criatura sofre esse dano apenas uma vez por turno. Combustível. O Óleo serve como combustível para Lâmpadas e Lanternas. Uma vez aceso, um pote de Óleo queima por 6 horas em uma Lâmpada ou Lanterna. Esse tempo de queima não precisa ser consecutivo; você pode extinguir o Óleo em combustão (como uma ação Usar Objeto) e acendê-lo até que ele tenha queimado por um total de 6 horas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pa",
@@ -1418,15 +1948,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Trabalhando por 1 hora, você pode usar uma Pá para cavar um buraco de 1,5 metro de cada lado no solo ou material semelhante. JOHN GRELLO, POLAR ENGINE",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-papel",
@@ -1445,14 +1985,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Folha própria para escrita e desenho, usada com tinta ou outro instrumento.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pe-de-cabra",
@@ -1471,14 +2021,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Barra de ferro usada como alavanca para deslocar objetos, abrir tampas ou forçar portas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-perfume",
@@ -1497,15 +2057,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "O perfume vem em um frasco de 120 mililitros. Por 1 hora após aplicar o Perfume em si, você tem Vantagem em testes de Carisma (Persuasão) realizados para influenciar um Humanoide Indiferente a até 1,5 metro de você.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pergaminho",
@@ -1524,14 +2094,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Folha de material preparado para escrever cartas, anotações e registros duradouros.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-1-circulo",
@@ -1550,15 +2130,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "item magico",
         "equipamento de aventura"
       ],
       "descricao": "Pergaminho consumível com uma magia de 1º círculo inscrita; permite conjurá-la conforme as regras de pergaminhos mágicos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pergaminho-magico-truque",
@@ -1577,15 +2167,25 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "item magico",
         "equipamento de aventura"
       ],
       "descricao": "Pergaminho consumível que contém um truque mágico e desaparece após sua conjuração.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "item magico"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pocao-de-cura",
@@ -1604,17 +2204,27 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "item magico",
         "equipamento de aventura"
       ],
       "descricao": "Esta poção é um item mágico. Como uma Ação Bônus, você pode bebê-la ou administrá-la a outra criatura a até 1,5 metro de você. A criatura que beber o líquido vermelho mágico deste frasco restaura 2d4 + 2 Pontos de Vida.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "revisarDescricao": false,
       "categorias": [
         "item magico"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pote",
@@ -1633,14 +2243,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Vasilha pequena de cerâmica ou outro material, própria para guardar e servir alimentos ou materiais.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-pote-ferro",
@@ -1659,14 +2279,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Panela ou pote resistente de ferro para cozinhar sobre fogo e preparar alimentos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-racoes",
@@ -1685,14 +2315,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Porção de alimentos não perecíveis preparada para sustentar um viajante por um dia.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-rede",
@@ -1711,14 +2351,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Malha de cordas usada para pescar, capturar ou restringir temporariamente uma criatura.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-roldana-e-polias",
@@ -1737,14 +2387,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Conjunto mecânico de polias e cordas que auxilia a levantar ou movimentar cargas pesadas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-roupas-fantasia",
@@ -1763,14 +2423,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Traje elaborado para espetáculos, festas, encenações ou disfarces visuais.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-roupas-finas",
@@ -1789,14 +2459,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Vestuário de boa qualidade, adequado a situações formais ou cerimônias.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-roupas-viagem",
@@ -1815,14 +2495,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Roupas resistentes e práticas para jornadas e deslocamentos frequentes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-saca",
@@ -1841,14 +2531,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Saco simples de tecido para guardar ou transportar provisões e outros objetos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-saco-de-dormir",
@@ -1867,14 +2567,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Rolo acolchoado que oferece uma superfície isolante para repousar ao ar livre.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-sino",
@@ -1893,14 +2603,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pequeno instrumento metálico que produz som claro quando agitado.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-tenda",
@@ -1919,14 +2639,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Abrigo portátil de lona destinado a proteger pessoas de vento, chuva moderada e exposição.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-tinta",
@@ -1945,14 +2675,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Pigmento líquido usado para escrever ou desenhar com caneta apropriada.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-tocha",
@@ -1971,14 +2711,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Haste combustível acesa para iluminar locais escuros; exige cuidado com fogo.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-vela",
@@ -1997,14 +2747,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Fonte simples de luz por combustão de cera ou material semelhante.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-tunica",
@@ -2023,14 +2783,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Peça de vestuário comprida usada como roupa cotidiana ou por cima de outras peças.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-equipamento-veneno-basico",
@@ -2049,14 +2819,24 @@
         "dnd",
         "dnd 2024",
         "equipamento",
-        "livro do jogador 2024",
         "equipamento de aventura"
       ],
       "descricao": "Veneno preparado para aplicação em arma ou munição; causa dano venenoso conforme suas regras de uso.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-municao-agulhas-50",
@@ -2074,14 +2854,24 @@
       "tags": [
         "dnd",
         "dnd 2024",
-        "municao",
-        "livro do jogador 2024"
+        "municao"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "municao"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-municao-balas-de-arma-de-fogo-10",
@@ -2099,14 +2889,24 @@
       "tags": [
         "dnd",
         "dnd 2024",
-        "municao",
-        "livro do jogador 2024"
+        "municao"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "municao"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-municao-balas-de-funda-20",
@@ -2124,14 +2924,24 @@
       "tags": [
         "dnd",
         "dnd 2024",
-        "municao",
-        "livro do jogador 2024"
+        "municao"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "municao"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-municao-flechas-20",
@@ -2149,14 +2959,24 @@
       "tags": [
         "dnd",
         "dnd 2024",
-        "municao",
-        "livro do jogador 2024"
+        "municao"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "municao"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-municao-virotes-20",
@@ -2174,14 +2994,24 @@
       "tags": [
         "dnd",
         "dnd 2024",
-        "municao",
-        "livro do jogador 2024"
+        "municao"
       ],
       "descricao": "Pacote de munição para arma compatível.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "municao"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
