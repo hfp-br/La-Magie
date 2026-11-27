@@ -19,13 +19,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-camelo",
@@ -45,13 +55,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-cavalo-de-guerra",
@@ -71,13 +91,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-cavalo-de-montaria",
@@ -97,13 +127,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-cavalo-pesado",
@@ -123,13 +163,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-elefante",
@@ -149,13 +199,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-mastim",
@@ -175,13 +235,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-montaria-ponei",
@@ -201,13 +271,23 @@
         "dnd",
         "dnd 2014",
         "montaria",
-        "livro do jogador 2014",
         "animal"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "animal"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
