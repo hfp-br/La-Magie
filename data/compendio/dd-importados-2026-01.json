@@ -18,13 +18,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 perfurante. Propriedades: Acuidade, leve, arremesso (distância 6/18).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -46,7 +45,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-azagaia",
@@ -65,13 +74,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 9/36).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -93,7 +101,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-bordao",
@@ -112,13 +130,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: Versátil (1d8).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -140,7 +157,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-clava-grande",
@@ -159,13 +186,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d8 concussão. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -187,7 +213,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-foice-curta",
@@ -206,13 +242,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 cortante. Propriedades: Leve.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -234,7 +269,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-lanca",
@@ -253,13 +298,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (distância 6/18), versátil (1d8).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -281,7 +325,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-maca",
@@ -300,13 +354,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 concussão. Propriedades: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -328,7 +381,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-machadinha",
@@ -347,13 +410,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d6 cortante. Propriedades: Leve, arremesso (distância 6/18).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -375,7 +437,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-martelo-leve",
@@ -394,13 +466,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve, arremesso (distância 6/18).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -422,7 +493,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-porrete",
@@ -441,13 +522,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (corpo a corpo). Dano: 1d4 concussão. Propriedades: Leve.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -469,7 +549,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-arco-curto",
@@ -488,13 +578,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 24/96), duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -516,7 +605,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-beste-leve",
@@ -535,13 +634,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 24/96), recarga, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -563,7 +661,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-dardo",
@@ -582,13 +690,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d4 perfurante. Propriedades: Acuidade, arremesso (distância 6/18).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -610,7 +717,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-funda",
@@ -629,13 +746,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "simples"
       ],
       "descricao": "Arma simples (distância). Dano: 1d4 concussão. Propriedades: Munição (distância 9/36).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -657,7 +773,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-alabarda",
@@ -676,13 +802,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -704,7 +829,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-cimitarra",
@@ -723,13 +858,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 cortante. Propriedades: Acuidade, leve.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -751,7 +885,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-chicote",
@@ -770,13 +914,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d4 cortante. Propriedades: Acuidade, alcance.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -798,7 +941,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-espada-curta",
@@ -817,13 +970,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Acuidade, leve.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -845,7 +997,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-espada-grande",
@@ -864,13 +1026,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 cortante. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -892,7 +1053,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-espada-longa",
@@ -911,13 +1082,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -939,7 +1109,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-glaive",
@@ -958,13 +1138,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 cortante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -986,7 +1165,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-lanca-de-montaria",
@@ -1005,13 +1194,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Você tem desvantagem quando usar a lança longa para atacar um alvo a até 1,5 metro de você. Além disso, uma lança longa requer as duas mãos para ser empunhada quando você não está em uma montaria. Dano: 1d12 perfurante. Propriedades: Alcance, especial.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1034,7 +1222,17 @@
       "categorias": [
         "arma"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-lanca-longa",
@@ -1053,13 +1251,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d10 perfurante. Propriedades: Pesada, alcance, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1081,7 +1278,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-maca-estrela",
@@ -1100,13 +1307,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1128,7 +1334,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-machado-grande",
@@ -1147,13 +1363,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d12 cortante. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1175,7 +1390,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-machado-de-batalha",
@@ -1194,13 +1419,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 cortante. Propriedades: Versátil (1d10).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1222,7 +1446,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-malho",
@@ -1241,13 +1475,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 2d6 concussão. Propriedades: Pesada, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1269,7 +1502,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-mangual",
@@ -1288,13 +1531,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1316,7 +1558,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-martelo-de-guerra",
@@ -1335,13 +1587,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 concussão. Propriedades: Versátil (1d10).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1363,7 +1614,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-picareta-de-guerra",
@@ -1382,13 +1643,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1410,7 +1670,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-rapieira",
@@ -1429,13 +1699,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d8 perfurante. Propriedades: Acuidade.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1457,7 +1726,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-tridente",
@@ -1476,13 +1755,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (corpo a corpo). Dano: 1d6 perfurante. Propriedades: Arremesso (6/18), versátil (1d8).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1504,7 +1782,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-arco-longo",
@@ -1523,13 +1811,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d8 perfurante. Propriedades: Munição (distância 45/180), pesada, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1551,7 +1838,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-besta-de-mao",
@@ -1570,13 +1867,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d6 perfurante. Propriedades: Munição (distância 9/36), leve, recarga.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1598,7 +1894,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-besta-pesada",
@@ -1617,13 +1923,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1d10 perfurante. Propriedades: Munição (distância 30/120), pesada, recarga, duas mãos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1645,7 +1950,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-rede",
@@ -1664,13 +1979,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Uma criatura Grande ou menor atingida por uma rede fica impedida até se libertar. Uma rede não afeta criaturas que não possuam uma forma definida, ou criaturas Enormes ou maiores. A criatura pode usar sua ação para realizar um teste de Força CD 10 para se libertar, ou outra criatura dentro do alcance que obtiver sucesso no teste pode fazer isso por ela. Causar 5 de dano cortante à rede (CA 10) também liberta a criatura sem feri-la, encerrando o efeito e destruindo a rede. Quando você usa uma ação, ação bônus, ou reação para atacar com a rede, você pode realizar apenas um ataque, independentemente do número de ataques que você possa realizar normalmente. Propriedades: Especial, arremesso (distância 1,5/4,5).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1693,7 +2007,17 @@
       "categorias": [
         "arma"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-arma-zarabatana",
@@ -1712,13 +2036,12 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "arma",
         "marcial"
       ],
       "descricao": "Arma marcial (distância). Dano: 1 perfurante. Propriedades: Munição (distância 7,5/30), recarga.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "weaponAttack": {
         "enabled": true,
@@ -1740,7 +2063,17 @@
       },
       "categorias": [
         "arma"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-abaco",
@@ -1758,17 +2091,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "O ábaco é um instrumento de cálculo, formado por uma moldura com bastões ou arames paralelos, dispostos no sentido vertical, correspondentes cada um a uma posição digital (unidades, dezenas, etc.) e nos quais estão os elementos de contagem (fichas, bolas ou contas) que podem fazer-se deslizar livremente. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-acido-vidro",
@@ -1787,12 +2129,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Usando uma ação, você pode despejar o conteúdo desse vidro em uma criatura a até 1,5 metro de você, ou arremessar o vidro a até 6 metros de distância, quebrando-o no impacto. Em ambos os casos, você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada. Se acertar, o alvo sofre 2d6 de dano ácido.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -1803,7 +2144,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-agua-benta-frasco",
@@ -1822,12 +2168,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Usando uma ação, você pode espalhar o conteúdo desse frasco em uma criatura a até 1,5 metro de você ou arremessar a até 6 metros, quebrando o frasco com o impacto. Em ambos os casos, você deve realizar um ataque à distância contra uma criatura alvo, tratando a água benta como uma arma improvisada. Se o alvo for um corruptor ou morto-vivo, ele sofre 2d6 de dano radiante. Um clérigo ou paladino pode criar água benta realizando um ritual especial. O ritual leva 1 hora para ser realizado, consome 25 po de prata em pó e exige que se gaste um espaço de magia de 1º nível. Pode causar 2d6 de dano radiante a corruptores e mortos-vivos ao acertar.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -1838,7 +2183,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-algemas",
@@ -1856,17 +2206,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Essas algemas de metal podem prender uma criatura Pequena ou Média. Escapar das algemas exige sucesso em um teste de Destreza CD 20. Quebrá-las exige um teste de Força CD 20 bem sucedido. Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura das algemas com um sucesso em um teste de Destreza CD 15. As algemas têm 15 pontos de vida.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-algibeira",
@@ -1884,17 +2243,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Uma bolsa de pano ou couro que pode armazenar até 20 munições de funda ou 50 munições de zarabatana, entre outras coisas. Para armazenar componentes de magia, veja bolsa de componentes, também descrita nessa seção. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-aljava",
@@ -1912,16 +2280,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-ampulheta",
@@ -1939,16 +2316,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-antidoto-vidro",
@@ -1967,12 +2353,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Uma criatura que beber o líquido desse vidro tem vantagem em testes de resistência contra venenos por 1 hora. O antídoto não confere nenhum benefício para mortos-vivos ou constructos.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -1983,7 +2368,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-apito-de-advertencia",
@@ -2001,16 +2391,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-ariete-portatil",
@@ -2028,17 +2427,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Você pode usar um aríete portátil para quebrar portas. Ao fazer isso, você ganha um bônus de +4 no teste de Força. Outra criatura pode ajudá-lo a usar o aríete, o que concede vantagem no teste.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-armadilha-de-caca",
@@ -2056,17 +2464,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Quando você usa sua ação para armá-la, essa armadilha forma um anel de aço com dentes serrilhados. Eles se fecham quando uma criatura pisa sobre uma placa de pressão no seu centro. A armadilha é fixada por uma pesada corrente em um objeto fixo e imóvel, como uma árvore ou um cravo enterrado no chão. Uma criatura que pisar na placa de pressão deve ser bem sucedida em um teste de resistência de Destreza CD 13 ou sofrerá 1d4 de dano perfurante e para de se mover. Daí em diante, até que a criatura se liberte da armadilha, seu movimento é limitado ao comprimento da corrente (tipicamente 1 metro de comprimento). A criatura presa pode usar sua ação para fazer um teste de Força CD 13 e se libertar, ou outra criatura no alcance pode fazer o teste para libertá-la. Cada fracasso no teste causa 1 de dano perfurante à criatura presa. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-arpeu",
@@ -2084,16 +2501,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-balanca-de-mercador",
@@ -2111,17 +2537,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Trata-se de uma pequena balança, pratos e um sortimento adequado de pesos de até 1 kg. Com ela, você pode medir o peso exato de pequenos objetos, como metais preciosos brutos ou bens comerciais, para ajudar a determinar seu valor. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-balde",
@@ -2139,16 +2574,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-barril",
@@ -2166,16 +2610,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-bau",
@@ -2193,16 +2646,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-bolsa-de-componentes",
@@ -2220,17 +2682,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Trata-se de uma pequena bolsa de couro à prova d'água que pode ser fixada em um cinto. Ela possui compartimentos para armazenar todos os componentes materiais e outros itens especiais que você precisa para lançar suas magias, exceto os componentes que possuem um custo específico (conforme indicado na descrição da magia). Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-caixa-de-fogo",
@@ -2248,17 +2719,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Esse pequeno recipiente detém uma pederneira, isqueiro e um pavio (um pano geralmente seco embebido em óleo) usado para acender uma fogueira. Usá-lo para acender uma tocha – ou qualquer outra coisa exposta a um combustível abundante – leva uma ação. Acender qualquer outro fogo leva 1 minuto Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-caneca",
@@ -2276,16 +2756,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-caneta-tinteiro",
@@ -2303,16 +2792,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-cantil",
@@ -2330,16 +2828,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-cesto",
@@ -2357,16 +2864,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-cobertor-de-inverno",
@@ -2384,16 +2900,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-corda-de-canhamo-15-metros",
@@ -2411,16 +2936,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Corda utilitária para escalada, amarração e transporte.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-corda-de-seda-15-metros",
@@ -2438,16 +2972,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-corrente-3-metros",
@@ -2465,17 +3008,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Uma corrente possui 10 pontos de vida e pode ser arrebentada com um teste de Força CD 20 bem sucedido. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-equipamento-de-pescaria",
@@ -2493,17 +3045,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Este kit inclui uma vara de pesca de madeira, linha de seda, boias de cortiça, anzóis de aço, chumbadas, iscas e redes de pesca. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-escada-3-metros",
@@ -2521,16 +3082,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-esferas-sacola-com-1-000",
@@ -2548,16 +3118,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-espelho-de-aco",
@@ -2575,16 +3154,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-estrepes-bolsa-com-20",
@@ -2602,17 +3190,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Usando uma ação, você pode espalhar um único saco de estrepes para cobrir a área de um quadrado de 1,5 metro de lado. Qualquer criatura que entrar na área deve ser bem sucedida em um teste de resistência de Destreza CD 15. Se falhar, para de se mover e sofre 1 de dano perfurante. Até que a criatura recupere pelo menos 1 ponto de vida, seu deslocamento de caminhada é reduzido em 3 metros. Uma criatura que se mover pela área usando metade do seu deslocamento não precisa fazer o teste de resistência. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-fechadura",
@@ -2630,17 +3227,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "A fechadura vem com chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode abrir a fechadura com um sucesso em um teste de Destreza CD 15. O Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais elevados. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-bastao",
@@ -2658,16 +3264,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-cajado",
@@ -2685,16 +3300,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-cristal",
@@ -2712,16 +3336,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-orbe",
@@ -2739,16 +3372,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-arcano-varinha",
@@ -2766,16 +3408,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-cajado-de-madeira",
@@ -2793,16 +3444,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-ramo-de-visco",
@@ -2820,16 +3480,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-totem",
@@ -2847,16 +3516,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-foco-druidico-varinha-de-teixo",
@@ -2874,16 +3552,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-fogo-alquimico-frasco",
@@ -2902,12 +3589,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Esse líquido pegajoso e adesivo inflama em contado com o ar. Usando uma ação, você pode arremessar esse frasco a até 6 metros de distância, quebrando-o com o impacto. Você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o fogo alquímico como uma arma improvisada. Em um sucesso, o alvo sofre 1d4 de dano de fogo no início de cada um de seus turnos. Uma criatura pode terminar esse dano usando sua ação e fazendo um teste de Destreza CD 10 para apagar as chamas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -2918,7 +3604,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-frasco",
@@ -2936,16 +3627,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-garrafa-de-vidro",
@@ -2963,16 +3663,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-giz-1-peca",
@@ -2990,16 +3699,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-grimorio",
@@ -3017,17 +3735,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Essencial para os magos, um grimório é um volume encadernado em couro com 100 páginas de pergaminhos em branco, adequado para armazenar magias. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-jarra",
@@ -3045,16 +3772,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-kit-de-escalada",
@@ -3072,17 +3808,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Um kit de escalada inclui pítons especiais, botas com solas pontiagudas, luvas e um cinto. Você pode usar o kit de escalada como uma ação para \"ancorar-se\". Quando faz isso, você não pode cair mais de 7,5 metros a partir do ponto onde se ancorou, e não pode subir mais de 7,5 metros de distância desse ponto, sem desfazer a âncora. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-kit-de-primeiros-socorros",
@@ -3100,17 +3845,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Esse kit é uma bolsa de couro contendo ataduras, pomadas e talas. O kit possui material suficiente para dez usos. Usando uma ação, você pode gastar um uso do kit para estabilizar uma criatura que tenha 0 pontos de vida, sem a necessidade de realizar um teste de Sabedoria (Medicina).",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-lampada",
@@ -3128,17 +3882,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Uma lâmpada lança luz plena em um raio de 4,5 metros e penumbra por mais 9 metros. Uma vez acesa, a lâmpada queima por 6 horas usando um frasco de óleo (500 ml). Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-lanterna-coberta",
@@ -3156,17 +3919,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Uma lanterna coberta lança luz plena em um raio de 9 metros e penumbra por mais 9 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500 ml). Usando uma ação, você pode abaixar a cobertura, reduzindo a claridade para penumbra em um raio de 1,5 metro. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-lanterna-furta-fogo",
@@ -3184,17 +3956,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Uma lanterna furta-fogo lança luz plena em um cone de 18 metros e penumbra por mais 18 metros. Uma vez acesa, ela queima por 6 horas usando um frasco de óleo (500 ml). Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-lente-de-aumento",
@@ -3212,17 +3993,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Essa lente permite ver pequenos objetos mais de perto. Ela também é útil como um substituto da pederneira e isqueiro para acender fogo. Usar uma lupa para acender fogo necessita de luz tão brilhante como a luz do sol para focar, um pavio e cerca de 5 minutos. Uma lente de aumento concede vantagem em qualquer teste de habilidade feito para avaliar ou inspecionar um item que é pequeno ou muito detalhado. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-livro",
@@ -3240,17 +4030,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Um livro pode conter poesia, relatos históricos, informações relativas a um campo particular de sabedoria, diagramas e notas sobre engenhocas gnômicas, ou qualquer outra coisa que possa ser representada usando texto ou imagens. Um livro com magias é um grimório, também descrito nessa seção. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-luneta",
@@ -3268,16 +4067,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-manto",
@@ -3295,16 +4103,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-marreta",
@@ -3322,16 +4139,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-martelo",
@@ -3349,16 +4175,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-mochila",
@@ -3376,16 +4211,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-municao-balas-de-funda-20",
@@ -3403,16 +4247,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-municao-flechas-20",
@@ -3430,16 +4283,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-municao-virotes-20",
@@ -3457,16 +4319,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-municao-zarabatana-50",
@@ -3484,16 +4355,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-oleo-frasco",
@@ -3511,17 +4391,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Geralmente vem em um frasco de argila que contém 500 ml. Usando uma ação, você pode espirrar o óleo desse frasco em uma criatura a até 1,5 metro de você ou arremessar a até 6 metros, quebrando-o com o impacto. Você deve realizar um ataque à distância contra uma criatura ou objeto, tratando o óleo como uma arma improvisada. Com um sucesso, o alvo é coberto de óleo. Se o alvo sofrer qualquer dano flamejante antes do óleo secar (depois de 1 minuto), a criatura sofre 5 de dano flamejante adicional pela queima do óleo. Você também pode derramar um frasco de óleo no chão para cobrir uma área de um quadrado de 1,5 metro de lado, desde que a superfície esteja nivelada. Se aceso, o óleo queima por 2 rodadas e causa 5 de dano flamejante a qualquer criatura que entrar na área ou terminar seu turno dentro da área. Uma criatura pode sofrer esse dano apenas uma vez por turno. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pa",
@@ -3539,16 +4428,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-panela-de-ferro",
@@ -3566,16 +4464,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-papel-uma-folha",
@@ -3593,16 +4500,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-parafina",
@@ -3620,16 +4536,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pe-de-cabra",
@@ -3647,17 +4572,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Usar um pé de cabra concede vantagem nos testes de Força onde uma alavanca possa ser aplicada. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pedra-de-amolar",
@@ -3675,16 +4609,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-perfume-frasco",
@@ -3702,16 +4645,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pergaminho-uma-folha",
@@ -3729,16 +4681,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-picareta-de-minerador",
@@ -3756,16 +4717,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-piton",
@@ -3783,16 +4753,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pocao-de-cura",
@@ -3811,12 +4790,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Um personagem que beber o líquido vermelho mágico deste frasco recupera 2d4+2 pontos de vida. Beber ou administrar uma poção exige uma ação.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -3827,7 +4805,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-porta-mapas-ou-pergaminhos",
@@ -3845,17 +4828,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Esse estojo cilíndrico de couro pode armazenar até 10 folhas de papel enroladas ou 5 folhas de pergaminhos enroladas. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-porta-virotes",
@@ -3873,16 +4865,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-pregos-de-ferro-10",
@@ -3900,16 +4901,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-racoes-de-viagem-1-dia",
@@ -3928,12 +4938,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Rações de viajem consistem em alimentos desidratados adequados para viagens longas, incluindo carne seca, frutas secas, bolachas e nozes.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -3944,7 +4953,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-robes",
@@ -3962,16 +4976,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-roldana-e-polia",
@@ -3989,17 +5012,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Um conjunto de roldanas com um cabo entre elas e um gancho para fixar aos objetos, a roldana e polia permitem içar até quatro vezes o peso que você ergueria normalmente. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-roupas-comuns",
@@ -4017,16 +5049,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-roupas-de-viajante",
@@ -4044,16 +5085,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-roupas-de-entretenimento",
@@ -4071,16 +5121,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-roupas-finas",
@@ -4098,16 +5157,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-sabao",
@@ -4125,16 +5193,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-saco",
@@ -4152,16 +5229,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-saco-de-dormir",
@@ -4179,16 +5265,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-amuleto",
@@ -4206,16 +5301,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-emblema",
@@ -4233,16 +5337,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-simbolo-sagrado-relicario",
@@ -4260,16 +5373,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. Usado como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-sinete",
@@ -4287,16 +5409,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-sino",
@@ -4314,16 +5445,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-tenda-para-duas-pessoas",
@@ -4341,16 +5481,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-tocha",
@@ -4368,17 +5517,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "A tocha queima por 1 hora, fornecendo luz plena em um raio de 6 metros e penumbra por mais 6 metros. Se você realizar um ataque corpo-a-corpo com uma tocha acesa e acertar, causa 1 de dano flamejante.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-tinta-frasco-de-30ml",
@@ -4396,16 +5554,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-vara-3-metros",
@@ -4423,16 +5590,25 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Equipamento de aventura. ",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-vela",
@@ -4450,17 +5626,26 @@
       "tags": [
         "dnd",
         "equipamento",
-        "dnd 2014",
-        "livro do jogador 2014"
+        "dnd 2014"
       ],
       "descricao": "Por uma hora, a vela emana luz plena em um raio de 1,5 metro e penumbra por mais 1,5 metro. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "categorias": [
         "equipamento"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-equipamento-veneno-basico-frasco",
@@ -4479,12 +5664,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "consumivel"
       ],
       "descricao": "Você pode usar o veneno contido nesse vidro para cobrir a lâmina de uma arma cortante ou perfurante ou até três peças de munição. Aplicar o veneno leva uma ação. Uma criatura atingida pela arma ou munição envenenada deve obter sucesso em um teste de resistência de Constituição CD 10 ou sofrerá 1d4 de dano de veneno. Uma vez aplicado, o veneno retém sua potência durante 1 minuto antes de secar. Equipamento de aventura.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "consumable": {
         "enabled": true,
@@ -4495,7 +5679,12 @@
         "equipamento",
         "consumivel"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-acolchoada",
@@ -4514,12 +5703,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "11 + modificador de Des",
@@ -4528,7 +5716,17 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-couro",
@@ -4547,12 +5745,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "O peitoral e as ombreiras da armadura de couro são feitos de couro que foi endurecido após ser fervido em óleo. O resto da armadura é feita de materiais mais macios e mais flexíveis. Proteção armadura leve. CA: 11 + modificador de Des. Força mínima: –. Furtividade: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "11 + modificador de Des",
@@ -4562,7 +5759,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-couro-batido",
@@ -4581,12 +5788,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Proteção armadura leve. CA: 12 + modificador de Des. Força mínima: –. Furtividade: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "12 + modificador de Des",
@@ -4595,7 +5801,17 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-gibao-de-peles",
@@ -4614,12 +5830,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Um gibão de peles é um armadura bruta consistindo de peles grossas. É comumente usada por tribos bárbaras, humanoides malignos e outros povos que não têm acesso às ferramentas e materiais necessários para criar uma armadura melhor. Proteção armadura média. CA: 12 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "12 + modificador de Des (máx. +2)",
@@ -4629,7 +5844,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-camisao-de-malha",
@@ -4648,12 +5873,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Feito de anéis de metal intercalados, um camisão de cota de malha é usado entre as camadas de roupa. Essa armadura oferece proteção modesta para a parte superior do corpo de quem a usa e permite que o som dos anéis de metal, friccionados uns contra os outros, sejam amortecidos pelas camadas exteriores. CA: 13 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "13 + modificador de Des (máx. +2)",
@@ -4663,7 +5887,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-brunea",
@@ -4682,12 +5916,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Essa armadura consiste em um casaco e calças (e talvez uma saia separada) de couro coberto com peças sobrepostas de metal, assim como as escamas de peixe. O conjunto inclui manoplas. Proteção armadura média. CA: 14 + modificador de Des (máx. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "14 + modificador de Des (máx. +2)",
@@ -4697,7 +5930,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-peitoral",
@@ -4716,12 +5959,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "A armadura peitoral é constituída por um peitoral de metal usado com couro flexível em seu interior. Embora ele deixe as pernas e braços do usuário relativamente desprotegidos, essa armadura fornece boa proteção para seus órgãos vitais, deixando quem a usa relativamente sem restrições. CA: 14 + modificador de Des (máx. Força mínima: –. Furtividade: –.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "14 + modificador de Des (máx. +2)",
@@ -4731,7 +5973,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-meia-armadura",
@@ -4750,12 +6002,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Essa armadura é composta de placas de metal moldadas que cobrem a maior parte do corpo. Ela não inclui proteção para as pernas além de caneleiras fixadas com tiras de couro. CA: 15 + modificador de Des (máx. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "15 + modificador de Des (máx. +2)",
@@ -4765,7 +6016,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-cota-de-aneis",
@@ -4784,12 +6045,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Esta armadura é feita de couro com pesados anéis presos a ela. Os anéis ajudam a reforçar a armadura contra golpes de espadas e machados. A cota de anéis é inferior à cota de malha e geralmente é vestida apenas por aqueles que não podem pagar por uma armadura melhor. Proteção armadura pesada. Força mínima: –. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "14",
@@ -4799,7 +6059,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-cota-de-malha",
@@ -4818,12 +6088,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Feita de anéis de metal entrelaçados, a cota de malha inclui uma camada de tecido acolchoado usada por baixo da malha de metal para evitar atrito e amortecer o impacto dos golpes. O conjunto inclui manoplas. Proteção armadura pesada. Força mínima: For 13. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "16",
@@ -4833,7 +6102,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-cota-de-talas",
@@ -4852,12 +6131,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "Essa armadura é feita de tiras verticais de metal, rebitadas a um suporte de couro, usadas sobre um preenchimento de pano. Cotas de malha flexíveis protegem as articulações. Proteção armadura pesada. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "17",
@@ -4867,7 +6145,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-armadura-placas",
@@ -4886,12 +6174,11 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "armadura"
       ],
       "descricao": "A armadura de placas consiste em placas de metal moldadas para cobrir todo o corpo. Inclui luvas, botas de couro pesadas, um capacete com viseira e espessas camadas de enchimento por baixo da armadura. Fivelas e tiras de couro distribuem o peso ao longo do corpo. Proteção armadura pesada. Força mínima: For 15. Furtividade: Desvantagem.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "armor": {
         "caTexto": "18",
@@ -4901,7 +6188,17 @@
       "categorias": [
         "armadura"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-kit-de-disfarce",
@@ -4920,18 +6217,27 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Essa bolsa de cosméticos, tintura de cabelo e pequenos adereços permite criar disfarces que mudam sua aparência física. Proficiência com este kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar um disfarce visual.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-kit-de-falsificacao",
@@ -4950,18 +6256,27 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Essa pequena caixa contém uma variedade de papéis e pergaminhos, canetas e tintas, selos e lacres, folha de ouro e prata, e outros suprimentos necessários para criar falsificações convincentes de documentos físicos. Proficiência com esse kit permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para criar uma falsificação de um documento físico.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ladrao",
@@ -4980,18 +6295,27 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Esse conjunto de ferramentas inclui uma pequena pasta, um conjunto de chaves mestras, um pequeno espelho montado em uma alça de metal, um conjunto de tesouras de lâminas estreitas e um par de alicates. Proficiência com essas ferramentas permite adicionar o bônus de proficiência para quaisquer testes de habilidade que você fizer para desarmar armadilhas ou abrir fechaduras.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
       ],
-      "updatedAt": "2026-11-25T18:22:43.000Z"
+      "updatedAt": "2026-11-25T18:22:43.000Z",
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-carpinteiro",
@@ -5010,17 +6334,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-ferreiro",
@@ -5039,17 +6372,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-alquimista",
@@ -5068,17 +6410,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-ferramentas-de-cozinheiro",
@@ -5097,17 +6448,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-caligrafia",
@@ -5126,17 +6486,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-suprimentos-de-cervejeiro",
@@ -5155,17 +6524,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Ferramentas de artesão. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade feitos com elas.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-alaude",
@@ -5184,17 +6562,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-ferramenta-instrumento-musical-flauta",
@@ -5213,17 +6600,26 @@
         "dnd",
         "equipamento",
         "dnd 2014",
-        "livro do jogador 2014",
         "ferramenta"
       ],
       "descricao": "Instrumento musical. Com proficiência, você adiciona seu bônus de proficiência a testes de habilidade para tocá-lo; um bardo pode usá-lo como foco de conjuração.",
       "efeitos": [],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "origemEdicao": "D&D 5e 2014",
       "revisarDados": false,
       "categorias": [
         "ferramenta"
-      ]
+      ],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-tasha-tatuagem-do-iluminador",
