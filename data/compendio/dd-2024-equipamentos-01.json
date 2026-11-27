@@ -8,10 +8,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-adaga",
       "nome": "Adaga",
       "categoria": "arma",
@@ -36,14 +35,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade, Arremesso (6/18 m), Leve",
-        "maestria": "Ágil",
         "allowedToggles": []
       },
       "maestria": "Ágil",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -52,10 +63,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-azagaia",
       "nome": "Azagaia",
       "categoria": "arma",
@@ -80,14 +90,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Arremesso (9/36 m)",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -96,10 +118,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-cajado",
       "nome": "Cajado",
       "categoria": "arma",
@@ -124,14 +145,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Versátil (1d8)",
-        "maestria": "Derrubar",
         "allowedToggles": []
       },
       "maestria": "Derrubar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -140,10 +173,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-clava",
       "nome": "Clava",
       "categoria": "arma",
@@ -168,14 +200,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Leve",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -184,10 +228,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-clava-grande",
       "nome": "Clava Grande",
       "categoria": "arma",
@@ -212,14 +255,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos",
-        "maestria": "Empurrar",
         "allowedToggles": []
       },
       "maestria": "Empurrar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -228,10 +283,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-foice",
       "nome": "Foice",
       "categoria": "arma",
@@ -256,14 +310,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Leve",
-        "maestria": "Ágil",
         "allowedToggles": []
       },
       "maestria": "Ágil",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -272,10 +338,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-lanca",
       "nome": "Lança",
       "categoria": "arma",
@@ -300,14 +365,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Arremesso (6/18 m), Versátil (1d8)",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -316,10 +393,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-maca",
       "nome": "Maça",
       "categoria": "arma",
@@ -344,14 +420,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "—",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -360,10 +448,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-machadinha",
       "nome": "Machadinha",
       "categoria": "arma",
@@ -388,14 +475,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Arremesso (6/18 m), Leve",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -404,10 +503,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-martelo-leve",
       "nome": "Martelo Leve",
       "categoria": "arma",
@@ -432,14 +530,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Arremesso (6/18 m), Leve",
-        "maestria": "Ágil",
         "allowedToggles": []
       },
       "maestria": "Ágil",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -448,10 +558,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-arco-curto",
       "nome": "Arco Curto",
       "categoria": "arma",
@@ -476,14 +585,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Munição (24/96 m)",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -492,10 +613,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-besta-leve",
       "nome": "Besta Leve",
       "categoria": "arma",
@@ -520,14 +640,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Munição (24/96 m), Recarga",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -536,10 +668,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-dardo",
       "nome": "Dardo",
       "categoria": "arma",
@@ -564,14 +695,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade, Arremesso (6/18 m)",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -580,10 +723,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "simples"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-funda",
       "nome": "Funda",
       "categoria": "arma",
@@ -608,14 +750,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Munição (9/36 m)",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -624,10 +778,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-alabarda",
       "nome": "Alabarda",
       "categoria": "arma",
@@ -652,14 +805,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Extensão, Pesada",
-        "maestria": "Trespassar",
         "allowedToggles": []
       },
       "maestria": "Trespassar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -668,10 +833,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-chicote",
       "nome": "Chicote",
       "categoria": "arma",
@@ -696,14 +860,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade, Extensão",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -712,10 +888,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-cimitarra",
       "nome": "Cimitarra",
       "categoria": "arma",
@@ -740,14 +915,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade, Leve",
-        "maestria": "Ágil",
         "allowedToggles": []
       },
       "maestria": "Ágil",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -756,10 +943,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-espada-curta",
       "nome": "Espada Curta",
       "categoria": "arma",
@@ -784,14 +970,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade, Leve",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -800,10 +998,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-espada-grande",
       "nome": "Espada Grande",
       "categoria": "arma",
@@ -828,14 +1025,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Pesada",
-        "maestria": "Garantido",
         "allowedToggles": []
       },
       "maestria": "Garantido",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -844,10 +1053,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-espada-longa",
       "nome": "Espada Longa",
       "categoria": "arma",
@@ -872,14 +1080,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Versátil (1d10)",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -888,10 +1108,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-glaive",
       "nome": "Glaive",
       "categoria": "arma",
@@ -916,14 +1135,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Extensão, Pesada",
-        "maestria": "Garantido",
         "allowedToggles": []
       },
       "maestria": "Garantido",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -932,10 +1163,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-lanca-de-montaria",
       "nome": "Lança de Montaria",
       "categoria": "arma",
@@ -960,14 +1190,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos (exceto montado), Extensão, Pesada",
-        "maestria": "Derrubar",
         "allowedToggles": []
       },
       "maestria": "Derrubar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -976,10 +1218,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-lanca-longa",
       "nome": "Lança Longa",
       "categoria": "arma",
@@ -1004,14 +1245,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Extensão, Pesada",
-        "maestria": "Empurrar",
         "allowedToggles": []
       },
       "maestria": "Empurrar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1020,10 +1273,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-maca-estrela",
       "nome": "Maça Estrela",
       "categoria": "arma",
@@ -1048,14 +1300,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "—",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1064,10 +1328,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-machado-de-batalha",
       "nome": "Machado de Batalha",
       "categoria": "arma",
@@ -1092,14 +1355,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Versátil (1d10)",
-        "maestria": "Derrubar",
         "allowedToggles": []
       },
       "maestria": "Derrubar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1108,10 +1383,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-machado-grande",
       "nome": "Machado Grande",
       "categoria": "arma",
@@ -1136,14 +1410,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Pesada",
-        "maestria": "Trespassar",
         "allowedToggles": []
       },
       "maestria": "Trespassar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1152,10 +1438,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-malho",
       "nome": "Malho",
       "categoria": "arma",
@@ -1180,14 +1465,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Pesada",
-        "maestria": "Derrubar",
         "allowedToggles": []
       },
       "maestria": "Derrubar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1196,10 +1493,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-mangual",
       "nome": "Mangual",
       "categoria": "arma",
@@ -1224,14 +1520,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "—",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1240,10 +1548,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-martelo-de-guerra",
       "nome": "Martelo de Guerra",
       "categoria": "arma",
@@ -1268,14 +1575,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Versátil (1d10)",
-        "maestria": "Empurrar",
         "allowedToggles": []
       },
       "maestria": "Empurrar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1284,10 +1603,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-picareta-de-guerra",
       "nome": "Picareta de Guerra",
       "categoria": "arma",
@@ -1312,14 +1630,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Versátil (1d10)",
-        "maestria": "Drenar",
         "allowedToggles": []
       },
       "maestria": "Drenar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1328,10 +1658,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-rapieira",
       "nome": "Rapieira",
       "categoria": "arma",
@@ -1356,14 +1685,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Acuidade",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1372,10 +1713,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-tridente",
       "nome": "Tridente",
       "categoria": "arma",
@@ -1400,14 +1740,26 @@
         "damageBonus": "",
         "range": "Corpo a corpo",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Arremesso (6/18 m), Versátil (1d10)",
-        "maestria": "Derrubar",
         "allowedToggles": []
       },
       "maestria": "Derrubar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1416,10 +1768,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-arco-longo",
       "nome": "Arco Longo",
       "categoria": "arma",
@@ -1444,14 +1795,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Munição (45/180 m), Pesada",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1460,10 +1823,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-besta-de-mao",
       "nome": "Besta de Mão",
       "categoria": "arma",
@@ -1488,14 +1850,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Leve, Munição (9/36 m), Recarga",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1504,10 +1878,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-besta-pesada",
       "nome": "Besta Pesada",
       "categoria": "arma",
@@ -1532,14 +1905,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Munição (30/120 m), Pesada, Recarga",
-        "maestria": "Empurrar",
         "allowedToggles": []
       },
       "maestria": "Empurrar",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1548,10 +1933,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-mosquete",
       "nome": "Mosquete",
       "categoria": "arma",
@@ -1576,14 +1960,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "2",
+        "ammo": "",
+        "reload": "",
         "properties": "Duas Mãos, Munição (12/36 m), Recarga",
-        "maestria": "Lentidão",
         "allowedToggles": []
       },
       "maestria": "Lentidão",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1592,10 +1988,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-pistola",
       "nome": "Pistola",
       "categoria": "arma",
@@ -1620,14 +2015,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Munição (9/27 m), Recarga",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1636,10 +2043,9 @@
         "dnd",
         "dnd 2024",
         "arma",
-        "livro do jogador 2024",
         "marcial"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-arma-zarabatana",
       "nome": "Zarabatana",
       "categoria": "arma",
@@ -1664,14 +2070,26 @@
         "damageBonus": "",
         "range": "Distância",
         "hands": "1",
+        "ammo": "",
+        "reload": "",
         "properties": "Munição (7,5/30 m), Recarga",
-        "maestria": "Afligir",
         "allowedToggles": []
       },
       "maestria": "Afligir",
       "categorias": [
         "arma"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1680,11 +2098,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "leve"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-acolchoada",
       "nome": "Acolchoada",
       "categoria": "armadura",
@@ -1702,7 +2119,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1711,11 +2139,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "leve"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-couro",
       "nome": "Couro",
       "categoria": "armadura",
@@ -1733,7 +2160,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1742,11 +2180,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "leve"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-couro-batido",
       "nome": "Couro Batido",
       "categoria": "armadura",
@@ -1764,7 +2201,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1773,11 +2221,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "media"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-gibao-de-peles",
       "nome": "Gibão de Peles",
       "categoria": "armadura",
@@ -1795,7 +2242,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1804,11 +2262,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "media"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-cota-de-malha-parcial",
       "nome": "Cota de Malha Parcial",
       "categoria": "armadura",
@@ -1826,7 +2283,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1835,11 +2303,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "media"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-loriga-de-escamas",
       "nome": "Loriga de Escamas",
       "categoria": "armadura",
@@ -1857,7 +2324,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1866,11 +2344,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "media"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-couraca-peitoral",
       "nome": "Couraça Peitoral",
       "categoria": "armadura",
@@ -1888,7 +2365,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1897,11 +2385,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "media"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-placas-parcial",
       "nome": "Placas Parcial",
       "categoria": "armadura",
@@ -1919,7 +2406,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1928,11 +2426,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "pesada"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-cota-de-aneis",
       "nome": "Cota de Anéis",
       "categoria": "armadura",
@@ -1950,7 +2447,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1959,11 +2467,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "pesada"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-cota-de-malha",
       "nome": "Cota de Malha",
       "categoria": "armadura",
@@ -1981,7 +2488,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -1990,11 +2508,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "pesada"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-armadura-de-tala",
       "nome": "Armadura de Tala",
       "categoria": "armadura",
@@ -2012,7 +2529,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -2021,11 +2549,10 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "armadura",
         "pesada"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-armadura-placas",
       "nome": "Placas",
       "categoria": "armadura",
@@ -2043,7 +2570,18 @@
       },
       "categorias": [
         "armadura"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "sistema": "D&D 5e 2024",
@@ -2052,10 +2590,9 @@
         "dnd",
         "dnd 2024",
         "protecao",
-        "livro do jogador 2024",
         "escudo"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "id": "dd-2024-escudo-escudo",
       "nome": "Escudo",
       "categoria": "escudo",
@@ -2073,7 +2610,18 @@
       },
       "categorias": [
         "escudo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
