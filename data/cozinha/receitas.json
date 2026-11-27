@@ -320,7 +320,14 @@
    "descricao": "Fabricado na ilha de Santa Sicária, este destilado fortalece o corpo e o espírito, fornecendo redução de dano 2.",
    "ingredientes": [],
    "cd": null,
-   "preco": 30
+   "preco": 30,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Redução de dano {n}",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "algravia",
@@ -331,7 +338,22 @@
    "descricao": "Bebida alcoólica adocicada feita da seiva de feras-cactus. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o final do dia.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 3
+   "preco": 3,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Adestramento",
+      "Atuação",
+      "Diplomacia",
+      "Enganação",
+      "Intimidação",
+      "Jogatina"
+     ],
+     "grupo": "perícias de Carisma",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "alqui-fruta",
@@ -342,7 +364,13 @@
    "descricao": "Bebida exclusiva do Castelo do Sabor: um líquido negro e extremamente doce, feito segundo uma receita alquímica secreta. Não se preocupe com os produtos alquímicos, o próprio nome contém a palavra “fruta”, essa bebida deve ser saudável! A Alqui-Fruta deixa qualquer um agitado, concedendo +3m de deslocamento por um dia. Benefício: +3m de movimento. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "movement",
+     "bonus": 3
+    }
+   ]
   },
   {
    "id": "assado-de-carnes",
@@ -366,7 +394,14 @@
     }
    ],
    "cd": 25,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em rolagens de dano corpo a corpo",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "assado-deheoni",
@@ -386,7 +421,13 @@
     }
    ],
    "cd": null,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Até o fim do dia, pode rolar de novo um teste recém-feito (exceto ataque) e fica com o segundo resultado"
+    }
+   ]
   },
   {
    "id": "baba-de-troll",
@@ -397,7 +438,14 @@
    "descricao": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
    "ingredientes": [],
    "cd": null,
-   "preco": 30
+   "preco": 30,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d4",
+     "texto": "em um teste à sua escolha até o fim do dia"
+    }
+   ]
   },
   {
    "id": "baga-celeste-cozida",
@@ -408,7 +456,15 @@
    "descricao": "Encontradas originalmente nas encostas invertidas de Vectora, estas bagas se espalharam por toda Arton. Preparadas adequadamente, fornecem qualidades místicas de flutuação. Todo dano de queda que você sofre é reduzido em −1d6.",
    "ingredientes": [],
    "cd": null,
-   "preco": 15
+   "preco": 15,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d6",
+     "texto": "de redução em todo dano de queda",
+     "semSinal": true
+    }
+   ]
   },
   {
    "id": "balinhas",
@@ -428,7 +484,14 @@
     }
    ],
    "cd": 25,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em rolagens de dano de magias",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "banquete-de-canceronte",
@@ -444,7 +507,15 @@
     }
    ],
    "cd": null,
-   "preco": 36
+   "preco": 36,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d4+1",
+     "texto": "dados de auxílio",
+     "semSinal": true
+    }
+   ]
   },
   {
    "id": "banquete-dos-herois",
@@ -468,7 +539,14 @@
     }
    ],
    "cd": 30,
-   "preco": 150
+   "preco": 150,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em um atributo à sua escolha",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "barba-queimada",
@@ -495,7 +573,18 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "cura",
+     "dados": "2d8+2",
+     "recurso": "PV"
+    },
+    {
+     "type": "nota",
+     "formato": "PV recuperados além do máximo viram PV temporários"
+    }
+   ]
   },
   {
    "id": "batata-do-castelo",
@@ -506,7 +595,14 @@
    "descricao": "Melora garante que não é a mesma coisa que a batata valkariana - a Batata do Castelo tem muito mais sabor! Você recebe +1d4 num único teste a sua escolha realizado nesse dia. Benefício: +1d4 num único teste. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d4",
+     "texto": "em um único teste"
+    }
+   ]
   },
   {
    "id": "batata-valkariana",
@@ -526,7 +622,14 @@
     }
    ],
    "cd": 15,
-   "preco": 2
+   "preco": 2,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d6",
+     "texto": "em um único teste à sua escolha neste dia"
+    }
+   ]
   },
   {
    "id": "batatas-grelhadas",
@@ -537,7 +640,14 @@
    "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +4 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Ofício",
+     "bonus": 4
+    }
+   ]
   },
   {
    "id": "biscoito-de-cafe",
@@ -548,7 +658,19 @@
    "descricao": "Receita adaptada para Tormenta20. Ofício +2 e Percepção +2; CD 20.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Ofício",
+     "bonus": 2
+    },
+    {
+     "type": "skill",
+     "skill": "Percepção",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "bolo-de-linhaca",
@@ -559,7 +681,19 @@
    "descricao": "O acolhedor e reconfortante bolo dos pequenos (hynnes) é feito com farinha de linhaça e decorado com frutas cristalizadas. Sua massa é leve e muito calórica. Benefício: +2 em Atletismo e Iniciativa.",
    "ingredientes": [],
    "cd": null,
-   "preco": 5
+   "preco": 5,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Atletismo",
+     "bonus": 2
+    },
+    {
+     "type": "skill",
+     "skill": "Iniciativa",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "bolo-de-cenoura",
@@ -583,7 +717,14 @@
     }
    ],
    "cd": 20,
-   "preco": 4
+   "preco": 4,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Percepção",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "bolo-do-panteao",
@@ -611,7 +752,14 @@
     }
    ],
    "cd": 30,
-   "preco": 200
+   "preco": 200,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "O custo da habilidade escolhida diminui em {n} PM (mínimo 1)",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "buque-de-thantalla",
@@ -631,7 +779,14 @@
     }
    ],
    "cd": null,
-   "preco": 150
+   "preco": 150,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Efeitos que recuperam seus PM recuperam {n} PM a mais",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "cafe-da-manha-do-fazendeiro",
@@ -642,7 +797,23 @@
    "descricao": "Receita adaptada para Tormenta20. Fortitude +1, Vontade +1 e 5 PV temporários; CD 10.",
    "ingredientes": [],
    "cd": 10,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Fortitude",
+     "bonus": 1
+    },
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 1
+    },
+    {
+     "type": "pvTemp",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "cerveja-barbas-de-heredrimm",
@@ -653,7 +824,14 @@
    "descricao": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia.",
    "ingredientes": [],
    "cd": null,
-   "preco": 45
+   "preco": 45,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d6",
+     "texto": "em um teste à sua escolha até o fim do dia"
+    }
+   ]
   },
   {
    "id": "cerveja-beluhga-no-caneco",
@@ -664,7 +842,14 @@
    "descricao": "Esta bebida opaca e esbranquiçada produz uma espuma azul e carrega um leve sabor mentolado. Fornece redução de fogo 5. Benefício: RD 5 Fogo.",
    "ingredientes": [],
    "cd": null,
-   "preco": 36
+   "preco": 36,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Redução de fogo {n}",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "cerveja-rangedente",
@@ -675,7 +860,14 @@
    "descricao": "Viscosa e de textura gosmenta, esta cerveja prepara as tripas para sofrimentos ainda maiores. Fornece +2 em Fortitude.",
    "ingredientes": [],
    "cd": null,
-   "preco": 20
+   "preco": 20,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Fortitude",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "cerveja-deheoni",
@@ -686,7 +878,19 @@
    "descricao": "A bebida mais comum nas componentes da engenhoca e tubos cheios d’água, tavernas do Reinado. Fornece +1 em testes de resisque dissipam calor por sua correnteza interna. Uma tência.",
    "ingredientes": [],
    "cd": null,
-   "preco": 15
+   "preco": 15,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Fortitude",
+      "Reflexos",
+      "Vontade"
+     ],
+     "grupo": "testes de resistência",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "cerveja-do-escavador",
@@ -697,7 +901,18 @@
    "descricao": "Apesar do nome simples, esta é uma bebida muito prestigiosa em Doherimm, e raramente é encontrada na superfície. Fornece +1 em Força, mas reduz o deslocamento em –3m. Benefício: For +1, deslocamento -3m.",
    "ingredientes": [],
    "cd": null,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "attribute",
+     "stat": "str",
+     "bonus": 1
+    },
+    {
+     "type": "movement",
+     "bonus": -3
+    }
+   ]
   },
   {
    "id": "cerveja-agua-de-sangue",
@@ -708,7 +923,14 @@
    "descricao": "De sabor amargo e aparência avermelhada, esta cerveja aumenta a concentração e determinação. Fornece +2 em Vontade.",
    "ingredientes": [],
    "cd": null,
-   "preco": 20
+   "preco": 20,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "cestinha-uivante",
@@ -719,7 +941,13 @@
    "descricao": "Outra criação do Castelo do Sabor. um creme gelado e muito doce, servido em uma cesta comestível. Não pergunte como o restaurante mantém a substância gelada, você não quer saber. Muitos valkarianos que já provaram a Cestinha Uivante dizem que é a melhor coisa que já experimentaram. Concede 2 PM extras. Benefício: +2 PM temporários. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "pmTemp",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "coc-au-triz",
@@ -735,7 +963,14 @@
     }
    ],
    "cd": null,
-   "preco": 54
+   "preco": 54,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "O custo de uma habilidade diminui em {n} PM",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "coxa-de-trobo-assada",
@@ -751,7 +986,19 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "cura",
+     "dados": "1d6",
+     "recurso": "PM"
+    },
+    {
+     "type": "cura",
+     "dados": "1d6",
+     "recurso": "PV"
+    }
+   ]
   },
   {
    "id": "cozido-de-pimenta",
@@ -778,7 +1025,45 @@
     }
    ],
    "cd": 20,
-   "preco": 12
+   "preco": 12,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Acrobacia",
+      "Adestramento",
+      "Atletismo",
+      "Atuação",
+      "Cavalgar",
+      "Conhecimento",
+      "Cura",
+      "Diplomacia",
+      "Enganação",
+      "Fortitude",
+      "Furtividade",
+      "Guerra",
+      "Iniciativa",
+      "Intimidação",
+      "Intuição",
+      "Investigação",
+      "Jogatina",
+      "Ladinagem",
+      "Luta",
+      "Misticismo",
+      "Nobreza",
+      "Ofício",
+      "Percepção",
+      "Pilotagem",
+      "Pontaria",
+      "Reflexos",
+      "Religião",
+      "Sobrevivência",
+      "Vontade"
+     ],
+     "grupo": "todas as perícias",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "destilado-limpa-ventas",
@@ -789,7 +1074,14 @@
    "descricao": "Uma bebida amarela e opaca, com um inesperado sabor picante. Fornece redução de frio 5. Benefício: RD 5 Frio.",
    "ingredientes": [],
    "cd": null,
-   "preco": 36
+   "preco": 36,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Redução de frio {n}",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "destilado-tuku-tu",
@@ -800,7 +1092,14 @@
    "descricao": "Benefício: +2 em Reflexo.",
    "ingredientes": [],
    "cd": null,
-   "preco": 20
+   "preco": 20,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Reflexos",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "dilinio",
@@ -811,7 +1110,14 @@
    "descricao": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 600
+   "preco": 600,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Seu limite de gasto de PM aumenta em {n}",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "doppelganger",
@@ -822,7 +1128,14 @@
    "descricao": "Um sanduiche com dois pedaços de carne de procedência duvidosa (que recebe nome por ser \"duplo\"), além de cebola, algace e o Molho do Castelo. A sensação de estar empanturrado concede RD 1 por dia. Benefício: Redução de dano 1. Vício do Castelo do Sabor: quem come no Castelo do Sabor mais de três vezes (três refeições diferentes) sofre –2 PM; cada dia sem comer lá impõe mais –2 PM. Só se livra do vício ao chegar a 0 PM pelas penalidades e receber a magia Purificação.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Redução de dano {n}",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "ensopado-de-coelho-e-caneca-de-cerveja",
@@ -833,7 +1146,14 @@
    "descricao": "+1 em um teste à escolha do jogador, até o fim da aventura.",
    "ingredientes": [],
    "cd": null,
-   "preco": 1
+   "preco": 1,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em um teste à escolha, até o fim da aventura",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "ensopado-de-rabo-de-lagarto-e-olho-de-sapo",
@@ -844,7 +1164,14 @@
    "descricao": "este cozido tenebroso é o típico conteúdo fumegante do caldeirão de uma bruxa. Não é apetitoso, mas coloca o comensal em contato com seu lado místico. Aumenta em +1 a CD de suas magias arcanas. A critério do mestre, pode conceder bônus em testes de Misticismo e outras perícias ligadas a magia ou em usos referentes a assuntos sobrenaturais. Benefício: +1 na CD de suas magias arcanas.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "spell",
+     "dcBonus": 1,
+     "obs": "magias arcanas"
+    }
+   ]
   },
   {
    "id": "ensopado-reforcado",
@@ -868,7 +1195,13 @@
     }
    ],
    "cd": 20,
-   "preco": 12
+   "preco": 12,
+   "mecanica": [
+    {
+     "type": "pvTemp",
+     "bonus": 20
+    }
+   ]
   },
   {
    "id": "estrogonofe",
@@ -892,7 +1225,14 @@
     }
    ],
    "cd": 20,
-   "preco": 18
+   "preco": 18,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "fruto-da-espada-mae",
@@ -908,7 +1248,18 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "cura",
+     "dados": "4d8+4",
+     "recurso": "PV"
+    },
+    {
+     "type": "nota",
+     "formato": "Remove todas as condições negativas, doenças e venenos"
+    }
+   ]
   },
   {
    "id": "futomaki",
@@ -928,7 +1279,14 @@
     }
    ],
    "cd": 20,
-   "preco": 12
+   "preco": 12,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Diplomacia",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "gorad-quente",
@@ -948,7 +1306,13 @@
     }
    ],
    "cd": 20,
-   "preco": 18
+   "preco": 18,
+   "mecanica": [
+    {
+     "type": "pmTemp",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "gorlogg-ensopado",
@@ -964,7 +1328,14 @@
     }
    ],
    "cd": null,
-   "preco": 6
+   "preco": 6,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Recuperação de PV e PM +{n} por nível",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "gorvela",
@@ -984,7 +1355,13 @@
     }
    ],
    "cd": 30,
-   "preco": 90
+   "preco": 90,
+   "mecanica": [
+    {
+     "type": "pmTemp",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "grogue-negro",
@@ -1006,7 +1383,13 @@
    "descricao": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 45
+   "preco": 45,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Você pode usar Audácia em testes de ataque"
+    }
+   ]
   },
   {
    "id": "hidromel-artusiano",
@@ -1017,7 +1400,14 @@
    "descricao": "Fabricada no norte gelado, esta bebida aquece e incita. Fornece +2 em testes de ataque corpo a corpo.",
    "ingredientes": [],
    "cd": null,
-   "preco": 8
+   "preco": 8,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em testes de ataque corpo a corpo",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "hidromel-uivante",
@@ -1028,7 +1418,14 @@
    "descricao": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 21
+   "preco": 21,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em rolagens de dano corpo a corpo",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "javali-do-bosque-enevoado",
@@ -1052,7 +1449,13 @@
     }
    ],
    "cd": 20,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "ac",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "laghman",
@@ -1063,7 +1466,24 @@
    "descricao": "Receita adaptada para Tormenta20. Fortitude +2, Vontade +1 e +4 PV; CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Fortitude",
+     "bonus": 2
+    },
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 1
+    },
+    {
+     "type": "nota",
+     "formato": "+{n} PV",
+     "bonus": 4
+    }
+   ]
   },
   {
    "id": "licor-bafo-de-elfa",
@@ -1074,7 +1494,14 @@
    "descricao": "Leve, suave e adocicado, este licor parece nem ser alcoólico, até que algumas doses “inofensivas” sejam consumidas. Fornece +2 em Misticismo.",
    "ingredientes": [],
    "cd": null,
-   "preco": 20
+   "preco": 20,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Misticismo",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "licor-de-lagrima",
@@ -1085,7 +1512,14 @@
    "descricao": "Benefício: +5 Vontade.",
    "ingredientes": [],
    "cd": null,
-   "preco": 8
+   "preco": 8,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "licor-de-tinta-de-kraken-com-algas",
@@ -1107,7 +1541,14 @@
    "descricao": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25.",
    "ingredientes": [],
    "cd": 25,
-   "preco": 450
+   "preco": 450,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "O custo para ativar a habilidade diminui em {n} PM",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "macarrao-de-yuvalin",
@@ -1131,7 +1572,13 @@
     }
    ],
    "cd": 15,
-   "preco": 6
+   "preco": 6,
+   "mecanica": [
+    {
+     "type": "pvTemp",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "macarrao-de-caravana",
@@ -1155,7 +1602,14 @@
     }
    ],
    "cd": null,
-   "preco": 5
+   "preco": 5,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em Fortitude contra marcha forçada e nos testes da jornada pelos ermos",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "manjar-de-sombras",
@@ -1166,7 +1620,14 @@
    "descricao": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer. Bebidas Baba de Troll. Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
    "ingredientes": [],
    "cd": null,
-   "preco": 20
+   "preco": 20,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d4",
+     "texto": "em um teste à sua escolha até o fim do dia"
+    }
+   ]
   },
   {
    "id": "manjar-dos-titas",
@@ -1217,7 +1678,18 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "attack",
+     "bonusDamage": 2
+    },
+    {
+     "type": "nota",
+     "formato": "Resistência a veneno +{n}",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "omelete-monstruosa",
@@ -1233,7 +1705,26 @@
     }
    ],
    "cd": null,
-   "preco": 3
+   "preco": 3,
+   "mecanica": [
+    {
+     "type": "attack",
+     "bonusDamage": 2
+    },
+    {
+     "type": "skill",
+     "skills": [
+      "Cura",
+      "Intuição",
+      "Percepção",
+      "Religião",
+      "Sobrevivência",
+      "Vontade"
+     ],
+     "grupo": "perícias de Sabedoria",
+     "bonus": -2
+    }
+   ]
   },
   {
    "id": "ovo-de-monstro-frito",
@@ -1253,7 +1744,13 @@
     }
    ],
    "cd": 25,
-   "preco": 30
+   "preco": 30,
+   "mecanica": [
+    {
+     "type": "pvTemp",
+     "bonus": 10
+    }
+   ]
   },
   {
    "id": "panelada-de-escorpiao-enorme-e-cogumelo-andante",
@@ -1273,7 +1770,14 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Na próxima noite de sono, recuperação de PV e PM +{n} por nível",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "pavao-celestial",
@@ -1297,7 +1801,14 @@
     }
    ],
    "cd": 30,
-   "preco": 150
+   "preco": 150,
+   "mecanica": [
+    {
+     "type": "dado",
+     "dado": "1d4",
+     "texto": "em perícias de Inteligência, Sabedoria e Carisma"
+    }
+   ]
   },
   {
    "id": "peixe-empanado",
@@ -1308,7 +1819,24 @@
    "descricao": "Receita adaptada para Tormenta20. Luta +1, Pontaria +1 e Vontade +1; CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Luta",
+     "bonus": 1
+    },
+    {
+     "type": "skill",
+     "skill": "Pontaria",
+     "bonus": 1
+    },
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "pizza",
@@ -1332,7 +1860,19 @@
     }
    ],
    "cd": 20,
-   "preco": 6
+   "preco": 6,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Fortitude",
+      "Reflexos",
+      "Vontade"
+     ],
+     "grupo": "testes de resistência",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "porco-deheoni",
@@ -1356,7 +1896,14 @@
     }
    ],
    "cd": 20,
-   "preco": 36
+   "preco": 36,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em testes de ataque corpo a corpo",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "prato-do-aventureiro",
@@ -1376,7 +1923,14 @@
     }
    ],
    "cd": 10,
-   "preco": 1
+   "preco": 1,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Na próxima noite de sono, recuperação de PV +{n} por nível",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "pao-de-bacon",
@@ -1387,7 +1941,18 @@
    "descricao": "Receita adaptada para Tormenta20. 10 PV temporários e +2 dano em críticos; CD 10.",
    "ingredientes": [],
    "cd": 10,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "pvTemp",
+     "bonus": 10
+    },
+    {
+     "type": "nota",
+     "formato": "+{n} de dano em acertos críticos",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "pao-de-queijo",
@@ -1407,7 +1972,14 @@
     }
    ],
    "cd": 20,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Fortitude",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "queijo-da-torre",
@@ -1423,7 +1995,18 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "cura",
+     "dados": "1d4",
+     "recurso": "PM"
+    },
+    {
+     "type": "nota",
+     "formato": "Rende 10 porções"
+    }
+   ]
   },
   {
    "id": "refeicao-completa-de-armadura-animada",
@@ -1439,7 +2022,13 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Escolha dois: +1 em Defesa; +1 em Atletismo e Reflexos; 5 PV temporários; ou 2 PM temporários"
+    }
+   ]
   },
   {
    "id": "rubromel",
@@ -1450,7 +2039,14 @@
    "descricao": "O vinho é paradoxalmente doce e seco, agradando todos os paladares, além de ser vendido a um preço bastante justo, dada a sua procura. Produtores maiores já quiseram comprar a receita, mas Rubão, o criador, é categórico. “Se eu vender a receita, vai deixar de ser especial, melhor ficar assim mesmo.” Há um boato de que o lefou usaria magia da Tormenta na fabricação da bebida, bobagem já desmentida inúmeras vezes por ele. “Eu nem sei usar magia!”. O vinho funciona como um prato do aventureiro, e apenas para lefous, tem os efeitos cumulativos de prato do aventureiro e sopa de peixe. Benefício: +1 na recuperação de PV e PM para Lefous.",
    "ingredientes": [],
    "cd": null,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} na recuperação de PV e PM (Lefou)",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "salada-de-salistick",
@@ -1474,7 +2070,13 @@
     }
    ],
    "cd": 20,
-   "preco": 4
+   "preco": 4,
+   "mecanica": [
+    {
+     "type": "movement",
+     "bonus": 1.5
+    }
+   ]
   },
   {
    "id": "salada-de-gengibre",
@@ -1485,7 +2087,23 @@
    "descricao": "Receita adaptada para Tormenta20. Misticismo +2, Vontade +1 e 2 PM temporários; CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Misticismo",
+     "bonus": 2
+    },
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 1
+    },
+    {
+     "type": "pmTemp",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "salada-imperial",
@@ -1509,7 +2127,14 @@
     }
    ],
    "cd": 20,
-   "preco": 6
+   "preco": 6,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Iniciativa",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "salada-elfica",
@@ -1533,7 +2158,14 @@
     }
    ],
    "cd": 20,
-   "preco": 4
+   "preco": 4,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em testes de ataque à distância",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "sashimi",
@@ -1553,7 +2185,14 @@
     }
    ],
    "cd": 25,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em rolagens de dano à distância",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "sashimi-de-kraken",
@@ -1569,7 +2208,18 @@
     }
    ],
    "cd": null,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Diplomacia",
+     "bonus": 2
+    },
+    {
+     "type": "pmTemp",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "sidra-ahleniense",
@@ -1580,7 +2230,22 @@
    "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 45
+   "preco": 45,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Adestramento",
+      "Atuação",
+      "Diplomacia",
+      "Enganação",
+      "Intimidação",
+      "Jogatina"
+     ],
+     "grupo": "perícias de Carisma",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "sidra-de-zibrene",
@@ -1591,7 +2256,22 @@
    "descricao": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícia originalmente baseadas em Carisma.",
    "ingredientes": [],
    "cd": null,
-   "preco": 17
+   "preco": 17,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Adestramento",
+      "Atuação",
+      "Diplomacia",
+      "Enganação",
+      "Intimidação",
+      "Jogatina"
+     ],
+     "grupo": "perícias de Carisma",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "sopa-leblanc",
@@ -1602,7 +2282,14 @@
    "descricao": "Uma antiga receita de família, a sopa LeBlanc é um prato especial desenvolvido há séculos pelos LeBlanc. Reza a tradição que a sopa só pode ser feita com a água que vem do poço dos LeBlanc. Revigorante, espessa e com ingredientes variados até demais, a sopa LeBlanc concede +1 em um atributo qualquer por um dia. Contudo, nos últimos anos a água do poço dos LeBlanc se tornou contaminada pela Tormenta. Qualquer um que tome a sopa tem horríveis pesadelos com a Tempestade Rubra e sofre –2 para resistir a quaisquer efeitos da Tormenta. Tomar a sopa 10 vezes elimina os pesadelos e dá um poder da Tormenta (que conta para a penalidade em Carisma, como normal) permanente.",
    "ingredientes": [],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em um atributo à sua escolha por um dia",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "sopa-sombria",
@@ -1618,7 +2305,13 @@
     }
    ],
    "cd": 20,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Causa 4d12 de dano de veneno ou 4d6 de dano de trevas (mortos-vivos podem consumir)"
+    }
+   ]
   },
   {
    "id": "sopa-de-cebola-assada",
@@ -1629,7 +2322,14 @@
    "descricao": "Prato especial adaptado para Tormenta20. Depois de consumido, fornece +3 em Ofício; a preparação exige teste de Ofício (cozinheiro) CD 10.",
    "ingredientes": [],
    "cd": 10,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Ofício",
+     "bonus": 3
+    }
+   ]
   },
   {
    "id": "sopa-de-cogumelos",
@@ -1653,7 +2353,14 @@
     }
    ],
    "cd": 20,
-   "preco": 6
+   "preco": 6,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Misticismo",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "sopa-de-peixe",
@@ -1673,7 +2380,14 @@
     }
    ],
    "cd": 10,
-   "preco": 1
+   "preco": 1,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Na próxima noite de sono, recuperação de PM +{n} por nível",
+     "bonus": 1
+    }
+   ]
   },
   {
    "id": "sorvete",
@@ -1693,7 +2407,13 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "pmTemp",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "tako-yaki",
@@ -1704,7 +2424,23 @@
    "descricao": "Receita adaptada para Tormenta20. Vontade +2, 5 PV temporários e +2 dano em críticos; CD 20.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 2
+    },
+    {
+     "type": "pvTemp",
+     "bonus": 5
+    },
+    {
+     "type": "nota",
+     "formato": "+{n} de dano em acertos críticos",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "tempura-de-mandragora-e-morcego-atroz",
@@ -1724,7 +2460,19 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Fortitude",
+     "bonus": 2
+    },
+    {
+     "type": "skill",
+     "skill": "Vontade",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "torta-de-planta-devoradora-de-homens",
@@ -1740,7 +2488,22 @@
     }
    ],
    "cd": null,
-   "preco": 0
+   "preco": 0,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skills": [
+      "Cura",
+      "Intuição",
+      "Percepção",
+      "Religião",
+      "Sobrevivência",
+      "Vontade"
+     ],
+     "grupo": "perícias de Sabedoria",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "torta-de-maca",
@@ -1760,7 +2523,14 @@
     }
    ],
    "cd": 20,
-   "preco": 2
+   "preco": 2,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "Resistência a veneno +{n}",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "torta-de-nozes",
@@ -1771,7 +2541,18 @@
    "descricao": "Receita adaptada para Tormenta20. Misticismo +4 e 5 PM temporários; CD 20.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "skill",
+     "skill": "Misticismo",
+     "bonus": 4
+    },
+    {
+     "type": "pmTemp",
+     "bonus": 5
+    }
+   ]
   },
   {
    "id": "treckodimm",
@@ -1791,7 +2572,14 @@
     }
    ],
    "cd": null,
-   "preco": 10
+   "preco": 10,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} em resistência a cansaço",
+     "bonus": 2
+    }
+   ]
   },
   {
    "id": "vinho-pruss",
@@ -1802,7 +2590,13 @@
    "descricao": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15.",
    "ingredientes": [],
    "cd": 15,
-   "preco": 60
+   "preco": 60,
+   "mecanica": [
+    {
+     "type": "pmTemp",
+     "bonus": 3
+    }
+   ]
   },
   {
    "id": "vinho-da-floresta-alta",
@@ -1813,7 +2607,13 @@
    "descricao": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas magias.",
    "ingredientes": [],
    "cd": null,
-   "preco": 50
+   "preco": 50,
+   "mecanica": [
+    {
+     "type": "spell",
+     "dcBonus": 1
+    }
+   ]
   },
   {
    "id": "vinho-elfico",
@@ -1824,7 +2624,14 @@
    "descricao": "De sabor complexo, aguça a prejudiciais de itens ingeríveis (como mente, fornecendo +1 na CD para resistir a suas pelo poder Vida Rústica) pode abrir mão habilidades. CD 20. dessa imunidade ao beber para receber os benefícios da bebida.",
    "ingredientes": [],
    "cd": 20,
-   "preco": 90
+   "preco": 90,
+   "mecanica": [
+    {
+     "type": "nota",
+     "formato": "+{n} na CD para resistir às suas habilidades",
+     "bonus": 1
+    }
+   ]
   }
  ]
 }
