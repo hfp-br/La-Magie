@@ -155,6 +155,11 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
 .opcao.ja{opacity:.5}
 .opcao.ja.repete{opacity:1}
 .opcao-conf{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);flex-wrap:wrap;justify-content:flex-end}
+.treino h3{margin:4px 0 8px;font-size:15px}
+.treino-linha{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin-bottom:14px}
+.treino-linha .campo{display:grid;gap:3px;font-size:12px;color:var(--muted)}
+.treino-linha input,.treino-linha select{padding:5px 8px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.6);font-size:13px;color:var(--ink)}
+.treino-linha input[type=number]{width:70px}
 .equipe{display:grid;gap:6px;padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.4)}
 .equipe-topo{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
 .equipe-nome{font-weight:700;font-size:15px}
@@ -318,6 +323,30 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
   <div class="dlg-foot"><span class="dica" style="margin-right:auto">“Cópias” criam versões só deste combate; a ficha original não muda.</span><button class="btn" type="button" data-fechar>Fechar</button></div>
 </dialog>
 
+<!-- adicionar ao treino (mestre de rodinhas) -->
+<dialog id="dlgTreino">
+  <div class="dlg-head"><h2>Adicionar ao treino</h2><button class="btn small" type="button" data-fechar>✕</button></div>
+  <div class="dlg-body treino">
+    <h3>Cópia de jogador</h3>
+    <div class="treino-linha">
+      <label class="campo">Personagem<select id="treinoFicha"><option value="">Carregando…</option></select></label>
+      <label class="campo">PV<input id="treinoFichaPv" type="number" min="1" value="20"></label>
+      <label class="campo">PM<input id="treinoFichaPm" type="number" min="0" value="0"></label>
+      <button class="btn primary" type="button" id="btnTreinoJogador">Adicionar</button>
+    </div>
+    <h3>Inimigo</h3>
+    <div class="treino-linha">
+      <label class="campo">Nome<input id="treinoNome" maxlength="80" placeholder="Ex.: Goblin"></label>
+      <label class="campo">Tipo<select id="treinoTipo"><option value="monstro">Monstro</option><option value="npc">NPC</option></select></label>
+      <label class="campo">PV<input id="treinoPv" type="number" min="1" value="10"></label>
+      <label class="campo">Qtd.<input id="treinoQtd" type="number" min="1" max="20" value="1"></label>
+      <button class="btn primary" type="button" id="btnTreinoInimigo">Adicionar</button>
+    </div>
+    <p class="dica">Tudo aqui é cópia só deste treino: nenhuma ficha, NPC ou monstro de verdade muda.</p>
+  </div>
+  <div class="dlg-foot"><button class="btn" type="button" data-fechar>Fechar</button></div>
+</dialog>
+
 <!-- equipes -->
 <dialog id="dlgEquipes">
   <div class="dlg-head"><h2 id="equipesTitulo">Equipes</h2><button class="btn small" type="button" data-fechar>✕</button></div>
@@ -376,6 +405,10 @@ const reduzMovimento = window.matchMedia("(prefers-reduced-motion: reduce)").mat
 const params = new URLSearchParams(location.search);
 
 let usuario = null, mestre = false, temBancoNpc = false;
+// "Mestre de rodinhas": só conduz combates de TREINO criados por ele (cópias, nada ligado a fichas)
+let rodinhas = false;
+const conduz = () => mestre || rodinhas;
+const soTreino = () => rodinhas && !mestre;
 let batalha = null, participantes = [], privado = new Map(), condicoesJogador = new Map();
 const fichas = new Map(), resumos = new Map(), npcResumos = new Map(), npcs = new Map(), monstros = new Map(), fichaCondMestre = new Map();
 let codice = [];
@@ -465,7 +498,9 @@ function ordenados() {
 /* ---------- carregar ---------- */
 async function carregarTudo() {
   if (!usuario) { render(); return; }
-  const { data: bs, error } = await sbP.from("batalhas").select("*").eq("ativa", true).order("criado_em", { ascending: false }).limit(1);
+  let consulta = sbP.from("batalhas").select("*").eq("ativa", true);
+  consulta = soTreino() ? consulta.eq("treino", true).eq("criado_por", usuario.id) : consulta.eq("treino", false);
+  const { data: bs, error } = await consulta.order("criado_em", { ascending: false }).limit(1);
   if (error) { console.error(error); aviso("Erro ao carregar o combate."); return; }
   batalha = bs?.[0] || null;
   participantes = [];
@@ -473,7 +508,7 @@ async function carregarTudo() {
   if (batalha) {
     const { data: ps } = await sbP.from("batalha_participantes").select("*").eq("batalha_id", batalha.id);
     participantes = ps || [];
-    if (mestre && participantes.length) {
+    if (conduz() && participantes.length) {
       const { data: es } = await sbP.from("batalha_estado_privado").select("*").in("participante_id", participantes.map(p => p.id));
       (es || []).forEach(e => privado.set(e.participante_id, e));
     }
@@ -541,13 +576,14 @@ function render() {
   $("semLogin").hidden = !!usuario;
   $("semCombate").hidden = !usuario || !!batalha;
   $("painelCombate").hidden = !usuario || !batalha;
-  $("btnNovoCombate").hidden = !mestre;
-  $("semCombateDica").textContent = mestre ? "Inicie um combate para montar a ordem de iniciativa." : "Quando o Mestre iniciar um combate, ele aparece aqui.";
-  $("acoesMestre").hidden = !mestre;
+  $("btnNovoCombate").hidden = !conduz();
+  $("btnNovoCombate").textContent = soTreino() ? "Iniciar combate de treino" : "Iniciar combate";
+  $("semCombateDica").textContent = soTreino() ? "Monte um combate de treino: só você vê, e nenhuma ficha muda." : mestre ? "Inicie um combate para montar a ordem de iniciativa." : "Quando o Mestre iniciar um combate, ele aparece aqui.";
+  $("acoesMestre").hidden = !conduz();
   $("avisoMestreBanco").hidden = !(mestre && !temBancoNpc);
   if (!usuario || !batalha) { jaRenderizados = new Set(); return; }
 
-  $("combateNome").textContent = batalha.nome || "Combate";
+  $("combateNome").textContent = (batalha.nome || "Combate") + (batalha.treino ? " · treino" : "");
   const rod = $("rodada");
   const textoRodada = `Rodada ${batalha.rodada}`;
   if (rod.textContent !== textoRodada) { rod.textContent = textoRodada; rod.classList.remove("bump"); void rod.offsetWidth; rod.classList.add("bump"); }
@@ -555,7 +591,7 @@ function render() {
   const ul = $("lista");
   const lista = ordenados();
   if (!lista.length) {
-    ul.innerHTML = `<li class="vazio" style="padding:26px 10px">${mestre ? "Adicione jogadores, NPCs e monstros com “+ Adicionar”." : "O Mestre ainda está montando o combate."}</li>`;
+    ul.innerHTML = `<li class="vazio" style="padding:26px 10px">${soTreino() ? "Adicione cópias de jogadores e inimigos com “+ Adicionar”." : mestre ? "Adicione jogadores, NPCs e monstros com “+ Adicionar”." : "O Mestre ainda está montando o combate."}</li>`;
     jaRenderizados = new Set();
     return;
   }
@@ -586,13 +622,14 @@ function barraHtml(tipo, atual, max, estimado, temp = 0) {
 function cardHtml(p, i) {
   const conds = condicoesDe(p);
   const turno = batalha.turno_participante_id === p.id;
-  const st = mestre ? statsDe(p) : null;
+  const st = conduz() ? statsDe(p) : null;
+  const mexeCond = conduz() && (p.tipo !== "jogador" || p.instancia);
   const retratoUrl = p.retrato || (p.tipo === "jogador" ? fichas.get(p.origem_id)?.retrato_url : "");
   const tipoTxt = { jogador: "Jogador", npc: "NPC", monstro: "Monstro" }[p.tipo] + (p.instancia ? " · cópia" : "");
   const caido = st && st.pv.atual <= 0;
 
   let barras = "";
-  if (mestre) {
+  if (conduz()) {
     if (st) {
       barras = `<div class="barras">${barraHtml("pv", st.pv.atual, st.pv.max, st.pv.estimado)}${st.pm ? barraHtml("pm", st.pm.atual, st.pm.max, false, st.pm.temp) : ""}</div>`;
       if (st.editavel) barras += `<div class="ajuste"><input type="number" placeholder="±PV" data-ajuste="${p.id}" data-foco-id="aj-${p.id}" title="Dano (negativo) ou cura (positivo)"><button class="btn small" type="button" data-aplicar="${p.id}">Aplicar</button></div>`;
@@ -602,18 +639,18 @@ function cardHtml(p, i) {
     }
   }
 
-  const iniciativa = mestre
+  const iniciativa = conduz()
     ? `<input type="number" value="${p.iniciativa ?? ""}" data-ini="${p.id}" data-foco-id="ini-${p.id}" aria-label="Iniciativa de ${esc(p.nome)}">`
     : `<strong>${p.iniciativa ?? "—"}</strong>`;
 
   const tagsCond = conds.slice(0, 3).map(c => `<span class="tag cond">${esc(c.nome)}</span>`).join("") + (conds.length > 3 ? `<span class="tag cond">+${conds.length - 3}</span>` : "");
 
   const listaCond = conds.length
-    ? conds.map((c, idx) => `<div class="condicao">${mestre && p.tipo !== "jogador" ? `<button class="remover" type="button" data-remover-cond="${p.id}" data-idx="${idx}" title="Remover">✕</button>` : ""}<strong>${esc(c.nome)}</strong>${c.descricao ? `<p>${esc(c.descricao)}</p>` : ""}</div>`).join("")
+    ? conds.map((c, idx) => `<div class="condicao">${mexeCond ? `<button class="remover" type="button" data-remover-cond="${p.id}" data-idx="${idx}" title="Remover">✕</button>` : ""}<strong>${esc(c.nome)}</strong>${c.descricao ? `<p>${esc(c.descricao)}</p>` : ""}</div>`).join("")
     : `<div class="dica">Sem condições.</div>`;
-  const addCond = mestre && p.tipo !== "jogador"
+  const addCond = mexeCond
     ? `<div class="add-cond"><select data-sel-cond="${p.id}"><option value="">Adicionar condição do Códice…</option>${codice.map(c => `<option value="${c.id}">${esc(c.nome)}</option>`).join("")}</select><button class="btn small" type="button" data-add-cond="${p.id}">Adicionar</button></div>`
-    : (mestre ? `<div class="dica" style="margin-top:6px">Condições de jogador vêm da ficha dele.</div>` : "");
+    : (conduz() ? `<div class="dica" style="margin-top:6px">Condições de jogador vêm da ficha dele.</div>` : "");
 
   const veTracker = window.AcoesTurno && (mestre || (p.tipo === "jogador" && minhasFichas.has(p.origem_id)));
   const minhas = veTracker ? acoesDe(p.id) : [];
@@ -624,9 +661,9 @@ function cardHtml(p, i) {
     ? `<h4>Ações nesta rodada</h4><ul class="acao-log">${minhas.map(a => `<li class="${a.status === "recusada" ? "recusada" : ""}"><div class="acao-txt"><strong>${esc(a.nome)}</strong> · ${esc(AcoesTurno.ROTULO[a.tipo] || a.tipo)}${a.status === "recusada" ? " · recusada" : a.status === "vista" ? " · vista" : a.origem === "mestre" ? " · marcada pelo mestre" : ""}${a.descricao ? `<small>${esc(a.descricao)}</small>` : ""}</div>${mestre ? `<button class="remover" type="button" data-at-remover="${a.id}" title="${a.origem === "mestre" ? "Apagar marcação" : "Recusar / desfazer"}">✕</button>` : ""}</li>`).join("")}</ul>`
     : "";
 
-  const menu = mestre ? `<div class="menu-admin">
+  const menu = conduz() ? `<div class="menu-admin">
       <button class="icone-btn" type="button" data-rolar="${p.id}" title="Rolar 1d20">🎲</button>
-      <button class="icone-btn${p.oculto ? " ativo" : ""}" type="button" data-ocultar="${p.id}" title="${p.oculto ? "Oculto dos jogadores — clique para revelar" : "Ocultar dos jogadores"}">${p.oculto ? "🙈" : "👁"}</button>
+      ${mestre ? `<button class="icone-btn${p.oculto ? " ativo" : ""}" type="button" data-ocultar="${p.id}" title="${p.oculto ? "Oculto dos jogadores — clique para revelar" : "Ocultar dos jogadores"}">${p.oculto ? "🙈" : "👁"}</button>` : ""}
       <button class="icone-btn" type="button" data-remover="${p.id}" title="Remover do combate">✕</button>
     </div>` : "";
 
@@ -679,13 +716,14 @@ $("btnProximo").addEventListener("click", () => mudarTurno(1));
 $("btnAnterior").addEventListener("click", () => mudarTurno(-1));
 
 $("btnNovoCombate").addEventListener("click", async () => {
-  const nome = (prompt("Nome do combate:", "Combate") || "").trim();
+  const nome = (prompt(soTreino() ? "Nome do treino:" : "Nome do combate:", soTreino() ? "Treino" : "Combate") || "").trim();
   if (!nome) return;
-  const { data, error } = await sbP.from("batalhas").insert({ nome }).select().single();
+  const { data, error } = await sbP.from("batalhas").insert(soTreino() ? { nome, treino: true } : { nome }).select().single();
   if (error) { console.error(error); aviso("Não foi possível iniciar o combate."); return; }
   batalha = data; participantes = [];
   render();
-  if (pedidoAdicionar) processarPedidoAdicionar(); else abrirAdicionar("jogador");
+  if (soTreino()) abrirTreino();
+  else if (pedidoAdicionar) processarPedidoAdicionar(); else abrirAdicionar("jogador");
 });
 
 $("btnEncerrar").addEventListener("click", async () => {
@@ -715,9 +753,12 @@ $("lista").addEventListener("click", async e => {
     b.setAttribute("aria-expanded", abertos.has(d.expandir));
     return;
   }
-  if (!mestre) return;
-  if (d.atSlot) { marcarEspaco(d.atPid, d.atSlot, d.atUsado === "1"); return; }
-  if (d.atRemover) { removerAcao(d.atRemover); return; }
+  if (!conduz()) return;
+  if (d.atSlot || d.atRemover) {
+    if (!mestre) return;
+    if (d.atSlot) marcarEspaco(d.atPid, d.atSlot, d.atUsado === "1"); else removerAcao(d.atRemover);
+    return;
+  }
   if (d.rolar) {
     const p = participantes.find(x => x.id === d.rolar);
     const valor = rolar(p);
@@ -758,7 +799,7 @@ $("lista").addEventListener("change", async e => {
     return;
   }
   const id = e.target.dataset.ini;
-  if (!id || !mestre) return;
+  if (!id || !conduz()) return;
   const valor = e.target.value === "" ? null : Math.trunc(Number(e.target.value));
   if (await salvarParticipante(id, { iniciativa: valor })) render();
 });
@@ -895,7 +936,7 @@ function desenharOpcoes() {
 
 $("abasAdicionar").addEventListener("click", e => { const b = e.target.closest("[data-aba]"); if (b) abrirAdicionar(b.dataset.aba); });
 $("buscaAdicionar").addEventListener("input", desenharOpcoes);
-$("btnAdicionar").addEventListener("click", () => abrirAdicionar());
+$("btnAdicionar").addEventListener("click", () => soTreino() ? abrirTreino() : abrirAdicionar());
 
 $("opcoesAdicionar").addEventListener("click", async e => {
   const b = e.target.closest("[data-confirmar]");
@@ -1171,6 +1212,53 @@ $("equipesLista").addEventListener("click", e => {
   else if (e.target.closest("[data-excluir]")) excluirEquipe(eq);
 });
 
+/* ---------- treino (mestre de rodinhas) ---------- */
+let fichasTreino = null;
+async function abrirTreino() {
+  if (!$("dlgTreino").open) $("dlgTreino").showModal();
+  if (!fichasTreino) {
+    const { data, error } = await sbP.rpc("fichas_treino");
+    if (error) console.error(error);
+    fichasTreino = data || [];
+  }
+  $("treinoFicha").innerHTML = fichasTreino.length
+    ? fichasTreino.map(f => `<option value="${esc(f.id)}">${esc(f.nome)}</option>`).join("")
+    : `<option value="">Nenhuma ficha</option>`;
+}
+
+async function adicionarCopiasTreino(linhas) {
+  if (!batalha?.treino) return;
+  const prox = participantes.reduce((m, p) => Math.max(m, p.ordem ?? 0), 0) + 1;
+  const rows = linhas.map((l, k) => ({ batalha_id: batalha.id, tipo: l.tipo, origem_id: l.origem_id || null, instancia: true,
+    nome: l.nome, retrato: l.retrato || "", ordem: prox + k }));
+  const { data, error } = await sbP.from("batalha_participantes").insert(rows).select();
+  if (error) { console.error(error); aviso("Não foi possível adicionar."); return; }
+  const estados = data.map((p, k) => ({ participante_id: p.id, pv_atual: linhas[k].pv, pv_max: linhas[k].pv,
+    pm_atual: linhas[k].pm || null, pm_max: linhas[k].pm || null }));
+  const { error: e2 } = await sbP.from("batalha_estado_privado").insert(estados);
+  if (e2) console.error(e2);
+  participantes.push(...data);
+  estados.forEach(s => privado.set(s.participante_id, s));
+  render();
+  aviso(`${linhas.length > 1 ? `${linhas[0].nome.replace(/ \d+$/, "")} ×${linhas.length}` : linhas[0].nome} entrou no treino.`);
+}
+
+const inteiro = (id, min, max, padrao) => Math.max(min, Math.min(max, Math.trunc(Number($(id).value) || padrao)));
+$("btnTreinoJogador").addEventListener("click", () => {
+  const f = (fichasTreino || []).find(x => x.id === $("treinoFicha").value);
+  if (!f) return;
+  const pv = inteiro("treinoFichaPv", 1, 999, 20), pm = inteiro("treinoFichaPm", 0, 999, 0);
+  adicionarCopiasTreino([{ tipo: "jogador", origem_id: f.id, nome: f.nome, retrato: f.retrato, pv, pm }]);
+});
+$("btnTreinoInimigo").addEventListener("click", () => {
+  const base = $("treinoNome").value.trim();
+  if (!base) { $("treinoNome").focus(); return; }
+  const tipo = $("treinoTipo").value === "npc" ? "npc" : "monstro";
+  const pv = inteiro("treinoPv", 1, 9999, 10), qtd = inteiro("treinoQtd", 1, 20, 1);
+  const ja = participantes.filter(p => p.nome.replace(/ \d+$/, "") === base).length;
+  adicionarCopiasTreino(Array.from({ length: qtd }, (_, k) => ({ tipo, nome: qtd > 1 || ja ? `${base} ${ja + k + 1}` : base, pv })));
+});
+
 /* ---------- login ---------- */
 document.querySelectorAll("[data-fechar]").forEach(b => b.addEventListener("click", () => b.closest("dialog").close()));
 $("btnAbrirLogin").addEventListener("click", () => $("dlgLogin").showModal());
@@ -1212,7 +1300,7 @@ $("formLoginNpc").addEventListener("submit", async e => {
 
 $("btnSair").addEventListener("click", async () => {
   await sbP.auth.signOut();
-  usuario = null; mestre = false; batalha = null; participantes = [];
+  usuario = null; mestre = false; rodinhas = false; batalha = null; participantes = [];
   atualizarConta();
   render();
 });
@@ -1224,8 +1312,8 @@ async function verificarBancoNpc() {
 
 function atualizarConta() {
   const pill = $("contaPill");
-  pill.classList.toggle("mestre", mestre);
-  pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : (usuario.email || "").split("@")[0];
+  pill.classList.toggle("mestre", conduz());
+  pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : rodinhas ? "Mestre de rodinhas" : (usuario.email || "").split("@")[0];
   $("btnSair").hidden = !usuario;
   $("btnEquipes").hidden = !mestre;
 }
@@ -1233,12 +1321,14 @@ function atualizarConta() {
 async function iniciarSessao() {
   const { data: { session } } = await sbP.auth.getSession();
   usuario = session?.user || null;
-  mestre = false;
+  mestre = false; rodinhas = false;
   if (usuario) {
     const { data } = await sbP.rpc("eh_mestre");
     mestre = data === true;
+    if (!mestre) { const { data: r } = await sbP.rpc("eh_rodinhas"); rodinhas = r === true; }
   }
   if (mestre) { await verificarBancoNpc(); await carregarCodice(); }
+  else if (rodinhas) await carregarCodice();
   atualizarConta();
   await carregarTudo();
   ligarTempoReal();
@@ -1267,6 +1357,7 @@ function ligarTempoReal() {
       if (ev.eventType === "INSERT" && ev.new) avisoAcaoRecebida(ev.new);
       recarregar();
     });
+  if (rodinhas && !mestre) c1.on("postgres_changes", { event: "*", schema: "public", table: "batalha_estado_privado" }, recarregar);
   if (mestre) {
     c1.on("postgres_changes", { event: "*", schema: "public", table: "batalha_estado_privado" }, recarregar)
       .on("postgres_changes", { event: "*", schema: "public", table: "ficha_resumo_combate" }, recarregar)
