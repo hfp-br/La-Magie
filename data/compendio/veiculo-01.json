@@ -18,11 +18,10 @@
         "veiculo",
         "aereo",
         "goblin",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Feito de imensas bolsas de couro e outros tecidos remendados, com uma gôndola parecida com um grande cesto, o balão goblin é um engenho tecnológico sem igual em Arton. Um balão goblin tem tamanho Enorme, deslocamento 12m, Defesa 8 (+ mod. Des do baloeiro) e 80 PV. Conduzi-lo exige um teste de Pilotagem por dia, com CD 15 (céu tranquilo), 20 (ventania ou chuva) ou 25 (tempestade). Uma falha significa que o balão não avança ou avança na direção errada; uma falha por 5 ou mais significa que o balão cai. Ao contrário do que possa parecer, quedas de balões raramente são fatais. Quando o balão perde mais da metade de seus PV, começa a perder ar e flutua lentamente na direção do solo. Cada ocupante sofre 2d6 pontos de dano de impacto (Ref CD 15 reduz à metade). Um balão só cai de forma perigosa caso perca todos os seus PV. Neste caso, os ocupantes sofrem dano normal pela queda, de acordo com a altura. Remendar um balão em pleno voo exige uma ação completa e um teste de Ofício (artesanato) contra CD 15. Se você passar no teste, recupera 1d8 PV do balão.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -57,11 +56,10 @@
         "veiculo",
         "terrestre",
         "carga",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Veículo de duas ou quatro rodas, aberto, normalmente usado para transportar cargas pesadas. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Uma carroça tem tamanho Grande, deslocamento 9m, Defesa 8 (+ Des do condutor), 50 PV e pode carregar até 4 criaturas Médias ou 80 espaços.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -96,11 +94,10 @@
         "veiculo",
         "terrestre",
         "passageiros",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Tem as mesmas estatísticas de uma carroça, mas fornece cobertura leve a seus passageiros.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -135,11 +132,10 @@
         "veiculo",
         "aquatico",
         "embarcacao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Embarcação simples feita a partir de um único tronco de árvore.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -174,11 +170,10 @@
         "veiculo",
         "aquatico",
         "navio",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Navio de viagem com três mastros, bastante utilizado por mercadores.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
