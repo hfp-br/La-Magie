@@ -20,11 +20,10 @@
         "cao",
         "montaria",
         "aliado",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cachorro valente e leal. Pode servir como montaria para criaturas Pequenas ou Minúsculas, ou como aliado conforme as regras de Parceiro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -59,11 +58,10 @@
         "animal",
         "montaria",
         "cavalo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -99,11 +97,10 @@
         "montaria",
         "cavalo",
         "guerra",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cavalo treinado para combate. Diferente de um cavalo comum, não exige o teste de Cavalgar para permanecer montado em combate.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -138,11 +135,10 @@
         "animal",
         "montaria",
         "ponei",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A montaria mais comum entre raças Pequenas. Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -178,11 +174,10 @@
         "montaria",
         "ponei",
         "guerra",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Pônei treinado para combate. Dispensa o teste de Cavalgar exigido por pôneis comuns durante um combate.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -219,11 +214,10 @@
         "trobo",
         "carga",
         "tracao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos de búfalo. Não têm asas. Possuem poucas penas, que servem apenas como ornamentação. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
