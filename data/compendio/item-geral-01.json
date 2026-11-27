@@ -18,11 +18,10 @@
         "item geral",
         "ferramenta",
         "restricao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Par de algemas para criaturas Médias. Escapar exige uma ação completa e Acrobacia CD 30 ou Força CD 26.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -58,11 +57,10 @@
         "recipiente",
         "bolsa",
         "moedas",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Bolsa de couro presa ao cinto, útil para guardar itens pequenos, especialmente moedas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -97,11 +95,10 @@
         "item geral",
         "acampamento",
         "sobrevivencia",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Barraca de lona para aventureiros. Conta como saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar. Efeito: +2 em testes de Sobrevivência para acampar; conta como saco de dormir para duas pessoas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -136,11 +133,10 @@
         "item geral",
         "ferramenta",
         "corda",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Dar um nó firme exige um teste de Destreza (CD 10). Dar um nó especial (capaz de deslizar, soltar-se lentamente, se desfazer com um puxão etc.) exige um teste de Destreza (CD 12). Arrebentar a corda exige um teste de Força (CD 23).",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -175,11 +171,10 @@
         "item geral",
         "ferramenta",
         "espelho",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Este espelho de metal polido possui diversas utilidades. Além de garantir que você esteja apresentável, pode ser usado para observar cantos, fazer sinais de luz, colocar disfarces...",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -215,11 +210,10 @@
         "instrumento",
         "instrumento musical",
         "bardo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Instrumento típico, como alaúde, flauta ou lira, muito utilizado por bardos.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -254,11 +248,10 @@
         "item geral",
         "kit",
         "oficio",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Existe um kit para cada tipo de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpintaria) ou lente de aumento e balança para testes de Ofício (joalheria). Um personagem sem as ferramentas necessárias para seu Ofício sofre penalidade de –5 nos testes.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -294,11 +287,10 @@
         "kit",
         "disfarce",
         "enganacao",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Estojo com cosméticos, tintas e acessórios para criar disfarces. Sem este kit, o personagem sofre –5 em Enganação para fazer um disfarce. Efeito: Sem o kit: –5 em Enganação para fazer disfarces.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -334,11 +326,10 @@
         "kit",
         "ladinagem",
         "gazua",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Gazuas, arames e pequenas ferramentas para abrir fechaduras e sabotar mecanismos. Sem o kit, o personagem sofre –5 em Ladinagem para abrir fechaduras e sabotar. Efeito: Sem o kit: –5 em Ladinagem para abrir fechaduras e sabotar.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -374,11 +365,10 @@
         "kit",
         "cura",
         "medicina",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Caixa com ervas, unguentos, bandagens e materiais médicos. Sem este kit, o personagem sofre –5 em testes de Cura. Efeito: Sem o kit: –5 em testes de Cura.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -414,11 +404,10 @@
         "iluminacao",
         "luz",
         "oleo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. A luz do lampião atinge 9m. Uma carga de óleo dura 6 horas e custa T$ 0,1.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -454,11 +443,10 @@
         "recipiente",
         "bolsa",
         "viagem",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Bolsa reforçada de couro com bolsos e tiras para carregar equipamentos nas costas.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -495,11 +483,10 @@
         "agua",
         "bebida",
         "tormenta20",
-        "livro basico",
         "comida"
       ],
       "descricao": "Bolsa de couro para guardar bebida (geralmente água ou vinho). Existe em vários tamanhos, mas o odre mais comum comporta 1 litro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -536,11 +523,10 @@
         "ferramenta",
         "forca",
         "arma improvisada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Barra de ferro para forçar portas e baús. Fornece +5 em testes de Força para abrir portas ou baús. Pode ser usada como uma clava. Efeito: +5 em testes de Força para abrir portas ou baús; em combate usa as estatísticas de uma clava.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -575,11 +561,10 @@
         "item geral",
         "ferramenta",
         "fogo",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma pedra de faísca e uma placa rugosa de metal, para acender fogo. Produz faíscas quando a pedra bate no metal. Acender uma tocha ou lanterna com uma pederneira é uma ação completa.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -613,11 +598,10 @@
       "tags": [
         "item geral",
         "escrita",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Pena de ave preparada para servir como instrumento de escrita, normalmente usada junto de tinta.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
@@ -652,11 +636,10 @@
         "item geral",
         "escrita",
         "pergaminho",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Folha de pele preparada e tratada para escrita, usada para registrar textos, mapas, fórmulas e mensagens.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:54:29.910Z",
       "efeitos": [],
       "consumable": {
@@ -691,11 +674,10 @@
         "item geral",
         "acampamento",
         "descanso",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Composto por um colchão e uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um saco de dormir diminui sua recuperação de PV e PM.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -731,11 +713,10 @@
         "recipiente",
         "bolsa",
         "carga",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Saco resistente fechado por corda, com capacidade para até 20 kg. Efeito: Capacidade: até 20 kg.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -770,11 +751,10 @@
         "item geral",
         "escrita",
         "tinta",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Frasco de 30 ml de tinta preta. Outras cores custam o dobro.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -811,11 +791,10 @@
         "luz",
         "fogo",
         "arma improvisada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Bastão combustível que queima por uma hora e ilumina até 6m. Pode ser usado como arma simples leve. Efeitos: Queima por 1 hora; ilumina 6m; pode ser usada como arma simples leve (1d4 + 1 fogo, crítico x2). Simples, leve; +1 de fogo",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -868,11 +847,10 @@
         "item geral",
         "ferramenta",
         "haste",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Haste de madeira de 3m usada para alcançar pontos distantes. É frágil demais para servir como arma.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T02:56:46.955Z",
       "efeitos": [],
       "consumable": {
@@ -908,11 +886,10 @@
         "montaria",
         "sela",
         "arreios",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma peça de couro e pelego, posicionada sobre o lombo da montaria para o cavaleiro sentar. Inclui arreios, freios e alforjes (sacos de couro para levar mantimentos de viagem).",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
