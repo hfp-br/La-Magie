@@ -20,11 +20,10 @@
         "roupa",
         "furtividade",
         "camuflagem",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Um traje camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, do caçador, para os tipos de terrenos existentes). Por exemplo, um traje camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um traje urbano pode ser cinza ou negro. Usar um traje camuflado no terreno correto fornece +2 em testes de Furtividade. CD 20.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [],
       "consumable": {
@@ -61,11 +60,10 @@
         "roupa",
         "nobreza",
         "social",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Roupas luxuosas e sob medida, adequadas à nobreza e realeza. Em certos ambientes formais, não usar um traje da corte pode impor –5 em perícias baseadas em Carisma. Efeito: Em ambientes formais apropriados, não usar traje da corte pode impor –5 em perícias baseadas em Carisma. CD 20.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -101,11 +99,10 @@
         "traje",
         "roupa",
         "plebeu",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Roupas simples de aldeão, com camisa larga e calças soltas ou saia e vestido. Não inclui calçados. Efeito: CD 10.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
@@ -142,11 +139,10 @@
         "roupa",
         "viagem",
         "aventureiro",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Botas resistentes, calças ou saia, cinto, camisa de linho e capa com capuz; roupas padrão de aventureiros. Efeito: CD 15.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [],
       "consumable": {
