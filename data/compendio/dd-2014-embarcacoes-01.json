@@ -19,14 +19,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-embarcacao-barco-a-remo",
@@ -46,14 +56,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-embarcacao-dracar",
@@ -73,14 +93,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-embarcacao-galera",
@@ -100,14 +130,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-embarcacao-navio-de-guerra",
@@ -127,14 +167,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2014-embarcacao-veleiro",
@@ -154,14 +204,24 @@
         "dnd",
         "dnd 2014",
         "embarcacao",
-        "livro do jogador 2014",
         "veiculo",
         "aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
