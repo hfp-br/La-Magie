@@ -430,6 +430,46 @@ $("search").oninput=render;$("category").onchange=render;$("source").onchange=re
 sb.auth.onAuthStateChange(()=>{checkSession()});
 (async()=>{setAdmin(false);await Promise.all([loadItems(),checkSession()])})();
 </script>
+<script src="loja.js"></script>
+<script id="loja-compendio-js">
+/* Loja: login de jogador, bolsa com o dinheiro da ficha e botão Comprar no item. */
+(() => {
+  if (!window.Loja) return;
+  const actions = document.querySelector(".top .actions");
+  const chip = document.createElement("span");
+  chip.id = "lojaChip";
+  actions?.prepend(chip);
+  Loja.iniciar({ chip });
+  // "Entrar" serve para jogador e Mestre; edição continua só para quem tem permissão
+  $("loginBtn").onclick = () => Loja.abrirLogin();
+  const _setAdmin = setAdmin;
+  setAdmin = v => { _setAdmin(v); if (!v && Loja.estado.sessao) $("statusText").textContent = "Jogador"; };
+  Loja.aoMudar(e => {
+    const logado = !!e.sessao;
+    $("loginBtn").style.display = logado ? "none" : "";
+    $("logoutBtn").style.setProperty("display", logado ? "inline-flex" : "none", "important");
+    if (!isAdmin) $("statusText").textContent = logado ? "Jogador" : "Visão pública";
+  });
+
+  function colocarBotao() {
+    const acoes = document.querySelector("#compV5Preview .comp-preview-actions");
+    if (!acoes || acoes.querySelector(".loja-comprar")) return;
+    const id = (document.querySelector("#compV5Preview .comp-preview-origin")?.textContent || "").replace(/^\s*ID:\s*/, "").trim();
+    const item = id && items.find(i => String(i.id) === id);
+    if (!item) return;
+    const tem = Loja.custoPc(item.preco) !== null;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "btn primary loja-comprar";
+    b.textContent = "🪙 Comprar";
+    b.disabled = !tem;
+    b.title = tem ? "Comprar com o dinheiro da ficha e mandar para o inventário" : "Item sem preço";
+    b.addEventListener("click", () => Loja.comprar([{ item, qtd: 1 }]));
+    acoes.prepend(b);
+  }
+  new MutationObserver(colocarBotao).observe(document.body, { childList: true, subtree: true });
+})();
+</script>
 <script src="../portal-link.js"></script>
 </body>
 </html>

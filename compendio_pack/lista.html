@@ -74,6 +74,17 @@ button,input{font:inherit;color:inherit}
 .add.shake{animation:shake .35s}
 .bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:12px;font-size:13px;color:var(--muted)}
 .bar .group{display:flex;gap:6px;flex-wrap:wrap}
+/* conversor de moeda */
+.conv{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:-2px 0 12px;font-size:12px;color:var(--muted)}
+.conv button{border:1px solid var(--line);background:rgba(255,255,255,.42);border-radius:999px;padding:3px 10px;cursor:pointer;font-size:12px;
+  transition:background .18s,color .18s,transform .2s var(--spring)}
+.conv button:hover{transform:translateY(-1px)}
+.conv button[aria-pressed=true]{background:var(--accent);color:#fbf3df;border-color:rgba(60,40,20,.5)}
+.price.trocou{animation:precoTroca .45s var(--spring)}
+@keyframes precoTroca{0%{opacity:.2;transform:translateY(4px)}100%{opacity:1;transform:none}}
+.top-dir{display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.totals .comprar{margin-left:auto}
+.totals .outras{font-size:12px}
 .progress{height:5px;border-radius:99px;background:rgba(104,75,43,.13);overflow:hidden;margin:-4px 0 14px}
 .progress span{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--green2),var(--green));transition:width .5s var(--ease)}
 
@@ -222,7 +233,7 @@ button,input{font:inherit;color:inherit}
       <div class="brand-icon" id="brandIcon" aria-hidden="true"><svg class="bolsa" aria-hidden="true"><use href="#iconeBolsa"/></svg></div>
       <div><h1>Lista de Compras</h1><small>Itens do Compêndio e anotações livres · salva neste navegador</small></div>
     </div>
-    <a class="btn" href="compendio.html">← Compêndio</a>
+    <div class="top-dir"><span id="lojaChip"></span><a class="btn" href="compendio.html">← Compêndio</a></div>
   </div>
   <div class="ornament">✦</div>
   <main class="sheet">
@@ -238,6 +249,7 @@ button,input{font:inherit;color:inherit}
         <button class="btn danger" id="clearAll" type="button">Limpar lista</button>
       </div>
     </div>
+    <div class="conv" id="conv" role="group" aria-label="Ver preços em"></div>
     <div class="progress" id="progress" hidden><span></span></div>
     <ul class="list" id="list"></ul>
     <div class="totals" id="totals"></div>
@@ -268,6 +280,29 @@ let primeiraVez = true;
 function numeroPreco(valor) {
   const n = Number(String(valor ?? "").replace(",", "."));
   return Number.isFinite(n) ? n : null;
+}
+
+/* ---------- conversor: mostra preços e total numa moeda só (tabela do Câmbio) ---------- */
+const EM_TIBARES = { "T$": 1, "PC": 0.1, "PP": 1, "PE": 5, "PO": 10, "PL": 100, "TC": 0.1, "TP": 1, "TO": 10, "¥O": 10, "¥P": 1, "¥": 0.1 };
+const MOEDAS_CONV = ["T$", "PC", "PP", "PO", "PL"];
+const CHAVE_CONV = "laMagie.listaMoeda";
+let moedaConv = "";
+try { moedaConv = localStorage.getItem(CHAVE_CONV) || ""; } catch {}
+if (moedaConv && !MOEDAS_CONV.includes(moedaConv)) moedaConv = "";
+const fmtValor = n => new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 2 }).format(n);
+const taxaDe = m => EM_TIBARES[String(m || "").trim().toUpperCase()];
+// texto do preço de uma linha (total da linha quando qtd > 1)
+function precoLinha(item) {
+  const n = numeroPreco(item.precoValor);
+  if (!item.preco) return "";
+  if (!moedaConv || n === null || !taxaDe(item.precoMoeda)) return item.preco;
+  const qtd = Number(item.qtd || 1);
+  const un = n * taxaDe(item.precoMoeda) / EM_TIBARES[moedaConv];
+  return qtd > 1 ? `${fmtValor(un * qtd)} ${moedaConv} (${fmtValor(un)} cada)` : `${fmtValor(un)} ${moedaConv}`;
+}
+function desenharConv() {
+  $("conv").innerHTML = `<span>Ver preços em</span>` + [["", "Original"], ...MOEDAS_CONV.map(m => [m, m])]
+    .map(([v, t]) => `<button type="button" data-conv="${v}" aria-pressed="${v === moedaConv}">${t}</button>`).join("");
 }
 
 /* ---------- FLIP: as outras linhas deslizam quando a ordem muda ---------- */
@@ -369,7 +404,10 @@ function atualizarLinha(li, item, pulsar = false) {
   li.querySelector("input").setAttribute("aria-label", `Marcar ${item.nome || "item"}`);
   li.querySelector(".name").textContent = item.nome || "Item";
   const meta = [item.categoria, item.subtipo].filter(Boolean).join(" • ") || (item.avulso ? "Item avulso" : "");
-  li.querySelector(".meta").innerHTML = esc(meta) + (item.preco ? `${meta ? " · " : ""}<span class="price">${esc(item.preco)}</span>` : "");
+  const precoTxt = precoLinha(item);
+  const precoAntes = li.querySelector(".meta .price")?.textContent;
+  li.querySelector(".meta").innerHTML = esc(meta) + (precoTxt ? `${meta ? " · " : ""}<span class="price" title="${moedaConv && precoTxt !== item.preco ? `Original: ${esc(item.preco)}` : ""}">${esc(precoTxt)}</span>` : "");
+  if (precoAntes !== undefined && precoAntes !== precoTxt && !reduzMovimento) li.querySelector(".meta .price")?.classList.add("trocou");
   const n = li.querySelector(".qty .n");
   n.textContent = Number(item.qtd || 1);
   if (pulsar && !reduzMovimento) { n.classList.remove("bump"); void n.offsetWidth; n.classList.add("bump"); }
@@ -430,23 +468,35 @@ function atualizarResumo() {
   $("progress").firstElementChild.style.width = lista.length ? `${(marcados / lista.length) * 100}%` : "0";
 
   // total por moeda dos itens ainda não marcados
-  const totais = {};
+  let totais = {};
   lista.filter(i => !i.done).forEach(i => {
     const n = numeroPreco(i.precoValor);
     if (n === null || n === 0) return;
     const moeda = i.precoMoeda || "";
     totais[moeda] = (totais[moeda] || 0) + n * Number(i.qtd || 1);
   });
+  // com o conversor ligado, junta tudo o que tem taxa numa moeda só
+  if (moedaConv) {
+    let soma = 0, temSoma = false;
+    Object.keys(totais).forEach(m => {
+      const t = taxaDe(m);
+      if (!t) return;
+      soma += totais[m] * t / EM_TIBARES[moedaConv]; temSoma = true; delete totais[m];
+    });
+    if (temSoma) totais = { [moedaConv]: soma, ...totais };
+  }
   const moedas = Object.keys(totais);
-  if (!moedas.length) { $("totals").innerHTML = ""; totalExibido = {}; return; }
-  if (!$("totals").firstChild) $("totals").innerHTML = `<span>Falta comprar (itens com preço)</span><span id="totalValores"></span>`;
-  $("totalValores").innerHTML = moedas.map(m => `<strong data-m="${esc(m)}"></strong> ${esc(m)}`).join(" · ");
+  const podeComprar = lista.some(i => !i.done && i.itemId);
+  if (!moedas.length && !podeComprar) { $("totals").innerHTML = ""; totalExibido = {}; return; }
+  if (!$("totals").firstChild) $("totals").innerHTML = `<span>Falta comprar (itens com preço)</span><span id="totalValores"></span><button class="btn primary comprar" id="comprarLista" type="button" title="Comprar com o dinheiro da ficha os itens do Compêndio ainda não marcados">🪙 Comprar o que falta</button>`;
+  $("comprarLista").hidden = !podeComprar;
+  $("totalValores").innerHTML = moedas.length ? moedas.map(m => `<strong data-m="${esc(m)}"></strong> ${esc(m)}`).join(" · ") : "—";
   moedas.forEach(m => contar($("totalValores").querySelector(`[data-m="${CSS.escape(m)}"]`), totalExibido[m] || 0, totais[m]));
   totalExibido = totais;
 }
 
 function contar(el, de, ate) {
-  const fmt = v => String(+v.toFixed(2));
+  const fmt = v => fmtValor(+v.toFixed(2));
   if (reduzMovimento || de === ate) { el.textContent = fmt(ate); return; }
   const t0 = performance.now(), dur = 450;
   const passo = t => {
@@ -576,7 +626,62 @@ window.addEventListener("storage", e => {
   render(novo?.uid || null);
 });
 
+// conversor
+$("conv").addEventListener("click", e => {
+  const b = e.target.closest("[data-conv]");
+  if (!b || b.dataset.conv === moedaConv) return;
+  moedaConv = b.dataset.conv;
+  try { localStorage.setItem(CHAVE_CONV, moedaConv); } catch {}
+  desenharConv();
+  totalExibido = {};
+  lista.forEach(it => { const li = linhas.get(it.uid); if (li) atualizarLinha(li, it); });
+  atualizarResumo();
+});
+desenharConv();
+
+/* ---------- comprar o que falta (Loja: dinheiro da ficha) ---------- */
+let catalogoCache = null;
+async function catalogo() {
+  if (catalogoCache) return catalogoCache;
+  const mapa = new Map();
+  try {
+    const r = await fetch("https://drkcfrhjgkztdtneuofr.supabase.co/functions/v1/compendio-commit?v=" + Date.now(),
+      { cache: "no-store", headers: { apikey: "sb_publishable_qza2ryuCGa1OznotsuKjUw_i2uH1IlY" } });
+    const d = await r.json();
+    (Array.isArray(d) ? d : (d.itens || [])).forEach(i => mapa.set(String(i.id), i));
+  } catch (e) { console.warn("Compêndio indisponível; compra usa os dados da lista.", e); }
+  return (catalogoCache = mapa);
+}
+$("totals").addEventListener("click", async e => {
+  if (!e.target.closest("#comprarLista") || !window.Loja) return;
+  const pendentes = lista.filter(i => !i.done && i.itemId);
+  if (!pendentes.length) return;
+  const botao = $("comprarLista"); botao.disabled = true;
+  const cat = await catalogo();
+  botao.disabled = false;
+  Loja.comprar(pendentes.map(i => ({
+    qtd: Number(i.qtd || 1),
+    item: cat.get(String(i.itemId)) || { id: i.itemId, nome: i.nome, categoria: i.categoria, subtipo: i.subtipo, peso: i.peso,
+      descricao: i.descricao, preco: { valor: i.precoValor, moeda: i.precoMoeda } }
+  })), { moeda: moedaConv });
+});
+
 render();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="loja.js"></script>
+<script>
+if (window.Loja) {
+  Loja.iniciar({ chip: $("lojaChip") });
+  // o que foi comprado fica marcado na lista
+  Loja.aoComprar(compradas => {
+    const ids = new Set(compradas.map(l => String(l.item.id)));
+    let n = 0;
+    lista.forEach(i => { if (!i.done && ids.has(String(i.itemId))) { i.done = true; n++; } });
+    if (!n) return;
+    salvarLista(); render();
+  });
+}
 </script>
 </body>
 </html>

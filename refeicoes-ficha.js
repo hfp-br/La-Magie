@@ -72,7 +72,9 @@
   const inventario = () => (Array.isArray(conteudo?.inventario) ? conteudo.inventario : (conteudo.inventario = []));
 
   async function redesenharESalvar() {
+    try { sincronizarAtaquesDeItensInventario(); renderizarAtaques(); } catch (e) { /* sem armas novas */ }
     try { renderizarInventario(); } catch (e) { console.warn(e); }
+    try { atualizarPesoInventario(); } catch (e) { /* ficha sem peso */ }
     try { updateSheet(); } catch (e) { console.warn(e); }
     await salvarConteudo();
   }
@@ -167,13 +169,21 @@
   const destino = () => ehNpc ? (typeof npcAtual !== "undefined" && npcAtual ? String(NPC_ID) : null)
     : (typeof FICHA_ID !== "undefined" && FICHA_ID && typeof currentFichaOwnerId !== "undefined" && currentFichaOwnerId ? String(FICHA_ID) : null);
 
-  function receber(bruto, remetente) {
+  // confiavel: a entrega veio da própria ficha (compra na Loja do Compêndio).
+  // Aí o item mantém os efeitos do compêndio, como no "Adicionar" da ficha.
+  // Vindo de outra ficha (prato da equipe), efeitos parados na bolsa são zerados.
+  function receber(bruto, remetente, confiavel) {
     if (!bruto || typeof bruto !== "object" || !bruto.nome) return null;
     const item = JSON.parse(JSON.stringify(bruto));
-    item.effects = []; // pratos não dão bônus parados na bolsa, só ao comer
+    item.effects = confiavel && Array.isArray(item.effects) ? item.effects : [];
+    if (!confiavel) { delete item.weaponAttack; item.resources = []; }
+    if (Array.isArray(item.resources)) item.resources = item.resources.map(r => ({ ...r, id: novoId() }));
     if (item.refeicao) item.refeicao.efeitos = limparEfeitos(item.refeicao.efeitos);
     item.quantidade = Math.min(99, Math.max(1, Math.trunc(num(item.quantidade, 1))));
-    const ja = inventario().find(i => i.cozinhaDoDeserto && !i.refeicaoAtiva && i.nome === item.nome);
+    const ja = inventario().find(i => !i.refeicaoAtiva && i.nome === item.nome && (
+      (i.cozinhaDoDeserto && item.cozinhaDoDeserto) ||
+      // compra repetida do mesmo item do compêndio (menos armas, que viram ataques separados)
+      (confiavel && item.compendioId && i.compendioId === item.compendioId && !item.weaponAttack && num(i.quantidade) > 0)));
     if (ja) { ja.quantidade = num(ja.quantidade) + item.quantidade; return item.nome; }
     item.id = novoId();
     if (remetente) item.descricao = `${item.descricao || ""} Enviado por ${remetente}.`.trim();
@@ -199,7 +209,7 @@
         // apaga e recebe a linha de uma vez: duas abas abertas não duplicam o item
         const { data: apagadas, error: e2 } = await cli.from("entregas_itens").delete().eq("id", entregaId).select();
         if (e2 || !apagadas?.length) continue;
-        const nome = receber(apagadas[0].item, apagadas[0].remetente_nome);
+        const nome = receber(apagadas[0].item, apagadas[0].remetente_nome, apagadas[0].remetente_ficha === id);
         if (nome) recebidos.push(nome);
       }
       if (!recebidos.length) return;
