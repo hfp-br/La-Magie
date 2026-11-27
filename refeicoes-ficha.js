@@ -1,7 +1,7 @@
 /* Refeições da Cozinha do Deserto nas fichas (jogador: index.html; NPC: npcsync.html)
 
    1) Comer: um prato com "refeicao" (feito pela Cozinha do Deserto) gasta 1
-      unidade, como antes, e cria no inventário a entrada "Em efeito: <prato>"
+      unidade (o prato some da bolsa quando acaba) e cria no inventário a entrada "Em efeito: <prato>"
       com os bônus valendo na ficha. Só um bônus de alimentação por dia: comer
       outro prato pergunta se troca. O botão "Acabou" dessa entrada tira o efeito.
       PV e PM temporários do prato entram na ficha (não se acumulam: fica o maior).
@@ -55,6 +55,17 @@
       }
       return [];
     }).map(e => ({ ...e, mode: "always" }));
+  }
+
+  const ehPratoVazio = i => i?.cozinhaDoDeserto && !i.refeicaoAtiva && num(i.quantidade) <= 0;
+  // pratos que já tinham acabado antes desta versão: some com eles ao abrir a ficha
+  let limpou = false;
+  async function limparPratosVazios() {
+    if (limpou || typeof conteudo === "undefined" || !isOwner || !destino()) return;
+    limpou = true;
+    const antes = inventario().length;
+    conteudo.inventario = inventario().filter(i => !ehPratoVazio(i));
+    if (conteudo.inventario.length !== antes) await redesenharESalvar();
   }
 
   const novoId = () => (typeof criarId === "function" ? criarId() : "it-" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6));
@@ -117,7 +128,8 @@
       await original.apply(this, arguments);
       if (num(item.quantidade) >= antes) return; // não comeu (sem quantidade, quebrado...)
 
-      conteudo.inventario = inventario().filter(i => !i.refeicaoAtiva);
+      // prato da cozinha que acabou sai da bolsa; fica só o efeito
+      conteudo.inventario = inventario().filter(i => !i.refeicaoAtiva && !(i.id === item.id && ehPratoVazio(i)));
       conteudo.inventario.push(entradaEmEfeito(item));
       const ref = item.refeicao;
       const pv = somarPvTemporario(num(ref.pvTemp));
@@ -171,6 +183,7 @@
 
   let buscando = false;
   async function buscarEntregas() {
+    await limparPratosVazios();
     if (buscando || document.hidden || typeof conteudo === "undefined" || !isOwner) return;
     const id = destino();
     if (!id) return;
