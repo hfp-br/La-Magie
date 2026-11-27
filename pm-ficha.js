@@ -90,10 +90,14 @@
 
   function sinal(v,rot){return v?` ${v>0?'+':'−'} ${Math.abs(v)}${rot?` ${rot}`:''}`:''}
 
-  function desenhar(){
-    const host=document.getElementById('pmPanel');
-    if(!host||typeof conteudo==='undefined')return;
-    const r=recursoPM(),cfg=config(),ed=editando(),dono=Boolean(typeof isOwner!=='undefined'&&isOwner);
+  // painéis: #pmPanel (aba Ficha, com configuração) e #pmPanelCombat (aba Combate, compacto)
+  const HOSTS=['pmPanel','pmPanelCombat'];
+  const hosts=()=>HOSTS.map(id=>document.getElementById(id)).filter(Boolean);
+  function desenhar(){hosts().forEach(desenharEm)}
+  function desenharEm(host){
+    if(typeof conteudo==='undefined')return;
+    const compacto=host.id==='pmPanelCombat';
+    const r=recursoPM(),cfg=config(),ed=editando()&&!compacto,dono=Boolean(typeof isOwner!=='undefined'&&isOwner);
     const ef=efeitos();
     const max=r?num(r.max,0):maximo(cfg);
     const atual=r?num(r.current,max):max;
@@ -143,16 +147,17 @@
      Duração cresce devagar com o tamanho da mudança (raiz quadrada), então a
      velocidade cresce: ±1 leva ~0,45 s; +20 leva ~0,9 s, bem mais rápido por ponto. */
   const reduzir=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
-  let mostrado=null,quadro=0;
+  // cada painel guarda o próprio valor mostrado e quadro de animação
   function animar(host,atual,max){
+    let mostrado=host._pmMostrado??null;
     const barra=host.querySelector('.pm-barra span'),num=host.querySelector('.pm-atual');
     const pinta=v=>{
       if(barra)barra.style.width=(max>0?Math.max(0,Math.min(100,v/max*100)):0)+'%';
       if(num)num.textContent=Math.round(v);
     };
-    cancelAnimationFrame(quadro);
+    cancelAnimationFrame(host._pmQuadro||0);
     const de=mostrado??atual,delta=Math.abs(atual-de);
-    if(reduzir||!delta){mostrado=atual;pinta(atual);return}
+    if(reduzir||!delta){host._pmMostrado=atual;pinta(atual);return}
     const dur=Math.min(1400,300+140*Math.sqrt(delta));
     const t0=performance.now();
     pinta(de);
@@ -160,11 +165,11 @@
     host.querySelector('.pm-barra')?.classList.toggle('descendo',atual<de);
     const passo=t=>{
       const k=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-k,3); // desacelera no fim
-      mostrado=de+(atual-de)*e;pinta(mostrado);
-      if(k<1)quadro=requestAnimationFrame(passo);
-      else{mostrado=atual;host.querySelector('.pm-barra')?.classList.remove('subindo','descendo')}
+      mostrado=de+(atual-de)*e;host._pmMostrado=mostrado;pinta(mostrado);
+      if(k<1)host._pmQuadro=requestAnimationFrame(passo);
+      else{host._pmMostrado=atual;host.querySelector('.pm-barra')?.classList.remove('subindo','descendo')}
     };
-    quadro=requestAnimationFrame(passo);
+    host._pmQuadro=requestAnimationFrame(passo);
   }
 
   function mudarAtual(delta,cheio){
@@ -196,7 +201,11 @@
   }
 
   function ligar(){
-    const host=document.getElementById('pmPanel');if(!host)return;
+    if(!hosts().length)return;
+    hosts().forEach(ligarHost);
+    ligarGeral();
+  }
+  function ligarHost(host){
     host.addEventListener('click',e=>{
       const b=e.target.closest('[data-pm]');if(!b)return;
       if(!(typeof isOwner!=='undefined'&&isOwner))return;
@@ -207,6 +216,8 @@
     });
     host.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.classList.contains('pm-delta'))host.querySelector('[data-pm="aplicar"]')?.click()});
     host.addEventListener('change',e=>{const c=e.target.dataset.pmc;if(c)mudarConfig(c,e.target)});
+  }
+  function ligarGeral(){
     document.getElementById('editModeToggle')?.addEventListener('change',()=>setTimeout(desenhar,0));
     // recursos mudaram (edição, outra aba, Supabase): redesenha
     if(typeof renderizarRecursos==='function'){
@@ -225,30 +236,30 @@
   const css=document.createElement('style');
   css.id='pm-ficha-style';
   css.textContent=`
-#pmPanel{display:grid;gap:8px}
-#pmPanel .pm-topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
-#pmPanel .pm-valor{display:flex;align-items:baseline;gap:4px;font-weight:bold;color:var(--sand-5,#3d2b1d)}
-#pmPanel .pm-atual{font-size:2rem;line-height:1;color:#2f5a8a}
-#pmPanel .pm-sep{font-size:1.3rem;opacity:.5}#pmPanel .pm-max{font-size:1.3rem}
-#pmPanel .pm-valor small{margin-left:4px;font-size:.8rem;letter-spacing:.08em;color:var(--muted,#7a6650)}
-#pmPanel .pm-botoes{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-#pmPanel .pm-btn{font:inherit;font-size:.82rem;font-weight:bold;border-radius:999px;border:1px solid var(--line,#c9a96b);background:var(--sand-1,#f3e4c4);color:var(--sand-5,#3d2b1d);padding:4px 11px;cursor:pointer}
-#pmPanel .pm-btn:hover{background:var(--sand-0,#fbf3e2)}
-#pmPanel .pm-delta{width:70px;font:inherit;padding:4px 8px;border-radius:999px;border:1px solid var(--line,#c9a96b);background:#fffaf0}
-#pmPanel .pm-barra{height:12px;border-radius:999px;background:rgba(47,90,138,.14);border:1px solid rgba(47,90,138,.35);overflow:hidden}
-#pmPanel .pm-barra span{display:block;height:100%;background:linear-gradient(90deg,#3b6fa6,#6fa3d8);box-shadow:0 0 8px rgba(111,163,216,.6)}
-#pmPanel .pm-barra.subindo span{box-shadow:0 0 12px rgba(140,190,240,.95)}
-#pmPanel .pm-barra.descendo span{filter:saturate(.8) brightness(.95)}
-#pmPanel .pm-formula{font-size:.8rem;color:var(--muted,#7a6650);font-style:italic}
-#pmPanel .pm-config{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:flex-end;border-top:1px dashed var(--line,#c9a96b);padding-top:8px}
-#pmPanel .pm-config label{display:grid;gap:3px;font-size:.78rem;font-weight:bold;color:var(--sand-5,#3d2b1d)}
-#pmPanel .pm-config select,#pmPanel .pm-config input[type=number]{font:inherit;font-weight:normal;padding:4px 8px;border-radius:8px;border:1px solid var(--line,#c9a96b);background:#fffaf0;min-width:90px}
-#pmPanel .pm-config .pm-check{display:flex;align-items:center;gap:6px}
-#pmPanel .pm-dica{font-size:.76rem;color:var(--muted,#7a6650)}
+.pm-painel{display:grid;gap:8px}
+.pm-painel .pm-topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+.pm-painel .pm-valor{display:flex;align-items:baseline;gap:4px;font-weight:bold;color:var(--sand-5,#3d2b1d)}
+.pm-painel .pm-atual{font-size:2rem;line-height:1;color:#2f5a8a}
+.pm-painel .pm-sep{font-size:1.3rem;opacity:.5}.pm-painel .pm-max{font-size:1.3rem}
+.pm-painel .pm-valor small{margin-left:4px;font-size:.8rem;letter-spacing:.08em;color:var(--muted,#7a6650)}
+.pm-painel .pm-botoes{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.pm-painel .pm-btn{font:inherit;font-size:.82rem;font-weight:bold;border-radius:999px;border:1px solid var(--line,#c9a96b);background:var(--sand-1,#f3e4c4);color:var(--sand-5,#3d2b1d);padding:4px 11px;cursor:pointer}
+.pm-painel .pm-btn:hover{background:var(--sand-0,#fbf3e2)}
+.pm-painel .pm-delta{width:70px;font:inherit;padding:4px 8px;border-radius:999px;border:1px solid var(--line,#c9a96b);background:#fffaf0}
+.pm-painel .pm-barra{height:12px;border-radius:999px;background:rgba(47,90,138,.14);border:1px solid rgba(47,90,138,.35);overflow:hidden}
+.pm-painel .pm-barra span{display:block;height:100%;background:linear-gradient(90deg,#3b6fa6,#6fa3d8);box-shadow:0 0 8px rgba(111,163,216,.6)}
+.pm-painel .pm-barra.subindo span{box-shadow:0 0 12px rgba(140,190,240,.95)}
+.pm-painel .pm-barra.descendo span{filter:saturate(.8) brightness(.95)}
+.pm-painel .pm-formula{font-size:.8rem;color:var(--muted,#7a6650);font-style:italic}
+.pm-painel .pm-config{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:flex-end;border-top:1px dashed var(--line,#c9a96b);padding-top:8px}
+.pm-painel .pm-config label{display:grid;gap:3px;font-size:.78rem;font-weight:bold;color:var(--sand-5,#3d2b1d)}
+.pm-painel .pm-config select,.pm-painel .pm-config input[type=number]{font:inherit;font-weight:normal;padding:4px 8px;border-radius:8px;border:1px solid var(--line,#c9a96b);background:#fffaf0;min-width:90px}
+.pm-painel .pm-config .pm-check{display:flex;align-items:center;gap:6px}
+.pm-painel .pm-dica{font-size:.76rem;color:var(--muted,#7a6650)}
 `;
   document.head.append(css);
 
   // o script fica no fim da página: se o painel já existe, liga na hora
-  if(document.getElementById('pmPanel')||document.readyState!=='loading')ligar();else document.addEventListener('DOMContentLoaded',ligar);
+  if(hosts().length||document.readyState!=='loading')ligar();else document.addEventListener('DOMContentLoaded',ligar);
   window.PMFicha={desenhar,recalcular,CLASSES};
 })();
