@@ -19,13 +19,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-1",
@@ -45,13 +55,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-2",
@@ -71,13 +91,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-3",
@@ -97,13 +127,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-4",
@@ -123,13 +163,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-5",
@@ -149,13 +199,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     },
     {
       "id": "dd-2024-embarcacao-6",
@@ -175,13 +235,23 @@
         "dnd",
         "dnd 2024",
         "veiculo",
-        "livro do jogador 2024",
         "aereo ou aquatico"
       ],
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "categorias": [
         "veiculo"
-      ]
+      ],
+      "efeitos": [],
+      "consumable": {
+        "enabled": false,
+        "amountPerUse": 1,
+        "label": "Usar"
+      },
+      "defenses": {
+        "resistances": "",
+        "immunities": ""
+      },
+      "resources": []
     }
   ]
 }
