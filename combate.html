@@ -102,6 +102,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .barra.pv.media span{background:linear-gradient(90deg,#d0a54f,#aa7735)}
 .barra.pv.baixa span{background:linear-gradient(90deg,#c8705d,#8f493d)}
 .barra.pm span{background:linear-gradient(90deg,#6f95c4,#3f5f86)}
+.barra i.tmp{position:absolute;top:0;bottom:0;background:repeating-linear-gradient(135deg,rgba(111,149,196,.55) 0 5px,rgba(111,149,196,.3) 5px 10px);border-left:1px solid rgba(255,255,255,.7);transition:left .6s var(--ease),width .6s var(--ease)}
+.barra-linha em .tmp{color:var(--blue2);margin-left:3px}
 .barra-linha{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:8px}
 .barra-linha em{font-style:normal;font-size:11px;font-weight:700;color:var(--muted);font-variant-numeric:tabular-nums;min-width:74px}
 .barra-linha em b{color:var(--ink)}
@@ -407,8 +409,10 @@ function acharMana(recursos) {
   if (!r) return null;
   const atual = num(r.current ?? r.atual), max = num(r.max ?? r.maximo);
   if (atual === null && max === null) return null;
-  return { atual: atual ?? 0, max: max ?? atual ?? 0 };
+  return { atual: atual ?? 0, max: max ?? atual ?? 0, temp: Math.max(0, num(r.temp) ?? 0) };
 }
+// PM temporário: fica no recurso de PM da ficha (o resumo publicado não traz)
+const pmTempDe = recursos => acharMana(recursos)?.temp ?? 0;
 
 /* ---------- valores de cada participante (PV/PM/bônus) ---------- */
 function statsDe(p) {
@@ -426,7 +430,7 @@ function statsDe(p) {
     if (!f) return null;
     const r = resumos.get(p.origem_id);
     const maxEstimado = (num(f.pv_base_nivel_1) ?? 0) + (num(f.pv_por_nivel) ?? 0) * Math.max(0, (num(f.nivel) ?? 1) - 1);
-    const pm = r?.pm_max != null ? { atual: r.pm_atual ?? 0, max: r.pm_max } : acharMana(f.conteudo_dinamico?.recursos);
+    const pm = r?.pm_max != null ? { atual: r.pm_atual ?? 0, max: r.pm_max, temp: pmTempDe(f.conteudo_dinamico?.recursos) } : acharMana(f.conteudo_dinamico?.recursos);
     return { pv: { atual: num(f.vida_atual) ?? 0, max: r?.pv_max ?? maxEstimado, estimado: r?.pv_max == null }, pm, editavel: false };
   }
   if (p.tipo === "npc") {
@@ -436,7 +440,7 @@ function statsDe(p) {
     const rr = npcResumos.get(p.origem_id); // publicado pela própria ficha do NPC
     const maxCampo = num(rr?.pv_max) ?? num(ficha.vida_max) ?? num(n.dados?.vida_maxima) ?? num(n.dados?.pv_total);
     const maxEstimado = (num(ficha.pv_base_nivel_1) ?? 0) + (num(ficha.pv_por_nivel) ?? 0) * Math.max(0, (num(ficha.nivel) ?? 1) - 1);
-    let pm = rr?.pm_max != null ? { atual: rr.pm_atual ?? 0, max: rr.pm_max } : acharMana(ficha.conteudo_dinamico?.recursos);
+    let pm = rr?.pm_max != null ? { atual: rr.pm_atual ?? 0, max: rr.pm_max, temp: pmTempDe(ficha.conteudo_dinamico?.recursos) } : acharMana(ficha.conteudo_dinamico?.recursos);
     if (!pm && (num(ficha.mana_max) ?? 0) > 0) pm = { atual: num(ficha.mana_atual) ?? 0, max: num(ficha.mana_max) };
     return { pv: { atual: num(ficha.vida_atual) ?? 0, max: maxCampo ?? maxEstimado, estimado: maxCampo == null }, pm, editavel: false };
   }
@@ -568,12 +572,15 @@ function condicoesDe(p) {
   return p.tipo === "jogador" && !p.instancia ? (condicoesJogador.get(p.id) || []) : (Array.isArray(p.condicoes) ? p.condicoes : []);
 }
 
-function barraHtml(tipo, atual, max, estimado) {
-  const pct = max > 0 ? Math.max(0, Math.min(100, (atual / max) * 100)) : 0;
-  const nivel = tipo === "pv" ? (pct <= 25 ? " baixa" : pct <= 55 ? " media" : "") : "";
-  return `<div class="barra-linha" title="${tipo === "pv" ? "Pontos de vida" : "Mana"}${estimado ? " (máximo estimado)" : ""}">
-    <div class="barra ${tipo}${nivel}"><span style="width:${pct}%"></span></div>
-    <em>${tipo.toUpperCase()} <b>${atual}</b> / ${max}${estimado ? "≈" : ""}</em></div>`;
+function barraHtml(tipo, atual, max, estimado, temp = 0) {
+  temp = Math.max(0, temp || 0);
+  const total = Math.max(max, atual + temp);
+  const pct = total > 0 ? Math.max(0, Math.min(100, (atual / total) * 100)) : 0;
+  const pctTemp = total > 0 ? Math.max(0, Math.min(100 - pct, (temp / total) * 100)) : 0;
+  const nivel = tipo === "pv" ? ((max > 0 ? atual / max * 100 : 0) <= 25 ? " baixa" : (max > 0 ? atual / max * 100 : 0) <= 55 ? " media" : "") : "";
+  return `<div class="barra-linha" title="${tipo === "pv" ? "Pontos de vida" : "Mana"}${temp ? ` (+${temp} temporários, gastos primeiro)` : ""}${estimado ? " (máximo estimado)" : ""}">
+    <div class="barra ${tipo}${nivel}"><span style="width:${pct}%"></span>${temp ? `<i class="tmp" style="left:${pct}%;width:${pctTemp}%"></i>` : ""}</div>
+    <em>${tipo.toUpperCase()} <b>${atual}</b>${temp ? `<span class="tmp">+${temp}</span>` : ""} / ${max}${estimado ? "≈" : ""}</em></div>`;
 }
 
 function cardHtml(p, i) {
@@ -587,7 +594,7 @@ function cardHtml(p, i) {
   let barras = "";
   if (mestre) {
     if (st) {
-      barras = `<div class="barras">${barraHtml("pv", st.pv.atual, st.pv.max, st.pv.estimado)}${st.pm ? barraHtml("pm", st.pm.atual, st.pm.max) : ""}</div>`;
+      barras = `<div class="barras">${barraHtml("pv", st.pv.atual, st.pv.max, st.pv.estimado)}${st.pm ? barraHtml("pm", st.pm.atual, st.pm.max, false, st.pm.temp) : ""}</div>`;
       if (st.editavel) barras += `<div class="ajuste"><input type="number" placeholder="±PV" data-ajuste="${p.id}" data-foco-id="aj-${p.id}" title="Dano (negativo) ou cura (positivo)"><button class="btn small" type="button" data-aplicar="${p.id}">Aplicar</button></div>`;
     } else {
       const motivo = p.tipo !== "jogador" && !temBancoNpc ? "entre no banco de NPCs" : "sem acesso a esta ficha";
