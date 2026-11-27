@@ -8,7 +8,13 @@
      classe, porNivel, bonus, somarAtributo
    Modo automático (Tormenta20 Jogo do Ano): PM por nível da classe × nível
    + bônus fixo (+ atributo de conjuração, se marcado). O PM atual nunca é
-   mexido sozinho; só o máximo, e só no modo automático. */
+   mexido sozinho; só o máximo, e só no modo automático.
+
+   PM temporário: fica no próprio recurso de PM (campo "temp"). Aparece na
+   barra como um trecho mais claro depois do PM atual. Gastos tiram primeiro
+   do temporário; recuperar só enche o PM normal. Itens (ex.: pratos da
+   Cozinha do Deserto) somam com PMFicha.darTemporario(n): não se acumulam,
+   fica o maior. */
 (function(){
   // Tormenta20 Jogo do Ano, tabela de classes (PM por nível)
   const CLASSES=[
@@ -101,7 +107,10 @@
     const ef=efeitos();
     const max=r?num(r.max,0):maximo(cfg);
     const atual=r?num(r.current,max):max;
-    const pct=max>0?Math.max(0,Math.min(100,atual/max*100)):0;
+    const temp=r?Math.max(0,num(r.temp,0)):0;
+    const total=Math.max(max,atual+temp);
+    const pct=total>0?Math.max(0,Math.min(100,atual/total*100)):0;
+    const pctTemp=total>0?Math.max(0,Math.min(100-pct,temp/total*100)):0;
     const txtEf=ef.total?sinal(ef.total,'(efeitos)'):'';
     const atr=atributoDe(cfg);
     const formula=cfg.modo==='auto'
@@ -109,15 +118,16 @@
       :(ef.total||cfg.maxManual!=null?`Base ${base(cfg)}${txtEf} = ${maximo(cfg)}`:'Máximo digitado à mão');
 
     let html=`<div class="pm-topo">
-      <div class="pm-valor"><span class="pm-atual">${atual}</span><span class="pm-sep">/</span><span class="pm-max">${max}</span><small>PM</small></div>
+      <div class="pm-valor"><span class="pm-atual">${atual}</span>${temp?`<span class="pm-temp" title="PM temporários (gastos primeiro)">+${temp}</span>`:''}<span class="pm-sep">/</span><span class="pm-max">${max}</span><small>PM</small></div>
       ${dono?`<div class="pm-botoes">
         <button type="button" class="pm-btn" data-pm="-1" title="Gastar 1 PM">−1</button>
         <button type="button" class="pm-btn" data-pm="+1" title="Recuperar 1 PM">+1</button>
         <input type="number" class="pm-delta" placeholder="±PM" title="Gastar (negativo) ou recuperar (positivo)" aria-label="Quantidade de PM">
         <button type="button" class="pm-btn" data-pm="aplicar">Aplicar</button>
         <button type="button" class="pm-btn" data-pm="cheio" title="Voltar ao máximo (descanso)">Encher</button>
+        <label class="pm-temp-campo" title="PM temporários: gastos antes do PM normal">Temp.<input type="number" min="0" class="pm-temp-input" value="${temp}" aria-label="PM temporários"></label>
       </div>`:''}</div>
-      <div class="pm-barra" role="meter" aria-valuemin="0" aria-valuemax="${max}" aria-valuenow="${atual}" aria-label="Pontos de mana"><span style="width:${pct}%"></span></div>
+      <div class="pm-barra" role="meter" aria-valuemin="0" aria-valuemax="${max}" aria-valuenow="${atual}" aria-label="Pontos de mana${temp?`, mais ${temp} temporários`:''}"><span style="width:${pct}%"></span><i class="pm-barra-temp" style="left:${pct}%;width:${pctTemp}%"></i></div>
       <div class="pm-formula">${esc(formula)}${r?'':' · ainda sem recurso de PM: será criado ao usar'}</div>`;
 
     if(ed){
@@ -140,7 +150,7 @@
       <div class="pm-dica">Habilidades, magias e itens podem mudar o PM com os efeitos <b>PM Máximo</b> e <b>PM por nível</b>.</div>`;
     }
     host.innerHTML=html;
-    animar(host,atual,max);
+    animar(host,atual,total);
   }
 
   /* Barra e número andam até o valor novo em vez de pular.
@@ -150,9 +160,11 @@
   // cada painel guarda o próprio valor mostrado e quadro de animação
   function animar(host,atual,max){
     let mostrado=host._pmMostrado??null;
-    const barra=host.querySelector('.pm-barra span'),num=host.querySelector('.pm-atual');
+    const barra=host.querySelector('.pm-barra span'),num=host.querySelector('.pm-atual'),tmp=host.querySelector('.pm-barra-temp');
     const pinta=v=>{
-      if(barra)barra.style.width=(max>0?Math.max(0,Math.min(100,v/max*100)):0)+'%';
+      const w=max>0?Math.max(0,Math.min(100,v/max*100)):0;
+      if(barra)barra.style.width=w+'%';
+      if(tmp)tmp.style.left=w+'%';
       if(num)num.textContent=Math.round(v);
     };
     cancelAnimationFrame(host._pmQuadro||0);
@@ -176,8 +188,26 @@
     const cfg=config();
     const r=garantirRecurso(maximo(cfg));
     const max=num(r.max,0);
-    r.current=cheio?max:Math.max(0,num(r.current,max)+delta);
+    if(cheio)r.current=max;
+    else if(delta<0){
+      const temp=Math.max(0,num(r.temp,0)),doTemp=Math.min(temp,-delta);
+      r.temp=temp-doTemp;
+      r.current=Math.max(0,num(r.current,max)+delta+doTemp);
+    }else r.current=Math.min(max,num(r.current,max)+delta);
     salvar();desenhar();
+  }
+  function definirTemporario(valor){
+    const r=garantirRecurso(maximo(config()));
+    r.temp=Math.max(0,Math.trunc(num(valor,0)));
+    salvar();desenhar();
+  }
+  // itens: PM temporários não se acumulam, fica o maior. Devolve true se mudou.
+  function darTemporario(valor){
+    if(!(typeof isOwner!=='undefined'&&isOwner))return false;
+    const v=Math.max(0,Math.trunc(num(valor,0)));
+    const r=recursoPM();
+    if(!v||num(r?.temp,0)>=v)return false;
+    definirTemporario(v);return true;
   }
 
   function mudarConfig(campo,el){
@@ -215,7 +245,10 @@
       else mudarAtual(Number(v));
     });
     host.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.classList.contains('pm-delta'))host.querySelector('[data-pm="aplicar"]')?.click()});
-    host.addEventListener('change',e=>{const c=e.target.dataset.pmc;if(c)mudarConfig(c,e.target)});
+    host.addEventListener('change',e=>{
+      if(e.target.classList.contains('pm-temp-input')){if(typeof isOwner!=='undefined'&&isOwner)definirTemporario(e.target.value);return}
+      const c=e.target.dataset.pmc;if(c)mudarConfig(c,e.target);
+    });
   }
   function ligarGeral(){
     document.getElementById('editModeToggle')?.addEventListener('change',()=>setTimeout(desenhar,0));
@@ -246,7 +279,11 @@
 .pm-painel .pm-btn{font:inherit;font-size:.82rem;font-weight:bold;border-radius:999px;border:1px solid var(--line,#c9a96b);background:var(--sand-1,#f3e4c4);color:var(--sand-5,#3d2b1d);padding:4px 11px;cursor:pointer}
 .pm-painel .pm-btn:hover{background:var(--sand-0,#fbf3e2)}
 .pm-painel .pm-delta{width:70px;font:inherit;padding:4px 8px;border-radius:999px;border:1px solid var(--line,#c9a96b);background:#fffaf0}
-.pm-painel .pm-barra{height:12px;border-radius:999px;background:rgba(47,90,138,.14);border:1px solid rgba(47,90,138,.35);overflow:hidden}
+.pm-painel .pm-barra{position:relative;height:12px;border-radius:999px;background:rgba(47,90,138,.14);border:1px solid rgba(47,90,138,.35);overflow:hidden}
+.pm-painel .pm-barra-temp{position:absolute;top:0;bottom:0;background:repeating-linear-gradient(135deg,rgba(111,163,216,.55) 0 5px,rgba(111,163,216,.32) 5px 10px);border-left:1px solid rgba(255,255,255,.7)}
+.pm-painel .pm-temp{font-size:1.1rem;color:#6fa3d8;opacity:.9;margin-left:2px}
+.pm-painel .pm-temp-campo{display:inline-flex;align-items:center;gap:4px;font-size:.78rem;font-weight:bold;color:var(--muted,#7a6650)}
+.pm-painel .pm-temp-input{width:52px;font:inherit;padding:3px 6px;border-radius:999px;border:1px solid rgba(111,163,216,.6);background:#f3f8fd}
 .pm-painel .pm-barra span{display:block;height:100%;background:linear-gradient(90deg,#3b6fa6,#6fa3d8);box-shadow:0 0 8px rgba(111,163,216,.6)}
 .pm-painel .pm-barra.subindo span{box-shadow:0 0 12px rgba(140,190,240,.95)}
 .pm-painel .pm-barra.descendo span{filter:saturate(.8) brightness(.95)}
@@ -261,5 +298,5 @@
 
   // o script fica no fim da página: se o painel já existe, liga na hora
   if(hosts().length||document.readyState!=='loading')ligar();else document.addEventListener('DOMContentLoaded',ligar);
-  window.PMFicha={desenhar,recalcular,CLASSES};
+  window.PMFicha={desenhar,recalcular,darTemporario,CLASSES};
 })();

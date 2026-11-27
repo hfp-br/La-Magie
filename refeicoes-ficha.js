@@ -4,7 +4,7 @@
       unidade, como antes, e cria no inventário a entrada "Em efeito: <prato>"
       com os bônus valendo na ficha. Só um bônus de alimentação por dia: comer
       outro prato pergunta se troca. O botão "Acabou" dessa entrada tira o efeito.
-      PV temporários do prato entram no campo de PV temporário (fica o maior).
+      PV e PM temporários do prato entram na ficha (não se acumulam: fica o maior).
 
    2) Entregas: pratos mandados para a equipe ficam em entregas_itens
       (Projeto Players). A ficha aberta pelo dono busca as entregas dela,
@@ -121,8 +121,11 @@
       conteudo.inventario.push(entradaEmEfeito(item));
       const ref = item.refeicao;
       const pv = somarPvTemporario(num(ref.pvTemp));
+      const pmTemp = num(ref.pmTemp);
+      const pm = pmTemp > 0 && window.PMFicha?.darTemporario ? window.PMFicha.darTemporario(pmTemp) : false;
       await redesenharESalvar();
-      const lembretes = [pv ? `${ref.pvTemp} PV temporários` : "", num(ref.pmTemp) > 0 ? `some ${ref.pmTemp} PM temporários` : ""].filter(Boolean);
+      const lembretes = [pv ? `${ref.pvTemp} PV temporários` : "",
+        pm ? `${pmTemp} PM temporários` : (pmTemp > 0 && !window.PMFicha ? `some ${pmTemp} PM temporários` : "")].filter(Boolean);
       avisar(`${item.nome}: bônus em efeito${lembretes.length ? ` · ${lembretes.join(" · ")}` : ""}.`);
     };
   }
