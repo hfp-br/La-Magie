@@ -21,11 +21,10 @@
         "espada longa",
         "rhond",
         "tormenta20",
-        "livro basico",
         "arma magica"
       ],
       "descricao": "Artefato divino cultuado como uma entidade por si só. É uma espada longa de aparência simples, mas considerada uma das armas mais poderosas de Arton. Efeitos: É indestrutível e ignora resistência a dano. Seus acertos críticos afetam mesmo criaturas normalmente imunes a acertos críticos. Quando usa a ação atacar, pode gastar 2 PM para realizar um ataque adicional com ela; se possuir Ataque Extra, o custo diminui em –1 PM.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.748Z",
       "efeitos": [
         {
@@ -80,8 +79,7 @@
         "ammo": "",
         "reload": "",
         "properties": "Atroz; precisa; pungente; ameaçadora; magnífica; veloz; ignora resistência a dano; críticos afetam criaturas imunes a crítico",
-        "allowedToggles": [],
-        "damageStat": "str"
+        "allowedToggles": []
       },
       "categorias": [
         "artefato",
@@ -107,11 +105,10 @@
         "gema",
         "unico",
         "memoria",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Gema indestrutível de vinte faces ligada aos primórdios da Criação. Recupera memórias perdidas, mas seu uso prolongado ameaça a sanidade de mortais. Efeitos: +6 em Inteligência enquanto estiver portando a Joia. Para magos, o custo básico de magias arcanas diminui para 0 PM; custos de aprimoramentos ainda são pagos. Enquanto a segura, recupera instantaneamente todas as memórias de sua vida; ao soltá-la, as memórias voltam ao esquecimento.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.748Z",
       "efeitos": [
         {
@@ -175,11 +172,10 @@
         "unico",
         "caos",
         "jogatina",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Baralho aparentemente comum capaz de alterar drasticamente o destino de quem aposta tudo e compra suas cartas. Efeitos: +10 em Jogatina durante uso normal; a critério do mestre pode virar –10 se o usuário abusar da sorte. Ao declarar “Eu aposto tudo”, saque de 1 a 4 cartas e role os efeitos da tabela do Baralho do Caos. Um personagem treinado em Jogatina pode tentar CD 30 para rejeitar uma carta e sacar outra, uma vez. Após esse uso, o artefato desaparece e reaparece em outro lugar.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.748Z",
       "efeitos": [
         {
@@ -231,11 +227,10 @@
         "unico",
         "sszzaas",
         "magia",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Cajado de madeira fossilizada que sustenta uma gema esverdeada contendo parte da consciência de Sszzaas. Efeitos: Permite lançar qualquer magia que o portador conheça ou tenha ouvido falar, arcana ou divina, sem pagar o custo básico em PM. Aprimoramentos ainda custam PM. Cada magia exige Misticismo CD 20 + custo em PM da magia incluindo aprimoramentos. Falha pode provocar efeito imprevisível, sob controle do mestre. Reconhecer e aprender a usar exige Conhecimento CD 30.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.748Z",
       "efeitos": [
         {
@@ -285,11 +280,10 @@
         "unico",
         "rubi",
         "divino",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma das vinte gemas divinas conhecidas como Rubis da Virtude. Cada rubi carrega parte da essência dos antigos deuses do Panteão. Efeitos: Cada Rubi incrustado fornece um nível de experiência em uma classe que o portador já possua. Cada Rubi fornece RD 2 e +1 em testes de resistência; os benefícios são cumulativos inclusive entre Rubis. Magias de adivinhação contra o portador exigem Misticismo CD 25 + quantidade de Rubis ou falham.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.748Z",
       "efeitos": [
         {
