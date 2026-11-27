@@ -18,11 +18,10 @@
         "armadura",
         "leve",
         "fortitude",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Túnica almofadada feita em linho ou lã. É a armadura mais leve e protege todo o corpo. Fornece +2 em testes de Fortitude. Efeitos: Bônus de Defesa +1 Armadura leve; +2 em testes de Fortitude.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [
         {
@@ -70,11 +69,10 @@
         "armadura",
         "leve",
         "couro",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Armadura cujo peitoral é feito de couro curtido e endurecido, com partes restantes em couro flexível. Efeitos: Bônus de Defesa +2 Armadura leve.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [
         {
@@ -123,11 +121,10 @@
         "leve",
         "couro",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Versão mais pesada da armadura de couro, reforçada com rebites de metal. Efeitos: Bônus de Defesa +3 Armadura leve; penalidade de armadura –1.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.743Z",
       "efeitos": [
         {
@@ -176,11 +173,10 @@
         "leve",
         "peles",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Armadura formada por várias camadas de peles e couro de animais, comum entre bárbaros e povos selvagens. Efeitos: Bônus de Defesa +4 Armadura leve; penalidade de armadura –3.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -229,11 +225,10 @@
         "leve",
         "metal",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A mais robusta das armaduras leves, formada por uma placa metálica sobre o peito e as costas, presa sobre um casaco de couro. Efeitos: Bônus de Defesa +5 Armadura leve; penalidade de armadura –4.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -282,11 +277,10 @@
         "pesada",
         "metal",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Colete de couro coberto por pequenas placas metálicas sobrepostas. É uma armadura pesada comum entre soldados de infantaria e guardas. Efeitos: Bônus de Defesa +5 Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -336,11 +330,10 @@
         "malha",
         "metal",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Longa veste feita de anéis metálicos interligados, formando uma malha flexível e resistente que vai até os joelhos. Efeitos: Bônus de Defesa +6 Armadura pesada; penalidade de armadura –2; não aplica DES na Defesa; deslocamento –3 m.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -389,11 +382,10 @@
         "pesada",
         "metal",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Armadura composta por tiras horizontais de metal, muito utilizada por legionários do Império de Tauron. Efeitos: Bônus de Defesa +7 Armadura pesada; penalidade de armadura –3; não aplica DES na Defesa; deslocamento –3 m.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -442,11 +434,10 @@
         "pesada",
         "metal",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Uma cota de malha reforçada com placas de metal. Efeitos: Bônus de Defesa +8 Armadura pesada; penalidade de armadura –4; não aplica DES na Defesa; deslocamento –3 m.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.744Z",
       "efeitos": [
         {
@@ -496,11 +487,10 @@
         "metal",
         "placas",
         "penalidade de armadura",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo Couraça a cobrir o corpo inteiro. Inclui manoplas e grevas (luvas e botas metálicas, respectivamente), um elmo com viseira e uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-11-25T18:22:43.000Z",
       "efeitos": [
         {
@@ -1019,11 +1009,10 @@
         "guardia",
         "zelosa",
         "reforcada",
-        "tormenta20",
-        "livro basico"
+        "tormenta20"
       ],
       "descricao": "Armadura completa banhada a ouro, reforçada, guardiã e zelosa, marcada com o símbolo de Khalmyr. Efeitos: Bônus de Defesa +15 Se possuir código de conduta ou for devoto de uma divindade do Bem, recebe RD igual ao modificador de Carisma. Uma vez por rodada, quando aliado adjacente for alvo de ataque, pode gastar 1 PM para se tornar o alvo.",
-      "schemaVersion": 5,
+      "schemaVersion": 4,
       "updatedAt": "2026-10-23T04:52:02.745Z",
       "efeitos": [
         {
