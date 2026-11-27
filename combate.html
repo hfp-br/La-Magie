@@ -153,6 +153,18 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
 .opcao.ja{opacity:.5}
 .opcao.ja.repete{opacity:1}
 .opcao-conf{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);flex-wrap:wrap;justify-content:flex-end}
+.equipe{display:grid;gap:6px;padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:rgba(255,255,255,.4)}
+.equipe-topo{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.equipe-nome{font-weight:700;font-size:15px}
+.equipe-membros{display:flex;flex-wrap:wrap;gap:4px}
+.membro{display:inline-flex;align-items:center;gap:5px;padding:2px 8px 2px 3px;border-radius:99px;border:1px solid rgba(104,75,43,.18);background:rgba(255,255,255,.55);font-size:12px}
+.membro .retrato{width:20px;height:20px;border-radius:50%;font-size:9px}
+.membro[data-tipo=jogador]{border-color:rgba(63,95,134,.4)}
+.membro[data-tipo=npc]{border-color:rgba(170,119,53,.5)}
+.membro button{border:0;background:none;cursor:pointer;padding:0 0 0 2px;color:var(--red);font-size:13px;line-height:1}
+.equipe-edicao{display:grid;gap:10px}
+.equipe-edicao .opcao{grid-template-columns:30px minmax(0,1fr) auto;padding:5px 8px}
+.equipe-edicao .opcao .retrato{width:30px;height:30px;font-size:11px}
 .opcao-conf input[type=number]{width:52px;padding:3px 6px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.7)}
 .campo{display:grid;gap:4px;margin-bottom:10px;font-size:13px}
 .campo input{padding:8px 11px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.65)}
@@ -217,6 +229,7 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
     </div>
     <div class="conta">
       <a class="btn small" href="portal/index.html">← Portal</a>
+      <button id="btnEquipes" class="btn small" type="button" hidden title="Grupos de jogadores e NPCs para pôr no combate de uma vez">👥 Equipes</button>
       <span id="contaPill" class="pill">Desconectado</span>
       <button id="btnSair" class="btn small" type="button" hidden>Sair</button>
     </div>
@@ -295,11 +308,44 @@ dialog::backdrop{background:rgba(30,20,10,.45);backdrop-filter:blur(2px)}
       <button class="btn small on" type="button" data-aba="jogador">Jogadores</button>
       <button class="btn small" type="button" data-aba="npc">NPCs</button>
       <button class="btn small" type="button" data-aba="monstro">Monstros</button>
+      <button class="btn small" type="button" data-aba="equipe">Equipes</button>
     </div>
     <input class="busca" id="buscaAdicionar" type="search" placeholder="Buscar pelo nome…">
     <div class="opcoes" id="opcoesAdicionar"></div>
   </div>
   <div class="dlg-foot"><span class="dica" style="margin-right:auto">“Cópias” criam versões só deste combate; a ficha original não muda.</span><button class="btn" type="button" data-fechar>Fechar</button></div>
+</dialog>
+
+<!-- equipes -->
+<dialog id="dlgEquipes">
+  <div class="dlg-head"><h2 id="equipesTitulo">Equipes</h2><button class="btn small" type="button" data-fechar>✕</button></div>
+  <div class="dlg-body">
+    <div id="equipesLista"></div>
+    <div id="equipeEdicao" class="equipe-edicao" hidden>
+      <label class="campo">Nome da equipe<input id="equipeNome" maxlength="80" placeholder="Ex.: Grupo principal"></label>
+      <div>
+        <div class="dica" style="margin-bottom:4px">Membros (<span id="equipeQtd">0</span>)</div>
+        <div class="equipe-membros" id="equipeMembros"></div>
+      </div>
+      <div>
+        <div class="abas" id="abasEquipe">
+          <button class="btn small on" type="button" data-aba="jogador">Jogadores</button>
+          <button class="btn small" type="button" data-aba="npc">NPCs</button>
+        </div>
+        <input class="busca" id="buscaEquipe" type="search" placeholder="Buscar pelo nome…">
+        <div class="opcoes" id="opcoesEquipe"></div>
+      </div>
+      <div class="erro" id="equipeErro"></div>
+    </div>
+  </div>
+  <div class="dlg-foot" id="equipesRodape">
+    <button class="btn primary" type="button" id="btnNovaEquipe">+ Nova equipe</button>
+    <button class="btn" type="button" data-fechar>Fechar</button>
+  </div>
+  <div class="dlg-foot" id="equipeRodapeEdicao" hidden>
+    <button class="btn" type="button" id="btnCancelarEquipe">Cancelar</button>
+    <button class="btn primary" type="button" id="btnSalvarEquipe">Salvar</button>
+  </div>
 </dialog>
 
 <div class="toast" id="toast" role="status"></div>
@@ -810,12 +856,13 @@ function abrirAdicionar(tipo = abaAdicionar) {
   $("buscaAdicionar").value = "";
   if (!$("dlgAdicionar").open) $("dlgAdicionar").showModal();
   $("opcoesAdicionar").innerHTML = `<div class="dica">Carregando…</div>`;
-  carregarCatalogo(tipo).then(desenharOpcoes);
+  (tipo === "equipe" ? carregarEquipes() : carregarCatalogo(tipo)).then(desenharOpcoes);
 }
 
 function desenharOpcoes() {
   const tipo = abaAdicionar, termo = normalizar($("buscaAdicionar").value);
   const box = $("opcoesAdicionar");
+  if (tipo === "equipe") { desenharEquipesAdicionar(box, termo); return; }
   if (tipo !== "jogador" && !temBancoNpc) {
     box.innerHTML = `<div class="dica">Entre no banco de NPCs para listar NPCs e monstros.</div>`;
     return;
@@ -858,14 +905,14 @@ $("opcoesAdicionar").addEventListener("click", async e => {
   desenharOpcoes();
 });
 
-async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = {}) {
+async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false, silencioso = false } = {}) {
   if (!batalha) return;
   const nomeBase = tipo === "jogador" ? (it.nome_personagem || it.nome || "Jogador") : (it.nome || "Sem nome");
   const retrato = tipo === "jogador" ? (it.retrato_url || "") : (it.retrato || it.dados?.ficha?.retrato_url || "");
   const proxOrdem = participantes.reduce((m, p) => Math.max(m, p.ordem ?? 0), 0) + 1;
 
   const jaLigado = participantes.some(p => p.tipo === tipo && p.origem_id === String(it.id) && !p.instancia);
-  if (tipo === "jogador" && jaLigado) { aviso(`${nomeBase} já está no combate.`); return; }
+  if (tipo === "jogador" && jaLigado) { if (!silencioso) aviso(`${nomeBase} já está no combate.`); return false; }
   // NPC/monstro: a 1ª entrada sem "cópias" fica ligada à ficha; o resto (ou se já estiver ligado) vira cópia
   const nLigado = tipo === "jogador" ? 1 : (!multi && !jaLigado ? 1 : 0);
   const nCopias = tipo === "jogador" ? 0 : Math.max(0, qtd - nLigado);
@@ -899,8 +946,9 @@ async function adicionar(tipo, it, { multi = false, qtd = 1, oculto = false } = 
     participantes.push(...data);
     estados.forEach(s => privado.set(s.participante_id, s));
   }
-  if (tipo === "npc") npcs.set(it.id, it);
+  if (tipo === "npc" && it.dados?.ficha) npcs.set(it.id, it);
   if (tipo === "monstro") monstros.set(it.id, it);
+  if (silencioso) return true;
   await carregarFontes();
   render();
   aviso(`${nomeBase}${nLigado + nCopias > 1 ? ` ×${nLigado + nCopias}` : ""} entrou no combate${nCopias ? (nLigado ? " (1 ligado à ficha + cópias)" : " como cópia") : ""}.`);
@@ -920,6 +968,201 @@ async function processarPedidoAdicionar() {
   const it = catalogo[tipo].find(x => String(x.id) === id);
   if (it) { $("buscaAdicionar").value = it.nome; desenharOpcoes(); }
 }
+
+/* ---------- equipes ----------
+   Grupos nomeados de jogadores e NPCs (tabela equipes, só Mestres).
+   Cada membro guarda tipo, id, nome e retrato; o nome/retrato são só para
+   exibir quando a ficha não está acessível (ex.: NPC de outro Mestre). */
+let equipes = [], equipeEditando = null, abaEquipe = "jogador";
+
+async function carregarEquipes() {
+  const { data, error } = await sbP.from("equipes").select("*").order("nome");
+  if (error) { console.error(error); equipes = []; return; }
+  equipes = data || [];
+}
+
+const chipMembro = (m, removivel) => `<span class="membro" data-tipo="${esc(m.tipo)}" title="${m.tipo === "jogador" ? "Jogador" : "NPC"}">
+  ${m.retrato ? `<img class="retrato" src="${esc(m.retrato)}" alt="" loading="lazy">` : `<span class="retrato">${esc(iniciais(m.nome))}</span>`}
+  ${esc(m.nome)}${removivel ? ` <button type="button" data-tirar="${esc(m.tipo)}:${esc(m.id)}" aria-label="Tirar ${esc(m.nome)}">✕</button>` : ""}</span>`;
+
+function membrosHtml(eq) {
+  const ms = Array.isArray(eq.membros) ? eq.membros : [];
+  return ms.length ? ms.map(m => chipMembro(m, false)).join("") : `<span class="dica">Sem membros.</span>`;
+}
+
+// aba "Equipes" do diálogo Adicionar
+function desenharEquipesAdicionar(box, termo) {
+  const lista = equipes.filter(eq => normalizar(eq.nome).includes(termo));
+  if (!lista.length) {
+    box.innerHTML = `<div class="dica">${equipes.length ? "Nada encontrado." : "Nenhuma equipe ainda. Crie em “👥 Equipes”, no topo."}</div>`;
+    return;
+  }
+  box.innerHTML = lista.map(eq => `<div class="equipe" data-equipe-id="${esc(eq.id)}">
+    <div class="equipe-topo"><span class="equipe-nome">${esc(eq.nome)}</span>
+      <div class="opcao-conf"><label><input type="checkbox" data-oculto> oculto</label>
+      <button class="btn small primary" type="button" data-add-equipe>Adicionar equipe</button></div></div>
+    <div class="equipe-membros">${membrosHtml(eq)}</div></div>`).join("");
+}
+
+async function adicionarEquipe(eq, oculto) {
+  if (!batalha) return;
+  const ms = Array.isArray(eq.membros) ? eq.membros : [];
+  if (ms.some(m => m.tipo === "jogador")) await carregarCatalogo("jogador");
+  if (temBancoNpc && ms.some(m => m.tipo === "npc")) await carregarCatalogo("npc");
+  let entrou = 0, ja = 0;
+  for (const m of ms) {
+    const id = String(m.id);
+    // NPC já ligado à ficha: não cria cópia; jogador já presente: pula
+    if (participantes.some(p => p.tipo === m.tipo && p.origem_id === id && !p.instancia)) { ja++; continue; }
+    const it = catalogo[m.tipo]?.find(x => String(x.id) === id)
+      || (m.tipo === "jogador" ? { id, nome_personagem: m.nome, retrato_url: m.retrato || "" } : { id, nome: m.nome, retrato: m.retrato || "", dados: {} });
+    if (await adicionar(m.tipo, it, { oculto, silencioso: true })) entrou++;
+  }
+  await carregarFontes();
+  render();
+  aviso(`${eq.nome}: ${entrou} entrou${entrou === 1 ? "" : "ram"} no combate${ja ? ` · ${ja} já estava${ja === 1 ? "" : "m"}` : ""}.`);
+}
+
+$("opcoesAdicionar").addEventListener("click", async e => {
+  const b = e.target.closest("[data-add-equipe]");
+  if (!b) return;
+  const box = b.closest("[data-equipe-id]");
+  const eq = equipes.find(x => x.id === box.dataset.equipeId);
+  if (!eq) return;
+  b.disabled = true;
+  await adicionarEquipe(eq, box.querySelector("[data-oculto]")?.checked ?? false);
+  b.disabled = false;
+});
+
+// gerenciador de equipes (criar, editar, excluir)
+function modoEquipes(editando) {
+  $("equipesLista").hidden = editando;
+  $("equipesRodape").hidden = editando;
+  $("equipeEdicao").hidden = !editando;
+  $("equipeRodapeEdicao").hidden = !editando;
+  $("equipesTitulo").textContent = editando ? (equipeEditando.id ? "Editar equipe" : "Nova equipe") : "Equipes";
+}
+
+async function abrirEquipes() {
+  equipeEditando = null;
+  modoEquipes(false);
+  if (!$("dlgEquipes").open) $("dlgEquipes").showModal();
+  $("equipesLista").innerHTML = `<div class="dica">Carregando…</div>`;
+  await carregarEquipes();
+  desenharEquipes();
+}
+
+function desenharEquipes() {
+  const box = $("equipesLista");
+  if (!equipes.length) {
+    box.innerHTML = `<div class="vazio" style="padding:20px 10px"><p><strong>Nenhuma equipe.</strong></p><p class="dica">Junte jogadores e NPCs numa equipe para pôr todos no combate de uma vez.</p></div>`;
+    return;
+  }
+  box.innerHTML = `<div class="opcoes">${equipes.map(eq => `<div class="equipe" data-equipe-id="${esc(eq.id)}">
+    <div class="equipe-topo"><span class="equipe-nome">${esc(eq.nome)}</span>
+      <div class="menu-admin"><button class="btn small" type="button" data-editar>Editar</button>
+      <button class="btn small danger" type="button" data-excluir>Excluir</button></div></div>
+    <div class="equipe-membros">${membrosHtml(eq)}</div></div>`).join("")}</div>`;
+}
+
+function editarEquipe(eq) {
+  equipeEditando = eq
+    ? { id: eq.id, nome: eq.nome, membros: (Array.isArray(eq.membros) ? eq.membros : []).map(m => ({ ...m })) }
+    : { id: null, nome: "", membros: [] };
+  $("equipeNome").value = equipeEditando.nome;
+  $("equipeErro").textContent = "";
+  $("buscaEquipe").value = "";
+  modoEquipes(true);
+  desenharMembrosEdicao();
+  trocarAbaEquipe(abaEquipe);
+  $("equipeNome").focus();
+}
+
+function desenharMembrosEdicao() {
+  const ms = equipeEditando.membros;
+  $("equipeQtd").textContent = ms.length;
+  $("equipeMembros").innerHTML = ms.length ? ms.map(m => chipMembro(m, true)).join("") : `<span class="dica">Marque abaixo quem faz parte.</span>`;
+}
+
+function trocarAbaEquipe(tipo) {
+  abaEquipe = tipo;
+  document.querySelectorAll("#abasEquipe [data-aba]").forEach(b => b.classList.toggle("on", b.dataset.aba === tipo));
+  $("opcoesEquipe").innerHTML = `<div class="dica">Carregando…</div>`;
+  carregarCatalogo(tipo).then(desenharOpcoesEquipe);
+}
+
+function desenharOpcoesEquipe() {
+  const tipo = abaEquipe, termo = normalizar($("buscaEquipe").value), box = $("opcoesEquipe");
+  if (tipo === "npc" && !temBancoNpc) { box.innerHTML = `<div class="dica">Entre no banco de NPCs para listar NPCs.</div>`; return; }
+  const itens = catalogo[tipo].filter(it => normalizar(it.nome_personagem || it.nome).includes(termo));
+  if (!itens.length) { box.innerHTML = `<div class="dica">Nada encontrado.</div>`; return; }
+  box.innerHTML = itens.slice(0, 80).map(it => {
+    const nome = tipo === "jogador" ? (it.nome_personagem || it.nome) : it.nome;
+    const retrato = tipo === "jogador" ? it.retrato_url : (it.retrato || it.dados?.ficha?.retrato_url);
+    const marcado = equipeEditando.membros.some(m => m.tipo === tipo && String(m.id) === String(it.id));
+    return `<label class="opcao" style="cursor:pointer">
+      ${retrato ? `<img class="retrato" src="${esc(retrato)}" alt="" loading="lazy">` : `<div class="retrato">${esc(iniciais(nome))}</div>`}
+      <span class="nome" style="font-size:14px">${esc(nome)}</span>
+      <input type="checkbox" data-membro="${esc(it.id)}" ${marcado ? "checked" : ""}></label>`;
+  }).join("");
+}
+
+function alternarMembro(tipo, id, ligar) {
+  const ms = equipeEditando.membros, i = ms.findIndex(m => m.tipo === tipo && String(m.id) === String(id));
+  if (!ligar) { if (i >= 0) ms.splice(i, 1); }
+  else if (i < 0) {
+    const it = catalogo[tipo].find(x => String(x.id) === String(id));
+    if (!it) return;
+    ms.push(tipo === "jogador"
+      ? { tipo, id: String(it.id), nome: it.nome_personagem || it.nome || "Jogador", retrato: it.retrato_url || "" }
+      : { tipo, id: String(it.id), nome: it.nome || "Sem nome", retrato: it.retrato || it.dados?.ficha?.retrato_url || "" });
+  }
+  desenharMembrosEdicao();
+}
+
+async function salvarEquipe() {
+  const nome = $("equipeNome").value.trim();
+  if (!nome) { $("equipeErro").textContent = "Dê um nome à equipe."; $("equipeNome").focus(); return; }
+  const campos = { nome, membros: equipeEditando.membros, atualizado_em: new Date().toISOString() };
+  $("btnSalvarEquipe").disabled = true;
+  const { error } = equipeEditando.id
+    ? await sbP.from("equipes").update(campos).eq("id", equipeEditando.id)
+    : await sbP.from("equipes").insert(campos);
+  $("btnSalvarEquipe").disabled = false;
+  if (error) { console.error(error); $("equipeErro").textContent = "Não foi possível salvar."; return; }
+  aviso(`Equipe “${nome}” salva.`);
+  await abrirEquipes();
+}
+
+async function excluirEquipe(eq) {
+  if (!confirm(`Excluir a equipe “${eq.nome}”?\n\nSó o grupo é apagado. As fichas e o combate atual não mudam.`)) return;
+  const { error } = await sbP.from("equipes").delete().eq("id", eq.id);
+  if (error) { console.error(error); aviso("Não foi possível excluir."); return; }
+  aviso(`Equipe “${eq.nome}” excluída.`);
+  await carregarEquipes();
+  desenharEquipes();
+}
+
+$("btnEquipes").addEventListener("click", abrirEquipes);
+$("btnNovaEquipe").addEventListener("click", () => editarEquipe(null));
+$("btnCancelarEquipe").addEventListener("click", () => { equipeEditando = null; modoEquipes(false); desenharEquipes(); });
+$("btnSalvarEquipe").addEventListener("click", salvarEquipe);
+$("equipeNome").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); salvarEquipe(); } });
+$("abasEquipe").addEventListener("click", e => { const b = e.target.closest("[data-aba]"); if (b) trocarAbaEquipe(b.dataset.aba); });
+$("buscaEquipe").addEventListener("input", desenharOpcoesEquipe);
+$("opcoesEquipe").addEventListener("change", e => { const c = e.target.closest("[data-membro]"); if (c) alternarMembro(abaEquipe, c.dataset.membro, c.checked); });
+$("equipeMembros").addEventListener("click", e => {
+  const b = e.target.closest("[data-tirar]"); if (!b) return;
+  const [tipo, ...resto] = b.dataset.tirar.split(":");
+  alternarMembro(tipo, resto.join(":"), false);
+  desenharOpcoesEquipe();
+});
+$("equipesLista").addEventListener("click", e => {
+  const box = e.target.closest("[data-equipe-id]"); if (!box) return;
+  const eq = equipes.find(x => x.id === box.dataset.equipeId); if (!eq) return;
+  if (e.target.closest("[data-editar]")) editarEquipe(eq);
+  else if (e.target.closest("[data-excluir]")) excluirEquipe(eq);
+});
 
 /* ---------- login ---------- */
 document.querySelectorAll("[data-fechar]").forEach(b => b.addEventListener("click", () => b.closest("dialog").close()));
@@ -977,6 +1220,7 @@ function atualizarConta() {
   pill.classList.toggle("mestre", mestre);
   pill.textContent = !usuario ? "Desconectado" : mestre ? "Mestre" : (usuario.email || "").split("@")[0];
   $("btnSair").hidden = !usuario;
+  $("btnEquipes").hidden = !mestre;
 }
 
 async function iniciarSessao() {
